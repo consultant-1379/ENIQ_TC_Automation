@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=IsNetwork,IsSite=ISSBG01">
+<fileSender localDn="bs=1" elementType="SBG"/>
+<measCollec beginTime="2023-11-16T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="SBG" swVersion="R3B"/>
+<measInfo measInfoId="1">
+<job jobId="16"/>
+<granPeriod duration="PT900S" endTime="2023-11-16T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ipStatsIfTxPacketsEF</measType>
+<measType p="2">ipStatsIfTxPacketsIC</measType>
+<measType p="3">ipStatsIfTxPacketsAF1</measType>
+<measType p="4">ipStatsIfTxPacketsAF2</measType>
+<measType p="5">ipStatsIfTxPacketsAF3</measType>
+<measType p="6">ipStatsIfTxPacketsAF4</measType>
+<measType p="7">ipStatsIfTxPacketsDF</measType>
+<measType p="8">ipStatsIfDiscardedPacketsEF</measType>
+<measType p="9">ipStatsIfDiscardedPacketsIC</measType>
+<measType p="10">ipStatsIfDiscardedPacketsAF1</measType>
+<measType p="11">ipStatsIfDiscardedPacketsAF2</measType>
+<measType p="12">ipStatsIfDiscardedPacketsAF3</measType>
+<measType p="13">ipStatsIfDiscardedPacketsAF4</measType>
+<measType p="14">ipStatsIfDiscardedPacketsDF</measType>
+<measType p="15">ethernetStatsTxFrames</measType>
+<measType p="16">ethernetStatsTxOctets</measType>
+<measType p="17">ethernetStatsRxFrames</measType>
+<measType p="18">ethernetStatsRxOctets</measType>
+<measType p="19">ethernetStatsBroadcastTx</measType>
+<measType p="20">ethernetStatsBroadcastRx</measType>
+<measType p="21">ethernetStatsTxPauseFrames</measType>
+<measType p="22">ethernetStatsRxMacFrames</measType>
+<measType p="23">ethernetStatsMulticastRx</measType>
+<measType p="24">ethernetStatsRxDiscarded</measType>
+<measType p="25">ethernetStatsRxErrors</measType>
+<measType p="26">ethernetStatsTxDiscarded</measType>
+<measType p="27">ethernetStatsRxBandwidth</measType>
+<measType p="28">ethernetStatsTxBandwidth</measType>
+<measValue measObjLdn="Blade=1-1,EthernetInterface=1">
+<r p="1">313</r>
+<r p="2">314</r>
+<r p="3">315</r>
+<r p="4">316</r>
+<r p="5">317</r>
+<r p="6">318</r>
+<r p="7">319</r>
+<r p="8">320</r>
+<r p="9">321</r>
+<r p="10">322</r>
+<r p="11">323</r>
+<r p="12">324</r>
+<r p="13">325</r>
+<r p="14">326</r>
+<r p="15">327</r>
+<r p="16">328</r>
+<r p="17">329</r>
+<r p="18">330</r>
+<r p="19">331</r>
+<r p="20">332</r>
+<r p="21">333</r>
+<r p="22">334</r>
+<r p="23">335</r>
+<r p="24">336</r>
+<r p="25">337</r>
+<r p="26">338</r>
+<r p="27">339</r>
+<r p="28">340</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-16T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

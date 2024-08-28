@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" 
+vendorName="Ericsson AB"
+ dnPrefix="SubNetwork=IsNetwork,IsSite=TSSISite">
+<fileSender localDn="bs=1" elementType="TGC"/>
+<measCollec beginTime="2023-11-30T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="tgc_ref" swVersion="R5A"/>
+<measInfo measInfoId="">
+<job jobId="5"/>
+<granPeriod duration="PT900S" endTime="2023-11-30T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sentChunks</measType>
+<measType p="2">rcvdChunks</measType>
+<measType p="3">sentUnordered</measType>
+<measType p="4">rcvdUnordered</measType>
+<measType p="5">rcvdChecksumErrors</measType>
+<measType p="6">retransmittedChunks</measType>
+<measType p="7">sentCtrlChunks</measType>
+<measType p="8">rcvdCtrlChunks</measType>
+<measType p="9">sentFragmented</measType>
+<measType p="10">rcvdReassembled</measType>
+<measType p="11">sentPackets</measType>
+<measType p="12">rcvdPackets</measType>
+<measType p="13">congestionStop</measType>
+<measType p="14">congestionResume</measType>
+<measType p="15">congestionSentDropped</measType>
+<measType p="16">congestionRcvdDropped</measType>
+<measValue measObjLdn="TgcApp=*,DEFAULT=1,H248SctpLink=1">
+<r p="1">214</r>
+<r p="2">215</r>
+<r p="3">216</r>
+<r p="4">217</r>
+<r p="5">218</r>
+<r p="6">219</r>
+<r p="7">220</r>
+<r p="8">221</r>
+<r p="9">222</r>
+<r p="10">223</r>
+<r p="11">224</r>
+<r p="12">225</r>
+<r p="13">226</r>
+<r p="14">227</r>
+<r p="15">228</r>
+<r p="16">229</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-30T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

@@ -1,0 +1,3 @@
+Collection file from host EdgeRtr01, Context: ECN-VRF, Policy: PM_policy_global, Data collected: 20231107
+PM_Gbl1: epochtime:1699351201;active_subs:1;active_subs_bridged1483:2;active_subs_clips:3;active_subs_dot1qenet:4;active_subs_ppp:5;active_subs_pppoe:6;active_subs_routed1483:7;cpu1min:0%;cpu5min:0.01%;cpu5sec:0.02%
+PM_Gbl2: epochtime:1699351201;global_date:20231109;free_user_mem:8;hostname:(N/A);load15min:0.03;load1min:0.04;load5min:0.05;sysuptime:43103;timeofday:115823+0100;total_user_mem:9

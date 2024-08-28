@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=CCRC01,ManagedElement=CCRC01,MeContext=CCRC01" mimName="CcrcTop" lastModified="1699419120351">
+	<attr name="timestampOfChange">2023-11-08 04:52:00.352</attr>
+ <attr name="userLabel">CCRC01</attr>
+ <attr name="managedElementType">CCRC</attr>
+ <attr name="nodeVersion">1.13</attr>
+ </mo>
+</model>

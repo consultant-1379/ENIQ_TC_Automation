@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Wed Nov 08 19:30:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=DUA-S_PM,ManagedElement=DUA-S01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=DUA-S_PM,ManagedElement=DUA-S01" mimName="ONRM" mimVersion="13.2.4" lastModified="1699471800280">
+ <attr name="userLabel">DUA-S01</attr>
+ <attr name="nodeVersion">1.3</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSDUA-S01</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>DUA-S</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

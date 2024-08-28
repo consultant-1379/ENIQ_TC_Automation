@@ -1,0 +1,12 @@
+RBSFDN|LicName|LicId|LicType|Capacity|HardLimit|StartDate|StopDate
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None
+SubNetwork=ONRM_ROOT_MO_R,SubNetwork=SAR11,MeContext=UST669|FAJ1211334; Improved CE ladder for E-DCH|CXC4020017|Capacity|1|1|2012-11-13|None

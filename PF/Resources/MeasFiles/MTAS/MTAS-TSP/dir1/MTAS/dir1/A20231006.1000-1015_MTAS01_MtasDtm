@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231006100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231006101500.1+0200</mts>
+<gp>900</gp>
+<mt>MtasDtmNotifyOk</mt>
+<mt>MtasDtmNotifyNOkE</mt>
+<mt>MtasDtmNotifyNOkI</mt>
+<mv>
+<moid>MtasDtm=DEFAULT,Source = Processor1</moid>
+<r>32</r>
+<r>34</r>
+<r>7</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231006101500.1+0200</ts>
+</mff>
+</mdc>

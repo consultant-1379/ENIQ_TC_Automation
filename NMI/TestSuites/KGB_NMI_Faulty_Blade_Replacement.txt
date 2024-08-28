@@ -1,0 +1,4 @@
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Faulty_Blade_Replacement_TC79.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_VG_TC84.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Swap_Partition_TC83.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Blade_fstab_entry_TC157.robot

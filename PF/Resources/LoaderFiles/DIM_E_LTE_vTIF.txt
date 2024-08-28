@@ -1,0 +1,1 @@
+eniq_oss_1 SubNetwork=SubNetwork,NetworkElement=LTE75VTIF00001           20.Q1        vTIF      Ericsson ACTIVE 2024-04-11 14:48:43.0 2024-06-03 21:25:56.0 ENIQ     

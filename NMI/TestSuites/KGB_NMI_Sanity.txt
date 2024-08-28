@@ -1,0 +1,15 @@
+NMI/TestCases/IQ/NMI_Verify_Engine_Log_TC92.robot
+NMI/TestCases/IQ/NMI_Verify_DBCC_File_TC90.robot
+NMI/TestCases/IQ/NMI_Verify_DBCC_Full_Run_TC91.robot
+NMI/TestCases/IQ/NMI_Verify_iqmsg_and_srvlog_TC95.robot
+NMI/TestCases/IQ/NMI_Verify_Password_During_DBCC_TC93.robot
+NMI/TestCases/IQ/NMI_Verify_DBCC_DB_Allocation_TC87.robot
+NMI/TestCases/Log_Collector/NMI_Verify_Log_Collector_101.robot
+NMI/TestCases/Log_Collector/NMI_Verify_Log_Collector_Directory_Size_TC102.robot
+NMI/TestCases/Log_Collector/NMI_Verify_Log_Transfer_TC103.robot
+NMI/TestCases/Snapshots/NMI_Verify_Snapshot_Creation_TC56.robot
+#NMI/TestCases/Root_Removal/NMI_Privilege_User_Not_Allowed_to_Switch_User_TC117.robot
+#NMI/TestCases/Root_Removal/NMI_Privilege_User_Added_to_sshd_config_TC112.robot
+#NMI/TestCases/Root_Removal/NMI_Privilege_User_Not_Allowed_to_Execute_Script_TC116.robot
+#NMI/TestCases/Root_Removal/NMI_Privilege_User_Not_Allowed_to_ssh_to_root_TC118.robot
+#NMI/TestCases/Root_Removal/NMI_Privilege_User_Entry_Should_Exist_in_etc_group_TC114.robot

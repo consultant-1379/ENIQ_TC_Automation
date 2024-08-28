@@ -1,0 +1,74 @@
+#!/bin/bash
+# ********************************************************************
+# Ericsson Radio Systems AB                                     SCRIPT
+# ********************************************************************
+#
+
+AWK=/usr/bin/awk
+CAT=/usr/bin/cat
+CHMOD=/usr/bin/chmod
+CHOWN=/usr/bin/chown
+CP=/usr/bin/cp
+CUT=/usr/bin/cut
+DATE=/usr/bin/date
+ECHO=/usr/bin/echo
+EGREP=/usr/bin/egrep
+FIND=/usr/bin/find
+GEGREP=/usr/sfw/bin/gegrep
+GREP=/usr/bin/grep
+MKDIR=/usr/bin/mkdir
+NAWK=/usr/bin/nawk
+PRINTF=/usr/bin/printf
+RM=/usr/bin/rm
+SED=/usr/bin/sed
+SU=/usr/bin/su
+TOUCH=/usr/bin/touch
+TEE=/usr/bin/tee
+UNZIP=/usr/bin/unzip
+WC=/usr/bin/wc
+
+# ********************************************************************
+#
+# Configuration 
+#
+# ********************************************************************
+
+STARTTIMESTAMP=`$DATE '+%y%m%d_%H%M%S'`
+LOGPATH=/eniq/log/sw_log/tp_installer
+INSTALLER_DIR=/eniq/sw/installer
+LOGFILE=${LOGPATH}/wcdma_combined_view_create_${STARTTIMESTAMP}.log
+RBSVIEWSQL=${INSTALLER_DIR}/wcdma_view_sql
+TMP=${INSTALLER_DIR}/temp_wcdma_view
+TEMP=${INSTALLER_DIR}/temp_wcdma
+CONF_DIR=/eniq/sw/conf
+
+if [ -s /eniq/admin/lib/common_functions.lib ]; then
+	. /eniq/admin/lib/common_functions.lib
+else
+	$ECHO "Could not find /eniq/admin/lib/common_functions.lib"
+	exit 1
+fi
+
+. /eniq/sybase_iq/IQ-*/IQ-*.sh
+sybase_env_variables_ec=$?
+if [ $sybase_env_variables_ec -ne 0 ]; then
+    $ECHO "Unable to find Sybase environment variables"
+fi
+
+DBISQL=$(which dbisql)
+
+
+DWHDBPASSWORD=`inigetpassword DWH -v DCPassword -f ${CONF_DIR}/niq.ini`
+DWHDB_PORT=`inigetpassword DWH -v PortNumber -f ${CONF_DIR}/niq.ini`
+DWH_SERVER_NAME=`inigetpassword DWH -v ServerName -f ${CONF_DIR}/niq.ini`
+DWHREPUSER=`inigetpassword REP -v DWHREPUsername -f ${CONF_DIR}/niq.ini`
+DWHREPPASSWORD=`inigetpassword REP -v DWHREPPassword -f ${CONF_DIR}/niq.ini`
+REP_PORT=`inigetpassword REP -v PortNumber -f ${CONF_DIR}/niq.ini`
+REP_SERVER_NAME=`inigetpassword REP -v ServerName -f ${CONF_DIR}/niq.ini`
+DBAPASSWORD=`inigetpassword DB -v DBAPassword -f ${CONF_DIR}/niq.ini`
+PASSWORD=`inigetpassword $1 -v $2Password -f ${CONF_DIR}/niq.ini`
+
+
+echo "Password is : " $PASSWORD
+
+

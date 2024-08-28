@@ -1,0 +1,13 @@
+#!/bin/sh
+
+file=$(cat ${file_path})
+
+for line in $file
+
+do
+
+robot -d ${result_path} -T -v hostname:${hostname} -v username:${username} -v password:${password} -v PORT:${port} $line
+
+sleep 1
+
+done

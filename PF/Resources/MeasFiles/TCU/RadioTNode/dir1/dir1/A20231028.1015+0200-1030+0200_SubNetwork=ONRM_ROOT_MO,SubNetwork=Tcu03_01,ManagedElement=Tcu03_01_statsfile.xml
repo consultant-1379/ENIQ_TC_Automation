@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+ <fileHeader fileFormatVersion="32.435 V7.0"  vendorName="Ericsson AB">	<fileSender elementType="Upgrade Package"/>
+ 	<measCollec beginTime="2023-10-28T10:15:00+0100"/>
+  </fileHeader>
+<measData>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_EnergyMeter_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmPowerConsumption</measType>
+<measType p="2">pmVoltage</measType>
+<measType p="3">pmConsumedEnergy</measType>
+<measType p="4">pmConsumedEnergyAccumulated</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EFuse=1,Equipment=1,FieldReplaceableUnit=1,EnergyMeter=1">
+<r p="1">17,85,55,89,17,2,8,7,68,45,77,19,69,21,55,42,49,12,55,66,75,68,49,30,28,58,7,9,13,68,92,75,23,91,51,25,84,3,95,82,30,87,42,11,14,33,1,98,39,89,12,9,91,43,2,19,24,47,26,15,82,3,78,42,47,93,69,56,33,25,2,73,89,42,19,55,41,53,59,19,36,87,3,37,53,42,97,16,47,17,11,37,34,81,98,89,98,83,15,2,2,80,35,39,85,86,48,21,31,43,59,84,11,63,8,1,66,65,26,28,11,1,3,89,96,43,69,26,81,86,58,10,83,92,51,50,6,0,44,53,54,3,86,6,19,93,1,38,83,150</r>
+<r p="2">71,95,29,25,99,61,55,27,99,29,68,75,87,2,35,14,48,88,47,83,56,84,9,64,82,19,41,98,11,43,72,5,46,63,25,97,83,57,33,32,52,86,75,57,88,93,43,95,82,20,28,10,29,13,22,21,24,89,35,94,79,97,24,15,0,12,56,68,14,96,13,92,50,93,94,33,86,45,50,30,85,36,55,88,32,83,90,44,27,68,84,16,79,64,63,30,88,42,16,68,97,61,79,28,63,44,44,4,77,89,71,92,36,49,91,96,75,3,86,77,32,81,29,5,32,53,73,79,53,85,0,97,47,89,28,85,84,3,17,56,89,57,5,18,61,23,56,84,57,150</r>
+<r p="3">32</r>
+<r p="4">98</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_Climate_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmCabinetTemperature</measType>
+<measType p="2">pmCabinetFanSpeedExternal</measType>
+<measType p="3">pmCabinetFanSpeed</measType>
+<measType p="4">pmSpmDifferentialAirPressure</measType>
+<measType p="5">pmSpmBarometricAirPressure</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,ClimateMeasurement=1,Climate=1">
+<r p="1">93,41,3</r>
+<r p="2">42,71,3</r>
+<r p="3">41,36,3</r>
+<r p="4">66</r>
+<r p="5">45</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_AclIpv4Stats_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">aclTotalDiscards</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,AclIpv4Stats=1">
+<r p="1">9</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_IpsecTunnel_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ikeTunInInvalidSpi</measType>
+<measType p="2">espTunInInvalidSpi</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,IpsecTunnel=1">
+<r p="1">99</r>
+<r p="2">52</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_PowerDistribution_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmSystemVoltage</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EquipmentSupportFunction=1,PowerDistribution=1">
+<r p="1">77,37,96,59,27,40,56,50,6,68,33,79,41,20,15</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_BfdSessionIPv6_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">bfdSessDroppedPackets</measType>
+<measType p="2">bfdSessTxPackets</measType>
+<measType p="3">bfdSessUpCount</measType>
+<measType p="4">bfdSessRxPackets</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,BfdSessionIPv6=1">
+<r p="1">16</r>
+<r p="2">32</r>
+<r p="3">17</r>
+<r p="4">94</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_EthernetOamLocalMep_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ccmSequenceErrors</measType>
+<measType p="2">errorCcmDefectDuration</measType>
+<measType p="3">lbrIn</measType>
+<measType p="4">unexpLtrIn</measType>
+<measType p="5">rdiCcmDefectDuration</measType>
+<measType p="6">lbrBadMsdu</measType>
+<measType p="7">xconCcmDefectDuration</measType>
+<measType p="8">lbrOut</measType>
+<measType p="9">cciSentCcms</measType>
+<measType p="10">remoteCcmDefectDuration</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EthernetOamLocalMep=1">
+<r p="1">70</r>
+<r p="2">82</r>
+<r p="3">87</r>
+<r p="4">11</r>
+<r p="5">52</r>
+<r p="6">16</r>
+<r p="7">9</r>
+<r p="8">68</r>
+<r p="9">36</r>
+<r p="10">19</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_BfdSessionIPv4_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">bfdSessDroppedPackets</measType>
+<measType p="2">bfdSessTxPackets</measType>
+<measType p="3">bfdSessRxPackets</measType>
+<measType p="4">bfdSessUpCount</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,BfdSessionIPv4=1">
+<r p="1">98</r>
+<r p="2">10</r>
+<r p="3">85</r>
+<r p="4">98</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_QueueRed_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">queueHCInOctets</measType>
+<measType p="2">filledUpperThreshold</measType>
+<measType p="3">queueHCInPkts</measType>
+<measType p="4">filledLowerThreshold</measType>
+<measType p="5">queueHCOutPkts</measType>
+<measType p="6">queueHCDroppedPkts</measType>
+<measType p="7">queueHCOutOctets</measType>
+<measType p="8">queueHCDroppedOctets</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EthernetPort=1,QueueSystem=1,QueueRed=1">
+<r p="1">86</r>
+<r p="2">76</r>
+<r p="3">8</r>
+<r p="4">24</r>
+<r p="5">83</r>
+<r p="6">44</r>
+<r p="7">24</r>
+<r p="8">56</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_AclEntryIpv4Stats_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">aclEntryPackets</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,AclIpv4=1,AclEntryIpv4Stats=1">
+<r p="1">59</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_TwampTestSession_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">lostPeriodsFwd</measType>
+<measType p="2">reorderPktFwd</measType>
+<measType p="3">ttlMaxFwd</measType>
+<measType p="4">ipdvFwdP95</measType>
+<measType p="5">ipdvRevAvg</measType>
+<measType p="6">ttlMinRev</measType>
+<measType p="7">delayRtMax</measType>
+<measType p="8">ipdvFwdP99</measType>
+<measType p="9">delayRtMin</measType>
+<measType p="10">lostPktsRev</measType>
+<measType p="11">reorderPktRev</measType>
+<measType p="12">ipdvRevP98</measType>
+<measType p="13">duplicPktRev</measType>
+<measType p="14">lostPeriodMaxFwd</measType>
+<measType p="15">ipdvFwdMin</measType>
+<measType p="16">ipdvFwdMax</measType>
+<measType p="17">delayRtAvg</measType>
+<measType p="18">duplicPktFwd</measType>
+<measType p="19">dscpRecMin</measType>
+<measType p="20">txPkts</measType>
+<measType p="21">ipdvRevP99</measType>
+<measType p="22">lostPeriodsRev</measType>
+<measType p="23">delayRtP95</measType>
+<measType p="24">ipdvFwdP98</measType>
+<measType p="25">lostPktsFwd</measType>
+<measType p="26">ipdvRevMax</measType>
+<measType p="27">lostPeriodMinRev</measType>
+<measType p="28">delayRtP98</measType>
+<measType p="29">ipdvRevMin</measType>
+<measType p="30">rxPkts</measType>
+<measType p="31">dscpRecMax</measType>
+<measType p="32">ttlMinFwd</measType>
+<measType p="33">lostPeriodMinFwd</measType>
+<measType p="34">lostPeriodMaxRev</measType>
+<measType p="35">ttlMaxRev</measType>
+<measType p="36">delayRtP99</measType>
+<measType p="37">ipdvRevP95</measType>
+<measType p="38">ipdvFwdAvg</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,TwampInitiator=1,TwampTestSession=1">
+<r p="1">59,88,12,88,33,92,38,90,5,41,52,83,48,27,15</r>
+<r p="2">5,9,41,17,76,21,76,44,18,58,73,34,47,46,15</r>
+<r p="3">74,13,83,58,44,99,95,33,77,53,96,83,0,88,15</r>
+<r p="4">89,88,90,76,62,93,7,20,17,43,77,34,63,63,15</r>
+<r p="5">37,83,79,34,23,26,8,19,23,11,23,22,50,89,15</r>
+<r p="6">88,49,63,9,71,20,91,78,25,55,1,83,27,28,15</r>
+<r p="7">67,0,84,84,31,22,51,79,10,74,72,24,99,25,15</r>
+<r p="8">49,64,42,3,75,71,98,94,14,73,93,14,82,2,15</r>
+<r p="9">76,12,11,91,10,78,97,10,10,94,97,10,15,25,15</r>
+<r p="10">55,71,13,74,15,66,83,17,81,75,74,57,8,7,15</r>
+<r p="11">77,34,55,21,52,70,37,43,40,8,82,61,75,77,15</r>
+<r p="12">3,45,36,84,75,57,8,30,3,88,2,2,94,63,15</r>
+<r p="13">93,1,73,58,33,47,13,65,92,96,93,62,32,86,15</r>
+<r p="14">97,34,55,45,71,21,81,91,11,74,15,34,11,22,15</r>
+<r p="15">23,42,1,70,88,2,45,74,61,33,9,74,1,46,15</r>
+<r p="16">88,84,11,27,21,75,13,78,22,42,71,51,56,43,15</r>
+<r p="17">73,49,57,3,79,14,41,53,37,22,86,85,89,83,15</r>
+<r p="18">41,15,57,60,56,22,82,68,23,77,82,78,15,55,15</r>
+<r p="19">81,83,85,67,59,42,4,35,58,92,88,95,15,40,15</r>
+<r p="20">13,81,27,64,41,44,56,58,4,13,77,85,55,0,15</r>
+<r p="21">19,21,92,51,96,98,63,4,59,88,18,52,62,87,15</r>
+<r p="22">52,44,58,21,60,32,33,7,83,1,92,53,73,83,15</r>
+<r p="23">45,35,72,19,87,28,50,86,98,1,59,79,49,99,15</r>
+<r p="24">38,97,6,0,15,72,58,95,61,22,16,21,24,22,15</r>
+<r p="25">56,94,29,41,45,35,70,97,65,66,38,38,79,17,15</r>
+<r p="26">7,2,16,79,85,27,30,7,82,56,87,71,60,12,15</r>
+<r p="27">57,34,62,83,62,35,78,3,83,47,59,79,75,71,15</r>
+<r p="28">76,75,70,40,68,29,90,5,86,49,42,66,66,91,15</r>
+<r p="29">35,74,42,30,56,55,27,65,99,27,5,30,61,6,15</r>
+<r p="30">55,18,46,96,5,59,7,17,40,38,12,29,25,71,15</r>
+<r p="31">85,50,88,23,86,2,93,79,5,64,87,42,6,33,15</r>
+<r p="32">40,98,59,64,94,19,91,83,53,72,14,42,75,31,15</r>
+<r p="33">18,13,26,87,25,6,14,10,10,18,85,79,86,28,15</r>
+<r p="34">92,1,70,74,49,94,38,59,84,13,13,66,36,63,15</r>
+<r p="35">13,86,32,63,57,78,49,82,75,36,6,4,81,55,15</r>
+<r p="36">83,28,94,35,29,78,60,92,45,34,68,8,61,50,15</r>
+<r p="37">45,90,77,23,58,50,51,94,27,86,21,64,27,5,15</r>
+<r p="38">2,61,23,58,79,88,86,66,14,29,70,47,33,6,15</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_TgTransport_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">outAbisPacketsHC</measType>
+<measType p="2">outAbisOctetsHC</measType>
+<measType p="3">succeededEl2tpControlConnectionsHC</measType>
+<measType p="4">downlinkLAPDFramesDiscardedHC</measType>
+<measType p="5">inAbisPacketsLostHC</measType>
+<measType p="6">inAbisOctetsHC</measType>
+<measType p="7">inAbisPacketsErrorsHC</measType>
+<measType p="8">inAbisPacketsHC</measType>
+<measType p="9">uplinkLAPDFramesDiscardedHC</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,TgTransport=1">
+<r p="1">84</r>
+<r p="2">35</r>
+<r p="3">93</r>
+<r p="4">26</r>
+<r p="5">96</r>
+<r p="6">61</r>
+<r p="7">52</r>
+<r p="8">90</r>
+<r p="9">0</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_InterfaceIPv6_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ipIfStatsInTruncatedPkts</measType>
+<measType p="2">ipIfStatsHCOutMcastPkts</measType>
+<measType p="3">ipIfStatsInUnknownProtos</measType>
+<measType p="4">ipIfStatsOutFragOKs</measType>
+<measType p="5">ipIfStatsHCInReceives</measType>
+<measType p="6">ipIfStatsHCOutTransmits</measType>
+<measType p="7">ipIfStatsReasmFails</measType>
+<measType p="8">ipIfInOctetRatePercentiles</measType>
+<measType p="9">ipIfStatsHCOutForwDatagrams</measType>
+<measType p="10">ipIfStatsInHdrErrors</measType>
+<measType p="11">ipIfStatsOutFragCreates</measType>
+<measType p="12">ipIfStatsHCOutMcastOctets</measType>
+<measType p="13">ipIfStatsOutDiscards</measType>
+<measType p="14">ipIfStatsHCInForwDatagrams</measType>
+<measType p="15">ipIfStatsInDiscards</measType>
+<measType p="16">ipIfStatsHCOutOctets</measType>
+<measType p="17">ipIfStatsInNoRoutes</measType>
+<measType p="18">ipIfOutOctetRatePercentiles</measType>
+<measType p="19">ipIfStatsHCInDelivers</measType>
+<measType p="20">ipIfStatsReasmReqds</measType>
+<measType p="21">ipIfStatsHCInMcastPkts</measType>
+<measType p="22">ipIfStatsHCInMcastOctets</measType>
+<measType p="23">ipIfStatsReasmOKs</measType>
+<measType p="24">ipIfStatsHCInOctets</measType>
+<measType p="25">ipIfStatsOutFragFails</measType>
+<measType p="26">ipIfStatsInAddrErrors</measType>
+<measType p="27">ipIfStatsHCOutRequests</measType>
+<measType p="28">ipIfStatsInBlackHoles</measType>
+<measType p="29">ipIfStatsOutFragReqds</measType>
+<measType p="30">ipIfStatsInSrcAddrErrors</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,InterfaceIPv6=1">
+<r p="1">36</r>
+<r p="2">51</r>
+<r p="3">71</r>
+<r p="4">36</r>
+<r p="5">47</r>
+<r p="6">91</r>
+<r p="7">17</r>
+<r p="8">27,78,27,77,81,39,7</r>
+<r p="9">50</r>
+<r p="10">1</r>
+<r p="11">51</r>
+<r p="12">76</r>
+<r p="13">1</r>
+<r p="14">17</r>
+<r p="15">95</r>
+<r p="16">29</r>
+<r p="17">71</r>
+<r p="18">40,63,7,92,28,44,7</r>
+<r p="19">21</r>
+<r p="20">62</r>
+<r p="21">68</r>
+<r p="22">67</r>
+<r p="23">59</r>
+<r p="24">56</r>
+<r p="25">27</r>
+<r p="26">95</r>
+<r p="27">45</r>
+<r p="28">99</r>
+<r p="29">89</r>
+<r p="30">62</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_AclEntryIpv6Stats_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">aclEntryPackets</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,AclIpv6=1,AclEntryIpv6=1,AclEntryIpv6Stats=1">
+<r p="1">72</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_PeerIpsecTunnel_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">unavailableSeconds</measType>
+<measType p="2">ikeFailures</measType>
+<measType p="3">ipIfStatsInError</measType>
+<measType p="4">ipsecInError</measType>
+<measType p="5">ipIfStatsOutDiscards</measType>
+<measType p="6">ipIfStatsOutFragCreates</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,PeerIpsecTunnel=1">
+<r p="1">18</r>
+<r p="2">48</r>
+<r p="3">13</r>
+<r p="4">67</r>
+<r p="5">45</r>
+<r p="6">23</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_SuperChannel_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">scFramesUplinkHC</measType>
+<measType p="2">scInOctetsHC</measType>
+<measType p="3">scOutOctetsHC</measType>
+<measType p="4">scFramesLostDownlinkHC</measType>
+<measType p="5">scFramesDownlinkHC</measType>
+<measType p="6">scInErrorHC</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,TgTransport=1,SuperChannel=1">
+<r p="1">9</r>
+<r p="2">13</r>
+<r p="3">20</r>
+<r p="4">27</r>
+<r p="5">40</r>
+<r p="6">7</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_Ospfv2_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">noOfOspfOriginateNewLsas</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,Ospfv2=1">
+<r p="1">62</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_EnergyMeasurement_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmMaxPowerConsumption</measType>
+<measType p="2">pmPowerConsumption</measType>
+<measType p="3">pmAccumulatedEnergyConsumption</measType>
+<measType p="4">pmEnergyConsumption</measType>
+<measType p="5">pmMinPowerConsumption</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EquipmentSupportFunction=1,EnergyMeasurement=1">
+<r p="1">0</r>
+<r p="2">30,13,60,5,34,44,27,81,77,61,40,12,30,96,89,92,74,42,80,51,14,79,90,88,34,56,38,10,35,87,67,4,85,53,53,67,17,61,13,48,72,72,10,44,18,25,27,38,10,91,71,56,53,14,21,99,2,81,45,48,95,16,49,71,58,61,79,2,4,10,70,80,80,86,95,89,53,74,60,90,80,96,3,62,52,74,47,34,62,46,68,41,91,87,34,82,89,52,13,32,47,7,9,8,98,55,78,63,32,28,90,49,53,75,76,52,72,13,31,88,38,8,9,29,50,90,0,82,29,90,42,76,48,44,98,32,3,25,42,62,71,73,78,58,72,63,29,81,39,150</r>
+<r p="3">45</r>
+<r p="4">0</r>
+<r p="5">35</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_LagPort_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ifHCInOctets</measType>
+<measType p="2">ifInErrors</measType>
+<measType p="3">ifTotalLossOfSignalDuration</measType>
+<measType p="4">ifInOctetRatePercentiles</measType>
+<measType p="5">ifMinLossOfSignalDuration</measType>
+<measType p="6">ifHCInMulticastPkts</measType>
+<measType p="7">ifInUnknownProtos</measType>
+<measType p="8">ifOutDiscards</measType>
+<measType p="9">ifInDiscards</measType>
+<measType p="10">ifOutErrors</measType>
+<measType p="11">ifInUnknownTags</measType>
+<measType p="12">ifOutOctetRatePercentiles</measType>
+<measType p="13">ifHCOutMulticastPkts</measType>
+<measType p="14">ifMaxLossOfSignalDuration</measType>
+<measType p="15">ifHCInUcastPkts</measType>
+<measType p="16">ifHCInBroadcastPkts</measType>
+<measType p="17">ifHCOutBroadcastPkts</measType>
+<measType p="18">ifHCLossOfSignal</measType>
+<measType p="19">ifHCOutUcastPkts</measType>
+<measType p="20">ifHCOutOctets</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,LagPort=1">
+<r p="1">47</r>
+<r p="2">63</r>
+<r p="3">0</r>
+<r p="4">26,86,79,97,95,74,7</r>
+<r p="5">83</r>
+<r p="6">30</r>
+<r p="7">51</r>
+<r p="8">93</r>
+<r p="9">17</r>
+<r p="10">79</r>
+<r p="11">96</r>
+<r p="12">90,82,45,13,42,74,7</r>
+<r p="13">72</r>
+<r p="14">32</r>
+<r p="15">95</r>
+<r p="16">21</r>
+<r p="17">25</r>
+<r p="18">86</r>
+<r p="19">85</r>
+<r p="20">81</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_ConsumedEnergyMeasurement_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmVoltage</measType>
+<measType p="2">pmConsumedEnergyAccumulated</measType>
+<measType p="3">pmPowerConsumption</measType>
+<measType p="4">pmConsumedEnergy</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,NodeSupport=1,ConsumedEnergyMeasurement=1">
+<r p="1">74,16,48,6,99,91,45,56,83,67,13,6,16,95,3,68,18,90,27,31,19,53,37,81,57,17,64,74,57,16,20,92,33,48,16,27,94,17,87,0,89,37,11,43,25,11,23,65,77,73,44,96,94,34,55,57,33,68,94,60,72,96,24,91,93,69,40,18,44,45,79,99,13,31,13,63,19,42,25,97,5,21,45,50,50,47,17,36,20,58,91,23,35,11,69,47,19,92,43,17,42,7,28,24,28,77,70,7,59,66,42,96,66,9,37,60,86,82,4,97,84,11,91,12,4,13,63,21,57,98,34,70,96,92,30,18,28,54,98,17,2,18,23,91,79,3,95,73,24,150</r>
+<r p="2">98</r>
+<r p="3">18,77,87,52,31,19,37,56,17,25,95,47,77,19,48,33,44,15,91,58,50,77,15,37,17,76,93,90,47,9,33,33,74,93,69,96,35,37,24,59,44,10,41,18,90,21,4,27,93,80,67,97,27,81,24,41,81,11,82,30,83,92,76,28,13,0,46,49,37,40,39,86,78,77,40,66,69,82,3,75,93,81,97,9,3,36,75,19,8,46,67,23,91,1,86,83,37,74,41,39,15,93,27,57,13,12,0,15,33,23,96,45,0,75,49,4,80,74,32,55,90,69,59,19,15,49,62,34,75,10,35,79,64,85,1,83,81,47,55,68,99,70,65,65,89,28,84,38,68,150</r>
+<r p="4">4</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_VlanPort_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ifInUnknownProtos</measType>
+<measType p="2">ifOutDiscards</measType>
+<measType p="3">ifHCOutBroadcastPkts</measType>
+<measType p="4">ifHCOutMulticastPkts</measType>
+<measType p="5">ifHCInOctets</measType>
+<measType p="6">ifHCInBroadcastPkts</measType>
+<measType p="7">ifHCInMulticastPkts</measType>
+<measType p="8">ifHCOutUcastPkts</measType>
+<measType p="9">ifHCOutOctets</measType>
+<measType p="10">ifInDiscards</measType>
+<measType p="11">ifHCInUcastPkts</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,VlanPort=1">
+<r p="1">94</r>
+<r p="2">77</r>
+<r p="3">96</r>
+<r p="4">77</r>
+<r p="5">37</r>
+<r p="6">34</r>
+<r p="7">45</r>
+<r p="8">78</r>
+<r p="9">1</r>
+<r p="10">55</r>
+<r p="11">73</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_DhcpRelayIPv4_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">dhcpOutServerMsgsHC</measType>
+<measType p="2">dhcpOutClientMsgsHC</measType>
+<measType p="3">dhcpInClientMsgsHC</measType>
+<measType p="4">dhcpInServerErrorsHC</measType>
+<measType p="5">dhcpInClientErrorsHC</measType>
+<measType p="6">dhcpInServerMsgsHC</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,DhcpRelayIPv4=1">
+<r p="1">57</r>
+<r p="2">43</r>
+<r p="3">40</r>
+<r p="4">84</r>
+<r p="5">84</r>
+<r p="6">80</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_InterfaceIPv4_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ipIfStatsInHdrErrors</measType>
+<measType p="2">ipIfStatsOutDiscards</measType>
+<measType p="3">ipIfStatsHCOutTransmits</measType>
+<measType p="4">ipIfStatsReasmFails</measType>
+<measType p="5">ipIfStatsHCOutBcastPkts</measType>
+<measType p="6">ipIfStatsOutFragCreates</measType>
+<measType p="7">ipIfStatsReasmReqds</measType>
+<measType p="8">ipIfStatsHCInForwDatagrams</measType>
+<measType p="9">ipIfStatsHCInOctets</measType>
+<measType p="10">ipIfStatsInBlackHoles</measType>
+<measType p="11">ipIfStatsHCInMcastOctets</measType>
+<measType p="12">ipIfStatsInNoRoutes</measType>
+<measType p="13">ipIfStatsInTruncatedPkts</measType>
+<measType p="14">ipIfStatsOutFragFails</measType>
+<measType p="15">ipIfStatsHCOutMcastPkts</measType>
+<measType p="16">ipIfStatsReasmOKs</measType>
+<measType p="17">ipIfOutOctetRatePercentiles</measType>
+<measType p="18">ipIfStatsHCInMcastPkts</measType>
+<measType p="19">ipIfStatsHCOutRequests</measType>
+<measType p="20">ipIfStatsOutFragOKs</measType>
+<measType p="21">ipIfStatsHCOutOctets</measType>
+<measType p="22">ipIfStatsOutFragReqds</measType>
+<measType p="23">ipIfStatsHCInDelivers</measType>
+<measType p="24">ipIfStatsHCInBcastPkts</measType>
+<measType p="25">ipIfStatsInAddrErrors</measType>
+<measType p="26">ipIfStatsInDiscards</measType>
+<measType p="27">ipIfInOctetRatePercentiles</measType>
+<measType p="28">ipIfStatsInSrcAddrErrors</measType>
+<measType p="29">ipIfStatsHCInReceives</measType>
+<measType p="30">ipIfStatsHCOutMcastOctets</measType>
+<measType p="31">ipIfStatsHCOutForwDatagrams</measType>
+<measType p="32">ipIfStatsInUnknownProtos</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,InterfaceIPv4=1">
+<r p="1">26</r>
+<r p="2">39</r>
+<r p="3">46</r>
+<r p="4">49</r>
+<r p="5">46</r>
+<r p="6">81</r>
+<r p="7">67</r>
+<r p="8">55</r>
+<r p="9">39</r>
+<r p="10">52</r>
+<r p="11">61</r>
+<r p="12">47</r>
+<r p="13">1</r>
+<r p="14">86</r>
+<r p="15">76</r>
+<r p="16">38</r>
+<r p="17">28,77,81,34,8,23,7</r>
+<r p="18">92</r>
+<r p="19">38</r>
+<r p="20">89</r>
+<r p="21">3</r>
+<r p="22">71</r>
+<r p="23">18</r>
+<r p="24">63</r>
+<r p="25">97</r>
+<r p="26">25</r>
+<r p="27">41,82,96,19,40,50,7</r>
+<r p="28">8</r>
+<r p="29">16</r>
+<r p="30">37</r>
+<r p="31">86</r>
+<r p="32">27</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_PtpBcOcPort_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ptpFollowUpTx</measType>
+<measType p="2">ptpPacketsRx</measType>
+<measType p="3">ptpDelayReqRx</measType>
+<measType p="4">ptpDownLinkDelayAvg</measType>
+<measType p="5">ptpMeanPathDelayMax</measType>
+<measType p="6">ptpDelayRspRx</measType>
+<measType p="7">ptpFollowUpRx</measType>
+<measType p="8">ptpUpLinkDelayMin</measType>
+<measType p="9">ptpDownLinkDelayMin</measType>
+<measType p="10">ptpDelayReqTx</measType>
+<measType p="11">ptpAnnounceForeignMasterRx</measType>
+<measType p="12">ptpMeanPathDelayMin</measType>
+<measType p="13">ptpMeanPathDelayAvg</measType>
+<measType p="14">ptpDownLinkDelayStDev</measType>
+<measType p="15">ptpRefDefectTime</measType>
+<measType p="16">ptpSyncRx</measType>
+<measType p="17">ptpDelayRspTx</measType>
+<measType p="18">ptpMeanPathDelayStDev</measType>
+<measType p="19">ptpUpLinkDelayStDev</measType>
+<measType p="20">ptpUpLinkDelayMax</measType>
+<measType p="21">ptpAnnounceTx</measType>
+<measType p="22">ptpOffsetFromMasterMin</measType>
+<measType p="23">ptpPacketsTx</measType>
+<measType p="24">ptpOffsetFromMasterStDev</measType>
+<measType p="25">ptpOffsetFromMasterMax</measType>
+<measType p="26">ptpUpLinkDelayAvg</measType>
+<measType p="27">ptpOffsetFromMasterAvg</measType>
+<measType p="28">ptpValidMeasurement</measType>
+<measType p="29">ptpAnnounceRx</measType>
+<measType p="30">ptpDownLinkDelayMax</measType>
+<measType p="31">ptpSyncTx</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,BoundaryOrdinaryClock=1,Ptp=1,PtpBcOcPort=1">
+<r p="1">11</r>
+<r p="2">84</r>
+<r p="3">42</r>
+<r p="4">95</r>
+<r p="5">85</r>
+<r p="6">85</r>
+<r p="7">59</r>
+<r p="8">7</r>
+<r p="9">21</r>
+<r p="10">70</r>
+<r p="11">74</r>
+<r p="12">79</r>
+<r p="13">8</r>
+<r p="14">27</r>
+<r p="15">98</r>
+<r p="16">4</r>
+<r p="17">96</r>
+<r p="18">80</r>
+<r p="19">86</r>
+<r p="20">90</r>
+<r p="21">14</r>
+<r p="22">98</r>
+<r p="23">92</r>
+<r p="24">49</r>
+<r p="25">54</r>
+<r p="26">41</r>
+<r p="27">45</r>
+<r p="28">77</r>
+<r p="29">40</r>
+<r p="30">96</r>
+<r p="31">7</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_Ikev2Session_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ikeTunChildSaRekey</measType>
+<measType p="2">ikeTunInIntegrityFail</measType>
+<measType p="3">ikeTunInInvalidMsg</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,Ikev2Session=1">
+<r p="1">47</r>
+<r p="2">28</r>
+<r p="3">74</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_PowerSupply_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmPsuPowerLoad</measType>
+<measType p="2">pmPsuAcInputVoltageInterruption</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EquipmentSupportFunction=1,PowerSupply=1">
+<r p="1">5,48,83,96,57,30,22,89,63,93,29,37,44,45,15</r>
+<r p="2">65,65,7,79,62,14,74,62,78,10</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_Area_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">noOfOspfSpfRuns</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,Area=1">
+<r p="1">73</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_BatteryBackup_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmBatteryDepthOfDischargeDistr</measType>
+<measType p="2">pmBatteryDischargeTimeDistr</measType>
+<measType p="3">pmBatteryMainLoadUnderVoltDiscTimeDistr</measType>
+<measType p="4">pmBatteryTemperatureDistr</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,BatteryBackup=1">
+<r p="1">82,22,75,43,76,14,7</r>
+<r p="2">89,5,7,73,28,90,89,8</r>
+<r p="3">47,64,33,24,79,49,79,8</r>
+<r p="4">93,16,36,5,56,4,44,24,86,52,47,48,24,14,79,50,17</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_IpsecPolicy_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">espTunOutNoSA</measType>
+<measType p="2">espTunInIntegrityFail</measType>
+<measType p="3">espTunInReplayFail</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,IpsecTunnel=1,IpsecPolicy=1">
+<r p="1">54</r>
+<r p="2">5</r>
+<r p="3">42</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_EthernetPort_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ifHCOutBroadcastPkts</measType>
+<measType p="2">ifHCOutUcastPkts</measType>
+<measType p="3">ifOutErrors</measType>
+<measType p="4">ifHCInUcastPkts</measType>
+<measType p="5">ifInErrors</measType>
+<measType p="6">ifHCInBroadcastPkts</measType>
+<measType p="7">ifOutDiscards</measType>
+<measType p="8">ifInUnknownTags</measType>
+<measType p="9">ifInOctetRatePercentiles</measType>
+<measType p="10">ifHCInMulticastPkts</measType>
+<measType p="11">ifHCOutOctets</measType>
+<measType p="12">ifHCInOctets</measType>
+<measType p="13">ifInUnknownProtos</measType>
+<measType p="14">ifTotalLossOfSignalDuration</measType>
+<measType p="15">ifInDiscards</measType>
+<measType p="16">ifHCOutMulticastPkts</measType>
+<measType p="17">ifMaxLossOfSignalDuration</measType>
+<measType p="18">ifHCLossOfSignal</measType>
+<measType p="19">ifOutOctetRatePercentiles</measType>
+<measType p="20">ifMinLossOfSignalDuration</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EthernetPort=1">
+<r p="1">54</r>
+<r p="2">25</r>
+<r p="3">74</r>
+<r p="4">57</r>
+<r p="5">84</r>
+<r p="6">74</r>
+<r p="7">25</r>
+<r p="8">80</r>
+<r p="9">40,78,95,78,51,37,7</r>
+<r p="10">36</r>
+<r p="11">41</r>
+<r p="12">28</r>
+<r p="13">11</r>
+<r p="14">40</r>
+<r p="15">78</r>
+<r p="16">95</r>
+<r p="17">7</r>
+<r p="18">15</r>
+<r p="19">54,84,18,83,76,11,7</r>
+<r p="20">33</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_AclIpv6Stats_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">aclTotalDiscards</measType>
+<measType p="2">aclNdpAndMldPermits</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,AclIpv6=1,AclIpv6Stats=1">
+<r p="1">94</r>
+<r p="2">75</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_E1T1Port_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">erroredSecondsHC</measType>
+<measType p="2">backgroundBlockErrorsHC</measType>
+<measType p="3">unavailableTimeHC</measType>
+<measType p="4">severelyErroredSecondsHC</measType>
+<measType p="5">erroredBlocksHC</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,E1T1Port=1">
+<r p="1">9</r>
+<r p="2">15</r>
+<r p="3">62</r>
+<r p="4">74</r>
+<r p="5">65</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_SfpModule_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">pmSfpTemperature</measType>
+<measType p="2">pmSfpTxBias</measType>
+<measType p="3">pmSfpTxPower</measType>
+<measType p="4">pmSfpRxPower</measType>
+<measType p="5">pmSfpVoltage</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,SfpModule=1">
+<r p="1">79</r>
+<r p="2">25</r>
+<r p="3">81</r>
+<r p="4">65</r>
+<r p="5">92</r>
+</measValue>
+</measInfo>
+    <managedElement swVersion="CXS1000001_1-up P1A01"/>
+    <measInfo measInfoId="PM=1,TR_L2_QueueTailDrop_CounterGroup">
+      <job jobId="1"/>
+      <granPeriod duration="PT900S"    endTime="2023-10-28T10:30:00+0100"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">queueHCDroppedOctets</measType>
+<measType p="2">queueHCDroppedPkts</measType>
+<measType p="3">filledLowerThreshold</measType>
+<measType p="4">queueHCInOctets</measType>
+<measType p="5">queueHCOutOctets</measType>
+<measType p="6">queueHCInPkts</measType>
+<measType p="7">queueHCOutPkts</measType>
+<measType p="8">filledUpperThreshold</measType>
+<measValue measObjLdn="ManagedElement=Tcu03_01,Transport=1,Router=1,EthernetPort=1,QueueSystem=1,QueueTailDrop=1">
+<r p="1">79</r>
+<r p="2">94</r>
+<r p="3">17</r>
+<r p="4">55</r>
+<r p="5">94</r>
+<r p="6">68</r>
+<r p="7">90</r>
+<r p="8">23</r>
+</measValue>
+</measInfo>
+  </measData>
+  <fileFooter>
+    <measCollec endTime="2023-10-28T10:30:00+0100"/>
+  </fileFooter>
+</measCollecFile>

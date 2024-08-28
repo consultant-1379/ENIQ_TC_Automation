@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Fri Nov 24 07:34:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOTMO,ManagedElement=SDNC_P03; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOTMO,ManagedElement=SDNC_P03" mimName="ONRM" mimVersion="13.2.4" lastModified="1700811240291">
+ <attr name="sourceType">
+   <seq count="1">
+    <item>CBA</item>
+   </seq>
+ </attr>
+ <attr name="ManagedElementId">SDNC_P03</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOTMO,Site=MSRNC05RBS05</attr>
+ <attr name="managedElementType">
+   <seq count="1">
+    <item>SDNC-P</item>
+   </seq>
+ </attr>
+ <attr name="nodeVersion">15A</attr>
+ <attr name="userLabel">SDNC_P03</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

@@ -1,0 +1,20 @@
+{
+	"TC01": {    
+			  "Collection_name" : "Static_",
+    		  "ENIQ_data_source" : "NetAn_ODBC",
+              "System_area": "Radio",
+              "Node_type": "NR",
+              "Node" : "G2RBS01",
+              "Collection_type":"Static",
+              "WildcardExpression":""             
+    		},
+ 	"TC02": {    
+ 			  "Collection_name" : "Dynamic_",
+    		  "ENIQ_data_source" : "NetAn_ODBC",
+              "System_area": "Radio",
+              "Node_type": "NR",
+              "Node" : "",
+              "Collection_type":"Dynamic",
+              "WildcardExpression":"NodeName like '%nr%'"
+    		}    
+}

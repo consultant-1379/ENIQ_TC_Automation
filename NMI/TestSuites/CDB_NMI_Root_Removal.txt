@@ -1,0 +1,10 @@
+#NMI/TestCases/Root_Removal/Enable_Privilege_User.robot
+#NMI/TestCases/Root_Removal/Privilege_User_Addition.robot
+#NMI/TestCases/Root_Removal/Privilege_User_Removal.robot
+#NMI/TestCases/Root_Removal/Privilege_User_Rollback.robot
+#NMI/TestCases/Root_Removal/Privilege_User_Expansion.robot
+NMI/TestCases/Root_Removal/NMI_Enable_Privilege_User_TC111.robot
+NMI/TestCases/Root_Removal/NMI_Privilege_User_Addition_TC113.robot
+NMI/TestCases/Root_Removal/NMI_Privilege_User_Removal_TC119.robot
+NMI/TestCases/Root_Removal/NMI_Privilege_User_Rollback_TC120.robot
+NMI/TestCases/Root_Removal/NMI_Privilege_User_Expansion_TC115.robot

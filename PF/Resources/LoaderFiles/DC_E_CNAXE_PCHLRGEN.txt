@@ -1,0 +1,2 @@
+HLRSI01                        HLRSI01 HLRSI01 eniq_oss_1 HLRSI01       2023-11-22    2023       11     22      10 2023-11-22 10:00:00.0      0 15MIN           1107        0              15 LOADED    1.20       eniq_oss_1 +0000                    0 2023-11-22 10:00:00.0           92 
+HLRSA01%3A1000 CLUSTER         HLRSA01 HLRSA01 eniq_oss_1 HLRSA01       2023-11-22    2023       11     22      10 2023-11-22 10:00:00.0      0 15MIN           1106        0              15 LOADED               eniq_oss_1 +0000                    0 2023-11-22 10:00:00.0           96 

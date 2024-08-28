@@ -1,0 +1,2 @@
+#NMI/TestCases/IQ/Trigger_DBCheck.robot
+NMI/TestCases/IQ/NMI_Trigger_DBCheck_TC86.robot

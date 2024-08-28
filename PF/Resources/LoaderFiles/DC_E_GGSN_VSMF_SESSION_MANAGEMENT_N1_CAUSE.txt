@@ -1,0 +1,1 @@
+eniq_oss_1 /epg:epg/pgw/cause[name=1]:vsmf-session-management-n1-cause epg683-301 epg683-301 epg683-301 1     2023-11-08    2023       11      8      10 2023-11-08 10:00:00.0      0 15MIN           3550        1              15 LOADED               eniq_oss_1 +0200                    0 2023-11-08 08:00:00.0          40               29                87                   23 

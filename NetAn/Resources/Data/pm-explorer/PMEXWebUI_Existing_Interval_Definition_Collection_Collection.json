@@ -1,0 +1,72 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Core",
+              "Node_type": "CCRC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"Collection",
+              "Node":"CCRC01",
+              "Measure":"TPS KPI for NRFAgent Discovery Service-Service Consumer",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC02": { 
+          "System_area": "Core",
+              "Node_type": "CCRC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"Collection",
+              "Node":"CCRC01",
+              "Measure":"Failure Ratio for NRFAgent Discovery Service-Service Consumer",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC03": { 
+          "System_area": "Core",
+              "Node_type": "CCRC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"Collection",
+              "Node":"CCRC01",
+              "Measure":"TPS KPI for NRFAgent Notify Service",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC04": { 
+          "System_area": "Core",
+              "Node_type": "CCRC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"Collection",
+              "Node":"CCRC01",
+              "Measure":"Failure Ratio for NRFAgent Notify Service",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC05": { 
+          "System_area": "Core",
+              "Node_type": "CCSM",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"Collection",
+              "Node":"CCSM01",
+              "Measure":"eric-5g-eir-n5g-eir-eic-overload-unsuccessful-ratio.DC_E_CCSM_5G_EIR_N5G_EIR_EIC_RAW",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

@@ -1,0 +1,5 @@
+nodeFDN|userLabel|nodeVersion|nodeType|sourceType|TRX|siteFDN|bscId
+SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01|BAA01|G23.Q2|BSC|AXE|100|SubNetwork=ONRM_RootMo,Site=MSBAA01|BAA01
+SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01|BAA01|G23.Q2|TRC|AXE|100|SubNetwork=ONRM_RootMo,Site=MSBAA01|BAA01
+SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01|BAA01|G23.Q2|BSC|AXE|100|SubNetwork=ONRM_RootMo,Site=MSBAA01|BAA01
+SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01|BAA01|G23.Q2|TRC|AXE|100|SubNetwork=ONRM_RootMo,Site=MSBAA01|BAA01

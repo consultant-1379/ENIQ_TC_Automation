@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOTMO,SubNetwork=MSRBS-V201,MeContext=MSRBS-V201" mimName="ECIM_Top" mimVersion="2.3.0.2.24" lastModified="1698834300251">
+<attr name="MeContextId">MSRBS-V201</attr> 
+ <attr name="neMIMversion">2.3.0.2.24</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOTMO,Site=Kista</attr>
+ <attr name="dnPrefix">SubNetwork=ONRM_ROOTMO,SubNetwork=MSRBS-V201,MeContext=MSRBS-V201</attr>
+ <attr name="managedElementType">RadioNode</attr>
+ <attr name="nodeVersion">23.Q4</attr>
+ <attr name="userLabel">MSRBS-V201</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOTMO,SubNetwork=MSRBS-V201,MeContext=MSRBS-V201,BtsFunction=1,GsmSector=1" mimName="Grat" mimVersion="4.7.0" lastModified="1698834300251">
+<attr name="bscTgIdentity">RXSTG-0</attr> 
+<attr name="bscNodeIdentity">117_A55_C1I2_X82RA_A</attr> 
+ </mo>
+</model>

@@ -1,0 +1,1 @@
+ONRM_RootMo  eniq_oss_1 SubNetwork=ONRM_RootMo,ManagedElement=HSS-FE01 HSS-FE01         HSS_DC=1,LemService 2023-11-09    2023       11      9      10 2023-11-09 10:00:00.0      0 15MIN           3644        0              15 LOADED    1.37       eniq_oss_1 +0200                    0 2023-11-09 08:00:00.0                  28.0000               61.0000 

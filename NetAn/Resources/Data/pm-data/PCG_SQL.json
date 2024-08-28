@@ -1,0 +1,1 @@
+{	"PCG":"select COUNT(*) from MeasurementCounter WHERE typeid like '%DC_E_PCG:((15))%' and GROUPAGGREGATION !=NULL and COUNTAGGREGATION !=NULL"}

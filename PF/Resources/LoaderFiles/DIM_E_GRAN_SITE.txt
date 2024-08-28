@@ -1,0 +1,2 @@
+  (NULL)   1   (NULL)    (NULL) eniq_oss_1      SubNetwork=ONRM_RootMo,SITE=MSBAA01 MSBAA01 MSBAA01   ONRM_RootMo UTC+00:00 +0100          Ericsson ACTIVE 2024-04-11 15:36:05.0 2024-06-03 21:11:06.0 ENIQ     
+  (NULL)   1   (NULL)    (NULL) eniq_oss_1      SubNetwork=ONRM_RootMo,SITE=MSBIE01 MSBIE01 MSBIE01   ONRM_RootMo UTC+00:00 +0100          Ericsson ACTIVE 2024-04-11 15:36:05.0 2024-06-03 21:11:06.0 ENIQ     

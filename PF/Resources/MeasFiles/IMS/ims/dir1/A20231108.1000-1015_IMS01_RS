@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=CSCF01</sn>
+<st>IMS</st>
+<vn>ERICSSON</vn>
+<cbt>20231108100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=IMS01</nedn>
+</neid>
+<mi>
+<mts>20231108101500.1+0200</mts>
+<gp>900</gp>
+<mt>rsRegisterSucceeded</mt>
+<mt>rsRegisterErrors</mt>
+<mt>rsTotalMAESubs</mt>
+<mv>
+<moid>RS=DEFAULT,Source = Processor1</moid>
+<r>18</r>
+<r>89</r>
+<r>73</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231108101500.1+0200</ts>
+</mff>
+</mdc>

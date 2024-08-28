@@ -1,0 +1,3 @@
+sourceType|sourceFDN|targetType|targetFDN
+MGW|SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS,MeContext=MRS|MRSFunction|SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS,MeContext=MRS,MRSFunction=1
+MGW|SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS,MeContext=MRS|BGF;Im-Mgw;MrfpFunction|SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS,MeContext=MRS,BGF;Im-Mgw;MrfpFunction=1

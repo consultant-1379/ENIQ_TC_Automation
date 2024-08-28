@@ -1,0 +1,2 @@
+TransportService:UpLinkBandwidth:DownLinkBandwidth:DefinedDelay:DelayVariation:PacketLoss
+ALL:100:100:1500:10:10

@@ -1,0 +1,1 @@
+eniq_oss_1	SubNetwork=IS,MeContext=vSBG01,ManagedElement=vSBG01	SubNetwork=IS,MeContext=vSBG01,ManagedElement=vSBG01	vSBG01	1	SbgFunction=1	2023-10-29	2023	10	29	10	2023-10-29 10:00:00	0	15MIN	7741	0	15	LOADED	2.22	eniq_oss_1	+0200	0	2023-10-29 08:00:00	37.0000	83.0000	61.0000

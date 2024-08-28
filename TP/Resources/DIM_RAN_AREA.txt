@@ -1,0 +1,7 @@
+AREA;AREA_GROUP;OSS_ID;CELL_ID;CELL_NAME;NW_TYPE
+Lahti;Cell Set;eniq_oss_1;100;Cell100;RNC
+Lahti;Cell Set;eniq_oss_1;10;Cell10;RNC
+Athlone;Cell Set;eniq_oss_1;199;Cell199;RNC
+Athlone;Cell Set;eniq_oss_1;99;Cell99;RNC
+
+

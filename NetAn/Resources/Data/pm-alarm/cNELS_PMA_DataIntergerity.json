@@ -1,0 +1,52 @@
+{
+	"cNELS1": {
+        "Alarm_name" : "Alarm",
+        "Alarm_Type" : "Threshold",
+        "ENIQ_data_source" : "NetAn_ODBC",
+        "Single_node_or_collection_or_network" : "Single Node",
+        "System_area" : "Core",
+        "Node_type" : "cNELS",
+        "Node" : "Nels01",
+        "Measure_type" : "COUNTER",
+        "Measure" : "cnels_scheduledbackup_errors",
+        "SQL1" : "DECLARE @DATETIME_ID varchar(50)=DATETIME_VALUE , @UNIQUE_ID varchar(500)=UNIQUE_ID_VALUE select cast(ROUND(SUM(cnels_scheduledbackup_errors),2) as numeric(36,2)) as MeasureValue from DC_E_CNELS_CASSANDRA_STATS_DELTA where DATE_ID=@DATETIME_ID and MOID=@UNIQUE_ID",
+        "SQL2" : "",
+        "SQL3" : "",
+        "SQL4" : "",
+        "Alarm_severity" : "Minor",
+        "Aggregation" : "1 Day",
+        "Probable_cause" : "Reduced alarm reporting",
+        "Specific_problem" : "NA",
+        "Date_range_val" : "2",
+        "Date_range_unit" : "Hour(s)",
+        "LookBack_Period_val" : "2",
+        "LookBack_Period_unit" : "Day(s)",
+        "Columns_diplayed" : "DATE_ID"
+    },
+	"cNELS2": {
+        "Alarm_name" : "Alarm",
+        "Alarm_Type" : "Threshold",
+        "ENIQ_data_source" : "NetAn_ODBC",
+        "Single_node_or_collection_or_network" : "Single Node",
+        "System_area" : "Core",
+        "Node_type" : "cNELS",
+        "Node" : "Nels01",
+        "Measure_type" : "COUNTER",
+        "Measure" : "cnels_wcdbcd_dropped_messages",
+        "SQL1" : "DECLARE @DATETIME_ID varchar(50)=DATETIME_VALUE , @UNIQUE_ID varchar(500)=UNIQUE_ID_VALUE select cast(ROUND(SUM(cnels_wcdbcd_dropped_messages),2) as numeric(36,2)) as MeasureValue from DC_E_CNELS_CASSANDRA_STATS_DELTA where DATE_ID=@DATETIME_ID and MOID=@UNIQUE_ID",
+        "SQL2" : "",
+        "SQL3" : "",
+        "SQL4" : "",
+        "Alarm_severity" : "Minor",
+        "Aggregation" : "1 Day",
+        "Probable_cause" : "Reduced alarm reporting",
+        "Specific_problem" : "NA",
+        "Date_range_val" : "2",
+        "Date_range_unit" : "Hour(s)",
+        "LookBack_Period_val" : "2",
+        "LookBack_Period_unit" : "Day(s)",
+        "Columns_diplayed" : "DATE_ID"
+		
+	
+    }
+}

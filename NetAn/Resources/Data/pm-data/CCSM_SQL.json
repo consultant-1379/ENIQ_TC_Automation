@@ -1,0 +1,1 @@
+{	"CCSM": "select COUNT(*) from MeasurementCounter WHERE typeid like '%DC_E_CCSM:((22))%' and GROUPAGGREGATION !=NULL and COUNTAGGREGATION !=NULL"}

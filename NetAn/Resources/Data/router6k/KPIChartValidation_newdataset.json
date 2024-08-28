@@ -1,0 +1,57 @@
+{
+    "Resource Utilization Charts":
+    {
+        "pagename": "Node Level KPIs",
+        "category": "Resource Utilization",
+        "KPIs": "Peak CPU Usage (%),Average Memory Usage (%),Peak Memory Usage (%),Available Memory (MB),Total Memory (MB),Average Power Consumption (W),Maximum Power Consumption (W),System Load (%)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01"
+    },
+    
+    "PTP Clock Charts":
+    {
+        "pagename": "Node Level KPIs",
+        "category": "PTP Clock",
+        "KPIs": "PTP Average Path Delay (ns),PTP Average Reverse Delay (ns),PTP Maximum Forward Delay (ns),PTP Maximum Path Delay (ns),PTP Maximum Reverse Delay (ns),PTP Minimum Forward Delay (ns),PTP Minimum Path Delay (ns),PTP Minimum Reverse Delay (ns),PTP Standard Deviation Forward Delay (ns),PTP Standard Deviation Reverse Delay (ns),PTP Standard Deviation Path Delay (ns),PTP Maximum FilteredOffsetfromMaster (ns),PTP Minimum FilteredOffsetfromMaster (ns),PTP Average FilteredOffsetfromMaster (ns),PTP Standard Deviation FilteredOffsetfromMaster (ns),PTP Maximum TimeProbeOffSet (ns),PTP Minimum TimeProbeOffset (ns),PTP Average TimeProbeOffset (ns),PTP Standard Deviation TimeProbeOffset (ns)",
+        "Aggregation Level": "DAY",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01"
+    },
+	"Physical ports Charts":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Physical Port",
+        "KPIs": "Ethernet Ingress Link Utilization (%),Ethernet Egress Link Utilization (%),Ethernet Ingress Multicast Frames (%),Ethernet Egress Multicast Frames (%),Ethernet Interface Ingress Error Ratio (%),Ethernet Interface Egress Error Ratio (%),Ethernet Interface Ingress Discard Ratio (%),Ethernet Interface Egress Discard Ratio (%),Ethernet Interface Queue Drop Ratio (%),Egress Total Packets (n),Egress Multicast Packets (n),Ingress Total Packets (n),Ingress Multicast Packets (n),Capacity (Mbps),DL Throughput (Mbps),UL Throughput (Mbps),Full Duplex Utilization (%)",
+        "Aggregation Level": "DAY",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01"
+    },
+	"VLAN Based Port Charts":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "VLAN Based Port",
+        "KPIs": "VLAN Ingress Utilization (%),VLAN Egress Utilization (%),VLAN Queue Drop Ratio (%)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01"
+    },
+	"PDH Port Charts":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "PDH Port",
+        "KPIs": "PDH Port Availability (%),PDH Ports Severely Errored Seconds Ratio (%),PDH Ports Errored Seconds Ratio (%)",
+        "Aggregation Level": "DAY",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01"
+    },
+	"Optical Charts":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Optical",
+        "KPIs":"Maximum Temperature (°C),Average Temperature (°C),Optical Link Input Max Power (dBm),Optical Link Input Min Power (dBm),Optical Link Input Average Power (dBm),Optical Link Output Max Power (dBm),Optical Link Output Min Power (dBm),Optical Link Output Average Power (dBm)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01"
+    }
+}

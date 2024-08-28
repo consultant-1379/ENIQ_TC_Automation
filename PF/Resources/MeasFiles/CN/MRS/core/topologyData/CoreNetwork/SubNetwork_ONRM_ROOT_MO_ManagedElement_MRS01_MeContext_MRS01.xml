@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Sep 14 13:35:00 BST 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS01,MeContext=MRS01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS01,MeContext=MRS01" mimName="ONRM" mimVersion="13.2.4" lastModified="1694694900422">
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=Bangalore</attr>
+ <attr name="managedElementType">
+  <seq count="3">
+    <item>MRS,BGF</item>
+    <item>Im-Mgw</item>
+    <item>Mrfp</item>
+  </seq>
+ </attr>
+ <attr name="nodeVersion">vMRF 1.22</attr>
+ <attr name="userLabel">MRS01</attr>
+ </mo>
+ <!-- No filter found for MO SubNetwork=ONRM_ROOT_MO,ManagedElement=MRS01,MeContext=MRS01,MgwFunction=1 -->
+</model>
+<!-- Generated 1 entries -->

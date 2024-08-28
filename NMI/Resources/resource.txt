@@ -1,0 +1,73 @@
+*** Settings ***
+Variables                                               ./variables.yaml
+Library                                                 SSHLibrary
+Library                                                 Process
+Library                                                 OperatingSystem
+
+*** Variables ***
+${host}         ${hostname}
+${p}            ${PORT}
+
+*** Keywords ***
+List files
+	[Arguments]                                     ${path}=.     ${options}=
+	Execute command                                 ls ${options} ${path}
+         
+PRESETUP MV
+	[Arguments]                                     ${filename}=
+	Execute Command                                 mv ${filename} ${filename}_org
+
+POSTSETUP MV
+	[Arguments]                                     ${filename}=
+	Execute Command                                 mv ${filename}_org ${filename}
+
+PRESETUP SIMULATOR
+	[Arguments]                                     ${ScriptName}=          ${errorcode}=
+	Execute Command                                 bash /var/tmp/rf_scp/script_simulator.bsh -s ${ScriptName} -m ${errorcode}
+   
+POSTSETUP SIMULATOR
+	[Arguments]                                     ${ScriptName}=
+	Execute Command                                 bash /var/tmp/rf_scp/script_simulator.bsh -s ${ScriptName} -r
+  
+Open Connection And Log In
+	Open Connection                                       ${host}    port=${PORT}
+	Login                                                 ${username}    ${password}    delay=1
+	Log To Console                                        Connected to server ${host}:${p}
+	${hostname1}=              Execute Command            cat /etc/hosts | grep engine | awk '{print $1}'
+	${host1}=                  Set Variable               ${hostname1}
+	${PORT1}=                  Set Variable               ${PORT}
+	${p1}=                     Set Variable               ${PORT1}
+	${username1}               Set Variable               ${username}
+	${password1}               Set Variable               ${password}
+	Set Global Variable        ${hostname1}    
+	Set Global Variable        ${host1}
+	Set Global Variable        ${PORT1}
+	Set Global Variable        ${p1}
+	Set Global Variable        ${username1}
+	Set Global Variable        ${password1}
+	${hostname2}=              Execute Command            cat /etc/hosts | grep dwh_reader_1 | awk '{print $1}'
+	${host2}=                  Set Variable               ${hostname2}
+	${PORT2}=                  Set Variable               ${PORT}
+	${p2}=                     Set Variable               ${PORT1}
+	${username2}               Set Variable               ${username}
+	${password2}               Set Variable               ${password}
+	Set Global Variable        ${hostname2}    
+	Set Global Variable        ${host2}
+	Set Global Variable        ${PORT2}
+	Set Global Variable        ${p2}
+	Set Global Variable        ${username2}
+	Set Global Variable        ${password2}
+	${hostname3}=              Execute Command            cat /etc/hosts | grep dwh_reader_2 | awk '{print $1}'
+	${host3}=                  Set Variable               ${hostname3}
+	${PORT3}=                  Set Variable               ${PORT}
+	${p3}=                     Set Variable               ${PORT3}
+	${username3}               Set Variable               ${username}
+	${password3}               Set Variable               ${password}
+	Set Global Variable        ${hostname3}    
+	Set Global Variable        ${host3}
+	Set Global Variable        ${PORT3}
+	Set Global Variable        ${p3}
+	Set Global Variable        ${username3}
+	Set Global Variable        ${password3}
+        Set Global Variable        ${shipment}  
+

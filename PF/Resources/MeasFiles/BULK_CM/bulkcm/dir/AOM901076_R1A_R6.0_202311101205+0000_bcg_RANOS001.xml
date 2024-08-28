@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bulkCmConfigDataFile xmlns:es="EricssonSpecificAttributes.13.04.xsd" xmlns:un="utranNrm.xsd" xmlns:xn="genericNrm.xsd" xmlns:gn="geranNrm.xsd" xmlns="configData.xsd">
+<fileHeader fileFormatVersion="32.615 V4.5" vendorName="Ericsson"/>
+<configData dnPrefix="Undefined">
+<xn:SubNetwork id="ONRM_RootMo_R">
+<xn:SubNetwork id="RANOS001">
+<xn:MeContext id="RANOS001">
+<xn:VsDataContainer id="RANOS001">
+<xn:attributes>
+<xn:vsDataType>vsDataMeContext</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataMeContext>
+</es:vsDataMeContext>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:ManagedElement id="1">
+<xn:attributes>
+<xn:locationName></xn:locationName>
+<xn:userDefinedState></xn:userDefinedState>
+<xn:vendorName>Ericsson</xn:vendorName>
+<xn:userLabel>RANOS001</xn:userLabel>
+<xn:managedElementType>RANOS</xn:managedElementType>
+<xn:swVersion>CXP1.1</xn:swVersion>
+<xn:managedBy>SubNetwork=ONRM_ROOT_MO_R,ManagementNode=ONRM</xn:managedBy>
+ </xn:attributes>
+<xn:VsDataContainer id="1">
+<xn:attributes>
+<xn:vsDataType>vsDataSubNetwork</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataSubNetwork>
+<es:SubNetworkId>22</es:SubNetworkId>
+<es:dnPrefix>88</es:dnPrefix>
+<es:userLabel>40</es:userLabel>
+<es:userDefinedNetworkType>83</es:userDefinedNetworkType>
+<es:rncRef>41</es:rncRef>
+</es:vsDataSubNetwork>
+</xn:attributes>
+<xn:VsDataContainer id="2">
+<xn:attributes>
+<xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataFreqManagement>
+<es:FreqManagementId>74</es:FreqManagementId>
+</es:vsDataFreqManagement>
+</xn:attributes>
+<xn:VsDataContainer id="3">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalGsmFreqGroup</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalGsmFreqGroup>
+<es:ExternalGsmFreqGroupId>50</es:ExternalGsmFreqGroupId>
+<es:userLabel>105</es:userLabel>
+<es:frequencyGroupId>94</es:frequencyGroupId>
+<es:reservedBy>30</es:reservedBy>
+<es:reservedBy>84</es:reservedBy>
+<es:reservedBy>65</es:reservedBy>
+<es:reservedBy>97</es:reservedBy>
+<es:reservedBy>82</es:reservedBy>
+<es:reservedBy>13</es:reservedBy>
+<es:reservedBy>26</es:reservedBy>
+<es:reservedBy>38</es:reservedBy>
+<es:reservedBy>104</es:reservedBy>
+<es:reservedBy>96</es:reservedBy>
+<es:reservedBy>99</es:reservedBy>
+<es:reservedBy>35</es:reservedBy>
+<es:reservedBy>102</es:reservedBy>
+<es:reservedBy>62</es:reservedBy>
+<es:reservedBy>82</es:reservedBy>
+<es:reservedBy>59</es:reservedBy>
+<es:reservedBy>87</es:reservedBy>
+<es:reservedBy>63</es:reservedBy>
+<es:reservedBy>97</es:reservedBy>
+<es:reservedBy>74</es:reservedBy>
+<es:reservedBy>14</es:reservedBy>
+<es:reservedBy>104</es:reservedBy>
+<es:reservedBy>104</es:reservedBy>
+<es:reservedBy>103</es:reservedBy>
+<es:reservedBy>23</es:reservedBy>
+<es:reservedBy>72</es:reservedBy>
+<es:reservedBy>103</es:reservedBy>
+<es:reservedBy>52</es:reservedBy>
+<es:reservedBy>41</es:reservedBy>
+<es:reservedBy>57</es:reservedBy>
+<es:reservedBy>63</es:reservedBy>
+<es:reservedBy>107</es:reservedBy>
+</es:vsDataExternalGsmFreqGroup>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="4">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalViewableNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalViewableNode>
+<es:ExternalViewableNodeId>100</es:ExternalViewableNodeId>
+<es:userLabel>53</es:userLabel>
+</es:vsDataExternalViewableNode>
+</xn:attributes>
+<xn:VsDataContainer id="5">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalTransportNetwork</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalTransportNetwork>
+<es:ExternalTransportNetworkId>67</es:ExternalTransportNetworkId>
+<es:userLabel>45</es:userLabel>
+</es:vsDataExternalTransportNetwork>
+</xn:attributes>
+<xn:VsDataContainer id="6">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalVplTp</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalVplTp>
+<es:ExternalVplTpId>52</es:ExternalVplTpId>
+<es:userLabel>34</es:userLabel>
+<es:vplTpId>46</es:vplTpId>
+</es:vsDataExternalVplTp>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="7">
+<xn:attributes>
+<xn:vsDataType>vsDataSite</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataSite>
+<es:SiteId>92</es:SiteId>
+<es:userLabel>36</es:userLabel>
+<es:location>74</es:location>
+<es:latitude>108</es:latitude>
+<es:longitude>87</es:longitude>
+<es:altitude>48</es:altitude>
+<es:timeZone>101</es:timeZone>
+<es:freeText>80</es:freeText>
+<es:listOfNe>100</es:listOfNe>
+<es:datum>43</es:datum>
+<es:worldTimeZoneId>79</es:worldTimeZoneId>
+<es:daylightSavingsAdjust>83</es:daylightSavingsAdjust>
+</es:vsDataSite>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="8">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalCdma2000Plmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalCdma2000Plmn>
+<es:ExternalCdma2000PlmnId>19</es:ExternalCdma2000PlmnId>
+<es:userLabel>27</es:userLabel>
+</es:vsDataExternalCdma2000Plmn>
+</xn:attributes>
+<xn:VsDataContainer id="9">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalCdma2000Cell</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalCdma2000Cell>
+<es:ExternalCdma2000CellId>97</es:ExternalCdma2000CellId>
+<es:userLabel>36</es:userLabel>
+<es:cellGlobalIdHrpd>71</es:cellGlobalIdHrpd>
+<es:pnOffset>63</es:pnOffset>
+<es:externalCdma2000FreqRef>83</es:externalCdma2000FreqRef>
+<es:sid>24</es:sid>
+<es:nid>54</es:nid>
+<es:pzid>31</es:pzid>
+</es:vsDataExternalCdma2000Cell>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="10">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalGsmCell</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalGsmCell>
+<es:ExternalGsmCellId>56</es:ExternalGsmCellId>
+<es:cellIdentity>101</es:cellIdentity>
+<es:userLabel>90</es:userLabel>
+<es:bcchFrequency>12</es:bcchFrequency>
+<es:ncc>52</es:ncc>
+<es:bcc>26</es:bcc>
+<es:lac>24</es:lac>
+<es:maxTxPowerUl>12</es:maxTxPowerUl>
+<es:qRxLevMin>71</es:qRxLevMin>
+<es:individualOffset>75</es:individualOffset>
+<es:parentSystem>69</es:parentSystem>
+<es:mcc>59</es:mcc>
+<es:mnc>40</es:mnc>
+<es:mncLength>77</es:mncLength>
+<es:bandIndicator>65</es:bandIndicator>
+<es:rac>76</es:rac>
+<es:rimCapable>73</es:rimCapable>
+</es:vsDataExternalGsmCell>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="11">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>42</es:ManagementNodeId>
+<es:userLabel>42</es:userLabel>
+<es:vendorName>31</es:vendorName>
+<es:userDefinedState>76</es:userDefinedState>
+<es:locationName>70</es:locationName>
+<es:swVersion>44</es:swVersion>
+<es:manages>91</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="12">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>47</es:IRPAgentId>
+<es:systemDN>39</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="13">
+<xn:attributes>
+<xn:vsDataType>vsDataRbsGroup</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataRbsGroup>
+<es:RbsGroupId>76</es:RbsGroupId>
+<es:userLabel>29</es:userLabel>
+<es:listOfRbs>93</es:listOfRbs>
+</es:vsDataRbsGroup>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="14">
+<xn:attributes>
+<xn:vsDataType>vsDataPoolArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPoolArea>
+<es:PoolAreaId>42</es:PoolAreaId>
+<es:userLabel>41</es:userLabel>
+</es:vsDataPoolArea>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="15">
+<xn:attributes>
+<xn:vsDataType>vsDataAreas</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAreas>
+<es:AreasId>69</es:AreasId>
+</es:vsDataAreas>
+</xn:attributes>
+<xn:VsDataContainer id="16">
+<xn:attributes>
+<xn:vsDataType>vsDataPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPlmn>
+<es:PlmnId>73</es:PlmnId>
+<es:userLabel>87</es:userLabel>
+<es:mcc>28</es:mcc>
+<es:mnc>81</es:mnc>
+<es:mncLength>67</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>10</es:mcc>
+<es:mnc>9</es:mnc>
+<es:mncLength>24</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="17">
+<xn:attributes>
+<xn:vsDataType>vsDataLocationArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataLocationArea>
+<es:LocationAreaId>85</es:LocationAreaId>
+<es:userLabel>85</es:userLabel>
+<es:lac>24</es:lac>
+<es:t3212>82</es:t3212>
+<es:att>96</es:att>
+</es:vsDataLocationArea>
+</xn:attributes>
+<xn:VsDataContainer id="18">
+<xn:attributes>
+<xn:vsDataType>vsDataRoutingArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataRoutingArea>
+<es:RoutingAreaId>20</es:RoutingAreaId>
+<es:userLabel>19</es:userLabel>
+<es:rac>87</es:rac>
+<es:nmo>86</es:nmo>
+</es:vsDataRoutingArea>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="19">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEUtranPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEUtranPlmn>
+<es:ExternalEUtranPlmnId>76</es:ExternalEUtranPlmnId>
+<es:plmnIdentity>
+<es:mcc>49</es:mcc>
+<es:mnc>41</es:mnc>
+<es:mncLength>13</es:mncLength>
+</es:plmnIdentity>
+<es:userLabel>75</es:userLabel>
+</es:vsDataExternalEUtranPlmn>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="20">
+<xn:attributes>
+<xn:vsDataType>vsDataAreas</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAreas>
+<es:AreasId>97</es:AreasId>
+</es:vsDataAreas>
+</xn:attributes>
+<xn:VsDataContainer id="21">
+<xn:attributes>
+<xn:vsDataType>vsDataPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPlmn>
+<es:PlmnId>94</es:PlmnId>
+<es:userLabel>42</es:userLabel>
+<es:mcc>31</es:mcc>
+<es:mnc>94</es:mnc>
+<es:mncLength>75</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>37</es:mcc>
+<es:mnc>3</es:mnc>
+<es:mncLength>46</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="22">
+<xn:attributes>
+<xn:vsDataType>vsDataLocationArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataLocationArea>
+<es:LocationAreaId>82</es:LocationAreaId>
+<es:userLabel>77</es:userLabel>
+<es:lac>105</es:lac>
+<es:t3212>62</es:t3212>
+<es:att>47</es:att>
+</es:vsDataLocationArea>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="23">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>67</es:ManagementNodeId>
+<es:userLabel>95</es:userLabel>
+<es:vendorName>56</es:vendorName>
+<es:userDefinedState>94</es:userDefinedState>
+<es:locationName>13</es:locationName>
+<es:swVersion>82</es:swVersion>
+<es:manages>103</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="24">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>106</es:IRPAgentId>
+<es:systemDN>81</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+<xn:VsDataContainer id="25">
+<xn:attributes>
+<xn:vsDataType>vsDataNotificationIRP</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataNotificationIRP>
+<es:NotificationIRPId>63</es:NotificationIRPId>
+<es:irpVersion>94</es:irpVersion>
+</es:vsDataNotificationIRP>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="26">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalViewableNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalViewableNode>
+<es:ExternalViewableNodeId>37</es:ExternalViewableNodeId>
+<es:userLabel>32</es:userLabel>
+</es:vsDataExternalViewableNode>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="27">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEUtranPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEUtranPlmn>
+<es:ExternalEUtranPlmnId>86</es:ExternalEUtranPlmnId>
+<es:plmnIdentity>
+<es:mcc>25</es:mcc>
+<es:mnc>39</es:mnc>
+<es:mncLength>34</es:mncLength>
+</es:plmnIdentity>
+<es:userLabel>105</es:userLabel>
+</es:vsDataExternalEUtranPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="28">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalENodeBFunction</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalENodeBFunction>
+<es:ExternalENodeBFunctionId>71</es:ExternalENodeBFunctionId>
+<es:eNodeBPlmnId>
+<es:mcc>20</es:mcc>
+<es:mnc>27</es:mnc>
+<es:mncLength>17</es:mncLength>
+</es:eNodeBPlmnId>
+<es:eNBId>17</es:eNBId>
+<es:userLabel>102</es:userLabel>
+</es:vsDataExternalENodeBFunction>
+</xn:attributes>
+<xn:VsDataContainer id="29">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEUtranCellFDD</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEUtranCellFDD>
+<es:ExternalEUtranCellFDDId>106</es:ExternalEUtranCellFDDId>
+<es:localCellId>67</es:localCellId>
+<es:physicalLayerCellIdGroup>84</es:physicalLayerCellIdGroup>
+<es:physicalLayerSubCellId>15</es:physicalLayerSubCellId>
+<es:tac>24</es:tac>
+<es:earfcndl>21</es:earfcndl>
+<es:activePlmnList>
+<es:mcc>8</es:mcc>
+<es:mnc>42</es:mnc>
+<es:mncLength>28</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>47</es:mcc>
+<es:mnc>22</es:mnc>
+<es:mncLength>34</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>25</es:mcc>
+<es:mnc>30</es:mnc>
+<es:mncLength>17</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>20</es:mcc>
+<es:mnc>43</es:mnc>
+<es:mncLength>30</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>2</es:mcc>
+<es:mnc>33</es:mnc>
+<es:mncLength>18</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>17</es:mcc>
+<es:mnc>27</es:mnc>
+<es:mncLength>26</es:mncLength>
+</es:activePlmnList>
+<es:pciConflict>32</es:pciConflict>
+<es:pciConflict>87</es:pciConflict>
+<es:pciConflict>36</es:pciConflict>
+<es:pciConflict>33</es:pciConflict>
+<es:pciConflict>91</es:pciConflict>
+<es:pciConflictCell>
+<es:enbId>45</es:enbId>
+<es:cellId>23</es:cellId>
+<es:mcc>1</es:mcc>
+<es:mnc>6</es:mnc>
+<es:mncLength>12</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>37</es:enbId>
+<es:cellId>37</es:cellId>
+<es:mcc>5</es:mcc>
+<es:mnc>28</es:mnc>
+<es:mncLength>49</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>46</es:enbId>
+<es:cellId>2</es:cellId>
+<es:mcc>3</es:mcc>
+<es:mnc>12</es:mnc>
+<es:mncLength>22</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>1</es:enbId>
+<es:cellId>15</es:cellId>
+<es:mcc>41</es:mcc>
+<es:mnc>49</es:mnc>
+<es:mncLength>19</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>34</es:enbId>
+<es:cellId>29</es:cellId>
+<es:mcc>45</es:mcc>
+<es:mnc>33</es:mnc>
+<es:mncLength>40</es:mncLength>
+</es:pciConflictCell>
+<es:pciDetectingCell>
+<es:enbId>28</es:enbId>
+<es:cellId>38</es:cellId>
+<es:mcc>24</es:mcc>
+<es:mnc>5</es:mnc>
+<es:mncLength>44</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>27</es:enbId>
+<es:cellId>16</es:cellId>
+<es:mcc>5</es:mcc>
+<es:mnc>36</es:mnc>
+<es:mncLength>29</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>24</es:enbId>
+<es:cellId>48</es:cellId>
+<es:mcc>20</es:mcc>
+<es:mnc>18</es:mnc>
+<es:mncLength>49</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>17</es:enbId>
+<es:cellId>22</es:cellId>
+<es:mcc>11</es:mcc>
+<es:mnc>8</es:mnc>
+<es:mncLength>24</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>25</es:enbId>
+<es:cellId>19</es:cellId>
+<es:mcc>45</es:mcc>
+<es:mnc>45</es:mnc>
+<es:mncLength>22</es:mncLength>
+</es:pciDetectingCell>
+<es:userLabel>37</es:userLabel>
+</es:vsDataExternalEUtranCellFDD>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="30">
+<xn:attributes>
+<xn:vsDataType>vsDataSegment</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataSegment>
+<es:SegmentId>32</es:SegmentId>
+<es:userLabel>83</es:userLabel>
+<es:ipAddress>52</es:ipAddress>
+<es:rnsRefs>49</es:rnsRefs>
+<es:connectionStatus>90</es:connectionStatus>
+</es:vsDataSegment>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="31">
+<xn:attributes>
+<xn:vsDataType>vsDataMscPool</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataMscPool>
+<es:MscPoolId>60</es:MscPoolId>
+<es:userLabel>86</es:userLabel>
+</es:vsDataMscPool>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="32">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>51</es:ManagementNodeId>
+<es:userLabel>50</es:userLabel>
+<es:vendorName>42</es:vendorName>
+<es:userDefinedState>74</es:userDefinedState>
+<es:locationName>74</es:locationName>
+<es:swVersion>16</es:swVersion>
+<es:manages>53</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="33">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>75</es:IRPAgentId>
+<es:systemDN>92</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+<xn:VsDataContainer id="34">
+<xn:attributes>
+<xn:vsDataType>vsDataPmIRP</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPmIRP>
+<es:PmIRPId>99</es:PmIRPId>
+<es:irpVersion>25</es:irpVersion>
+</es:vsDataPmIRP>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="35">
+<xn:attributes>
+<xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataFreqManagement>
+<es:FreqManagementId>27</es:FreqManagementId>
+</es:vsDataFreqManagement>
+</xn:attributes>
+<xn:VsDataContainer id="36">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalCdma2000FreqBand</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalCdma2000FreqBand>
+<es:ExternalCdma2000FreqBandId>93</es:ExternalCdma2000FreqBandId>
+<es:userLabel>86</es:userLabel>
+<es:hrpdBandClass>84</es:hrpdBandClass>
+</es:vsDataExternalCdma2000FreqBand>
+</xn:attributes>
+<xn:VsDataContainer id="37">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalCdma2000Freq</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalCdma2000Freq>
+<es:ExternalCdma2000FreqId>71</es:ExternalCdma2000FreqId>
+<es:userLabel>15</es:userLabel>
+<es:freqCdma>105</es:freqCdma>
+</es:vsDataExternalCdma2000Freq>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="38">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>93</es:ManagementNodeId>
+<es:userLabel>35</es:userLabel>
+<es:vendorName>67</es:vendorName>
+<es:userDefinedState>51</es:userDefinedState>
+<es:locationName>106</es:locationName>
+<es:swVersion>64</es:swVersion>
+<es:manages>64</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="39">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalUtranCell</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalUtranCell>
+<es:ExternalUtranCellId>26</es:ExternalUtranCellId>
+<es:userLabel>26</es:userLabel>
+<es:cId>109</es:cId>
+<es:mcc>109</es:mcc>
+<es:mnc>103</es:mnc>
+<es:rncId>34</es:rncId>
+<es:uarfcnUl>58</es:uarfcnUl>
+<es:uarfcnDl>88</es:uarfcnDl>
+<es:primaryScramblingCode>22</es:primaryScramblingCode>
+<es:primaryCpichPower>55</es:primaryCpichPower>
+<es:lac>108</es:lac>
+<es:rac>48</es:rac>
+<es:mncLength>98</es:mncLength>
+<es:parentSystem>37</es:parentSystem>
+<es:individualOffset>27</es:individualOffset>
+<es:maxTxPowerUl>94</es:maxTxPowerUl>
+<es:qQualMin>96</es:qQualMin>
+<es:qRxLevMin>90</es:qRxLevMin>
+<es:agpsEnabled>26</es:agpsEnabled>
+<es:cellCapability>
+<es:hsdschSupport>40</es:hsdschSupport>
+<es:edchSupport>19</es:edchSupport>
+<es:edchTti2Support>38</es:edchTti2Support>
+<es:enhancedL2Support>36</es:enhancedL2Support>
+<es:fdpchSupport>39</es:fdpchSupport>
+<es:multiCarrierSupport>12</es:multiCarrierSupport>
+<es:cpcSupport>24</es:cpcSupport>
+<es:qam64MimoSupport>8</es:qam64MimoSupport>
+</es:cellCapability>
+<es:transmissionScheme>25</es:transmissionScheme>
+<es:srvccCapability>99</es:srvccCapability>
+<es:hsAqmCongCtrlSupport>41</es:hsAqmCongCtrlSupport>
+<es:hsAqmCongCtrlSpiSupport>89</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>109</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>12</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>16</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>103</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>48</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>22</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>106</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>74</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>97</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>64</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>31</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>95</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>46</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>46</es:hsAqmCongCtrlSpiSupport>
+<es:hsAqmCongCtrlSpiSupport>67</es:hsAqmCongCtrlSpiSupport>
+<es:reportingRange1a>33</es:reportingRange1a>
+<es:reportingRange1b>101</es:reportingRange1b>
+<es:timeToTrigger1a>99</es:timeToTrigger1a>
+<es:timeToTrigger1b>83</es:timeToTrigger1b>
+<es:rimCapable>96</es:rimCapable>
+</es:vsDataExternalUtranCell>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="40">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalUtranCellTDD</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalUtranCellTDD>
+<es:ExternalUtranCellTDDId>98</es:ExternalUtranCellTDDId>
+<es:userLabel>34</es:userLabel>
+<es:cId>13</es:cId>
+<es:mcc>68</es:mcc>
+<es:mnc>29</es:mnc>
+<es:rncId>41</es:rncId>
+<es:lac>76</es:lac>
+<es:rac>91</es:rac>
+<es:mncLength>99</es:mncLength>
+<es:parentSystem>92</es:parentSystem>
+<es:arfcnValueUtranDl>97</es:arfcnValueUtranDl>
+<es:rimCapable>40</es:rimCapable>
+<es:physicalCellIdentity>50</es:physicalCellIdentity>
+</es:vsDataExternalUtranCellTDD>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="41">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalUtranPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalUtranPlmn>
+<es:ExternalUtranPlmnId>25</es:ExternalUtranPlmnId>
+<es:userLabel>79</es:userLabel>
+<es:mcc>26</es:mcc>
+<es:mnc>76</es:mnc>
+<es:mncLength>29</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>39</es:mcc>
+<es:mnc>29</es:mnc>
+<es:mncLength>5</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataExternalUtranPlmn>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="42">
+<xn:attributes>
+<xn:vsDataType>vsDataAreas</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAreas>
+<es:AreasId>55</es:AreasId>
+</es:vsDataAreas>
+</xn:attributes>
+<xn:VsDataContainer id="43">
+<xn:attributes>
+<xn:vsDataType>vsDataPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPlmn>
+<es:PlmnId>74</es:PlmnId>
+<es:userLabel>37</es:userLabel>
+<es:mcc>81</es:mcc>
+<es:mnc>38</es:mnc>
+<es:mncLength>13</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>13</es:mcc>
+<es:mnc>14</es:mnc>
+<es:mncLength>7</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataPlmn>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="44">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalViewableNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalViewableNode>
+<es:ExternalViewableNodeId>38</es:ExternalViewableNodeId>
+<es:userLabel>47</es:userLabel>
+</es:vsDataExternalViewableNode>
+</xn:attributes>
+<xn:VsDataContainer id="45">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalTransportNetwork</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalTransportNetwork>
+<es:ExternalTransportNetworkId>73</es:ExternalTransportNetworkId>
+<es:userLabel>42</es:userLabel>
+</es:vsDataExternalTransportNetwork>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="46">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>105</es:ManagementNodeId>
+<es:userLabel>87</es:userLabel>
+<es:vendorName>60</es:vendorName>
+<es:userDefinedState>38</es:userDefinedState>
+<es:locationName>50</es:locationName>
+<es:swVersion>73</es:swVersion>
+<es:manages>10</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="47">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>47</es:IRPAgentId>
+<es:systemDN>100</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+<xn:VsDataContainer id="48">
+<xn:attributes>
+<xn:vsDataType>vsDataBulkCmIRP</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataBulkCmIRP>
+<es:BulkCmIRPId>26</es:BulkCmIRPId>
+<es:irpVersion>103</es:irpVersion>
+</es:vsDataBulkCmIRP>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="49">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalCdma2000FreqBand</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalCdma2000FreqBand>
+<es:ExternalCdma2000FreqBandId>29</es:ExternalCdma2000FreqBandId>
+<es:userLabel>25</es:userLabel>
+<es:hrpdBandClass>15</es:hrpdBandClass>
+</es:vsDataExternalCdma2000FreqBand>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="50">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>32</es:ManagementNodeId>
+<es:userLabel>82</es:userLabel>
+<es:vendorName>30</es:vendorName>
+<es:userDefinedState>11</es:userDefinedState>
+<es:locationName>13</es:locationName>
+<es:swVersion>95</es:swVersion>
+<es:manages>98</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="51">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>29</es:IRPAgentId>
+<es:systemDN>107</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+<xn:VsDataContainer id="52">
+<xn:attributes>
+<xn:vsDataType>vsDataIRATHOMUTRAN</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRATHOMUTRAN>
+<es:IRATHOMUTRANId>22</es:IRATHOMUTRANId>
+<es:interfaceVersion>43</es:interfaceVersion>
+<es:versionInformation>74</es:versionInformation>
+</es:vsDataIRATHOMUTRAN>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="53">
+<xn:attributes>
+<xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataFreqManagement>
+<es:FreqManagementId>11</es:FreqManagementId>
+</es:vsDataFreqManagement>
+</xn:attributes>
+<xn:VsDataContainer id="54">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalUtranFreq</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalUtranFreq>
+<es:ExternalUtranFreqId>29</es:ExternalUtranFreqId>
+<es:userLabel>18</es:userLabel>
+<es:arfcnValueUtranDl>86</es:arfcnValueUtranDl>
+</es:vsDataExternalUtranFreq>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="55">
+<xn:attributes>
+<xn:vsDataType>vsDataAreas</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAreas>
+<es:AreasId>43</es:AreasId>
+</es:vsDataAreas>
+</xn:attributes>
+<xn:VsDataContainer id="56">
+<xn:attributes>
+<xn:vsDataType>vsDataPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPlmn>
+<es:PlmnId>23</es:PlmnId>
+<es:userLabel>16</es:userLabel>
+<es:mcc>70</es:mcc>
+<es:mnc>19</es:mnc>
+<es:mncLength>52</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>12</es:mcc>
+<es:mnc>32</es:mnc>
+<es:mncLength>7</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="57">
+<xn:attributes>
+<xn:vsDataType>vsDataMbmsServiceArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataMbmsServiceArea>
+<es:MbmsServiceAreaId>15</es:MbmsServiceAreaId>
+<es:sac>52</es:sac>
+<es:userLabel>24</es:userLabel>
+</es:vsDataMbmsServiceArea>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="58">
+<xn:attributes>
+<xn:vsDataType>vsDataAreas</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAreas>
+<es:AreasId>31</es:AreasId>
+</es:vsDataAreas>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="59">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEUtranPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEUtranPlmn>
+<es:ExternalEUtranPlmnId>15</es:ExternalEUtranPlmnId>
+<es:plmnIdentity>
+<es:mcc>20</es:mcc>
+<es:mnc>1</es:mnc>
+<es:mncLength>43</es:mncLength>
+</es:plmnIdentity>
+<es:userLabel>37</es:userLabel>
+</es:vsDataExternalEUtranPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="60">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalENodeBFunction</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalENodeBFunction>
+<es:ExternalENodeBFunctionId>77</es:ExternalENodeBFunctionId>
+<es:eNodeBPlmnId>
+<es:mcc>24</es:mcc>
+<es:mnc>39</es:mnc>
+<es:mncLength>25</es:mncLength>
+</es:eNodeBPlmnId>
+<es:eNBId>24</es:eNBId>
+<es:userLabel>63</es:userLabel>
+</es:vsDataExternalENodeBFunction>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="61">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>33</es:ManagementNodeId>
+<es:userLabel>102</es:userLabel>
+<es:vendorName>83</es:vendorName>
+<es:userDefinedState>87</es:userDefinedState>
+<es:locationName>44</es:locationName>
+<es:swVersion>43</es:swVersion>
+<es:manages>28</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="62">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>76</es:IRPAgentId>
+<es:systemDN>42</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+<xn:VsDataContainer id="63">
+<xn:attributes>
+<xn:vsDataType>vsDataMimInfo</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataMimInfo>
+<es:MimInfoId>28</es:MimInfoId>
+<es:mimName>70</es:mimName>
+<es:mimVersion>68</es:mimVersion>
+</es:vsDataMimInfo>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="64">
+<xn:attributes>
+<xn:vsDataType>vsDataAreas</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAreas>
+<es:AreasId>103</es:AreasId>
+</es:vsDataAreas>
+</xn:attributes>
+<xn:VsDataContainer id="65">
+<xn:attributes>
+<xn:vsDataType>vsDataPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataPlmn>
+<es:PlmnId>97</es:PlmnId>
+<es:userLabel>47</es:userLabel>
+<es:mcc>79</es:mcc>
+<es:mnc>78</es:mnc>
+<es:mncLength>81</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>44</es:mcc>
+<es:mnc>35</es:mnc>
+<es:mncLength>32</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="66">
+<xn:attributes>
+<xn:vsDataType>vsDataLocationArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataLocationArea>
+<es:LocationAreaId>22</es:LocationAreaId>
+<es:userLabel>46</es:userLabel>
+<es:lac>25</es:lac>
+<es:t3212>17</es:t3212>
+<es:att>107</es:att>
+</es:vsDataLocationArea>
+</xn:attributes>
+<xn:VsDataContainer id="67">
+<xn:attributes>
+<xn:vsDataType>vsDataServiceArea</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataServiceArea>
+<es:ServiceAreaId>36</es:ServiceAreaId>
+<es:userLabel>74</es:userLabel>
+<es:sac>14</es:sac>
+</es:vsDataServiceArea>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="68">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalCdma2000Plmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalCdma2000Plmn>
+<es:ExternalCdma2000PlmnId>68</es:ExternalCdma2000PlmnId>
+<es:userLabel>14</es:userLabel>
+</es:vsDataExternalCdma2000Plmn>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="69">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalGsmPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalGsmPlmn>
+<es:ExternalGsmPlmnId>58</es:ExternalGsmPlmnId>
+<es:userLabel>70</es:userLabel>
+<es:mcc>46</es:mcc>
+<es:mnc>96</es:mnc>
+<es:mncLength>104</es:mncLength>
+<es:aliasPlmnIdentities>
+<es:mcc>1</es:mcc>
+<es:mnc>37</es:mnc>
+<es:mncLength>18</es:mncLength>
+</es:aliasPlmnIdentities>
+</es:vsDataExternalGsmPlmn>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="70">
+<xn:attributes>
+<xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataFreqManagement>
+<es:FreqManagementId>29</es:FreqManagementId>
+</es:vsDataFreqManagement>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="71">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalGsmFreq</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalGsmFreq>
+<es:ExternalGsmFreqId>56</es:ExternalGsmFreqId>
+<es:userLabel>71</es:userLabel>
+<es:arfcnValueGeranDl>56</es:arfcnValueGeranDl>
+<es:bandIndicator>18</es:bandIndicator>
+<es:externalGsmFreqGroupId>14</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>63</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>29</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>106</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>47</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>80</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>15</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>16</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>101</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>88</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>66</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>45</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>82</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>30</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>75</es:externalGsmFreqGroupId>
+<es:externalGsmFreqGroupId>39</es:externalGsmFreqGroupId>
+</es:vsDataExternalGsmFreq>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="72">
+<xn:attributes>
+<xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataFreqManagement>
+<es:FreqManagementId>17</es:FreqManagementId>
+</es:vsDataFreqManagement>
+</xn:attributes>
+<xn:VsDataContainer id="73">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEutranFrequency</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEutranFrequency>
+<es:ExternalEutranFrequencyId>11</es:ExternalEutranFrequencyId>
+<es:userLabel>19</es:userLabel>
+<es:earfcnDl>18</es:earfcnDl>
+</es:vsDataExternalEutranFrequency>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="74">
+<xn:attributes>
+<xn:vsDataType>vsDataTnApplication</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataTnApplication>
+<es:TnApplicationId>94</es:TnApplicationId>
+<es:userLabel>19</es:userLabel>
+</es:vsDataTnApplication>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="75">
+<xn:attributes>
+<xn:vsDataType>vsDataManagementNode</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagementNode>
+<es:ManagementNodeId>86</es:ManagementNodeId>
+<es:userLabel>92</es:userLabel>
+<es:vendorName>104</es:vendorName>
+<es:userDefinedState>24</es:userDefinedState>
+<es:locationName>79</es:locationName>
+<es:swVersion>16</es:swVersion>
+<es:manages>91</es:manages>
+</es:vsDataManagementNode>
+</xn:attributes>
+<xn:VsDataContainer id="76">
+<xn:attributes>
+<xn:vsDataType>vsDataIRPAgent</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataIRPAgent>
+<es:IRPAgentId>20</es:IRPAgentId>
+<es:systemDN>32</es:systemDN>
+</es:vsDataIRPAgent>
+</xn:attributes>
+<xn:VsDataContainer id="77">
+<xn:attributes>
+<xn:vsDataType>vsDataAlarmIRP</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataAlarmIRP>
+<es:AlarmIRPId>34</es:AlarmIRPId>
+<es:irpVersion>36</es:irpVersion>
+</es:vsDataAlarmIRP>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="78">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEUtranPlmn</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEUtranPlmn>
+<es:ExternalEUtranPlmnId>35</es:ExternalEUtranPlmnId>
+<es:plmnIdentity>
+<es:mcc>41</es:mcc>
+<es:mnc>30</es:mnc>
+<es:mncLength>50</es:mncLength>
+</es:plmnIdentity>
+<es:userLabel>43</es:userLabel>
+</es:vsDataExternalEUtranPlmn>
+</xn:attributes>
+<xn:VsDataContainer id="79">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalENodeBFunction</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalENodeBFunction>
+<es:ExternalENodeBFunctionId>44</es:ExternalENodeBFunctionId>
+<es:eNodeBPlmnId>
+<es:mcc>47</es:mcc>
+<es:mnc>49</es:mnc>
+<es:mncLength>8</es:mncLength>
+</es:eNodeBPlmnId>
+<es:eNBId>76</es:eNBId>
+<es:userLabel>59</es:userLabel>
+</es:vsDataExternalENodeBFunction>
+</xn:attributes>
+<xn:VsDataContainer id="80">
+<xn:attributes>
+<xn:vsDataType>vsDataExternalEUtranCellTDD</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataExternalEUtranCellTDD>
+<es:ExternalEUtranCellTDDId>96</es:ExternalEUtranCellTDDId>
+<es:localCellId>79</es:localCellId>
+<es:physicalLayerCellIdGroup>54</es:physicalLayerCellIdGroup>
+<es:physicalLayerSubCellId>33</es:physicalLayerSubCellId>
+<es:tac>42</es:tac>
+<es:earfcn>59</es:earfcn>
+<es:activePlmnList>
+<es:mcc>25</es:mcc>
+<es:mnc>3</es:mnc>
+<es:mncLength>14</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>15</es:mcc>
+<es:mnc>11</es:mnc>
+<es:mncLength>48</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>14</es:mcc>
+<es:mnc>39</es:mnc>
+<es:mncLength>23</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>47</es:mcc>
+<es:mnc>35</es:mnc>
+<es:mncLength>50</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>30</es:mcc>
+<es:mnc>7</es:mnc>
+<es:mncLength>13</es:mncLength>
+</es:activePlmnList>
+<es:activePlmnList>
+<es:mcc>14</es:mcc>
+<es:mnc>50</es:mnc>
+<es:mncLength>30</es:mncLength>
+</es:activePlmnList>
+<es:pciConflict>52</es:pciConflict>
+<es:pciConflict>73</es:pciConflict>
+<es:pciConflict>17</es:pciConflict>
+<es:pciConflict>107</es:pciConflict>
+<es:pciConflict>105</es:pciConflict>
+<es:pciConflictCell>
+<es:enbId>1</es:enbId>
+<es:cellId>27</es:cellId>
+<es:mcc>47</es:mcc>
+<es:mnc>43</es:mnc>
+<es:mncLength>38</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>30</es:enbId>
+<es:cellId>31</es:cellId>
+<es:mcc>36</es:mcc>
+<es:mnc>9</es:mnc>
+<es:mncLength>6</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>40</es:enbId>
+<es:cellId>48</es:cellId>
+<es:mcc>26</es:mcc>
+<es:mnc>14</es:mnc>
+<es:mncLength>33</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>25</es:enbId>
+<es:cellId>17</es:cellId>
+<es:mcc>9</es:mcc>
+<es:mnc>3</es:mnc>
+<es:mncLength>42</es:mncLength>
+</es:pciConflictCell>
+<es:pciConflictCell>
+<es:enbId>32</es:enbId>
+<es:cellId>48</es:cellId>
+<es:mcc>5</es:mcc>
+<es:mnc>37</es:mnc>
+<es:mncLength>43</es:mncLength>
+</es:pciConflictCell>
+<es:pciDetectingCell>
+<es:enbId>16</es:enbId>
+<es:cellId>8</es:cellId>
+<es:mcc>50</es:mcc>
+<es:mnc>12</es:mnc>
+<es:mncLength>12</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>47</es:enbId>
+<es:cellId>28</es:cellId>
+<es:mcc>7</es:mcc>
+<es:mnc>20</es:mnc>
+<es:mncLength>15</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>34</es:enbId>
+<es:cellId>38</es:cellId>
+<es:mcc>8</es:mcc>
+<es:mnc>24</es:mnc>
+<es:mncLength>47</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>22</es:enbId>
+<es:cellId>43</es:cellId>
+<es:mcc>40</es:mcc>
+<es:mnc>4</es:mnc>
+<es:mncLength>40</es:mncLength>
+</es:pciDetectingCell>
+<es:pciDetectingCell>
+<es:enbId>5</es:enbId>
+<es:cellId>7</es:cellId>
+<es:mcc>45</es:mcc>
+<es:mnc>24</es:mnc>
+<es:mncLength>45</es:mncLength>
+</es:pciDetectingCell>
+<es:userLabel>23</es:userLabel>
+</es:vsDataExternalEUtranCellTDD>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="81">
+<xn:attributes>
+<xn:vsDataType>vsDataTnApplication</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataTnApplication>
+<es:TnApplicationId>96</es:TnApplicationId>
+<es:userLabel>25</es:userLabel>
+</es:vsDataTnApplication>
+</xn:attributes>
+<xn:VsDataContainer id="82">
+<xn:attributes>
+<xn:vsDataType>vsDataVirtualPath</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataVirtualPath>
+<es:VirtualPathId>41</es:VirtualPathId>
+<es:userLabel>63</es:userLabel>
+<es:vplTpARef>13</es:vplTpARef>
+<es:vplTpBRef>33</es:vplTpBRef>
+</es:vsDataVirtualPath>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="83">
+<xn:attributes>
+<xn:vsDataType>vsDataLink</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataLink>
+<es:LinkId>65</es:LinkId>
+<es:userLabel>99</es:userLabel>
+<es:linkType>109</es:linkType>
+</es:vsDataLink>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="84">
+<xn:attributes>
+<xn:vsDataType>vsDataFreqManagement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataFreqManagement>
+<es:FreqManagementId>68</es:FreqManagementId>
+</es:vsDataFreqManagement>
+</xn:attributes>
+<xn:VsDataContainer id="85">
+<xn:attributes>
+<xn:vsDataType>vsDataEUtranFrequency</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataEUtranFrequency>
+<es:EUtranFrequencyId>50</es:EUtranFrequencyId>
+<es:userLabel>89</es:userLabel>
+<es:arfcnValueEUtranDl>69</es:arfcnValueEUtranDl>
+</es:vsDataEUtranFrequency>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:ManagedElement>
+</xn:MeContext>
+</xn:SubNetwork>
+</xn:SubNetwork>
+</configData>
+<fileFooter dateTime="2023-11-10T12:05:01Z"/>
+</bulkCmConfigDataFile>

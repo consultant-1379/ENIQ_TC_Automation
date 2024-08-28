@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl" ?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V11.0" vendorName="Ericsson">
+<fileSender elementType="5G_UDM" localDn="CCSM01"/>
+<measCollec beginTime="2023-11-01T10:00:00Z"/>
+</fileHeader>
+<measData>
+<managedElement localDn="CCSM01" swVersion=""/>
+<measInfo measInfoId="eric-hssims">
+<job jobId="eric-hssims-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-hssims-sh-udr-requests-recv</measType>
+<measType p="2">eric-hssims-sh-udr-successful-responses-sent</measType>
+<measType p="3">eric-hssims-sh-udr-unsuccessful-responses-sent</measType>
+<measType p="4">eric-hssims-sh-pur-requests-recv</measType>
+<measType p="5">eric-hssims-sh-pur-successful-responses-sent</measType>
+<measType p="6">eric-hssims-sh-pur-unsuccessful-responses-sent</measType>
+<measType p="7">eric-hssims-sh-snr-requests-recv</measType>
+<measType p="8">eric-hssims-sh-snr-successful-responses-sent</measType>
+<measType p="9">eric-hssims-sh-snr-unsuccessful-responses-sent</measType>
+<measType p="10">eric-hssims-sh-pnr-requests-sent</measType>
+<measType p="11">eric-hssims-sh-pnr-successful-responses-recv</measType>
+<measType p="12">eric-hssims-sh-pnr-unsuccessful-responses-recv</measType>
+<measType p="13">eric-hssims-cx-uar-requests-recv</measType>
+<measType p="14">eric-hssims-cx-uar-successful-responses-sent</measType>
+<measType p="15">eric-hssims-cx-uar-unsuccessful-responses-sent</measType>
+<measType p="16">eric-hssims-cx-mar-requests-recv</measType>
+<measType p="17">eric-hssims-cx-mar-successful-responses-sent</measType>
+<measType p="18">eric-hssims-cx-mar-unsuccessful-responses-sent</measType>
+<measType p="19">eric-hssims-cx-sar-requests-recv</measType>
+<measType p="20">eric-hssims-cx-sar-successful-responses-sent</measType>
+<measType p="21">eric-hssims-cx-sar-unsuccessful-responses-sent</measType>
+<measType p="22">eric-hssims-cx-lir-requests-recv</measType>
+<measType p="23">eric-hssims-cx-lir-successful-responses-sent</measType>
+<measType p="24">eric-hssims-cx-lir-unsuccessful-responses-sent</measType>
+<measType p="25">eric-hssims-cx-rtr-requests-sent</measType>
+<measType p="26">eric-hssims-cx-rtr-successful-responses-recv</measType>
+<measType p="27">eric-hssims-cx-rtr-unsuccessful-responses-recv</measType>
+<measType p="28">eric-hssims-cx-ppr-requests-sent</measType>
+<measType p="29">eric-hssims-cx-ppr-successful-responses-recv</measType>
+<measType p="30">eric-hssims-cx-ppr-unsuccessful-responses-recv</measType>
+<measType p="31">eric-hssims-eda-notify-requests-recv</measType>
+<measType p="32">eric-hssims-eda-notify-successful-responses-sent</measType>
+<measType p="33">eric-hssims-eda-notify-unsuccessful-responses-sent</measType>
+<measType p="34">eric-hssims-ncudr-gud-dr-requests-sent</measType>
+<measType p="35">eric-hssims-ncudr-gud-dr-successful-responses-recv</measType>
+<measType p="36">eric-hssims-ncudr-gud-dr-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-hssims=1">
+<r p="1">49</r>
+<r p="2">81</r>
+<r p="3">34</r>
+<r p="4">45</r>
+<r p="5">72</r>
+<r p="6">59</r>
+<r p="7">88</r>
+<r p="8">66</r>
+<r p="9">9</r>
+<r p="10">68</r>
+<r p="11">49</r>
+<r p="12">35</r>
+<r p="13">36</r>
+<r p="14">1</r>
+<r p="15">31</r>
+<r p="16">84</r>
+<r p="17">72</r>
+<r p="18">6</r>
+<r p="19">79</r>
+<r p="20">99</r>
+<r p="21">2</r>
+<r p="22">41</r>
+<r p="23">99</r>
+<r p="24">19</r>
+<r p="25">8</r>
+<r p="26">12</r>
+<r p="27">57</r>
+<r p="28">55</r>
+<r p="29">25</r>
+<r p="30">59</r>
+<r p="31">48</r>
+<r p="32">74</r>
+<r p="33">74</r>
+<r p="34">18</r>
+<r p="35">72</r>
+<r p="36">18</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-smsorch-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-smsorch-requests-recv</measType>
+<measType p="2">eric-ccsm-smsorch-successful-responses-sent</measType>
+<measType p="3">eric-ccsm-smsorch-unsuccessful-responses-sent</measType>
+<measType p="4">eric-ccsm-smsorch-srism-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-ccsm-smsorch-rsds-overload-unsuccessful-ratio</measType>
+<measType p="6">eric-ccsm-smsorch-alertscout-overload-unsuccessful-ratio</measType>
+<measType p="7">eric-ccsm-smsorch-readyforsm-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-ccsm-smsorch-alertscin-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-ccsm-smsorch-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-smsorch-group=1">
+<r p="1">65</r>
+<r p="2">73</r>
+<r p="3">66</r>
+<r p="4">42</r>
+<r p="5">48</r>
+<r p="6">79</r>
+<r p="7">18</r>
+<r p="8">95</r>
+<r p="9">24</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-hss-epc">
+<job jobId="eric-hss-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-hss-s6a-air-requests-recv</measType>
+<measType p="2">eric-hss-s6a-air-successful-responses-sent</measType>
+<measType p="3">eric-hss-s6a-air-unsuccessful-responses-sent</measType>
+<measType p="4">eric-hss-s6a-ulr-requests-recv</measType>
+<measType p="5">eric-hss-s6a-ulr-successful-responses-sent</measType>
+<measType p="6">eric-hss-s6a-ulr-unsuccessful-responses-sent</measType>
+<measType p="7">eric-hss-s6a-nor-requests-recv</measType>
+<measType p="8">eric-hss-s6a-nor-successful-responses-sent</measType>
+<measType p="9">eric-hss-s6a-nor-unsuccessful-responses-sent</measType>
+<measType p="10">eric-hss-s6a-pur-requests-recv</measType>
+<measType p="11">eric-hss-s6a-pur-successful-responses-sent</measType>
+<measType p="12">eric-hss-s6a-pur-unsuccessful-responses-sent</measType>
+<measType p="13">eric-hss-s6a-idr-requests-sent</measType>
+<measType p="14">eric-hss-s6a-idr-successful-responses-recv</measType>
+<measType p="15">eric-hss-s6a-idr-unsuccessful-responses-recv</measType>
+<measType p="16">eric-hss-s6a-dsr-requests-sent</measType>
+<measType p="17">eric-hss-s6a-dsr-successful-responses-recv</measType>
+<measType p="18">eric-hss-s6a-dsr-unsuccessful-responses-recv</measType>
+<measType p="19">eric-hss-s6a-clr-requests-sent</measType>
+<measType p="20">eric-hss-s6a-clr-successful-responses-recv</measType>
+<measType p="21">eric-hss-s6a-clr-unsuccessful-responses-recv</measType>
+<measType p="22">eric-hssepc-eda-notify-requests-recv</measType>
+<measType p="23">eric-hssepc-eda-notify-successful-responses-sent</measType>
+<measType p="24">eric-hssepc-eda-notify-unsuccessful-responses-sent</measType>
+<measType p="25">eric-hssepc-ncudr-gud-dr-requests-sent</measType>
+<measType p="26">eric-hssepc-ncudr-gud-dr-successful-responses-recv</measType>
+<measType p="27">eric-hssepc-ncudr-gud-dr-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-hss-epc=1">
+<r p="1">32</r>
+<r p="2">46</r>
+<r p="3">35</r>
+<r p="4">19</r>
+<r p="5">56</r>
+<r p="6">83</r>
+<r p="7">81</r>
+<r p="8">49</r>
+<r p="9">39</r>
+<r p="10">20</r>
+<r p="11">40</r>
+<r p="12">53</r>
+<r p="13">69</r>
+<r p="14">40</r>
+<r p="15">52</r>
+<r p="16">26</r>
+<r p="17">25</r>
+<r p="18">77</r>
+<r p="19">3</r>
+<r p="20">2</r>
+<r p="21">24</r>
+<r p="22">78</r>
+<r p="23">76</r>
+<r p="24">63</r>
+<r p="25">6</r>
+<r p="26">58</r>
+<r p="27">94</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-tc-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-tc-component-primitive-recv</measType>
+<measType p="2">eric-ccsm-tc-component-primitive-sent</measType>
+<measType p="3">eric-ccsm-tc-dialogue-primitive-recv</measType>
+<measType p="4">eric-ccsm-tc-dialogue-primitive-sent</measType>
+<measType p="5">eric-ccsm-tc-dialogue-primitive-sent-overload-ratio</measType>
+<measValue measObjLdn="eric-ccsm-tc-group=1">
+<r p="1">13</r>
+<r p="2">76</r>
+<r p="3">87</r>
+<r p="4">13</r>
+<r p="5">18</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-eir-diameter-eir-eic">
+<job jobId="eric-eir-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-eir-diameter-eir-eic-requests-recv</measType>
+<measType p="2">eric-eir-diameter-eir-eic-successful-responses-sent</measType>
+<measType p="3">eric-eir-diameter-eir-eic-unsuccessful-responses-sent</measType>
+<measType p="4">eric-eir-diameter-eir-eic-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-eir-diameter-eir-eic=1">
+<r p="1">68</r>
+<r p="2">94</r>
+<r p="3">98</r>
+<r p="4">67</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-5g-eir-equipmentcheck-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-5g-eir-equipmentcheck-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-5g-eir-equipmentcheck-group=1">
+<r p="1">94</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nhss-uecm">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nhss-uecm-requests-sent</measType>
+<measType p="2">eric-udm-nhss-uecm-successful-responses-recv</measType>
+<measType p="3">eric-udm-nhss-uecm-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-nhss-uecm=1">
+<r p="1">65</r>
+<r p="2">51</r>
+<r p="3">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-ueau">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-ueau-requests-recv</measType>
+<measType p="2">eric-udm-nudm-ueau-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-ueau-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-ueau-generateauth-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-udm-nudm-ueau-overload-unsuccessful-ratio</measType>
+<measType p="6">eric-udm-nudm-ueau-generatehsseapakaauth-overload-unsuccessful-ratio</measType>
+<measType p="7">eric-udm-nudm-ueau-generatehsseapakaprimeauth-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-udm-nudm-ueau-generatehssepsakaauth-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-udm-nudm-ueau-generatehssgbaakaauth-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-udm-nudm-ueau-generatehssimsakaauth-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-ueau=1">
+<r p="1">71</r>
+<r p="2">55</r>
+<r p="3">27</r>
+<r p="4">49</r>
+<r p="5">5</r>
+<r p="6">31</r>
+<r p="7">4</r>
+<r p="8">61</r>
+<r p="9">79</r>
+<r p="10">6</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-disc-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-disc-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-disc-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-disc-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrfagent-nnrf-disc-group=1">
+<r p="1">78</r>
+<r p="2">26</r>
+<r p="3">63</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-eir-n5g-eir-eic">
+<job jobId="eric-eir-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-eir-n5g-eir-eic-requests-recv</measType>
+<measType p="2">eric-eir-n5g-eir-eic-successful-responses-sent</measType>
+<measType p="3">eric-eir-n5g-eir-eic-unsuccessful-responses-sent</measType>
+<measType p="4">eric-eir-n5g-eir-eic-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-eir-n5g-eir-eic-unauthorized-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-eir-n5g-eir-eic=1">
+<r p="1">52</r>
+<r p="2">76</r>
+<r p="3">85</r>
+<r p="4">44</r>
+<r p="5">89</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-namf-evts">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-namf-evts-requests-sent</measType>
+<measType p="2">eric-udm-namf-evts-successful-responses-recv</measType>
+<measType p="3">eric-udm-namf-evts-unsuccessful-responses-recv</measType>
+<measType p="4">eric-udm-namf-evts-requests-recv</measType>
+<measType p="5">eric-udm-namf-evts-successful-responses-sent</measType>
+<measType p="6">eric-udm-namf-evts-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-udm-namf-evts=1">
+<r p="1">57</r>
+<r p="2">98</r>
+<r p="3">63</r>
+<r p="4">24</r>
+<r p="5">64</r>
+<r p="6">2</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-namf-mt">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-namf-mt-requests-sent</measType>
+<measType p="2">eric-udm-namf-mt-successful-responses-recv</measType>
+<measType p="3">eric-udm-namf-mt-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-namf-mt=1">
+<r p="1">0</r>
+<r p="2">89</r>
+<r p="3">32</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-eir-map-eir-eic">
+<job jobId="eric-eir-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-eir-map-eir-eic-requests-recv</measType>
+<measType p="2">eric-eir-map-eir-eic-successful-responses-sent</measType>
+<measType p="3">eric-eir-map-eir-eic-unsuccessful-responses-sent</measType>
+<measType p="4">eric-eir-map-eir-eic-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-eir-map-eir-eic=1">
+<r p="1">28</r>
+<r p="2">87</r>
+<r p="3">57</r>
+<r p="4">48</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-udm-ueregistration-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-udm-ueregistration-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-udm-ueregistration-group=1">
+<r p="1">5</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-udm-authentication-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-udm-authentication-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-ccsm-aspect-udm-hssauthenticationservice-overload-unsuccessful-ratio</measType>
+<measType p="3">eric-ccsm-aspect-udm-3gauthenticationservice-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-udm-authentication-group=1">
+<r p="1">52</r>
+<r p="2">40</r>
+<r p="3">29</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-eir-common-features-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-eir-common-features-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-eir-common-features-group=1">
+<r p="1">79</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-voice-uecm">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-voice-uecm-requests-recv</measType>
+<measType p="2">eric-udm-nudm-voice-uecm-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-voice-uecm-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-voice-uecm-pcscfrestoration-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-udm-nudm-voice-uecm-getcontextdata-overload-unsuccessful-ratio</measType>
+<measType p="6">eric-udm-nudm-voice-uecm-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-voice-uecm=1">
+<r p="1">62</r>
+<r p="2">61</r>
+<r p="3">96</r>
+<r p="4">75</r>
+<r p="5">63</r>
+<r p="6">85</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudr-dr">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudr-dr-requests-sent</measType>
+<measType p="2">eric-udm-nudr-dr-successful-responses-recv</measType>
+<measType p="3">eric-udm-nudr-dr-unsuccessful-responses-recv</measType>
+<measType p="4">eric-udm-nudr-dr-requests-recv</measType>
+<measType p="5">eric-udm-nudr-dr-successful-responses-sent</measType>
+<measType p="6">eric-udm-nudr-dr-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-udm-nudr-dr=1">
+<r p="1">46</r>
+<r p="2">22</r>
+<r p="3">64</r>
+<r p="4">29</r>
+<r p="5">90</r>
+<r p="6">93</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-eir-eda">
+<job jobId="eric-eir-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-eir-eda-requests-sent</measType>
+<measType p="2">eric-eir-eda-successful-responses-recv</measType>
+<measType p="3">eric-eir-eda-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-eir-eda=1">
+<r p="1">80</r>
+<r p="2">2</r>
+<r p="3">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-aspect-mtsms-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-mtsms-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-aspect-mtsms-group=1">
+<r p="1">73</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nact-autoprov">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nact-autoprov-requests-sent</measType>
+<measType p="2">eric-udm-nact-autoprov-successful-responses-recv</measType>
+<measType p="3">eric-udm-nact-autoprov-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-nact-autoprov=1">
+<r p="1">92</r>
+<r p="2">67</r>
+<r p="3">34</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-map-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-map-requests-recv</measType>
+<measType p="2">eric-ccsm-map-successful-responses-sent</measType>
+<measType p="3">eric-ccsm-map-unsuccessful-responses-sent</measType>
+<measType p="4">eric-ccsm-map-requests-sent</measType>
+<measType p="5">eric-ccsm-map-successful-responses-recv</measType>
+<measType p="6">eric-ccsm-map-unsuccessful-responses-recv</measType>
+<measType p="7">eric-ccsm-map-requests-unsent</measType>
+<measType p="8">eric-ccsm-map-outgoing-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-ccsm-map-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-map-group=1">
+<r p="1">40</r>
+<r p="2">35</r>
+<r p="3">45</r>
+<r p="4">14</r>
+<r p="5">83</r>
+<r p="6">6</r>
+<r p="7">20</r>
+<r p="8">7</r>
+<r p="9">99</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-discovery-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="4">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="6">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="7">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="8">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="9">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="10">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="11">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="12">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="13">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="14">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="15">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrfagent-discovery-last-update-ratio-group=1">
+<r p="1">31</r>
+<r p="2">74</r>
+<r p="3">76</r>
+<r p="4">94</r>
+<r p="5">3</r>
+<r p="6">75</r>
+<r p="7">85</r>
+<r p="8">10</r>
+<r p="9">90</r>
+<r p="10">69</r>
+<r p="11">34</r>
+<r p="12">26</r>
+<r p="13">54</r>
+<r p="14">72</r>
+<r p="15">25</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-common-system-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-common-system-cpu-usage-ratio</measType>
+<measType p="2">eric-ccsm-common-system-memory-usage-ratio</measType>
+<measType p="3">eric-ccsm-bro-scheduled-operation-error</measType>
+<measValue measObjLdn="eric-ccsm-common-system-group=1">
+<r p="1">33</r>
+<r p="2">26</r>
+<r p="3">58</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-hssepc-s6a-overload-check-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-hss-s6a-air-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-hss-s6a-ulr-overload-unsuccessful-ratio</measType>
+<measType p="3">eric-hss-s6a-nor-overload-unsuccessful-ratio</measType>
+<measType p="4">eric-hss-s6a-pur-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-hss-s6a-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-hssepc-s6a-overload-check-group=1">
+<r p="1">23</r>
+<r p="2">70</r>
+<r p="3">61</r>
+<r p="4">26</r>
+<r p="5">94</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-register-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="7">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="9">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="10">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrfagent-register-last-update-ratio-group=1">
+<r p="1">16</r>
+<r p="2">63</r>
+<r p="3">87</r>
+<r p="4">30</r>
+<r p="5">79</r>
+<r p="6">78</r>
+<r p="7">53</r>
+<r p="8">91</r>
+<r p="9">77</r>
+<r p="10">19</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-irat4g5g">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-irat4g5g-requests-recv</measType>
+<measType p="2">eric-udm-nudm-irat4g5g-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-irat4g5g-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-irat4g5g-cancel5gloc-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-udm-nudm-irat4g5g-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-irat4g5g=1">
+<r p="1">35</r>
+<r p="2">29</r>
+<r p="3">12</r>
+<r p="4">15</r>
+<r p="5">55</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-pvc-high-usage-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-elasticsearch-pvc-volume-stats-used-ratio</measType>
+<measType p="2">eric-ccsm-pms-pvc-volume-stats-used-ratio</measType>
+<measType p="3">eric-ccsm-pmbr-pvc-volume-stats-used-ratio</measType>
+<measValue measObjLdn="eric-ccsm-pvc-high-usage-group=1">
+<r p="1">81</r>
+<r p="2">59</r>
+<r p="3">28</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-eir-httpnotifier">
+<job jobId="eric-eir-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-eir-httpnotifier-notifications-sent</measType>
+<measType p="2">eric-eir-httpnotifier-successful-responses-recv</measType>
+<measType p="3">eric-eir-httpnotifier-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-eir-httpnotifier=1">
+<r p="1">36</r>
+<r p="2">67</r>
+<r p="3">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-mtsms">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-mtsms-requests-recv</measType>
+<measType p="2">eric-udm-nudm-mtsms-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-mtsms-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-mtsms-requests-sent</measType>
+<measType p="5">eric-udm-nudm-mtsms-successful-responses-recv</measType>
+<measType p="6">eric-udm-nudm-mtsms-unsuccessful-responses-recv</measType>
+<measType p="7">eric-udm-nudm-mtsms-routinginfo-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-udm-nudm-mtsms-deliverystatus-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-udm-nudm-mtsms-readystatus-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-udm-nudm-mtsms-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-mtsms=1">
+<r p="1">25</r>
+<r p="2">2</r>
+<r p="3">59</r>
+<r p="4">94</r>
+<r p="5">57</r>
+<r p="6">59</r>
+<r p="7">23</r>
+<r p="8">99</r>
+<r p="9">31</r>
+<r p="10">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-udr-notify">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-udr-notify-requests-recv</measType>
+<measType p="2">eric-udm-udr-notify-successful-responses-sent</measType>
+<measType p="3">eric-udm-udr-notify-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-udr-notify-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-udr-notify=1">
+<r p="1">96</r>
+<r p="2">1</r>
+<r p="3">58</r>
+<r p="4">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-udm-eventexposure-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-udm-eventexposure-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-udm-eventexposure-group=1">
+<r p="1">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-hssims-sh-overload-check-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-hssims-sh-udr-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-hssims-sh-pur-overload-unsuccessful-ratio</measType>
+<measType p="3">eric-hssims-sh-snr-overload-unsuccessful-ratio</measType>
+<measType p="4">eric-hssims-sh-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-hssims-sh-overload-check-group=1">
+<r p="1">49</r>
+<r p="2">55</r>
+<r p="3">32</r>
+<r p="4">36</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-oauth2-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-oauth2-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-oauth2-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-oauth2-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrfagent-nnrf-oauth2-group=1">
+<r p="1">7</r>
+<r p="2">46</r>
+<r p="3">15</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ausf-nausf-auth-group">
+<job jobId="eric-ausf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ausf-nausf-auth-requests-recv</measType>
+<measType p="2">eric-ausf-nausf-auth-successful-responses-sent</measType>
+<measType p="3">eric-ausf-nausf-auth-unsuccessful-responses-sent</measType>
+<measType p="4">eric-ausf-nausf-auth-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-ausf-nausf-auth-unauthorized-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ausf-nausf-auth-group=1">
+<r p="1">64</r>
+<r p="2">46</r>
+<r p="3">45</r>
+<r p="4">57</r>
+<r p="5">56</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-uecm">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-uecm-requests-recv</measType>
+<measType p="2">eric-udm-nudm-uecm-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-uecm-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-uecm-requests-sent</measType>
+<measType p="5">eric-udm-nudm-uecm-successful-responses-recv</measType>
+<measType p="6">eric-udm-nudm-uecm-unsuccessful-responses-recv</measType>
+<measType p="7">eric-udm-nudm-uecm-smfreg-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-udm-nudm-uecm-smfdereg-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-udm-nudm-uecm-amfreg-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-udm-nudm-uecm-amfregupdate-overload-unsuccessful-ratio</measType>
+<measType p="11">eric-udm-nudm-uecm-amfget-overload-unsuccessful-ratio</measType>
+<measType p="12">eric-udm-nudm-uecm-smsfreg-overload-unsuccessful-ratio</measType>
+<measType p="13">eric-udm-nudm-uecm-smsfdereg-overload-unsuccessful-ratio</measType>
+<measType p="14">eric-udm-nudm-uecm-smsfregget-overload-unsuccessful-ratio</measType>
+<measType p="15">eric-udm-nudm-uecm-pcscfrestnotif-overload-unsuccessful-ratio</measType>
+<measType p="16">eric-udm-nudm-uecm-amfdereg-overload-unsuccessful-ratio</measType>
+<measType p="17">eric-udm-nudm-uecm-overload-unsuccessful-ratio</measType>
+<measType p="18">eric-udm-nudm-uecm-unauthorized-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-uecm=1">
+<r p="1">45</r>
+<r p="2">10</r>
+<r p="3">27</r>
+<r p="4">3</r>
+<r p="5">9</r>
+<r p="6">19</r>
+<r p="7">39</r>
+<r p="8">8</r>
+<r p="9">94</r>
+<r p="10">75</r>
+<r p="11">4</r>
+<r p="12">82</r>
+<r p="13">90</r>
+<r p="14">73</r>
+<r p="15">92</r>
+<r p="16">91</r>
+<r p="17">49</r>
+<r p="18">95</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-accesstoken-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrfagent-accesstoken-last-update-ratio-group=1">
+<r p="1">86</r>
+<r p="2">33</r>
+<r p="3">57</r>
+<r p="4">22</r>
+<r p="5">67</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-hsm">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-hsm-successful-responses-recv</measType>
+<measType p="2">eric-udm-hsm-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-hsm=1">
+<r p="1">31</r>
+<r p="2">39</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-eir-map-equipmentcheck-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-eir-map-equipmentcheck-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-eir-map-equipmentcheck-group=1">
+<r p="1">35</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-udm-nudrnotifications-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-udm-nudrnotifications-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-udm-nudrnotifications-group=1">
+<r p="1">87</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-eir-diameter-equipmentcheck-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-eir-diameter-equipmentcheck-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-eir-diameter-equipmentcheck-group=1">
+<r p="1">78</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-udm-pdusessionmngmt-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-udm-pdusessionmngmt-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-udm-pdusessionmngmt-group=1">
+<r p="1">58</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-ausf-authentication-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-ausf-authentication-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-ausf-authentication-group=1">
+<r p="1">53</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-nfm-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-nfm-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-nfm-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-nfm-unsuccessful-responses-recv</measType>
+<measType p="4">eric-nrfagent-nnrf-nfm-requests-recv</measType>
+<measType p="5">eric-nrfagent-nnrf-nfm-successful-response-sent</measType>
+<measType p="6">eric-nrfagent-nnrf-nfm-unsuccessful-response-sent</measType>
+<measValue measObjLdn="eric-nrfagent-nnrf-nfm-group=1">
+<r p="1">77</r>
+<r p="2">75</r>
+<r p="3">32</r>
+<r p="4">67</r>
+<r p="5">21</r>
+<r p="6">89</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-umts-ueau">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-umts-ueau-requests-recv</measType>
+<measType p="2">eric-udm-umts-ueau-successful-responses-sent</measType>
+<measType p="3">eric-udm-umts-ueau-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-umts-ueau-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-umts-ueau=1">
+<r p="1">85</r>
+<r p="2">39</r>
+<r p="3">80</r>
+<r p="4">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nhss-irat4g5g">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nhss-irat4g5g-requests-sent</measType>
+<measType p="2">eric-udm-nhss-irat4g5g-successful-responses-recv</measType>
+<measType p="3">eric-udm-nhss-irat4g5g-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-nhss-irat4g5g=1">
+<r p="1">98</r>
+<r p="2">0</r>
+<r p="3">59</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-udm-applicationservices-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccsm-aspect-udm-applicationservices-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-udm-applicationservices-group=1">
+<r p="1">39</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-eir-ncudr-gud-dr">
+<job jobId="eric-eir-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-eir-ncudr-gud-dr-requests-sent</measType>
+<measType p="2">eric-eir-ncudr-gud-dr-successful-responses-recv</measType>
+<measType p="3">eric-eir-ncudr-gud-dr-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-eir-ncudr-gud-dr=1">
+<r p="1">55</r>
+<r p="2">33</r>
+<r p="3">67</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nact-oauth2">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nact-oauth2-requests-sent</measType>
+<measType p="2">eric-udm-nact-oauth2-successful-responses-recv</measType>
+<measType p="3">eric-udm-nact-oauth2-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-nact-oauth2=1">
+<r p="1">74</r>
+<r p="2">13</r>
+<r p="3">2</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-discovery-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-discovery-requests-recv</measType>
+<measType p="2">eric-nrfagent-discovery-successful-responses-sent</measType>
+<measType p="3">eric-nrfagent-discovery-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-nrfagent-discovery-group=1">
+<r p="1">49</r>
+<r p="2">90</r>
+<r p="3">73</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-sdm">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-sdm-requests-recv</measType>
+<measType p="2">eric-udm-nudm-sdm-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-sdm-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-sdm-requests-sent</measType>
+<measType p="5">eric-udm-nudm-sdm-successful-responses-recv</measType>
+<measType p="6">eric-udm-nudm-sdm-unsuccessful-responses-recv</measType>
+<measType p="7">eric-udm-nudm-sdm-amdata-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-udm-nudm-sdm-smfselectdata-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-udm-nudm-sdm-smdata-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-udm-nudm-sdm-uectxtsmfdata-overload-unsuccessful-ratio</measType>
+<measType p="11">eric-udm-nudm-sdm-subscriptions-overload-unsuccessful-ratio</measType>
+<measType p="12">eric-udm-nudm-sdm-nssai-overload-unsuccessful-ratio</measType>
+<measType p="13">eric-udm-nudm-sdm-multipledataset-overload-unsuccessful-ratio</measType>
+<measType p="14">eric-udm-nudm-sdm-notify-overload-unsuccessful-ratio</measType>
+<measType p="15">eric-udm-nudm-sdm-smssubdata-overload-unsuccessful-ratio</measType>
+<measType p="16">eric-udm-nudm-sdm-smsmngdata-overload-unsuccessful-ratio</measType>
+<measType p="17">eric-udm-nudm-sdm-uecsmsf-overload-unsuccessful-ratio</measType>
+<measType p="18">eric-udm-nudm-sdm-overload-unsuccessful-ratio</measType>
+<measType p="19">eric-udm-nudm-sdm-unauthorized-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-sdm=1">
+<r p="1">13</r>
+<r p="2">91</r>
+<r p="3">22</r>
+<r p="4">31</r>
+<r p="5">6</r>
+<r p="6">87</r>
+<r p="7">13</r>
+<r p="8">34</r>
+<r p="9">94</r>
+<r p="10">46</r>
+<r p="11">59</r>
+<r p="12">48</r>
+<r p="13">92</r>
+<r p="14">29</r>
+<r p="15">53</r>
+<r p="16">8</r>
+<r p="17">93</r>
+<r p="18">95</r>
+<r p="19">46</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-mt">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-mt-requests-recv</measType>
+<measType p="2">eric-udm-nudm-mt-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-mt-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-mt-ueinfo-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-udm-nudm-mt-location-overload-unsuccessful-ratio</measType>
+<measType p="6">eric-udm-nudm-mt-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-mt=1">
+<r p="1">45</r>
+<r p="2">86</r>
+<r p="3">64</r>
+<r p="4">82</r>
+<r p="5">81</r>
+<r p="6">26</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ausf-nudm-ueau-group">
+<job jobId="eric-ausf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ausf-nudm-ueau-requests-sent</measType>
+<measType p="2">eric-ausf-nudm-ueau-successful-responses-recv</measType>
+<measType p="3">eric-ausf-nudm-ueau-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-ausf-nudm-ueau-group=1">
+<r p="1">77</r>
+<r p="2">57</r>
+<r p="3">89</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-nudm-ee">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-nudm-ee-requests-recv</measType>
+<measType p="2">eric-udm-nudm-ee-successful-responses-sent</measType>
+<measType p="3">eric-udm-nudm-ee-unsuccessful-responses-sent</measType>
+<measType p="4">eric-udm-nudm-ee-unsubscribe-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-udm-nudm-ee-subscribe-overload-unsuccessful-ratio</measType>
+<measType p="6">eric-udm-nudm-ee-amfnotification-overload-unsuccessful-ratio</measType>
+<measType p="7">eric-udm-nudm-ee-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-udm-nudm-ee-unauthorized-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-udm-nudm-ee=1">
+<r p="1">30</r>
+<r p="2">1</r>
+<r p="3">91</r>
+<r p="4">63</r>
+<r p="5">71</r>
+<r p="6">64</r>
+<r p="7">33</r>
+<r p="8">99</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-udm-namf-loc">
+<job jobId="eric-udm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-udm-namf-loc-requests-sent</measType>
+<measType p="2">eric-udm-namf-loc-successful-responses-recv</measType>
+<measType p="3">eric-udm-namf-loc-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-udm-namf-loc=1">
+<r p="1">6</r>
+<r p="2">37</r>
+<r p="3">16</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccsm-hssims-cx-overload-check-group">
+<job jobId="eric-ccsm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-01T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-hssims-cx-uar-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-hssims-cx-mar-overload-unsuccessful-ratio</measType>
+<measType p="3">eric-hssims-cx-sar-overload-unsuccessful-ratio</measType>
+<measType p="4">eric-hssims-cx-lir-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-hssims-cx-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-ccsm-hssims-cx-overload-check-group=1">
+<r p="1">88</r>
+<r p="2">25</r>
+<r p="3">45</r>
+<r p="4">60</r>
+<r p="5">46</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-01T10:15:00Z"/>
+</fileFooter>
+</measCollecFile>

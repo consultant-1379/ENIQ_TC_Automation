@@ -1,0 +1,103 @@
+{
+   
+	"MTAS1": {
+        "System_area" : "Core",
+        "Node_type" : "MTAS",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "MTAS01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "VtasMmtInitCallAttempt.DC_E_MTAS_VTASMMT",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "VtasMmtInitCallAttempt",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "MTAS_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "VtasMmtInitCallAttempt"
+    },
+	
+	"SC1": {
+        "System_area" : "Core",
+        "Node_type" : "SC",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "SC01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "eric_sctp_packets_checksum_errors_total.DC_E_SC_SCTP",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "eric_sctp_packets_checksum_errors_total",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "SC_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "eric_sctp_packets_checksum_errors_total.DC_E_SC_SCTP"
+    },
+	
+	"SC2": {
+        "System_area" : "Core",
+        "Node_type" : "SC",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "SC02",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "database_server_storage_filesystem_usable_bytes.DC_E_SC_SCDIAMETERDATABASESERVER",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "database_server_storage_filesystem_usable_bytes",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "SC_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "database_server_storage_filesystem_usable_bytes.DC_E_SC_SCDIAMETERDATABASESERVER"
+    },
+	
+	
+	"SGSN_MME1": {
+        "System_area" : "Core",
+        "Node_type" : "SGSN-MME",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "SGSN_MME01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "VS.SMF.EbiAssignmentResponseSent.5GS.DC_E_SGSNMME_AMF_SMF",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "VS.SMF.EbiAssignmentResponseSent.5GS",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "SGSN_MME_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "VS.SMF.EbiAssignmentResponseSent.5GS.DC_E_SGSNMME_AMF_SMF"
+    },
+	
+	"SGSN_MME2": {
+        "System_area" : "Core",
+        "Node_type" : "SGSN-MME",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "SGSN_MME02",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "VS.MM.NbrConnectedeNodeB.E.DC_E_SGSNMME_MOBILITY_MM_E",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "VS.MM.NbrConnectedeNodeB.E",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "SGSN_MME_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "VS.MM.NbrConnectedeNodeB.E.DC_E_SGSNMME_MOBILITY_MM_E"
+    }
+	
+	
+	
+
+    
+}

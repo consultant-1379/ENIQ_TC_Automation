@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=5G05SC01,ManagedElement=5G05SC01,MeContext=5G05SC01" mimName="ScTop" lastModified="1699295880069">
+	<attr name="timestampOfChange">2023-11-06 18:38:00.088</attr>
+ <attr name="userLabel">5G05SC01</attr>
+ <attr name="managedElementType">SC</attr>
+ <attr name="managedElementId">5G05SC01</attr>
+ <attr name="nodeVersion">1.12</attr>
+ </mo>
+</model>

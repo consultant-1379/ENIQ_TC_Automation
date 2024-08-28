@@ -1,0 +1,1 @@
+	1	MGw01	1	MGw01		MGw01	CXP9018138/2_R214A04	1	0	ManagedElement=1,TransportNetwork=1,Mtp3bSpTtc=1,Mtp3bSrs=1,Mtp3bSr=1	1	eniq_oss_1	MGw01		2023-11-05	2023	11	5	10	2023-11-05 10:00:00	0	15MIN	29882	0	15		NDP 6.16.0	eniq_oss_1	+0200		2023-11-05 08:00:00	17	

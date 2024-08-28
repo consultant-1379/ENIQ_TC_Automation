@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="REDSUBSjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NRSUBSCNT1.actual</measType>
+         <measType p="1">NRSUBSCNT2.actual</measType>
+         <measType p="2">NRSUBSCNT3.actual</measType>
+         <measType p="3">NRSUBSCNT4.actual</measType>
+         <measType p="4">NRSUBSCNT5.actual</measType>
+         <measType p="5">NRSUBSCNT6.actual</measType>
+         <measType p="6">NRSUBSCNT7.actual</measType>
+         <measType p="7">NRSUBSCNT8.actual</measType>
+         <measType p="8">NRSUBSCNT9.actual</measType>
+         <measType p="9">NRSUBSCNT10.actual</measType>
+         <measType p="10">NRSUBSCNT11.actual</measType>
+         <measType p="11">NRSUBSCNT12.actual</measType>
+         <measType p="12">NRSUBSCNT13.actual</measType>
+         <measType p="13">NRSUBSCNT14.actual</measType>
+         <measType p="14">NRSUBSCNT15.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5734868</r>
+             <r p="1">5794185</r>
+             <r p="2">5740120</r>
+             <r p="3">5812993</r>
+             <r p="4">5823630</r>
+             <r p="5">5818708</r>
+             <r p="6">5774189</r>
+             <r p="7">5835514</r>
+             <r p="8">5781921</r>
+             <r p="9">5812156</r>
+             <r p="10">5736978</r>
+             <r p="11">5732955</r>
+             <r p="12">5768712</r>
+             <r p="13">5812878</r>
+             <r p="14">5825587</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

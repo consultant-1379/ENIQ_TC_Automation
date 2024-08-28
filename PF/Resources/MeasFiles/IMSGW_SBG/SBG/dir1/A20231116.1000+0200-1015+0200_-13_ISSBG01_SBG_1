@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=IsNetwork,IsSite=ISSBG01">
+<fileSender localDn="bs=1" elementType="SBG"/>
+<measCollec beginTime="2023-11-16T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="SBG" swVersion="R3B"/>
+<measInfo measInfoId="1">
+<job jobId="13"/>
+<granPeriod duration="PT900S" endTime="2023-11-16T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbgExtH248ActiveTransactionsGauge</measType>
+<measType p="2">sbgExtH248TotInvalidAddressCnt</measType>
+<measType p="3">sbgExtH248TotNoResourcesCnt</measType>
+<measType p="4">sbgExtH248TotOtherErrorCnt</measType>
+<measType p="5">sbgExtH248TotProtocolErrorCnt</measType>
+<measType p="6">sbgExtH248TotReqCnt</measType>
+<measType p="7">sbgExtH248TotServerErrorCnt</measType>
+<measType p="8">sbgExtBgfCallsActiveGauge</measType>
+<measType p="9">sbgExtBgfTotCallsAbnTerminatedCnt</measType>
+<measType p="10">sbgExtBgfTotCallsCnt</measType>
+<measType p="11">sbgExtBgfTotCallsFailedCnt</measType>
+<measType p="12">sbgExtBgfTotCtrlLinkSetupsCnt</measType>
+<measType p="13">sbgExtBgfHangingTerminationCnt</measType>
+<measValue measObjLdn="Blade=1-1,ExtBgfControlLink=1">
+<r p="1">3771419475</r>
+<r p="2">300</r>
+<r p="3">301</r>
+<r p="4">302</r>
+<r p="5">303</r>
+<r p="6">304</r>
+<r p="7">305</r>
+<r p="8">533272361</r>
+<r p="9">306</r>
+<r p="10">307</r>
+<r p="11">308</r>
+<r p="12">309</r>
+<r p="13">310</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-16T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

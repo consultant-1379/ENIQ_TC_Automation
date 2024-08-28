@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl" ?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V11.0" vendorName="Ericsson">
+<fileSender elementType="5G_UDM" localDn="CCRC01"/>
+<measCollec beginTime="2023-11-07T10:00:00Z"/>
+</fileHeader>
+<measData>
+<managedElement localDn="CCRC01" swVersion=""/>
+<measInfo measInfoId="eric-ccrc-common-system-group">
+<job jobId="eric-ccrc-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccrc-common-system-cpu-usage-ratio</measType>
+<measType p="2">eric-ccrc-common-system-memory-usage-ratio</measType>
+<measValue measObjLdn="eric-ccrc-common-system-group=1">
+<r p="1">42</r>
+<r p="2">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-svc-routing-agent-group">
+<job jobId="eric-svc-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-svc-routing-agent-requests-recv</measType>
+<measType p="2">eric-svc-routing-agent-successful-responses-sent</measType>
+<measType p="3">eric-svc-routing-agent-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-svc-routing-agent-group=1">
+<r p="1">5</r>
+<r p="2">30</r>
+<r p="3">33</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nssf-nnssf-provisioning-group">
+<job jobId="eric-nssf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nssf-nnssf-provisioning-requests-recv</measType>
+<measType p="2">eric-nssf-nnssf-provisioning-successful-responses-sent</measType>
+<measType p="3">eric-nssf-nnssf-provisioning-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-nssf-nnssf-provisioning-group=1">
+<r p="1">84</r>
+<r p="2">58</r>
+<r p="3">58</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-oauth2-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-oauth2-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-oauth2-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-oauth2-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrfagent-nnrf-oauth2-group=1">
+<r p="1">30</r>
+<r p="2">86</r>
+<r p="3">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nssf-nnssf-nssaiavailability-last-update-ratio-group">
+<job jobId="eric-nssf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="6">eric-ccrc-micro-nnssf-nssaiavailability-overload-unsuccessful-ratio</measType>
+<measType p="7">eric-ccrc-micro-nnssf-nssaiavailability-notification-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-nssf-nnssf-nssaiavailability-last-update-ratio-group=1">
+<r p="1">95</r>
+<r p="2">45</r>
+<r p="3">37</r>
+<r p="4">58</r>
+<r p="5">76</r>
+<r p="6">3</r>
+<r p="7">86</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-disc-last-update-ratio-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-disc-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrf-nnrf-disc-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrf-nnrf-disc-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrf-nnrf-disc-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="5">eric-nrf-nnrf-disc-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrf-nnrf-disc-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="7">eric-nrf-nnrf-disc-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrf-nnrf-disc-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="9">eric-ccrc-micro-nnrf-disc-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-nrf-nnrf-disc-unsuccessful-responses-sent-loop-detection</measType>
+<measValue measObjLdn="eric-nrf-nnrf-disc-last-update-ratio-group=1">
+<r p="1">27</r>
+<r p="2">83</r>
+<r p="3">50</r>
+<r p="4">2</r>
+<r p="5">21</r>
+<r p="6">7</r>
+<r p="7">92</r>
+<r p="8">54</r>
+<r p="9">45</r>
+<r p="10">47</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-disc-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-disc-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-disc-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-disc-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrfagent-nnrf-disc-group=1">
+<r p="1">16</r>
+<r p="2">98</r>
+<r p="3">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nssf-nnssf-nsselection-group">
+<job jobId="eric-nssf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nssf-nnssf-nsselection-requests-recv</measType>
+<measType p="2">eric-nssf-nnssf-nsselection-successful-responses-sent</measType>
+<measType p="3">eric-nssf-nnssf-nsselection-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nssf-nnssf-nsselection-requests-sent</measType>
+<measType p="5">eric-nssf-nnssf-nsselection-successful-responses-recv</measType>
+<measType p="6">eric-nssf-nnssf-nsselection-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nssf-nnssf-nsselection-group=1">
+<r p="1">61</r>
+<r p="2">80</r>
+<r p="3">34</r>
+<r p="4">51</r>
+<r p="5">24</r>
+<r p="6">27</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-extnotify-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-extnotify-requests-recv</measType>
+<measType p="2">eric-nrf-nnrf-extnotify-successful-responses-sent</measType>
+<measType p="3">eric-nrf-nnrf-extnotify-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nrf-nnrf-extnotify-requests-sent</measType>
+<measType p="5">eric-nrf-nnrf-extnotify-successful-responses-recv</measType>
+<measType p="6">eric-nrf-nnrf-extnotify-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrf-nnrf-extnotify-group=1">
+<r p="1">34</r>
+<r p="2">62</r>
+<r p="3">2</r>
+<r p="4">74</r>
+<r p="5">91</r>
+<r p="6">14</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nssf-nnssf-nssaiavailability-group">
+<job jobId="eric-nssf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nssf-nnssf-nssaiavailability-requests-recv</measType>
+<measType p="2">eric-nssf-nnssf-nssaiavailability-successful-responses-sent</measType>
+<measType p="3">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nssf-nnssf-nssaiavailability-requests-sent</measType>
+<measType p="5">eric-nssf-nnssf-nssaiavailability-successful-responses-recv</measType>
+<measType p="6">eric-nssf-nnssf-nssaiavailability-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nssf-nnssf-nssaiavailability-group=1">
+<r p="1">50</r>
+<r p="2">94</r>
+<r p="3">4</r>
+<r p="4">68</r>
+<r p="5">19</r>
+<r p="6">58</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ccrc-common-last-update-ratio-group">
+<job jobId="eric-ccrc-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ccrc-common-volume-stats-used-ratio</measType>
+<measValue measObjLdn="eric-ccrc-common-last-update-ratio-group=1">
+<r p="1">79</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-oauth2-last-update-ratio-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrf-nnrf-oauth2-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="5">eric-nrf-nnrf-oauth2-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="7">eric-nrf-nnrf-oauth2-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="9">eric-ccrc-micro-nnrf-oauth2-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent-loop-detection</measType>
+<measValue measObjLdn="eric-nrf-nnrf-oauth2-last-update-ratio-group=1">
+<r p="1">60</r>
+<r p="2">27</r>
+<r p="3">95</r>
+<r p="4">81</r>
+<r p="5">8</r>
+<r p="6">71</r>
+<r p="7">5</r>
+<r p="8">81</r>
+<r p="9">57</r>
+<r p="10">60</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-accesstoken-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrfagent-accesstoken-last-update-ratio-group=1">
+<r p="1">90</r>
+<r p="2">5</r>
+<r p="3">29</r>
+<r p="4">19</r>
+<r p="5">66</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-dns-last-update-ratio-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-dns-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrf-nnrf-dns-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrf-nnrf-dns-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrf-nnrf-dns-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="5">eric-nrf-nnrf-dns-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrf-nnrf-dns-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="7">eric-nrf-nnrf-dns-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrf-nnrf-dns-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrf-nnrf-dns-last-update-ratio-group=1">
+<r p="1">93</r>
+<r p="2">5</r>
+<r p="3">3</r>
+<r p="4">89</r>
+<r p="5">78</r>
+<r p="6">65</r>
+<r p="7">30</r>
+<r p="8">60</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-disc-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-disc-requests-recv</measType>
+<measType p="2">eric-nrf-nnrf-disc-successful-responses-sent</measType>
+<measType p="3">eric-nrf-nnrf-disc-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nrf-nnrf-disc-requests-sent</measType>
+<measType p="5">eric-nrf-nnrf-disc-successful-responses-recv</measType>
+<measType p="6">eric-nrf-nnrf-disc-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrf-nnrf-disc-group=1">
+<r p="1">28</r>
+<r p="2">96</r>
+<r p="3">80</r>
+<r p="4">57</r>
+<r p="5">32</r>
+<r p="6">23</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-extnotify-last-update-ratio-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-extnotify-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrf-nnrf-extnotify-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nrf-nnrf-extnotify-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nrf-nnrf-extnotify-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nrf-nnrf-extnotify-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="6">eric-nrf-nnrf-extnotify-unsuccessful-responses-recv-ratio</measType>
+<measValue measObjLdn="eric-nrf-nnrf-extnotify-last-update-ratio-group=1">
+<r p="1">92</r>
+<r p="2">30</r>
+<r p="3">59</r>
+<r p="4">15</r>
+<r p="5">81</r>
+<r p="6">87</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-nfm-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-nfm-requests-recv</measType>
+<measType p="2">eric-nrf-nnrf-nfm-successful-responses-sent</measType>
+<measType p="3">eric-nrf-nnrf-nfm-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nrf-nnrf-nfm-requests-sent</measType>
+<measType p="5">eric-nrf-nnrf-nfm-successful-responses-recv</measType>
+<measType p="6">eric-nrf-nnrf-nfm-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nrf-nf-profiles</measType>
+<measValue measObjLdn="resource=NFStatusSubscribe,operation=PUT,remote-endpoint=UDM,status-code=401,eric-nrf-nnrf-nfm-group=1">
+<r p="1">27</r>
+<r p="2">91</r>
+<r p="3">91</r>
+<r p="4">41</r>
+<r p="5">30</r>
+<r p="6">17</r>
+<r p="7">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-nfm-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-nfm-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-nfm-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-nfm-unsuccessful-responses-recv</measType>
+<measType p="4">eric-nrfagent-nnrf-nfm-requests-recv</measType>
+<measType p="5">eric-nrfagent-nnrf-nfm-successful-responses-sent</measType>
+<measType p="6">eric-nrfagent-nnrf-nfm-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-nrfagent-nnrf-nfm-group=1">
+<r p="1">83</r>
+<r p="2">96</r>
+<r p="3">38</r>
+<r p="4">34</r>
+<r p="5">42</r>
+<r p="6">5</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-dns-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-dns-requests-recv</measType>
+<measType p="2">eric-nrf-nnrf-dns-successful-responses-sent</measType>
+<measType p="3">eric-nrf-nnrf-dns-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-nrf-nnrf-dns-group=1">
+<r p="1">14</r>
+<r p="2">61</r>
+<r p="3">21</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nssf-nnssf-provisioning-last-update-ratio-group">
+<job jobId="eric-nssf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nssf-nnssf-provisioning-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nssf-nnssf-provisioning-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nssf-nnssf-provisioning-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nssf-nnssf-provisioning-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nssf-nnssf-provisioning-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nssf-nnssf-provisioning-last-update-ratio-group=1">
+<r p="1">37</r>
+<r p="2">22</r>
+<r p="3">15</r>
+<r p="4">1</r>
+<r p="5">27</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-nfm-last-update-ratio-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-nfm-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrf-nnrf-nfm-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrf-nnrf-nfm-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrf-nnrf-nfm-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="5">eric-nrf-nnrf-nfm-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrf-nnrf-nfm-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="7">eric-nrf-nnrf-nfm-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrf-nnrf-nfm-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="9">eric-nrf-nnrf-nfm-notification-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="10">eric-ccrc-micro-nnrf-nfm-overload-unsuccessful-ratio</measType>
+<measType p="11">eric-ccrc-micro-nnrf-nfm-notification-overload-unsuccessful-ratio</measType>
+<measType p="12">eric-nrf-nnrf-nfm-unsuccessful-responses-sent-loop-detection</measType>
+<measValue measObjLdn="eric-nrf-nnrf-nfm-last-update-ratio-group=1">
+<r p="1">24</r>
+<r p="2">99</r>
+<r p="3">89</r>
+<r p="4">31</r>
+<r p="5">17</r>
+<r p="6">69</r>
+<r p="7">3</r>
+<r p="8">23</r>
+<r p="9">90</r>
+<r p="10">92</r>
+<r p="11">23</r>
+<r p="12">25</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-prov-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-prov-requests-recv</measType>
+<measType p="2">eric-nrf-nnrf-prov-successful-responses-sent</measType>
+<measType p="3">eric-nrf-nnrf-prov-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-nrf-nnrf-prov-group=1">
+<r p="1">19</r>
+<r p="2">47</r>
+<r p="3">61</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-discovery-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="4">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="6">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="7">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="8">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="9">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="10">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="11">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="12">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="13">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="14">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="15">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrfagent-discovery-last-update-ratio-group=1">
+<r p="1">60</r>
+<r p="2">74</r>
+<r p="3">52</r>
+<r p="4">84</r>
+<r p="5">14</r>
+<r p="6">6</r>
+<r p="7">23</r>
+<r p="8">78</r>
+<r p="9">40</r>
+<r p="10">59</r>
+<r p="11">32</r>
+<r p="12">52</r>
+<r p="13">18</r>
+<r p="14">63</r>
+<r p="15">97</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nssf-nnssf-nsselection-last-update-ratio-group">
+<job jobId="eric-nssf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nssf-nnssf-nsselection-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nssf-nnssf-nsselection-nnssf-nsselection-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nssf-nnssf-nsselection-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nssf-nnssf-nsselection-nnssf-nsselection-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nssf-nnssf-nsselection-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nssf-nnssf-nsselection-nnssf-nsselection-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="7">eric-nssf-nnssf-nsselection-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nssf-nnssf-nsselection-nnssf-nsselection-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="9">eric-nssf-nnssf-nsselection-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="10">eric-nssf-nnssf-nsselection-nnssf-nsselection-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="11">eric-ccrc-micro-nnssf-nsselection-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="eric-nssf-nnssf-nsselection-last-update-ratio-group=1">
+<r p="1">70</r>
+<r p="2">8</r>
+<r p="3">39</r>
+<r p="4">0</r>
+<r p="5">25</r>
+<r p="6">18</r>
+<r p="7">77</r>
+<r p="8">71</r>
+<r p="9">21</r>
+<r p="10">82</r>
+<r p="11">74</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-discovery-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-discovery-requests-recv</measType>
+<measType p="2">eric-nrfagent-discovery-successful-responses-sent</measType>
+<measType p="3">eric-nrfagent-discovery-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="eric-nrfagent-discovery-group=1">
+<r p="1">32</r>
+<r p="2">51</r>
+<r p="3">22</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-register-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="7">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="9">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="10">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrfagent-register-last-update-ratio-group=1">
+<r p="1">78</r>
+<r p="2">7</r>
+<r p="3">55</r>
+<r p="4">47</r>
+<r p="5">30</r>
+<r p="6">27</r>
+<r p="7">31</r>
+<r p="8">53</r>
+<r p="9">92</r>
+<r p="10">89</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-prov-last-update-ratio-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-prov-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrf-nnrf-prov-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nrf-nnrf-prov-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nrf-nnrf-prov-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nrf-nnrf-prov-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="eric-nrf-nnrf-prov-last-update-ratio-group=1">
+<r p="1">18</r>
+<r p="2">81</r>
+<r p="3">40</r>
+<r p="4">99</r>
+<r p="5">76</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrf-nnrf-oauth2-group">
+<job jobId="eric-nrf-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrf-nnrf-oauth2-requests-recv</measType>
+<measType p="2">eric-nrf-nnrf-oauth2-successful-responses-sent</measType>
+<measType p="3">eric-nrf-nnrf-oauth2-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nrf-nnrf-oauth2-requests-sent</measType>
+<measType p="5">eric-nrf-nnrf-oauth2-successful-responses-recv</measType>
+<measType p="6">eric-nrf-nnrf-oauth2-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="eric-nrf-nnrf-oauth2-group=1">
+<r p="1">94</r>
+<r p="2">1</r>
+<r p="3">58</r>
+<r p="4">21</r>
+<r p="5">73</r>
+<r p="6">56</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-07T10:15:00Z"/>
+</fileFooter>
+</measCollecFile>

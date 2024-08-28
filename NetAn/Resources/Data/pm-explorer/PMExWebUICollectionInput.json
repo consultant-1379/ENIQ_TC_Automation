@@ -1,0 +1,15 @@
+{ 
+    "TC01": { "Collection_Name": "Collection_881",
+              "System_Area": "Radio",
+              "Data_source": "NetAn_ODBC",             
+              "Node_Type": "NR",
+              "Node": "G2RBS01"
+            },
+    "TC02": { "Collection_Name": "Collection_",
+              "System_Area": "Radio",
+              "Data_source": "NetAn_ODBC",             
+              "Node_Type": "NR",
+              "Wildcard_Expression": "FDN like \\"%ONRM%\\"",
+              "Node": "G2RBS01"
+            }
+}

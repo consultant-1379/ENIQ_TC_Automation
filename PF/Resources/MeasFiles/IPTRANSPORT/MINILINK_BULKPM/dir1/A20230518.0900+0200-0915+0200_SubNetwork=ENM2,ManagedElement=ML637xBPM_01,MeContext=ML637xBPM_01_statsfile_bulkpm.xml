@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V15.0" vendorName="Ericsson">
+<fileSender localDn="ManagedElement=ML66-10-41-99-38" elementType="MINI-LINK"/>
+<measCollec beginTime="2024-05-18T09:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement userLabel="ML66-10-41-99-38"/>
+<measInfo measInfoId="Pm=1,PmGroup=TCP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">tcpActiveOpens</measType>
+<measType p="2">tcpPassiveOpens</measType>
+<measType p="3">tcpAttemptFails</measType>
+<measType p="4">tcpEstabResets</measType>
+<measType p="5">tcpCurrEstab</measType>
+<measType p="6">tcpInSegs</measType>
+<measType p="7">tcpOutSegs</measType>
+<measType p="8">tcpRetransSegs</measType>
+<measType p="9">tcpInErrs</measType>
+<measType p="10">tcpOutRsts</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">82</r>
+<r p="2">45</r>
+<r p="3">89</r>
+<r p="4">75</r>
+<r p="5">80</r>
+<r p="6">9</r>
+<r p="7">41</r>
+<r p="8">2</r>
+<r p="9">93</r>
+<r p="10">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EnergyMeter">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">pmConsumedEnergy</measType>
+<measType p="2">pmConsumedEnergyAccumulated</measType>
+<measType p="3">pmAvgPowerConsumption</measType>
+<measType p="4">pmMinPowerConsumption</measType>
+<measType p="5">pmMaxPowerConsumption</measType>
+<measType p="6">pmPowerConsumption</measType>
+<measType p="7">pmAvgVoltage</measType>
+<measType p="8">pmMinVoltage</measType>
+<measType p="9">pmMaxVoltage</measType>
+<measType p="10">pmVoltage</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">4</r>
+<r p="2">0</r>
+<r p="3">55</r>
+<r p="4">79</r>
+<r p="5">51</r>
+<r p="6">79</r>
+<r p="7">48</r>
+<r p="8">44</r>
+<r p="9">77</r>
+<r p="10">11</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ERP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Link_Failure</measType>
+<measType p="2">RPL_Failure</measType>
+<measType p="3">Manual_Switch</measType>
+<measType p="4">Forced_Switch</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">52</r>
+<r p="2">53</r>
+<r p="3">97</r>
+<r p="4">84</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LLDP_Port">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">TxFrames</measType>
+<measType p="2">RxFramesDiscards</measType>
+<measType p="3">RxFramesErrors</measType>
+<measType p="4">RxFrames</measType>
+<measType p="5">RxTLVsUnrecognized</measType>
+<measType p="6">RxAgeouts</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">83</r>
+<r p="2">59</r>
+<r p="3">82</r>
+<r p="4">58</r>
+<r p="5">28</r>
+<r p="6">68</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=VlanPortBandwidth">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">BwAvgRx</measType>
+<measType p="2">BwMaxRx</measType>
+<measType p="3">BwMinRx</measType>
+<measType p="4">Bw0To5Rx</measType>
+<measType p="5">Bw5To10Rx</measType>
+<measType p="6">Bw10To15Rx</measType>
+<measType p="7">Bw15To20Rx</measType>
+<measType p="8">Bw20To25Rx</measType>
+<measType p="9">Bw25To30Rx</measType>
+<measType p="10">Bw30To35Rx</measType>
+<measType p="11">Bw35To40Rx</measType>
+<measType p="12">Bw40To45Rx</measType>
+<measType p="13">Bw45To50Rx</measType>
+<measType p="14">Bw50To55Rx</measType>
+<measType p="15">Bw55To60Rx</measType>
+<measType p="16">Bw60To65Rx</measType>
+<measType p="17">Bw65To70Rx</measType>
+<measType p="18">Bw70To75Rx</measType>
+<measType p="19">Bw75To80Rx</measType>
+<measType p="20">Bw80To85Rx</measType>
+<measType p="21">Bw85To90Rx</measType>
+<measType p="22">Bw90To95Rx</measType>
+<measType p="23">Bw95To100Rx</measType>
+<measType p="24">BwAvgTx</measType>
+<measType p="25">BwMaxTx</measType>
+<measType p="26">BwMinTx</measType>
+<measType p="27">Bw0To5Tx</measType>
+<measType p="28">Bw5To10Tx</measType>
+<measType p="29">Bw10To15Tx</measType>
+<measType p="30">Bw15To20Tx</measType>
+<measType p="31">Bw20To25Tx</measType>
+<measType p="32">Bw25To30Tx</measType>
+<measType p="33">Bw30To35Tx</measType>
+<measType p="34">Bw35To40Tx</measType>
+<measType p="35">Bw40To45Tx</measType>
+<measType p="36">Bw45To50Tx</measType>
+<measType p="37">Bw50To55Tx</measType>
+<measType p="38">Bw55To60Tx</measType>
+<measType p="39">Bw60To65Tx</measType>
+<measType p="40">Bw65To70Tx</measType>
+<measType p="41">Bw70To75Tx</measType>
+<measType p="42">Bw75To80Tx</measType>
+<measType p="43">Bw80To85Tx</measType>
+<measType p="44">Bw85To90Tx</measType>
+<measType p="45">Bw90To95Tx</measType>
+<measType p="46">Bw95To100Tx</measType>
+<measValue measObjLdn="L2VlanEndPoint=1/1/6.51">
+<r p="1">87</r>
+<r p="2">87</r>
+<r p="3">17</r>
+<r p="4">79</r>
+<r p="5">89</r>
+<r p="6">64</r>
+<r p="7">66</r>
+<r p="8">57</r>
+<r p="9">85</r>
+<r p="10">31</r>
+<r p="11">85</r>
+<r p="12">74</r>
+<r p="13">63</r>
+<r p="14">6</r>
+<r p="15">30</r>
+<r p="16">45</r>
+<r p="17">30</r>
+<r p="18">74</r>
+<r p="19">74</r>
+<r p="20">69</r>
+<r p="21">78</r>
+<r p="22">99</r>
+<r p="23">2</r>
+<r p="24">89</r>
+<r p="25">37</r>
+<r p="26">25</r>
+<r p="27">26</r>
+<r p="28">75</r>
+<r p="29">82</r>
+<r p="30">37</r>
+<r p="31">57</r>
+<r p="32">40</r>
+<r p="33">99</r>
+<r p="34">75</r>
+<r p="35">56</r>
+<r p="36">3</r>
+<r p="37">12</r>
+<r p="38">9</r>
+<r p="39">60</r>
+<r p="40">18</r>
+<r p="41">13</r>
+<r p="42">13</r>
+<r p="43">12</r>
+<r p="44">91</r>
+<r p="45">39</r>
+<r p="46">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_VC4FE">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">4</r>
+<r p="2">43</r>
+<r p="3">23</r>
+<r p="4">72</r>
+<r p="5">66</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ServiceOAMDelay">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">xfServiceOamDelayStartTime</measType>
+<measType p="2">xfServiceOamDelayEndTime</measType>
+<measType p="3">xfServiceOamDelayAvgDelay</measType>
+<measType p="4">xfServiceOamDelayMinDelay</measType>
+<measType p="5">xfServiceOamDelayMaxDelay</measType>
+<measType p="6">xfServiceOamDelayAvgDelayVariation</measType>
+<measType p="7">xfServiceOamDelayMinDelayVariation</measType>
+<measType p="8">xfServiceOamDelayMaxDelayVariation</measType>
+<measType p="9">xfServiceOamDelaySentDmmNum</measType>
+<measType p="10">xfServiceOamDelayReceivedDmrOkNum</measType>
+<measType p="11">xfServiceOamDelayReceivedDmrErrNum</measType>
+<measType p="12">xfServiceOamDelayPercentileDelay</measType>
+<measType p="13">xfServiceOamDelayPercentileDelayVariation</measType>
+<measType p="14">xfServiceOamDelayAvgPercentileDelay</measType>
+<measType p="15">xfServiceOamDelayMinPercentileDelay</measType>
+<measType p="16">xfServiceOamDelayMaxPercentileDelay</measType>
+<measType p="17">xfServiceOamDelayAvgPercentileDelayVariation</measType>
+<measType p="18">xfServiceOamDelayMinPercentileDelayVariation</measType>
+<measType p="19">xfServiceOamDelayMaxPercentileDelayVariation</measType>
+<measValue measObjLdn="Maintenance-domain=LinkMonitoringGenMd,Maintenance-association=testSOAM,Maintenance-association-end-point=1,Delay-measurements=1,Delay-measurement=1">
+<r p="1">64</r>
+<r p="2">94</r>
+<r p="3">9</r>
+<r p="4">11</r>
+<r p="5">49</r>
+<r p="6">47</r>
+<r p="7">52</r>
+<r p="8">18</r>
+<r p="9">4</r>
+<r p="10">6</r>
+<r p="11">53</r>
+<r p="12">64</r>
+<r p="13">74</r>
+<r p="14">20</r>
+<r p="15">6</r>
+<r p="16">53</r>
+<r p="17">13</r>
+<r p="18">59</r>
+<r p="19">56</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_VC4NE">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">51</r>
+<r p="2">27</r>
+<r p="3">84</r>
+<r p="4">91</r>
+<r p="5">72</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PDH">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">UAS</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">78</r>
+<r p="2">30</r>
+<r p="3">54</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RadioLinkPower">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">CRlTs1</measType>
+<measType p="2">CRlTs2</measType>
+<measType p="3">RxLevelMin</measType>
+<measType p="4">RxLevelMax</measType>
+<measType p="5">CTlTs1</measType>
+<measType p="6">TxLevelMin</measType>
+<measType p="7">TxLevelMax</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">33</r>
+<r p="2">40</r>
+<r p="3">98</r>
+<r p="4">28</r>
+<r p="5">10</r>
+<r p="6">84</r>
+<r p="7">95</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IGMP-MLD-Snooping-Vlan">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Groups</measType>
+<measType p="2">Router_Ports</measType>
+<measValue measObjLdn="IGMP-MLD-VLAN=1/0">
+<r p="1">21</r>
+<r p="2">70</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=TACACS+">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Active_Sessions</measType>
+<measType p="2">PacketsTx</measType>
+<measType p="3">PacketsRx</measType>
+<measType p="4">Connection_Errors</measType>
+<measType p="5">ErrorsTx</measType>
+<measType p="6">ErrorsRx</measType>
+<measType p="7">Authentication_Timeout</measType>
+<measType p="8">Authorization_Timeout</measType>
+<measType p="9">AcctPacketsTx</measType>
+<measType p="10">AcctPacketsRx</measType>
+<measType p="11">AcctConnection_Errors</measType>
+<measType p="12">AcctErrorsTx</measType>
+<measType p="13">AcctErrorsRx</measType>
+<measType p="14">Acct_Timeout</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">73</r>
+<r p="2">55</r>
+<r p="3">14</r>
+<r p="4">84</r>
+<r p="5">28</r>
+<r p="6">84</r>
+<r p="7">41</r>
+<r p="8">65</r>
+<r p="9">45</r>
+<r p="10">19</r>
+<r p="11">69</r>
+<r p="12">49</r>
+<r p="13">35</r>
+<r p="14">42</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IGMP-MLD-Snooping-VlanEndpoint">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Joins_Received</measType>
+<measType p="2">Leaves_Received</measType>
+<measType p="3">General_Queries_Received</measType>
+<measType p="4">Specific_Queries_Sent</measType>
+<measType p="5">Specific_Queries_Received</measType>
+<measType p="6">Invalid_Messages_Received</measType>
+<measValue measObjLdn="IGMP-MLD-VLANPORT=1/0/1">
+<r p="1">91</r>
+<r p="2">11</r>
+<r p="3">77</r>
+<r p="4">35</r>
+<r p="5">35</r>
+<r p="6">67</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=HQoSPortTraffic">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">TrOctTc0</measType>
+<measType p="2">TrPktsTc0</measType>
+<measType p="3">TrDiscTc0</measType>
+<measType p="4">TrOctTc1</measType>
+<measType p="5">TrPktsTc1</measType>
+<measType p="6">TrDiscTc1</measType>
+<measType p="7">TrOctTc2</measType>
+<measType p="8">TrPktsTc2</measType>
+<measType p="9">TrDiscTc2</measType>
+<measType p="10">TrOctTc3</measType>
+<measType p="11">TrPktsTc3</measType>
+<measType p="12">TrDiscTc3</measType>
+<measType p="13">TrOctTc4</measType>
+<measType p="14">TrPktsTc4</measType>
+<measType p="15">TrDiscTc4</measType>
+<measType p="16">TrOctTc5</measType>
+<measType p="17">TrPktsTc5</measType>
+<measType p="18">TrDiscTc5</measType>
+<measType p="19">TrOctTc6</measType>
+<measType p="20">TrPktsTc6</measType>
+<measType p="21">TrDiscTc6</measType>
+<measType p="22">TrOctTc7</measType>
+<measType p="23">TrPktsTc7</measType>
+<measType p="24">TrDiscTc7</measType>
+<measValue measObjLdn="HQoSNode=1/7/1.DEFAULT">
+<r p="1">71</r>
+<r p="2">22</r>
+<r p="3">55</r>
+<r p="4">44</r>
+<r p="5">96</r>
+<r p="6">65</r>
+<r p="7">49</r>
+<r p="8">85</r>
+<r p="9">12</r>
+<r p="10">12</r>
+<r p="11">25</r>
+<r p="12">57</r>
+<r p="13">26</r>
+<r p="14">44</r>
+<r p="15">49</r>
+<r p="16">6</r>
+<r p="17">12</r>
+<r p="18">81</r>
+<r p="19">33</r>
+<r p="20">3</r>
+<r p="21">59</r>
+<r p="22">82</r>
+<r p="23">97</r>
+<r p="24">92</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SNIR-XPI">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">SNIR_Min</measType>
+<measType p="2">SNIR_Max</measType>
+<measType p="3">XPI_Min</measType>
+<measType p="4">XPI_Max</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">74</r>
+<r p="2">87</r>
+<r p="3">39</r>
+<r p="4">5</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SFP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Max_Temperature</measType>
+<measType p="2">Min_Temperature</measType>
+<measType p="3">Max_Voltage</measType>
+<measType p="4">Min_Voltage</measType>
+<measType p="5">Max_Tx_Bias</measType>
+<measType p="6">Min_Tx_Bias</measType>
+<measType p="7">Max_Tx_Power</measType>
+<measType p="8">Min_Tx_Power</measType>
+<measType p="9">Max_Rx_Power</measType>
+<measType p="10">Min_Rx_Power</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">99</r>
+<r p="2">36</r>
+<r p="3">26</r>
+<r p="4">18</r>
+<r p="5">21</r>
+<r p="6">89</r>
+<r p="7">64</r>
+<r p="8">57</r>
+<r p="9">5</r>
+<r p="10">30</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ICMP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">icmpInMsgs</measType>
+<measType p="2">icmpInErrors</measType>
+<measType p="3">icmpInDestUnreachs</measType>
+<measType p="4">icmpOutMsgs</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">30</r>
+<r p="2">87</r>
+<r p="3">23</r>
+<r p="4">46</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RadioLinkG826">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">BB</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">42</r>
+<r p="2">65</r>
+<r p="3">84</r>
+<r p="4">18</r>
+<r p="5">79</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=UDP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">udpInDatagrams</measType>
+<measType p="2">udpNoPorts</measType>
+<measType p="3">udpInErrors</measType>
+<measType p="4">udpOutDatagrams</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">59</r>
+<r p="2">31</r>
+<r p="3">16</r>
+<r p="4">31</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=AdaptiveCodingAndModulation_ACM">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">4QAM_Strong</measType>
+<measType p="2">4QAM</measType>
+<measType p="3">4QAM_Light</measType>
+<measType p="4">16QAM_Strong</measType>
+<measType p="5">16QAM</measType>
+<measType p="6">16QAM_Light</measType>
+<measType p="7">32QAM_Strong</measType>
+<measType p="8">32QAM</measType>
+<measType p="9">32QAM_Light</measType>
+<measType p="10">64QAM_Strong</measType>
+<measType p="11">64QAM</measType>
+<measType p="12">64QAM_Light</measType>
+<measType p="13">128QAM_Strong</measType>
+<measType p="14">128QAM</measType>
+<measType p="15">128QAM_Light</measType>
+<measType p="16">256QAM_Strong</measType>
+<measType p="17">256QAM</measType>
+<measType p="18">256QAM_Light</measType>
+<measType p="19">512QAM_Strong</measType>
+<measType p="20">512QAM</measType>
+<measType p="21">512QAM_Light</measType>
+<measType p="22">1024QAM_Strong</measType>
+<measType p="23">1024QAM</measType>
+<measType p="24">1024QAM_Light</measType>
+<measType p="25">2048QAM_Strong</measType>
+<measType p="26">2048QAM</measType>
+<measType p="27">2048QAM_Light</measType>
+<measType p="28">4096QAM_Strong</measType>
+<measType p="29">4096QAM</measType>
+<measType p="30">4096QAM_Light</measType>
+<measType p="31">8192QAM_Strong</measType>
+<measType p="32">8192QAM</measType>
+<measType p="33">8192QAM_Light</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">85</r>
+<r p="2">11</r>
+<r p="3">89</r>
+<r p="4">18</r>
+<r p="5">69</r>
+<r p="6">0</r>
+<r p="7">60</r>
+<r p="8">2</r>
+<r p="9">42</r>
+<r p="10">71</r>
+<r p="11">71</r>
+<r p="12">61</r>
+<r p="13">20</r>
+<r p="14">36</r>
+<r p="15">32</r>
+<r p="16">3</r>
+<r p="17">30</r>
+<r p="18">56</r>
+<r p="19">92</r>
+<r p="20">25</r>
+<r p="21">87</r>
+<r p="22">81</r>
+<r p="23">16</r>
+<r p="24">67</r>
+<r p="25">55</r>
+<r p="26">61</r>
+<r p="27">94</r>
+<r p="28">38</r>
+<r p="29">70</r>
+<r p="30">14</r>
+<r p="31">12</r>
+<r p="32">7</r>
+<r p="33">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NPU_Protection">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">NPU_Protection_Failover</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">60</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_VC12NE">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">9</r>
+<r p="2">33</r>
+<r p="3">73</r>
+<r p="4">47</r>
+<r p="5">18</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ipInReceives</measType>
+<measType p="2">ipForwDatagrams</measType>
+<measType p="3">ipInDiscards</measType>
+<measType p="4">ipInDelivers</measType>
+<measType p="5">ipOutRequests</measType>
+<measType p="6">ipReasmReqds</measType>
+<measType p="7">ipReasmOKs</measType>
+<measType p="8">ipRoutingDiscards</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">12</r>
+<r p="2">32</r>
+<r p="3">53</r>
+<r p="4">46</r>
+<r p="5">95</r>
+<r p="6">99</r>
+<r p="7">39</r>
+<r p="8">39</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_RS">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">51</r>
+<r p="2">39</r>
+<r p="3">25</r>
+<r p="4">49</r>
+<r p="5">34</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ServiceOAMLoss">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">xfServiceOamLossStartTime</measType>
+<measType p="2">xfServiceOamLossEndTime</measType>
+<measType p="3">xfServiceOamLossAvgForwardLossRatio</measType>
+<measType p="4">xfServiceOamLossMinForwardLossRatio</measType>
+<measType p="5">xfServiceOamLossMaxForwardLossRatio</measType>
+<measType p="6">xfServiceOamLossAvgRevLossRatio</measType>
+<measType p="7">xfServiceOamLossMinRevLossRatio</measType>
+<measType p="8">xfServiceOamLossMaxRevLossRatio</measType>
+<measType p="9">xfServiceOamLossNeOutFrameNum</measType>
+<measType p="10">xfServiceOamLossNeInFrameNum</measType>
+<measType p="11">xfServiceOamLossFeOutFrameNum</measType>
+<measType p="12">xfServiceOamLossFeInFrameNum</measType>
+<measType p="13">xfServiceOamLossReceivedLMROkNum</measType>
+<measValue measObjLdn="Maintenance-domain=LinkMonitoringGenMd,Maintenance-association=testSOAM,Maintenance-association-end-point=1,Loss-measurements=1,Loss-measurement=1">
+<r p="1">97</r>
+<r p="2">51</r>
+<r p="3">14</r>
+<r p="4">40</r>
+<r p="5">38</r>
+<r p="6">50</r>
+<r p="7">21</r>
+<r p="8">14</r>
+<r p="9">94</r>
+<r p="10">24</r>
+<r p="11">65</r>
+<r p="12">29</r>
+<r p="13">15</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EthernetPortBandwidth">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">BwAvgRx</measType>
+<measType p="2">BwMaxRx</measType>
+<measType p="3">BwMinRx</measType>
+<measType p="4">Bw0To5Rx</measType>
+<measType p="5">Bw5To10Rx</measType>
+<measType p="6">Bw10To15Rx</measType>
+<measType p="7">Bw15To20Rx</measType>
+<measType p="8">Bw20To25Rx</measType>
+<measType p="9">Bw25To30Rx</measType>
+<measType p="10">Bw30To35Rx</measType>
+<measType p="11">Bw35To40Rx</measType>
+<measType p="12">Bw40To45Rx</measType>
+<measType p="13">Bw45To50Rx</measType>
+<measType p="14">Bw50To55Rx</measType>
+<measType p="15">Bw55To60Rx</measType>
+<measType p="16">Bw60To65Rx</measType>
+<measType p="17">Bw65To70Rx</measType>
+<measType p="18">Bw70To75Rx</measType>
+<measType p="19">Bw75To80Rx</measType>
+<measType p="20">Bw80To85Rx</measType>
+<measType p="21">Bw85To90Rx</measType>
+<measType p="22">Bw90To95Rx</measType>
+<measType p="23">Bw95To100Rx</measType>
+<measType p="24">BwAvgTx</measType>
+<measType p="25">BwMaxTx</measType>
+<measType p="26">BwMinTx</measType>
+<measType p="27">Bw0To5Tx</measType>
+<measType p="28">Bw5To10Tx</measType>
+<measType p="29">Bw10To15Tx</measType>
+<measType p="30">Bw15To20Tx</measType>
+<measType p="31">Bw20To25Tx</measType>
+<measType p="32">Bw25To30Tx</measType>
+<measType p="33">Bw30To35Tx</measType>
+<measType p="34">Bw35To40Tx</measType>
+<measType p="35">Bw40To45Tx</measType>
+<measType p="36">Bw45To50Tx</measType>
+<measType p="37">Bw50To55Tx</measType>
+<measType p="38">Bw55To60Tx</measType>
+<measType p="39">Bw60To65Tx</measType>
+<measType p="40">Bw65To70Tx</measType>
+<measType p="41">Bw70To75Tx</measType>
+<measType p="42">Bw75To80Tx</measType>
+<measType p="43">Bw80To85Tx</measType>
+<measType p="44">Bw85To90Tx</measType>
+<measType p="45">Bw90To95Tx</measType>
+<measType p="46">Bw95To100Tx</measType>
+<measType p="47">BwAvgTc0</measType>
+<measType p="48">BwMaxTc0</measType>
+<measType p="49">BwMinTc0</measType>
+<measType p="50">Bw0To5Tc0</measType>
+<measType p="51">Bw5To10Tc0</measType>
+<measType p="52">Bw10To15Tc0</measType>
+<measType p="53">Bw15To20Tc0</measType>
+<measType p="54">Bw20To25Tc0</measType>
+<measType p="55">Bw25To30Tc0</measType>
+<measType p="56">Bw30To35Tc0</measType>
+<measType p="57">Bw35To40Tc0</measType>
+<measType p="58">Bw40To45Tc0</measType>
+<measType p="59">Bw45To50Tc0</measType>
+<measType p="60">Bw50To55Tc0</measType>
+<measType p="61">Bw55To60Tc0</measType>
+<measType p="62">Bw60To65Tc0</measType>
+<measType p="63">Bw65To70Tc0</measType>
+<measType p="64">Bw70To75Tc0</measType>
+<measType p="65">Bw75To80Tc0</measType>
+<measType p="66">Bw80To85Tc0</measType>
+<measType p="67">Bw85To90Tc0</measType>
+<measType p="68">Bw90To95Tc0</measType>
+<measType p="69">Bw95To100Tc0</measType>
+<measType p="70">BwAvgTc1</measType>
+<measType p="71">BwMaxTc1</measType>
+<measType p="72">BwMinTc1</measType>
+<measType p="73">Bw0To5Tc1</measType>
+<measType p="74">Bw5To10Tc1</measType>
+<measType p="75">Bw10To15Tc1</measType>
+<measType p="76">Bw15To20Tc1</measType>
+<measType p="77">Bw20To25Tc1</measType>
+<measType p="78">Bw25To30Tc1</measType>
+<measType p="79">Bw30To35Tc1</measType>
+<measType p="80">Bw35To40Tc1</measType>
+<measType p="81">Bw40To45Tc1</measType>
+<measType p="82">Bw45To50Tc1</measType>
+<measType p="83">Bw50To55Tc1</measType>
+<measType p="84">Bw55To60Tc1</measType>
+<measType p="85">Bw60To65Tc1</measType>
+<measType p="86">Bw65To70Tc1</measType>
+<measType p="87">Bw70To75Tc1</measType>
+<measType p="88">Bw75To80Tc1</measType>
+<measType p="89">Bw80To85Tc1</measType>
+<measType p="90">Bw85To90Tc1</measType>
+<measType p="91">Bw90To95Tc1</measType>
+<measType p="92">Bw95To100Tc1</measType>
+<measType p="93">BwAvgTc2</measType>
+<measType p="94">BwMaxTc2</measType>
+<measType p="95">BwMinTc2</measType>
+<measType p="96">Bw0To5Tc2</measType>
+<measType p="97">Bw5To10Tc2</measType>
+<measType p="98">Bw10To15Tc2</measType>
+<measType p="99">Bw15To20Tc2</measType>
+<measType p="100">Bw20To25Tc2</measType>
+<measType p="101">Bw25To30Tc2</measType>
+<measType p="102">Bw30To35Tc2</measType>
+<measType p="103">Bw35To40Tc2</measType>
+<measType p="104">Bw40To45Tc2</measType>
+<measType p="105">Bw45To50Tc2</measType>
+<measType p="106">Bw50To55Tc2</measType>
+<measType p="107">Bw55To60Tc2</measType>
+<measType p="108">Bw60To65Tc2</measType>
+<measType p="109">Bw65To70Tc2</measType>
+<measType p="110">Bw70To75Tc2</measType>
+<measType p="111">Bw75To80Tc2</measType>
+<measType p="112">Bw80To85Tc2</measType>
+<measType p="113">Bw85To90Tc2</measType>
+<measType p="114">Bw90To95Tc2</measType>
+<measType p="115">Bw95To100Tc2</measType>
+<measType p="116">BwAvgTc3</measType>
+<measType p="117">BwMaxTc3</measType>
+<measType p="118">BwMinTc3</measType>
+<measType p="119">Bw0To5Tc3</measType>
+<measType p="120">Bw5To10Tc3</measType>
+<measType p="121">Bw10To15Tc3</measType>
+<measType p="122">Bw15To20Tc3</measType>
+<measType p="123">Bw20To25Tc3</measType>
+<measType p="124">Bw25To30Tc3</measType>
+<measType p="125">Bw30To35Tc3</measType>
+<measType p="126">Bw35To40Tc3</measType>
+<measType p="127">Bw40To45Tc3</measType>
+<measType p="128">Bw45To50Tc3</measType>
+<measType p="129">Bw50To55Tc3</measType>
+<measType p="130">Bw55To60Tc3</measType>
+<measType p="131">Bw60To65Tc3</measType>
+<measType p="132">Bw65To70Tc3</measType>
+<measType p="133">Bw70To75Tc3</measType>
+<measType p="134">Bw75To80Tc3</measType>
+<measType p="135">Bw80To85Tc3</measType>
+<measType p="136">Bw85To90Tc3</measType>
+<measType p="137">Bw90To95Tc3</measType>
+<measType p="138">Bw95To100Tc3</measType>
+<measType p="139">BwAvgTc4</measType>
+<measType p="140">BwMaxTc4</measType>
+<measType p="141">BwMinTc4</measType>
+<measType p="142">Bw0To5Tc4</measType>
+<measType p="143">Bw5To10Tc4</measType>
+<measType p="144">Bw10To15Tc4</measType>
+<measType p="145">Bw15To20Tc4</measType>
+<measType p="146">Bw20To25Tc4</measType>
+<measType p="147">Bw25To30Tc4</measType>
+<measType p="148">Bw30To35Tc4</measType>
+<measType p="149">Bw35To40Tc4</measType>
+<measType p="150">Bw40To45Tc4</measType>
+<measType p="151">Bw45To50Tc4</measType>
+<measType p="152">Bw50To55Tc4</measType>
+<measType p="153">Bw55To60Tc4</measType>
+<measType p="154">Bw60To65Tc4</measType>
+<measType p="155">Bw65To70Tc4</measType>
+<measType p="156">Bw70To75Tc4</measType>
+<measType p="157">Bw75To80Tc4</measType>
+<measType p="158">Bw80To85Tc4</measType>
+<measType p="159">Bw85To90Tc4</measType>
+<measType p="160">Bw90To95Tc4</measType>
+<measType p="161">Bw95To100Tc4</measType>
+<measType p="162">BwAvgTc5</measType>
+<measType p="163">BwMaxTc5</measType>
+<measType p="164">BwMinTc5</measType>
+<measType p="165">Bw0To5Tc5</measType>
+<measType p="166">Bw5To10Tc5</measType>
+<measType p="167">Bw10To15Tc5</measType>
+<measType p="168">Bw15To20Tc5</measType>
+<measType p="169">Bw20To25Tc5</measType>
+<measType p="170">Bw25To30Tc5</measType>
+<measType p="171">Bw30To35Tc5</measType>
+<measType p="172">Bw35To40Tc5</measType>
+<measType p="173">Bw40To45Tc5</measType>
+<measType p="174">Bw45To50Tc5</measType>
+<measType p="175">Bw50To55Tc5</measType>
+<measType p="176">Bw55To60Tc5</measType>
+<measType p="177">Bw60To65Tc5</measType>
+<measType p="178">Bw65To70Tc5</measType>
+<measType p="179">Bw70To75Tc5</measType>
+<measType p="180">Bw75To80Tc5</measType>
+<measType p="181">Bw80To85Tc5</measType>
+<measType p="182">Bw85To90Tc5</measType>
+<measType p="183">Bw90To95Tc5</measType>
+<measType p="184">Bw95To100Tc5</measType>
+<measType p="185">BwAvgTc6</measType>
+<measType p="186">BwMaxTc6</measType>
+<measType p="187">BwMinTc6</measType>
+<measType p="188">Bw0To5Tc6</measType>
+<measType p="189">Bw5To10Tc6</measType>
+<measType p="190">Bw10To15Tc6</measType>
+<measType p="191">Bw15To20Tc6</measType>
+<measType p="192">Bw20To25Tc6</measType>
+<measType p="193">Bw25To30Tc6</measType>
+<measType p="194">Bw30To35Tc6</measType>
+<measType p="195">Bw35To40Tc6</measType>
+<measType p="196">Bw40To45Tc6</measType>
+<measType p="197">Bw45To50Tc6</measType>
+<measType p="198">Bw50To55Tc6</measType>
+<measType p="199">Bw55To60Tc6</measType>
+<measType p="200">Bw60To65Tc6</measType>
+<measType p="201">Bw65To70Tc6</measType>
+<measType p="202">Bw70To75Tc6</measType>
+<measType p="203">Bw75To80Tc6</measType>
+<measType p="204">Bw80To85Tc6</measType>
+<measType p="205">Bw85To90Tc6</measType>
+<measType p="206">Bw90To95Tc6</measType>
+<measType p="207">Bw95To100Tc6</measType>
+<measType p="208">BwAvgTc7</measType>
+<measType p="209">BwMaxTc7</measType>
+<measType p="210">BwMinTc7</measType>
+<measType p="211">Bw0To5Tc7</measType>
+<measType p="212">Bw5To10Tc7</measType>
+<measType p="213">Bw10To15Tc7</measType>
+<measType p="214">Bw15To20Tc7</measType>
+<measType p="215">Bw20To25Tc7</measType>
+<measType p="216">Bw25To30Tc7</measType>
+<measType p="217">Bw30To35Tc7</measType>
+<measType p="218">Bw35To40Tc7</measType>
+<measType p="219">Bw40To45Tc7</measType>
+<measType p="220">Bw45To50Tc7</measType>
+<measType p="221">Bw50To55Tc7</measType>
+<measType p="222">Bw55To60Tc7</measType>
+<measType p="223">Bw60To65Tc7</measType>
+<measType p="224">Bw65To70Tc7</measType>
+<measType p="225">Bw70To75Tc7</measType>
+<measType p="226">Bw75To80Tc7</measType>
+<measType p="227">Bw80To85Tc7</measType>
+<measType p="228">Bw85To90Tc7</measType>
+<measType p="229">Bw90To95Tc7</measType>
+<measType p="230">Bw95To100Tc7</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN-CES 1/7/101">
+<r p="1">26</r>
+<r p="2">26</r>
+<r p="3">20</r>
+<r p="4">90</r>
+<r p="5">49</r>
+<r p="6">91</r>
+<r p="7">13</r>
+<r p="8">85</r>
+<r p="9">41</r>
+<r p="10">14</r>
+<r p="11">91</r>
+<r p="12">17</r>
+<r p="13">54</r>
+<r p="14">64</r>
+<r p="15">78</r>
+<r p="16">67</r>
+<r p="17">89</r>
+<r p="18">34</r>
+<r p="19">23</r>
+<r p="20">81</r>
+<r p="21">44</r>
+<r p="22">5</r>
+<r p="23">36</r>
+<r p="24">75</r>
+<r p="25">97</r>
+<r p="26">22</r>
+<r p="27">20</r>
+<r p="28">26</r>
+<r p="29">51</r>
+<r p="30">41</r>
+<r p="31">12</r>
+<r p="32">63</r>
+<r p="33">25</r>
+<r p="34">89</r>
+<r p="35">65</r>
+<r p="36">13</r>
+<r p="37">87</r>
+<r p="38">79</r>
+<r p="39">68</r>
+<r p="40">23</r>
+<r p="41">52</r>
+<r p="42">36</r>
+<r p="43">14</r>
+<r p="44">87</r>
+<r p="45">20</r>
+<r p="46">39</r>
+<r p="47">10</r>
+<r p="48">33</r>
+<r p="49">62</r>
+<r p="50">80</r>
+<r p="51">58</r>
+<r p="52">71</r>
+<r p="53">86</r>
+<r p="54">34</r>
+<r p="55">89</r>
+<r p="56">10</r>
+<r p="57">93</r>
+<r p="58">66</r>
+<r p="59">97</r>
+<r p="60">33</r>
+<r p="61">38</r>
+<r p="62">96</r>
+<r p="63">89</r>
+<r p="64">1</r>
+<r p="65">14</r>
+<r p="66">87</r>
+<r p="67">9</r>
+<r p="68">81</r>
+<r p="69">78</r>
+<r p="70">84</r>
+<r p="71">90</r>
+<r p="72">23</r>
+<r p="73">32</r>
+<r p="74">59</r>
+<r p="75">33</r>
+<r p="76">17</r>
+<r p="77">21</r>
+<r p="78">6</r>
+<r p="79">16</r>
+<r p="80">38</r>
+<r p="81">62</r>
+<r p="82">7</r>
+<r p="83">77</r>
+<r p="84">28</r>
+<r p="85">7</r>
+<r p="86">69</r>
+<r p="87">29</r>
+<r p="88">20</r>
+<r p="89">97</r>
+<r p="90">55</r>
+<r p="91">28</r>
+<r p="92">7</r>
+<r p="93">30</r>
+<r p="94">24</r>
+<r p="95">17</r>
+<r p="96">58</r>
+<r p="97">69</r>
+<r p="98">47</r>
+<r p="99">33</r>
+<r p="100">42</r>
+<r p="101">70</r>
+<r p="102">58</r>
+<r p="103">97</r>
+<r p="104">83</r>
+<r p="105">91</r>
+<r p="106">23</r>
+<r p="107">60</r>
+<r p="108">81</r>
+<r p="109">55</r>
+<r p="110">78</r>
+<r p="111">21</r>
+<r p="112">35</r>
+<r p="113">1</r>
+<r p="114">29</r>
+<r p="115">77</r>
+<r p="116">8</r>
+<r p="117">60</r>
+<r p="118">70</r>
+<r p="119">57</r>
+<r p="120">98</r>
+<r p="121">81</r>
+<r p="122">46</r>
+<r p="123">93</r>
+<r p="124">54</r>
+<r p="125">44</r>
+<r p="126">26</r>
+<r p="127">98</r>
+<r p="128">64</r>
+<r p="129">90</r>
+<r p="130">57</r>
+<r p="131">56</r>
+<r p="132">38</r>
+<r p="133">80</r>
+<r p="134">85</r>
+<r p="135">95</r>
+<r p="136">16</r>
+<r p="137">54</r>
+<r p="138">88</r>
+<r p="139">9</r>
+<r p="140">15</r>
+<r p="141">11</r>
+<r p="142">19</r>
+<r p="143">40</r>
+<r p="144">33</r>
+<r p="145">97</r>
+<r p="146">97</r>
+<r p="147">33</r>
+<r p="148">70</r>
+<r p="149">62</r>
+<r p="150">69</r>
+<r p="151">37</r>
+<r p="152">53</r>
+<r p="153">98</r>
+<r p="154">95</r>
+<r p="155">34</r>
+<r p="156">94</r>
+<r p="157">75</r>
+<r p="158">9</r>
+<r p="159">29</r>
+<r p="160">58</r>
+<r p="161">23</r>
+<r p="162">19</r>
+<r p="163">65</r>
+<r p="164">25</r>
+<r p="165">45</r>
+<r p="166">81</r>
+<r p="167">84</r>
+<r p="168">62</r>
+<r p="169">52</r>
+<r p="170">94</r>
+<r p="171">77</r>
+<r p="172">34</r>
+<r p="173">89</r>
+<r p="174">58</r>
+<r p="175">47</r>
+<r p="176">13</r>
+<r p="177">14</r>
+<r p="178">56</r>
+<r p="179">34</r>
+<r p="180">99</r>
+<r p="181">64</r>
+<r p="182">97</r>
+<r p="183">13</r>
+<r p="184">43</r>
+<r p="185">82</r>
+<r p="186">21</r>
+<r p="187">57</r>
+<r p="188">98</r>
+<r p="189">9</r>
+<r p="190">3</r>
+<r p="191">80</r>
+<r p="192">26</r>
+<r p="193">15</r>
+<r p="194">21</r>
+<r p="195">71</r>
+<r p="196">6</r>
+<r p="197">0</r>
+<r p="198">21</r>
+<r p="199">90</r>
+<r p="200">32</r>
+<r p="201">26</r>
+<r p="202">41</r>
+<r p="203">57</r>
+<r p="204">78</r>
+<r p="205">30</r>
+<r p="206">16</r>
+<r p="207">59</r>
+<r p="208">79</r>
+<r p="209">24</r>
+<r p="210">36</r>
+<r p="211">53</r>
+<r p="212">57</r>
+<r p="213">40</r>
+<r p="214">13</r>
+<r p="215">56</r>
+<r p="216">25</r>
+<r p="217">64</r>
+<r p="218">3</r>
+<r p="219">52</r>
+<r p="220">42</r>
+<r p="221">81</r>
+<r p="222">13</r>
+<r p="223">92</r>
+<r p="224">60</r>
+<r p="225">89</r>
+<r p="226">34</r>
+<r p="227">83</r>
+<r p="228">95</r>
+<r p="229">89</r>
+<r p="230">94</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LLDP">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Inserts</measType>
+<measType p="2">Deletes</measType>
+<measType p="3">Drops</measType>
+<measType p="4">Ageouts</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">20</r>
+<r p="2">77</r>
+<r p="3">59</r>
+<r p="4">90</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CES">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">PacketsRx</measType>
+<measType p="2">OctetsRx</measType>
+<measType p="3">PacketsTx</measType>
+<measType p="4">OctetsTx</measType>
+<measType p="5">Missing_Packets</measType>
+<measType p="6">Re_Ordered_Packets</measType>
+<measType p="7">Jitter_Buffer_Underruns</measType>
+<measType p="8">Misordered_and_Dropped_Packets</measType>
+<measType p="9">Malformed_Packets</measType>
+<measType p="10">ES</measType>
+<measType p="11">SES</measType>
+<measType p="12">UAS</measType>
+<measType p="13">FC</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">72</r>
+<r p="2">80</r>
+<r p="3">79</r>
+<r p="4">70</r>
+<r p="5">46</r>
+<r p="6">32</r>
+<r p="7">2</r>
+<r p="8">59</r>
+<r p="9">37</r>
+<r p="10">59</r>
+<r p="11">6</r>
+<r p="12">77</r>
+<r p="13">28</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EthernetPortTraffic">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">TrOctRx</measType>
+<measType p="2">TrUniRx</measType>
+<measType p="3">TrMultiRx</measType>
+<measType p="4">TrBroadRx</measType>
+<measType p="5">TrDiscRx</measType>
+<measType p="6">TrErrRx</measType>
+<measType p="7">TrOctTx</measType>
+<measType p="8">TrUniTx</measType>
+<measType p="9">TrMultiTx</measType>
+<measType p="10">TrBroadTx</measType>
+<measType p="11">TrDiscTx</measType>
+<measType p="12">TrErrTx</measType>
+<measType p="13">TrOctTc0</measType>
+<measType p="14">TrPktsTc0</measType>
+<measType p="15">TrDiscTc0</measType>
+<measType p="16">TrOctTc1</measType>
+<measType p="17">TrPktsTc1</measType>
+<measType p="18">TrDiscTc1</measType>
+<measType p="19">TrOctTc2</measType>
+<measType p="20">TrPktsTc2</measType>
+<measType p="21">TrDiscTc2</measType>
+<measType p="22">TrOctTc3</measType>
+<measType p="23">TrPktsTc3</measType>
+<measType p="24">TrDiscTc3</measType>
+<measType p="25">TrOctTc4</measType>
+<measType p="26">TrPktsTc4</measType>
+<measType p="27">TrDiscTc4</measType>
+<measType p="28">TrOctTc5</measType>
+<measType p="29">TrPktsTc5</measType>
+<measType p="30">TrDiscTc5</measType>
+<measType p="31">TrOctTc6</measType>
+<measType p="32">TrPktsTc6</measType>
+<measType p="33">TrDiscTc6</measType>
+<measType p="34">TrOctTc7</measType>
+<measType p="35">TrPktsTc7</measType>
+<measType p="36">TrDiscTc7</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN-CES 1/7/101">
+<r p="1">39</r>
+<r p="2">20</r>
+<r p="3">95</r>
+<r p="4">39</r>
+<r p="5">92</r>
+<r p="6">43</r>
+<r p="7">84</r>
+<r p="8">2</r>
+<r p="9">44</r>
+<r p="10">46</r>
+<r p="11">42</r>
+<r p="12">11</r>
+<r p="13">9</r>
+<r p="14">86</r>
+<r p="15">76</r>
+<r p="16">42</r>
+<r p="17">74</r>
+<r p="18">37</r>
+<r p="19">99</r>
+<r p="20">34</r>
+<r p="21">65</r>
+<r p="22">71</r>
+<r p="23">36</r>
+<r p="24">73</r>
+<r p="25">64</r>
+<r p="26">34</r>
+<r p="27">81</r>
+<r p="28">20</r>
+<r p="29">76</r>
+<r p="30">63</r>
+<r p="31">35</r>
+<r p="32">83</r>
+<r p="33">5</r>
+<r p="34">40</r>
+<r p="35">72</r>
+<r p="36">42</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PTPClock">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">averageMasterSlaveDelay</measType>
+<measType p="2">minMasterSlaveDelay</measType>
+<measType p="3">maxMasterSlaveDelay</measType>
+<measType p="4">stdDevMasterSlaveDelay</measType>
+<measType p="5">averageSlaveMasterDelay</measType>
+<measType p="6">minSlaveMasterDelay</measType>
+<measType p="7">maxSlaveMasterDelay</measType>
+<measType p="8">stdDevSlaveMasterDelay</measType>
+<measType p="9">averageMeanPathDelay</measType>
+<measType p="10">minMeanPathDelay</measType>
+<measType p="11">maxMeanPathDelay</measType>
+<measType p="12">stdDevMeanPathDelay</measType>
+<measType p="13">averageOffsetFromMaster</measType>
+<measType p="14">minOffsetFromMaster</measType>
+<measType p="15">maxOffsetFromMaster</measType>
+<measType p="16">stdDevOffsetFromMaster</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">8</r>
+<r p="2">67</r>
+<r p="3">3</r>
+<r p="4">94</r>
+<r p="5">60</r>
+<r p="6">93</r>
+<r p="7">87</r>
+<r p="8">0</r>
+<r p="9">78</r>
+<r p="10">59</r>
+<r p="11">37</r>
+<r p="12">96</r>
+<r p="13">46</r>
+<r p="14">28</r>
+<r p="15">76</r>
+<r p="16">27</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RADIUS">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Request_Send</measType>
+<measType p="2">Request_Resend</measType>
+<measType p="3">Request_Accept</measType>
+<measType p="4">Request_Reject</measType>
+<measType p="5">Request_Timeout</measType>
+<measType p="6">AcctRequest_Send</measType>
+<measType p="7">AcctRequest_Resend</measType>
+<measType p="8">AcctRequest_Accept</measType>
+<measType p="9">AcctRequest_Reject</measType>
+<measType p="10">AcctRequest_Timeout</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">65</r>
+<r p="2">42</r>
+<r p="3">75</r>
+<r p="4">63</r>
+<r p="5">86</r>
+<r p="6">57</r>
+<r p="7">48</r>
+<r p="8">67</r>
+<r p="9">57</r>
+<r p="10">62</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LAG">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">Switchovers</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">36</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=HQoSPortBandwidth">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">BwAvgTc0</measType>
+<measType p="2">BwMaxTc0</measType>
+<measType p="3">BwMinTc0</measType>
+<measType p="4">BwAvgTc1</measType>
+<measType p="5">BwMaxTc1</measType>
+<measType p="6">BwMinTc1</measType>
+<measType p="7">BwAvgTc2</measType>
+<measType p="8">BwMaxTc2</measType>
+<measType p="9">BwMinTc2</measType>
+<measType p="10">BwAvgTc3</measType>
+<measType p="11">BwMaxTc3</measType>
+<measType p="12">BwMinTc3</measType>
+<measType p="13">BwAvgTc4</measType>
+<measType p="14">BwMaxTc4</measType>
+<measType p="15">BwMinTc4</measType>
+<measType p="16">BwAvgTc5</measType>
+<measType p="17">BwMaxTc5</measType>
+<measType p="18">BwMinTc5</measType>
+<measType p="19">BwAvgTc6</measType>
+<measType p="20">BwMaxTc6</measType>
+<measType p="21">BwMinTc6</measType>
+<measType p="22">BwAvgTc7</measType>
+<measType p="23">BwMaxTc7</measType>
+<measType p="24">BwMinTc7</measType>
+<measValue measObjLdn="HQoSNode=1/7/1.DEFAULT">
+<r p="1">79</r>
+<r p="2">61</r>
+<r p="3">23</r>
+<r p="4">96</r>
+<r p="5">84</r>
+<r p="6">80</r>
+<r p="7">61</r>
+<r p="8">15</r>
+<r p="9">72</r>
+<r p="10">31</r>
+<r p="11">92</r>
+<r p="12">45</r>
+<r p="13">77</r>
+<r p="14">83</r>
+<r p="15">43</r>
+<r p="16">66</r>
+<r p="17">22</r>
+<r p="18">6</r>
+<r p="19">94</r>
+<r p="20">61</r>
+<r p="21">19</r>
+<r p="22">63</r>
+<r p="23">65</r>
+<r p="24">28</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PTPClockPort">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">announceTx</measType>
+<measType p="2">announceRx</measType>
+<measType p="3">announceForeignMasterRx</measType>
+<measType p="4">syncTx</measType>
+<measType p="5">syncRx</measType>
+<measType p="6">followUpTx</measType>
+<measType p="7">followUpRx</measType>
+<measType p="8">delayReqTx</measType>
+<measType p="9">delayReqRx</measType>
+<measType p="10">delayRespTx</measType>
+<measType p="11">delayRespRx</measType>
+<measType p="12">pDelayReqTx</measType>
+<measType p="13">pDelayReqRx</measType>
+<measType p="14">pDelayRespTx</measType>
+<measType p="15">pDelayRespRx</measType>
+<measType p="16">pDelayRespFollowUpTx</measType>
+<measType p="17">pDelayRespFollowUpRx</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">79</r>
+<r p="2">70</r>
+<r p="3">29</r>
+<r p="4">89</r>
+<r p="5">39</r>
+<r p="6">81</r>
+<r p="7">0</r>
+<r p="8">73</r>
+<r p="9">25</r>
+<r p="10">7</r>
+<r p="11">1</r>
+<r p="12">9</r>
+<r p="13">11</r>
+<r p="14">82</r>
+<r p="15">28</r>
+<r p="16">73</r>
+<r p="17">65</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_MS_MSPNE">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">74</r>
+<r p="2">40</r>
+<r p="3">23</r>
+<r p="4">32</r>
+<r p="5">21</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LACP_Link">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">dot3adAggPortStatsLACPDUsRx</measType>
+<measType p="2">dot3adAggPortStatsMarkerPDUsRx</measType>
+<measType p="3">dot3adAggPortStatsMarkerResponsePDUsRx</measType>
+<measType p="4">dot3adAggPortStatsUnknownRx</measType>
+<measType p="5">dot3adAggPortStatsIllegalRx</measType>
+<measType p="6">dot3adAggPortStatsLACPDUsTx</measType>
+<measType p="7">dot3adAggPortStatsMarkerPDUsTx</measType>
+<measType p="8">dot3adAggPortStatsMarkerResponsePDUsTx</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">48</r>
+<r p="2">24</r>
+<r p="3">16</r>
+<r p="4">15</r>
+<r p="5">21</r>
+<r p="6">29</r>
+<r p="7">95</r>
+<r p="8">69</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_VC12FE">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">10</r>
+<r p="2">77</r>
+<r p="3">42</r>
+<r p="4">25</r>
+<r p="5">11</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SDH_MS_MSPFE">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">ES</measType>
+<measType p="2">SES</measType>
+<measType p="3">BBE</measType>
+<measType p="4">UAS</measType>
+<measType p="5">UAV</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">25</r>
+<r p="2">80</r>
+<r p="3">35</r>
+<r p="4">31</r>
+<r p="5">44</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MIMO_ETA">
+ <granPeriod duration="PT900S" endTime="2024-05-18T09:15:00+02:00"/>
+<measType p="1">EtaMin</measType>
+<measType p="2">EtaMax</measType>
+<measValue measObjLdn="Interfaces=1,Interface=LAN 1/1/1">
+<r p="1">50</r>
+<r p="2">93</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2024-05-18T09:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

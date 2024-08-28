@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ABLOL</measType>
+			<measType p="2">BLOL</measType>
+			<measType p="3">ID1</measType>
+			<measType p="4">ID2</measType>
+			<measType p="5">MBLOL</measType>
+			<measType p="6">NABLOCACC</measType>
+			<measType p="7">NBLOCACC</measType>
+			<measType p="8">NCALLSI</measType>
+			<measType p="9">NCALLSO</measType>
+			<measType p="10">NDEV</measType>
+			<measType p="11">NMBLOCACC</measType>
+			<measType p="12">NOBLOCACC</measType>
+			<measType p="13">NOSEIZ</measType>
+			<measType p="14">NOVERFLOWI</measType>
+			<measType p="15">NOVERFLOWO</measType>
+			<measType p="16">NSCAN</measType>
+			<measType p="17">NSEMIPERCI</measType>
+			<measType p="18">NSEMIPERCO</measType>
+			<measType p="19">NTRALACCI</measType>
+			<measType p="20">NTRALACCO</measType>
+			<measType p="21">OBLOL</measType>
+			<measType p="22">TRALI</measType>
+			<measType p="23">TRALO</measType>
+			<measType p="24">ABLOCCNT</measType>
+			<measType p="25">OBLOCCNT</measType>
+			<measType p="26">MBLOCCNT</measType>
+			<measType p="27">BLOCCNT</measType>
+			<measType p="28">CALLCNT</measType>
+			<measType p="29">CONGCNT</measType>
+			<measType p="30">SPCCNT</measType>
+			<measType p="31">NUDEVCNT</measType>
+			<measType p="32">TRALCNT</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,JUNCTROUTE=0">
+				<r p="1">77</r>
+				<r p="2">34</r>
+				<r p="3">79</r>
+				<r p="4">81</r>
+				<r p="5">54</r>
+				<r p="6">95</r>
+				<r p="7">52</r>
+				<r p="8">94</r>
+				<r p="9">98</r>
+				<r p="10">5</r>
+				<r p="11">31</r>
+				<r p="12">83</r>
+				<r p="13">79</r>
+				<r p="14">80</r>
+				<r p="15">86</r>
+				<r p="16">88</r>
+				<r p="17">40</r>
+				<r p="18">41</r>
+				<r p="19">89</r>
+				<r p="20">15</r>
+				<r p="21">39</r>
+				<r p="22">31</r>
+				<r p="23">17</r>
+				<r p="24">59</r>
+				<r p="25">42</r>
+				<r p="26">6</r>
+				<r p="27">69</r>
+				<r p="28">53</r>
+				<r p="29">26</r>
+				<r p="30">45</r>
+				<r p="31">6</r>
+				<r p="32">59</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

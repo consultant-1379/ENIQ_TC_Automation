@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v11.0.0">
+       <fileSender/>
+       <measCollec beginTime="2023-10-30T10:00:00+02:00"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="SYSTEM1Job"/>
+         <granPeriod duration="PT900S" endTime="2023-10-30T10:15:00+02:00"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">cpuUsage.actual</measType>
+         <measType p="1">cpuUsage.min</measType>
+         <measType p="2">cpuUsage.max</measType>
+         <measType p="3">memUsage.actual</measType>
+         <measType p="4">memUsage.min</measType>
+         <measType p="5">memUsage.max</measType>
+         <measType p="6">rootPath.actual</measType>
+         <measType p="7">rootPath.min</measType>
+         <measType p="8">rootPath.max</measType>
+		 <measValue measObjLdn="">
+             <r p="0">49</r>
+             <r p="1">68</r>
+             <r p="2">66</r>
+             <r p="3">7</r>
+             <r p="4">50</r>
+             <r p="5">7</r>
+             <r p="6">37</r>
+             <r p="7">71</r>
+             <r p="8">42</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-10-30T10:15:00+02:00"/>
+    </fileFooter>
+</measCollecFile>

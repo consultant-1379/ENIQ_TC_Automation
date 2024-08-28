@@ -1,0 +1,1 @@
+eniq_oss_1 GGSN01  SubNetwork GGSN    3.35       SubNetwork=SubNetwork,NetworkElement=GGSN01,ManagedElement=GGSN01,MeContext=GGSN01 GGSN01 MSGGSN01 MeContext SubNetwork=SubNetwork,Site=MSGGSN01 Ericsson DEACTIVE 2024-04-04 16:15:10.0 2024-04-04 16:15:10.0 ENIQ     

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=IsNetwork,IsSite=ISMGW01">
+<fileSender localDn="bs=1" elementType="MGW"/>
+<measCollec beginTime="2023-11-04T10:00:00+0100"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="MGW" swVersion="R3B"/>
+<measInfo measInfoId="1">
+<job jobId="1"/>
+<granPeriod duration="PT900S" endTime="2023-11-04T10:15:00+0100"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">currentLimit</measType>
+<measType p="2">currentUsage</measType>
+<measType p="3">maxLimit</measType>
+<measType p="4">step</measType>
+<measValue measObjLdn="Blade=1-1,License=1">
+<r p="1">2120251653</r>
+<r p="2">2454125192</r>
+<r p="3">1869495432</r>
+<r p="4">2332728545</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=2">
+<r p="1">3173700734</r>
+<r p="2">2432485275</r>
+<r p="3">4039720961</r>
+<r p="4">73909187</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=3">
+<r p="1">3801543704</r>
+<r p="2">3029693935</r>
+<r p="3">807478857</r>
+<r p="4">2073959242</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=4">
+<r p="1">83060698</r>
+<r p="2">1343344972</r>
+<r p="3">500174278</r>
+<r p="4">750453382</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=5">
+<r p="1">1833381664</r>
+<r p="2">1911956928</r>
+<r p="3">3415817191</r>
+<r p="4">4110248939</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=6">
+<r p="1">1595829681</r>
+<r p="2">2253211335</r>
+<r p="3">775723789</r>
+<r p="4">724625960</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=7">
+<r p="1">2492018552</r>
+<r p="2">3587450881</r>
+<r p="3">709707575</r>
+<r p="4">4113191914</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=8">
+<r p="1">1551777319</r>
+<r p="2">2295334577</r>
+<r p="3">1268590792</r>
+<r p="4">1728574107</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=9">
+<r p="1">504628644</r>
+<r p="2">1649483948</r>
+<r p="3">1590666068</r>
+<r p="4">3944170329</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=10">
+<r p="1">524388126</r>
+<r p="2">2128870958</r>
+<r p="3">3303362520</r>
+<r p="4">2877441919</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=11">
+<r p="1">3524878165</r>
+<r p="2">4294134135</r>
+<r p="3">3235040062</r>
+<r p="4">4180042891</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=12">
+<r p="1">2544949812</r>
+<r p="2">3009165328</r>
+<r p="3">796168519</r>
+<r p="4">4114011555</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=13">
+<r p="1">3693418149</r>
+<r p="2">1962377901</r>
+<r p="3">309455372</r>
+<r p="4">361540533</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=14">
+<r p="1">2876259484</r>
+<r p="2">1041821242</r>
+<r p="3">383837728</r>
+<r p="4">1975934213</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=15">
+<r p="1">1660993740</r>
+<r p="2">2504483637</r>
+<r p="3">3367856930</r>
+<r p="4">1234757452</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=16">
+<r p="1">4031035596</r>
+<r p="2">1454348256</r>
+<r p="3">1954893929</r>
+<r p="4">787775332</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=17">
+<r p="1">547045441</r>
+<r p="2">2618509229</r>
+<r p="3">3498805940</r>
+<r p="4">2430521515</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=18">
+<r p="1">3814583511</r>
+<r p="2">3778476867</r>
+<r p="3">1741973946</r>
+<r p="4">3324301324</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=19">
+<r p="1">49566638</r>
+<r p="2">1611686679</r>
+<r p="3">1754063881</r>
+<r p="4">424024751</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=20">
+<r p="1">3324222348</r>
+<r p="2">104283329</r>
+<r p="3">3899585585</r>
+<r p="4">1899750924</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=21">
+<r p="1">520889618</r>
+<r p="2">1398460110</r>
+<r p="3">3919905758</r>
+<r p="4">3841819264</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=22">
+<r p="1">2307341184</r>
+<r p="2">3871207079</r>
+<r p="3">1795058122</r>
+<r p="4">501508496</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=23">
+<r p="1">2128010255</r>
+<r p="2">2147195505</r>
+<r p="3">2525427296</r>
+<r p="4">257024034</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=24">
+<r p="1">1893304333</r>
+<r p="2">3180732751</r>
+<r p="3">2983431705</r>
+<r p="4">876094859</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=25">
+<r p="1">2469669718</r>
+<r p="2">4061322198</r>
+<r p="3">3415595105</r>
+<r p="4">896087375</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=26">
+<r p="1">1428426702</r>
+<r p="2">4272190472</r>
+<r p="3">1112079144</r>
+<r p="4">2513245879</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=27">
+<r p="1">1391125154</r>
+<r p="2">1084604180</r>
+<r p="3">671704866</r>
+<r p="4">3286351396</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=28">
+<r p="1">2986788651</r>
+<r p="2">1164387381</r>
+<r p="3">938062913</r>
+<r p="4">3123084403</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=29">
+<r p="1">1336442193</r>
+<r p="2">638621251</r>
+<r p="3">2304151360</r>
+<r p="4">710213887</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=30">
+<r p="1">3843659065</r>
+<r p="2">597302417</r>
+<r p="3">1851503812</r>
+<r p="4">160032825</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=31">
+<r p="1">1241822045</r>
+<r p="2">1495067142</r>
+<r p="3">4057726711</r>
+<r p="4">901701168</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=32">
+<r p="1">1221715476</r>
+<r p="2">553584457</r>
+<r p="3">990806103</r>
+<r p="4">3610791296</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=33">
+<r p="1">227084588</r>
+<r p="2">398166405</r>
+<r p="3">3016930089</r>
+<r p="4">315138312</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=34">
+<r p="1">334248520</r>
+<r p="2">2101959768</r>
+<r p="3">799912701</r>
+<r p="4">2617971510</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=35">
+<r p="1">2646367972</r>
+<r p="2">342006147</r>
+<r p="3">2038598271</r>
+<r p="4">3103264450</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=36">
+<r p="1">643413621</r>
+<r p="2">2234413538</r>
+<r p="3">2656538717</r>
+<r p="4">1383407791</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=37">
+<r p="1">4247945487</r>
+<r p="2">3071255918</r>
+<r p="3">62575346</r>
+<r p="4">3217192617</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=38">
+<r p="1">749843202</r>
+<r p="2">2342095895</r>
+<r p="3">3633812782</r>
+<r p="4">350744749</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=39">
+<r p="1">396343571</r>
+<r p="2">3807227563</r>
+<r p="3">3079592681</r>
+<r p="4">3733176807</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=40">
+<r p="1">3274132848</r>
+<r p="2">3624136205</r>
+<r p="3">1646593498</r>
+<r p="4">1604100148</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=41">
+<r p="1">2549111736</r>
+<r p="2">2980003092</r>
+<r p="3">1414955315</r>
+<r p="4">2556003570</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=42">
+<r p="1">2164454990</r>
+<r p="2">451995766</r>
+<r p="3">2422570812</r>
+<r p="4">2529230310</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=43">
+<r p="1">3009698479</r>
+<r p="2">3576458953</r>
+<r p="3">1794294913</r>
+<r p="4">3571584361</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=44">
+<r p="1">362808373</r>
+<r p="2">965601896</r>
+<r p="3">1337165418</r>
+<r p="4">2986908422</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=45">
+<r p="1">850318089</r>
+<r p="2">2442463307</r>
+<r p="3">1867928812</r>
+<r p="4">1725920313</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=46">
+<r p="1">3756933102</r>
+<r p="2">2172031395</r>
+<r p="3">124328137</r>
+<r p="4">782359419</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=47">
+<r p="1">1108975439</r>
+<r p="2">2131133489</r>
+<r p="3">2102534339</r>
+<r p="4">3250498422</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=48">
+<r p="1">2843178963</r>
+<r p="2">2510076309</r>
+<r p="3">3584965634</r>
+<r p="4">2827945099</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=49">
+<r p="1">3517769106</r>
+<r p="2">2243306152</r>
+<r p="3">698738874</r>
+<r p="4">1594003493</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=50">
+<r p="1">1843990169</r>
+<r p="2">2773781656</r>
+<r p="3">2618002996</r>
+<r p="4">3160624851</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=51">
+<r p="1">2388305896</r>
+<r p="2">3294559101</r>
+<r p="3">4166306793</r>
+<r p="4">2492660216</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=52">
+<r p="1">1478593025</r>
+<r p="2">3196359217</r>
+<r p="3">2512442579</r>
+<r p="4">308540430</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=53">
+<r p="1">3173930336</r>
+<r p="2">1382288218</r>
+<r p="3">1363008277</r>
+<r p="4">3706702252</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=54">
+<r p="1">1573004678</r>
+<r p="2">1274659157</r>
+<r p="3">1893699262</r>
+<r p="4">3020767426</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=55">
+<r p="1">2172672129</r>
+<r p="2">244729526</r>
+<r p="3">200844992</r>
+<r p="4">3527932637</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=56">
+<r p="1">574906389</r>
+<r p="2">283086479</r>
+<r p="3">589922773</r>
+<r p="4">217818085</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=57">
+<r p="1">1462610165</r>
+<r p="2">3953043069</r>
+<r p="3">3958755243</r>
+<r p="4">1567929310</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=58">
+<r p="1">177441994</r>
+<r p="2">844889291</r>
+<r p="3">4088614385</r>
+<r p="4">943242898</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=59">
+<r p="1">3386071389</r>
+<r p="2">1795963648</r>
+<r p="3">2783155819</r>
+<r p="4">3654833295</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=60">
+<r p="1">2854904618</r>
+<r p="2">542092652</r>
+<r p="3">1917516216</r>
+<r p="4">2062316437</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=61">
+<r p="1">2987272716</r>
+<r p="2">939932378</r>
+<r p="3">1196846205</r>
+<r p="4">790726499</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=62">
+<r p="1">4071919336</r>
+<r p="2">1849290572</r>
+<r p="3">1436714106</r>
+<r p="4">225573110</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=63">
+<r p="1">2176718532</r>
+<r p="2">312611456</r>
+<r p="3">431326016</r>
+<r p="4">569528545</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=64">
+<r p="1">3476308043</r>
+<r p="2">3980447936</r>
+<r p="3">2034136390</r>
+<r p="4">2479941167</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=65">
+<r p="1">1749936016</r>
+<r p="2">2094888074</r>
+<r p="3">1500208271</r>
+<r p="4">1550524358</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=66">
+<r p="1">330021753</r>
+<r p="2">2556243416</r>
+<r p="3">1948806460</r>
+<r p="4">3868869929</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=67">
+<r p="1">1476313348</r>
+<r p="2">3661392448</r>
+<r p="3">1515870787</r>
+<r p="4">4019838372</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=68">
+<r p="1">3930777849</r>
+<r p="2">598392833</r>
+<r p="3">2170925917</r>
+<r p="4">220832358</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=69">
+<r p="1">892842897</r>
+<r p="2">4077609749</r>
+<r p="3">4069871341</r>
+<r p="4">1322057088</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=70">
+<r p="1">656467389</r>
+<r p="2">1071394875</r>
+<r p="3">3006384214</r>
+<r p="4">2320112687</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=71">
+<r p="1">3101248591</r>
+<r p="2">205866068</r>
+<r p="3">1146883143</r>
+<r p="4">97160513</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=72">
+<r p="1">726766201</r>
+<r p="2">3805488429</r>
+<r p="3">2851927260</r>
+<r p="4">1547662164</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=73">
+<r p="1">3465880684</r>
+<r p="2">85817844</r>
+<r p="3">1079768507</r>
+<r p="4">2867545278</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=74">
+<r p="1">1087317199</r>
+<r p="2">643584837</r>
+<r p="3">1211029932</r>
+<r p="4">1362303756</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=75">
+<r p="1">2018078997</r>
+<r p="2">724436408</r>
+<r p="3">2033487396</r>
+<r p="4">3457783206</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=76">
+<r p="1">2543302147</r>
+<r p="2">2383384232</r>
+<r p="3">464322547</r>
+<r p="4">2433042512</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=77">
+<r p="1">2137035782</r>
+<r p="2">3058274364</r>
+<r p="3">557844556</r>
+<r p="4">3853827242</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=78">
+<r p="1">1299633212</r>
+<r p="2">3310606286</r>
+<r p="3">1982163155</r>
+<r p="4">2105672335</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=79">
+<r p="1">2100603830</r>
+<r p="2">485586922</r>
+<r p="3">1268766741</r>
+<r p="4">2052575367</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=80">
+<r p="1">692785469</r>
+<r p="2">646409998</r>
+<r p="3">1830624858</r>
+<r p="4">1241134115</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=81">
+<r p="1">58138972</r>
+<r p="2">2993676750</r>
+<r p="3">3381477722</r>
+<r p="4">310694463</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=82">
+<r p="1">4073689911</r>
+<r p="2">2622218784</r>
+<r p="3">985842123</r>
+<r p="4">3946887267</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=83">
+<r p="1">3986439152</r>
+<r p="2">1066780873</r>
+<r p="3">1022224306</r>
+<r p="4">2670967921</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=84">
+<r p="1">2414453895</r>
+<r p="2">2918587662</r>
+<r p="3">3095731693</r>
+<r p="4">1091267979</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=85">
+<r p="1">608874040</r>
+<r p="2">2266828368</r>
+<r p="3">959209282</r>
+<r p="4">1782944971</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=86">
+<r p="1">1350190273</r>
+<r p="2">3357702878</r>
+<r p="3">3966612573</r>
+<r p="4">2578990318</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=87">
+<r p="1">1540302512</r>
+<r p="2">3870198246</r>
+<r p="3">2337586438</r>
+<r p="4">3353049891</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=88">
+<r p="1">296990305</r>
+<r p="2">309121881</r>
+<r p="3">3795800121</r>
+<r p="4">4051062882</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=89">
+<r p="1">2526273726</r>
+<r p="2">2240551220</r>
+<r p="3">41231754</r>
+<r p="4">194099402</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=90">
+<r p="1">569577625</r>
+<r p="2">1665961501</r>
+<r p="3">1230541826</r>
+<r p="4">2379404586</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=91">
+<r p="1">1956393873</r>
+<r p="2">3252596833</r>
+<r p="3">1363303821</r>
+<r p="4">2191446608</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=92">
+<r p="1">236834591</r>
+<r p="2">588558397</r>
+<r p="3">2421852963</r>
+<r p="4">3601488606</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=93">
+<r p="1">2567185230</r>
+<r p="2">3450366425</r>
+<r p="3">3791673923</r>
+<r p="4">1943443051</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=94">
+<r p="1">3246612910</r>
+<r p="2">790097205</r>
+<r p="3">2006137068</r>
+<r p="4">2373827232</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=95">
+<r p="1">2927882112</r>
+<r p="2">2891617839</r>
+<r p="3">3048132997</r>
+<r p="4">1720790228</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=96">
+<r p="1">2705505392</r>
+<r p="2">233879070</r>
+<r p="3">1395402943</r>
+<r p="4">3291164767</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=97">
+<r p="1">3556222095</r>
+<r p="2">34589669</r>
+<r p="3">2809776312</r>
+<r p="4">829827370</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,License=98">
+<r p="1">2352211871</r>
+<r p="2">99437443</r>
+<r p="3">1981611679</r>
+<r p="4">873163284</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,License=99">
+<r p="1">2045422298</r>
+<r p="2">1701443699</r>
+<r p="3">2909677037</r>
+<r p="4">2452330518</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,License=100">
+<r p="1">3897921408</r>
+<r p="2">3869232097</r>
+<r p="3">2128741962</r>
+<r p="4">3597834276</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-04T10:15:00+0100"/>
+</fileFooter>
+</measCollecFile>

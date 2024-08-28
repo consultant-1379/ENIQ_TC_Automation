@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=IsNetwork,IsSite=ISSBG01">
+<fileSender localDn="bs=1" elementType="SBG"/>
+<measCollec beginTime="2023-11-16T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="SBG" swVersion="R3B"/>
+<measInfo measInfoId="1">
+<job jobId="9"/>
+<granPeriod duration="PT900S" endTime="2023-11-16T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbgSipRegStatAccRegCnt</measType>
+<measType p="2">sbgSipRegStatRegUserGauge</measType>
+<measType p="3">sbgSipRegStatRejRegCnt</measType>
+<measType p="4">sbgSipRegStatInitialAttCnt</measType>
+<measType p="5">sbgSipRegStatInitialAccCnt</measType>
+<measType p="6">sbgSipRegStatInitialFailCnt</measType>
+<measType p="7">sbgSipRegStatReRegAttCnt</measType>
+<measType p="8">sbgSipRegStatReRegAccCnt</measType>
+<measType p="9">sbgSipRegStatReRegFailCnt</measType>
+<measType p="10">sbgSipRegStatDeRegAttCnt</measType>
+<measType p="11">sbgSipRegStatDeRegAccCnt</measType>
+<measType p="12">sbgSipRegStatDeRegFailCnt</measType>
+<measType p="13">sbgInitRegTime</measType>
+<measType p="14">sbgMaxInitRegTime</measType>
+<measType p="15">sbgSipRegStatRegIPsecUserGauge</measType>
+<measType p="16">sbgSipRegStatRegIPsecFailed</measType>
+<measType p="17">sbgSipEmerRegStatAccRegCnt</measType>
+<measType p="18">sbgSipEmerRegStatRegUserGauge</measType>
+<measType p="19">sbgSipEmerRegStatRejRegCnt</measType>
+<measType p="20">sbgSipEmerRegStatInitialAttCnt</measType>
+<measType p="21">sbgSipEmerRegStatInitialAccCnt</measType>
+<measType p="22">sbgSipEmerRegStatInitialFailCnt</measType>
+<measType p="23">sbgSipEmerRegStatReRegAttCnt</measType>
+<measType p="24">sbgSipEmerRegStatReRegAccCnt</measType>
+<measType p="25">sbgSipEmerRegStatReRegFailCnt</measType>
+<measType p="26">sbgPendingFallbackContactsGauge</measType>
+<measType p="27">sbgFallbackPerformedContactsGauge</measType>
+<measType p="28">sbgSipRegStatRejRegCnt400</measType>
+<measType p="29">sbgSipRegStatRejRegCnt403</measType>
+<measType p="30">sbgSipRegStatRejRegCnt404</measType>
+<measType p="31">sbgSipRegStatRejRegCnt421</measType>
+<measType p="32">sbgSipRegStatRejRegCnt500</measType>
+<measType p="33">sbgSipRegStatRejRegCnt503</measType>
+<measType p="34">sbgSipRegStatRejInitialRegCnt</measType>
+<measType p="35">sbgSipRegStatRejInitialRegCnt400</measType>
+<measType p="36">sbgSipRegStatRejInitialRegCnt403</measType>
+<measType p="37">sbgSipRegStatRejInitialRegCnt404</measType>
+<measType p="38">sbgSipRegStatRejInitialRegCnt421</measType>
+<measType p="39">sbgSipRegStatRejInitialRegCnt500</measType>
+<measType p="40">sbgSipRegStatRejInitialRegCnt503</measType>
+<measType p="41">sbgSipRegStatRejReRegCnt</measType>
+<measType p="42">sbgSipRegStatRejReRegCnt400</measType>
+<measType p="43">sbgSipRegStatRejReRegCnt403</measType>
+<measType p="44">sbgSipRegStatRejReRegCnt404</measType>
+<measType p="45">sbgSipRegStatRejReRegCnt421</measType>
+<measType p="46">sbgSipRegStatRejReRegCnt500</measType>
+<measType p="47">sbgSipRegStatRejReRegCnt503</measType>
+<measValue measObjLdn="Blade=1-1,ProxyRegistrarV6=1">
+<r p="1">85</r>
+<r p="2">2469326924</r>
+<r p="3">86</r>
+<r p="4">87</r>
+<r p="5">88</r>
+<r p="6">89</r>
+<r p="7">90</r>
+<r p="8">91</r>
+<r p="9">92</r>
+<r p="10">93</r>
+<r p="11">94</r>
+<r p="12">95</r>
+<r p="13">96</r>
+<r p="14">3213391604</r>
+<r p="15">1861440069</r>
+<r p="16">97</r>
+<r p="17">98</r>
+<r p="18">2796073932</r>
+<r p="19">99</r>
+<r p="20">100</r>
+<r p="21">101</r>
+<r p="22">102</r>
+<r p="23">103</r>
+<r p="24">104</r>
+<r p="25">105</r>
+<r p="26">3643806248</r>
+<r p="27">497233086</r>
+<r p="28">106</r>
+<r p="29">107</r>
+<r p="30">108</r>
+<r p="31">109</r>
+<r p="32">110</r>
+<r p="33">111</r>
+<r p="34">112</r>
+<r p="35">113</r>
+<r p="36">114</r>
+<r p="37">115</r>
+<r p="38">116</r>
+<r p="39">117</r>
+<r p="40">118</r>
+<r p="41">119</r>
+<r p="42">120</r>
+<r p="43">121</r>
+<r p="44">122</r>
+<r p="45">123</r>
+<r p="46">124</r>
+<r p="47">125</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-16T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader fileFormatVersion="32.435 V10.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=BSP_Sub,MeContext=BSP8100">
+		<fileSender localDn="ManagedElement=1" elementType="BSP"/>
+		<measCollec beginTime="2023-10-31T10:00:00+02:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement localDn="ManagedElement=1" userLabel="BSP" swVersion="CXP9025735 R11A58"/>
+		<measInfo measInfoId="Ext_BridgePort">
+			<job jobId="2"/>
+			<granPeriod duration="PT900S" endTime="2023-10-31T10:15:00+02:00" />
+			<repPeriod duration="PT900S"/>
+			<measType p="1">inBroadcast</measType>
+			<measType p="2">inUnicast</measType>
+			<measType p="3">outUnicast</measType>
+			<measType p="4">inErrors</measType>
+			<measType p="5">outDiscards</measType>
+			<measType p="6">inOctets</measType>
+			<measType p="7">inDiscards</measType>
+			<measType p="8">outMulticast</measType>
+			<measType p="9">outErrors</measType>
+			<measType p="10">outBroadcast</measType>
+			<measType p="11">outOctets</measType>
+			<measType p="12">inMulticast</measType>
+			<measValue measObjLdn= "Transport=1,Bridge=1,BridgePort=0">
+				<r p="1">68</r>
+				<r p="2">68</r>
+				<r p="3">69</r>
+				<r p="4">23</r>
+				<r p="5">8</r>
+				<r p="6">77</r>
+				<r p="7">17</r>
+				<r p="8">23</r>
+				<r p="9">39</r>
+				<r p="10">42</r>
+				<r p="11">28</r>
+				<r p="12">15</r>
+			</measValue>
+		</measInfo>
+		<measInfo measInfoId="Ext_InterfaceIPv6">
+			<job jobId="2"/>
+			<granPeriod duration="PT900S" endTime="2023-10-31T10:15:00+02:00" />
+			<repPeriod duration="PT900S"/>
+			<measType p="1">forwardedDatagrams</measType>
+			<measType p="2">receivedOctets</measType>
+			<measType p="3">receivedDatagrams</measType>
+			<measValue measObjLdn="Transport=1, Router=1,InterfaceIPv6=0">
+				<r p="1">64</r>
+				<r p="2">13</r>
+				<r p="3">54</r>
+			</measValue>
+		</measInfo>
+		<measInfo measInfoId="Ext_InterfaceIPv4">
+			<job jobId="2"/>
+			<granPeriod duration="PT900S" endTime="2023-10-31T10:15:00+02:00" />
+			<repPeriod duration="PT900S"/>
+			<measType p="1">forwardedDatagrams</measType>
+			<measType p="2">receivedDatagrams</measType>
+			<measType p="3">receivedOctets</measType>
+			<measValue measObjLdn="Transport=1,Router=1,InterfaceIPv4=0">
+				<r p="1">84</r>
+				<r p="2">43</r>
+				<r p="3">35</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-10-31T10:15:00+02:00"/>
+	</fileFooter>
+</measCollecFile>

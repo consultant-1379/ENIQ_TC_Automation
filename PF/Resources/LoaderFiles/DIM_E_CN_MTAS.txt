@@ -1,0 +1,1 @@
+eniq_oss_3 MSMTAS01 SubNetwork=ONRM_RootMo,Site=MSMTAS01 SubNetwork=ONRM_RootMo,SubNetwork=TSP,ManagedElement=MTAS01 ONRM_RootMo 1.29       MTAS01 MTAS01  MTAS    Ericsson ACTIVE 2024-04-10 00:00:23.0 2024-06-03 05:30:23.0 ENIQ     

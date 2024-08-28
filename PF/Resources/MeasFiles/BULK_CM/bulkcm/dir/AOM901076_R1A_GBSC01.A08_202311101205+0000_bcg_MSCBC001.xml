@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bulkCmConfigDataFile xmlns:es="EricssonSpecificAttributes.13.04.xsd" xmlns:un="utranNrm.xsd" xmlns:xn="genericNrm.xsd" xmlns:gn="geranNrm.xsd" xmlns="configData.xsd">
+<fileHeader fileFormatVersion="32.615 V4.5" vendorName="Ericsson"/>
+<configData dnPrefix="Undefined">
+<xn:SubNetwork id="ONRM_RootMo_R">
+<xn:SubNetwork id="MSCBC001">
+<xn:MeContext id="MSCBC001">
+<xn:VsDataContainer id="MSCBC001">
+<xn:attributes>
+<xn:vsDataType>vsDataMeContext</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+<es:vsDataMeContext>
+<es:MeContextId>13</es:MeContextId>
+<es:dnPrefix>54</es:dnPrefix>
+<es:userLabel>36</es:userLabel>
+<es:ipAddress>104</es:ipAddress>
+<es:segmentName>28</es:segmentName>
+<es:mimSwitchPolicy>27</es:mimSwitchPolicy>
+<es:neMIMversion>68</es:neMIMversion>
+<es:compatibilityOfMIMs>20</es:compatibilityOfMIMs>
+<es:connectionStatus>39</es:connectionStatus>
+<es:mirrorMIBsynchStatus>72</es:mirrorMIBsynchStatus>
+<es:mirrorMIBupdateStatus>25</es:mirrorMIBupdateStatus>
+<es:generationCounter>87</es:generationCounter>
+<es:neMIMName>34</es:neMIMName>
+<es:neType>31</es:neType>
+<es:neCreationComplete>16</es:neCreationComplete>
+<es:restartWarning>67</es:restartWarning>
+<es:rollbackMirrorMIBname>44</es:rollbackMirrorMIBname>
+<es:neSecurityStatus>35</es:neSecurityStatus>
+<es:bcrLastChange>14</es:bcrLastChange>
+<es:bctLastChange>26</es:bctLastChange>
+<es:telisLastChange>51</es:telisLastChange>
+<es:lostSynchronisation>35</es:lostSynchronisation>
+<es:nodeStartTime>54</es:nodeStartTime>
+<es:pendingRestart>97</es:pendingRestart>
+</es:vsDataMeContext>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:ManagedElement id="1">
+<xn:attributes>
+<xn:locationName></xn:locationName>
+<xn:userDefinedState></xn:userDefinedState>
+<xn:vendorName>Ericsson</xn:vendorName>
+<xn:userLabel>MSCBC001</xn:userLabel>
+<xn:managedElementType>MSCBC</xn:managedElementType>
+<xn:swVersion>CXP21</xn:swVersion>
+<xn:managedBy>SubNetwork=ONRM_ROOT_MO_R,ManagementNode=ONRM</xn:managedBy>
+ </xn:attributes>
+<xn:VsDataContainer id="1">
+<xn:attributes>
+<xn:vsDataType>vsDataManagedElement</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagedElement>
+<es:ManagedElementId>92</es:ManagedElementId>
+<es:dnPrefix>52</es:dnPrefix>
+<es:managedElementType>62</es:managedElementType>
+<es:vendorName>42</es:vendorName>
+<es:locationName>89</es:locationName>
+<es:userDefinedState>20</es:userDefinedState>
+<es:swVersion>78</es:swVersion>
+<es:managedBy>39</es:managedBy>
+<es:sourceType>69</es:sourceType>
+<es:release>53</es:release>
+<es:siteRef>89</es:siteRef>
+</es:vsDataManagedElement>
+</xn:attributes>
+<xn:VsDataContainer id="2">
+<xn:attributes>
+<xn:vsDataType>vsDataCp</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataCp>
+<es:CpId>24</es:CpId>
+<es:cpName>95</es:cpName>
+<es:cpAlias>63</es:cpAlias>
+<es:cpSlot>41</es:cpSlot>
+</es:vsDataCp>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="3">
+<xn:attributes>
+<xn:vsDataType>vsDataCpGroup</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataCpGroup>
+<es:CpGroupId>70</es:CpGroupId>
+<es:userLabel>102</es:userLabel>
+</es:vsDataCpGroup>
+</xn:attributes>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="4">
+<xn:attributes>
+<xn:vsDataType>vsDataManagedFunction</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataManagedFunction>
+<es:ManagedFunctionId>86</es:ManagedFunctionId>
+<es:managedFunctionList>99</es:managedFunctionList>
+<es:glcnId>17</es:glcnId>
+<es:signallingStandards>75</es:signallingStandards>
+</es:vsDataManagedFunction>
+</xn:attributes>
+<xn:VsDataContainer id="5">
+<xn:attributes>
+<xn:vsDataType>vsDataOwnSp</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataOwnSp>
+<es:OwnSpId>101</es:OwnSpId>
+<es:userLabel>13</es:userLabel>
+</es:vsDataOwnSp>
+</xn:attributes>
+<xn:VsDataContainer id="6">
+<xn:attributes>
+<xn:vsDataType>vsDataSp</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataSp>
+<es:SpId>101</es:SpId>
+<es:ni>18</es:ni>
+<es:spc>49</es:spc>
+</es:vsDataSp>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="7">
+<xn:attributes>
+<xn:vsDataType>vsDataSctpEp</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataSctpEp>
+<es:MeContextId>40</es:MeContextId>
+<es:dnPrefix>83</es:dnPrefix>
+<es:userLabel>76</es:userLabel>
+<es:ipAddress>100</es:ipAddress>
+<es:segmentName>97</es:segmentName>
+<es:mimSwitchPolicy>16</es:mimSwitchPolicy>
+<es:neMIMversion>18</es:neMIMversion>
+<es:compatibilityOfMIMs>51</es:compatibilityOfMIMs>
+<es:connectionStatus>51</es:connectionStatus>
+<es:mirrorMIBsynchStatus>49</es:mirrorMIBsynchStatus>
+<es:mirrorMIBupdateStatus>69</es:mirrorMIBupdateStatus>
+<es:generationCounter>53</es:generationCounter>
+<es:neMIMName>80</es:neMIMName>
+<es:neType>98</es:neType>
+<es:neCreationComplete>106</es:neCreationComplete>
+<es:restartWarning>59</es:restartWarning>
+<es:rollbackMirrorMIBname>79</es:rollbackMirrorMIBname>
+<es:neSecurityStatus>99</es:neSecurityStatus>
+<es:bcrLastChange>27</es:bcrLastChange>
+<es:bctLastChange>59</es:bctLastChange>
+<es:telisLastChange>95</es:telisLastChange>
+<es:lostSynchronisation>91</es:lostSynchronisation>
+<es:nodeStartTime>106</es:nodeStartTime>
+<es:pendingRestart>85</es:pendingRestart>
+<es:SctpEpId>70</es:SctpEpId>
+<es:localIpAddress1>56</es:localIpAddress1>
+<es:localIpAddress2>101</es:localIpAddress2>
+<es:portNumber>64</es:portNumber>
+</es:vsDataSctpEp>
+</xn:attributes>
+<xn:VsDataContainer id="8">
+<xn:attributes>
+<xn:vsDataType>vsDataSctpAssociation</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataSctpAssociation>
+<es:SctpAssociationId>19</es:SctpAssociationId>
+<es:remoteIpAddress1>91</es:remoteIpAddress1>
+<es:remoteIpAddress2>47</es:remoteIpAddress2>
+<es:remoteIpAddress3>97</es:remoteIpAddress3>
+<es:remoteIpAddress4>58</es:remoteIpAddress4>
+<es:portNumber>78</es:portNumber>
+</es:vsDataSctpAssociation>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+<xn:VsDataContainer id="8">
+<xn:attributes>
+<xn:vsDataType>vsDataMscPoolData</xn:vsDataType>
+<xn:vsDataFormatVersion>EricssonSpecificAttributes.13.04</xn:vsDataFormatVersion>
+ <es:vsDataMscPoolData>
+<es:MscPoolDataId>45</es:MscPoolDataId>
+<es:nriLength>52</es:nriLength>
+<es:nriValues>46</es:nriValues>
+<es:nullNriValue>65</es:nullNriValue>
+<es:nonPoolNriValue>15</es:nonPoolNriValue>
+<es:glcnId>74</es:glcnId>
+<es:locationAreas>
+<es:mcc>1</es:mcc>
+<es:mnc>27</es:mnc>
+<es:lac>2</es:lac>
+</es:locationAreas>
+</es:vsDataMscPoolData>
+</xn:attributes>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:VsDataContainer>
+</xn:ManagedElement>
+</xn:MeContext>
+</xn:SubNetwork>
+</xn:SubNetwork>
+</configData>
+<fileFooter dateTime="2023-11-10T12:05:01Z"/>
+</bulkCmConfigDataFile>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Wed Jan 10 07:13:00 GMT 2024 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+ <attr name="MCC">353</attr>
+ <attr name="MNC">77</attr>
+ <attr name="MeContextId">RNC1</attr>
+ <attr name="neMIMversion">vV.29.105</attr>
+ <attr name="nodeVersion">RNC83.A05</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=Utran_Site</attr>
+ <attr name="managedElementType">RNC</attr>
+ <attr name="associatedRadioNodes">
+<seq count="1">
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=MSRBS-V200001</item>
+</seq>
+</attr>
+ <attr name="associatedPicoNodes">
+<seq count="1">
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=PRBS-V200001</item>
+</seq>
+</attr>
+ <attr name="userLabel">RNC1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="subrackPosition"></attr>
+<attr name="cabinetPosition"></attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="SlotId">1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,IurLink=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="rncId">1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,IubLink=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="rbsId">1</attr>
+<attr name="IubLinkId">1</attr>
+<attr name="userLabel">RNC1</attr>
+<attr name="dlHwAdm">1</attr>
+<attr name="ulHwAdm">1</attr>
+<attr name="rncModuleRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,RncModule=1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,RncModule=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="userLabel">RNC1</attr>
+<attr name="rpuRefs">
+<seq count="10">
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=scc_adm</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=scc_server</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=aal2ap13</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=sw_inst</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=spas_res</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=inet</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=ospf</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=aal05_ncc</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=aal_cc</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=phy_e1_mp</item>
+</seq>
+</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,UtranCell=RNC1-1-1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="UtranCellId">RNC1-1-1</attr>
+<attr name="tCell">1</attr>
+<attr name="localCellId">2</attr>
+<attr name="userLabel">RNC1-1-1</attr>
+<attr name="LAC">4963</attr>
+<attr name="RAC">210</attr>
+<attr name="SAC">60701</attr>
+<attr name="rbsId">RNC1RBS1</attr>
+<attr name="MCC">353</attr>
+<attr name="MNC">77</attr>
+<attr name="dlCodeAdm">80</attr>
+<attr name="maximumTransmissionPower">400</attr>
+<attr name="UARFCNDL">1</attr>
+<attr name="UARFCNUL">2</attr>
+<attr name="primaryCpichPower">300</attr>
+<attr name="pwrAdm">75</attr>
+<attr name="SITE">RNC1</attr>
+<attr name="SCRAMBLINGCODE">407</attr>
+<attr name="utranCellIubLink">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,IubLink=1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,UtranCell=RNC1-1-1,GsmRelation=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="externalGsmCellRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,ExternalGsmNetwork=1,ExternalGsmCell=1</attr>
+<attr name="ExternalCell:userLabel">ExternalGsmCell-1</attr>
+<attr name="ExternalCell:cellIdentity">1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,UtranCell=RNC1-1-1,Hsdsch=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="numHsPdschCodes">5</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,UtranCell=RNC1-1-1,UtranRelation=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="utranCellRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1,UtranCell=RNC1-1-1</attr>
+<attr name="selectionPriority">1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,TransportNetwork=1,AtmTrafficDescriptor=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="userLabel">RNC1</attr>
+<attr name="egressAtmPcr">5</attr>
+<attr name="ingressAtmPcr">0</attr>
+<attr name="egressAtmQos">1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,TransportNetwork=1,AtmPort=1,VplTp=1,VpcTp=1,VclTp=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="userLabel">VclTp for IurLink 10</attr>
+<attr name="atmTrafficDescriptorId"></attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,PiuDevice=1,ExchangeTerminalIp=1,InternalEthernetPort=1,IpInterface=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="userLabel">RNC1</attr>
+<attr name="trafficType">0</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=scc_adm" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=0</attr>
+<attr name="admPassiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=scc_server" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1</attr>
+<attr name="admPassiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=2</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=aal2ap13" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=2</attr>
+<attr name="admPassiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=3</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=sw_inst" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=3</attr>
+<attr name="admPassiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=4</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=spas_res" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=4</attr>
+<attr name="admPassiveSlot"></attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=inet" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=5</attr>
+<attr name="admPassiveSlot"></attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=ospf" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=6</attr>
+<attr name="admPassiveSlot"></attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=aal05_ncc" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=7</attr>
+<attr name="admPassiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=7</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,SwManagement=1,ReliableProgramUniter=aal_cc" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="admActiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=8</attr>
+<attr name="admPassiveSlot">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=8</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,TransportNetwork=1,Aal2Sp=1,Aal2Ap=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="nrOfConfiguredAal2Paths">7</attr>
+<attr name="nrOfRemotelyBlockedAal2Paths">5</attr>
+<attr name="nrOfUnavailableAal2Paths">1</attr>
+<attr name="userLabel">Aal2Ap for IurLink 98</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,EthernetSwitchModule=1,EthernetSwitchModulePort=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="portNo">1</attr>
+<attr name="lagRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=Sub01,Slot=1,PlugInUnit=Plg01,EthernetSwitchModule=Mod01,Lag=Lag01</attr>
+<attr name="userLabel">EthMod01</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,EthernetSwitchModule=1,Lag=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="masterPort"></attr>
+<attr name="reservedBy">
+<seq count="1">
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,EthernetSwitchModule=1,EthernetSwitchModulePort=1</item>
+</seq>
+</attr>
+<attr name="userLabel">RNC1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,RncFunction=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+<attr name="rncId">0</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,PiuDevice=1,ExchangeTerminalIp=1,EthernetSwitch=1,EthernetSwitchPort=1" mimName="RNC_NODE_MODEL" mimVersion="V.29.105" lastModified="1704870780419">
+ <attr name="portNo">30183</attr>
+ <attr name="lagRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,PiuDevice=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</attr>
+ <attr name="userLabel">RNC1</attr>
+ </mo>
+</model>

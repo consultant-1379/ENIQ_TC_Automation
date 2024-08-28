@@ -1,0 +1,21 @@
+Collection file from host EdgeRtr01, Context: local, Policy: PM_policy_linkgroup, Data collected: 20231107
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link1;linkgrouptype:ETHER LINK-GROUP;inoctets:1;inpackets:2;mcast_inoctets:3;mcast_inpackets:4;mcast_outoctets:5;mcast_outpackets:6;metering_policy_name:(N/A);outoctets:7
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link1;outpackets:8;policing_policy_name:(N/A);qos_inoctets:9;qos_outoctets:10;rcv_drop_octets:11;sysuptime:43104;xmt_drop_octets:12
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link2;linkgrouptype:ETHER LINK-GROUP;inoctets:13;inpackets:14;mcast_inoctets:15;mcast_inpackets:16;mcast_outoctets:17;mcast_outpackets:18;metering_policy_name:(N/A);outoctets:19
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link2;outpackets:20;policing_policy_name:(N/A);qos_inoctets:21;qos_outoctets:22;rcv_drop_octets:23;sysuptime:43104;xmt_drop_octets:24
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link1;linkgrouptype:ETHER LINK-GROUP;inoctets:25;inpackets:26;mcast_inoctets:27;mcast_inpackets:28;mcast_outoctets:29;mcast_outpackets:30;metering_policy_name:(N/A);outoctets:31
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link1;outpackets:32;policing_policy_name:(N/A);qos_inoctets:33;qos_outoctets:34;rcv_drop_octets:35;sysuptime:43104;xmt_drop_octets:36
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link2;linkgrouptype:ETHER LINK-GROUP;inoctets:37;inpackets:38;mcast_inoctets:39;mcast_inpackets:40;mcast_outoctets:41;mcast_outpackets:42;metering_policy_name:(N/A);outoctets:43
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link2;outpackets:44;policing_policy_name:(N/A);qos_inoctets:45;qos_outoctets:46;rcv_drop_octets:47;sysuptime:43104;xmt_drop_octets:48
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link1;linkgrouptype:ETHER LINK-GROUP;inoctets:49;inpackets:50;mcast_inoctets:51;mcast_inpackets:52;mcast_outoctets:53;mcast_outpackets:54;metering_policy_name:(N/A);outoctets:55
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link1;outpackets:56;policing_policy_name:(N/A);qos_inoctets:57;qos_outoctets:58;rcv_drop_octets:59;sysuptime:43104;xmt_drop_octets:60
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link2;linkgrouptype:ETHER LINK-GROUP;inoctets:61;inpackets:62;mcast_inoctets:63;mcast_inpackets:64;mcast_outoctets:65;mcast_outpackets:66;metering_policy_name:(N/A);outoctets:67
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link2;outpackets:68;policing_policy_name:(N/A);qos_inoctets:69;qos_outoctets:70;rcv_drop_octets:71;sysuptime:43104;xmt_drop_octets:72
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link1;linkgrouptype:ETHER LINK-GROUP;inoctets:73;inpackets:74;mcast_inoctets:75;mcast_inpackets:76;mcast_outoctets:77;mcast_outpackets:78;metering_policy_name:(N/A);outoctets:79
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link1;outpackets:80;policing_policy_name:(N/A);qos_inoctets:81;qos_outoctets:82;rcv_drop_octets:83;sysuptime:43104;xmt_drop_octets:84
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link2;linkgrouptype:ETHER LINK-GROUP;inoctets:85;inpackets:86;mcast_inoctets:87;mcast_inpackets:88;mcast_outoctets:89;mcast_outpackets:90;metering_policy_name:(N/A);outoctets:91
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link2;outpackets:92;policing_policy_name:(N/A);qos_inoctets:93;qos_outoctets:94;rcv_drop_octets:95;sysuptime:43104;xmt_drop_octets:96
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link1;linkgrouptype:ETHER LINK-GROUP;inoctets:97;inpackets:98;mcast_inoctets:99;mcast_inpackets:100;mcast_outoctets:101;mcast_outpackets:102;metering_policy_name:(N/A);outoctets:103
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link1;outpackets:104;policing_policy_name:(N/A);qos_inoctets:105;qos_outoctets:106;rcv_drop_octets:107;sysuptime:43104;xmt_drop_octets:108
+PM_Link1: epochtime:1699351201;description:EdgeRtr_Link2;linkgrouptype:ETHER LINK-GROUP;inoctets:109;inpackets:110;mcast_inoctets:111;mcast_inpackets:112;mcast_outoctets:113;mcast_outpackets:114;metering_policy_name:(N/A);outoctets:115
+PM_Link2: epochtime:1699351201;description:EdgeRtr_Link2;outpackets:116;policing_policy_name:(N/A);qos_inoctets:117;qos_outoctets:118;rcv_drop_octets:119;sysuptime:43104;xmt_drop_octets:120

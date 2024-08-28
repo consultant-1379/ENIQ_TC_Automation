@@ -1,0 +1,2 @@
+../TestCases/ENIQ-Infra_ROLLBACK_ENIQ_TC01_verify_snapshots_removed_on_Eniq_Gen10plus.robot
+../TestCases/ENIQ-Infra_ROLLBACK_ENIQ_TC02_verify_snapshots_removed_on_Eniq_legacy_server.robot

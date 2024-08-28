@@ -1,0 +1,21 @@
+Collection file from host EdgeRtr02, Context: local, Policy: PM_policy_atm, Data collected: 20231107
+PM_Atm1: epochtime:1699351201;slot:1;port:1;vpi:11;vci:21;cctstate:1;inoctets:121;inpackets:122;mcast_inoctets:123;mcast_inpackets:124;mcast_outoctets:125;mcast_outpackets:126;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:1;port:1;vpi:11;vci:21;outoctets:127;outpackets:128;policing_policy_name:(N/A);qos_inoctets:129;qos_outoctets:130;rcv_drop_octets:131;sysuptime:43106;xmt_drop_octets:132
+PM_Atm1: epochtime:1699351201;slot:1;port:2;vpi:12;vci:22;cctstate:1;inoctets:133;inpackets:134;mcast_inoctets:135;mcast_inpackets:136;mcast_outoctets:137;mcast_outpackets:138;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:1;port:2;vpi:12;vci:22;outoctets:139;outpackets:140;policing_policy_name:(N/A);qos_inoctets:141;qos_outoctets:142;rcv_drop_octets:143;sysuptime:43106;xmt_drop_octets:144
+PM_Atm1: epochtime:1699351201;slot:1;port:3;vpi:13;vci:23;cctstate:1;inoctets:145;inpackets:146;mcast_inoctets:147;mcast_inpackets:148;mcast_outoctets:149;mcast_outpackets:150;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:1;port:3;vpi:13;vci:23;outoctets:151;outpackets:152;policing_policy_name:(N/A);qos_inoctets:153;qos_outoctets:154;rcv_drop_octets:155;sysuptime:43106;xmt_drop_octets:156
+PM_Atm1: epochtime:1699351201;slot:1;port:4;vpi:14;vci:24;cctstate:1;inoctets:157;inpackets:158;mcast_inoctets:159;mcast_inpackets:160;mcast_outoctets:161;mcast_outpackets:162;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:1;port:4;vpi:14;vci:24;outoctets:163;outpackets:164;policing_policy_name:(N/A);qos_inoctets:165;qos_outoctets:166;rcv_drop_octets:167;sysuptime:43106;xmt_drop_octets:168
+PM_Atm1: epochtime:1699351201;slot:1;port:5;vpi:15;vci:25;cctstate:1;inoctets:169;inpackets:170;mcast_inoctets:171;mcast_inpackets:172;mcast_outoctets:173;mcast_outpackets:174;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:1;port:5;vpi:15;vci:25;outoctets:175;outpackets:176;policing_policy_name:(N/A);qos_inoctets:177;qos_outoctets:178;rcv_drop_octets:179;sysuptime:43106;xmt_drop_octets:180
+PM_Atm1: epochtime:1699351201;slot:2;port:1;vpi:11;vci:21;cctstate:1;inoctets:181;inpackets:182;mcast_inoctets:183;mcast_inpackets:184;mcast_outoctets:185;mcast_outpackets:186;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:2;port:1;vpi:11;vci:21;outoctets:187;outpackets:188;policing_policy_name:(N/A);qos_inoctets:189;qos_outoctets:190;rcv_drop_octets:191;sysuptime:43106;xmt_drop_octets:192
+PM_Atm1: epochtime:1699351201;slot:2;port:2;vpi:12;vci:22;cctstate:1;inoctets:193;inpackets:194;mcast_inoctets:195;mcast_inpackets:196;mcast_outoctets:197;mcast_outpackets:198;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:2;port:2;vpi:12;vci:22;outoctets:199;outpackets:200;policing_policy_name:(N/A);qos_inoctets:201;qos_outoctets:202;rcv_drop_octets:203;sysuptime:43106;xmt_drop_octets:204
+PM_Atm1: epochtime:1699351201;slot:2;port:3;vpi:13;vci:23;cctstate:1;inoctets:205;inpackets:206;mcast_inoctets:207;mcast_inpackets:208;mcast_outoctets:209;mcast_outpackets:210;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:2;port:3;vpi:13;vci:23;outoctets:211;outpackets:212;policing_policy_name:(N/A);qos_inoctets:213;qos_outoctets:214;rcv_drop_octets:215;sysuptime:43106;xmt_drop_octets:216
+PM_Atm1: epochtime:1699351201;slot:2;port:4;vpi:14;vci:24;cctstate:1;inoctets:217;inpackets:218;mcast_inoctets:219;mcast_inpackets:220;mcast_outoctets:221;mcast_outpackets:222;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:2;port:4;vpi:14;vci:24;outoctets:223;outpackets:224;policing_policy_name:(N/A);qos_inoctets:225;qos_outoctets:226;rcv_drop_octets:227;sysuptime:43106;xmt_drop_octets:228
+PM_Atm1: epochtime:1699351201;slot:2;port:5;vpi:15;vci:25;cctstate:1;inoctets:229;inpackets:230;mcast_inoctets:231;mcast_inpackets:232;mcast_outoctets:233;mcast_outpackets:234;metering_policy_name:(N/A)
+PM_Atm2: epochtime:1699351201;slot:2;port:5;vpi:15;vci:25;outoctets:235;outpackets:236;policing_policy_name:(N/A);qos_inoctets:237;qos_outoctets:238;rcv_drop_octets:239;sysuptime:43106;xmt_drop_octets:240

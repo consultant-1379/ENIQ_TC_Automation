@@ -1,0 +1,1 @@
+eniq_oss_1 CCDM01  SubNetwork=SubNetwork,NetworkElement=CCDM01,ManagedElement=CCDM01,MeContext=CCDM01 eric-udr-pvc-monitor-group=1 2023-11-06    2023       11      6      10 2023-11-06 10:00:00.0      0 15MIN           3528        0              15 LOADED    1.10       eniq_oss_1 +0200                    0 2023-11-06 08:00:00.0                           77.0000 

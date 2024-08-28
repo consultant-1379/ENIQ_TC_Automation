@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">NDIPST</measType>
+			<measType p="2">NBLOC</measType>
+			<measType p="3">NBITF1</measType>
+			<measType p="4">NBITF2</measType>
+			<measType p="5">NSLIPS</measType>
+			<measType p="6">NDIS</measType>
+			<measType p="7">NCONSDIP</measType>
+			<measType p="8">NCONMS</measType>
+			<measType p="9">NCONHP</measType>
+			<measType p="10">NCONLP</measType>
+			<measType p="11">NBLOSDIP</measType>
+			<measType p="12">NBLOMS</measType>
+			<measType p="13">NBLOHP</measType>
+			<measType p="14">NBLOLP</measType>
+			<measType p="15">NPC</measType>
+			<measType p="16">NNOBFSUP</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,DIGPATH=0">
+				<r p="1">23</r>
+				<r p="2">71</r>
+				<r p="3">55</r>
+				<r p="4">30</r>
+				<r p="5">69</r>
+				<r p="6">83</r>
+				<r p="7">17</r>
+				<r p="8">12</r>
+				<r p="9">45</r>
+				<r p="10">40</r>
+				<r p="11">29</r>
+				<r p="12">57</r>
+				<r p="13">60</r>
+				<r p="14">50</r>
+				<r p="15">55</r>
+				<r p="16">1</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

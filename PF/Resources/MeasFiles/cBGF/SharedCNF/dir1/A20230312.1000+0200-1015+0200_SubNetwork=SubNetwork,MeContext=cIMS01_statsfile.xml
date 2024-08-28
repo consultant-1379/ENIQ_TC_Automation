@@ -1,0 +1,3116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader dnPrefix="" fileFormatVersion="32.435 V11.0" vendorName="Ericsson">
+<fileSender  localDn="cIMS01" elementType=""/>
+<measCollec beginTime="2023-11-09T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement userLabel="" localDn="cIMS01" swVersion=""/>
+<measInfo measInfoId="sbg-sip-pa-termination-sess-stats-at-per-plmn">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_initiated_session_release_at_per_plmn</measType>
+<measType p="2">sbg_sip_cancel_out_sessions_at_per_plmn</measType>
+<measType p="3">sbg_sip_cancel_inc_sessions_at_per_plmn</measType>
+<measType p="4">sbg_sip_rejected_inc_sessions_at_per_plmn</measType>
+<measType p="5">sbg_sip_rejected_out_sessions_at_per_plmn</measType>
+<measType p="6">sbg_sip_early_cancel_inc_sessions_at_per_plmn</measType>
+<measType p="7">sbg_sip_early_cancel_out_sessions_at_per_plmn</measType>
+<measType p="8">sbg_sip_total_inc_sess_setups_at_per_plmn</measType>
+<measType p="9">sbg_sip_success_inc_sessions_at_per_plmn</measType>
+<measType p="10">sbg_sip_session_inc_normal_release_at_per_plmn</measType>
+<measType p="11">sbg_sip_total_out_sess_setups_at_per_plmn</measType>
+<measType p="12">sbg_sip_success_out_sessions_at_per_plmn</measType>
+<measType p="13">sbg_sip_success_orig_access_transfer_from_5g_to_4g_per_plmn</measType>
+<measType p="14">sbg_sip_success_term_access_transfer_from_5g_to_4g_per_plmn</measType>
+<measType p="15">sbg_sip_challenged_inc_inv_sessions_at_per_plmn</measType>
+<measType p="16">sbg_sip_net_inc_session_estab_network_success_at_per_plmn</measType>
+<measType p="17">sbg_sip_net_out_session_estab_network_success_at_per_plmn</measType>
+<measType p="18">sbg_sip_session_out_normal_release_at_per_plmn</measType>
+<measType p="19">sbg_sip_setup_session_orig</measType>
+<measType p="20">sbg_sip_setup_time_orig</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">65</r>
+<r p="2">64</r>
+<r p="3">69</r>
+<r p="4">8</r>
+<r p="5">37</r>
+<r p="6">36</r>
+<r p="7">16</r>
+<r p="8">30</r>
+<r p="9">76</r>
+<r p="10">60</r>
+<r p="11">5</r>
+<r p="12">4</r>
+<r p="13">69</r>
+<r p="14">59</r>
+<r p="15">82</r>
+<r p="16">9</r>
+<r p="17">99</r>
+<r p="18">68</r>
+<r p="19">52</r>
+<r p="20">75</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">43</r>
+<r p="2">95</r>
+<r p="3">49</r>
+<r p="4">87</r>
+<r p="5">74</r>
+<r p="6">58</r>
+<r p="7">69</r>
+<r p="8">93</r>
+<r p="9">80</r>
+<r p="10">12</r>
+<r p="11">57</r>
+<r p="12">71</r>
+<r p="13">73</r>
+<r p="14">79</r>
+<r p="15">97</r>
+<r p="16">91</r>
+<r p="17">50</r>
+<r p="18">52</r>
+<r p="19">45</r>
+<r p="20">72</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-network-qos">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_pkts_disc_bw_polic_gauge</measType>
+<measType p="2">sbg_pkts_disc_src_filter_gauge</measType>
+<measType p="3">sbg_pkts_lost_ratio_gauge</measType>
+<measType p="4">sbg_pkts_outof_seq_ratio_gauge</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">22</r>
+<r p="2">1</r>
+<r p="3">40</r>
+<r p="4">79</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">14</r>
+<r p="2">59</r>
+<r p="3">39</r>
+<r p="4">64</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-dtmfr-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">35</r>
+<r p="2">76</r>
+<r p="3">84</r>
+<r p="4">44</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">32</r>
+<r p="2">28</r>
+<r p="3">83</r>
+<r p="4">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-if-termination-priority-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_inc_priority_call_attempts</measType>
+<measType p="2">sbg_inc_priority_call_success_setups</measType>
+<measType p="3">sbg_out_priority_call_attempts</measType>
+<measType p="4">sbg_out_priority_call_success_setups</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">94</r>
+<r p="2">73</r>
+<r p="3">80</r>
+<r p="4">66</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">49</r>
+<r p="2">96</r>
+<r p="3">88</r>
+<r p="4">31</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-user-plane">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_user_plane_ipp_tx_loss_based_load</measType>
+<measType p="2">bgf_user_plane_cpu_load_ipp_avg</measType>
+<measType p="3">bgf_user_plane_cpu_load_mpd_avg</measType>
+<measType p="4">bgf_user_plane_resource_load_ipp_avg</measType>
+<measType p="5">bgf_user_plane_resource_load_mpd_avg</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">79</r>
+<r p="2">23</r>
+<r p="3">56</r>
+<r p="4">87</r>
+<r p="5">3</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">63</r>
+<r p="2">47</r>
+<r p="3">10</r>
+<r p="4">30</r>
+<r p="5">93</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-if-termination-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_active_out_sessions</measType>
+<measType p="2">sbg_snc_max_sessions</measType>
+<measType p="3">sbg_sip_active_inc_sessions</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">33</r>
+<r p="2">92</r>
+<r p="3">32</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">35</r>
+<r p="2">42</r>
+<r p="3">76</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_success_inc_sessions</measType>
+<measType p="2">sbg_sip_unsucc_codec_answers</measType>
+<measType p="3">sbg_sip_throttling_rejected_cnt</measType>
+<measType p="4">sbg_sip_rejected_out_sessions_403</measType>
+<measType p="5">sbg_sip_net_inc_session_setup_user_success</measType>
+<measType p="6">sbg_sip_cancel_inc_sessions</measType>
+<measType p="7">sbg_sip_rejected_inc_sessions</measType>
+<measType p="8">sbg_snc_max_sessions</measType>
+<measType p="9">sbg_sip_init_sub_throttling_rejected_cnt</measType>
+<measType p="10">sbg_sip_session_out_normal_release</measType>
+<measType p="11">sbg_sip_net_out_session_setup_time</measType>
+<measType p="12">sbg_sip_releases_media_stop</measType>
+<measType p="13">sbg_sip_user_not_found_cnt</measType>
+<measType p="14">sbg_sip_responded_inc_sessions</measType>
+<measType p="15">sbg_sip_inc_sess_duration</measType>
+<measType p="16">sbg_sip_releases_session_timer</measType>
+<measType p="17">sbg_sip_early_cancel_inc_sessions</measType>
+<measType p="18">sbg_sip_total_out_message</measType>
+<measType p="19">sbg_sip_inc_sess_resp_time</measType>
+<measType p="20">sbg_sip_rejected_out_sessions_486</measType>
+<measType p="21">sbg_sip_total_inc_sess_setups</measType>
+<measType p="22">sbg_sip_net_tot_bgf_unsucc_reselection</measType>
+<measType p="23">sbg_sip_initiated_session_release</measType>
+<measType p="24">sbg_sip_early_cancel_out_sessions</measType>
+<measType p="25">sbg_sip_total_inc_s8hr_sess_setups</measType>
+<measType p="26">sbg_sip_total_out_sess_setups</measType>
+<measType p="27">sbg_sip_unsucc_codec_offers</measType>
+<measType p="28">sbg_sip_unsuc_dns_cnt</measType>
+<measType p="29">sbg_sip_success_out_message</measType>
+<measType p="30">sbg_sip_session_inc_normal_release</measType>
+<measType p="31">sbg_sip_rej_session_release_of_sig_bearer</measType>
+<measType p="32">sbg_sip_init_opt_throttling_rejected_cnt</measType>
+<measType p="33">sbg_sip_net_inc_session_setup_time</measType>
+<measType p="34">sbg_sip_net_tot_bgf_reselection</measType>
+<measType p="35">sbg_sip_active_inc_sessions</measType>
+<measType p="36">sbg_sip_rel_session_release_of_sig_bearer</measType>
+<measType p="37">sbg_sip_out_sess_resp_time</measType>
+<measType p="38">sbg_sip_rejected_out_sessions</measType>
+<measType p="39">sbg_sip_init_reg_throttling_rejected_cnt</measType>
+<measType p="40">sbg_sip_total_out_s8hr_sess_setups</measType>
+<measType p="41">sbg_sip_active_inc_s8hr_sessions</measType>
+<measType p="42">sbg_sip_success_out_sessions</measType>
+<measType p="43">sbg_sip_total_inc_message</measType>
+<measType p="44">sbg_sip_challenged_out_inv_sessions</measType>
+<measType p="45">sbg_sip_active_out_s8hr_sessions</measType>
+<measType p="46">sbg_sip_cancel_out_sessions</measType>
+<measType p="47">sbg_sip_rejected_out_sessions_603</measType>
+<measType p="48">sbg_sip_init_pub_throttling_rejected_cnt</measType>
+<measType p="49">sbg_sip_rejected_inc_sessions_486</measType>
+<measType p="50">sbg_sip_init_mes_throttling_rejected_cnt</measType>
+<measType p="51">sbg_sip_active_loc_media_sessions</measType>
+<measType p="52">sbg_sip_dialog_releases_request_timeout</measType>
+<measType p="53">sbg_sip_success_inc_s8hr_sessions</measType>
+<measType p="54">sbg_sip_out_sess_duration</measType>
+<measType p="55">sbg_sip_net_out_session_setup_user_success</measType>
+<measType p="56">sbg_sip_init_inv_throttling_rejected_cnt</measType>
+<measType p="57">sbg_sip_active_out_sessions</measType>
+<measType p="58">sbg_sip_net_inc_session_estab_network_success</measType>
+<measType p="59">sbg_sip_success_inc_message</measType>
+<measType p="60">sbg_sip_responded_out_sessions</measType>
+<measType p="61">sbg_sip_success_out_s8hr_sessions</measType>
+<measType p="62">sbg_sip_net_out_session_estab_network_success</measType>
+<measType p="63">sbg_sip_failed_inc_sess_shutting_down</measType>
+<measType p="64">sbg_sip_rejected_inc_sessions_403</measType>
+<measType p="65">sbg_sip_rejected_max_sessions</measType>
+<measType p="66">sbg_sip_unsucc_overload_cnt</measType>
+<measType p="67">sbg_local_dns_cnt</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">84</r>
+<r p="2">47</r>
+<r p="3">76</r>
+<r p="4">98</r>
+<r p="5">59</r>
+<r p="6">4</r>
+<r p="7">40</r>
+<r p="8">0</r>
+<r p="9">47</r>
+<r p="10">82</r>
+<r p="11">1</r>
+<r p="12">60</r>
+<r p="13">84</r>
+<r p="14">12</r>
+<r p="15">57</r>
+<r p="16">98</r>
+<r p="17">59</r>
+<r p="18">47</r>
+<r p="19">6</r>
+<r p="20">38</r>
+<r p="21">16</r>
+<r p="22">82</r>
+<r p="23">21</r>
+<r p="24">28</r>
+<r p="25">89</r>
+<r p="26">69</r>
+<r p="27">9</r>
+<r p="28">88</r>
+<r p="29">17</r>
+<r p="30">87</r>
+<r p="31">88</r>
+<r p="32">18</r>
+<r p="33">59</r>
+<r p="34">63</r>
+<r p="35">5</r>
+<r p="36">64</r>
+<r p="37">60</r>
+<r p="38">9</r>
+<r p="39">82</r>
+<r p="40">73</r>
+<r p="41">70</r>
+<r p="42">87</r>
+<r p="43">80</r>
+<r p="44">45</r>
+<r p="45">93</r>
+<r p="46">6</r>
+<r p="47">47</r>
+<r p="48">38</r>
+<r p="49">11</r>
+<r p="50">67</r>
+<r p="51">49</r>
+<r p="52">36</r>
+<r p="53">84</r>
+<r p="54">68</r>
+<r p="55">52</r>
+<r p="56">20</r>
+<r p="57">46</r>
+<r p="58">18</r>
+<r p="59">83</r>
+<r p="60">95</r>
+<r p="61">90</r>
+<r p="62">69</r>
+<r p="63">92</r>
+<r p="64">92</r>
+<r p="65">12</r>
+<r p="66">18</r>
+<r p="67">69</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">78</r>
+<r p="2">48</r>
+<r p="3">16</r>
+<r p="4">44</r>
+<r p="5">40</r>
+<r p="6">92</r>
+<r p="7">24</r>
+<r p="8">4</r>
+<r p="9">28</r>
+<r p="10">22</r>
+<r p="11">52</r>
+<r p="12">8</r>
+<r p="13">21</r>
+<r p="14">29</r>
+<r p="15">35</r>
+<r p="16">17</r>
+<r p="17">29</r>
+<r p="18">16</r>
+<r p="19">84</r>
+<r p="20">20</r>
+<r p="21">37</r>
+<r p="22">3</r>
+<r p="23">29</r>
+<r p="24">83</r>
+<r p="25">7</r>
+<r p="26">58</r>
+<r p="27">29</r>
+<r p="28">16</r>
+<r p="29">53</r>
+<r p="30">77</r>
+<r p="31">43</r>
+<r p="32">42</r>
+<r p="33">53</r>
+<r p="34">18</r>
+<r p="35">97</r>
+<r p="36">7</r>
+<r p="37">6</r>
+<r p="38">97</r>
+<r p="39">80</r>
+<r p="40">78</r>
+<r p="41">93</r>
+<r p="42">92</r>
+<r p="43">60</r>
+<r p="44">62</r>
+<r p="45">99</r>
+<r p="46">99</r>
+<r p="47">28</r>
+<r p="48">96</r>
+<r p="49">40</r>
+<r p="50">94</r>
+<r p="51">76</r>
+<r p="52">29</r>
+<r p="53">48</r>
+<r p="54">48</r>
+<r p="55">65</r>
+<r p="56">95</r>
+<r p="57">91</r>
+<r p="58">18</r>
+<r p="59">70</r>
+<r p="60">44</r>
+<r p="61">52</r>
+<r p="62">22</r>
+<r p="63">65</r>
+<r p="64">52</r>
+<r p="65">61</r>
+<r p="66">64</r>
+<r p="67">74</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-firewall-backend">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_iptables_rate_of_ipv4_sip_source_packets_dropped</measType>
+<measType p="2">adc_selector_iptables_rate_of_ipv6_sip_source_packets_dropped</measType>
+<measType p="3">adc_selector_iptables_rate_of_ipv4_source_packets_dropped</measType>
+<measType p="4">adc_selector_iptables_rate_of_ipv6_source_packets_dropped</measType>
+<measType p="5">adc_selector_iptables_rate_of_ipv4_stun_packets_dropped</measType>
+<measType p="6">adc_selector_iptables_rate_of_ipv6_stun_packets_dropped</measType>
+<measType p="7">adc_selector_iptables_rate_of_ipv4_icmp_packets_dropped</measType>
+<measType p="8">adc_selector_iptables_rate_of_ipv6_icmp_packets_dropped</measType>
+<measType p="9">adc_selector_iptables_rate_of_ipv4_tcp_syn_packets_dropped</measType>
+<measType p="10">adc_selector_iptables_rate_of_ipv6_tcp_syn_packets_dropped</measType>
+<measType p="11">adc_selector_iptables_rate_of_ipv4_net_packets_dropped</measType>
+<measType p="12">adc_selector_iptables_rate_of_ipv6_net_packets_dropped</measType>
+<measType p="13">adc_selector_iptables_rate_of_ipv4_short_udp_dropped</measType>
+<measType p="14">adc_selector_iptables_rate_of_ipv6_short_udp_dropped</measType>
+<measType p="15">adc_selector_iptables_rate_of_ipv4_input_vlan_packets</measType>
+<measType p="16">adc_selector_iptables_rate_of_ipv6_input_vlan_packets</measType>
+<measValue measObjLdn="vlan-id=[vlanId]=1">
+<r p="1">90</r>
+<r p="2">1</r>
+<r p="3">15</r>
+<r p="4">18</r>
+<r p="5">41</r>
+<r p="6">70</r>
+<r p="7">53</r>
+<r p="8">98</r>
+<r p="9">23</r>
+<r p="10">15</r>
+<r p="11">20</r>
+<r p="12">63</r>
+<r p="13">59</r>
+<r p="14">18</r>
+<r p="15">66</r>
+<r p="16">83</r>
+</measValue>
+<measValue measObjLdn="vlan-id=[vlanId]=1">
+<r p="1">69</r>
+<r p="2">28</r>
+<r p="3">8</r>
+<r p="4">61</r>
+<r p="5">43</r>
+<r p="6">12</r>
+<r p="7">68</r>
+<r p="8">38</r>
+<r p="9">62</r>
+<r p="10">12</r>
+<r p="11">39</r>
+<r p="12">78</r>
+<r p="13">89</r>
+<r p="14">45</r>
+<r p="15">35</r>
+<r p="16">83</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-amr-wb-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">73</r>
+<r p="2">25</r>
+<r p="3">40</r>
+<r p="4">48</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">98</r>
+<r p="2">26</r>
+<r p="3">65</r>
+<r p="4">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-subs-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_rejected_inc_subscribe_sessions</measType>
+<measType p="2">sbg_sip_releases_subscribe_session_timer</measType>
+<measType p="3">sbg_sip_active_out_subscribe_sessions</measType>
+<measType p="4">sbg_sip_total_inc_subscribe_sess_setups</measType>
+<measType p="5">sbg_sip_total_out_subscribe_sess_setups</measType>
+<measType p="6">sbg_sip_rejected_out_subscribe_sessions</measType>
+<measType p="7">sbg_sip_active_inc_subscribe_sessions</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">52</r>
+<r p="2">42</r>
+<r p="3">50</r>
+<r p="4">40</r>
+<r p="5">40</r>
+<r p="6">11</r>
+<r p="7">50</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">63</r>
+<r p="2">95</r>
+<r p="3">76</r>
+<r p="4">26</r>
+<r p="5">45</r>
+<r p="6">82</r>
+<r p="7">95</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-trans-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_total_out_failure_responses</measType>
+<measType p="2">sbg_sip_tot_inc_3xx</measType>
+<measType p="3">sbg_sip_tot_inc_4xx</measType>
+<measType p="4">sbg_sip_tot_inc_5xx</measType>
+<measType p="5">sbg_sip_tot_inc_6xx</measType>
+<measType p="6">sbg_sip_outgoing_transaction_timeouts</measType>
+<measType p="7">sbg_sip_total_inc_failure_responses</measType>
+<measType p="8">sbg_sip_incomming_provisional_responses</measType>
+<measType p="9">sbg_sip_total_out_sip_responses</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">56</r>
+<r p="2">35</r>
+<r p="3">74</r>
+<r p="4">16</r>
+<r p="5">48</r>
+<r p="6">53</r>
+<r p="7">28</r>
+<r p="8">60</r>
+<r p="9">8</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">73</r>
+<r p="2">37</r>
+<r p="3">33</r>
+<r p="4">65</r>
+<r p="5">4</r>
+<r p="6">85</r>
+<r p="7">86</r>
+<r p="8">2</r>
+<r p="9">60</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-cs-termination-emergency-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_total_emergency_calls_success</measType>
+<measType p="2">sbg_total_emergency_calls_setups</measType>
+<measType p="3">sbg_sip_releases_media_stop_ec</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">35</r>
+<r p="2">33</r>
+<r p="3">81</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">7</r>
+<r p="2">23</r>
+<r p="3">66</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-priority-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_inc_priority_call_success_setups</measType>
+<measType p="2">sbg_out_priority_call_attempts</measType>
+<measType p="3">sbg_out_priority_call_success_setups</measType>
+<measType p="4">sbg_inc_priority_call_attempts</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">80</r>
+<r p="2">57</r>
+<r p="3">34</r>
+<r p="4">51</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">65</r>
+<r p="2">83</r>
+<r p="3">20</r>
+<r p="4">98</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_inc_dtls_srtp_call_attempts</measType>
+<measType p="2">sbg_sip_failed_inc_sess_shutting_down</measType>
+<measType p="3">sbg_sip_inc_dtls_srtp_call_failed_setups</measType>
+<measType p="4">sbg_sip_active_out_s8hr_sessions</measType>
+<measType p="5">sbg_sip_inc_sess_duration</measType>
+<measType p="6">sbg_sip_net_out_session_setup_user_success</measType>
+<measType p="7">sbg_sip_rejected_out_sessions_486</measType>
+<measType p="8">sbg_sip_early_cancel_out_sessions</measType>
+<measType p="9">sbg_sip_rejected_inc_sessions_486</measType>
+<measType p="10">sbg_sip_out_dtls_srtp_call_attempts</measType>
+<measType p="11">sbg_sip_total_out_sess_setups</measType>
+<measType p="12">sbg_sip_success_out_s8hr_sessions</measType>
+<measType p="13">sbg_sip_dialog_releases_request_timeout</measType>
+<measType p="14">sbg_sip_src_validation_failed</measType>
+<measType p="15">sbg_sip_rejected_out_sessions_603</measType>
+<measType p="16">sbg_sip_success_out_sessions</measType>
+<measType p="17">sbg_sip_total_inc_s8hr_sess_setups</measType>
+<measType p="18">sbg_sip_active_inc_sessions</measType>
+<measType p="19">sbg_sip_net_out_session_estab_network_success</measType>
+<measType p="20">sbg_sip_net_inc_session_setup_time</measType>
+<measType p="21">sbg_sip_active_out_sessions</measType>
+<measType p="22">sbg_sip_net_tot_bgf_reselection</measType>
+<measType p="23">sbg_sip_inc_fallback_session_attempts</measType>
+<measType p="24">sbg_sip_session_inc_normal_release</measType>
+<measType p="25">sbg_sip_net_out_session_setup_time</measType>
+<measType p="26">sbg_sip_total_out_message</measType>
+<measType p="27">sbg_sip_rejected_inc_sessions</measType>
+<measType p="28">sbg_sip_rejected_max_sessions</measType>
+<measType p="29">sbg_sip_session_out_normal_release</measType>
+<measType p="30">sbg_sip_ingress_init_reg_reqs</measType>
+<measType p="31">sbg_sip_rejected_inc_sessions_403</measType>
+<measType p="32">sbg_sip_rejected_out_sessions</measType>
+<measType p="33">sbg_sip_cancel_inc_sessions</measType>
+<measType p="34">sbg_sip_unsucc_overload_cnt</measType>
+<measType p="35">sbg_sip_active_loc_media_sessions</measType>
+<measType p="36">sbg_sip_challenged_inc_inv_sessions</measType>
+<measType p="37">sbg_sip_total_inc_sess_setups</measType>
+<measType p="38">sbg_sip_cancel_out_sessions</measType>
+<measType p="39">sbg_sip_inc_sess_resp_time</measType>
+<measType p="40">sbg_sip_rel_session_release_of_sig_bearer</measType>
+<measType p="41">sbg_sip_net_tot_bgf_unsucc_reselection</measType>
+<measType p="42">sbg_sip_rejected_out_sessions_403</measType>
+<measType p="43">sbg_sip_net_inc_session_estab_network_success</measType>
+<measType p="44">sbg_sip_total_out_s8hr_sess_setups</measType>
+<measType p="45">sbg_sip_ingress_init_reg_throttling_rej</measType>
+<measType p="46">sbg_snc_max_sessions</measType>
+<measType p="47">sbg_sip_responded_out_sessions</measType>
+<measType p="48">sbg_sip_releases_media_stop</measType>
+<measType p="49">sbg_sip_inc_dtls_srtp_call_success_setups</measType>
+<measType p="50">sbg_sip_out_dtls_srtp_call_success_setups</measType>
+<measType p="51">sbg_sip_net_inc_session_setup_user_success</measType>
+<measType p="52">sbg_sip_success_inc_s8hr_sessions</measType>
+<measType p="53">sbg_sip_out_dtls_srtp_call_failed_setups</measType>
+<measType p="54">sbg_sip_releases_session_timer</measType>
+<measType p="55">sbg_sip_active_inc_s8hr_sessions</measType>
+<measType p="56">sbg_sip_responded_inc_sessions</measType>
+<measType p="57">sbg_sip_out_sess_resp_time</measType>
+<measType p="58">sbg_sip_total_inc_message</measType>
+<measType p="59">sbg_sip_initiated_session_release</measType>
+<measType p="60">sbg_sip_rej_session_release_of_sig_bearer</measType>
+<measType p="61">sbg_sip_early_cancel_inc_sessions</measType>
+<measType p="62">sbg_sip_out_sess_duration</measType>
+<measType p="63">sbg_sip_success_inc_sessions</measType>
+<measType p="64">sbg_number_of_attackers_blocked_for_ghost_calls</measType>
+<measType p="65">sbg_number_of_ghost_calls_detected</measType>
+<measType p="66">sbg_number_of_rejected_concurrent_call_attempts</measType>
+<measType p="67">sbg_sip_rx_fail_continuity_inc_sessions</measType>
+<measType p="68">sbg_sip_rx_fail_continuity_out_sessions</measType>
+<measType p="69">sbg_sip_rx_stack_error_continuity_inc_sessions</measType>
+<measType p="70">sbg_sip_rx_stack_error_continuity_out_sessions</measType>
+<measType p="71">sbg_sip_rx_timeout_continuity_inc_sessions</measType>
+<measType p="72">sbg_sip_rx_timeout_continuity_out_sessions</measType>
+<measType p="73">sbg_sip_n5_fail_continuity_incoming_session</measType>
+<measType p="74">sbg_sip_n5_fail_continuity_outgoing_session</measType>
+<measType p="75">sbg_sip_n5_stack_error_continuity_incoming_session</measType>
+<measType p="76">sbg_sip_n5_stack_error_continuity_outgoing_session</measType>
+<measType p="77">sbg_sip_success_inc_message</measType>
+<measType p="78">sbg_sip_success_out_message</measType>
+<measType p="79">sbg_sip_unsucc_codec_answers</measType>
+<measType p="80">sbg_sip_unsucc_codec_offers</measType>
+<measType p="81">sbg_sip_unsuc_dns_cnt</measType>
+<measType p="82">sbg_sip_user_not_registered_cnt</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">42</r>
+<r p="2">60</r>
+<r p="3">45</r>
+<r p="4">35</r>
+<r p="5">34</r>
+<r p="6">64</r>
+<r p="7">90</r>
+<r p="8">27</r>
+<r p="9">87</r>
+<r p="10">20</r>
+<r p="11">41</r>
+<r p="12">33</r>
+<r p="13">52</r>
+<r p="14">55</r>
+<r p="15">48</r>
+<r p="16">70</r>
+<r p="17">86</r>
+<r p="18">94</r>
+<r p="19">78</r>
+<r p="20">9</r>
+<r p="21">31</r>
+<r p="22">53</r>
+<r p="23">60</r>
+<r p="24">54</r>
+<r p="25">61</r>
+<r p="26">67</r>
+<r p="27">23</r>
+<r p="28">41</r>
+<r p="29">31</r>
+<r p="30">59</r>
+<r p="31">72</r>
+<r p="32">23</r>
+<r p="33">99</r>
+<r p="34">66</r>
+<r p="35">58</r>
+<r p="36">68</r>
+<r p="37">4</r>
+<r p="38">42</r>
+<r p="39">17</r>
+<r p="40">24</r>
+<r p="41">26</r>
+<r p="42">78</r>
+<r p="43">12</r>
+<r p="44">13</r>
+<r p="45">20</r>
+<r p="46">44</r>
+<r p="47">59</r>
+<r p="48">68</r>
+<r p="49">43</r>
+<r p="50">6</r>
+<r p="51">40</r>
+<r p="52">69</r>
+<r p="53">69</r>
+<r p="54">21</r>
+<r p="55">11</r>
+<r p="56">15</r>
+<r p="57">61</r>
+<r p="58">61</r>
+<r p="59">61</r>
+<r p="60">47</r>
+<r p="61">35</r>
+<r p="62">63</r>
+<r p="63">27</r>
+<r p="64">44</r>
+<r p="65">23</r>
+<r p="66">56</r>
+<r p="67">9</r>
+<r p="68">19</r>
+<r p="69">75</r>
+<r p="70">53</r>
+<r p="71">79</r>
+<r p="72">0</r>
+<r p="73">84</r>
+<r p="74">39</r>
+<r p="75">66</r>
+<r p="76">93</r>
+<r p="77">61</r>
+<r p="78">43</r>
+<r p="79">51</r>
+<r p="80">27</r>
+<r p="81">80</r>
+<r p="82">15</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">80</r>
+<r p="2">18</r>
+<r p="3">61</r>
+<r p="4">50</r>
+<r p="5">11</r>
+<r p="6">36</r>
+<r p="7">21</r>
+<r p="8">9</r>
+<r p="9">92</r>
+<r p="10">3</r>
+<r p="11">62</r>
+<r p="12">20</r>
+<r p="13">50</r>
+<r p="14">61</r>
+<r p="15">86</r>
+<r p="16">86</r>
+<r p="17">16</r>
+<r p="18">87</r>
+<r p="19">79</r>
+<r p="20">4</r>
+<r p="21">3</r>
+<r p="22">3</r>
+<r p="23">95</r>
+<r p="24">37</r>
+<r p="25">55</r>
+<r p="26">3</r>
+<r p="27">81</r>
+<r p="28">41</r>
+<r p="29">78</r>
+<r p="30">69</r>
+<r p="31">96</r>
+<r p="32">78</r>
+<r p="33">37</r>
+<r p="34">30</r>
+<r p="35">37</r>
+<r p="36">45</r>
+<r p="37">65</r>
+<r p="38">45</r>
+<r p="39">93</r>
+<r p="40">35</r>
+<r p="41">16</r>
+<r p="42">12</r>
+<r p="43">78</r>
+<r p="44">35</r>
+<r p="45">4</r>
+<r p="46">81</r>
+<r p="47">96</r>
+<r p="48">13</r>
+<r p="49">61</r>
+<r p="50">89</r>
+<r p="51">98</r>
+<r p="52">67</r>
+<r p="53">24</r>
+<r p="54">51</r>
+<r p="55">67</r>
+<r p="56">61</r>
+<r p="57">33</r>
+<r p="58">85</r>
+<r p="59">63</r>
+<r p="60">52</r>
+<r p="61">98</r>
+<r p="62">38</r>
+<r p="63">8</r>
+<r p="64">89</r>
+<r p="65">27</r>
+<r p="66">29</r>
+<r p="67">97</r>
+<r p="68">63</r>
+<r p="69">63</r>
+<r p="70">44</r>
+<r p="71">1</r>
+<r p="72">4</r>
+<r p="73">18</r>
+<r p="74">11</r>
+<r p="75">58</r>
+<r p="76">65</r>
+<r p="77">98</r>
+<r p="78">23</r>
+<r p="79">95</r>
+<r p="80">51</r>
+<r p="81">52</r>
+<r p="82">9</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-pcm-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">24</r>
+<r p="2">37</r>
+<r p="3">70</r>
+<r p="4">12</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">13</r>
+<r p="2">0</r>
+<r p="3">55</r>
+<r p="4">21</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-interfaces">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_number_of_packets_tunnel</measType>
+<measType p="2">adc_selector_number_of_packets_tunnel_error</measType>
+<measType p="3">adc_selector_number_of_packets_tunnel_dropped</measType>
+<measType p="4">adc_selector_number_of_packets_external_network</measType>
+<measType p="5">adc_selector_number_of_packets_external_network_error</measType>
+<measType p="6">adc_selector_number_of_packets_external_network_dropped</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">60</r>
+<r p="2">51</r>
+<r p="3">88</r>
+<r p="4">63</r>
+<r p="5">13</r>
+<r p="6">7</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">71</r>
+<r p="2">97</r>
+<r p="3">23</r>
+<r p="4">30</r>
+<r p="5">20</r>
+<r p="6">46</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-payload-resource">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_current_total_reg_users</measType>
+<measType p="2">sbg_number_of_active_sessions</measType>
+<measType p="3">sbg_current_total_local_reg_users</measType>
+<measType p="4">sbg_max_allowed_reg_users</measType>
+<measType p="5">sbg_number_of_active_emergency_sessions</measType>
+<measType p="6">sbg_number_of_active_priority_sessions</measType>
+<measType p="7">sbg_number_of_active_subscribe_sessions</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">29</r>
+<r p="2">24</r>
+<r p="3">27</r>
+<r p="4">62</r>
+<r p="5">36</r>
+<r p="6">19</r>
+<r p="7">59</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">52</r>
+<r p="2">76</r>
+<r p="3">62</r>
+<r p="4">11</r>
+<r p="5">62</r>
+<r p="6">45</r>
+<r p="7">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-proxy-registrar-pa-at-per-plmn">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_reg_stat_initial_acc_cnt_at_per_plmn</measType>
+<measType p="2">sbg_sip_reg_stat_initial_att_cnt_at_per_plmn</measType>
+<measType p="3">sbg_sip_user_reg_succ</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">62</r>
+<r p="2">16</r>
+<r p="3">92</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">15</r>
+<r p="2">97</r>
+<r p="3">81</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-sess-stats-at-per-plmn">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_cancel_inc_sessions_at_per_plmn</measType>
+<measType p="2">sbg_sip_cancel_out_sessions_at_per_plmn</measType>
+<measType p="3">sbg_sip_challenged_out_inv_sessions_at_per_plmn</measType>
+<measType p="4">sbg_sip_early_cancel_inc_sessions_at_per_plmn</measType>
+<measType p="5">sbg_sip_early_cancel_out_sessions_at_per_plmn</measType>
+<measType p="6">sbg_sip_initiated_session_release_at_per_plmn</measType>
+<measType p="7">sbg_sip_rejected_inc_sessions_at_per_plmn</measType>
+<measType p="8">sbg_sip_rejected_out_sessions_at_per_plmn</measType>
+<measType p="9">sbg_sip_setup_session_term</measType>
+<measType p="10">sbg_sip_setup_time_term</measType>
+<measType p="11">sbg_sip_net_inc_session_estab_network_success_at_per_plmn</measType>
+<measType p="12">sbg_sip_net_out_session_estab_network_success_at_per_plmn</measType>
+<measType p="13">sbg_sip_session_inc_normal_release_at_per_plmn</measType>
+<measType p="14">sbg_sip_session_out_normal_release_at_per_plmn</measType>
+<measType p="15">sbg_sip_success_inc_sessions_at_per_plmn</measType>
+<measType p="16">sbg_sip_success_out_sessions_at_per_plmn</measType>
+<measType p="17">sbg_sip_total_inc_sess_setups_at_per_plmn</measType>
+<measType p="18">sbg_sip_total_out_sess_setups_at_per_plmn</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">10</r>
+<r p="2">33</r>
+<r p="3">78</r>
+<r p="4">54</r>
+<r p="5">62</r>
+<r p="6">0</r>
+<r p="7">47</r>
+<r p="8">9</r>
+<r p="9">31</r>
+<r p="10">86</r>
+<r p="11">45</r>
+<r p="12">58</r>
+<r p="13">35</r>
+<r p="14">80</r>
+<r p="15">0</r>
+<r p="16">65</r>
+<r p="17">88</r>
+<r p="18">74</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">34</r>
+<r p="2">26</r>
+<r p="3">28</r>
+<r p="4">69</r>
+<r p="5">92</r>
+<r p="6">96</r>
+<r p="7">47</r>
+<r p="8">84</r>
+<r p="9">46</r>
+<r p="10">96</r>
+<r p="11">92</r>
+<r p="12">30</r>
+<r p="13">96</r>
+<r p="14">4</r>
+<r p="15">74</r>
+<r p="16">98</r>
+<r p="17">9</r>
+<r p="18">16</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-dtmfs-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">72</r>
+<r p="2">28</r>
+<r p="3">68</r>
+<r p="4">90</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">41</r>
+<r p="2">46</r>
+<r p="3">34</r>
+<r p="4">77</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-subs-trans-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_total_inc_sip_subscribe_requests</measType>
+<measType p="2">sbg_sip_total_inc_sip_notify_requests</measType>
+<measType p="3">sbg_sip_total_out_sip_notify_requests</measType>
+<measType p="4">sbg_sip_total_out_sip_subscribe_requests</measType>
+<measType p="5">sbg_sip_total_inc_sip_notify_responses</measType>
+<measType p="6">sbg_sip_total_inc_sip_subscribe_responses</measType>
+<measType p="7">sbg_sip_total_out_sip_notify_responses</measType>
+<measType p="8">sbg_sip_total_out_sip_subscribe_responses</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">84</r>
+<r p="2">92</r>
+<r p="3">25</r>
+<r p="4">0</r>
+<r p="5">28</r>
+<r p="6">31</r>
+<r p="7">8</r>
+<r p="8">84</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">2</r>
+<r p="2">93</r>
+<r p="3">14</r>
+<r p="4">10</r>
+<r p="5">58</r>
+<r p="6">90</r>
+<r p="7">44</r>
+<r p="8">44</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-trans-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_incomming_provisional_responses</measType>
+<measType p="2">sbg_sip_outgoing_provisional_responses</measType>
+<measType p="3">sbg_sip_outgoing_transaction_timeouts</measType>
+<measType p="4">sbg_sip_total_inc_sip_requests</measType>
+<measType p="5">sbg_sip_total_inc_sip_responses</measType>
+<measType p="6">sbg_sip_total_out_sip_requests</measType>
+<measType p="7">sbg_sip_total_out_sip_responses</measType>
+<measType p="8">sbg_sip_total_out_failure_responses</measType>
+<measType p="9">sbg_sip_tot_inc_3xx</measType>
+<measType p="10">sbg_sip_tot_inc_4xx</measType>
+<measType p="11">sbg_sip_tot_inc_5xx</measType>
+<measType p="12">sbg_sip_tot_inc_6xx</measType>
+<measType p="13">sbg_sip_total_inc_failure_responses</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">24</r>
+<r p="2">55</r>
+<r p="3">26</r>
+<r p="4">1</r>
+<r p="5">5</r>
+<r p="6">63</r>
+<r p="7">23</r>
+<r p="8">96</r>
+<r p="9">52</r>
+<r p="10">40</r>
+<r p="11">77</r>
+<r p="12">0</r>
+<r p="13">75</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">94</r>
+<r p="2">84</r>
+<r p="3">13</r>
+<r p="4">13</r>
+<r p="5">93</r>
+<r p="6">59</r>
+<r p="7">87</r>
+<r p="8">43</r>
+<r p="9">81</r>
+<r p="10">56</r>
+<r p="11">46</r>
+<r p="12">6</r>
+<r p="13">16</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-realm">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_realm_active_evs_sessions</measType>
+<measType p="2">bgf_realm_allowed_incoming_bw</measType>
+<measType p="3">bgf_realm_allowed_outgoing_bw</measType>
+<measType p="4">bgf_realm_connection_measured_jitter_1</measType>
+<measType p="5">bgf_realm_connection_measured_jitter_2</measType>
+<measType p="6">bgf_realm_connection_measured_jitter_3</measType>
+<measType p="7">bgf_realm_connection_measured_jitter_4</measType>
+<measType p="8">bgf_realm_connection_measured_jitter_5</measType>
+<measType p="9">bgf_realm_connection_measured_jitter_6</measType>
+<measType p="10">bgf_realm_connection_measured_jitter_7</measType>
+<measType p="11">bgf_realm_connection_packets_lost_0</measType>
+<measType p="12">bgf_realm_connection_packets_lost_1</measType>
+<measType p="13">bgf_realm_connection_packets_lost_2</measType>
+<measType p="14">bgf_realm_connection_packets_lost_3</measType>
+<measType p="15">bgf_realm_connection_packets_lost_4</measType>
+<measType p="16">bgf_realm_connection_packets_lost_5</measType>
+<measType p="17">bgf_realm_connection_packets_lost_6</measType>
+<measType p="18">bgf_realm_connection_packets_lost_7</measType>
+<measType p="19">bgf_realm_connection_packets_lost_8</measType>
+<measType p="20">bgf_realm_connection_packets_lost_9</measType>
+<measType p="21">bgf_realm_evs_removed_from_answer_due_to_cap</measType>
+<measType p="22">bgf_realm_evs_removed_from_offer_due_to_cap</measType>
+<measType p="23">bgf_realm_nw_adm_rejs</measType>
+<measType p="24">bgf_realm_reserved_incoming_bw</measType>
+<measType p="25">bgf_realm_reserved_outgoing_bw</measType>
+<measType p="26">bgf_realm_rtp_lost_packets</measType>
+<measType p="27">bgf_realm_rtp_received_packets</measType>
+<measType p="28">bgf_realm_sessions_using_evs</measType>
+<measType p="29">bgf_realm_tcp_received_octets</measType>
+<measType p="30">bgf_realm_tcp_received_packets</measType>
+<measType p="31">bgf_realm_tcp_sent_octets</measType>
+<measType p="32">bgf_realm_tcp_sent_packets</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">29</r>
+<r p="2">99</r>
+<r p="3">99</r>
+<r p="4">44</r>
+<r p="5">40</r>
+<r p="6">0</r>
+<r p="7">49</r>
+<r p="8">24</r>
+<r p="9">91</r>
+<r p="10">77</r>
+<r p="11">35</r>
+<r p="12">94</r>
+<r p="13">72</r>
+<r p="14">48</r>
+<r p="15">65</r>
+<r p="16">0</r>
+<r p="17">80</r>
+<r p="18">39</r>
+<r p="19">76</r>
+<r p="20">0</r>
+<r p="21">36</r>
+<r p="22">40</r>
+<r p="23">21</r>
+<r p="24">39</r>
+<r p="25">82</r>
+<r p="26">81</r>
+<r p="27">40</r>
+<r p="28">4</r>
+<r p="29">14</r>
+<r p="30">49</r>
+<r p="31">24</r>
+<r p="32">71</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">10</r>
+<r p="2">29</r>
+<r p="3">71</r>
+<r p="4">28</r>
+<r p="5">76</r>
+<r p="6">63</r>
+<r p="7">28</r>
+<r p="8">72</r>
+<r p="9">42</r>
+<r p="10">87</r>
+<r p="11">90</r>
+<r p="12">66</r>
+<r p="13">51</r>
+<r p="14">25</r>
+<r p="15">1</r>
+<r p="16">35</r>
+<r p="17">95</r>
+<r p="18">82</r>
+<r p="19">56</r>
+<r p="20">57</r>
+<r p="21">43</r>
+<r p="22">66</r>
+<r p="23">75</r>
+<r p="24">40</r>
+<r p="25">80</r>
+<r p="26">83</r>
+<r p="27">27</r>
+<r p="28">92</r>
+<r p="29">79</r>
+<r p="30">94</r>
+<r p="31">59</r>
+<r p="32">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-static-route">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_static_route_destination_unreachable_notifications</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">63</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">26</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-ext-bgf-control-link">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_ext_bgf_tot_calls_cnt</measType>
+<measType p="2">sbg_ext_h248_tot_req_cnt</measType>
+<measType p="3">sbg_ext_bgf_hanging_termination_cnt</measType>
+<measType p="4">sbg_ext_bgf_tot_calls_abn_terminated_cnt</measType>
+<measType p="5">sbg_ext_bgf_tot_calls_failed_cnt</measType>
+<measType p="6">sbg_ext_h248_tot_server_error_cnt</measType>
+<measType p="7">sbg_ext_bgf_tot_ctrl_link_setups_cnt</measType>
+<measType p="8">sbg_ext_h248_tot_invalid_address_cnt</measType>
+<measType p="9">sbg_ext_h248_tot_no_resources_cnt</measType>
+<measType p="10">sbg_ext_h248_tot_other_error_cnt</measType>
+<measType p="11">sbg_ext_h248_tot_protocol_error_cnt</measType>
+<measType p="12">sbg_ext_bgf_calls_active_gauge</measType>
+<measType p="13">sbg_ext_h248_active_transactions_gauge</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-235,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">66</r>
+<r p="2">91</r>
+<r p="3">87</r>
+<r p="4">29</r>
+<r p="5">95</r>
+<r p="6">23</r>
+<r p="7">27</r>
+<r p="8">12</r>
+<r p="9">36</r>
+<r p="10">49</r>
+<r p="11">62</r>
+<r p="12">0</r>
+<r p="13">90</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-236,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">14</r>
+<r p="2">27</r>
+<r p="3">41</r>
+<r p="4">68</r>
+<r p="5">52</r>
+<r p="6">62</r>
+<r p="7">38</r>
+<r p="8">51</r>
+<r p="9">16</r>
+<r p="10">54</r>
+<r p="11">79</r>
+<r p="12">14</r>
+<r p="13">97</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-up-fh-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">30</r>
+<r p="2">33</r>
+<r p="3">98</r>
+<r p="4">49</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">66</r>
+<r p="2">3</r>
+<r p="3">98</r>
+<r p="4">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-dpdk-vlan">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_dpdk_number_of_input_vlan_packets</measType>
+<measType p="2">adc_selector_dpdk_number_of_output_vlan_packets</measType>
+<measType p="3">adc_selector_dpdk_number_of_icmp_packets</measType>
+<measType p="4">adc_selector_dpdk_number_of_fragmented_packets</measType>
+<measType p="5">adc_selector_dpdk_number_of_tcp_syn_packets</measType>
+<measType p="6">adc_selector_dpdk_number_of_bfd_packets</measType>
+<measType p="7">adc_selector_dpdk_number_of_dropped_icmp_packets</measType>
+<measType p="8">adc_selector_dpdk_number_of_dropped_fragmented_packets</measType>
+<measType p="9">adc_selector_dpdk_number_of_short_udp_dropped</measType>
+<measType p="10">adc_selector_dpdk_network_rate_dropped</measType>
+<measType p="11">adc_selector_dpdk_number_of_tcp_syn_dropped</measType>
+<measType p="12">adc_selector_dpdk_number_of_icmp_packets_dropped</measType>
+<measType p="13">adc_selector_dpdk_number_of_stun_packets_dropped</measType>
+<measType p="14">adc_selector_dpdk_number_of_bfd_packets_dropped</measType>
+<measType p="15">adc_selector_dpdk_allowed_subnet_dropped</measType>
+<measType p="16">adc_selector_dpdk_ipoptions_dropped</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">55</r>
+<r p="2">50</r>
+<r p="3">58</r>
+<r p="4">14</r>
+<r p="5">58</r>
+<r p="6">63</r>
+<r p="7">36</r>
+<r p="8">21</r>
+<r p="9">1</r>
+<r p="10">6</r>
+<r p="11">30</r>
+<r p="12">49</r>
+<r p="13">70</r>
+<r p="14">42</r>
+<r p="15">3</r>
+<r p="16">55</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">68</r>
+<r p="2">60</r>
+<r p="3">95</r>
+<r p="4">79</r>
+<r p="5">50</r>
+<r p="6">7</r>
+<r p="7">44</r>
+<r p="8">3</r>
+<r p="9">78</r>
+<r p="10">71</r>
+<r p="11">13</r>
+<r p="12">26</r>
+<r p="13">35</r>
+<r p="14">3</r>
+<r p="15">63</r>
+<r p="16">90</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-instance">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_instance_contexts_active</measType>
+<measType p="2">bgf_instance_utilization_level</measType>
+<measType p="3">bgf_instance_contexts_replicated</measType>
+<measType p="4">bgf_instance_cpu_load_appl_avg</measType>
+<measType p="5">bgf_instance_emergency_call_rejs</measType>
+<measType p="6">bgf_instance_emergency_call_reqs</measType>
+<measType p="7">bgf_instance_emergency_calls</measType>
+<measType p="8">bgf_instance_evs_sessions</measType>
+<measType p="9">bgf_instance_hd_hd_voice_transcoding_reqs</measType>
+<measType p="10">bgf_instance_hd_hd_voice_transcoding_reqs_rej</measType>
+<measType p="11">bgf_instance_hd_hd_voice_transcoding_sess</measType>
+<measType p="12">bgf_instance_hd_nb_voice_transcoding_reqs</measType>
+<measType p="13">bgf_instance_hd_nb_voice_transcoding_reqs_rej</measType>
+<measType p="14">bgf_instance_hd_nb_voice_transcoding_sess</measType>
+<measType p="15">bgf_instance_nb_nb_voice_transcoding_reqs</measType>
+<measType p="16">bgf_instance_nb_nb_voice_transcoding_reqs_rej</measType>
+<measType p="17">bgf_instance_nb_nb_voice_transcoding_sess</measType>
+<measType p="18">bgf_instance_priority_call_rejs</measType>
+<measType p="19">bgf_instance_priority_call_reqs</measType>
+<measType p="20">bgf_instance_priority_calls</measType>
+<measType p="21">bgf_instance_srvcc_reqs</measType>
+<measType p="22">bgf_instance_srvcc_reqs_rej</measType>
+<measType p="23">bgf_instance_srvcc_transcoding_after_handover</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">86</r>
+<r p="2">19</r>
+<r p="3">25</r>
+<r p="4">34</r>
+<r p="5">6</r>
+<r p="6">4</r>
+<r p="7">47</r>
+<r p="8">94</r>
+<r p="9">62</r>
+<r p="10">2</r>
+<r p="11">43</r>
+<r p="12">17</r>
+<r p="13">33</r>
+<r p="14">35</r>
+<r p="15">9</r>
+<r p="16">33</r>
+<r p="17">99</r>
+<r p="18">46</r>
+<r p="19">12</r>
+<r p="20">39</r>
+<r p="21">20</r>
+<r p="22">48</r>
+<r p="23">42</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">19</r>
+<r p="2">37</r>
+<r p="3">99</r>
+<r p="4">73</r>
+<r p="5">90</r>
+<r p="6">13</r>
+<r p="7">70</r>
+<r p="8">24</r>
+<r p="9">46</r>
+<r p="10">15</r>
+<r p="11">89</r>
+<r p="12">49</r>
+<r p="13">97</r>
+<r p="14">23</r>
+<r p="15">5</r>
+<r p="16">33</r>
+<r p="17">83</r>
+<r p="18">79</r>
+<r p="19">71</r>
+<r p="20">55</r>
+<r p="21">11</r>
+<r p="22">93</r>
+<r p="23">33</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-pcf-interface">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_pcf_total_failure_responses_received_post_3xx</measType>
+<measType p="2">sbg_pcf_total_failure_responses_received_per_access_post_3xx</measType>
+<measType p="3">sbg_pcf_total_failure_responses_received_post_4xx</measType>
+<measType p="4">sbg_pcf_total_failure_responses_received_per_access_post_4xx</measType>
+<measType p="5">sbg_pcf_total_failure_responses_received_post_5xx</measType>
+<measType p="6">sbg_pcf_total_failure_responses_received_per_access_post_5xx</measType>
+<measType p="7">sbg_pcf_total_failure_responses_received_patch_3xx</measType>
+<measType p="8">sbg_pcf_total_failure_responses_received_per_access_patch_3xx</measType>
+<measType p="9">sbg_pcf_total_failure_responses_received_patch_4xx</measType>
+<measType p="10">sbg_pcf_total_failure_responses_received_per_access_patch_4xx</measType>
+<measType p="11">sbg_pcf_total_failure_responses_received_patch_5xx</measType>
+<measType p="12">sbg_pcf_total_failure_responses_received_per_access_patch_5xx</measType>
+<measType p="13">sbg_pcf_total_notifications</measType>
+<measType p="14">sbg_pcf_total_notifications_per_access</measType>
+<measType p="15">sbg_pcf_total_requests_sent_post</measType>
+<measType p="16">sbg_pcf_total_requests_sent_per_access_post</measType>
+<measType p="17">sbg_pcf_total_requests_sent_patch</measType>
+<measType p="18">sbg_pcf_total_requests_sent_per_access_patch</measType>
+<measType p="19">sbg_pcf_total_successful_responses_received_post_1xx</measType>
+<measType p="20">sbg_pcf_total_successful_responses_received_per_access_post_1xx</measType>
+<measType p="21">sbg_pcf_total_successful_responses_received_post_2xx</measType>
+<measType p="22">sbg_pcf_total_successful_responses_received_per_access_post_2xx</measType>
+<measType p="23">sbg_pcf_total_successful_responses_received_post_3xx</measType>
+<measType p="24">sbg_pcf_total_successful_responses_received_per_access_post_3xx</measType>
+<measType p="25">sbg_pcf_total_successful_responses_received_patch_1xx</measType>
+<measType p="26">sbg_pcf_total_successful_responses_received_per_access_patch_1xx</measType>
+<measType p="27">sbg_pcf_total_successful_responses_received_patch_2xx</measType>
+<measType p="28">sbg_pcf_total_successful_responses_received_per_access_patch_2xx</measType>
+<measType p="29">sbg_pcf_total_successful_responses_received_patch_3xx</measType>
+<measType p="30">sbg_pcf_total_successful_responses_received_per_access_patch_3xx</measType>
+<measType p="31">sbg_pcf_total_unsuccessful_requests_post_connection_down</measType>
+<measType p="32">sbg_pcf_total_unsuccessful_requests_per_access_post_connection_down</measType>
+<measType p="33">sbg_pcf_total_unsuccessful_requests_post_transaction_expired</measType>
+<measType p="34">sbg_pcf_total_unsuccessful_requests_per_access_post_transaction_expired</measType>
+<measType p="35">sbg_pcf_total_unsuccessful_requests_post_destination_not_found</measType>
+<measType p="36">sbg_pcf_total_unsuccessful_requests_per_access_post_destination_not_found</measType>
+<measType p="37">sbg_pcf_total_unsuccessful_requests_post_cannot_open_connection</measType>
+<measType p="38">sbg_pcf_total_unsuccessful_requests_per_access_post_cannot_open_connection</measType>
+<measType p="39">sbg_pcf_total_unsuccessful_requests_post_other</measType>
+<measType p="40">sbg_pcf_total_unsuccessful_requests_per_access_post_other</measType>
+<measType p="41">sbg_pcf_total_unsuccessful_requests_patch_connection_down</measType>
+<measType p="42">sbg_pcf_total_unsuccessful_requests_per_access_patch_connection_down</measType>
+<measType p="43">sbg_pcf_total_unsuccessful_requests_patch_transaction_expired</measType>
+<measType p="44">sbg_pcf_total_unsuccessful_requests_per_access_patch_transaction_expired</measType>
+<measType p="45">sbg_pcf_total_unsuccessful_requests_patch_destination_not_found</measType>
+<measType p="46">sbg_pcf_total_unsuccessful_requests_per_access_patch_destination_not_found</measType>
+<measType p="47">sbg_pcf_total_unsuccessful_requests_patch_cannot_open_connection</measType>
+<measType p="48">sbg_pcf_total_unsuccessful_requests_per_access_patch_cannot_open_connection</measType>
+<measType p="49">sbg_pcf_total_unsuccessful_requests_patch_other</measType>
+<measType p="50">sbg_pcf_total_unsuccessful_requests_per_access_patch_other</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">41</r>
+<r p="2">95</r>
+<r p="3">21</r>
+<r p="4">91</r>
+<r p="5">76</r>
+<r p="6">39</r>
+<r p="7">2</r>
+<r p="8">34</r>
+<r p="9">93</r>
+<r p="10">11</r>
+<r p="11">26</r>
+<r p="12">43</r>
+<r p="13">88</r>
+<r p="14">14</r>
+<r p="15">79</r>
+<r p="16">46</r>
+<r p="17">19</r>
+<r p="18">8</r>
+<r p="19">38</r>
+<r p="20">99</r>
+<r p="21">10</r>
+<r p="22">37</r>
+<r p="23">84</r>
+<r p="24">24</r>
+<r p="25">5</r>
+<r p="26">87</r>
+<r p="27">84</r>
+<r p="28">33</r>
+<r p="29">5</r>
+<r p="30">20</r>
+<r p="31">69</r>
+<r p="32">62</r>
+<r p="33">29</r>
+<r p="34">55</r>
+<r p="35">22</r>
+<r p="36">73</r>
+<r p="37">69</r>
+<r p="38">6</r>
+<r p="39">26</r>
+<r p="40">94</r>
+<r p="41">51</r>
+<r p="42">37</r>
+<r p="43">88</r>
+<r p="44">53</r>
+<r p="45">80</r>
+<r p="46">74</r>
+<r p="47">91</r>
+<r p="48">89</r>
+<r p="49">97</r>
+<r p="50">93</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">63</r>
+<r p="2">44</r>
+<r p="3">7</r>
+<r p="4">25</r>
+<r p="5">60</r>
+<r p="6">2</r>
+<r p="7">86</r>
+<r p="8">98</r>
+<r p="9">94</r>
+<r p="10">89</r>
+<r p="11">73</r>
+<r p="12">23</r>
+<r p="13">24</r>
+<r p="14">49</r>
+<r p="15">77</r>
+<r p="16">25</r>
+<r p="17">27</r>
+<r p="18">73</r>
+<r p="19">41</r>
+<r p="20">41</r>
+<r p="21">51</r>
+<r p="22">15</r>
+<r p="23">56</r>
+<r p="24">32</r>
+<r p="25">40</r>
+<r p="26">0</r>
+<r p="27">78</r>
+<r p="28">11</r>
+<r p="29">51</r>
+<r p="30">22</r>
+<r p="31">74</r>
+<r p="32">35</r>
+<r p="33">93</r>
+<r p="34">57</r>
+<r p="35">89</r>
+<r p="36">11</r>
+<r p="37">11</r>
+<r p="38">95</r>
+<r p="39">2</r>
+<r p="40">38</r>
+<r p="41">21</r>
+<r p="42">91</r>
+<r p="43">36</r>
+<r p="44">20</r>
+<r p="45">94</r>
+<r p="46">29</r>
+<r p="47">87</r>
+<r p="48">31</r>
+<r p="49">40</r>
+<r p="50">29</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-amr-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">99</r>
+<r p="2">15</r>
+<r p="3">19</r>
+<r p="4">36</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">99</r>
+<r p="2">96</r>
+<r p="3">46</r>
+<r p="4">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-g722-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">30</r>
+<r p="2">20</r>
+<r p="3">88</r>
+<r p="4">2</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">18</r>
+<r p="2">63</r>
+<r p="3">25</r>
+<r p="4">21</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-sctp">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_sctp_aborteds</measType>
+<measType p="2">bgf_sctp_active_estabs</measType>
+<measType p="3">bgf_sctp_autoclose_expireds</measType>
+<measType p="4">bgf_sctp_checksum_errors</measType>
+<measType p="5">bgf_sctp_curr_estab</measType>
+<measType p="6">bgf_sctp_delay_sack_expireds</measType>
+<measType p="7">bgf_sctp_fast_retransmits</measType>
+<measType p="8">bgf_sctp_frag_usr_msgs</measType>
+<measType p="9">bgf_sctp_in_ctrl_chunks</measType>
+<measType p="10">bgf_sctp_in_data_chunk_discards</measType>
+<measType p="11">bgf_sctp_in_order_chunks</measType>
+<measType p="12">bgf_sctp_in_pkt_backlog</measType>
+<measType p="13">bgf_sctp_in_pkt_discards</measType>
+<measType p="14">bgf_sctp_in_pkt_softirq</measType>
+<measType p="15">bgf_sctp_in_sctp_packs</measType>
+<measType p="16">bgf_sctp_in_unorder_chunks</measType>
+<measType p="17">bgf_sctp_out_ctrl_chunks</measType>
+<measType p="18">bgf_sctp_out_of_blues</measType>
+<measType p="19">bgf_sctp_out_order_chunks</measType>
+<measType p="20">bgf_sctp_out_sctp_packs</measType>
+<measType p="21">bgf_sctp_out_unorder_chunks</measType>
+<measType p="22">bgf_sctp_passive_estabs</measType>
+<measType p="23">bgf_sctp_pmtud_retransmits</measType>
+<measType p="24">bgf_sctp_reasm_usr_msgs</measType>
+<measType p="25">bgf_sctp_shutdowns</measType>
+<measType p="26">bgf_sctp_t1_cookie_expireds</measType>
+<measType p="27">bgf_sctp_t1_init_expireds</measType>
+<measType p="28">bgf_sctp_t2_shutdown_expireds</measType>
+<measType p="29">bgf_sctp_t3_retransmits</measType>
+<measType p="30">bgf_sctp_t3_rtx_expireds</measType>
+<measType p="31">bgf_sctp_t4_rto_expireds</measType>
+<measType p="32">bgf_sctp_t5_shutdown_guard_expireds</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">99</r>
+<r p="2">1</r>
+<r p="3">7</r>
+<r p="4">24</r>
+<r p="5">98</r>
+<r p="6">16</r>
+<r p="7">5</r>
+<r p="8">30</r>
+<r p="9">52</r>
+<r p="10">78</r>
+<r p="11">32</r>
+<r p="12">82</r>
+<r p="13">97</r>
+<r p="14">53</r>
+<r p="15">11</r>
+<r p="16">5</r>
+<r p="17">20</r>
+<r p="18">12</r>
+<r p="19">40</r>
+<r p="20">54</r>
+<r p="21">90</r>
+<r p="22">20</r>
+<r p="23">14</r>
+<r p="24">25</r>
+<r p="25">53</r>
+<r p="26">62</r>
+<r p="27">78</r>
+<r p="28">16</r>
+<r p="29">62</r>
+<r p="30">99</r>
+<r p="31">85</r>
+<r p="32">6</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">55</r>
+<r p="2">42</r>
+<r p="3">73</r>
+<r p="4">53</r>
+<r p="5">76</r>
+<r p="6">18</r>
+<r p="7">79</r>
+<r p="8">58</r>
+<r p="9">62</r>
+<r p="10">11</r>
+<r p="11">95</r>
+<r p="12">82</r>
+<r p="13">64</r>
+<r p="14">90</r>
+<r p="15">29</r>
+<r p="16">93</r>
+<r p="17">86</r>
+<r p="18">75</r>
+<r p="19">96</r>
+<r p="20">73</r>
+<r p="21">65</r>
+<r p="22">32</r>
+<r p="23">24</r>
+<r p="24">66</r>
+<r p="25">97</r>
+<r p="26">1</r>
+<r p="27">78</r>
+<r p="28">3</r>
+<r p="29">32</r>
+<r p="30">94</r>
+<r p="31">80</r>
+<r p="32">32</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-dpdk-nic">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_dpdk_rx_packets</measType>
+<measType p="2">adc_selector_dpdk_rx_dropped</measType>
+<measType p="3">adc_selector_dpdk_tx_packets</measType>
+<measType p="4">adc_selector_dpdk_tx_dropped</measType>
+<measType p="5">adc_selector_dpdk_input_packets</measType>
+<measType p="6">adc_selector_dpdk_output_packets</measType>
+<measType p="7">adc_selector_dpdk_unstagged_dropped</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">45</r>
+<r p="2">48</r>
+<r p="3">58</r>
+<r p="4">90</r>
+<r p="5">65</r>
+<r p="6">9</r>
+<r p="7">52</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">28</r>
+<r p="2">26</r>
+<r p="3">76</r>
+<r p="4">34</r>
+<r p="5">92</r>
+<r p="6">51</r>
+<r p="7">57</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-vip-traffic">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_FE_VIP_traffic_ingress_v4</measType>
+<measType p="2">adc_selector_FE_VIP_traffic_ingress_v6</measType>
+<measType p="3">adc_selector_BS_VIP_traffic_ingress_v4</measType>
+<measType p="4">adc_selector_BS_VIP_traffic_ingress_v6</measType>
+<measType p="5">adc_selector_BS_VIP_traffic_egress_v4</measType>
+<measType p="6">adc_selector_BS_VIP_traffic_egress_v6</measType>
+<measType p="7">adc_selector_PN_VIP_traffic_ingress_v4</measType>
+<measType p="8">adc_selector_PN_VIP_traffic_ingress_v6</measType>
+<measType p="9">adc_selector_PN_VIP_traffic_egress_v4</measType>
+<measType p="10">adc_selector_PN_VIP_traffic_egress_v6</measType>
+<measType p="11">adc_selector_VIP_traffic_no_route_dropped</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">39</r>
+<r p="2">34</r>
+<r p="3">46</r>
+<r p="4">98</r>
+<r p="5">78</r>
+<r p="6">64</r>
+<r p="7">15</r>
+<r p="8">74</r>
+<r p="9">68</r>
+<r p="10">58</r>
+<r p="11">41</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">70</r>
+<r p="2">95</r>
+<r p="3">97</r>
+<r p="4">10</r>
+<r p="5">77</r>
+<r p="6">76</r>
+<r p="7">52</r>
+<r p="8">52</r>
+<r p="9">40</r>
+<r p="10">32</r>
+<r p="11">14</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-ebm-agent-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_ebm_agent_received_datagrams</measType>
+<measType p="2">sbg_ebm_agent_forward_invalid</measType>
+<measType p="3">sbg_ebm_agent_forward_suc</measType>
+<measType p="4">sbg_ebm_agent_forward_fail</measType>
+<measType p="5">sbg_ebm_agent_dropped_message</measType>
+<measType p="6">sbg_ebm_agent_app_queue</measType>
+<measType p="7">sbg_ebm_agent_server_queue</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">5</r>
+<r p="2">77</r>
+<r p="3">22</r>
+<r p="4">65</r>
+<r p="5">72</r>
+<r p="6">2</r>
+<r p="7">28</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">64</r>
+<r p="2">54</r>
+<r p="3">92</r>
+<r p="4">81</r>
+<r p="5">72</r>
+<r p="6">7</r>
+<r p="7">24</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-media-ip-if">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_media_ip_if_rx_average_tcp_packet_size</measType>
+<measType p="2">bgf_media_ip_if_rx_disc_octets_exc</measType>
+<measType p="3">bgf_media_ip_if_rx_disc_pkts</measType>
+<measType p="4">bgf_media_ip_if_rx_disc_pkts_exc</measType>
+<measType p="5">bgf_media_ip_if_rx_octets</measType>
+<measType p="6">bgf_media_ip_if_rx_octets_per_second</measType>
+<measType p="7">bgf_media_ip_if_rx_octets_per_second_peak</measType>
+<measType p="8">bgf_media_ip_if_rx_packets</measType>
+<measType p="9">bgf_media_ip_if_rx_pkts_per_second</measType>
+<measType p="10">bgf_media_ip_if_rx_pkts_per_second_peak</measType>
+<measType p="11">bgf_media_ip_if_rx_srtp_e2e_octets</measType>
+<measType p="12">bgf_media_ip_if_rx_srtp_e2e_packets</measType>
+<measType p="13">bgf_media_ip_if_rx_srtp_octets</measType>
+<measType p="14">bgf_media_ip_if_rx_srtp_packets</measType>
+<measType p="15">bgf_media_ip_if_rx_tcp_disc_octets_exc</measType>
+<measType p="16">bgf_media_ip_if_rx_tcp_disc_pkts</measType>
+<measType p="17">bgf_media_ip_if_rx_tcp_disc_pkts_exc</measType>
+<measType p="18">bgf_media_ip_if_rx_tcp_disc_pkts_high_load</measType>
+<measType p="19">bgf_media_ip_if_rx_tcp_octets</measType>
+<measType p="20">bgf_media_ip_if_rx_tcp_octets_per_second</measType>
+<measType p="21">bgf_media_ip_if_rx_tcp_octets_per_second_peak</measType>
+<measType p="22">bgf_media_ip_if_rx_tcp_pkts</measType>
+<measType p="23">bgf_media_ip_if_rx_tcp_pkts_per_second</measType>
+<measType p="24">bgf_media_ip_if_rx_tcp_pkts_per_second_peak</measType>
+<measType p="25">bgf_media_ip_if_rx_udp_disc_octets_exc</measType>
+<measType p="26">bgf_media_ip_if_rx_udp_disc_pkts</measType>
+<measType p="27">bgf_media_ip_if_rx_udp_disc_pkts_exc</measType>
+<measType p="28">bgf_media_ip_if_rx_udp_octets</measType>
+<measType p="29">bgf_media_ip_if_rx_udp_octets_per_second</measType>
+<measType p="30">bgf_media_ip_if_rx_udp_octets_per_second_peak</measType>
+<measType p="31">bgf_media_ip_if_rx_udp_pkts</measType>
+<measType p="32">bgf_media_ip_if_rx_udp_pkts_per_second</measType>
+<measType p="33">bgf_media_ip_if_rx_udp_pkts_per_second_peak</measType>
+<measType p="34">bgf_media_ip_if_tx_average_tcp_packet_size</measType>
+<measType p="35">bgf_media_ip_if_tx_disc_pkts</measType>
+<measType p="36">bgf_media_ip_if_tx_disc_pkts_no_next_hop</measType>
+<measType p="37">bgf_media_ip_if_tx_no_reachable_next_hop</measType>
+<measType p="38">bgf_media_ip_if_tx_octets</measType>
+<measType p="39">bgf_media_ip_if_tx_octets_per_second</measType>
+<measType p="40">bgf_media_ip_if_tx_octets_per_second_peak</measType>
+<measType p="41">bgf_media_ip_if_tx_packets</measType>
+<measType p="42">bgf_media_ip_if_tx_pkts_per_second</measType>
+<measType p="43">bgf_media_ip_if_tx_pkts_per_second_peak</measType>
+<measType p="44">bgf_media_ip_if_tx_srtp_e2e_octets</measType>
+<measType p="45">bgf_media_ip_if_tx_srtp_e2e_packets</measType>
+<measType p="46">bgf_media_ip_if_tx_srtp_octets</measType>
+<measType p="47">bgf_media_ip_if_tx_srtp_packets</measType>
+<measType p="48">bgf_media_ip_if_tx_tcp_disc_pkts</measType>
+<measType p="49">bgf_media_ip_if_tx_tcp_octets</measType>
+<measType p="50">bgf_media_ip_if_tx_tcp_octets_per_second</measType>
+<measType p="51">bgf_media_ip_if_tx_tcp_octets_per_second_peak</measType>
+<measType p="52">bgf_media_ip_if_tx_tcp_pkts</measType>
+<measType p="53">bgf_media_ip_if_tx_tcp_pkts_per_second</measType>
+<measType p="54">bgf_media_ip_if_tx_tcp_pkts_per_second_peak</measType>
+<measType p="55">bgf_media_ip_if_tx_udp_disc_pkts</measType>
+<measType p="56">bgf_media_ip_if_tx_udp_octets</measType>
+<measType p="57">bgf_media_ip_if_tx_udp_octets_per_second</measType>
+<measType p="58">bgf_media_ip_if_tx_udp_octets_per_second_peak</measType>
+<measType p="59">bgf_media_ip_if_tx_udp_pkts</measType>
+<measType p="60">bgf_media_ip_if_tx_udp_pkts_per_second</measType>
+<measType p="61">bgf_media_ip_if_tx_udp_pkts_per_second_peak</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">38</r>
+<r p="2">52</r>
+<r p="3">36</r>
+<r p="4">91</r>
+<r p="5">30</r>
+<r p="6">47</r>
+<r p="7">11</r>
+<r p="8">57</r>
+<r p="9">67</r>
+<r p="10">2</r>
+<r p="11">16</r>
+<r p="12">35</r>
+<r p="13">6</r>
+<r p="14">65</r>
+<r p="15">7</r>
+<r p="16">20</r>
+<r p="17">3</r>
+<r p="18">28</r>
+<r p="19">68</r>
+<r p="20">86</r>
+<r p="21">7</r>
+<r p="22">52</r>
+<r p="23">83</r>
+<r p="24">39</r>
+<r p="25">33</r>
+<r p="26">75</r>
+<r p="27">47</r>
+<r p="28">6</r>
+<r p="29">61</r>
+<r p="30">23</r>
+<r p="31">40</r>
+<r p="32">84</r>
+<r p="33">78</r>
+<r p="34">37</r>
+<r p="35">9</r>
+<r p="36">62</r>
+<r p="37">80</r>
+<r p="38">63</r>
+<r p="39">23</r>
+<r p="40">16</r>
+<r p="41">86</r>
+<r p="42">84</r>
+<r p="43">20</r>
+<r p="44">15</r>
+<r p="45">96</r>
+<r p="46">55</r>
+<r p="47">59</r>
+<r p="48">58</r>
+<r p="49">67</r>
+<r p="50">37</r>
+<r p="51">94</r>
+<r p="52">63</r>
+<r p="53">11</r>
+<r p="54">57</r>
+<r p="55">1</r>
+<r p="56">32</r>
+<r p="57">59</r>
+<r p="58">84</r>
+<r p="59">51</r>
+<r p="60">42</r>
+<r p="61">39</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">75</r>
+<r p="2">25</r>
+<r p="3">46</r>
+<r p="4">52</r>
+<r p="5">28</r>
+<r p="6">1</r>
+<r p="7">41</r>
+<r p="8">1</r>
+<r p="9">93</r>
+<r p="10">52</r>
+<r p="11">11</r>
+<r p="12">29</r>
+<r p="13">92</r>
+<r p="14">74</r>
+<r p="15">58</r>
+<r p="16">20</r>
+<r p="17">47</r>
+<r p="18">81</r>
+<r p="19">19</r>
+<r p="20">71</r>
+<r p="21">46</r>
+<r p="22">60</r>
+<r p="23">8</r>
+<r p="24">7</r>
+<r p="25">67</r>
+<r p="26">56</r>
+<r p="27">26</r>
+<r p="28">67</r>
+<r p="29">20</r>
+<r p="30">38</r>
+<r p="31">72</r>
+<r p="32">48</r>
+<r p="33">15</r>
+<r p="34">5</r>
+<r p="35">5</r>
+<r p="36">3</r>
+<r p="37">11</r>
+<r p="38">95</r>
+<r p="39">33</r>
+<r p="40">34</r>
+<r p="41">93</r>
+<r p="42">23</r>
+<r p="43">72</r>
+<r p="44">25</r>
+<r p="45">8</r>
+<r p="46">69</r>
+<r p="47">44</r>
+<r p="48">80</r>
+<r p="49">98</r>
+<r p="50">87</r>
+<r p="51">3</r>
+<r p="52">15</r>
+<r p="53">93</r>
+<r p="54">66</r>
+<r p="55">30</r>
+<r p="56">47</r>
+<r p="57">60</r>
+<r p="58">25</r>
+<r p="59">87</r>
+<r p="60">2</r>
+<r p="61">84</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-priority-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_inc_priority_call_attempts</measType>
+<measType p="2">sbg_inc_priority_call_success_setups</measType>
+<measType p="3">sbg_out_priority_call_attempts</measType>
+<measType p="4">sbg_out_priority_call_success_setups</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">43</r>
+<r p="2">9</r>
+<r p="3">37</r>
+<r p="4">73</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">81</r>
+<r p="2">84</r>
+<r p="3">16</r>
+<r p="4">36</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-payload-appl-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_appl_memory_usage_max</measType>
+<measType p="2">sbg_appl_cpu_usage_avg</measType>
+<measType p="3">sbg_appl_cpu_usage</measType>
+<measType p="4">sbg_appl_cpu_usage_max</measType>
+<measType p="5">sbg_appl_memory_usage</measType>
+<measType p="6">sbg_appl_memory_usage_avg</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">41</r>
+<r p="2">89</r>
+<r p="3">52</r>
+<r p="4">13</r>
+<r p="5">35</r>
+<r p="6">88</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">46</r>
+<r p="2">13</r>
+<r p="3">24</r>
+<r p="4">78</r>
+<r p="5">13</r>
+<r p="6">9</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-if-termination-network-qos">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_pkts_disc_bw_polic_gauge</measType>
+<measType p="2">sbg_pkts_disc_src_filter_gauge</measType>
+<measType p="3">sbg_pkts_lost_ratio_gauge</measType>
+<measType p="4">sbg_pkts_outof_seq_ratio_gauge</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">88</r>
+<r p="2">14</r>
+<r p="3">67</r>
+<r p="4">95</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">57</r>
+<r p="2">4</r>
+<r p="3">99</r>
+<r p="4">99</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-if-termination-emegency-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_releases_media_stop_ec</measType>
+<measType p="2">sbg_total_emergency_calls_rejects</measType>
+<measType p="3">sbg_total_emergency_calls_setups</measType>
+<measType p="4">sbg_total_emergency_calls_success</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">12</r>
+<r p="2">53</r>
+<r p="3">40</r>
+<r p="4">86</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">17</r>
+<r p="2">50</r>
+<r p="3">36</r>
+<r p="4">0</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-emergency-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_total_emergency_calls_success</measType>
+<measType p="2">sbg_total_emergency_calls_rejects</measType>
+<measType p="3">sbg_total_emergency_calls_setups</measType>
+<measType p="4">sbg_sip_releases_media_stop_ec</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">16</r>
+<r p="2">66</r>
+<r p="3">4</r>
+<r p="4">33</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">33</r>
+<r p="2">32</r>
+<r p="3">57</r>
+<r p="4">55</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-synchronization">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_block_time_ms_sum</measType>
+<measType p="2">adc_selector_block_time_ms_count</measType>
+<measType p="3">adc_selector_sync_over_limit</measType>
+<measType p="4">adc_selector_dropped_not_synced_v4</measType>
+<measType p="5">adc_selector_dropped_not_synced_v6</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">97</r>
+<r p="2">16</r>
+<r p="3">17</r>
+<r p="4">85</r>
+<r p="5">90</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">91</r>
+<r p="2">16</r>
+<r p="3">54</r>
+<r p="4">64</r>
+<r p="5">55</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-ic-termination-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_active_out_sessions</measType>
+<measType p="2">sbg_sip_throttling_rejected_cnt</measType>
+<measType p="3">sbg_snc_max_sessions</measType>
+<measType p="4">sbg_sip_active_inc_sessions</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">11</r>
+<r p="2">30</r>
+<r p="3">56</r>
+<r p="4">60</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">7</r>
+<r p="2">47</r>
+<r p="3">52</r>
+<r p="4">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-vip-conntrack">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_selector_conntrack_entries</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">64</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-g729-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">99</r>
+<r p="2">40</r>
+<r p="3">47</r>
+<r p="4">66</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">81</r>
+<r p="2">56</r>
+<r p="3">13</r>
+<r p="4">52</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-proxy-registrar-pa">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_reg_stat_reg_user_gauge</measType>
+<measType p="2">sbg_sip_reg_stat_reg_ipsec_user_gauge</measType>
+<measType p="3">sbg_init_reg_time</measType>
+<measType p="4">sbg_max_init_reg_time</measType>
+<measType p="5">sbg_sip_emer_reg_stat_reg_user_gauge</measType>
+<measType p="6">sbg_sip_reg_stat_reg_ipsec_failed</measType>
+<measType p="7">sbg_sip_reg_stat_acc_reg_cnt</measType>
+<measType p="8">sbg_sip_s8hr_reg_stat_initial_acc_cnt</measType>
+<measType p="9">sbg_fallback_performed_contacts_gauge</measType>
+<measType p="10">sbg_pending_fallback_contacts_gauge</measType>
+<measType p="11">sbg_sip_emer_reg_stat_acc_reg_cnt</measType>
+<measType p="12">sbg_sip_emer_reg_stat_initial_acc_cnt</measType>
+<measType p="13">sbg_sip_emer_reg_stat_initial_att_cnt</measType>
+<measType p="14">sbg_sip_emer_reg_stat_initial_fail_cnt</measType>
+<measType p="15">sbg_sip_emer_reg_stat_rej_reg_cnt</measType>
+<measType p="16">sbg_sip_emer_reg_stat_re_reg_acc_cnt</measType>
+<measType p="17">sbg_sip_emer_reg_stat_re_reg_att_cnt</measType>
+<measType p="18">sbg_sip_emer_reg_stat_re_reg_fail_cnt</measType>
+<measType p="19">sbg_sip_prio_dscp_reg_stat_fwd_initial_att_cnt</measType>
+<measType p="20">sbg_sip_prio_dscp_reg_stat_initial_acc_cnt</measType>
+<measType p="21">sbg_sip_prio_dscp_reg_stat_initial_att_cnt</measType>
+<measType p="22">sbg_sip_prio_reg_stat_reg_user_gauge</measType>
+<measType p="23">sbg_sip_reg_stat_de_reg_acc_cnt</measType>
+<measType p="24">sbg_sip_reg_stat_de_reg_att_cnt</measType>
+<measType p="25">sbg_sip_reg_stat_de_reg_fail_cnt</measType>
+<measType p="26">sbg_sip_reg_stat_de_reg_shutting_down_cnt</measType>
+<measType p="27">sbg_sip_reg_stat_fwd_initial_att_cnt</measType>
+<measType p="28">sbg_sip_reg_stat_initial_acc_cnt</measType>
+<measType p="29">sbg_sip_reg_stat_initial_att_cnt</measType>
+<measType p="30">sbg_sip_reg_stat_initial_fail_cnt</measType>
+<measType p="31">sbg_sip_reg_stat_rej_initial_reg_cnt</measType>
+<measType p="32">sbg_sip_reg_stat_rej_initial_reg_cnt_400</measType>
+<measType p="33">sbg_sip_reg_stat_rej_initial_reg_cnt_403</measType>
+<measType p="34">sbg_sip_reg_stat_rej_initial_reg_cnt_404</measType>
+<measType p="35">sbg_sip_reg_stat_rej_initial_reg_cnt_421</measType>
+<measType p="36">sbg_sip_reg_stat_rej_initial_reg_cnt_500</measType>
+<measType p="37">sbg_sip_reg_stat_rej_initial_reg_cnt_503</measType>
+<measType p="38">sbg_sip_reg_stat_rej_reg_cnt</measType>
+<measType p="39">sbg_sip_reg_stat_rej_reg_cnt_400</measType>
+<measType p="40">sbg_sip_reg_stat_rej_reg_cnt_403</measType>
+<measType p="41">sbg_sip_reg_stat_rej_reg_cnt_404</measType>
+<measType p="42">sbg_sip_reg_stat_rej_reg_cnt_421</measType>
+<measType p="43">sbg_sip_reg_stat_rej_reg_cnt_500</measType>
+<measType p="44">sbg_sip_reg_stat_rej_reg_cnt_503</measType>
+<measType p="45">sbg_sip_reg_stat_rej_re_reg_cnt</measType>
+<measType p="46">sbg_sip_reg_stat_rej_re_reg_cnt_400</measType>
+<measType p="47">sbg_sip_reg_stat_rej_re_reg_cnt_403</measType>
+<measType p="48">sbg_sip_reg_stat_rej_re_reg_cnt_404</measType>
+<measType p="49">sbg_sip_reg_stat_rej_re_reg_cnt_421</measType>
+<measType p="50">sbg_sip_reg_stat_rej_re_reg_cnt_500</measType>
+<measType p="51">sbg_sip_reg_stat_rej_re_reg_cnt_503</measType>
+<measType p="52">sbg_sip_reg_stat_re_reg_acc_cnt</measType>
+<measType p="53">sbg_sip_reg_stat_re_reg_att_cnt</measType>
+<measType p="54">sbg_sip_reg_stat_re_reg_fail_cnt</measType>
+<measType p="55">sbg_sip_reg_stat_mis_ue_cnt</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">16</r>
+<r p="2">0</r>
+<r p="3">6</r>
+<r p="4">53</r>
+<r p="5">5</r>
+<r p="6">25</r>
+<r p="7">56</r>
+<r p="8">19</r>
+<r p="9">90</r>
+<r p="10">67</r>
+<r p="11">0</r>
+<r p="12">52</r>
+<r p="13">63</r>
+<r p="14">50</r>
+<r p="15">15</r>
+<r p="16">35</r>
+<r p="17">33</r>
+<r p="18">88</r>
+<r p="19">77</r>
+<r p="20">8</r>
+<r p="21">45</r>
+<r p="22">1</r>
+<r p="23">69</r>
+<r p="24">56</r>
+<r p="25">7</r>
+<r p="26">66</r>
+<r p="27">64</r>
+<r p="28">81</r>
+<r p="29">10</r>
+<r p="30">55</r>
+<r p="31">58</r>
+<r p="32">25</r>
+<r p="33">11</r>
+<r p="34">19</r>
+<r p="35">59</r>
+<r p="36">76</r>
+<r p="37">26</r>
+<r p="38">52</r>
+<r p="39">37</r>
+<r p="40">74</r>
+<r p="41">71</r>
+<r p="42">0</r>
+<r p="43">77</r>
+<r p="44">46</r>
+<r p="45">28</r>
+<r p="46">82</r>
+<r p="47">28</r>
+<r p="48">36</r>
+<r p="49">96</r>
+<r p="50">77</r>
+<r p="51">88</r>
+<r p="52">99</r>
+<r p="53">10</r>
+<r p="54">30</r>
+<r p="55">83</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">36</r>
+<r p="2">65</r>
+<r p="3">73</r>
+<r p="4">12</r>
+<r p="5">48</r>
+<r p="6">92</r>
+<r p="7">73</r>
+<r p="8">77</r>
+<r p="9">60</r>
+<r p="10">64</r>
+<r p="11">5</r>
+<r p="12">46</r>
+<r p="13">63</r>
+<r p="14">25</r>
+<r p="15">94</r>
+<r p="16">83</r>
+<r p="17">43</r>
+<r p="18">94</r>
+<r p="19">69</r>
+<r p="20">53</r>
+<r p="21">17</r>
+<r p="22">46</r>
+<r p="23">69</r>
+<r p="24">98</r>
+<r p="25">0</r>
+<r p="26">4</r>
+<r p="27">72</r>
+<r p="28">27</r>
+<r p="29">43</r>
+<r p="30">67</r>
+<r p="31">37</r>
+<r p="32">22</r>
+<r p="33">14</r>
+<r p="34">47</r>
+<r p="35">3</r>
+<r p="36">16</r>
+<r p="37">36</r>
+<r p="38">78</r>
+<r p="39">58</r>
+<r p="40">14</r>
+<r p="41">51</r>
+<r p="42">33</r>
+<r p="43">80</r>
+<r p="44">76</r>
+<r p="45">71</r>
+<r p="46">4</r>
+<r p="47">20</r>
+<r p="48">73</r>
+<r p="49">47</r>
+<r p="50">39</r>
+<r p="51">44</r>
+<r p="52">68</r>
+<r p="53">18</r>
+<r p="54">20</r>
+<r p="55">53</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-codec-statistics">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_codec_statistics_trfo_evs</measType>
+<measType p="2">bgf_codec_statistics_trfo_amr</measType>
+<measType p="3">bgf_codec_statistics_trfo_amrwb</measType>
+<measType p="4">bgf_codec_statistics_trfo_evsio</measType>
+<measType p="5">bgf_codec_statistics_trfo_pcma</measType>
+<measType p="6">bgf_codec_statistics_trfo_pcmu</measType>
+<measType p="7">bgf_codec_statistics_trfo_g722</measType>
+<measType p="8">bgf_codec_statistics_trfo_g729</measType>
+<measType p="9">bgf_codec_statistics_amr_amrwb</measType>
+<measType p="10">bgf_codec_statistics_amr_evs</measType>
+<measType p="11">bgf_codec_statistics_amr_pcma</measType>
+<measType p="12">bgf_codec_statistics_amr_pcmu</measType>
+<measType p="13">bgf_codec_statistics_amr_g722</measType>
+<measType p="14">bgf_codec_statistics_amr_g729</measType>
+<measType p="15">bgf_codec_statistics_amrwb_evs</measType>
+<measType p="16">bgf_codec_statistics_amrwb_pcma</measType>
+<measType p="17">bgf_codec_statistics_amrwb_pcmu</measType>
+<measType p="18">bgf_codec_statistics_amrwb_g722</measType>
+<measType p="19">bgf_codec_statistics_amrwb_g729</measType>
+<measType p="20">bgf_codec_statistics_evs_pcma</measType>
+<measType p="21">bgf_codec_statistics_evs_pcmu</measType>
+<measType p="22">bgf_codec_statistics_evs_g722</measType>
+<measType p="23">bgf_codec_statistics_evs_g729</measType>
+<measType p="24">bgf_codec_statistics_pcma_pcmu</measType>
+<measType p="25">bgf_codec_statistics_pcma_g722</measType>
+<measType p="26">bgf_codec_statistics_pcma_g729</measType>
+<measType p="27">bgf_codec_statistics_pcmu_g722</measType>
+<measType p="28">bgf_codec_statistics_pcmu_g729</measType>
+<measType p="29">bgf_codec_statistics_g722_g729</measType>
+<measType p="30">bgf_codec_statistics_evs_evs_dtmf_interworking</measType>
+<measType p="31">bgf_codec_statistics_amr_amr_dtmf_interworking</measType>
+<measType p="32">bgf_codec_statistics_amrwb_amrwb_dtmf_interworking</measType>
+<measType p="33">bgf_codec_statistics_pcma_pcma_dtmf_interworking</measType>
+<measType p="34">bgf_codec_statistics_pcmu_pcmu_dtmf_interworking</measType>
+<measType p="35">bgf_codec_statistics_g722_g722_dtmf_interworking</measType>
+<measType p="36">bgf_codec_statistics_g729_g729_dtmf_interworking</measType>
+<measType p="37">bgf_codec_statistics_media_agnostic_rtp</measType>
+<measType p="38">bgf_codec_statistics_media_agnostic_tcp</measType>
+<measType p="39">bgf_codec_statistics_media_agnostic_udp</measType>
+<measType p="40">bgf_codec_statistics_media_agnostic_udptl</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">18</r>
+<r p="2">8</r>
+<r p="3">11</r>
+<r p="4">62</r>
+<r p="5">49</r>
+<r p="6">79</r>
+<r p="7">40</r>
+<r p="8">58</r>
+<r p="9">66</r>
+<r p="10">16</r>
+<r p="11">50</r>
+<r p="12">59</r>
+<r p="13">92</r>
+<r p="14">76</r>
+<r p="15">25</r>
+<r p="16">52</r>
+<r p="17">29</r>
+<r p="18">20</r>
+<r p="19">83</r>
+<r p="20">24</r>
+<r p="21">48</r>
+<r p="22">62</r>
+<r p="23">70</r>
+<r p="24">10</r>
+<r p="25">87</r>
+<r p="26">60</r>
+<r p="27">43</r>
+<r p="28">15</r>
+<r p="29">44</r>
+<r p="30">42</r>
+<r p="31">73</r>
+<r p="32">24</r>
+<r p="33">98</r>
+<r p="34">64</r>
+<r p="35">25</r>
+<r p="36">84</r>
+<r p="37">64</r>
+<r p="38">16</r>
+<r p="39">94</r>
+<r p="40">30</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">59</r>
+<r p="2">1</r>
+<r p="3">89</r>
+<r p="4">5</r>
+<r p="5">63</r>
+<r p="6">88</r>
+<r p="7">53</r>
+<r p="8">76</r>
+<r p="9">29</r>
+<r p="10">81</r>
+<r p="11">16</r>
+<r p="12">45</r>
+<r p="13">9</r>
+<r p="14">3</r>
+<r p="15">31</r>
+<r p="16">16</r>
+<r p="17">64</r>
+<r p="18">52</r>
+<r p="19">56</r>
+<r p="20">43</r>
+<r p="21">66</r>
+<r p="22">98</r>
+<r p="23">70</r>
+<r p="24">58</r>
+<r p="25">55</r>
+<r p="26">16</r>
+<r p="27">6</r>
+<r p="28">67</r>
+<r p="29">48</r>
+<r p="30">90</r>
+<r p="31">85</r>
+<r p="32">18</r>
+<r p="33">36</r>
+<r p="34">66</r>
+<r p="35">18</r>
+<r p="36">72</r>
+<r p="37">2</r>
+<r p="38">30</r>
+<r p="39">34</r>
+<r p="40">34</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-dia-instance-rf">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_dia_peer_stat_protocol_errors</measType>
+<measType p="2">sbg_dia_peer_stat_transient_failures</measType>
+<measType p="3">sbg_dia_peer_stat_successful_requests</measType>
+<measType p="4">sbg_dia_peer_stat_permanent_failures</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">23</r>
+<r p="2">29</r>
+<r p="3">25</r>
+<r p="4">78</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">21</r>
+<r p="2">2</r>
+<r p="3">13</r>
+<r p="4">51</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-network-qos">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_pkts_disc_bw_polic_gauge</measType>
+<measType p="2">sbg_pkts_disc_src_filter_gauge</measType>
+<measType p="3">sbg_pkts_lost_ratio_gauge</measType>
+<measType p="4">sbg_pkts_outof_seq_ratio_gauge</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">98</r>
+<r p="2">59</r>
+<r p="3">25</r>
+<r p="4">41</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">87</r>
+<r p="2">34</r>
+<r p="3">69</r>
+<r p="4">94</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-evs-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">38</r>
+<r p="2">10</r>
+<r p="3">76</r>
+<r p="4">83</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">75</r>
+<r p="2">64</r>
+<r p="3">44</r>
+<r p="4">63</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pc-termination-subs-trans-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_total_inc_sip_notify_requests</measType>
+<measType p="2">sbg_sip_total_out_sip_notify_requests</measType>
+<measType p="3">sbg_sip_total_out_sip_subscribe_requests</measType>
+<measType p="4">sbg_sip_total_inc_sip_notify_responses</measType>
+<measType p="5">sbg_sip_total_out_sip_notify_responses</measType>
+<measType p="6">sbg_sip_total_inc_sip_subscribe_responses</measType>
+<measType p="7">sbg_sip_total_out_sip_subscribe_responses</measType>
+<measType p="8">sbg_sip_total_inc_sip_subscribe_requests</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">74</r>
+<r p="2">85</r>
+<r p="3">82</r>
+<r p="4">4</r>
+<r p="5">99</r>
+<r p="6">70</r>
+<r p="7">4</r>
+<r p="8">43</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">11</r>
+<r p="2">57</r>
+<r p="3">72</r>
+<r p="4">6</r>
+<r p="5">65</r>
+<r p="6">55</r>
+<r p="7">3</r>
+<r p="8">4</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-cs-termination-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_active_inc_sessions</measType>
+<measType p="2">sbg_sip_total_inc_sess_setups</measType>
+<measType p="3">sbg_sip_dialog_releases_request_timeout</measType>
+<measType p="4">sbg_sip_inc_sess_duration</measType>
+<measType p="5">sbg_sip_releases_session_timer</measType>
+<measType p="6">sbg_sip_initiated_session_release</measType>
+<measType p="7">sbg_sip_net_tot_bgf_unsucc_reselection</measType>
+<measType p="8">sbg_sip_out_nw_rej_sessions</measType>
+<measType p="9">sbg_sip_rejected_inc_alerting_sessions_488</measType>
+<measType p="10">sbg_sip_rejected_inc_pre_alerting_sessions_488</measType>
+<measType p="11">sbg_sip_rejected_inc_sessions_403</measType>
+<measType p="12">sbg_sip_rejected_inc_sessions_486</measType>
+<measType p="13">sbg_sip_rejected_max_sessions</measType>
+<measType p="14">sbg_snc_max_sessions</measType>
+<measType p="15">sbg_sip_releases_media_stop</measType>
+<measType p="16">sbg_sip_session_inc_normal_release</measType>
+<measType p="17">sbg_sip_session_out_normal_release</measType>
+<measType p="18">sbg_sip_success_inc_sessions</measType>
+<measType p="19">sbg_sip_unsucc_overload_cnt</measType>
+<measType p="20">sbg_sip_early_cancel_inc_sessions</measType>
+<measType p="21">sbg_sip_failed_inc_sess_shutting_down</measType>
+<measType p="22">sbg_sip_inc_sess_resp_time</measType>
+<measType p="23">sbg_sip_rejected_inc_sessions</measType>
+<measType p="24">sbg_sip_responded_inc_sessions</measType>
+<measType p="25">sbg_sip_unsucc_codec_offers</measType>
+<measType p="26">sbg_sip_unsuc_dns_cnt</measType>
+<measType p="27">sbg_sip_user_not_found_cnt</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">44</r>
+<r p="2">82</r>
+<r p="3">5</r>
+<r p="4">77</r>
+<r p="5">57</r>
+<r p="6">65</r>
+<r p="7">92</r>
+<r p="8">21</r>
+<r p="9">71</r>
+<r p="10">68</r>
+<r p="11">60</r>
+<r p="12">36</r>
+<r p="13">83</r>
+<r p="14">43</r>
+<r p="15">82</r>
+<r p="16">59</r>
+<r p="17">69</r>
+<r p="18">66</r>
+<r p="19">80</r>
+<r p="20">25</r>
+<r p="21">53</r>
+<r p="22">84</r>
+<r p="23">1</r>
+<r p="24">96</r>
+<r p="25">83</r>
+<r p="26">91</r>
+<r p="27">88</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">6</r>
+<r p="2">56</r>
+<r p="3">36</r>
+<r p="4">18</r>
+<r p="5">74</r>
+<r p="6">62</r>
+<r p="7">4</r>
+<r p="8">93</r>
+<r p="9">3</r>
+<r p="10">76</r>
+<r p="11">36</r>
+<r p="12">32</r>
+<r p="13">1</r>
+<r p="14">22</r>
+<r p="15">89</r>
+<r p="16">54</r>
+<r p="17">72</r>
+<r p="18">57</r>
+<r p="19">16</r>
+<r p="20">21</r>
+<r p="21">52</r>
+<r p="22">34</r>
+<r p="23">29</r>
+<r p="24">69</r>
+<r p="25">27</r>
+<r p="26">87</r>
+<r p="27">86</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-measurements">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_envoy_req_total</measType>
+<measType p="2">adc_envoy_resp_total</measType>
+<measType p="3">adc_envoy_dropped_message</measType>
+<measType p="4">adc_envoy_invalid_message</measType>
+<measType p="5">adc_envoy_delivery_failure</measType>
+<measType p="6">adc_envoy_redirected_message</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">24</r>
+<r p="2">37</r>
+<r p="3">58</r>
+<r p="4">60</r>
+<r p="5">4</r>
+<r p="6">27</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">98</r>
+<r p="2">92</r>
+<r p="3">1</r>
+<r p="4">36</r>
+<r p="5">78</r>
+<r p="6">38</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-sbg">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_sbg_abnorm_term_contexts</measType>
+<measType p="2">bgf_sbg_context_reqs</measType>
+<measType p="3">bgf_sbg_context_reqs_rej</measType>
+<measType p="4">bgf_sbg_contexts</measType>
+<measType p="5">bgf_sbg_h248_trans_faults_pend</measType>
+<measType p="6">bgf_sbg_h248_trans_rel_retrans</measType>
+<measType p="7">bgf_sbg_modify_reqs</measType>
+<measType p="8">bgf_sbg_modify_reqs_rej</measType>
+<measType p="9">bgf_sbg_recvd_h248_messages</measType>
+<measType p="10">bgf_sbg_recvd_h248_octets</measType>
+<measType p="11">bgf_sbg_sctp_comm_lost</measType>
+<measType p="12">bgf_sbg_sctp_remote_error</measType>
+<measType p="13">bgf_sbg_sctp_remote_shutdown</measType>
+<measType p="14">bgf_sbg_sctp_send_failure</measType>
+<measType p="15">bgf_sbg_sctp_succ_assoc_abort</measType>
+<measType p="16">bgf_sbg_sctp_succ_assoc_estab</measType>
+<measType p="17">bgf_sbg_sctp_unsucc_assoc_estab</measType>
+<measType p="18">bgf_sbg_sent_h248_messages</measType>
+<measType p="19">bgf_sbg_sent_h248_msgs_pend</measType>
+<measType p="20">bgf_sbg_sent_h248_msgs_retrans</measType>
+<measType p="21">bgf_sbg_sent_h248_octets</measType>
+<measType p="22">bgf_sbg_srtp_dtls_stream_reqs</measType>
+<measType p="23">bgf_sbg_srtp_dtls_stream_reqs_rej</measType>
+<measType p="24">bgf_sbg_srtp_dtls_handshake_reqs</measType>
+<measType p="25">bgf_sbg_srtp_dtls_handshake_errors</measType>
+<measType p="26">bgf_sbg_srtp_e2e_stream_reqs</measType>
+<measType p="27">bgf_sbg_srtp_e2e_stream_reqs_rej</measType>
+<measType p="28">bgf_sbg_srtp_e2e_streams</measType>
+<measType p="29">bgf_sbg_srtp_stream_reqs</measType>
+<measType p="30">bgf_sbg_srtp_stream_reqs_rej</measType>
+<measType p="31">bgf_sbg_srtp_streams</measType>
+<measType p="32">bgf_sbg_stream_reqs</measType>
+<measType p="33">bgf_sbg_stream_reqs_rej</measType>
+<measType p="34">bgf_sbg_streams</measType>
+<measType p="35">bgf_sbg_tcp_msrp_stream_reqs</measType>
+<measType p="36">bgf_sbg_tcp_msrp_stream_reqs_rej</measType>
+<measType p="37">bgf_sbg_tcp_msrp_streams</measType>
+<measType p="38">bgf_sbg_tcp_stream_reqs</measType>
+<measType p="39">bgf_sbg_tcp_stream_reqs_rej</measType>
+<measType p="40">bgf_sbg_tcp_streams</measType>
+<measType p="41">bgf_sbg_udp_stream_reqs</measType>
+<measType p="42">bgf_sbg_udp_stream_reqs_rej</measType>
+<measType p="43">bgf_sbg_udp_streams</measType>
+<measType p="44">bgf_sbg_udptl_stream_reqs</measType>
+<measType p="45">bgf_sbg_udptl_stream_reqs_rej</measType>
+<measType p="46">bgf_sbg_udptl_streams</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">84</r>
+<r p="2">5</r>
+<r p="3">78</r>
+<r p="4">12</r>
+<r p="5">71</r>
+<r p="6">14</r>
+<r p="7">0</r>
+<r p="8">76</r>
+<r p="9">12</r>
+<r p="10">13</r>
+<r p="11">37</r>
+<r p="12">25</r>
+<r p="13">51</r>
+<r p="14">67</r>
+<r p="15">31</r>
+<r p="16">23</r>
+<r p="17">82</r>
+<r p="18">88</r>
+<r p="19">93</r>
+<r p="20">68</r>
+<r p="21">27</r>
+<r p="22">71</r>
+<r p="23">42</r>
+<r p="24">80</r>
+<r p="25">4</r>
+<r p="26">79</r>
+<r p="27">56</r>
+<r p="28">81</r>
+<r p="29">33</r>
+<r p="30">28</r>
+<r p="31">76</r>
+<r p="32">98</r>
+<r p="33">61</r>
+<r p="34">89</r>
+<r p="35">29</r>
+<r p="36">86</r>
+<r p="37">32</r>
+<r p="38">24</r>
+<r p="39">75</r>
+<r p="40">90</r>
+<r p="41">65</r>
+<r p="42">18</r>
+<r p="43">60</r>
+<r p="44">56</r>
+<r p="45">9</r>
+<r p="46">58</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">18</r>
+<r p="2">52</r>
+<r p="3">75</r>
+<r p="4">15</r>
+<r p="5">96</r>
+<r p="6">83</r>
+<r p="7">22</r>
+<r p="8">97</r>
+<r p="9">3</r>
+<r p="10">74</r>
+<r p="11">98</r>
+<r p="12">64</r>
+<r p="13">50</r>
+<r p="14">25</r>
+<r p="15">83</r>
+<r p="16">63</r>
+<r p="17">7</r>
+<r p="18">94</r>
+<r p="19">97</r>
+<r p="20">77</r>
+<r p="21">62</r>
+<r p="22">16</r>
+<r p="23">55</r>
+<r p="24">77</r>
+<r p="25">20</r>
+<r p="26">24</r>
+<r p="27">57</r>
+<r p="28">66</r>
+<r p="29">14</r>
+<r p="30">61</r>
+<r p="31">87</r>
+<r p="32">84</r>
+<r p="33">27</r>
+<r p="34">36</r>
+<r p="35">98</r>
+<r p="36">5</r>
+<r p="37">49</r>
+<r p="38">36</r>
+<r p="39">25</r>
+<r p="40">60</r>
+<r p="41">88</r>
+<r p="42">6</r>
+<r p="43">31</r>
+<r p="44">16</r>
+<r p="45">84</r>
+<r p="46">87</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-nrf-interface">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_nrf_total_failure_responses_received_3xx</measType>
+<measType p="2">sbg_nrf_total_failure_responses_received_4xx</measType>
+<measType p="3">sbg_nrf_total_failure_responses_received_5xx</measType>
+<measType p="4">sbg_nrf_total_requests_sent</measType>
+<measType p="5">sbg_nrf_total_successful_responses_received_3xx</measType>
+<measType p="6">sbg_nrf_total_successful_responses_received_4xx</measType>
+<measType p="7">sbg_nrf_total_successful_responses_received_5xx</measType>
+<measType p="8">sbg_nrf_total_unsuccessful_requests_connection_down</measType>
+<measType p="9">sbg_nrf_total_unsuccessful_requests_transaction_expired</measType>
+<measType p="10">sbg_nrf_total_unsuccessful_requests_destination_not_found</measType>
+<measType p="11">sbg_nrf_total_unsuccessful_requests_cannot_open_connection</measType>
+<measType p="12">sbg_nrf_total_unsuccessful_requests_post_other</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">74</r>
+<r p="2">71</r>
+<r p="3">33</r>
+<r p="4">53</r>
+<r p="5">93</r>
+<r p="6">40</r>
+<r p="7">26</r>
+<r p="8">88</r>
+<r p="9">95</r>
+<r p="10">17</r>
+<r p="11">84</r>
+<r p="12">7</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">14</r>
+<r p="2">66</r>
+<r p="3">27</r>
+<r p="4">94</r>
+<r p="5">62</r>
+<r p="6">9</r>
+<r p="7">64</r>
+<r p="8">95</r>
+<r p="9">95</r>
+<r p="10">40</r>
+<r p="11">45</r>
+<r p="12">14</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="adc-sel-nstat-pm">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">adc_tcp_attempt_fails_total</measType>
+<measType p="2">adc_icmp_out_msgs_total</measType>
+<measType p="3">adc_ip_out_no_routes_total</measType>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-1---080-300,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">13</r>
+<r p="2">40</r>
+<r p="3">48</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-adc-function,instance-name=ericsson-adc-function---n22-ims1-ims1-adc-2---080-301,pod-name=n22-ims1-ims1-adc-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">52</r>
+<r p="2">8</r>
+<r p="3">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-dia-instance-rx">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_dia_rx_stats_npli_successes</measType>
+<measType p="2">sbg_dia_peer_stat_transient_failures</measType>
+<measType p="3">sbg_dia_peer_stat_protocol_errors</measType>
+<measType p="4">sbg_dia_peer_stat_late_res</measType>
+<measType p="5">sbg_dia_peer_stat_expire_times</measType>
+<measType p="6">sbg_dia_rx_stats_npli_attempts</measType>
+<measType p="7">sbg_dia_peer_stat_permanent_failures</measType>
+<measType p="8">sbg_dia_peer_stat_successful_requests</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">90</r>
+<r p="2">82</r>
+<r p="3">76</r>
+<r p="4">55</r>
+<r p="5">87</r>
+<r p="6">66</r>
+<r p="7">39</r>
+<r p="8">52</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">71</r>
+<r p="2">0</r>
+<r p="3">48</r>
+<r p="4">30</r>
+<r p="5">88</r>
+<r p="6">30</r>
+<r p="7">31</r>
+<r p="8">94</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-rtp-rtcp-service">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_mpd_busy_instances</measType>
+<measType p="2">bgf_mpd_normal_release</measType>
+<measType p="3">bgf_mpd_total_seizures</measType>
+<measType p="4">bgf_mpd_unsucc_seizures</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">79</r>
+<r p="2">83</r>
+<r p="3">51</r>
+<r p="4">25</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">35</r>
+<r p="2">57</r>
+<r p="3">20</r>
+<r p="4">3</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-subs-sess-stats">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_sip_rejected_out_subscribe_sessions</measType>
+<measType p="2">sbg_sip_rejected_inc_subscribe_sessions</measType>
+<measType p="3">sbg_sip_active_inc_subscribe_sessions</measType>
+<measType p="4">sbg_sip_active_out_subscribe_sessions</measType>
+<measType p="5">sbg_sip_releases_subscribe_session_timer</measType>
+<measType p="6">sbg_sip_total_inc_subscribe_sess_setups</measType>
+<measType p="7">sbg_sip_total_out_subscribe_sess_setups</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">64</r>
+<r p="2">30</r>
+<r p="3">11</r>
+<r p="4">51</r>
+<r p="5">0</r>
+<r p="6">82</r>
+<r p="7">46</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">3</r>
+<r p="2">2</r>
+<r p="3">0</r>
+<r p="4">24</r>
+<r p="5">86</r>
+<r p="6">63</r>
+<r p="7">55</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="sbg-sip-pa-termination-emergency-calls">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbg_total_emergency_calls_success</measType>
+<measType p="2">sbg_total_emergency_calls_rejects</measType>
+<measType p="3">sbg_total_emergency_calls_setups</measType>
+<measType p="4">sbg_total_emergency_calls_redirects</measType>
+<measType p="5">sbg_sip_releases_media_stop_ec</measType>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-1---080-235,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">93</r>
+<r p="2">64</r>
+<r p="3">49</r>
+<r p="4">76</r>
+<r p="5">98</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-sbg-function,instance-name=ericsson-sbg-function---n22-ims1-ims1-sbg-2---080-236,pod-name=n22-ims1-ims1-sbg-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">19</r>
+<r p="2">40</r>
+<r p="3">99</r>
+<r p="4">93</r>
+<r p="5">52</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="bgf-remote-site">
+ <job jobId="pc-up-all-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-09T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgf_remote_site_audio_streams_MOS_average</measType>
+<measType p="2">bgf_remote_site_audio_streams_with_MOS_00</measType>
+<measType p="3">bgf_remote_site_audio_streams_with_MOS_01</measType>
+<measType p="4">bgf_remote_site_audio_streams_with_MOS_02</measType>
+<measType p="5">bgf_remote_site_audio_streams_with_MOS_03</measType>
+<measType p="6">bgf_remote_site_audio_streams_with_MOS_04</measType>
+<measType p="7">bgf_remote_site_audio_streams_with_MOS_05</measType>
+<measType p="8">bgf_remote_site_audio_streams_with_MOS_06</measType>
+<measType p="9">bgf_remote_site_audio_streams_with_MOS_07</measType>
+<measType p="10">bgf_remote_site_audio_streams_with_MOS_08</measType>
+<measType p="11">bgf_remote_site_audio_streams_with_MOS_09</measType>
+<measType p="12">bgf_remote_site_audio_streams_with_MOS_10</measType>
+<measType p="13">bgf_remote_site_audio_streams_with_MOS_11</measType>
+<measType p="14">bgf_remote_site_audio_streams_with_MOS_12</measType>
+<measType p="15">bgf_remote_site_audio_streams_with_MOS_13</measType>
+<measType p="16">bgf_remote_site_audio_streams_with_MOS_14</measType>
+<measType p="17">bgf_remote_site_audio_streams_with_MOS_15</measType>
+<measType p="18">bgf_remote_site_audio_streams_with_MOS_16</measType>
+<measType p="19">bgf_remote_site_audio_streams_with_MOS_17</measType>
+<measType p="20">bgf_remote_site_audio_streams_with_MOS_18</measType>
+<measType p="21">bgf_remote_site_rx_rtp_lost_packets</measType>
+<measType p="22">bgf_remote_site_rx_rtp_packets</measType>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-1---080-288,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">34</r>
+<r p="2">23</r>
+<r p="3">93</r>
+<r p="4">7</r>
+<r p="5">0</r>
+<r p="6">91</r>
+<r p="7">89</r>
+<r p="8">18</r>
+<r p="9">38</r>
+<r p="10">1</r>
+<r p="11">8</r>
+<r p="12">77</r>
+<r p="13">8</r>
+<r p="14">82</r>
+<r p="15">53</r>
+<r p="16">61</r>
+<r p="17">55</r>
+<r p="18">69</r>
+<r p="19">64</r>
+<r p="20">11</r>
+<r p="21">29</r>
+<r p="22">74</r>
+</measValue>
+<measValue measObjLdn="service-name=ericsson-bgf-function,instance-name=ericsson-bgf-function---n22-ims1-ims1-bgf-2---080-289,pod-name=n22-ims1-ims1-bgf-1-control-plane-55f89786cc-vvqwz=1">
+<r p="1">94</r>
+<r p="2">13</r>
+<r p="3">44</r>
+<r p="4">99</r>
+<r p="5">96</r>
+<r p="6">91</r>
+<r p="7">86</r>
+<r p="8">13</r>
+<r p="9">7</r>
+<r p="10">50</r>
+<r p="11">4</r>
+<r p="12">93</r>
+<r p="13">58</r>
+<r p="14">86</r>
+<r p="15">48</r>
+<r p="16">64</r>
+<r p="17">47</r>
+<r p="18">16</r>
+<r p="19">42</r>
+<r p="20">45</r>
+<r p="21">91</r>
+<r p="22">30</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-09T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231006100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231006101500.1+0200</mts>
+<gp>900</gp>
+<mt>MtasStIdPresOip</mt>
+<mt>MtasStIdPresOipIdRestAll</mt>
+<mt>MtasStIdPresOipIdRestSome</mt>
+<mt>MtasStIdPresOirOverride</mt>
+<mt>MtasStIdPresOirPerm</mt>
+<mt>MtasStIdPresOirIdPres</mt>
+<mt>MtasStIdPresOirIdRestAll</mt>
+<mt>MtasStIdPresOirIdRestSome</mt>
+<mt>MtasStIdPresOirTempIdPres</mt>
+<mt>MtasStIdPresOirTempIdRest</mt>
+<mt>MtasStIdPresTip</mt>
+<mt>MtasStIdPresTipIdRestAll</mt>
+<mt>MtasStIdPresTipIdRestSome</mt>
+<mt>MtasStIdPresTirIdPres</mt>
+<mt>MtasStIdPresTirIdRestAll</mt>
+<mt>MtasStIdPresTirIdRestSome</mt>
+<mt>MtasStIdPresTirOverride</mt>
+<mt>MtasStIdPresTirPerm</mt>
+<mt>MtasStIdPresTirTempIdPres</mt>
+<mt>MtasStIdPresTirTempIdRest</mt>
+<mv>
+<moid>MtasStIdPres=DEFAULT,Source = Processor1</moid>
+<r>74</r>
+<r>81</r>
+<r>71</r>
+<r>87</r>
+<r>22</r>
+<r>79</r>
+<r>7</r>
+<r>42</r>
+<r>43</r>
+<r>52</r>
+<r>81</r>
+<r>84</r>
+<r>0</r>
+<r>74</r>
+<r>44</r>
+<r>43</r>
+<r>62</r>
+<r>14</r>
+<r>41</r>
+<r>68</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231006101500.1+0200</ts>
+</mff>
+</mdc>

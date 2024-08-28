@@ -1,0 +1,10 @@
+version:1.0
+
+name:ERBS1-NR-NSA
+sharing:PUBLIC
+userId:test1
+parent:
+	name:NR-NSA
+	sharing:PUBLIC
+	userId:test1
+

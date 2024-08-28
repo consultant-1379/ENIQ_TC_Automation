@@ -1,0 +1,27 @@
+{
+	"NR1": {
+        "Alarm_name" : "Alarm",
+        "Alarm_Type" : "Threshold",
+        "ENIQ_data_source" : "NetAn_ODBC",
+        "Single_node_or_collection_or_network" : "Single Node",
+        "System_area" : "Radio",
+        "Node_type" : "NR",
+        "Node" : "G2RBS01",
+        "Measure_type" : "Flex+PDF Counter",
+        "Measure" : "pmEbsUacBarringProb",
+        "SQL1" : "DECLARE @DATETIME_ID varchar(50)=DATETIME_VALUE , @UNIQUE_ID varchar(500)=UNIQUE_ID_VALUE, @DCVECTOR_INDEX varchar(10) = DCVECTOR_INDEX_VALUE, @FLEX_FILTERHASHINDEX varchar(100) = FLEX_FILTERHASHINDEX_VALUE; select cast(ROUND(pmEbsUacBarringProb,2) as numeric(36,2)) as MeasureValue from DC_E_NR_EVENTS_NRCELLCU_FLEX_DYN_V_RAW where DATETIME_ID=@DATETIME_ID and MOID=@UNIQUE_ID and FLEX_FILTERHASHINDEX = @FLEX_FILTERHASHINDEX and DCVECTOR_INDEX  = @DCVECTOR_INDEX;",
+        "SQL2" : "",
+        "SQL3" : "",
+        "SQL4" : "",
+        "Alarm_severity" : "Minor",
+        "Aggregation" : "None",
+        "Probable_cause" : "Reduced alarm reporting",
+        "Specific_problem" : "NA",
+        "Date_range_val" : "1",
+        "Date_range_unit" : "ROP(s)",
+        "LookBack_Period_val" : "2",
+        "LookBack_Period_unit" : "Day(s)",
+        "Columns_diplayed" : "DATETIME_ID"
+    }
+	
+}

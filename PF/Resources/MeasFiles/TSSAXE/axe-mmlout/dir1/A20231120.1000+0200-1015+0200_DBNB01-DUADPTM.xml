@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">DUADATASEND</measType>
+			<measType p="2">DUADATAREC</measType>
+			<measType p="3">DUAESTREQSEND</measType>
+			<measType p="4">DUAESTCONFREC</measType>
+			<measType p="5">DUAESTINDREC</measType>
+			<measType p="6">DUARELREQSEND</measType>
+			<measType p="7">DUARELCONFREC</measType>
+			<measType p="8">DUARELINDREC</measType>
+			<measType p="9">DEST</measType>
+			<measType p="10">PROT</measType>
+			<measType p="11">STATE</measType>
+			<measType p="12">DUASTATE</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,DUADPTM=0">
+				<r p="1">57</r>
+				<r p="2">94</r>
+				<r p="3">89</r>
+				<r p="4">73</r>
+				<r p="5">96</r>
+				<r p="6">19</r>
+				<r p="7">5</r>
+				<r p="8">21</r>
+				<r p="9">69</r>
+				<r p="10">11</r>
+				<r p="11">44</r>
+				<r p="12">14</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

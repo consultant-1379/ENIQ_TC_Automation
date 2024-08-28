@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="AUXSPEEjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NAUXSPEECFU.actual</measType>
+         <measType p="1">NAUXSPEECFB.actual</measType>
+         <measType p="2">NAUXSPEECFNRY.actual</measType>
+         <measType p="3">NAUXSPEECFNRC.actual</measType>
+         <measType p="4">NAUXSPEEBAOC.actual</measType>
+         <measType p="5">NAUXSPEEBOIC.actual</measType>
+         <measType p="6">NAUXSPEEBOIEXH.actual</measType>
+         <measType p="7">NAUXSPEEBAIC.actual</measType>
+         <measType p="8">NAUXSPEEBICRO.actual</measType>
+         <measType p="9">NAUXSPEECAW.actual</measType>
+         <measType p="10">NAUXSPEEDCF.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5798076</r>
+             <r p="1">5761478</r>
+             <r p="2">5810934</r>
+             <r p="3">5769486</r>
+             <r p="4">5835915</r>
+             <r p="5">5755441</r>
+             <r p="6">5850286</r>
+             <r p="7">5762377</r>
+             <r p="8">5827771</r>
+             <r p="9">5783482</r>
+             <r p="10">5802268</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

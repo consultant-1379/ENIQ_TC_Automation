@@ -1,0 +1,22 @@
+{
+    "TC01": { "System_area": "Transport",
+              "Node_type": "Mini-Link",
+              "Node" : "MINI-LINK01",
+              "Measure" : "BW0TO5.DC_E_IPTRANSPORT_ETH_BANDWIDTH_RAW",
+              "Measure_type" : "Counter",
+              "Alarm_Type" : "dynamic",
+    		  "ENIQ_data_source" : "NetAn_ODBC",
+    		  "Single_node_or_collection" : "Single Node",
+    		  "Node_Collection" : "",
+    		  "Alarm_severity" : "MINOR",
+              "Aggregation" : "1 Day",
+              "Probable_cause" : "Congestion",
+              "Specific_problem" : "NA",
+              "Date_range_val" : "1",
+              "Date_range_unit" : "DAY",
+              "LookBack_Period_val" : "",
+              "LookBack_Period_unit" : "",
+              "SQL" : " select SUM(BW0TO5) as MeasureValue from DC_E_IPTRANSPORT_ETH_BANDWIDTH_DAY where DATE_ID=DATETIME_VALUE and TRANS_MODE=UNIQUE_ID_VALUE and NE_NAME='MINI-LINK01'"
+            }
+            
+}

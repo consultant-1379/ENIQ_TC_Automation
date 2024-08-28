@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="measCollec">
+<fileHeader fileFormatVersion="32.435 V8.0" vendorName="Ericsson">
+<fileSender localDn="ManagedElement=GGSN01" elementType="PGW"/>
+<measCollec  beginTime="2023-11-08T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=GGSN01"/>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnFbcActivationBearerCtrlAccept</measType>
+<measType p="2">ggsnApnFbcActivationBearerCtrlDowngrade</measType>
+<measType p="3">ggsnApnFbcActivationBearerCtrlReject</measType>
+<measType p="4">ggsnApnFbcActivationBearerCtrlUpgrade</measType>
+<measType p="5">ggsnApnFbcActivationNoBearerCtrlAccept</measType>
+<measType p="6">ggsnApnFbcActivationNoBearerCtrlDowngrade</measType>
+<measType p="7">ggsnApnFbcActivationNoBearerCtrlReject</measType>
+<measType p="8">ggsnApnFbcExtCreditUpd</measType>
+<measType p="9">ggsnApnFbcExtPrsUpd</measType>
+<measType p="10">ggsnApnFbcInitiatedDeactivation</measType>
+<measType p="11">ggsnApnFbcModificationBearerCtrlAccept</measType>
+<measType p="12">ggsnApnFbcModificationBearerCtrlDeactivate</measType>
+<measType p="13">ggsnApnFbcModificationBearerCtrlDowngrade</measType>
+<measType p="14">ggsnApnFbcModificationBearerCtrlUpgrade</measType>
+<measType p="15">ggsnApnFbcModificationNoBearerCtrlAccept</measType>
+<measType p="16">ggsnApnFbcModificationNoBearerCtrlDeactivate</measType>
+<measType p="17">ggsnApnFbcModificationNoBearerCtrlDowngrade</measType>
+<measType p="18">ggsnApnFbcNbrOfPpsUsers</measType>
+<measType p="19">ggsnApnFbcPpsCreate</measType>
+<measType p="20">ggsnApnFbcPpsReject</measType>
+<measType p="21">ggsnApnSaccAttemptedServiceInitiatedDedicatedBearers</measType>
+<measType p="22">ggsnApnSaccAttemptedServiceInitiatedQoSModification</measType>
+<measType p="23">ggsnApnSaccCompletedServiceInitiatedDedicatedBearers</measType>
+<measValue measObjLdn="ggsnApnFbcStats,entry,ggsnGtpuAddress=,ggsnApnName=ggsnApnName1.com">
+<r p="1">24</r>
+<r p="2">60</r>
+<r p="3">37</r>
+<r p="4">18</r>
+<r p="5">85</r>
+<r p="6">58</r>
+<r p="7">63</r>
+<r p="8">37</r>
+<r p="9">97</r>
+<r p="10">40</r>
+<r p="11">72</r>
+<r p="12">55</r>
+<r p="13">25</r>
+<r p="14">4</r>
+<r p="15">98</r>
+<r p="16">22</r>
+<r p="17">10</r>
+<r p="18">94</r>
+<r p="19">59</r>
+<r p="20">47</r>
+<r p="21">96</r>
+<r p="22">59</r>
+<r p="23">30</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnGtpErrorApnAccessDenied</measType>
+<measType p="2">ggsnGtpErrorApnUnknown</measType>
+<measType p="3">ggsnGtpErrorAuthenticationFailed</measType>
+<measType p="4">ggsnGtpErrorDynAddrUnavailable</measType>
+<measType p="5">ggsnGtpErrorIndicationReceived</measType>
+<measType p="6">ggsnGtpErrorIndicationSent</measType>
+<measType p="7">ggsnGtpErrorInvalidRequestFormat</measType>
+<measType p="8">ggsnGtpErrorInvalidRequestFormatDel</measType>
+<measType p="9">ggsnGtpErrorInvalidRequestFormatUpd</measType>
+<measType p="10">ggsnGtpErrorMandatoryIEInvalid</measType>
+<measType p="11">ggsnGtpErrorMandatoryIEInvalidDel</measType>
+<measType p="12">ggsnGtpErrorMandatoryIEInvalidUpd</measType>
+<measType p="13">ggsnGtpErrorMandatoryIEMissing</measType>
+<measType p="14">ggsnGtpErrorMandatoryIEMissingDel</measType>
+<measType p="15">ggsnGtpErrorMandatoryIEMissingUpd</measType>
+<measType p="16">ggsnGtpErrorMemoryUnavailable</measType>
+<measType p="17">ggsnGtpErrorOptionalIEInvalid</measType>
+<measType p="18">ggsnGtpErrorOptionalIEInvalidDel</measType>
+<measType p="19">ggsnGtpErrorOptionalIEInvalidUpd</measType>
+<measType p="20">ggsnGtpErrorPackFiltSemantError</measType>
+<measType p="21">ggsnGtpErrorPackFiltSemantErrorUpd</measType>
+<measType p="22">ggsnGtpErrorPackFiltSyntaxError</measType>
+<measType p="23">ggsnGtpErrorPackFiltSyntaxErrorUpd</measType>
+<measType p="24">ggsnGtpErrorPdpAddrUnknown</measType>
+<measType p="25">ggsnGtpErrorPdpWithoutTft</measType>
+<measType p="26">ggsnGtpErrorReferenceInexistent</measType>
+<measType p="27">ggsnGtpErrorReferenceInexistentDel</measType>
+<measType p="28">ggsnGtpErrorReferenceInexistentUpd</measType>
+<measType p="29">ggsnGtpErrorResourcesUnavailable</measType>
+<measType p="30">ggsnGtpErrorServiceUnsupported</measType>
+<measType p="31">ggsnGtpErrorSystemFailure</measType>
+<measType p="32">ggsnGtpErrorSystemFailureUpd</measType>
+<measType p="33">ggsnGtpErrorTftSemanticError</measType>
+<measType p="34">ggsnGtpErrorTftSemanticErrorUpd</measType>
+<measType p="35">ggsnGtpErrorTftSyntaxError</measType>
+<measType p="36">ggsnGtpErrorTftSyntaxErrorUpd</measType>
+<measType p="37">ggsnGtpNewPdpTypeNwPreference</measType>
+<measType p="38">ggsnGtpNewPdpTypeSingleAddressBearerOnly</measType>
+<measValue measObjLdn="ggsnGtpErrorStats,entry">
+<r p="1">27</r>
+<r p="2">29</r>
+<r p="3">86</r>
+<r p="4">0</r>
+<r p="5">99</r>
+<r p="6">27</r>
+<r p="7">35</r>
+<r p="8">68</r>
+<r p="9">13</r>
+<r p="10">20</r>
+<r p="11">64</r>
+<r p="12">57</r>
+<r p="13">80</r>
+<r p="14">33</r>
+<r p="15">12</r>
+<r p="16">83</r>
+<r p="17">90</r>
+<r p="18">91</r>
+<r p="19">89</r>
+<r p="20">62</r>
+<r p="21">48</r>
+<r p="22">38</r>
+<r p="23">40</r>
+<r p="24">10</r>
+<r p="25">89</r>
+<r p="26">96</r>
+<r p="27">59</r>
+<r p="28">16</r>
+<r p="29">30</r>
+<r p="30">65</r>
+<r p="31">69</r>
+<r p="32">7</r>
+<r p="33">94</r>
+<r p="34">62</r>
+<r p="35">53</r>
+<r p="36">46</r>
+<r p="37">23</r>
+<r p="38">75</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwEbmBytes</measType>
+<measType p="2">pgwEbmDroppedBytes</measType>
+<measType p="3">pgwEbmDroppedEvents</measType>
+<measType p="4">pgwEbmEvents</measType>
+<measValue measObjLdn="pgwEbmStats,entry,ebmServerName=ebmServerName1.com">
+<r p="1">56</r>
+<r p="2">12</r>
+<r p="3">35</r>
+<r p="4">93</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwGtpCreateMessageDrops</measType>
+<measType p="2">pgwGtpCreateMessageRejected</measType>
+<measType p="3">createSessionRejectedMaxRate</measType>
+<measType p="4">pgwGtpIpcCongestionDrops</measType>
+<measValue measObjLdn="pgwOverloadProtection,entry">
+<r p="1">12</r>
+<r p="2">23</r>
+<r p="3">90</r>
+<r p="4">9</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">xlatDownlinkDrops</measType>
+<measType p="2">xlatDownlinkPackets</measType>
+<measType p="3">xlatUplinkDrops</measType>
+<measType p="4">xlatUplinkPackets</measType>
+<measValue measObjLdn="pgwXlat,entry">
+<r p="1">81</r>
+<r p="2">50</r>
+<r p="3">83</r>
+<r p="4">68</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">failureActionContinueAndRetain</measType>
+<measType p="2">nbrRetainedConnectionFailure</measType>
+<measType p="3">nbrRetainedFailureCode</measType>
+<measType p="4">nbrRetainedTimeout</measType>
+<measType p="5">nbrTemporaryTerminatedConnectionFailure</measType>
+<measType p="6">nbrTemporaryTerminatedFailureCode</measType>
+<measType p="7">nbrTemporaryTerminatedTimeout</measType>
+<measType p="8">nbrTemporaryTerminatedValidationError</measType>
+<measType p="9">nbrTerminatedConnectionFailure</measType>
+<measType p="10">nbrTerminatedFailureCode</measType>
+<measType p="11">nbrTerminatedTimeout</measType>
+<measType p="12">nbrTerminatedValidationError</measType>
+<measValue measObjLdn="pgwDas,entry,pgwDasName=pgwDasName1.com">
+<r p="1">70</r>
+<r p="2">58</r>
+<r p="3">49</r>
+<r p="4">61</r>
+<r p="5">95</r>
+<r p="6">84</r>
+<r p="7">19</r>
+<r p="8">9</r>
+<r p="9">90</r>
+<r p="10">33</r>
+<r p="11">91</r>
+<r p="12">93</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">PgwIcrCreateSyncReceived</measType>
+<measType p="2">PgwIcrCreateSyncSent</measType>
+<measType p="3">PgwIcrDeleteSyncReceived</measType>
+<measType p="4">PgwIcrDeleteSyncSent</measType>
+<measValue measObjLdn="pgwHighAvailability,entry">
+<r p="1">66</r>
+<r p="2">18</r>
+<r p="3">56</r>
+<r p="4">14</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">AggregatedCauseCode</measType>
+<measType p="2">BearerResourceFailureIndication</measType>
+<measType p="3">CreateBearerResponse</measType>
+<measType p="4">CreateSessionResponse</measType>
+<measType p="5">DeleteBearerFailureIndication</measType>
+<measType p="6">DeleteBearerRequest</measType>
+<measType p="7">DeleteBearerResponse</measType>
+<measType p="8">DeleteSessionRequest</measType>
+<measType p="9">DeleteSessionResponse</measType>
+<measType p="10">ModifyBearerFailureIndication</measType>
+<measType p="11">ModifyBearerResponse</measType>
+<measType p="12">ResumeAck</measType>
+<measType p="13">SuspendAck</measType>
+<measType p="14">UpdateBearerResponse</measType>
+<measValue measObjLdn="causeCode,entry,interfacename=1,causecode=1=">
+<r p="1">52</r>
+<r p="2">38</r>
+<r p="3">63</r>
+<r p="4">62</r>
+<r p="5">92</r>
+<r p="6">92</r>
+<r p="7">36</r>
+<r p="8">71</r>
+<r p="9">33</r>
+<r p="10">9</r>
+<r p="11">11</r>
+<r p="12">30</r>
+<r p="13">8</r>
+<r p="14">21</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnGtpControlPacketDrops</measType>
+<measType p="2">ggsnGtpDownlinkBytes</measType>
+<measType p="3">ggsnGtpDownlinkPackets</measType>
+<measType p="4">ggsnGtpEchoReqReceived</measType>
+<measType p="5">ggsnGtpEchoReqSent</measType>
+<measType p="6">ggsnGtpEchoRespReceived</measType>
+<measType p="7">ggsnGtpEchoRespSent</measType>
+<measType p="8">ggsnGtpNbrOfCreatedTunnels</measType>
+<measType p="9">ggsnGtpNbrOfTunnels</measType>
+<measType p="10">ggsnGtpPdpCreateReqReceived</measType>
+<measType p="11">ggsnGtpPdpCreateRespSent</measType>
+<measType p="12">ggsnGtpPdpDeleteReqReceived</measType>
+<measType p="13">ggsnGtpPdpDeleteReqSent</measType>
+<measType p="14">ggsnGtpPdpDeleteRespReceived</measType>
+<measType p="15">ggsnGtpPdpDeleteRespSent</measType>
+<measType p="16">ggsnGtpPdpInitiateContextActivationReqSent</measType>
+<measType p="17">ggsnGtpPdpInitiateContextActivationRespReceived</measType>
+<measType p="18">ggsnGtpPdpUpdateReqReceived</measType>
+<measType p="19">ggsnGtpPdpUpdateReqSent</measType>
+<measType p="20">ggsnGtpPdpUpdateRespReceived</measType>
+<measType p="21">ggsnGtpPdpUpdateRespSent</measType>
+<measType p="22">ggsnGtpRequestsAccepted</measType>
+<measType p="23">ggsnGtpUplinkBytes</measType>
+<measType p="24">ggsnGtpUplinkPackets</measType>
+<measType p="25">ggsnGtpVerUnsupPacketsReceived</measType>
+<measType p="26">ggsnGtpVerUnsupPacketsSent</measType>
+<measType p="27">ggsnGtpv0PdpCreateReqReceived</measType>
+<measValue measObjLdn="ggsnGtpStats,entry">
+<r p="1">40</r>
+<r p="2">89</r>
+<r p="3">37</r>
+<r p="4">95</r>
+<r p="5">75</r>
+<r p="6">64</r>
+<r p="7">4</r>
+<r p="8">74</r>
+<r p="9">73</r>
+<r p="10">26</r>
+<r p="11">97</r>
+<r p="12">4</r>
+<r p="13">59</r>
+<r p="14">61</r>
+<r p="15">19</r>
+<r p="16">5</r>
+<r p="17">17</r>
+<r p="18">96</r>
+<r p="19">35</r>
+<r p="20">94</r>
+<r p="21">45</r>
+<r p="22">41</r>
+<r p="23">97</r>
+<r p="24">61</r>
+<r p="25">58</r>
+<r p="26">79</r>
+<r p="27">58</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnGtpPrAlreadyFulfilled</measType>
+<measType p="2">ggsnGtpPrDataRecTransferReceived</measType>
+<measType p="3">ggsnGtpPrDataRecTransferSent</measType>
+<measType p="4">ggsnGtpPrDecodingError</measType>
+<measType p="5">ggsnGtpPrDupPacketFulfilled</measType>
+<measType p="6">ggsnGtpPrEchoReqReceived</measType>
+<measType p="7">ggsnGtpPrEchoRequestsSent</measType>
+<measType p="8">ggsnGtpPrEchoRespReceived</measType>
+<measType p="9">ggsnGtpPrEchoRespSent</measType>
+<measType p="10">ggsnGtpPrInvalidMessageFormat</measType>
+<measType p="11">ggsnGtpPrNoResource</measType>
+<measType p="12">ggsnGtpPrNodeAliveReqReceived</measType>
+<measType p="13">ggsnGtpPrNodeAliveReqSent</measType>
+<measType p="14">ggsnGtpPrNodeAliveRespReceived</measType>
+<measType p="15">ggsnGtpPrNodeAliveRespSent</measType>
+<measType p="16">ggsnGtpPrRedirectReqReceived</measType>
+<measType p="17">ggsnGtpPrRedirectReqSent</measType>
+<measType p="18">ggsnGtpPrRedirectRespReceived</measType>
+<measType p="19">ggsnGtpPrRedirectRespSent</measType>
+<measType p="20">ggsnGtpPrRequestAccepted</measType>
+<measType p="21">ggsnGtpPrRequestUnfulfilled</measType>
+<measType p="22">ggsnGtpPrServiceUnsupported</measType>
+<measType p="23">ggsnGtpPrSndDataRecordPackets</measType>
+<measType p="24">ggsnGtpPrSystemFailure</measType>
+<measType p="25">ggsnGtpPrVerUnsupPacketsReceived</measType>
+<measType p="26">ggsnGtpPrVerUnsupPacketsSent</measType>
+<measType p="27">ggsnGtpPrVersionUnsupported</measType>
+<measValue measObjLdn="ggsnGtpPrStats,entry">
+<r p="1">20</r>
+<r p="2">1</r>
+<r p="3">8</r>
+<r p="4">9</r>
+<r p="5">40</r>
+<r p="6">44</r>
+<r p="7">68</r>
+<r p="8">46</r>
+<r p="9">51</r>
+<r p="10">19</r>
+<r p="11">58</r>
+<r p="12">74</r>
+<r p="13">83</r>
+<r p="14">17</r>
+<r p="15">37</r>
+<r p="16">16</r>
+<r p="17">5</r>
+<r p="18">71</r>
+<r p="19">92</r>
+<r p="20">39</r>
+<r p="21">1</r>
+<r p="22">26</r>
+<r p="23">99</r>
+<r p="24">16</r>
+<r p="25">88</r>
+<r p="26">76</r>
+<r p="27">66</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwAddressesInQuarantineInRange</measType>
+<measType p="2">pgwAllocatedAddressesInRange</measType>
+<measType p="3">pgwAvailableAddressesInRange</measType>
+<measValue measObjLdn="pgwIPAddressPerRange,entry,pgwSharedIpPoolName=pgwSharedIpPoolName1.com,pgwAddressRange=">
+<r p="1">2</r>
+<r p="2">91</r>
+<r p="3">23</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnSaccPcrfActiveDedicatedIPcanBearers</measType>
+<measType p="2">ggsnApnSaccPcrfActiveIPcanSessions</measType>
+<measType p="3">ggsnApnSaccPcrfActivePdpContextUsageReporting</measType>
+<measType p="4">ggsnApnSaccPcrfAuthenFail</measType>
+<measType p="5">ggsnApnSaccPcrfAuthorFail</measType>
+<measType p="6">ggsnApnSaccPcrfCcaPendTranRcvd</measType>
+<measType p="7">ggsnApnSaccPcrfPermanentOfflineSessions</measType>
+<measType p="8">ggsnApnSaccPcrfRaaPendTranSent</measType>
+<measType p="9">ggsnApnSaccPcrfTemporaryOfflineSessions</measType>
+<measType p="10">ggsnApnSaccPcrfTermDueToRaceCondLoop</measType>
+<measType p="11">ggsnApnSaccPcrfUpdCcReqSessIdNoMatch</measType>
+<measValue measObjLdn="ggsnApnSaccPcrfStats,entry,ggsnApnName=ggsnApnName1.com,ggsnApnSaccPcrfName=ggsnApnSaccPcrfName1.com">
+<r p="1">0</r>
+<r p="2">53</r>
+<r p="3">25</r>
+<r p="4">18</r>
+<r p="5">70</r>
+<r p="6">83</r>
+<r p="7">86</r>
+<r p="8">88</r>
+<r p="9">61</r>
+<r p="10">65</r>
+<r p="11">0</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">attemptedHoIratFromCdmaToEutran</measType>
+<measType p="2">attemptedHoIratFromNon3gppToEutran</measType>
+<measType p="3">pgwAttemptedDedicatedEpsBearerActivation</measType>
+<measType p="4">pgwAttemptedDedicatedEpsBearerIpv6Activation</measType>
+<measType p="5">pgwAttemptedEpsBearerActivation</measType>
+<measType p="6">pgwAttemptedEpsBearerDeactivation</measType>
+<measType p="7">pgwAttemptedEpsBearerIpv4v6Activation</measType>
+<measType p="8">pgwAttemptedEpsBearerIpv6Activation</measType>
+<measType p="9">pgwAttemptedEpsBearerModification</measType>
+<measType p="10">pgwAttemptedEpsBearerQoSUpdate</measType>
+<measType p="11">IratHoAttFromEutranToUwlan</measType>
+<measType p="12">IratHoAttFromUwlanToEutran</measType>
+<measType p="13">pgwAttemptedS2aEpsBearerActivation</measType>
+<measType p="14">pgwAttemptedS2bDedicatedEpsBearerActivation</measType>
+<measType p="15">pgwAttemptedS2bDedicatedEpsBearerIpv6Activation</measType>
+<measType p="16">pgwAttemptedS2bEpsBearerActivation</measType>
+<measType p="17">pgwAttemptedS2bEpsBearerDeactivation</measType>
+<measType p="18">pgwAttemptedS2bEpsBearerIpv4v6Activation</measType>
+<measType p="19">pgwAttemptedS2bEpsBearerIpv6Activation</measType>
+<measValue measObjLdn="pgwAttemptedEpsBearerStats,entry">
+<r p="1">41</r>
+<r p="2">41</r>
+<r p="3">77</r>
+<r p="4">41</r>
+<r p="5">51</r>
+<r p="6">62</r>
+<r p="7">1</r>
+<r p="8">80</r>
+<r p="9">40</r>
+<r p="10">31</r>
+<r p="11">54</r>
+<r p="12">43</r>
+<r p="13">90</r>
+<r p="14">44</r>
+<r p="15">51</r>
+<r p="16">69</r>
+<r p="17">99</r>
+<r p="18">2</r>
+<r p="19">79</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnDhcpClientAcksReceived</measType>
+<measType p="2">ggsnDhcpClientDeclinesSent</measType>
+<measType p="3">ggsnDhcpClientDiscoversSent</measType>
+<measType p="4">ggsnDhcpClientNaksReceived</measType>
+<measType p="5">ggsnDhcpClientOffersReceived</measType>
+<measType p="6">ggsnDhcpClientReleasesSent</measType>
+<measType p="7">ggsnDhcpClientRepliesDiscarded</measType>
+<measType p="8">ggsnDhcpClientRepliesReceived</measType>
+<measType p="9">ggsnDhcpClientRequestsSent</measType>
+<measType p="10">ggsnDhcpClientSendErrors</measType>
+<measValue measObjLdn="ggsnDhcpServer,entry,ggsnDhcpServerAddress=0.0.0.1">
+<r p="1">14</r>
+<r p="2">24</r>
+<r p="3">55</r>
+<r p="4">61</r>
+<r p="5">99</r>
+<r p="6">54</r>
+<r p="7">8</r>
+<r p="8">60</r>
+<r p="9">33</r>
+<r p="10">48</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnGtpuDownlinkPackets</measType>
+<measType p="2">ggsnGtpuNbrOfActivePdpContexts</measType>
+<measType p="3">ggsnGtpuNbrOfActivePdpContextsIpv4v6</measType>
+<measType p="4">ggsnGtpuNbrOfActivePdpContextsIpv6</measType>
+<measType p="5">ggsnGtpuPayloadLoad</measType>
+<measType p="6">ggsnGtpuPdpCapacity</measType>
+<measType p="7">ggsnGtpuUplinkPackets</measType>
+<measType p="8">ggsnGtpuUserDownlinkDrops</measType>
+<measType p="9">ggsnGtpuUserUplinkDrops</measType>
+<measValue measObjLdn="ggsnGtpu,entry,boardId=1">
+<r p="1">74</r>
+<r p="2">9</r>
+<r p="3">99</r>
+<r p="4">83</r>
+<r p="5">81</r>
+<r p="6">76</r>
+<r p="7">95</r>
+<r p="8">65</r>
+<r p="9">98</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sessionDeletionReqSent</measType>
+<measType p="2">sessionDeletionRespAccRcvd</measType>
+<measType p="3">sessionDeletionRespRejRcvd</measType>
+<measType p="4">sessionEstablishmentReqSent</measType>
+<measType p="5">sessionEstablishmentRespAccRcvd</measType>
+<measType p="6">sessionEstablishmentRespRejRcvd</measType>
+<measType p="7">sessionModificationReqSent</measType>
+<measType p="8">sessionModificationRespAccRcvd</measType>
+<measType p="9">sessionModificationRespRejRcvd</measType>
+<measType p="10">sessionReportReqRcvd</measType>
+<measType p="11">sessionReportRespAccSent</measType>
+<measType p="12">sessionReportRespSendFailed</measType>
+<measValue measObjLdn="pgwSessionMgmtPfcpSxb,entry">
+<r p="1">30</r>
+<r p="2">61</r>
+<r p="3">52</r>
+<r p="4">55</r>
+<r p="5">13</r>
+<r p="6">93</r>
+<r p="7">4</r>
+<r p="8">57</r>
+<r p="9">25</r>
+<r p="10">2</r>
+<r p="11">63</r>
+<r p="12">70</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnFbcActivationBearerCtrlAccept</measType>
+<measType p="2">ggsnApnFbcActivationBearerCtrlDowngrade</measType>
+<measType p="3">ggsnApnFbcActivationBearerCtrlReject</measType>
+<measType p="4">ggsnApnFbcActivationBearerCtrlUpgrade</measType>
+<measType p="5">ggsnApnFbcActivationNoBearerCtrlAccept</measType>
+<measType p="6">ggsnApnFbcActivationNoBearerCtrlDowngrade</measType>
+<measType p="7">ggsnApnFbcActivationNoBearerCtrlReject</measType>
+<measType p="8">ggsnApnFbcExtCreditUpd</measType>
+<measType p="9">ggsnApnFbcExtPrsUpd</measType>
+<measType p="10">ggsnApnFbcInitiatedDeactivation</measType>
+<measType p="11">ggsnApnFbcModificationBearerCtrlAccept</measType>
+<measType p="12">ggsnApnFbcModificationBearerCtrlDeactivate</measType>
+<measType p="13">ggsnApnFbcModificationBearerCtrlDowngrade</measType>
+<measType p="14">ggsnApnFbcModificationBearerCtrlUpgrade</measType>
+<measType p="15">ggsnApnFbcModificationNoBearerCtrlAccept</measType>
+<measType p="16">ggsnApnFbcModificationNoBearerCtrlDeactivate</measType>
+<measType p="17">ggsnApnFbcModificationNoBearerCtrlDowngrade</measType>
+<measType p="18">ggsnApnFbcNbrOfPpsUsers</measType>
+<measType p="19">ggsnApnFbcPpsCreate</measType>
+<measType p="20">ggsnApnFbcPpsReject</measType>
+<measType p="21">ggsnApnSaccAttemptedServiceInitiatedDedicatedBearers</measType>
+<measType p="22">ggsnApnSaccAttemptedServiceInitiatedDedicatedBearersWithTft</measType>
+<measType p="23">ggsnApnSaccAttemptedServiceInitiatedQoSModification</measType>
+<measType p="24">ggsnApnSaccCompletedServiceInitiatedDedicatedBearers</measType>
+<measType p="25">ggsnApnSaccCompletedServiceInitiatedDedicatedBearersWithTft</measType>
+<measValue measObjLdn="pgwApnFbcStats,entry,ggsnApnName=ggsnApnName1.com">
+<r p="1">18</r>
+<r p="2">79</r>
+<r p="3">43</r>
+<r p="4">4</r>
+<r p="5">81</r>
+<r p="6">9</r>
+<r p="7">93</r>
+<r p="8">43</r>
+<r p="9">65</r>
+<r p="10">46</r>
+<r p="11">83</r>
+<r p="12">2</r>
+<r p="13">90</r>
+<r p="14">93</r>
+<r p="15">5</r>
+<r p="16">18</r>
+<r p="17">70</r>
+<r p="18">42</r>
+<r p="19">20</r>
+<r p="20">81</r>
+<r p="21">49</r>
+<r p="22">97</r>
+<r p="23">85</r>
+<r p="24">10</r>
+<r p="25">12</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwAddressesInQuarantineInSharedIpPool</measType>
+<measType p="2">pgwAvailableAddressesInSharedIpPool</measType>
+<measType p="3">pgwAvailableIpv4AddressesInSharedIpPool</measType>
+<measType p="4">pgwAvailableIpv6AddressesInSharedIpPool</measType>
+<measType p="5">pgwIpv4AddressesInQuarantineInSharedIpPool</measType>
+<measType p="6">pgwIpv6AddressesInQuarantineInSharedIpPool</measType>
+<measValue measObjLdn="pgwSharedIpPool,entry,pgwSharedIpPoolName=pgwSharedIpPoolName1.com">
+<r p="1">99</r>
+<r p="2">19</r>
+<r p="3">68</r>
+<r p="4">76</r>
+<r p="5">44</r>
+<r p="6">32</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnCompletedActivation</measType>
+<measType p="2">ggsnCompletedActivationIpv4v6</measType>
+<measType p="3">ggsnCompletedActivationIpv6</measType>
+<measType p="4">ggsnCompletedActivationWlan</measType>
+<measType p="5">ggsnCompletedDeactivation</measType>
+<measType p="6">ggsnCompletedManualDeactivation</measType>
+<measType p="7">ggsnCompletedSecondaryActivation</measType>
+<measType p="8">ggsnCompletedSecondaryActivationIpv6</measType>
+<measType p="9">ggsnCompletedSelfDeactivation</measType>
+<measType p="10">ggsnCompletedUpdate</measType>
+<measType p="11">ggsnIdleTimeoutDeactivation</measType>
+<measType p="12">ggsnSessionTimeoutDeactivation</measType>
+<measValue measObjLdn="ggsnPdpContextsStatsCompleted,entry">
+<r p="1">10</r>
+<r p="2">44</r>
+<r p="3">39</r>
+<r p="4">95</r>
+<r p="5">87</r>
+<r p="6">70</r>
+<r p="7">9</r>
+<r p="8">96</r>
+<r p="9">32</r>
+<r p="10">7</r>
+<r p="11">98</r>
+<r p="12">57</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnFbcServIdentDownlinkBytes</measType>
+<measType p="2">ggsnApnFbcServIdentUplinkBytes</measType>
+<measValue measObjLdn="pgwApnFbcServIdentStats,entry,ggsnApnName=ggsnApnName1.com,ggsnServIdentIndex=1">
+<r p="1">91</r>
+<r p="2">4</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnFbcCcasEventReq</measType>
+<measType p="2">ggsnApnFbcCcasEventReqFail</measType>
+<measType p="3">ggsnApnFbcCcasStartReq</measType>
+<measType p="4">ggsnApnFbcCcasStartReqFail</measType>
+<measType p="5">ggsnApnFbcCcasStopReq</measType>
+<measType p="6">ggsnApnFbcCcasStopReqFail</measType>
+<measType p="7">ggsnApnFbcCcasUpdateReq</measType>
+<measType p="8">ggsnApnFbcCcasUpdateReqFail</measType>
+<measType p="9">ggsnApnFbcCcasUserServiceDenied</measType>
+<measType p="10">ggsnApnFbcCcasUserUnknown</measType>
+<measType p="11">ggsnApnSaccCcasAuthReject</measType>
+<measType p="12">ggsnApnSaccCcasCcNotApplicable</measType>
+<measValue measObjLdn="ggsnApnFbcCcasStats,entry,ggsnApnName=ggsnApnName1.com,ggsnApnFbcCcasName=ggsnApnFbcCcasName1.com">
+<r p="1">47</r>
+<r p="2">55</r>
+<r p="3">91</r>
+<r p="4">68</r>
+<r p="5">69</r>
+<r p="6">52</r>
+<r p="7">87</r>
+<r p="8">31</r>
+<r p="9">26</r>
+<r p="10">60</r>
+<r p="11">64</r>
+<r p="12">53</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnRadiusAuthServerAccessAccepts</measType>
+<measType p="2">ggsnApnRadiusAuthServerAccessRejects</measType>
+<measType p="3">ggsnApnRadiusAuthServerAccessRequestRetransmits</measType>
+<measType p="4">ggsnApnRadiusAuthServerAccessRequestTimeouts</measType>
+<measType p="5">ggsnApnRadiusAuthServerAccessRequests</measType>
+<measType p="6">ggsnApnRadiusAuthServerInvalidAuthenticators</measType>
+<measValue measObjLdn="ggsnApnRadiusAuthServersStats,entry,ggsnApnName=ggsnApnName1.com,ggsnApnRadiusAuthServerIpAddress=130.20.32.11">
+<r p="1">68</r>
+<r p="2">25</r>
+<r p="3">37</r>
+<r p="4">35</r>
+<r p="5">35</r>
+<r p="6">8</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">nbrOfGgsnPdnConnections</measType>
+<measValue measObjLdn="pdnConnectionsGgsn,entry">
+<r p="1">73</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">TrafficOptimizationActiveFlows</measType>
+<measType p="2">TrafficOptimizationBufferMemoryRateZero</measType>
+<measType p="3">TrafficOptimizationBufferMemoryRateZeroOpportunistic</measType>
+<measType p="4">TrafficOptimizationBufferMemoryWindowBelowPacket</measType>
+<measType p="5">TrafficOptimizationBufferSize</measType>
+<measType p="6">TrafficOptimizationBufferedPackets</measType>
+<measType p="7">TrafficOptimizationDownlinkDroppedPacketsBufferOverflow</measType>
+<measType p="8">TrafficOptimizationDownlinkDroppedPacketsDuplicated</measType>
+<measType p="9">TrafficOptimizationDownlinkDroppedPacketsFlowTimeout</measType>
+<measType p="10">TrafficOptimizationDownlinkDroppedPacketsChecksum</measType>
+<measType p="11">TrafficOptimizationDownlinkPackets</measType>
+<measType p="12">TrafficOptimizationFlowEstablishedTimeout</measType>
+<measType p="13">TrafficOptimizationFlowsCpuLimit</measType>
+<measType p="14">TrafficOptimizationFlowsMemoryLimit</measType>
+<measType p="15">TrafficOptimizationOptimizedFlowsNonEmptyBufferTimeout</measType>
+<measType p="16">TrafficOptimizationOptimizedFlowsNonEmptyBufferUserDeleted</measType>
+<measType p="17">TrafficOptimizationPacketsCpuLimit</measType>
+<measType p="18">TrafficOptimizationPacketsMemoryLimit</measType>
+<measType p="19">TrafficOptimizationUplinkAcksServerInjected</measType>
+<measType p="20">TrafficOptimizationUplinkAcksUEDropped</measType>
+<measType p="21">TrafficOptimizationUplinkAcksUEForwarded</measType>
+<measType p="22">TrafficOptimizationUplinkAcksUEIncorrectChecksum</measType>
+<measType p="23">TrafficOptimizationUplinkAcksUEOutOfWindow</measType>
+<measType p="24">TrafficOptimizationWindowScale1</measType>
+<measType p="25">TrafficOptimizationWindowScale10</measType>
+<measType p="26">TrafficOptimizationWindowScale11</measType>
+<measType p="27">TrafficOptimizationWindowScale12</measType>
+<measType p="28">TrafficOptimizationWindowScale13</measType>
+<measType p="29">TrafficOptimizationWindowScale14</measType>
+<measType p="30">TrafficOptimizationWindowScale2</measType>
+<measType p="31">TrafficOptimizationWindowScale3</measType>
+<measType p="32">TrafficOptimizationWindowScale4</measType>
+<measType p="33">TrafficOptimizationWindowScale5</measType>
+<measType p="34">TrafficOptimizationWindowScale6</measType>
+<measType p="35">TrafficOptimizationWindowScale7</measType>
+<measType p="36">TrafficOptimizationWindowScale8</measType>
+<measType p="37">TrafficOptimizationWindowScale9</measType>
+<measType p="38">TrafficOptimizationWindowSizeZeroServer</measType>
+<measType p="39">TrafficOptimizationWindowSizeZeroUe</measType>
+<measValue measObjLdn="TrafficOptimization,entry">
+<r p="1">50</r>
+<r p="2">61</r>
+<r p="3">95</r>
+<r p="4">68</r>
+<r p="5">66</r>
+<r p="6">67</r>
+<r p="7">9</r>
+<r p="8">80</r>
+<r p="9">98</r>
+<r p="10">10</r>
+<r p="11">89</r>
+<r p="12">28</r>
+<r p="13">38</r>
+<r p="14">8</r>
+<r p="15">52</r>
+<r p="16">90</r>
+<r p="17">85</r>
+<r p="18">32</r>
+<r p="19">1</r>
+<r p="20">46</r>
+<r p="21">67</r>
+<r p="22">63</r>
+<r p="23">4</r>
+<r p="24">97</r>
+<r p="25">18</r>
+<r p="26">77</r>
+<r p="27">64</r>
+<r p="28">3</r>
+<r p="29">98</r>
+<r p="30">20</r>
+<r p="31">83</r>
+<r p="32">34</r>
+<r p="33">54</r>
+<r p="34">63</r>
+<r p="35">49</r>
+<r p="36">28</r>
+<r p="37">40</r>
+<r p="38">20</r>
+<r p="39">92</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">cfAttemptedIcapResolutions</measType>
+<measType p="2">cfAttemptedResolutions</measType>
+<measType p="3">cfAttemptedSslTlsResolutions</measType>
+<measType p="4">cfBlocked</measType>
+<measType p="5">cfCacheResolutions</measType>
+<measType p="6">cfDefaultPolicyApplied</measType>
+<measType p="7">cfErrorPolicyApplied</measType>
+<measType p="8">cfLocalResolutions</measType>
+<measType p="9">cfNbrOfIcapConnections</measType>
+<measType p="10">cfNbrOfPdnConnections</measType>
+<measType p="11">cfRedirected</measType>
+<measType p="12">cfUnknownPolicyApplied</measType>
+<measValue measObjLdn="pgwContentFiltering,entry">
+<r p="1">93</r>
+<r p="2">93</r>
+<r p="3">19</r>
+<r p="4">26</r>
+<r p="5">48</r>
+<r p="6">96</r>
+<r p="7">79</r>
+<r p="8">7</r>
+<r p="9">35</r>
+<r p="10">65</r>
+<r p="11">49</r>
+<r p="12">69</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">nbrOfPdnConnections</measType>
+<measType p="2">nbrOfUe</measType>
+<measValue measObjLdn="pgwPcrfStats,entry,destinationHostName=destinationHostName1.com">
+<r p="1">84</r>
+<r p="2">76</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnFbcDiamApplSysReq</measType>
+<measValue measObjLdn="ggsnFbcDiamApplSysStats,entry,ggsnFbcDiamApplSysName=ggsnFbcDiamApplSysName1.com">
+<r p="1">9</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsn3gdtActiveContexts</measType>
+<measType p="2">ggsnControlLoad</measType>
+<measType p="3">ggsnL2tpActiveSessions</measType>
+<measType p="4">ggsnL2tpActiveTunnels</measType>
+<measType p="5">ggsnL2tpMaxActiveSessions</measType>
+<measType p="6">ggsnL2tpMaxActiveTunnels</measType>
+<measType p="7">ggsnNbrOfActivePdpContexts</measType>
+<measType p="8">ggsnNbrOfActivePdpContextsIpv4v6</measType>
+<measType p="9">ggsnNbrOfActivePdpContextsIpv6</measType>
+<measType p="10">ggsnNbrOfActivePdpContextsWlan</measType>
+<measType p="11">ggsnNbrOfSubscribers</measType>
+<measType p="12">ggsnNbrOfSubscribersMean</measType>
+<measType p="13">ggsnNbrOfTftFilters</measType>
+<measType p="14">ggsnNeighborSolicitationRcv</measType>
+<measType p="15">ggsnNeighborSolicitationRsp</measType>
+<measType p="16">ggsnPayloadLoad</measType>
+<measType p="17">ggsnRadiusAccountingFailure</measType>
+<measType p="18">ggsnRadiusAuthenticationFailure</measType>
+<measType p="19">ggsnRadiusIdOverflow</measType>
+<measType p="20">ggsnRouterSolicitationRcv</measType>
+<measType p="21">ggsnRouterSolicitationRsp</measType>
+<measType p="22">gn3gdtErrorHandling</measType>
+<measType p="23">gn3gdtTotalAttemptedEstablishment</measType>
+<measType p="24">gn3gdtTotalCompletedEstablishment</measType>
+<measValue measObjLdn="ggsnGlobalStats,entry">
+<r p="1">54</r>
+<r p="2">8</r>
+<r p="3">75</r>
+<r p="4">98</r>
+<r p="5">66</r>
+<r p="6">59</r>
+<r p="7">20</r>
+<r p="8">93</r>
+<r p="9">21</r>
+<r p="10">33</r>
+<r p="11">87</r>
+<r p="12">71</r>
+<r p="13">73</r>
+<r p="14">60</r>
+<r p="15">70</r>
+<r p="16">44</r>
+<r p="17">85</r>
+<r p="18">46</r>
+<r p="19">54</r>
+<r p="20">71</r>
+<r p="21">46</r>
+<r p="22">76</r>
+<r p="23">62</r>
+<r p="24">37</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnL2tpTunnelActiveSessions</measType>
+<measType p="2">ggsnL2tpTunnelControlRxPackets</measType>
+<measType p="3">ggsnL2tpTunnelControlTxPackets</measType>
+<measType p="4">ggsnL2tpTunnelDataRxPackets</measType>
+<measType p="5">ggsnL2tpTunnelDataTxPackets</measType>
+<measType p="6">ggsnL2tpTunnelDiscardedRxPackets</measType>
+<measType p="7">ggsnL2tpTunnelDiscardedTxPackets</measType>
+<measValue measObjLdn="ggsnL2tpTunnelStats,entry,ggsnL2tpTunnelLocalTID-ggsnL2tpTunnelRemoteTID=1">
+<r p="1">59</r>
+<r p="2">81</r>
+<r p="3">27</r>
+<r p="4">29</r>
+<r p="5">0</r>
+<r p="6">97</r>
+<r p="7">46</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnGtpPrErrorMandatoryIEInvalid</measType>
+<measType p="2">ggsnGtpPrErrorMandatoryIEMissing</measType>
+<measType p="3">ggsnGtpPrErrorOptionalIEInvalid</measType>
+<measType p="4">ggsnGtpPrErrorRefInexistent</measType>
+<measValue measObjLdn="ggsnGtpPrErrorStats,entry">
+<r p="1">92</r>
+<r p="2">71</r>
+<r p="3">49</r>
+<r p="4">5</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnGtpcControlLoad</measType>
+<measType p="2">ggsnGtpcControlPacketDrops</measType>
+<measType p="3">ggsnGtpcNbrOfActivePdpContexts</measType>
+<measType p="4">ggsnGtpcNbrOfActivePdpContextsIpv4v6</measType>
+<measType p="5">ggsnGtpcNbrOfActivePdpContextsIpv6</measType>
+<measType p="6">ggsnGtpcPdpCapacity</measType>
+<measType p="7">ggsnGtpcTftFilterDepthMax</measType>
+<measType p="8">ggsnGtpcTftFilterDepthMean</measType>
+<measValue measObjLdn="ggsnGtpc,entry,ggsnGtpcAddress=10.26.32.11">
+<r p="1">53</r>
+<r p="2">8</r>
+<r p="3">51</r>
+<r p="4">35</r>
+<r p="5">68</r>
+<r p="6">51</r>
+<r p="7">45</r>
+<r p="8">1</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwApnSaccRatingGroupDownlinkBytes</measType>
+<measType p="2">pgwApnSaccRatingGroupUplinkBytes</measType>
+<measValue measObjLdn="pgwApnSaccRatingGroupStats,entry,ggsnApnName=ggsnApnName1.com,pgwRatingGroupIndex=1">
+<r p="1">10</r>
+<r p="2">39</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">attemptedHoIratFromEutranToCdma</measType>
+<measType p="2">completedHoIratFromEutranToCdma</measType>
+<measType p="3">s2aBraPdnConnDeletionAccRcvd</measType>
+<measType p="4">s2aBraPdnConnDeletionInvalidRcvd</measType>
+<measType p="5">s2aBraPdnConnDeletionRejRcvd</measType>
+<measType p="6">s2aBriPdnConnDeletionSent</measType>
+<measType p="7">s2aPbaPdnConnCreateAccSent</measType>
+<measType p="8">s2aPbaPdnConnCreateRejSent</measType>
+<measType p="9">s2aPbaPdnConnDeletionAccSent</measType>
+<measType p="10">s2aPbaPdnConnDeletionRejSent</measType>
+<measType p="11">s2aPbaPdnConnHoIntraAccSent</measType>
+<measType p="12">s2aPbaPdnConnHoIntraRejSent</measType>
+<measType p="13">s2aPbaPdnConnLifeExtAccSent</measType>
+<measType p="14">s2aPbaPdnConnLifeExtRejSent</measType>
+<measType p="15">s2aPbuPdnConnCreateRcvd</measType>
+<measType p="16">s2aPbuPdnConnDeletionRcvd</measType>
+<measType p="17">s2aPbuPdnConnHoIntraRcvd</measType>
+<measType p="18">s2aPbuPdnConnLifeExtRcvd</measType>
+<measType p="19">s2aPmipInvalidMsgRcvd</measType>
+<measValue measObjLdn="pgwPmip,entry">
+<r p="1">7</r>
+<r p="2">42</r>
+<r p="3">63</r>
+<r p="4">85</r>
+<r p="5">81</r>
+<r p="6">45</r>
+<r p="7">35</r>
+<r p="8">75</r>
+<r p="9">86</r>
+<r p="10">79</r>
+<r p="11">56</r>
+<r p="12">39</r>
+<r p="13">40</r>
+<r p="14">42</r>
+<r p="15">15</r>
+<r p="16">81</r>
+<r p="17">40</r>
+<r p="18">95</r>
+<r p="19">35</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnSaccRsAuthDownlinkPacketsDropped</measType>
+<measType p="2">ggsnApnSaccRsAuthUplinkPacketsDropped</measType>
+<measType p="3">ggsnApnSaccRsDownlinkBytes</measType>
+<measType p="4">ggsnApnSaccRsGateDownlinkPacketsDropped</measType>
+<measType p="5">ggsnApnSaccRsGateUplinkPacketsDropped</measType>
+<measType p="6">ggsnApnSaccRsUplinkBytes</measType>
+<measValue measObjLdn="ggsnApnSaccRsStats,entry,ggsnApnName=ggsnApnName1.com,ggsnApnSaccRsName=ggsnApnSaccRsName1.com">
+<r p="1">89</r>
+<r p="2">82</r>
+<r p="3">59</r>
+<r p="4">94</r>
+<r p="5">5</r>
+<r p="6">3</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">s6bAaaFailRcvd</measType>
+<measType p="2">s6bAaaInvalidRcvd</measType>
+<measType p="3">s6bAaaSuccRcvd</measType>
+<measType p="4">s6bAarSent</measType>
+<measType p="5">s6bStaFailRcvd</measType>
+<measType p="6">s6bStaSuccRcvd</measType>
+<measType p="7">s6bStrSent</measType>
+<measValue measObjLdn="s6bInterface,entry">
+<r p="1">96</r>
+<r p="2">71</r>
+<r p="3">4</r>
+<r p="4">60</r>
+<r p="5">7</r>
+<r p="6">11</r>
+<r p="7">35</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwActiveNbIotBearer</measType>
+<measType p="2">pgwNbrOfActiveEpsBearer</measType>
+<measType p="3">pgwNbrOfActiveIpv4v6EpsBearer</measType>
+<measType p="4">pgwNbrOfActiveIpv6EpsBearer</measType>
+<measType p="5">pgwNbrOfActiveNonIpEpsBearer</measType>
+<measType p="6">pgwNbrOfActiveQci1EpsBearer</measType>
+<measType p="7">pgwNbrOfEmcUnauthUes</measType>
+<measType p="8">pgwWlanNbrOfActiveEpsBearer</measType>
+<measValue measObjLdn="pgwGlobalStats,entry">
+<r p="1">16</r>
+<r p="2">79</r>
+<r p="3">67</r>
+<r p="4">56</r>
+<r p="5">29</r>
+<r p="6">46</r>
+<r p="7">47</r>
+<r p="8">42</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">aaaFailRcvd</measType>
+<measType p="2">aaaInvalidRcvd</measType>
+<measType p="3">aaaSuccRcvd</measType>
+<measType p="4">aarSent</measType>
+<measType p="5">asaFailSent</measType>
+<measType p="6">asaSuccSent</measType>
+<measType p="7">asrRcvd</measType>
+<measType p="8">raaFailSent</measType>
+<measType p="9">raaSuccSent</measType>
+<measType p="10">rarRcvd</measType>
+<measType p="11">staFailRcvd</measType>
+<measType p="12">staSuccRcvd</measType>
+<measType p="13">strSent</measType>
+<measValue measObjLdn="pgwAaaInterface,entry">
+<r p="1">89</r>
+<r p="2">57</r>
+<r p="3">72</r>
+<r p="4">62</r>
+<r p="5">40</r>
+<r p="6">24</r>
+<r p="7">58</r>
+<r p="8">77</r>
+<r p="9">47</r>
+<r p="10">59</r>
+<r p="11">37</r>
+<r p="12">87</r>
+<r p="13">68</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bearerCapacity</measType>
+<measType p="2">nbrOfActiveBearers</measType>
+<measType p="3">nbrOfActiveBearersIpv4v6</measType>
+<measType p="4">nbrOfActiveBearersIpv6</measType>
+<measType p="5">tftFilterDepthMax</measType>
+<measType p="6">tftFilterDepthMean</measType>
+<measValue measObjLdn="pgwGtpControlPlaneBoard,entry,boardId=1">
+<r p="1">31</r>
+<r p="2">8</r>
+<r p="3">17</r>
+<r p="4">68</r>
+<r p="5">50</r>
+<r p="6">65</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pgwDnsFailedResponses</measType>
+<measType p="2">pgwDnsQueries</measType>
+<measType p="3">pgwDnsSuccessResponses</measType>
+<measValue measObjLdn="pgwDnsStats,entry">
+<r p="1">59</r>
+<r p="2">11</r>
+<r p="3">30</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">greDownlinkBytes</measType>
+<measType p="2">greDownlinkBytesDrops</measType>
+<measType p="3">greDownlinkPackets</measType>
+<measType p="4">greDownlinkPacketsDrops</measType>
+<measType p="5">greUplinkBytes</measType>
+<measType p="6">greUplinkBytesDrops</measType>
+<measType p="7">greUplinkPackets</measType>
+<measType p="8">greUplinkPacketsDrops</measType>
+<measValue measObjLdn="pgwGre,entry">
+<r p="1">47</r>
+<r p="2">65</r>
+<r p="3">19</r>
+<r p="4">86</r>
+<r p="5">70</r>
+<r p="6">63</r>
+<r p="7">55</r>
+<r p="8">93</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">tcpNrSynFloodAttackUl</measType>
+<measType p="2">tcpNrSynFloodDetectUl</measType>
+<measValue measObjLdn="pgwPiscSecurityStatistics,entry,serviceSetName=serviceSetName1.com">
+<r p="1">78</r>
+<r p="2">49</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnFbcInitiatedDeactivation</measType>
+<measValue measObjLdn="ggsnFbcStats,entry">
+<r p="1">48</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">completedHoIratFromCdmaToEutran</measType>
+<measType p="2">pgwCompletedDedicatedEpsBearerActivation</measType>
+<measType p="3">pgwCompletedDedicatedEpsBearerIpv6Activation</measType>
+<measType p="4">pgwCompletedEpsBearerActivation</measType>
+<measType p="5">pgwCompletedEpsBearerDeactivation</measType>
+<measType p="6">pgwCompletedEpsBearerIpv4v6Activation</measType>
+<measType p="7">pgwCompletedEpsBearerIpv6Activation</measType>
+<measType p="8">pgwCompletedEpsBearerModification</measType>
+<measType p="9">pgwCompletedEpsBearerQoSUpdate</measType>
+<measType p="10">IratHoCompFromEutranToUwlan</measType>
+<measType p="11">IratHoCompFromUwlanToEutran</measType>
+<measType p="12">pgwCompletedS2aEpsBearerActivation</measType>
+<measType p="13">pgwCompletedS2bDedicatedEpsBearerActivation</measType>
+<measType p="14">pgwCompletedS2bDedicatedEpsBearerIpv6Activation</measType>
+<measType p="15">pgwCompletedS2bEpsBearerActivation</measType>
+<measType p="16">pgwCompletedS2bEpsBearerDeactivation</measType>
+<measType p="17">pgwCompletedS2bEpsBearerIpv4v6Activation</measType>
+<measType p="18">pgwCompletedS2bEpsBearerIpv6Activation</measType>
+<measValue measObjLdn="pgwCompletedEpsBearerStats,entry">
+<r p="1">1</r>
+<r p="2">60</r>
+<r p="3">39</r>
+<r p="4">98</r>
+<r p="5">56</r>
+<r p="6">18</r>
+<r p="7">85</r>
+<r p="8">74</r>
+<r p="9">6</r>
+<r p="10">94</r>
+<r p="11">82</r>
+<r p="12">70</r>
+<r p="13">66</r>
+<r p="14">46</r>
+<r p="15">90</r>
+<r p="16">0</r>
+<r p="17">28</r>
+<r p="18">91</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApn3gdtActiveContexts</measType>
+<measType p="2">ggsnApn3gdtGtpError</measType>
+<measType p="3">ggsnApnActivationFailedDuetoGeneralPurposeNotConfigured</measType>
+<measType p="4">ggsnApnActivePdpContextCount</measType>
+<measType p="5">ggsnApnActivePdpContextCountIpv4v6</measType>
+<measType p="6">ggsnApnActivePdpContextCountIpv6</measType>
+<measType p="7">ggsnApnActivePdpContextMax</measType>
+<measType p="8">ggsnApnActivePdpContextMaxDuringLastPeriod</measType>
+<measType p="9">ggsnApnActivePdpContextMean</measType>
+<measType p="10">ggsnApnAttemptedActivation</measType>
+<measType p="11">ggsnApnAttemptedActivationIpv4v6</measType>
+<measType p="12">ggsnApnAttemptedActivationIpv6</measType>
+<measType p="13">ggsnApnAttemptedActivationNonDuplicated</measType>
+<measType p="14">ggsnApnAttemptedAuthActivation</measType>
+<measType p="15">ggsnApnAttemptedDeactivation</measType>
+<measType p="16">ggsnApnAttemptedDynActivation</measType>
+<measType p="17">ggsnApnAttemptedMSDeactivation</measType>
+<measType p="18">ggsnApnAttemptedSelfDeactivation</measType>
+<measType p="19">ggsnApnAttemptedUpdateGgsn</measType>
+<measType p="20">ggsnApnAttemptedUpdateMsAndSgsn</measType>
+<measType p="21">ggsnApnCompletedActivation</measType>
+<measType p="22">ggsnApnCompletedActivationIpv4v6</measType>
+<measType p="23">ggsnApnCompletedActivationIpv6</measType>
+<measType p="24">ggsnApnCompletedDeactivation</measType>
+<measType p="25">ggsnApnCompletedDynActivation</measType>
+<measType p="26">ggsnApnCompletedMSDeactivation</measType>
+<measType p="27">ggsnApnCompletedSelfDeactivation</measType>
+<measType p="28">ggsnApnCompletedUpdateGgsn</measType>
+<measType p="29">ggsnApnCompletedUpdateMsAndSgsn</measType>
+<measType p="30">ggsnApnDownlinkBytes</measType>
+<measType p="31">ggsnApnDownlinkBytesIpv6</measType>
+<measType p="32">ggsnApnDownlinkDrops</measType>
+<measType p="33">ggsnApnDownlinkDropsBytesSuspended</measType>
+<measType p="34">ggsnApnDownlinkDropsIpv6</measType>
+<measType p="35">ggsnApnDownlinkDropsPacketsSuspended</measType>
+<measType p="36">ggsnApnDownlinkPackets</measType>
+<measType p="37">ggsnApnDownlinkPacketsIpv6</measType>
+<measType p="38">ggsnApnFailedAuthActivation</measType>
+<measType p="39">ggsnApnGiSignalingInBytes</measType>
+<measType p="40">ggsnApnGiSignalingInPackets</measType>
+<measType p="41">ggsnApnGiSignalingOutBytes</measType>
+<measType p="42">ggsnApnGiSignalingOutPackets</measType>
+<measType p="43">ggsnApnIdleTimeoutDeactivation</measType>
+<measType p="44">ggsnApnImsDedicatedCompletedActivation</measType>
+<measType p="45">ggsnApnImsDedicatedNotConfiguredActivationFailed</measType>
+<measType p="46">ggsnApnImsGeneralNotConfiguredActivationFailed</measType>
+<measType p="47">ggsnApnImsGeneralPurposeCompletedActivation</measType>
+<measType p="48">ggsnApnNbrOfTftFilters</measType>
+<measType p="49">ggsnApnNeighborSolicitationRcv</measType>
+<measType p="50">ggsnApnNeighborSolicitationRsp</measType>
+<measType p="51">ggsnApnRadiusAccountingFailure</measType>
+<measType p="52">ggsnApnRadiusAuthenticationFailure</measType>
+<measType p="53">ggsnApnRadiusIdOverflow</measType>
+<measType p="54">ggsnApnRouterSolicitationRcv</measType>
+<measType p="55">ggsnApnRouterSolicitationRsp</measType>
+<measType p="56">ggsnApnSaccOfflineSessions</measType>
+<measType p="57">ggsnApnSaccRsActivePredefinedChargingRuleBases</measType>
+<measType p="58">ggsnApnSaccRsActivePredefinedChargingRules</measType>
+<measType p="59">ggsnApnSaccRsInstalledDynRules</measType>
+<measType p="60">ggsnApnSessTimeoutDeactivation</measType>
+<measType p="61">ggsnApnUnauthorizedImsPackets</measType>
+<measType p="62">ggsnApnUplinkBytes</measType>
+<measType p="63">ggsnApnUplinkBytesIpv6</measType>
+<measType p="64">ggsnApnUplinkDrops</measType>
+<measType p="65">ggsnApnUplinkDropsIpv6</measType>
+<measType p="66">ggsnApnUplinkPackets</measType>
+<measType p="67">ggsnApnUplinkPacketsIpv6</measType>
+<measType p="68">gnApn3gdtDownlinkBytes</measType>
+<measType p="69">gnApn3gdtDownlinkBytesIpv6</measType>
+<measType p="70">gnApn3gdtDownlinkDropsErrorHandling</measType>
+<measType p="71">gnApn3gdtDownlinkPackets</measType>
+<measType p="72">gnApn3gdtDownlinkPacketsIpv6</measType>
+<measType p="73">gnApn3gdtErrorHandling</measType>
+<measType p="74">gnApn3gdtTotalAttemptedEstablishment</measType>
+<measType p="75">gnApn3gdtTotalCompletedEstablishment</measType>
+<measType p="76">gnApn3gdtUplinkBytes</measType>
+<measType p="77">gnApn3gdtUplinkBytesIpv6</measType>
+<measType p="78">gnApn3gdtUplinkPackets</measType>
+<measType p="79">gnApn3gdtUplinkPacketsIpv6</measType>
+<measType p="80">gnApnDownlinkBytes</measType>
+<measType p="81">gnApnDownlinkBytesIpv6</measType>
+<measType p="82">gnApnDownlinkPackets</measType>
+<measType p="83">gnApnDownlinkPacketsIpv6</measType>
+<measType p="84">gnApnUplinkBytes</measType>
+<measType p="85">gnApnUplinkBytesIpv6</measType>
+<measType p="86">gnApnUplinkPackets</measType>
+<measType p="87">gnApnUplinkPacketsIpv6</measType>
+<measType p="88">pgwApnActiveDedicatedEpsBearer</measType>
+<measType p="89">pgwApnActiveEpsBearer</measType>
+<measType p="90">pgwApnActiveIpv4v6EpsBearer</measType>
+<measType p="91">pgwApnActiveIpv6EpsBearer</measType>
+<measType p="92">pgwApnActiveNbIot</measType>
+<measType p="93">pgwApnActiveS2bDedicatedEpsBearer</measType>
+<measType p="94">pgwApnActiveWlanEpsBearer</measType>
+<measType p="95">pgwApnAttemptedDedicatedEpsBearerActivation</measType>
+<measType p="96">pgwApnAttemptedEpsBearerActivation</measType>
+<measType p="97">pgwApnAttemptedEpsBearerDeactivation</measType>
+<measType p="98">pgwApnAttemptedIpv4v6EpsBearerActivation</measType>
+<measType p="99">pgwApnAttemptedIpv6DedicatedEpsBearerActivation</measType>
+<measType p="100">pgwApnAttemptedIpv6EpsBearerActivation</measType>
+<measType p="101">pgwApnAttemptedPcrfAssistedApnSelection</measType>
+<measType p="102">pgwApnAttemptedS2bDedicatedEpsBearerActivation</measType>
+<measType p="103">pgwApnAttemptedS2bEpsBearerActivation</measType>
+<measType p="104">pgwApnAttemptedS2bEpsBearerDeactivation</measType>
+<measType p="105">pgwApnAttemptedS2bEpsBearerIpv4v6Activation</measType>
+<measType p="106">pgwApnAttemptedS2bEpsBearerIpv6Activation</measType>
+<measType p="107">pgwApnAttemptedS2bIpv6DedicatedEpsBearerActivation</measType>
+<measType p="108">pgwApnAttemptedS5NetworkDeactivation</measType>
+<measType p="109">pgwApnAttemptedS5NetworkDedicatedEpsBearerDeactivation</measType>
+<measType p="110">pgwApnAttemptedS5NetworkDedicatedEpsBearerModification</measType>
+<measType p="111">pgwApnAttemptedS5NetworkModification</measType>
+<measType p="112">pgwApnAttemptedS5SgsnSgwModification</measType>
+<measType p="113">pgwApnAttemptedS5SgwSgsnModification</measType>
+<measType p="114">pgwApnAttemptedS5UeSgwDeactivation</measType>
+<measType p="115">pgwApnAttemptedS5UeSgwDedicatedEpsBearerDeactivation</measType>
+<measType p="116">pgwApnAttemptedS5UeSgwModification</measType>
+<measType p="117">pgwApnCompletedDedicatedEpsBearerActivation</measType>
+<measType p="118">pgwApnCompletedEpsBearerActivation</measType>
+<measType p="119">pgwApnCompletedEpsBearerDeactivation</measType>
+<measType p="120">pgwApnCompletedIpv4v6EpsBearerActivation</measType>
+<measType p="121">pgwApnCompletedIpv6DedicatedEpsBearerActivation</measType>
+<measType p="122">pgwApnCompletedIpv6EpsBearerActivation</measType>
+<measType p="123">pgwApnCompletedPcrfAssistedApnSelection</measType>
+<measType p="124">pgwApnCompletedS2bDedicatedEpsBearerActivation</measType>
+<measType p="125">pgwApnCompletedS2bEpsBearerActivation</measType>
+<measType p="126">pgwApnCompletedS2bEpsBearerDeactivation</measType>
+<measType p="127">pgwApnCompletedS2bEpsBearerIpv4v6Activation</measType>
+<measType p="128">pgwApnCompletedS2bEpsBearerIpv6Activation</measType>
+<measType p="129">pgwApnCompletedS2bIpv6DedicatedEpsBearerActivation</measType>
+<measType p="130">pgwApnCompletedS5NetworkDeactivation</measType>
+<measType p="131">pgwApnCompletedS5NetworkDedicatedEpsBearerDeactivation</measType>
+<measType p="132">pgwApnCompletedS5NetworkDedicatedEpsBearerModification</measType>
+<measType p="133">pgwApnCompletedS5NetworkModification</measType>
+<measType p="134">pgwApnCompletedS5SgsnSgwModification</measType>
+<measType p="135">pgwApnCompletedS5SgwSgsnModification</measType>
+<measType p="136">pgwApnCompletedS5UeSgwDeactivation</measType>
+<measType p="137">pgwApnCompletedS5UeSgwDedicatedEpsBearerDeactivation</measType>
+<measType p="138">pgwApnCompletedS5UeSgwModification</measType>
+<measType p="139">createSessionRejectedMaxRate</measType>
+<measType p="140">pgwApnDownlinkBytesPausedChrg</measType>
+<measType p="141">pgwApnDownlinkPacketsPausedChrg</measType>
+<measType p="142">pgwApnNbrOfPgwPauseChrgEnabledPdnConnections</measType>
+<measType p="143">pgwApnNbrOfPgwPausedChrgPdnConnections</measType>
+<measType p="144">pgwApnPauseChrgNegotiationAccRcvd</measType>
+<measType p="145">pgwApnPauseChrgNegotiationRejRcvd</measType>
+<measType p="146">pgwApnPauseChrgNegotiationReqRcvd</measType>
+<measType p="147">pgwApnPauseChrgStartAccRcvd</measType>
+<measType p="148">pgwApnPauseChrgStartRejRcvd</measType>
+<measType p="149">pgwApnPauseChrgStartReqRcvd</measType>
+<measType p="150">pgwApnPauseChrgStopAccRcvd</measType>
+<measType p="151">pgwApnPauseChrgStopRejRcvd</measType>
+<measType p="152">pgwApnPauseChrgStopReqRcvd</measType>
+<measType p="153">s2aApnDownlinkBytes</measType>
+<measType p="154">s2aApnDownlinkBytesIpv6</measType>
+<measType p="155">s2aApnDownlinkPackets</measType>
+<measType p="156">s2aApnDownlinkPacketsIpv6</measType>
+<measType p="157">s2aApnUplinkBytes</measType>
+<measType p="158">s2aApnUplinkBytesIpv6</measType>
+<measType p="159">s2aApnUplinkPackets</measType>
+<measType p="160">s2aApnUplinkPacketsIpv6</measType>
+<measType p="161">s2bApnDownlinkBytes</measType>
+<measType p="162">s2bApnDownlinkBytesIpv6</measType>
+<measType p="163">s2bApnDownlinkPackets</measType>
+<measType p="164">s2bApnDownlinkPacketsIpv6</measType>
+<measType p="165">s2bApnUplinkBytes</measType>
+<measType p="166">s2bApnUplinkBytesIpv6</measType>
+<measType p="167">s2bApnUplinkPackets</measType>
+<measType p="168">s2bApnUplinkPacketsIpv6</measType>
+<measType p="169">s5ApnDownlinkBytes</measType>
+<measType p="170">s5ApnDownlinkBytesIpv6</measType>
+<measType p="171">s5ApnDownlinkPackets</measType>
+<measType p="172">s5ApnDownlinkPacketsIpv6</measType>
+<measType p="173">s5ApnUplinkBytes</measType>
+<measType p="174">s5ApnUplinkBytesIpv6</measType>
+<measType p="175">s5ApnUplinkPackets</measType>
+<measType p="176">s5ApnUplinkPacketsIpv6</measType>
+<measValue measObjLdn="ggsnApnStats,entry,ggsnApnName=ggsnApnName1.com">
+<r p="1">19</r>
+<r p="2">3</r>
+<r p="3">98</r>
+<r p="4">94</r>
+<r p="5">64</r>
+<r p="6">39</r>
+<r p="7">26</r>
+<r p="8">83</r>
+<r p="9">31</r>
+<r p="10">33</r>
+<r p="11">48</r>
+<r p="12">23</r>
+<r p="13">74</r>
+<r p="14">9</r>
+<r p="15">73</r>
+<r p="16">43</r>
+<r p="17">20</r>
+<r p="18">28</r>
+<r p="19">37</r>
+<r p="20">85</r>
+<r p="21">12</r>
+<r p="22">66</r>
+<r p="23">75</r>
+<r p="24">32</r>
+<r p="25">50</r>
+<r p="26">94</r>
+<r p="27">88</r>
+<r p="28">77</r>
+<r p="29">12</r>
+<r p="30">56</r>
+<r p="31">67</r>
+<r p="32">39</r>
+<r p="33">19</r>
+<r p="34">87</r>
+<r p="35">49</r>
+<r p="36">18</r>
+<r p="37">37</r>
+<r p="38">18</r>
+<r p="39">27</r>
+<r p="40">16</r>
+<r p="41">26</r>
+<r p="42">36</r>
+<r p="43">84</r>
+<r p="44">18</r>
+<r p="45">88</r>
+<r p="46">71</r>
+<r p="47">71</r>
+<r p="48">29</r>
+<r p="49">55</r>
+<r p="50">62</r>
+<r p="51">55</r>
+<r p="52">28</r>
+<r p="53">82</r>
+<r p="54">55</r>
+<r p="55">34</r>
+<r p="56">77</r>
+<r p="57">76</r>
+<r p="58">40</r>
+<r p="59">52</r>
+<r p="60">68</r>
+<r p="61">3</r>
+<r p="62">21</r>
+<r p="63">52</r>
+<r p="64">46</r>
+<r p="65">48</r>
+<r p="66">44</r>
+<r p="67">68</r>
+<r p="68">83</r>
+<r p="69">35</r>
+<r p="70">79</r>
+<r p="71">0</r>
+<r p="72">4</r>
+<r p="73">66</r>
+<r p="74">65</r>
+<r p="75">8</r>
+<r p="76">86</r>
+<r p="77">14</r>
+<r p="78">67</r>
+<r p="79">35</r>
+<r p="80">62</r>
+<r p="81">83</r>
+<r p="82">10</r>
+<r p="83">81</r>
+<r p="84">66</r>
+<r p="85">67</r>
+<r p="86">75</r>
+<r p="87">74</r>
+<r p="88">37</r>
+<r p="89">18</r>
+<r p="90">94</r>
+<r p="91">24</r>
+<r p="92">85</r>
+<r p="93">28</r>
+<r p="94">55</r>
+<r p="95">88</r>
+<r p="96">10</r>
+<r p="97">2</r>
+<r p="98">3</r>
+<r p="99">46</r>
+<r p="100">89</r>
+<r p="101">40</r>
+<r p="102">3</r>
+<r p="103">91</r>
+<r p="104">59</r>
+<r p="105">51</r>
+<r p="106">93</r>
+<r p="107">97</r>
+<r p="108">98</r>
+<r p="109">91</r>
+<r p="110">78</r>
+<r p="111">81</r>
+<r p="112">7</r>
+<r p="113">53</r>
+<r p="114">33</r>
+<r p="115">97</r>
+<r p="116">69</r>
+<r p="117">40</r>
+<r p="118">3</r>
+<r p="119">19</r>
+<r p="120">20</r>
+<r p="121">8</r>
+<r p="122">32</r>
+<r p="123">85</r>
+<r p="124">30</r>
+<r p="125">27</r>
+<r p="126">70</r>
+<r p="127">89</r>
+<r p="128">40</r>
+<r p="129">63</r>
+<r p="130">84</r>
+<r p="131">65</r>
+<r p="132">32</r>
+<r p="133">85</r>
+<r p="134">35</r>
+<r p="135">62</r>
+<r p="136">45</r>
+<r p="137">24</r>
+<r p="138">32</r>
+<r p="139">65</r>
+<r p="140">71</r>
+<r p="141">78</r>
+<r p="142">72</r>
+<r p="143">56</r>
+<r p="144">59</r>
+<r p="145">56</r>
+<r p="146">48</r>
+<r p="147">37</r>
+<r p="148">80</r>
+<r p="149">55</r>
+<r p="150">35</r>
+<r p="151">66</r>
+<r p="152">72</r>
+<r p="153">73</r>
+<r p="154">56</r>
+<r p="155">57</r>
+<r p="156">88</r>
+<r p="157">85</r>
+<r p="158">30</r>
+<r p="159">4</r>
+<r p="160">26</r>
+<r p="161">98</r>
+<r p="162">57</r>
+<r p="163">7</r>
+<r p="164">88</r>
+<r p="165">99</r>
+<r p="166">15</r>
+<r p="167">83</r>
+<r p="168">80</r>
+<r p="169">55</r>
+<r p="170">36</r>
+<r p="171">58</r>
+<r p="172">79</r>
+<r p="173">79</r>
+<r p="174">65</r>
+<r p="175">18</r>
+<r p="176">75</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnFbcPrasStartReqFail</measType>
+<measType p="2">ggsnApnFbcPrasStartReq</measType>
+<measType p="3">ggsnApnFbcPrasStopReq</measType>
+<measType p="4">ggsnApnFbcPrasStopReqFail</measType>
+<measType p="5">ggsnApnFbcPrasUpdateReq</measType>
+<measType p="6">ggsnApnFbcPrasUpdateReqFail</measType>
+<measType p="7">ggsnApnFbcPrasUserServiceDenied</measType>
+<measType p="8">ggsnApnFbcPrasUserUnknown</measType>
+<measValue measObjLdn="ggsnApnFbcPrasStats,entry,ggsnApnName=ggsnApnName1.com,ggsnApnFbcPrasName=ggsnApnFbcPrasName1.com">
+<r p="1">92</r>
+<r p="2">53</r>
+<r p="3">66</r>
+<r p="4">63</r>
+<r p="5">57</r>
+<r p="6">71</r>
+<r p="7">42</r>
+<r p="8">41</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnFailedActivation</measType>
+<measValue measObjLdn="ggsnPdpContextsStatsFailed,entry">
+<r p="1">75</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">smNbrOfBearers</measType>
+<measValue measObjLdn="pgwNumberOfBearersQciArp,entry,qci-value=,arp-value=">
+<r p="1">51</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnAcctDataRecTransReqSent</measType>
+<measType p="2">ggsnAcctDataRecTransReqSentDup</measType>
+<measType p="3">ggsnAcctDataRecTransRespReceived</measType>
+<measType p="4">ggsnAcctRedirectionReqReceived</measType>
+<measType p="5">ggsnAcctRedirectionRespSent</measType>
+<measValue measObjLdn="ggsnAcctBillingGateway,entry,ggsnAcctBillingGatewayAddress=6.6.6.6">
+<r p="1">59</r>
+<r p="2">10</r>
+<r p="3">11</r>
+<r p="4">74</r>
+<r p="5">57</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnFbcServIdentDownlinkBytes</measType>
+<measType p="2">ggsnApnFbcServIdentUplinkBytes</measType>
+<measValue measObjLdn="ggsnApnFbcServIdentStats,entry,ggsnGtpuAddress=,ggsnApnName=ggsnApnName1.com,ggsnServIdentIndex=1">
+<r p="1">29</r>
+<r p="2">90</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnUplinkBytes</measType>
+<measType p="2">ggsnUplinkBytesIpv6</measType>
+<measType p="3">ggsnUplinkBytesNonIp</measType>
+<measType p="4">ggsnUplinkDrops</measType>
+<measType p="5">ggsnUplinkDropsBytes</measType>
+<measType p="6">ggsnUplinkDropsIpv6</measType>
+<measType p="7">ggsnUplinkPackets</measType>
+<measType p="8">ggsnUplinkPacketsIpv6</measType>
+<measType p="9">ggsnUplinkPacketsNonIp</measType>
+<measValue measObjLdn="ggsnUplinkTrafficInfo,entry">
+<r p="1">40</r>
+<r p="2">91</r>
+<r p="3">28</r>
+<r p="4">72</r>
+<r p="5">36</r>
+<r p="6">65</r>
+<r p="7">63</r>
+<r p="8">46</r>
+<r p="9">22</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnAttemptedActivation</measType>
+<measType p="2">ggsnAttemptedActivationDiscarded</measType>
+<measType p="3">ggsnAttemptedActivationIpv4v6</measType>
+<measType p="4">ggsnAttemptedActivationIpv6</measType>
+<measType p="5">ggsnAttemptedActivationWlan</measType>
+<measType p="6">ggsnAttemptedDeactivation</measType>
+<measType p="7">ggsnAttemptedManualDeactivation</measType>
+<measType p="8">ggsnAttemptedSecondaryActivation</measType>
+<measType p="9">ggsnAttemptedSecondaryActivationIpv6</measType>
+<measType p="10">ggsnAttemptedSelfDeactivation</measType>
+<measType p="11">ggsnAttemptedUpdate</measType>
+<measValue measObjLdn="ggsnPdpContextsStatsAttempted,entry">
+<r p="1">65</r>
+<r p="2">1</r>
+<r p="3">88</r>
+<r p="4">6</r>
+<r p="5">49</r>
+<r p="6">28</r>
+<r p="7">63</r>
+<r p="8">85</r>
+<r p="9">71</r>
+<r p="10">76</r>
+<r p="11">6</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnApnRadiusAcctServerAccountingRequestRetransmits</measType>
+<measType p="2">ggsnApnRadiusAcctServerAccountingRequestTimeouts</measType>
+<measType p="3">ggsnApnRadiusAcctServerAccountingRequests</measType>
+<measType p="4">ggsnApnRadiusAcctServerAccountingRequestsInterim</measType>
+<measType p="5">ggsnApnRadiusAcctServerAccountingRequestsInterimThrottling</measType>
+<measType p="6">ggsnApnRadiusAcctServerAccountingResponses</measType>
+<measType p="7">ggsnApnRadiusAcctServerInvalidAuthenticators</measType>
+<measValue measObjLdn="ggsnApnRadiusAcctServersStats,entry,ggsnApnName=ggsnApnName1.com,ggsnApnRadiusAcctServerIpAddress=0.0.0.0">
+<r p="1">40</r>
+<r p="2">1</r>
+<r p="3">63</r>
+<r p="4">89</r>
+<r p="5">74</r>
+<r p="6">87</r>
+<r p="7">14</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ggsnDownlinkBytes</measType>
+<measType p="2">ggsnDownlinkBytesIpv6</measType>
+<measType p="3">ggsnDownlinkBytesNonIp</measType>
+<measType p="4">ggsnDownlinkDrops</measType>
+<measType p="5">ggsnDownlinkDropsBytes</measType>
+<measType p="6">ggsnDownlinkDropsBytesSuspended</measType>
+<measType p="7">ggsnDownlinkDropsIpv6</measType>
+<measType p="8">ggsnDownlinkDropsPacketsSuspended</measType>
+<measType p="9">ggsnDownlinkPackets</measType>
+<measType p="10">ggsnDownlinkPacketsIpv6</measType>
+<measType p="11">ggsnDownlinkPacketsNonIp</measType>
+<measValue measObjLdn="ggsnDownlinkTrafficInfo,entry">
+<r p="1">53</r>
+<r p="2">66</r>
+<r p="3">17</r>
+<r p="4">8</r>
+<r p="5">86</r>
+<r p="6">6</r>
+<r p="7">30</r>
+<r p="8">46</r>
+<r p="9">48</r>
+<r p="10">22</r>
+<r p="11">6</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">encodedCdrs</measType>
+<measType p="2">ftpCdrsToBeWrittenToDisk</measType>
+<measType p="3">generatedFtpCdrs</measType>
+<measType p="4">generatedGtppCdrs</measType>
+<measType p="5">gtppAttemptedCdrsSend</measType>
+<measType p="6">gtppCdrsSendFailure</measType>
+<measType p="7">gtppCdrsToBeWrittenToDisk</measType>
+<measType p="8">gtppCdrsWrittenToDisk</measType>
+<measType p="9">gyCcrToBeWrittenToDisk</measType>
+<measType p="10">gyCcrWrittenToDisk</measType>
+<measType p="11">rfAcctAnswerAccRec</measType>
+<measType p="12">rfAcctAnswerRejRec</measType>
+<measType p="13">rfAcctReqSent</measType>
+<measType p="14">rfAcctReqToBeWrittenToDisk</measType>
+<measType p="15">rfAcctReqWrittenToDisk</measType>
+<measValue measObjLdn="pgwOfflineCharging,entry">
+<r p="1">24</r>
+<r p="2">66</r>
+<r p="3">11</r>
+<r p="4">60</r>
+<r p="5">80</r>
+<r p="6">66</r>
+<r p="7">94</r>
+<r p="8">81</r>
+<r p="9">96</r>
+<r p="10">81</r>
+<r p="11">93</r>
+<r p="12">87</r>
+<r p="13">68</r>
+<r p="14">34</r>
+<r p="15">40</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">nbrOfCdmaPdnConnections</measType>
+<measType p="2">nbrOfDynamicPolicyControlPdnConnections</measType>
+<measType p="3">nbrOfEutranPdnConnections</measType>
+<measType p="4">nbrOfGeranPdnConnections</measType>
+<measType p="5">nbrOfHspaEvolutionPdnConnections</measType>
+<measType p="6">nbrOfLowAccessPriorityPdnConnections</measType>
+<measType p="7">nbrOfNbIotPdnConnections</measType>
+<measType p="8">nbrOfOnlineChargingPdnConnections</measType>
+<measType p="9">nbrOfPgwPdnConnections</measType>
+<measType p="10">nbrOfPiscPdnConnections</measType>
+<measType p="11">nbrOfSuspendedPdnConnections</measType>
+<measType p="12">nbrOfUtranPdnConnections</measType>
+<measType p="13">nbrOfWlanPdnConnections</measType>
+<measValue measObjLdn="pdnConnectionsPgw,entry">
+<r p="1">31</r>
+<r p="2">81</r>
+<r p="3">95</r>
+<r p="4">56</r>
+<r p="5">14</r>
+<r p="6">22</r>
+<r p="7">34</r>
+<r p="8">72</r>
+<r p="9">93</r>
+<r p="10">59</r>
+<r p="11">76</r>
+<r p="12">30</r>
+<r p="13">17</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-08T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

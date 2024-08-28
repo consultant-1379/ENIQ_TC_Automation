@@ -1,0 +1,2 @@
+#NMI/TestCases/Counter_Tool/Disable_Counter_Tool.robot
+NMI/TestCases/Counter_Tool/NMI_Disable_Counter_Tool_TC20.robot

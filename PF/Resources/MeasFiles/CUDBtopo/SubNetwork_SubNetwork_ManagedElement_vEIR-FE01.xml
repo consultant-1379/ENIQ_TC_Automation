@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Nov 07 13:13:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=SubNetwork,ManagedElement=vEIR-FE01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=SubNetwork,ManagedElement=vEIR-FE01" mimName="ONRM" mimVersion="13.2.4" lastModified="1699362780371">
+ <attr name="userLabel">vEIR-FE01</attr>
+ <attr name="nodeVersion">1.27</attr>
+ <attr name="siteRef">SubNetwork=SubNetwork,Site=MSvEIR-FE01</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>EIRFE</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

@@ -1,0 +1,6 @@
+version:2.0
+name:NR-NSA
+sharing:Public
+userId:test1
+type:BRANCH
+customTopology:true

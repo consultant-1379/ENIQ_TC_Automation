@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=SubNetwork,ManagedElement=JUNIPER-MX01" mimName="ComTop" lastModified="1700067780302">
+	<attr name="timestampOfChange">2023-11-15 17:03:00.337</attr>
+	<attr name="managedElementType">JUNIPER-MX</attr>
+	<attr name="nodeVersion">20.2R1</attr>
+	<attr name="userLabel">JUNIPER-MX01</attr>
+	</mo>
+</model>

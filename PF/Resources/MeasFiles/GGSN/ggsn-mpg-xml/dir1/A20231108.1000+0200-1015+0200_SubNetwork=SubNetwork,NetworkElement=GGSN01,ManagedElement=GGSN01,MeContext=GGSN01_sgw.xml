@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V8.0" vendorName="Ericsson">
+<fileSender localDn="ManagedElement=GGSN01" elementType="sgw"/>
+<measCollec  beginTime="2023-11-08T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=GGSN01"/>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">rfAcctAnswerAccRec</measType>
+<measType p="1">rfAcctAnswerRejRec</measType>
+<measType p="2">rfAcctReqCreated</measType>
+<measType p="3">rfAcctReqPendingToBeWrittenToDisk</measType>
+<measType p="4">rfAcctReqSent</measType>
+<measType p="5">rfAcctReqWrittenToDisk</measType>
+<measValue measObjLdn="offlineCharging,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">366899550</r>
+<r p="1">296983504</r>
+<r p="2">356398433</r>
+<r p="3">856916961</r>
+<r p="4">39174048</r>
+<r p="5">947930208</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smBearerResourceCmdRcvd</measType>
+<measType p="1">smBearerResourceFailureIndSent</measType>
+<measType p="2">smCreateBearerReqSent</measType>
+<measType p="3">smCreateBearerRespAccRcvd</measType>
+<measType p="4">smCreateBearerRespRejRcvd</measType>
+<measType p="5">smCreateIndDataFwdTlReqRcvd</measType>
+<measType p="6">smCreateIndDataFwdTlRespAccSent</measType>
+<measType p="7">smCreateIndDataFwdTlRespRejSent</measType>
+<measType p="8">smCreateSessionReqRcvd</measType>
+<measType p="9">smCreateSessionRespAccSent</measType>
+<measType p="10">smCreateSessionRespRejSent</measType>
+<measType p="11">smDeleteBearerCmdRcvd</measType>
+<measType p="12">smDeleteBearerFailureIndSent</measType>
+<measType p="13">smDeleteBearerReqSent</measType>
+<measType p="14">smDeleteBearerRespAccRcvd</measType>
+<measType p="15">smDeleteBearerRespRejRcvd</measType>
+<measType p="16">smDeleteIndDataFwdTlReqRcvd</measType>
+<measType p="17">smDeleteIndDataFwdTlRespAccSent</measType>
+<measType p="18">smDeleteIndDataFwdTlRespRejSent</measType>
+<measType p="19">smDeleteSessionReqRcvd</measType>
+<measType p="20">smDeleteSessionRespAccSent</measType>
+<measType p="21">smDeleteSessionRespRejSent</measType>
+<measType p="22">smDlDataNotifAckImsiAccRcvd</measType>
+<measType p="23">smDlDataNotifAckImsiDlBufferingDurationAccRcvd</measType>
+<measType p="24">smDlDataNotifAckImsiRejRcvd</measType>
+<measType p="25">smDlDataNotifDroppedRateControl</measType>
+<measType p="26">smDlDataNotifFailureIndImsiRcvd</measType>
+<measType p="27">smDlDataNotifImsiSent</measType>
+<measType p="28">smDlDataNotifSmartPagingSent</measType>
+<measType p="29">smDlDataNotifAckAccRcvd</measType>
+<measType p="30">smDlDataNotifAckDlBufferingDurationAccRcvd</measType>
+<measType p="31">smDlDataNotifAckRejRcvd</measType>
+<measType p="32">smDlDataNotifFailureIndRcvd</measType>
+<measType p="33">smDlDataNotifIntermmeAckAccRcvd</measType>
+<measType p="34">smDlDataNotifIntermmeAckRejRcvd</measType>
+<measType p="35">smDlDataNotifIntermmeSent</measType>
+<measType p="36">smDlDataNotifSent</measType>
+<measType p="37">smModifyAccessBearersReqRcvd</measType>
+<measType p="38">smModifyAccessBearersRespAccSent</measType>
+<measType p="39">smModifyAccessBearersRespRejSent</measType>
+<measType p="40">smModifyBearerCmdRcvd</measType>
+<measType p="41">smModifyBearerFailureIndSent</measType>
+<measType p="42">smModifyBearerReqRcvd</measType>
+<measType p="43">smModifyBearerRespAccSent</measType>
+<measType p="44">smModifyBearerRespRejSent</measType>
+<measType p="45">smPgwRestartNotifAckAccRcvd</measType>
+<measType p="46">smPgwRestartNotifAckRejRcvd</measType>
+<measType p="47">smPgwRestartNotifSent</measType>
+<measType p="48">smRelAccessBearersReqRcvd</measType>
+<measType p="49">smRelAccessBearersRespAccSent</measType>
+<measType p="50">smRelAccessBearersRespRejSent</measType>
+<measType p="51">smResumeNotifRcvd</measType>
+<measType p="52">smSuspendNotifRcvd</measType>
+<measType p="53">smUpdateBearerReqSent</measType>
+<measType p="54">smUpdateBearerRespAccRcvd</measType>
+<measType p="55">smUpdateBearerRespRejRcvd</measType>
+<measValue measObjLdn="sgwGtpTunnelMgmtS4S11,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">906696442</r>
+<r p="1">614032605</r>
+<r p="2">742165920</r>
+<r p="3">846534899</r>
+<r p="4">626044478</r>
+<r p="5">636068624</r>
+<r p="6">175296851</r>
+<r p="7">328932764</r>
+<r p="8">33382168</r>
+<r p="9">203217956</r>
+<r p="10">786138224</r>
+<r p="11">517000153</r>
+<r p="12">161519022</r>
+<r p="13">994507120</r>
+<r p="14">146068096</r>
+<r p="15">881738736</r>
+<r p="16">913541103</r>
+<r p="17">348883247</r>
+<r p="18">684865470</r>
+<r p="19">374467017</r>
+<r p="20">625399020</r>
+<r p="21">68454</r>
+<r p="22">15107288</r>
+<r p="23">382319098</r>
+<r p="24">407828357</r>
+<r p="25">731623154</r>
+<r p="26">613366475</r>
+<r p="27">558496532</r>
+<r p="28">705010478</r>
+<r p="29">645730311</r>
+<r p="30">67592092</r>
+<r p="31">527914006</r>
+<r p="32">777890350</r>
+<r p="33">642532699</r>
+<r p="34">448685570</r>
+<r p="35">575325200</r>
+<r p="36">496825163</r>
+<r p="37">266426072</r>
+<r p="38">619169682</r>
+<r p="39">685709966</r>
+<r p="40">911245952</r>
+<r p="41">291531009</r>
+<r p="42">452979908</r>
+<r p="43">725650070</r>
+<r p="44">553271550</r>
+<r p="45">290636398</r>
+<r p="46">7790414</r>
+<r p="47">129615265</r>
+<r p="48">327722783</r>
+<r p="49">960228686</r>
+<r p="50">664919863</r>
+<r p="51">186527368</r>
+<r p="52">142741802</r>
+<r p="53">158789999</r>
+<r p="54">131745110</r>
+<r p="55">909664817</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">bufferedBytesHighPriority</measType>
+<measType p="1">bufferedBytesNormalPriority</measType>
+<measType p="2">bufferedPacketsHighPriority</measType>
+<measType p="3">bufferedPacketsNormalPriority</measType>
+<measType p="4">droppedBytesSuspend</measType>
+<measType p="5">droppedPacketsSuspend</measType>
+<measType p="6">sgwDownlinkDroppedBytes</measType>
+<measType p="7">sgwDownlinkDroppedPackets</measType>
+<measType p="8">sgwDroppedBytesBufferOverflow</measType>
+<measType p="9">sgwDroppedBytesSmartPaging</measType>
+<measType p="10">sgwDroppedPacketsBufferOverflow</measType>
+<measType p="11">sgwDroppedPacketsSmartPaging</measType>
+<measValue measObjLdn="sgwDownlinkTraffic,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">143230094</r>
+<r p="1">456369857</r>
+<r p="2">987683464</r>
+<r p="3">516916196</r>
+<r p="4">523575737</r>
+<r p="5">490504732</r>
+<r p="6">147187222</r>
+<r p="7">748585494</r>
+<r p="8">416649088</r>
+<r p="9">576880100</r>
+<r p="10">211826680</r>
+<r p="11">606398520</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sgwGtpCreateMessageDrops</measType>
+<measType p="1">sgwGtpCreateMessageRejected</measType>
+<measType p="2">sgwGtpMessageDrops</measType>
+<measValue measObjLdn="sgwGtpOverloadProtection,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">282803039</r>
+<r p="1">832700327</r>
+<r p="2">188421165</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">echoReqRcvd</measType>
+<measType p="1">echoReqSent</measType>
+<measType p="2">echoRespAccRcvd</measType>
+<measType p="3">echoRespAccSent</measType>
+<measType p="4">echoRespRejRcvd</measType>
+<measType p="5">echoRespRejSent</measType>
+<measValue measObjLdn="sgwGtpPathMgmtS4S11,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">610053576</r>
+<r p="1">555622456</r>
+<r p="2">536551645</r>
+<r p="3">461309971</r>
+<r p="4">336606677</r>
+<r p="5">40425087</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">droppedInDataPkt</measType>
+<measType p="1">droppedOutDataPkt</measType>
+<measType p="2">inDataByte</measType>
+<measType p="3">inDataPkt</measType>
+<measType p="4">outDataByte</measType>
+<measType p="5">outDataPkt</measType>
+<measValue measObjLdn="sgwGtpTrafficS1uS4S12,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">570613863</r>
+<r p="1">224237882</r>
+<r p="2">833175087</r>
+<r p="3">707023736</r>
+<r p="4">569397057</r>
+<r p="5">800963286</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">nbrOfEmcUnauthUes</measType>
+<measType p="1">nbrOfNbIotUes</measType>
+<measType p="2">nbrOfS11uNbIotUes</measType>
+<measType p="3">nbrOfS11uUes</measType>
+<measType p="4">nbrOfSuspendedUes</measType>
+<measType p="5">nbrOfUesPendRestoration</measType>
+<measType p="6">sgwNbrOfConnectedUes</measType>
+<measType p="7">sgwNbrOfNonIpUes</measType>
+<measType p="8">sgwNbrOfUes</measType>
+<measType p="9">ueRestorationAttempted</measType>
+<measType p="10">ueRestorationCompleted</measType>
+<measValue measObjLdn="sgwNumberOfUes,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">474889635</r>
+<r p="1">70017586</r>
+<r p="2">833749329</r>
+<r p="3">413579117</r>
+<r p="4">977720805</r>
+<r p="5">307888452</r>
+<r p="6">159702527</r>
+<r p="7">993669972</r>
+<r p="8">569749287</r>
+<r p="9">636435175</r>
+<r p="10">478792617</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smCreateDedicatedBearerRequest</measType>
+<measType p="1">smCreateDedicatedBearerRequestFulfilled</measType>
+<measType p="2">smCreateDedicatedBearerRequestRejected</measType>
+<measType p="3">smCreateDefaultBearerAttemptInit</measType>
+<measType p="4">smCreateDefaultBearerAttemptRejected</measType>
+<measType p="5">smCreateDefaultBearerAttemptSuccess</measType>
+<measType p="6">smDeleteBearerAttemptInit</measType>
+<measType p="7">smDeleteBearerAttemptRejected</measType>
+<measType p="8">smDeleteBearerAttemptSuccess</measType>
+<measType p="9">smDeleteBearerCmdAttemptInit</measType>
+<measType p="10">smDeleteBearerCmdAttemptRejected</measType>
+<measType p="11">smDeleteBearerCmdAttemptSuccess</measType>
+<measType p="12">smDeleteBearerDelsessionAttemptInit</measType>
+<measType p="13">smDeleteBearerDelsessionAttemptRejected</measType>
+<measType p="14">smDeleteBearerDelsessionAttemptSuccess</measType>
+<measType p="15">smDeleteBearerRequest</measType>
+<measType p="16">smDeleteBearerRequestFulfilled</measType>
+<measType p="17">smDeleteBearerRequestRejected</measType>
+<measType p="18">smSgwRelocModifyBearerAttemptInit</measType>
+<measType p="19">smSgwRelocModifyBearerAttemptRejected</measType>
+<measType p="20">smSgwRelocModifyBearerAttemptSuccess</measType>
+<measType p="21">smUpdateBearerRequest</measType>
+<measType p="22">smUpdateBearerRequestFulfilled</measType>
+<measType p="23">smUpdateBearerRequestRejected</measType>
+<measValue measObjLdn="sgwBearerMgmtQciS5S8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">573811569</r>
+<r p="1">774646714</r>
+<r p="2">222587664</r>
+<r p="3">609812230</r>
+<r p="4">645551367</r>
+<r p="5">867577995</r>
+<r p="6">101399433</r>
+<r p="7">481522949</r>
+<r p="8">624892088</r>
+<r p="9">826431420</r>
+<r p="10">142025640</r>
+<r p="11">901674869</r>
+<r p="12">227432934</r>
+<r p="13">520228682</r>
+<r p="14">97751360</r>
+<r p="15">319752301</r>
+<r p="16">122705279</r>
+<r p="17">951761676</r>
+<r p="18">170642484</r>
+<r p="19">59183525</r>
+<r p="20">710873668</r>
+<r p="21">602948632</r>
+<r p="22">323149671</r>
+<r p="23">179323769</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">icrCreateSessionSyncReceived</measType>
+<measType p="1">icrCreateSessionSyncSent</measType>
+<measType p="2">icrCreateSyncReceived</measType>
+<measType p="3">icrCreateSyncSent</measType>
+<measType p="4">icrDeleteSessionSyncReceived</measType>
+<measType p="5">icrDeleteSessionSyncSent</measType>
+<measType p="6">icrDeleteSyncReceived</measType>
+<measType p="7">icrDeleteSyncSent</measType>
+<measValue measObjLdn="highAvailability,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">244854675</r>
+<r p="1">319097358</r>
+<r p="2">777003445</r>
+<r p="3">468340472</r>
+<r p="4">807039475</r>
+<r p="5">712208437</r>
+<r p="6">753996265</r>
+<r p="7">65200320</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">droppedInDataPkt</measType>
+<measType p="1">droppedOutDataPkt</measType>
+<measType p="2">inDataByte</measType>
+<measType p="3">inDataPkt</measType>
+<measType p="4">outDataByte</measType>
+<measType p="5">outDataPkt</measType>
+<measValue measObjLdn="sgwGtpTrafficS5,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">842188881</r>
+<r p="1">763647098</r>
+<r p="2">533755676</r>
+<r p="3">862277754</r>
+<r p="4">46702143</r>
+<r p="5">162957077</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">associationSetupReqSent</measType>
+<measType p="1">associationSetupRespAccRcvd</measType>
+<measType p="2">associationSetupRespRejRcvd</measType>
+<measValue measObjLdn="sgwNodeMgmtPfcpSxa,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">330369713</r>
+<r p="1">149675147</r>
+<r p="2">419343682</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sgwEbmBytes</measType>
+<measType p="1">sgwEbmEvents</measType>
+<measValue measObjLdn="sgwEbm,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">932285736</r>
+<r p="1">322734113</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smCreateDedicatedBearerAttemptInit</measType>
+<measType p="1">smCreateDedicatedBearerAttemptRejected</measType>
+<measType p="2">smCreateDedicatedBearerAttemptSuccess</measType>
+<measType p="3">smCreateDefaultBearerRequest</measType>
+<measType p="4">smCreateDefaultBearerRequestFulfilled</measType>
+<measType p="5">smCreateDefaultBearerRequestRejected</measType>
+<measType p="6">smDeleteBearerAttemptInit</measType>
+<measType p="7">smDeleteBearerAttemptRejected</measType>
+<measType p="8">smDeleteBearerAttemptSuccess</measType>
+<measType p="9">smDeleteBearerCmdRequest</measType>
+<measType p="10">smDeleteBearerCmdRequestFulfilled</measType>
+<measType p="11">smDeleteBearerCmdRequestRejected</measType>
+<measType p="12">smDeleteBearerDelsessionRequest</measType>
+<measType p="13">smDeleteBearerDelsessionRequestFulfilled</measType>
+<measType p="14">smDeleteBearerDelsessionRequestRejected</measType>
+<measType p="15">smDeleteBearerRequest</measType>
+<measType p="16">smDeleteBearerRequestFulfilled</measType>
+<measType p="17">smDeleteBearerRequestRejected</measType>
+<measType p="18">smSgwRelocCreateDedicatedBearerRequest</measType>
+<measType p="19">smSgwRelocCreateDedicatedBearerRequestFulfilled</measType>
+<measType p="20">smSgwRelocCreateDedicatedBearerRequestRejected</measType>
+<measType p="21">smSgwRelocCreateDefaultBearerRequest</measType>
+<measType p="22">smSgwRelocCreateDefaultBearerRequestFulfilled</measType>
+<measType p="23">smSgwRelocCreateDefaultBearerRequestRejected</measType>
+<measType p="24">smUpdateBearerAttemptInit</measType>
+<measType p="25">smUpdateBearerAttemptRejected</measType>
+<measType p="26">smUpdateBearerAttemptSuccess</measType>
+<measValue measObjLdn="sgwBearerMgmtQciS4S11,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">928165027</r>
+<r p="1">189645067</r>
+<r p="2">54834572</r>
+<r p="3">412748623</r>
+<r p="4">939734870</r>
+<r p="5">157581654</r>
+<r p="6">150944879</r>
+<r p="7">930997287</r>
+<r p="8">743035869</r>
+<r p="9">701756992</r>
+<r p="10">726873388</r>
+<r p="11">561305562</r>
+<r p="12">95606679</r>
+<r p="13">343210224</r>
+<r p="14">159008076</r>
+<r p="15">213574872</r>
+<r p="16">495563831</r>
+<r p="17">288094853</r>
+<r p="18">370219955</r>
+<r p="19">438553190</r>
+<r p="20">982521019</r>
+<r p="21">814859847</r>
+<r p="22">105241383</r>
+<r p="23">248707663</r>
+<r p="24">200819271</r>
+<r p="25">720197285</r>
+<r p="26">818407326</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">droppedInDataPkt</measType>
+<measType p="1">droppedOutDataPkt</measType>
+<measType p="2">inDataByte</measType>
+<measType p="3">inDataPkt</measType>
+<measType p="4">outDataByte</measType>
+<measType p="5">outDataPkt</measType>
+<measValue measObjLdn="sgwGtpTrafficS5S8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">886123555</r>
+<r p="1">287720695</r>
+<r p="2">292902948</r>
+<r p="3">449790954</r>
+<r p="4">161361477</r>
+<r p="5">365038708</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">bpCdrsEncoded</measType>
+<measType p="1">bpCdrsPendingToBeWrittenToDisk</measType>
+<measType p="2">bpCdrsWrittenToDisk</measType>
+<measValue measObjLdn="ftpCdrs,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">445929714</r>
+<r p="1">784710382</r>
+<r p="2">476462086</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sgwUplinkDroppedBytes</measType>
+<measType p="1">sgwUplinkDroppedPackets</measType>
+<measValue measObjLdn="sgwUplinkTraffic,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">284747928</r>
+<r p="1">704295640</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">attemptedPdnHoFromNon3gpp</measType>
+<measType p="1">completedPdnHoFromNon3gpp</measType>
+<measValue measObjLdn="handover,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">666778753</r>
+<r p="1">540796511</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">loadMetric</measType>
+<measValue measObjLdn="sgwLoadControlInformation,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">807437338</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sgwEbmBytes</measType>
+<measType p="1">sgwEbmDroppedBytes</measType>
+<measType p="2">sgwEbmDroppedEvents</measType>
+<measType p="3">sgwEbmEvents</measType>
+<measValue measObjLdn="sgwEbmStats,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">720142582</r>
+<r p="1">66114916</r>
+<r p="2">90217203</r>
+<r p="3">577040367</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">errorIndicationRcvdAn</measType>
+<measType p="1">errorIndicationRcvdPgw</measType>
+<measType p="2">errorIndicationSentAn</measType>
+<measType p="3">errorIndicationSentPgw</measType>
+<measValue measObjLdn="sgwErrorIndication,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">866122636</r>
+<r p="1">892027682</r>
+<r p="2">627972740</r>
+<r p="3">96096349</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smCreateDedicatedBearerRequest</measType>
+<measType p="1">smCreateDedicatedBearerRequestFulfilled</measType>
+<measType p="2">smCreateDedicatedBearerRequestRejected</measType>
+<measType p="3">smCreateDefaultBearerAttemptInit</measType>
+<measType p="4">smCreateDefaultBearerAttemptRejected</measType>
+<measType p="5">smCreateDefaultBearerAttemptSuccess</measType>
+<measType p="6">smDeleteBearerAttemptInit</measType>
+<measType p="7">smDeleteBearerAttemptRejected</measType>
+<measType p="8">smDeleteBearerAttemptSuccess</measType>
+<measType p="9">smDeleteBearerCmdAttemptInit</measType>
+<measType p="10">smDeleteBearerCmdAttemptRejected</measType>
+<measType p="11">smDeleteBearerCmdAttemptSuccess</measType>
+<measType p="12">smDeleteBearerDelsessionAttemptInit</measType>
+<measType p="13">smDeleteBearerDelsessionAttemptRejected</measType>
+<measType p="14">smDeleteBearerDelsessionAttemptSuccess</measType>
+<measType p="15">smDeleteBearerRequest</measType>
+<measType p="16">smDeleteBearerRequestFulfilled</measType>
+<measType p="17">smDeleteBearerRequestRejected</measType>
+<measType p="18">smSgwRelocModifyBearerAttemptInit</measType>
+<measType p="19">smSgwRelocModifyBearerAttemptRejected</measType>
+<measType p="20">smSgwRelocModifyBearerAttemptSuccess</measType>
+<measType p="21">smUpdateBearerRequest</measType>
+<measType p="22">smUpdateBearerRequestFulfilled</measType>
+<measType p="23">smUpdateBearerRequestRejected</measType>
+<measValue measObjLdn="sgwBearerMgmtQciS5,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">244423674</r>
+<r p="1">483431551</r>
+<r p="2">320107236</r>
+<r p="3">402867490</r>
+<r p="4">141127355</r>
+<r p="5">910447309</r>
+<r p="6">698573329</r>
+<r p="7">304956304</r>
+<r p="8">554226029</r>
+<r p="9">577086152</r>
+<r p="10">752045317</r>
+<r p="11">833638655</r>
+<r p="12">928507953</r>
+<r p="13">127611516</r>
+<r p="14">317426652</r>
+<r p="15">48947580</r>
+<r p="16">641652524</r>
+<r p="17">328117520</r>
+<r p="18">424304158</r>
+<r p="19">447613896</r>
+<r p="20">103260771</r>
+<r p="21">420059258</r>
+<r p="22">390108861</r>
+<r p="23">4289370</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">echoReqRcvd</measType>
+<measType p="1">echoReqSent</measType>
+<measType p="2">echoRespAccRcvd</measType>
+<measType p="3">echoRespAccSent</measType>
+<measType p="4">echoRespRejRcvd</measType>
+<measType p="5">echoRespRejSent</measType>
+<measValue measObjLdn="sgwGtpPathMgmtS5,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">552178476</r>
+<r p="1">423914054</r>
+<r p="2">15501388</r>
+<r p="3">311048862</r>
+<r p="4">767352478</r>
+<r p="5">8849809</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smCreateDedicatedBearerRequest</measType>
+<measType p="1">smCreateDedicatedBearerRequestFulfilled</measType>
+<measType p="2">smCreateDedicatedBearerRequestRejected</measType>
+<measType p="3">smCreateDefaultBearerAttemptInit</measType>
+<measType p="4">smCreateDefaultBearerAttemptRejected</measType>
+<measType p="5">smCreateDefaultBearerAttemptSuccess</measType>
+<measType p="6">smDeleteBearerAttemptInit</measType>
+<measType p="7">smDeleteBearerAttemptRejected</measType>
+<measType p="8">smDeleteBearerAttemptSuccess</measType>
+<measType p="9">smDeleteBearerCmdAttemptInit</measType>
+<measType p="10">smDeleteBearerCmdAttemptRejected</measType>
+<measType p="11">smDeleteBearerCmdAttemptSuccess</measType>
+<measType p="12">smDeleteBearerDelsessionAttemptInit</measType>
+<measType p="13">smDeleteBearerDelsessionAttemptRejected</measType>
+<measType p="14">smDeleteBearerDelsessionAttemptSuccess</measType>
+<measType p="15">smDeleteBearerRequest</measType>
+<measType p="16">smDeleteBearerRequestFulfilled</measType>
+<measType p="17">smDeleteBearerRequestRejected</measType>
+<measType p="18">smSgwRelocModifyBearerAttemptInit</measType>
+<measType p="19">smSgwRelocModifyBearerAttemptRejected</measType>
+<measType p="20">smSgwRelocModifyBearerAttemptSuccess</measType>
+<measType p="21">smUpdateBearerRequest</measType>
+<measType p="22">smUpdateBearerRequestFulfilled</measType>
+<measType p="23">smUpdateBearerRequestRejected</measType>
+<measValue measObjLdn="sgwBearerMgmtQciS8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">187507466</r>
+<r p="1">370988255</r>
+<r p="2">943593560</r>
+<r p="3">838220274</r>
+<r p="4">562187006</r>
+<r p="5">348804922</r>
+<r p="6">926001897</r>
+<r p="7">750903548</r>
+<r p="8">769127993</r>
+<r p="9">984567975</r>
+<r p="10">845444012</r>
+<r p="11">744944795</r>
+<r p="12">756814251</r>
+<r p="13">436456186</r>
+<r p="14">952353084</r>
+<r p="15">492659713</r>
+<r p="16">480924184</r>
+<r p="17">34061121</r>
+<r p="18">107256843</r>
+<r p="19">35300609</r>
+<r p="20">126874776</r>
+<r p="21">795923981</r>
+<r p="22">953820790</r>
+<r p="23">380582178</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">echoReqRcvd</measType>
+<measType p="1">echoReqSent</measType>
+<measType p="2">echoRespAccRcvd</measType>
+<measType p="3">echoRespAccSent</measType>
+<measType p="4">echoRespRejRcvd</measType>
+<measType p="5">echoRespRejSent</measType>
+<measValue measObjLdn="sgwGtpPathMgmtS8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">453433766</r>
+<r p="1">593294484</r>
+<r p="2">273826694</r>
+<r p="3">957809306</r>
+<r p="4">645979941</r>
+<r p="5">526670689</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">echoReqSent</measType>
+<measType p="1">echoRespRcvd</measType>
+<measValue measObjLdn="sgwGtpPathMgmtS1S4S12U,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">403389373</r>
+<r p="1">273044840</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">echoReqRcvd</measType>
+<measType p="1">echoReqSent</measType>
+<measType p="2">echoRespAccRcvd</measType>
+<measType p="3">echoRespAccSent</measType>
+<measType p="4">echoRespRejRcvd</measType>
+<measType p="5">echoRespRejSent</measType>
+<measValue measObjLdn="sgwGtpPathMgmtS5S8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">276000253</r>
+<r p="1">422499042</r>
+<r p="2">875847387</r>
+<r p="3">650700255</r>
+<r p="4">577668848</r>
+<r p="5">354483782</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">droppedInDataPkt</measType>
+<measType p="1">droppedOutDataPkt</measType>
+<measType p="2">inDataByte</measType>
+<measType p="3">inDataPkt</measType>
+<measType p="4">outDataByte</measType>
+<measType p="5">outDataPkt</measType>
+<measValue measObjLdn="sgwGtpTrafficS8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">649146792</r>
+<r p="1">648127478</r>
+<r p="2">272862750</r>
+<r p="3">747275900</r>
+<r p="4">374168501</r>
+<r p="5">586235969</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smNbrOfBearers</measType>
+<measValue measObjLdn="sgwNumberOfBearersArp,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">602724884</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smDlDataNotifDelayed</measType>
+<measType p="1">smDlDataNotifDelayedSent</measType>
+<measType p="2">smDlDataNotifThrottled</measType>
+<measValue measObjLdn="sgwBearerMgmtS4S11,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">929881417</r>
+<r p="1">165334495</r>
+<r p="2">651853482</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sgwGtpErrorResourcesUnavailable</measType>
+<measValue measObjLdn="sgwGtpErrorStats,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">56894503</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smNbrOfBearers</measType>
+<measType p="1">smNbrOfPdnConnections</measType>
+<measType p="2">smNbrOfUes</measType>
+<measValue measObjLdn="sgwNumberOfQciStats,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">971949474</r>
+<r p="1">245958965</r>
+<r p="2">196495210</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sessionDeletionReqSent</measType>
+<measType p="1">sessionDeletionRespAccRcvd</measType>
+<measType p="2">sessionDeletionRespRejRcvd</measType>
+<measType p="3">sessionEstablishmentReqSent</measType>
+<measType p="4">sessionEstablishmentRespAccRcvd</measType>
+<measType p="5">sessionEstablishmentRespRejRcvd</measType>
+<measType p="6">sessionModificationReqSent</measType>
+<measType p="7">sessionModificationRespAccRcvd</measType>
+<measType p="8">sessionModificationRespRejRcvd</measType>
+<measType p="9">sessionReportReqRcvd</measType>
+<measType p="10">sessionReportRespAccSent</measType>
+<measType p="11">sessionReportRespSendFailed</measType>
+<measValue measObjLdn="sgwSessionMgmtPfcpSxa,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">530781744</r>
+<r p="1">258171034</r>
+<r p="2">658194907</r>
+<r p="3">181400907</r>
+<r p="4">286771633</r>
+<r p="5">534339055</r>
+<r p="6">951058570</r>
+<r p="7">200144616</r>
+<r p="8">147000207</r>
+<r p="9">93191782</r>
+<r p="10">389897267</r>
+<r p="11">147817737</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smBearerResourceCmdSent</measType>
+<measType p="1">smBearerResourceFailureIndRcvd</measType>
+<measType p="2">smCreateBearerReqRcvd</measType>
+<measType p="3">smCreateBearerRespAccSent</measType>
+<measType p="4">smCreateBearerRespRejSent</measType>
+<measType p="5">smCreateSessionReqSent</measType>
+<measType p="6">smCreateSessionRespAccRcvd</measType>
+<measType p="7">smCreateSessionRespRejRcvd</measType>
+<measType p="8">smDeleteBearerCmdSent</measType>
+<measType p="9">smDeleteBearerFailureIndRcvd</measType>
+<measType p="10">smDeleteBearerReqRcvd</measType>
+<measType p="11">smDeleteBearerRespAccSent</measType>
+<measType p="12">smDeleteBearerRespRejSent</measType>
+<measType p="13">smDeleteSessionReqSent</measType>
+<measType p="14">smDeleteSessionRespAccRcvd</measType>
+<measType p="15">smDeleteSessionRespRejRcvd</measType>
+<measType p="16">smEnablePgwPauseChrgAccRcvd</measType>
+<measType p="17">smEnablePgwPauseChrgRejRcvd</measType>
+<measType p="18">smEnablePgwPauseChrgReqSent</measType>
+<measType p="19">smModifyBearerCmdSent</measType>
+<measType p="20">smModifyBearerFailureIndRcvd</measType>
+<measType p="21">smModifyBearerReqSent</measType>
+<measType p="22">smModifyBearerRespAccRcvd</measType>
+<measType p="23">smModifyBearerRespRejRcvd</measType>
+<measType p="24">smResumeNotifSent</measType>
+<measType p="25">smStartPgwPauseChrgAccRcvd</measType>
+<measType p="26">smStartPgwPauseChrgRejRcvd</measType>
+<measType p="27">smStartPgwPauseChrgReqSent</measType>
+<measType p="28">smStopPgwPauseChrgAccRcvd</measType>
+<measType p="29">smStopPgwPauseChrgRejRcvd</measType>
+<measType p="30">smStopPgwPauseChrgReqSent</measType>
+<measType p="31">smSuspendNotifSent</measType>
+<measType p="32">smUpdateBearerReqRcvd</measType>
+<measType p="33">smUpdateBearerRespAccSent</measType>
+<measType p="34">smUpdateBearerRespRejSent</measType>
+<measValue measObjLdn="sgwGtpTunnelMgmtS8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">803353373</r>
+<r p="1">358980219</r>
+<r p="2">766798746</r>
+<r p="3">399730459</r>
+<r p="4">994597088</r>
+<r p="5">376772509</r>
+<r p="6">333823520</r>
+<r p="7">312772915</r>
+<r p="8">571054938</r>
+<r p="9">615826939</r>
+<r p="10">729573710</r>
+<r p="11">969021774</r>
+<r p="12">144007372</r>
+<r p="13">55936220</r>
+<r p="14">24495309</r>
+<r p="15">343874204</r>
+<r p="16">99994326</r>
+<r p="17">741466296</r>
+<r p="18">171443531</r>
+<r p="19">499935749</r>
+<r p="20">249460957</r>
+<r p="21">859882346</r>
+<r p="22">215423241</r>
+<r p="23">983084201</r>
+<r p="24">274694230</r>
+<r p="25">929876198</r>
+<r p="26">590050042</r>
+<r p="27">328577166</r>
+<r p="28">443755167</r>
+<r p="29">868778162</r>
+<r p="30">708159776</r>
+<r p="31">472765767</r>
+<r p="32">765120532</r>
+<r p="33">549758221</r>
+<r p="34">840127093</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smBearerResourceCmdSent</measType>
+<measType p="1">smBearerResourceFailureIndRcvd</measType>
+<measType p="2">smCreateBearerReqRcvd</measType>
+<measType p="3">smCreateBearerRespAccSent</measType>
+<measType p="4">smCreateBearerRespRejSent</measType>
+<measType p="5">smCreateSessionReqSent</measType>
+<measType p="6">smCreateSessionRespAccRcvd</measType>
+<measType p="7">smCreateSessionRespRejRcvd</measType>
+<measType p="8">smDeleteBearerCmdSent</measType>
+<measType p="9">smDeleteBearerFailureIndRcvd</measType>
+<measType p="10">smDeleteBearerReqRcvd</measType>
+<measType p="11">smDeleteBearerRespAccSent</measType>
+<measType p="12">smDeleteBearerRespRejSent</measType>
+<measType p="13">smDeleteSessionReqSent</measType>
+<measType p="14">smDeleteSessionRespAccRcvd</measType>
+<measType p="15">smDeleteSessionRespRejRcvd</measType>
+<measType p="16">smEnablePgwPauseChrgAccRcvd</measType>
+<measType p="17">smEnablePgwPauseChrgRejRcvd</measType>
+<measType p="18">smEnablePgwPauseChrgReqSent</measType>
+<measType p="19">smModifyBearerCmdSent</measType>
+<measType p="20">smModifyBearerFailureIndRcvd</measType>
+<measType p="21">smModifyBearerReqSent</measType>
+<measType p="22">smModifyBearerRespAccRcvd</measType>
+<measType p="23">smModifyBearerRespRejRcvd</measType>
+<measType p="24">smResumeNotifSent</measType>
+<measType p="25">smStartPgwPauseChrgAccRcvd</measType>
+<measType p="26">smStartPgwPauseChrgRejRcvd</measType>
+<measType p="27">smStartPgwPauseChrgReqSent</measType>
+<measType p="28">smStopPgwPauseChrgAccRcvd</measType>
+<measType p="29">smStopPgwPauseChrgRejRcvd</measType>
+<measType p="30">smStopPgwPauseChrgReqSent</measType>
+<measType p="31">smSuspendNotifSent</measType>
+<measType p="32">smUpdateBearerReqRcvd</measType>
+<measType p="33">smUpdateBearerRespAccSent</measType>
+<measType p="34">smUpdateBearerRespRejSent</measType>
+<measValue measObjLdn="sgwGtpTunnelMgmtS5S8,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">909922695</r>
+<r p="1">872004342</r>
+<r p="2">956390499</r>
+<r p="3">965837102</r>
+<r p="4">633888058</r>
+<r p="5">445838325</r>
+<r p="6">195476058</r>
+<r p="7">884886125</r>
+<r p="8">260681471</r>
+<r p="9">915147712</r>
+<r p="10">438589065</r>
+<r p="11">374470973</r>
+<r p="12">240924554</r>
+<r p="13">499066879</r>
+<r p="14">328631480</r>
+<r p="15">595558745</r>
+<r p="16">739863245</r>
+<r p="17">403996861</r>
+<r p="18">509752549</r>
+<r p="19">265312008</r>
+<r p="20">587974110</r>
+<r p="21">127414929</r>
+<r p="22">717308442</r>
+<r p="23">337377025</r>
+<r p="24">686585254</r>
+<r p="25">374603933</r>
+<r p="26">299108875</r>
+<r p="27">61525513</r>
+<r p="28">390636425</r>
+<r p="29">52077123</r>
+<r p="30">130017180</r>
+<r p="31">330273201</r>
+<r p="32">684649184</r>
+<r p="33">165731876</r>
+<r p="34">629040738</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">smBearerResourceCmdSent</measType>
+<measType p="1">smBearerResourceFailureIndRcvd</measType>
+<measType p="2">smCreateBearerReqRcvd</measType>
+<measType p="3">smCreateBearerRespAccSent</measType>
+<measType p="4">smCreateBearerRespRejSent</measType>
+<measType p="5">smCreateSessionReqSent</measType>
+<measType p="6">smCreateSessionRespAccRcvd</measType>
+<measType p="7">smCreateSessionRespRejRcvd</measType>
+<measType p="8">smDeleteBearerCmdSent</measType>
+<measType p="9">smDeleteBearerFailureIndRcvd</measType>
+<measType p="10">smDeleteBearerReqRcvd</measType>
+<measType p="11">smDeleteBearerRespAccSent</measType>
+<measType p="12">smDeleteBearerRespRejSent</measType>
+<measType p="13">smDeleteSessionReqSent</measType>
+<measType p="14">smDeleteSessionRespAccRcvd</measType>
+<measType p="15">smDeleteSessionRespRejRcvd</measType>
+<measType p="16">smEnablePgwPauseChrgAccRcvd</measType>
+<measType p="17">smEnablePgwPauseChrgRejRcvd</measType>
+<measType p="18">smEnablePgwPauseChrgReqSent</measType>
+<measType p="19">smModifyBearerCmdSent</measType>
+<measType p="20">smModifyBearerFailureIndRcvd</measType>
+<measType p="21">smModifyBearerReqSent</measType>
+<measType p="22">smModifyBearerRespAccRcvd</measType>
+<measType p="23">smModifyBearerRespRejRcvd</measType>
+<measType p="24">smResumeNotifSent</measType>
+<measType p="25">smStartPgwPauseChrgAccRcvd</measType>
+<measType p="26">smStartPgwPauseChrgRejRcvd</measType>
+<measType p="27">smStartPgwPauseChrgReqSent</measType>
+<measType p="28">smStopPgwPauseChrgAccRcvd</measType>
+<measType p="29">smStopPgwPauseChrgRejRcvd</measType>
+<measType p="30">smStopPgwPauseChrgReqSent</measType>
+<measType p="31">smSuspendNotifSent</measType>
+<measType p="32">smUpdateBearerReqRcvd</measType>
+<measType p="33">smUpdateBearerRespAccSent</measType>
+<measType p="34">smUpdateBearerRespRejSent</measType>
+<measValue measObjLdn="sgwGtpTunnelMgmtS5,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">162481313</r>
+<r p="1">418173209</r>
+<r p="2">222273448</r>
+<r p="3">991369151</r>
+<r p="4">22579873</r>
+<r p="5">473419307</r>
+<r p="6">909208132</r>
+<r p="7">807387722</r>
+<r p="8">428934551</r>
+<r p="9">500486291</r>
+<r p="10">411712323</r>
+<r p="11">956514074</r>
+<r p="12">966011723</r>
+<r p="13">774533143</r>
+<r p="14">713942640</r>
+<r p="15">35776247</r>
+<r p="16">382378864</r>
+<r p="17">804443668</r>
+<r p="18">627859050</r>
+<r p="19">611370624</r>
+<r p="20">930210601</r>
+<r p="21">553976036</r>
+<r p="22">94391907</r>
+<r p="23">266008716</r>
+<r p="24">481853340</r>
+<r p="25">524085158</r>
+<r p="26">509790577</r>
+<r p="27">755681723</r>
+<r p="28">245134424</r>
+<r p="29">489050573</r>
+<r p="30">444249870</r>
+<r p="31">586542733</r>
+<r p="32">91484079</r>
+<r p="33">379238611</r>
+<r p="34">140417987</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">sgwNbrOf3gdtPdnConnections</measType>
+<measType p="1">sgwNbrOfActiveBearers</measType>
+<measType p="2">sgwNbrOfBearers</measType>
+<measType p="3">sgwNbrOfIdleBearers</measType>
+<measType p="4">sgwNbrOfLowAccessPriorityPdnConnections</measType>
+<measType p="5">sgwNbrOfNbIotBearers</measType>
+<measType p="6">sgwNbrOfNbIotPdnConnections</measType>
+<measType p="7">sgwNbrOfNonIpPdnConnections</measType>
+<measType p="8">sgwNbrOfPdnConnections</measType>
+<measType p="9">sgwNbrOfPdnConnectionsInDlBufferDuration</measType>
+<measType p="10">sgwNbrOfPgwPauseChrgEnabledPdnConnections</measType>
+<measType p="11">sgwNbrOfPgwPausedChrgPdnConnections</measType>
+<measType p="12">sgwNbrOfS11uBearers</measType>
+<measType p="13">sgwNbrOfS11uNbIotBearers</measType>
+<measType p="14">sgwNbrOfS11uNbIotPdnConnections</measType>
+<measType p="15">sgwNbrOfS11uPdnConnections</measType>
+<measValue measObjLdn="sgwNumberOfSessions,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">975925734</r>
+<r p="1">609571905</r>
+<r p="2">659772316</r>
+<r p="3">606147308</r>
+<r p="4">471092199</r>
+<r p="5">2042045</r>
+<r p="6">567078025</r>
+<r p="7">948857921</r>
+<r p="8">465115013</r>
+<r p="9">854063856</r>
+<r p="10">734223181</r>
+<r p="11">838140550</r>
+<r p="12">471381027</r>
+<r p="13">619798313</r>
+<r p="14">61154765</r>
+<r p="15">628734177</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">serviceIdDownlinkBufferedBytes</measType>
+<measType p="1">serviceIdDownlinkBufferedPackets</measType>
+<measType p="2">serviceIdDownlinkDroppedBytes</measType>
+<measType p="3">serviceIdDownlinkDroppedPackets</measType>
+<measType p="4">smServiceIdDlDataNotifAckAccRcvd</measType>
+<measType p="5">smServiceIdDlDataNotifAckRejRcvd</measType>
+<measType p="6">smServiceIdDlDataNotifSent</measType>
+<measValue measObjLdn="sgwServiceIdSmartPaging,GroupSGWName;sgwNumberOfUes;sgwNumberOfSessions;sgwGtpTunnelMgmtTowardsPgw;sgwGtpTunnelMgmtTowardsMmeSgsn;sgwGtpPathMgmtTowardsMmeSgsn;sgwGtpPathMg">
+<r p="0">296512796</r>
+<r p="1">396512488</r>
+<r p="2">167393384</r>
+<r p="3">727771204</r>
+<r p="4">186081093</r>
+<r p="5">185957735</r>
+<r p="6">402433247</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-08T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

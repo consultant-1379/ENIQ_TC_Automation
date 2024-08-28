@@ -1,0 +1,1 @@
+eniq_oss_1 ONRM_ROOT_MO SubNetwork=ONRM_ROOT_MO,SubNetwork=SGSN,ManagedElement=SGSN01 SGSN01 ManagedElement SGSN01  SubNetwork=ONRM_ROOT_MO,Site=MSSGSN01 MSSGSN01 15A        SGSN    Ericsson DEACTIVE 2024-04-02 07:45:10.0 2024-04-02 07:45:10.0 ENIQ     

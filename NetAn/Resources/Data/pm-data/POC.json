@@ -1,0 +1,77 @@
+{
+	"CCES" : "select COUNT(*) from MeasurementCounter WHERE typeid like '%DC_E_CCES:((13))%'",
+	"SGSN-MME" : "select COUNT(*) from MeasurementCounter WHERE typeid like '%DC_E_SGSNMME:((89))%'",
+	"Failure Ratio for Act Provisioning Service-Service Provider": "100*(DC_E_CCDM_ACT_MAPI_RAW.eric_act_mapi_unsuccessful_responses_sent/DC_E_CCDM_ACT_MAPI_RAW.eric_act_mapi_requests_recv)",
+	"TC06": {
+			  "System_area": "Core",
+              "Node_type": "CCDM",
+              "Node" : "CCDM01",
+              "Get_Data_For": "Node(s)",
+              "Data_source":"NetAn_ODBC",
+              "Aggregation": "Node",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure" : "TPS KPI for Ud Service-Service Provider"
+            },
+    "TC07": {    
+    		  "Alarm_name" : "Threshold_",
+    		  "Alarm_Type" : "Threshold",
+    		  "ENIQ_data_source" : "NetAn_ODBC",
+    		  "Single_node_or_collection_or_network" : "Single Node",
+              "System_area": "Core",
+              "Node_type": "CCDM",
+              "Node" : "CCDM01",
+              "Measure_type" : "KPI",
+              "Measure" : "TPS KPI for Ud Service-Service Provider"
+            },
+    "TC08": { "System_area": "Core",
+              "Node_type": "MTAS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Node(s)",
+              "Aggregation":"Node",
+              "Node" : "MTAS01",
+              "Measure_type":"COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+              "Measure":"IMS ST AS Terminating Session Setup Success Ratio",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Day",
+              "get_data_for_Columns":"MtasSdsCurrentImrnUsage",
+              "Columns_displayed":"DATE_ID",
+              "Report_name":"CoreMTAS",
+              "Report_AccessType": "Public",
+              "Report_Description":"NA",
+              "Formula" : "DC_E_MTAS_MTASSDS_RAW.MtasSdsCurrentImrnUsage"
+              },
+    "TC09":  {   
+ 			  "Alarm_name" : "Alarm",
+    		  "Alarm_Type" : "Threshold",
+    		  "ENIQ_data_source" : "NetAn_ODBC",
+    		  "Single_node_or_collection_or_network" : "Single Node",
+              "System_area": "Core",
+              "Node_type": "CCDM",
+              "Node" : "CCDM01",
+              "Measure_type" : "COUNTER",
+              "Measure" : "eric-udr-nudr-provisioning-proxy-unsuccessful-responses-recv.DC_E_CCDM_UDR_NUDR_PROV_PROXY_RAW",
+			  "SQL1" : "DECLARE @DATETIME_ID varchar(50)=DATETIME_VALUE , @UNIQUE_ID varchar(500)=UNIQUE_ID_VALUE select cast(ROUND(SUM(eric_udr_nudr_provisioning_proxy_unsuccessful_responses_recv),2) as numeric(36,2)) as MeasureValue from DC_E_CCDM_UDR_NUDR_PROV_PROXY_RAW where DATE_ID=@DATETIME_ID and MOID=@UNIQUE_ID",
+			  "SQL2" : "",
+			  "SQL3" : "",
+			  "SQL4" : "",
+              "Alarm_severity" : "Minor",
+              "Aggregation" : "1 Day",
+              "Probable_cause" : "Reduced alarm reporting",
+              "Specific_problem" : "NA",
+              "Date_range_val" : "2",
+              "Date_range_unit" : "Hour(s)",
+              "LookBack_Period_val" : "2",
+              "LookBack_Period_unit" : "Day(s)",
+              "Columns_diplayed": "DATE_ID"
+             }
+}
+
+
+
+
+
+
+
+
+
+

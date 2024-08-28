@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V8.0" vendorName="Ericsson">
+<fileSender localDn="ManagedElement=GGSN02" elementType="node"/>
+<measCollec  beginTime="2023-11-08T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=GGSN02"/>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">averageCpuUsage</measType>
+<measType p="1">memory</measType>
+<measType p="2">memoryUsed</measType>
+<measType p="3">peakCpuUsage</measType>
+<measValue measObjLdn="boardInformation">
+<r p="0">403946460</r>
+<r p="1">829254691</r>
+<r p="2">808115706</r>
+<r p="3">735154739</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-08T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

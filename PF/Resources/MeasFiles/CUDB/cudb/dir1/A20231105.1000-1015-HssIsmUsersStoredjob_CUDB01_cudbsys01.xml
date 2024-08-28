@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="HssIsmUsersStoredjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">TotalNumberOfSubscribersStored.actual</measType>
+         <measType p="1">TotalNumberOfUsersStored.actual</measType>
+         <measType p="2">TotalNumberOfWildcardSipStored.actual</measType>
+         <measType p="3">TotalNumberOfWildcardTelStored.actual</measType>
+         <measType p="4">TotalNumberOfPsiUsersStored.actual</measType>
+         <measType p="5">TotalNumberOfSipPublicIdsStored.actual</measType>
+         <measType p="6">TotalNumberOfTelPublicIdsStored.actual</measType>
+         <measType p="7">TotalNumberOfUsersBarred.actual</measType>
+         <measType p="8">TotalNumberOfPublicIdsBarred.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5821217</r>
+             <r p="1">5772453</r>
+             <r p="2">5765536</r>
+             <r p="3">5817578</r>
+             <r p="4">5844360</r>
+             <r p="5">5778565</r>
+             <r p="6">5804070</r>
+             <r p="7">5761647</r>
+             <r p="8">5735071</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

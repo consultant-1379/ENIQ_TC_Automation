@@ -1,0 +1,20 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Node(s)",
+              "Aggregation":"Node",
+              "Node" : "G2RBS01",
+              "Measure_type":"COUNTER",
+              "Measure":"PMRADIORACBFAILMSG1OOC.DC_E_NR_BEAM_RAW",
+              "Time_selector" : "Define Interval",
+              "Aggregation_in_select_time" : "Day",
+              "get_data_for_Columns":"",
+              "Columns_displayed":"",
+              "Report_name":"Report001",
+              "Report_AccessType": "",
+              "Report_Description":"",
+              "Formula" : ""
+            }	    
+}

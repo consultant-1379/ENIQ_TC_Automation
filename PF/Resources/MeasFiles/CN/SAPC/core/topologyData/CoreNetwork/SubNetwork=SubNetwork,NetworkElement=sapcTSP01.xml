@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Nov 02 19:35:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO sapcTSP01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=sapcTSP01" mimName="ONRM" mimVersion="13.2.4" lastModified="1698953700400">
+	<attr name="userLabel">sapcTSP01</attr>
+	<attr name="nodeVersion">1.20</attr>
+	<attr name="siteRef">SubNetwork=SubNetwork,Site=MSsapcTSP01</attr>
+	<attr name="managedElementType">
+		<seq count="1">
+			<item>SAPC-TSP</item>
+		</seq>
+	</attr>
+</mo>
+</model>
+<!-- Generated 1 entries -->

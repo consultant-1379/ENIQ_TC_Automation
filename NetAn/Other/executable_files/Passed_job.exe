@@ -1,0 +1,15 @@
+git config --global user.name "EHLI JENKINS STATS FUNC ID"
+
+git config --global user.email "esjkadm100@ericsson.com"
+
+cd ENIQ_TC_Automation
+
+MOVE NetAn\TestCases\pm-explorer\WebUI\MR\NetAn_*  NetAn\TestCases\pm-explorer\WebUI\
+
+git status
+
+git add .
+
+git commit -m "Completed testcases moving to parent folder"
+
+git push

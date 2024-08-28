@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Mon Nov 06 07:21:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_RootMo,SubNetwork=IS,ManagedElement=ISMGW02,MgwFunction=Mgw_Func_; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_RootMo,SubNetwork=IS,ManagedElement=ISMGW02,MgwFunction=Mgw_Func_" mimName="ONRM" mimVersion="13.2.4" lastModified="1699255260375">
+ <attr name="bladeSystemId">2</attr>
+ <attr name="siteRef">SubNetwork=ONRM_RootMo,Site=MSIS</attr>
+ <attr name="mfSwVersion">2.0</attr>
+ <attr name="userLabel">Mgw_Func_</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

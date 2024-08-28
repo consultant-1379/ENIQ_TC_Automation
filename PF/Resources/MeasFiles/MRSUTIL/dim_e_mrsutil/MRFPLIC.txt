@@ -1,0 +1,2 @@
+NODENAME,licenseCapacityVideo,licenseCapacityAudioConferencing,licenseCapacityHdVideoConferencing,licenseCapacityVideoConferencing,licenseCapacityMrfp
+MGw01,0,0,0,0,9702

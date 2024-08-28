@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=IsNetwork,IsSite=ISMGW01">
+<fileSender localDn="bs=1" elementType="MGW"/>
+<measCollec beginTime="2023-11-04T10:00:00+0100"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="MGW" swVersion="R3B"/>
+<measInfo measInfoId="1">
+<job jobId="4"/>
+<granPeriod duration="PT900S" endTime="2023-11-04T10:15:00+0100"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">rtpDelay</measType>
+<measType p="2">rtpJitter</measType>
+<measType p="3">rtpOctetsReceived</measType>
+<measType p="4">rtpOctetsSent</measType>
+<measType p="5">rtpPacketsLost</measType>
+<measType p="6">rtpPacketsReceived</measType>
+<measType p="7">rtpPacketsSent</measType>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=1">
+<r p="1">2536440795</r>
+<r p="2">979143909</r>
+<r p="3">2359778368</r>
+<r p="4">1997309726</r>
+<r p="5">1218131017</r>
+<r p="6">4003313296</r>
+<r p="7">779381051</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=2">
+<r p="1">2526181289</r>
+<r p="2">2446044955</r>
+<r p="3">2711993045</r>
+<r p="4">866268434</r>
+<r p="5">3729250464</r>
+<r p="6">1093954211</r>
+<r p="7">3495279671</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=3">
+<r p="1">3177967293</r>
+<r p="2">3584693992</r>
+<r p="3">3117607795</r>
+<r p="4">218002880</r>
+<r p="5">3108725040</r>
+<r p="6">495739556</r>
+<r p="7">2582718161</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=4">
+<r p="1">2990339165</r>
+<r p="2">213230048</r>
+<r p="3">1865903958</r>
+<r p="4">3434117536</r>
+<r p="5">847634012</r>
+<r p="6">3591425232</r>
+<r p="7">2324743271</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=5">
+<r p="1">4048464490</r>
+<r p="2">3584117956</r>
+<r p="3">720687436</r>
+<r p="4">1990958660</r>
+<r p="5">2941714330</r>
+<r p="6">3684250618</r>
+<r p="7">3960032716</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=6">
+<r p="1">3261423314</r>
+<r p="2">2201051848</r>
+<r p="3">2866567744</r>
+<r p="4">1058176235</r>
+<r p="5">3304033519</r>
+<r p="6">3401684729</r>
+<r p="7">3851936659</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=7">
+<r p="1">4294914421</r>
+<r p="2">946431463</r>
+<r p="3">1577613975</r>
+<r p="4">9004878</r>
+<r p="5">34202487</r>
+<r p="6">3941268821</r>
+<r p="7">3422117332</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=8">
+<r p="1">1003198896</r>
+<r p="2">1245629654</r>
+<r p="3">2896424647</r>
+<r p="4">1744135994</r>
+<r p="5">2891941051</r>
+<r p="6">2230916351</r>
+<r p="7">334470283</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=9">
+<r p="1">2963211950</r>
+<r p="2">1534349213</r>
+<r p="3">3626569274</r>
+<r p="4">713097726</r>
+<r p="5">1022851941</r>
+<r p="6">1588566313</r>
+<r p="7">3698688334</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=10">
+<r p="1">2567442906</r>
+<r p="2">1224239047</r>
+<r p="3">855137771</r>
+<r p="4">4153019270</r>
+<r p="5">1894951280</r>
+<r p="6">790328775</r>
+<r p="7">2441507351</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=11">
+<r p="1">2317650208</r>
+<r p="2">1177226828</r>
+<r p="3">2558659525</r>
+<r p="4">1832422019</r>
+<r p="5">1689490239</r>
+<r p="6">3841327489</r>
+<r p="7">4054782272</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=12">
+<r p="1">3295859627</r>
+<r p="2">3180858431</r>
+<r p="3">2454871547</r>
+<r p="4">3187982901</r>
+<r p="5">2047351477</r>
+<r p="6">1952168944</r>
+<r p="7">1870416314</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=13">
+<r p="1">3094910249</r>
+<r p="2">1978631876</r>
+<r p="3">3312384979</r>
+<r p="4">1266022007</r>
+<r p="5">1278160356</r>
+<r p="6">3838370090</r>
+<r p="7">2990502975</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=14">
+<r p="1">3887591961</r>
+<r p="2">3555878012</r>
+<r p="3">2339466337</r>
+<r p="4">1236920478</r>
+<r p="5">2003502977</r>
+<r p="6">1001608887</r>
+<r p="7">3391835915</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=15">
+<r p="1">2911441836</r>
+<r p="2">3939348032</r>
+<r p="3">327847685</r>
+<r p="4">421104216</r>
+<r p="5">681808899</r>
+<r p="6">1789332533</r>
+<r p="7">3756537905</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=16">
+<r p="1">2115142598</r>
+<r p="2">3959089516</r>
+<r p="3">1105822775</r>
+<r p="4">1994809628</r>
+<r p="5">3121290615</r>
+<r p="6">241008520</r>
+<r p="7">1441192150</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=17">
+<r p="1">2263831136</r>
+<r p="2">2996591997</r>
+<r p="3">1021168778</r>
+<r p="4">934796076</r>
+<r p="5">4146721368</r>
+<r p="6">3932530626</r>
+<r p="7">558922880</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=18">
+<r p="1">3417943087</r>
+<r p="2">2925410746</r>
+<r p="3">2974648177</r>
+<r p="4">3836980688</r>
+<r p="5">2118290750</r>
+<r p="6">1900263333</r>
+<r p="7">333644719</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=19">
+<r p="1">1536245166</r>
+<r p="2">4277157790</r>
+<r p="3">4117505685</r>
+<r p="4">2002881518</r>
+<r p="5">1521362061</r>
+<r p="6">2251421334</r>
+<r p="7">4198240586</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=20">
+<r p="1">1041854256</r>
+<r p="2">1788404863</r>
+<r p="3">3136280149</r>
+<r p="4">899909078</r>
+<r p="5">3326010321</r>
+<r p="6">2431189396</r>
+<r p="7">1752303049</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=21">
+<r p="1">646503550</r>
+<r p="2">2472648893</r>
+<r p="3">776049522</r>
+<r p="4">1458130451</r>
+<r p="5">1796704417</r>
+<r p="6">2031027639</r>
+<r p="7">6872424</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=22">
+<r p="1">3275443158</r>
+<r p="2">224723410</r>
+<r p="3">727765905</r>
+<r p="4">805764542</r>
+<r p="5">619982581</r>
+<r p="6">1428010006</r>
+<r p="7">2960815640</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=23">
+<r p="1">4057835669</r>
+<r p="2">729811821</r>
+<r p="3">288098129</r>
+<r p="4">3426146880</r>
+<r p="5">2878010929</r>
+<r p="6">504216196</r>
+<r p="7">4169888237</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=24">
+<r p="1">2777209016</r>
+<r p="2">3156819084</r>
+<r p="3">331172318</r>
+<r p="4">3048840817</r>
+<r p="5">2471505109</r>
+<r p="6">22937505</r>
+<r p="7">3422289288</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=25">
+<r p="1">1819778993</r>
+<r p="2">883228306</r>
+<r p="3">4054444697</r>
+<r p="4">1227873998</r>
+<r p="5">231552267</r>
+<r p="6">3067869719</r>
+<r p="7">2903236127</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=26">
+<r p="1">2987712150</r>
+<r p="2">2592087935</r>
+<r p="3">1908733893</r>
+<r p="4">3041463346</r>
+<r p="5">1752007665</r>
+<r p="6">2289141089</r>
+<r p="7">3504748119</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=27">
+<r p="1">392963371</r>
+<r p="2">3051957840</r>
+<r p="3">3683870645</r>
+<r p="4">3602260496</r>
+<r p="5">2957874001</r>
+<r p="6">3932284208</r>
+<r p="7">661136782</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=28">
+<r p="1">1695919437</r>
+<r p="2">3728132179</r>
+<r p="3">1221834851</r>
+<r p="4">2587759250</r>
+<r p="5">3700242878</r>
+<r p="6">1643289080</r>
+<r p="7">2863640825</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=29">
+<r p="1">1738086650</r>
+<r p="2">2450395116</r>
+<r p="3">1776069766</r>
+<r p="4">1399607713</r>
+<r p="5">1669099389</r>
+<r p="6">289040613</r>
+<r p="7">3250713210</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=30">
+<r p="1">141928296</r>
+<r p="2">1686527369</r>
+<r p="3">527828402</r>
+<r p="4">3936630234</r>
+<r p="5">601811420</r>
+<r p="6">252711041</r>
+<r p="7">4198586442</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=31">
+<r p="1">1840428917</r>
+<r p="2">41397172</r>
+<r p="3">4291002135</r>
+<r p="4">1503738984</r>
+<r p="5">369744152</r>
+<r p="6">3760626435</r>
+<r p="7">3898170921</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=32">
+<r p="1">1435844468</r>
+<r p="2">3708541904</r>
+<r p="3">4021015219</r>
+<r p="4">359736579</r>
+<r p="5">1809742011</r>
+<r p="6">1030007559</r>
+<r p="7">1026341196</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=33">
+<r p="1">11870982</r>
+<r p="2">2308502265</r>
+<r p="3">1359657645</r>
+<r p="4">3039523695</r>
+<r p="5">113025788</r>
+<r p="6">711566344</r>
+<r p="7">2530144607</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=34">
+<r p="1">2076959425</r>
+<r p="2">341712728</r>
+<r p="3">1430451738</r>
+<r p="4">2085463905</r>
+<r p="5">2592618436</r>
+<r p="6">593725506</r>
+<r p="7">2097274776</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=35">
+<r p="1">3511857411</r>
+<r p="2">3971420320</r>
+<r p="3">2865927880</r>
+<r p="4">291867461</r>
+<r p="5">436370798</r>
+<r p="6">495266674</r>
+<r p="7">3141218785</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=36">
+<r p="1">3676541463</r>
+<r p="2">1297760309</r>
+<r p="3">2084873482</r>
+<r p="4">1539170854</r>
+<r p="5">337297965</r>
+<r p="6">3990433962</r>
+<r p="7">1714670571</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=37">
+<r p="1">3770439603</r>
+<r p="2">2330359890</r>
+<r p="3">2456081502</r>
+<r p="4">119373256</r>
+<r p="5">1634073988</r>
+<r p="6">122980484</r>
+<r p="7">3854195983</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=38">
+<r p="1">1014307367</r>
+<r p="2">630365853</r>
+<r p="3">2474620399</r>
+<r p="4">3674149948</r>
+<r p="5">2026897859</r>
+<r p="6">3785169391</r>
+<r p="7">1133558599</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=39">
+<r p="1">1447155545</r>
+<r p="2">2682169390</r>
+<r p="3">3660588905</r>
+<r p="4">2489836627</r>
+<r p="5">3489637849</r>
+<r p="6">4115083998</r>
+<r p="7">2520198202</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=40">
+<r p="1">2142319921</r>
+<r p="2">2331851813</r>
+<r p="3">1661184763</r>
+<r p="4">2573541219</r>
+<r p="5">4062520182</r>
+<r p="6">3423060040</r>
+<r p="7">2384837866</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=41">
+<r p="1">3187899865</r>
+<r p="2">1727520439</r>
+<r p="3">594444183</r>
+<r p="4">1797392720</r>
+<r p="5">687558551</r>
+<r p="6">163129543</r>
+<r p="7">1078442616</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=42">
+<r p="1">1157957110</r>
+<r p="2">2135571464</r>
+<r p="3">3861298987</r>
+<r p="4">4124213129</r>
+<r p="5">1966304505</r>
+<r p="6">4166364765</r>
+<r p="7">1538478525</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=43">
+<r p="1">327654252</r>
+<r p="2">1536704109</r>
+<r p="3">617482513</r>
+<r p="4">1086590066</r>
+<r p="5">1890292028</r>
+<r p="6">2170704113</r>
+<r p="7">3323194658</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=44">
+<r p="1">3756437465</r>
+<r p="2">343124619</r>
+<r p="3">850620699</r>
+<r p="4">3729885943</r>
+<r p="5">1065499015</r>
+<r p="6">3020952030</r>
+<r p="7">1172509462</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=45">
+<r p="1">901384684</r>
+<r p="2">4072938644</r>
+<r p="3">3626827766</r>
+<r p="4">959877776</r>
+<r p="5">3986750302</r>
+<r p="6">147589421</r>
+<r p="7">3686594441</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=46">
+<r p="1">1244726124</r>
+<r p="2">1583079357</r>
+<r p="3">2371372690</r>
+<r p="4">2652771195</r>
+<r p="5">2883359236</r>
+<r p="6">1763686776</r>
+<r p="7">1953798932</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=47">
+<r p="1">854351976</r>
+<r p="2">2343531592</r>
+<r p="3">2605495407</r>
+<r p="4">3102589832</r>
+<r p="5">303254764</r>
+<r p="6">653158657</r>
+<r p="7">4242134961</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=48">
+<r p="1">3951787454</r>
+<r p="2">1257251525</r>
+<r p="3">3434007049</r>
+<r p="4">668126025</r>
+<r p="5">1867718349</r>
+<r p="6">93820249</r>
+<r p="7">1255811902</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=49">
+<r p="1">1394191649</r>
+<r p="2">626310530</r>
+<r p="3">764435736</r>
+<r p="4">4006972290</r>
+<r p="5">1323234301</r>
+<r p="6">1489299983</r>
+<r p="7">2039801111</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=50">
+<r p="1">4105049666</r>
+<r p="2">226583924</r>
+<r p="3">1382348320</r>
+<r p="4">606996071</r>
+<r p="5">4193088047</r>
+<r p="6">935860550</r>
+<r p="7">410766738</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=51">
+<r p="1">2436420960</r>
+<r p="2">3413615220</r>
+<r p="3">2007535434</r>
+<r p="4">2262917160</r>
+<r p="5">3433659899</r>
+<r p="6">2954131575</r>
+<r p="7">2567623396</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=52">
+<r p="1">417241054</r>
+<r p="2">1193095015</r>
+<r p="3">596021770</r>
+<r p="4">1547546460</r>
+<r p="5">1961091896</r>
+<r p="6">1963792995</r>
+<r p="7">3495029798</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=53">
+<r p="1">3658282257</r>
+<r p="2">140004617</r>
+<r p="3">4256463946</r>
+<r p="4">2022965699</r>
+<r p="5">2779499892</r>
+<r p="6">3355649336</r>
+<r p="7">4143692818</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=54">
+<r p="1">1754234127</r>
+<r p="2">1826955159</r>
+<r p="3">2010265653</r>
+<r p="4">1140495965</r>
+<r p="5">4291655777</r>
+<r p="6">3007579530</r>
+<r p="7">3003029897</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=55">
+<r p="1">2346932868</r>
+<r p="2">3623243164</r>
+<r p="3">1764118312</r>
+<r p="4">1272052295</r>
+<r p="5">1734948622</r>
+<r p="6">314832745</r>
+<r p="7">2347440205</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=56">
+<r p="1">2156827349</r>
+<r p="2">1391695310</r>
+<r p="3">1655701853</r>
+<r p="4">2964286565</r>
+<r p="5">4047215244</r>
+<r p="6">2888861895</r>
+<r p="7">1950288269</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=57">
+<r p="1">1464531679</r>
+<r p="2">945312101</r>
+<r p="3">2178434662</r>
+<r p="4">2014039932</r>
+<r p="5">662625275</r>
+<r p="6">2260178691</r>
+<r p="7">1152628273</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=58">
+<r p="1">2951992561</r>
+<r p="2">3330827701</r>
+<r p="3">2835747847</r>
+<r p="4">2033716468</r>
+<r p="5">201822147</r>
+<r p="6">3347713885</r>
+<r p="7">1807545149</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=59">
+<r p="1">1632205199</r>
+<r p="2">371206515</r>
+<r p="3">1434216034</r>
+<r p="4">1753425798</r>
+<r p="5">905372219</r>
+<r p="6">2772225602</r>
+<r p="7">2576946055</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=60">
+<r p="1">3862907031</r>
+<r p="2">4047547973</r>
+<r p="3">336171214</r>
+<r p="4">2373054132</r>
+<r p="5">2606495587</r>
+<r p="6">3627853545</r>
+<r p="7">3266460</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=61">
+<r p="1">3693486846</r>
+<r p="2">3489716355</r>
+<r p="3">3995656082</r>
+<r p="4">3932184571</r>
+<r p="5">2993120215</r>
+<r p="6">2487360684</r>
+<r p="7">960476472</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=62">
+<r p="1">1762577318</r>
+<r p="2">3779146374</r>
+<r p="3">2089326840</r>
+<r p="4">1247729851</r>
+<r p="5">42386664</r>
+<r p="6">2211721313</r>
+<r p="7">2629070599</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=63">
+<r p="1">3369299439</r>
+<r p="2">750169039</r>
+<r p="3">1819772172</r>
+<r p="4">1220298438</r>
+<r p="5">3688707406</r>
+<r p="6">1673255173</r>
+<r p="7">4193407603</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=64">
+<r p="1">2009797858</r>
+<r p="2">733661959</r>
+<r p="3">3259264068</r>
+<r p="4">2579445976</r>
+<r p="5">2233365800</r>
+<r p="6">3696292314</r>
+<r p="7">153792335</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=65">
+<r p="1">680258682</r>
+<r p="2">1881641486</r>
+<r p="3">1405022062</r>
+<r p="4">2381054901</r>
+<r p="5">2523322489</r>
+<r p="6">2880478581</r>
+<r p="7">3614570969</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=66">
+<r p="1">433939775</r>
+<r p="2">2957825339</r>
+<r p="3">34134280</r>
+<r p="4">176796771</r>
+<r p="5">1581218200</r>
+<r p="6">3037260491</r>
+<r p="7">309931821</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=67">
+<r p="1">547338838</r>
+<r p="2">1133785594</r>
+<r p="3">1738024890</r>
+<r p="4">1921211031</r>
+<r p="5">675560712</r>
+<r p="6">81262999</r>
+<r p="7">2776859445</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=68">
+<r p="1">2343411688</r>
+<r p="2">683782126</r>
+<r p="3">3112204256</r>
+<r p="4">602002290</r>
+<r p="5">3839694265</r>
+<r p="6">4009329783</r>
+<r p="7">2875383927</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=69">
+<r p="1">3656634587</r>
+<r p="2">2759883776</r>
+<r p="3">1298921283</r>
+<r p="4">2548290261</r>
+<r p="5">3431738319</r>
+<r p="6">3205342975</r>
+<r p="7">1136454963</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=70">
+<r p="1">3323120898</r>
+<r p="2">1639296902</r>
+<r p="3">1939043800</r>
+<r p="4">4199013946</r>
+<r p="5">2912102796</r>
+<r p="6">541685897</r>
+<r p="7">1851939532</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=71">
+<r p="1">3197424366</r>
+<r p="2">3295981920</r>
+<r p="3">3278321490</r>
+<r p="4">671970747</r>
+<r p="5">901804454</r>
+<r p="6">3965566045</r>
+<r p="7">3590424030</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=72">
+<r p="1">3712367223</r>
+<r p="2">3391691033</r>
+<r p="3">3785941252</r>
+<r p="4">2666548244</r>
+<r p="5">3394546330</r>
+<r p="6">4059238230</r>
+<r p="7">22558212</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=73">
+<r p="1">37434322</r>
+<r p="2">724442526</r>
+<r p="3">1278589944</r>
+<r p="4">3036684807</r>
+<r p="5">546188894</r>
+<r p="6">3748436291</r>
+<r p="7">3135501678</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=74">
+<r p="1">3591093277</r>
+<r p="2">3926525788</r>
+<r p="3">2007546567</r>
+<r p="4">2411814593</r>
+<r p="5">1677507754</r>
+<r p="6">2380466870</r>
+<r p="7">3757583793</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=75">
+<r p="1">2599866989</r>
+<r p="2">4220059023</r>
+<r p="3">2894051506</r>
+<r p="4">3516053115</r>
+<r p="5">1779949192</r>
+<r p="6">2528611192</r>
+<r p="7">1980336645</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=76">
+<r p="1">3017787633</r>
+<r p="2">1319851010</r>
+<r p="3">1079985252</r>
+<r p="4">1805763892</r>
+<r p="5">2607723245</r>
+<r p="6">3548962873</r>
+<r p="7">2410220271</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=77">
+<r p="1">1303142899</r>
+<r p="2">2744865508</r>
+<r p="3">547207624</r>
+<r p="4">4067918900</r>
+<r p="5">3722640933</r>
+<r p="6">4125188443</r>
+<r p="7">1827299221</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=78">
+<r p="1">131492406</r>
+<r p="2">2149704469</r>
+<r p="3">1881164215</r>
+<r p="4">113992308</r>
+<r p="5">2379442975</r>
+<r p="6">1897994447</r>
+<r p="7">22122800</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=79">
+<r p="1">2866758292</r>
+<r p="2">2959252081</r>
+<r p="3">1049332615</r>
+<r p="4">2188628397</r>
+<r p="5">3659226337</r>
+<r p="6">3643830688</r>
+<r p="7">1747337129</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=80">
+<r p="1">128729004</r>
+<r p="2">2682381882</r>
+<r p="3">2055429994</r>
+<r p="4">2516161964</r>
+<r p="5">1675674881</r>
+<r p="6">3240818830</r>
+<r p="7">2978933251</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=81">
+<r p="1">2611912667</r>
+<r p="2">3746342976</r>
+<r p="3">2652024865</r>
+<r p="4">114974418</r>
+<r p="5">2509407898</r>
+<r p="6">4023502114</r>
+<r p="7">660493778</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=82">
+<r p="1">94179809</r>
+<r p="2">3354524750</r>
+<r p="3">403199359</r>
+<r p="4">701144616</r>
+<r p="5">3711053918</r>
+<r p="6">2378088833</r>
+<r p="7">4031727833</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=83">
+<r p="1">3644126220</r>
+<r p="2">3255181308</r>
+<r p="3">2410756925</r>
+<r p="4">3277795039</r>
+<r p="5">4126266995</r>
+<r p="6">1302294170</r>
+<r p="7">2975339836</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=84">
+<r p="1">371305801</r>
+<r p="2">518145012</r>
+<r p="3">2946848079</r>
+<r p="4">2647127980</r>
+<r p="5">3905915707</r>
+<r p="6">3810146167</r>
+<r p="7">470140477</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=85">
+<r p="1">2715634686</r>
+<r p="2">2107066046</r>
+<r p="3">3995743580</r>
+<r p="4">2224885305</r>
+<r p="5">2386694204</r>
+<r p="6">4149100291</r>
+<r p="7">979232621</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=86">
+<r p="1">1459684688</r>
+<r p="2">2947136787</r>
+<r p="3">820932053</r>
+<r p="4">2357315960</r>
+<r p="5">2840711117</r>
+<r p="6">2280994996</r>
+<r p="7">3303189942</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=87">
+<r p="1">2634147205</r>
+<r p="2">4214369685</r>
+<r p="3">3610303524</r>
+<r p="4">1499698055</r>
+<r p="5">980656413</r>
+<r p="6">1917409989</r>
+<r p="7">2946402326</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=88">
+<r p="1">3982940104</r>
+<r p="2">1641846997</r>
+<r p="3">1139835344</r>
+<r p="4">3292383434</r>
+<r p="5">266554835</r>
+<r p="6">3242757543</r>
+<r p="7">3488463285</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=89">
+<r p="1">3716418287</r>
+<r p="2">2708172051</r>
+<r p="3">1501585589</r>
+<r p="4">3395196858</r>
+<r p="5">1681317692</r>
+<r p="6">4267731309</r>
+<r p="7">4227080284</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=90">
+<r p="1">3040104560</r>
+<r p="2">1050300507</r>
+<r p="3">910154601</r>
+<r p="4">841622699</r>
+<r p="5">3554895564</r>
+<r p="6">3496298235</r>
+<r p="7">1120794823</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=91">
+<r p="1">3024435986</r>
+<r p="2">3056135766</r>
+<r p="3">3392011604</r>
+<r p="4">136207999</r>
+<r p="5">4101235834</r>
+<r p="6">1896307089</r>
+<r p="7">2571142346</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=92">
+<r p="1">1153263028</r>
+<r p="2">1834655636</r>
+<r p="3">2673663055</r>
+<r p="4">3037813280</r>
+<r p="5">2138837099</r>
+<r p="6">1372276754</r>
+<r p="7">1303731171</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=93">
+<r p="1">3149793681</r>
+<r p="2">1856012016</r>
+<r p="3">4099637430</r>
+<r p="4">121237029</r>
+<r p="5">1263395728</r>
+<r p="6">1249704319</r>
+<r p="7">3182178382</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=94">
+<r p="1">1407183873</r>
+<r p="2">3383017952</r>
+<r p="3">4222585316</r>
+<r p="4">3497267174</r>
+<r p="5">439980290</r>
+<r p="6">3646544516</r>
+<r p="7">462168367</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=95">
+<r p="1">2325693810</r>
+<r p="2">2173315980</r>
+<r p="3">233088743</r>
+<r p="4">1265849023</r>
+<r p="5">3944091847</r>
+<r p="6">587193725</r>
+<r p="7">2379338972</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=96">
+<r p="1">2115476444</r>
+<r p="2">2214365284</r>
+<r p="3">2469719198</r>
+<r p="4">3052555806</r>
+<r p="5">1811102641</r>
+<r p="6">159213014</r>
+<r p="7">2405082263</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=97">
+<r p="1">2092321610</r>
+<r p="2">2456853666</r>
+<r p="3">3178357359</r>
+<r p="4">1672463646</r>
+<r p="5">1227258148</r>
+<r p="6">3414641848</r>
+<r p="7">4034437812</r>
+</measValue>
+<measValue measObjLdn="Blade=1-2,SpcRtpStatistic=98">
+<r p="1">1931772824</r>
+<r p="2">757935126</r>
+<r p="3">3251602706</r>
+<r p="4">2437788808</r>
+<r p="5">575544355</r>
+<r p="6">4146177566</r>
+<r p="7">1129202804</r>
+</measValue>
+<measValue measObjLdn="Blade=1-3,SpcRtpStatistic=99">
+<r p="1">1265998406</r>
+<r p="2">3389780217</r>
+<r p="3">1523018050</r>
+<r p="4">3145463064</r>
+<r p="5">109930650</r>
+<r p="6">3229629297</r>
+<r p="7">2251529936</r>
+</measValue>
+<measValue measObjLdn="Blade=1-1,SpcRtpStatistic=100">
+<r p="1">3947341762</r>
+<r p="2">2949771473</r>
+<r p="3">4181609739</r>
+<r p="4">3544877335</r>
+<r p="5">1276697195</r>
+<r p="6">397410380</r>
+<r p="7">936402800</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-04T10:15:00+0100"/>
+</fileFooter>
+</measCollecFile>

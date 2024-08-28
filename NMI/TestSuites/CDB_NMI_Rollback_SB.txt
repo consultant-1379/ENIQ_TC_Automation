@@ -1,0 +1,12 @@
+#NMI/TestCases/Rollback/Verify_Rollback_on_SB.robot
+#NMI/TestCases/Server_Sanity/Server_Sanity_SB.robot
+NMI/TestCases/Rollback/NMI_Verify_Rollback_on_SB_TC110.robot
+NMI/TestCases/Server_Sanity/NMI_Server_Sanity_SB_TC131.robot
+#NMI/TestCases/Common/Verify_Database_Connection.robot
+#NMI/TestCases/Common/Verify_Directory_Permissions_on_SB.robot
+#NMI/TestCases/Common/Verify_ENIQ_Services_on_SB.robot
+#NMI/TestCases/Common/Verify_Password_Policy.robot
+NMI/TestCases/Common/NMI_Verify_Database_Connection_TC08.robot
+NMI/TestCases/Common/NMI/TestCases/Common/NMI_Verify_Directory_Permissions_on_SB_TC12.robot
+NMI/TestCases/Common/NMI_Verify_ENIQ_Services_on_SB_TC16.robot
+NMI/TestCases/Common/NMI_Verify_Password_Policy_TC17.robot

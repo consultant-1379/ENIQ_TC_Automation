@@ -1,0 +1,18 @@
+{ 
+    "TC01": { "System_area": "Radio",
+              "Node_type": "NR",
+              "Node" : "G2RBS01",
+              "Node_Collection": "NODE",
+              "Object_Aggregation": "No Aggregation",
+              "Time_selector" : "last30Days",
+              "Aggregation" : "DAY",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Measure" : "Test1",
+              "SQL" : ""
+            }
+}

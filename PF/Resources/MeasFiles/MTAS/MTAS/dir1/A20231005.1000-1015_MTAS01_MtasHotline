@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231005100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231005101500.1+0200</mts>
+<gp>900</gp>
+<mt>MtasHotlineUnconditionalOk</mt>
+<mt>MtasHotlineUnconditionalNOkE</mt>
+<mt>MtasHotlineUnconditionalNOkI</mt>
+<mt>MtasHotlineInstantOk</mt>
+<mt>MtasHotlineInstantNOkE</mt>
+<mt>MtasHotlineInstantNOkI</mt>
+<mt>MtasHotlineDelayedOk</mt>
+<mt>MtasHotlineDelayedNOkE</mt>
+<mt>MtasHotlineDelayedNOkI</mt>
+<mt>MtasHotlineWhitelistOk</mt>
+<mt>MtasHotlineWhitelistNOkE</mt>
+<mt>MtasHotlineWhitelistNOkI</mt>
+<mv>
+<moid>MtasHotline=DEFAULT,Source = Processor1</moid>
+<r>74</r>
+<r>94</r>
+<r>23</r>
+<r>97</r>
+<r>25</r>
+<r>82</r>
+<r>51</r>
+<r>50</r>
+<r>57</r>
+<r>74</r>
+<r>68</r>
+<r>97</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231005101500.1+0200</ts>
+</mff>
+</mdc>

@@ -1,0 +1,73 @@
+#!/bin/bash -a
+
+SCRIPT_DIR=`dirname $0`
+
+# Set up some variables
+DATE=`date +%d%m%y`
+# Check this isn't happening at midnight
+if [ "$(date "+%H:%M")" = "00:00" ] ; then
+    echo "should not run this at midnight"
+    exit 1
+fi
+if [ -d "/opt/ericsson/ERICddc" ] ; then
+    # we're running R2 (ERICddc)
+    DDCDIR=/opt/ericsson/ERICddc
+    . ${DDCDIR}/etc/global.env
+    FILE_PREFIX="DDC"
+else
+   DATAROOT="/var/opt/ericsson/oss_data"
+   FILE_PREFIX="OSS"
+fi
+
+if [ -z "${DATAROOT}" ] ; then
+    echo "ERROR: no DATAROOT defined"
+    exit 1
+fi
+
+# trigger the maketar
+if [ -x /ericsson/doss/monitor/monitorTasks ] ; then
+    # Initial ERICdoss installation point - should no longer be in use
+    /ericsson/doss/monitor/monitorTasks MAKETAR
+elif [ -x /opt/ericsson/doss/monitor/monitorTasks ]; then
+    # ERICdoss installation point
+    /opt/ericsson/doss/monitor/monitorTasks MAKETAR
+elif [ -x /opt/ericsson/ERICddc/monitor/monitorTasks ] ; then
+    # ERICddc installation point
+    /opt/ericsson/ERICddc/bin/ddc MAKETAR
+else
+    /var/opt/ericsson/home/eeicmuy/monitor/monitorTasks MAKETAR
+fi
+
+DATA_FILE=${DATAROOT}/${FILE_PREFIX}_Data_${DATE}.tar.gz
+
+# wait for the maketar to complete
+COUNT=0
+while [ ! -r ${DATA_FILE} ] && [ ${COUNT} -lt 600 ] ; do
+    sleep 5
+    COUNT=`expr ${COUNT} + 1`
+done
+
+if [ ! -r ${DATA_FILE} ] ; then
+    echo "ERROR: ${DATA_FILE} not readable" >&2
+    exit 1
+fi
+
+# make sure gtar is completed
+TIMEOUT_REMAINING=180
+while [ "${TIMEOUT_REMAINING}" -gt 0 ] && [ $(ps -eaf | grep "gtar.*DDC_Data_${DATE}.tar.gz" | grep -v "grep" | wc -l) -gt 0 ]; do
+  sleep 5
+  TIMEOUT_REMAINING="$(expr ${TIMEOUT_REMAINING} - 1)"
+done
+
+if [ ${TIMEOUT_REMAINING} -eq 0 ]; then
+       echo "ERROR: Timeout while generating DDC_Data file" >&2
+       exit 1
+fi
+
+${SCRIPT_DIR}/uploadStats "$@"
+
+echo "Done"
+exit 0
+
+
+

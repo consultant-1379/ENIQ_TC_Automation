@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Oct 19 08:38:00 BST 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1" mimName="ECIM_Top" mimVersion="2.1.1.2.9" lastModified="1697701080322">
+ <attr name="MCC">353</attr>
+ <attr name="MNC">77</attr>
+ <attr name="MeContextId">RNC1G2RBS1</attr>
+ <attr name="neMIMversion">2.1.1.2.9</attr>
+ <attr name="nodeVersion">23.Q4</attr>
+ <attr name="availableRbsChannelElementsDownlink">1500</attr>
+ <attr name="licenseCapacityRbsChannelElementsDownlink">700</attr>
+ <attr name="availableRbsChannelElementsUplink">1300</attr>
+ <attr name="licenseCapacityRbsChannelElementsUplink">1000</attr>
+ <attr name="ulLicFractBbPool2">10</attr>
+ <attr name="dlLicFractBbPool2">10</attr>
+ <attr name="noOfDownlinkBasebandPools">25</attr>
+ <attr name="noOfUplinkBasebandPools">25</attr>
+ <attr name="fingerprint">T444403182</attr>
+ <attr name="ceLadderKeyID">CXC4020017</attr>
+ <attr name="rbsIubId">1</attr>
+ <attr name="dnPrefix">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1</attr>
+ <attr name="managedElementType">RadioNode</attr>
+ <attr name="associatedRnc">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=RNC1G2RBS1SITE</attr>
+ <attr name="userLabel">RNC1G2RBS1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,NodeBFunction=1,Iub=1" mimName="ECIM_Top" mimVersion="2.1.1.2.9" lastModified="1697701080322">
+<attr name="iubId">1</attr>
+<attr name="rbsId">1</attr>
+<attr name="userLabel">RNC1G2RBS1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1" mimName="ECIM_Top" mimVersion="2.1.1.2.9" lastModified="1697701080322">
+<attr name="localCellId">1</attr>
+<attr name="maxDlPowerCapability">-1</attr>
+<attr name="userLabel">RNC1G2RBS1</attr>
+<attr name="nodeBLocalCellId">1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,EthernetSwitchPort=1" mimName="ECIM_Top" mimVersion="2.1.1.2.9" lastModified="1697701080322">
+ <attr name="portNo">533562</attr>
+ <attr name="lagRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</attr>
+ <attr name="userLabel">RNC1G2RBS1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1" mimName="ECIM_Top" mimVersion="2.1.1.2.9" lastModified="1697701080322">
+ <attr name="masterPort"></attr>
+ <attr name="reservedBy">
+ <seq count= "3">
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=2</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC1,MeContext=RNC1G2RBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=3</item>
+ </seq>
+ </attr>
+ <attr name="userLabel">RNC1G2RBS1</attr>
+ </mo>
+</model>

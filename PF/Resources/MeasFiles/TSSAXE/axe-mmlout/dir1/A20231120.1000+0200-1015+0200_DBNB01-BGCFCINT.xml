@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">NANSW</measType>
+			<measType p="2">NCALLS</measType>
+			<measType p="3">NMAXSIMCALLS</measType>
+			<measType p="4">NOVERFLOW</measType>
+			<measType p="5">NSCAN</measType>
+			<measType p="6">NSUBS</measType>
+			<measType p="7">NTRALACC</measType>
+			<measType p="8">TRAL</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,BGCFCINT=0">
+				<r p="1">70</r>
+				<r p="2">3</r>
+				<r p="3">65</r>
+				<r p="4">61</r>
+				<r p="5">84</r>
+				<r p="6">58</r>
+				<r p="7">50</r>
+				<r p="8">22</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

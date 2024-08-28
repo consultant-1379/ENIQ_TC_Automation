@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xsi:schemaLocation="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec" xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<fileHeader fileFormatVersion="32.435 V9.0" vendorName="Ericsson">
+<fileSender localDn="NetworkElement=ML6366_01" elementType="MINI-LINK-Indoor"/>
+<measCollec beginTime="2023-11-06T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement  localDn="NetworkElement=ML6366_01" />
+<measInfo measInfoId="Pm=1,PmGroup=RADIUS_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Request_Send</measType>
+<measType p="2">Request_Resend</measType>
+<measType p="3">Request_Accept</measType>
+<measType p="4">Request_Reject</measType>
+<measType p="5">Request_Timeout</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">87</r>
+<r p="2">40</r>
+<r p="3">10</r>
+<r p="4">78</r>
+<r p="5">6</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LACP_Link_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">dot3adAggPortStatsLACPDUsRx</measType>
+<measType p="2">dot3adAggPortStatsMarkerPDUsRx</measType>
+<measType p="3">dot3adAggPortStatsMarkerResponsePDUsRx</measType>
+<measType p="4">dot3adAggPortStatsUnknownRx</measType>
+<measType p="5">dot3adAggPortStatsIllegalRx</measType>
+<measType p="6">dot3adAggPortStatsLACPDUsTx</measType>
+<measType p="7">dot3adAggPortStatsMarkerPDUsTx</measType>
+<measType p="8">dot3adAggPortStatsMarkerResponsePDUsTx</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">99</r>
+<r p="2">3</r>
+<r p="3">98</r>
+<r p="4">31</r>
+<r p="5">13</r>
+<r p="6">67</r>
+<r p="7">30</r>
+<r p="8">46</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=TCP_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">tcpRetransSegs</measType>
+<measType p="2">tcpInSegs</measType>
+<measType p="3">tcpPassiveOpens</measType>
+<measType p="4">tcpActiveOpens</measType>
+<measType p="5">tcpOutRsts</measType>
+<measType p="6">tcpAttemptFails</measType>
+<measType p="7">tcpInErrs</measType>
+<measType p="8">tcpCurrEstab</measType>
+<measType p="9">tcpEstabResets</measType>
+<measType p="10">tcpOutSegs</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">79</r>
+<r p="2">55</r>
+<r p="3">82</r>
+<r p="4">91</r>
+<r p="5">24</r>
+<r p="6">94</r>
+<r p="7">16</r>
+<r p="8">5</r>
+<r p="9">77</r>
+<r p="10">66</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RadioLinkPower_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">RxLevel</measType>
+<measType p="2">TxLevel</measType>
+<measType p="3">MeanRxlevel1m</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">95</r>
+<r p="2">15</r>
+<r p="3">8</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=TACACS+_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Active_Sessions</measType>
+<measType p="2">PacketsTx</measType>
+<measType p="3">PacketsRx</measType>
+<measType p="4">Connection_Errors</measType>
+<measType p="5">ErrorsTx</measType>
+<measType p="6">ErrorsRx</measType>
+<measType p="7">Authentication_Timeout</measType>
+<measType p="8">Authorization_Timeout</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">58</r>
+<r p="2">12</r>
+<r p="3">28</r>
+<r p="4">12</r>
+<r p="5">87</r>
+<r p="6">90</r>
+<r p="7">15</r>
+<r p="8">84</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=UDP_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">udpInDatagrams</measType>
+<measType p="2">udpNoPorts</measType>
+<measType p="3">udpOutDatagrams</measType>
+<measType p="4">udpInErrors</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">46</r>
+<r p="2">48</r>
+<r p="3">39</r>
+<r p="4">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ERP_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Link_Failure</measType>
+<measType p="2">RPL_Failure</measType>
+<measType p="3">Manual_Switch</measType>
+<measType p="4">Forced_Switch</measType>
+<measType p="5">Switchovers</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">83</r>
+<r p="2">91</r>
+<r p="3">81</r>
+<r p="4">58</r>
+<r p="5">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PTP_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">AnnounceTx</measType>
+<measType p="2">AnnounceRx</measType>
+<measType p="3">SynchRx</measType>
+<measType p="4">SynchTx</measType>
+<measType p="5">FollowUpRx</measType>
+<measType p="6">FollowUpTx</measType>
+<measType p="7">DelayReqRx</measType>
+<measType p="8">DelayReqTx</measType>
+<measType p="9">DelayRespRx</measType>
+<measType p="10">DelayRespTx</measType>
+<measType p="11">PdelayReqRx</measType>
+<measType p="12">PdelayReqTx</measType>
+<measType p="13">PdelayRespRx</measType>
+<measType p="14">PdelayRespTx</measType>
+<measType p="15">SignalingRx</measType>
+<measType p="16">SignalingTx</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">32</r>
+<r p="2">6</r>
+<r p="3">95</r>
+<r p="4">38</r>
+<r p="5">34</r>
+<r p="6">27</r>
+<r p="7">32</r>
+<r p="8">90</r>
+<r p="9">73</r>
+<r p="10">58</r>
+<r p="11">93</r>
+<r p="12">3</r>
+<r p="13">67</r>
+<r p="14">92</r>
+<r p="15">2</r>
+<r p="16">92</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LACP_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Switchovers</measType>
+<measType p="2">dot3adAggPortStatsLACPDUsRx</measType>
+<measType p="3">dot3adAggPortStatsMarkerPDUsRx</measType>
+<measType p="4">dot3adAggPortStatsMarkerResponsePDUsRx</measType>
+<measType p="5">dot3adAggPortStatsUnknownRx</measType>
+<measType p="6">dot3adAggPortStatsIllegalRx</measType>
+<measType p="7">dot3adAggPortStatsLACPDUsTx</measType>
+<measType p="8">dot3adAggPortStatsMarkerPDUsTx</measType>
+<measType p="9">dot3adAggPortStatsMarkerResponsePDUsTx</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">56</r>
+<r p="2">10</r>
+<r p="3">46</r>
+<r p="4">61</r>
+<r p="5">1</r>
+<r p="6">88</r>
+<r p="7">86</r>
+<r p="8">42</r>
+<r p="9">5</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IGMP-MLD-Snooping_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Joins_Received</measType>
+<measType p="2">Leaves_Received</measType>
+<measType p="3">General_Queries_Received</measType>
+<measType p="4">Specific_Queries_Sent</measType>
+<measType p="5">Specific_Queries_Received</measType>
+<measType p="6">Invalid_Messages_Received</measType>
+<measType p="7">Groups</measType>
+<measType p="8">Router_Ports</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">81</r>
+<r p="2">0</r>
+<r p="3">32</r>
+<r p="4">36</r>
+<r p="5">60</r>
+<r p="6">11</r>
+<r p="7">42</r>
+<r p="8">26</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP_RT">
+ <job jobId="USERDEF-test.Cont.Y.STATS"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">icmpInDestUnreachs</measType>
+<measType p="2">icmpInErrors</measType>
+<measType p="3">ipInReceives</measType>
+<measType p="4">ipOutRequests</measType>
+<measType p="5">ipForwDatagrams</measType>
+<measType p="6">ipReasmReqds</measType>
+<measType p="7">ipReasmOKs</measType>
+<measType p="8">icmpInMsgs</measType>
+<measType p="9">ipInDelivers</measType>
+<measType p="10">icmpOutMsgs</measType>
+<measType p="11">ipInDiscards</measType>
+<measType p="12">ipRoutingDiscards</measType>
+<measValue measObjLdn="1/2/1 RAU IF1">
+<r p="1">8</r>
+<r p="2">23</r>
+<r p="3">56</r>
+<r p="4">98</r>
+<r p="5">17</r>
+<r p="6">56</r>
+<r p="7">40</r>
+<r p="8">32</r>
+<r p="9">94</r>
+<r p="10">9</r>
+<r p="11">18</r>
+<r p="12">57</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-06T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

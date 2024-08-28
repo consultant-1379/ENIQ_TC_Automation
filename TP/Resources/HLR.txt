@@ -1,0 +1,2 @@
+nodeFDN|vlraddr|nsub|ownInt|ownRint
+SubNetwork=ONRM_RootMO,ManagedElement=HLR01|3-615703423|3|2|3

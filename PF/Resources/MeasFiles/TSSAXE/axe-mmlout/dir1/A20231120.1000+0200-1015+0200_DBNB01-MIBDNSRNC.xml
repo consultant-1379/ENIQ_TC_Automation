@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">GOODNCACHES</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,MIBDNSRNC=0">
+				<r p="1">58</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

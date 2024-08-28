@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v11.0.0">
+       <fileSender/>
+       <measCollec beginTime="2023-10-30T10:00:00+02:00"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="VG13Job"/>
+         <granPeriod duration="PT900S" endTime="2023-10-30T10:15:00+02:00"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">vgAcceptedReq.actual</measType>
+         <measType p="1">vgAcceptedReq.delta</measType>
+         <measType p="2">vgPeakTransTimeIntervalLength.actual</measType>
+         <measType p="3">vgPeakTransTimeIntervalLength.min</measType>
+         <measType p="4">vgPeakTransTimeIntervalLength.max</measType>
+         <measType p="5">vgPeakTransTransPerTimeInterval.actual</measType>
+         <measType p="6">vgPeakTransTransPerTimeInterval.min</measType>
+         <measType p="7">vgPeakTransTransPerTimeInterval.max</measType>
+         <measType p="8">vgRejectedReq.actual</measType>
+         <measType p="9">vgRejectedReq.delta</measType>
+		 <measValue measObjLdn="">
+             <r p="0">63</r>
+             <r p="1">56</r>
+             <r p="2">86</r>
+             <r p="3">19</r>
+             <r p="4">19</r>
+             <r p="5">41</r>
+             <r p="6">36</r>
+             <r p="7">27</r>
+             <r p="8">80</r>
+             <r p="9">71</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-10-30T10:15:00+02:00"/>
+    </fileFooter>
+</measCollecFile>

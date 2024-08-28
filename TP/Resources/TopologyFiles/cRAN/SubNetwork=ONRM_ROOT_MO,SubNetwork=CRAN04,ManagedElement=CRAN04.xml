@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN04,ManagedElement=CRAN04" mimName="CRANTop" lastModified="1698922980582">
+	<attr name="timestampOfChange">2023-11-02 11:03:00.582</attr>
+ <attr name="NE-name">CRAN04</attr>
+ <attr name="managedElementType">Shared-CNF</attr>
+ <attr name="managedFunctions">
+ <seq count="4">
+<item>
+<struct>
+ <attr name="managedFunction">GNBDU</attr>
+ <attr name="managedFunctionName">SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN04,ManagedElement=CRAN04,ManagedElement=1,GNBDUFunction=1</attr>
+</struct>
+</item>
+<item>
+<struct>
+ <attr name="managedFunction">Equipment</attr>
+ <attr name="managedFunctionName">SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN04,ManagedElement=CRAN04,RANInfrastructureSupport=1,Equipment=1</attr>
+</struct>
+</item>
+<item>
+<struct>
+ <attr name="managedFunction">Antenna</attr>
+ <attr name="managedFunctionName">SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN04,ManagedElement=CRAN04,RANInfrastructureSupport=1,Equipment=1,Antenna=1</attr>
+</struct>
+</item>
+<item>
+<struct>
+ <attr name="managedFunction">RadioUnit</attr>
+ <attr name="managedFunctionName">SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN04,ManagedElement=CRAN04,RANInfrastructureSupport=1,Equipment=1,Antenna=1,RadioUnit=1</attr>
+</struct>
+</item>
+</seq>
+</attr>
+ </mo>
+</model>

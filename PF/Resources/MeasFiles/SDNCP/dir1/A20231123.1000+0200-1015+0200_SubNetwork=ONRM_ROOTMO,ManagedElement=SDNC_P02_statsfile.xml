@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V10.0" vendorName="Ericsson " dnPrefix="SubNetwork=ONRM_ROOTMO_R,MeContext=SDNC_P02">
+<measCollec beginTime="2023-11-23T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=1"/>
+<measInfo measInfoId="sdncPMGroupMim">
+ <job jobId="1"/>
+<granPeriod duration="PT900S" endTime="2023-11-23T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">InjectedOFMessagesReceive</measType>
+<measType p="2">PacketsPerOFPortReceiveDrop</measType>
+<measType p="3">BytesPerOFPortReceive</measType>
+<measType p="4">PacketsPerInternalPortSent</measType>
+<measType p="5">EntriesPerOFTable</measType>
+<measType p="6">PacketsPerSCFPortSent</measType>
+<measType p="7">PacketsPerOFPortReceiveError</measType>
+<measType p="8">PacketsPerOFPortReceive</measType>
+<measType p="9">PacketsPerOFPortSent</measType>
+<measType p="10">BytesPerOFPortSent</measType>
+<measType p="11">InjectedOFMessagesSent</measType>
+<measType p="12">OFPortDuration</measType>
+<measType p="13">PacketsPerInternalPortRecieve</measType>
+<measType p="14">PacketsPerSCFPortReceive</measType>
+<measType p="15">NumberOfOFPorts</measType>
+<measType p="16">NumberOfEFS</measType>
+<measValue measObjLdn="dpnId_1_InjectedOFMessagesReceive">
+<r p="1">87</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerOFPortReceiveDrop">
+<r p="2">40</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_BytesPerOFPortReceive">
+<r p="3">48</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerInternalPortSent">
+<r p="4">77</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_tableName_2_tableId_3_EntriesPerOFTable">
+<r p="5">19</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerSCFPortSent">
+<r p="6">18</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerOFPortReceiveError">
+<r p="7">70</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerOFPortReceive">
+<r p="8">50</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerOFPortSent">
+<r p="9">32</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_BytesPerOFPortSent">
+<r p="10">83</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_InjectedOFMessagesSent">
+<r p="11">88</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_OFPortDuration">
+<r p="12">20</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerInternalPortRecieve">
+<r p="13">57</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_portnum_2_PacketsPerSCFPortReceive">
+<r p="14">91</r>
+</measValue>
+<measValue measObjLdn="dpnId_1_NumberOfOFPorts">
+<r p="15">51</r>
+</measValue>
+<measValue measObjLdn="Node_1_NumberOfEFS">
+<r p="16">75</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-23T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

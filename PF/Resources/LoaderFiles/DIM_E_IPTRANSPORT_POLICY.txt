@@ -1,0 +1,7 @@
+eniq_oss_1 Router6274_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6274_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     
+eniq_oss_1 Router6676_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6676_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     
+eniq_oss_1 Router6273_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6273_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     
+eniq_oss_1 Router6675_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6675_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     
+eniq_oss_1 Router6672_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6672_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     
+eniq_oss_1 Router6X71_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6X71_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     
+eniq_oss_1 Router6673_01 SubNetwork=ONRM_ROOT_MO,MeContext=Router6673_01,ManagedElement=1,qos=1,policy=CORE,pwfq=1,rate=1,pir=1 CORE   1000000 Ericsson ACTIVE 2023-12-03 11:30:21.0 2023-12-03 11:45:22.0 ENIQ     

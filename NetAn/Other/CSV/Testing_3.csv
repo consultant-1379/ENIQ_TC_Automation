@@ -1,0 +1,2 @@
+KPI,Formula,Node Type,Description,Joins,FlexFilterValues,Index
+KPIW,DC_E_NR_EVENTS_NRCELLCU_RAW.pmEbsDrbRelNormal5qi,NR,Test_KPI,,,1:5

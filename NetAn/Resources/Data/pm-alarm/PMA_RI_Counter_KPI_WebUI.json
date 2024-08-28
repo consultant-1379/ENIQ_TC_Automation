@@ -1,0 +1,71 @@
+{
+
+	"TC01":	{
+
+				"Alarm_name" : "Alarm",
+				"Alarm_Type" : "Past Comparison Detection",
+				"ENIQ_data_source" : "NetAn_ODBC",
+				"Single_node_or_collection_or_network" : "Single Node",
+				"Node_Collection" : "",
+				"System_area": "Radio",
+				"Node_type": "NR",
+				"Node" : "G2RBS01",
+				"Measure_type_1" :"COUNTER",
+				"Measure_1" : "pmUeCtxtRelAbnormalGnbDuPnr.DC_E_NR_NRCELLDU_RAW",
+				"Measure_type_2" :"KPI",
+				"Measure_2" : "Normalized Average UL MAC Cell Throughput Captured in gNodeB Considering Actual PUSCH Slot Only",
+				"Measure_type_3" :"RI", 
+				"Measure_3" : "PDSCH Slot Utilization",
+				"Alarm_severity" : "Minor",
+				"Aggregation" : "1 Hour",
+				"Probable_cause" : "Threshold Crossed",
+				"LookBack_Period_val" : "2",
+				"LookBack_Period_unit" : "Day(s)",
+				"Specific_problem" : "NA"
+			},
+
+	"TC02":	{
+
+				"Alarm_name" : "Alarm",
+				"Alarm_Type" : "Threshold",
+				"ENIQ_data_source" : "NetAn_ODBC",
+				"Single_node_or_collection_or_network" : "Single Node",
+				"Node_Collection" : "",
+				"System_area": "Radio",
+				"Node_type": "ERBS",
+				"Node" : "ERBS1",
+				"Measure_type_1" :"KPI",
+				"Measure_1" : "Cell Handover Execution Success Rate for Category M1 Ues,Differentiated Cell Mobility Success Rate in LTE",
+				"Measure_type_2" :"FLEX_COUNTER",
+				"Measure_2" : "pmFlexEndcSetupScgUeSucc.DC_E_ERBS_EUTRANCELLFDD_FLEX_RAW",
+				"Measure_type_3" :"RI",
+				"Measure_3" : "based on PLMN ID and SPID",
+				"Alarm_severity" : "Major",
+				"Aggregation" : "None",
+				"Probable_cause" : "Excessive Error Rate",
+				"Specific_problem" : "NA"
+			},
+
+	"TC03":	{
+
+				"Alarm_name" : "Alarm",
+				"Alarm_Type" : "Case Dependent Threshold",
+				"ENIQ_data_source" : "NetAn_ODBC",
+				"Single_node_or_collection_or_network" : "SubNetwork",
+				"Node_Collection" : "",
+				"System_area": "Radio",
+				"Node_type": "ERBS",
+				"Node" : "ERBS-SUBNW-1",
+				"Measure_type_1" :"KPI",
+				"Measure_1" : "DL MAC Throughput",
+				"Measure_type_2" :"PDF_COUNTER",
+				"Measure_2" : "pmRrcConnReestFailUeAdmCtrlCe.DC_E_ERBS_NBIOTCELL_V_RAW,pmZTemporary218.DC_E_ERBS_NBIOTCELL_V_RAW",
+				"Measure_type_3" :"RI",
+				"Measure_3" : "NPDSCH Utilization",
+				"Alarm_severity" : "Indeterminate",
+				"Aggregation" : "1 Hour",
+				"Probable_cause" : "Reduced alarm reporting",
+				"Specific_problem" : "NA"
+			}
+
+}

@@ -1,0 +1,6 @@
+Collection file from host EdgeRtr02, Context: local, Policy: PM_policy_context, Data collected: 20231107
+PM_Ctx1: epochtime:1699351201;context_name:local;active_subs:36;active_subs_bridged1483:37;active_subs_clips:38;active_subs_dot1qenet:39;active_subs_ppp:40;active_subs_pppoe:41;active_subs_routed1483:42;start_time:43106;sysuptime:43106
+PM_Ctx1: epochtime:1699351201;context_name:local;active_subs:43;active_subs_bridged1483:44;active_subs_clips:45;active_subs_dot1qenet:46;active_subs_ppp:47;active_subs_pppoe:48;active_subs_routed1483:49;start_time:43106;sysuptime:43106
+PM_Ctx1: epochtime:1699351201;context_name:local;active_subs:50;active_subs_bridged1483:51;active_subs_clips:52;active_subs_dot1qenet:53;active_subs_ppp:54;active_subs_pppoe:55;active_subs_routed1483:56;start_time:43106;sysuptime:43106
+PM_Ctx1: epochtime:1699351201;context_name:local;active_subs:57;active_subs_bridged1483:58;active_subs_clips:59;active_subs_dot1qenet:60;active_subs_ppp:61;active_subs_pppoe:62;active_subs_routed1483:63;start_time:43106;sysuptime:43106
+PM_Ctx1: epochtime:1699351201;context_name:local;active_subs:64;active_subs_bridged1483:65;active_subs_clips:66;active_subs_dot1qenet:67;active_subs_ppp:68;active_subs_pppoe:69;active_subs_routed1483:70;start_time:43106;sysuptime:43106

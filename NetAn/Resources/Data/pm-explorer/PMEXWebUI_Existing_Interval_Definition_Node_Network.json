@@ -1,0 +1,67 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure":"NR-to-LTE Inter-RAT Handover success rate captured in source gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC02": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure":"EN-DC Intra-frequency Handover Success Rate Captured in Source sgNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC03": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure":"Average Overall DL Latency for NR",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC04": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure":"SCG Radio Resource Retainability Captured in gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC05": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure":"Normalized Average DL MAC Cell Throughput Considering Traffic",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

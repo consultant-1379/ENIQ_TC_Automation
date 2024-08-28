@@ -1,0 +1,42 @@
+{
+
+    "cNELS1": {
+        "System_area" : "Core",
+        "Node_type" : "cNELS",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "Nels01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "cnels_scheduledbackup_errors",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "cnels_scheduledbackup_errors",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "cNELS_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "cnels_scheduledbackup_errors"
+    },
+	"cNELS2": {
+        "System_area" : "Core",
+        "Node_type" : "cNELS",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "Nels01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "cnels_wcdbcd_dropped_messages",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "cnels_wcdbcd_dropped_messages",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "cNELS_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "cnels_wcdbcd_dropped_messages"
+    }
+	
+	
+    
+}

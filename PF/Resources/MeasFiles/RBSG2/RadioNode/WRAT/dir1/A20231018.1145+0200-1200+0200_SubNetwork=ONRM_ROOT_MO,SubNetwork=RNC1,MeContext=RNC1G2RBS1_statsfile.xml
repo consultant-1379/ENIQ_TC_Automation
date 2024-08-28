@@ -1,0 +1,2433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V10.0" vendorName="Ericsson AB">
+<fileSender elementType="RadioNode"/>
+<measCollec beginTime="2023-10-18T11:45:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement userLabel="rbs258" swVersion="CXP9024418_1 R14TD"/>
+<measInfo measInfoId="Pm=1,PmGroup=BfdSessionIPv6">
+ <job jobId="886"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bfdSessDownDurationTotal</measType>
+<measType p="2">bfdSessDroppedPackets</measType>
+<measType p="3">bfdSessTxPackets</measType>
+<measType p="4">bfdSessUpCount</measType>
+<measType p="5">bfdSessRxPackets</measType>
+<measType p="6">bfdSessDownCount</measType>
+<measType p="7">bfdSessDownDurationMin</measType>
+<measType p="8">bfdSessDownDurationMax</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,BfdSessionIPv6=1">
+<r p="1">70</r>
+<r p="2">72</r>
+<r p="3">42</r>
+<r p="4">42</r>
+<r p="5">9</r>
+<r p="6">53</r>
+<r p="7">27</r>
+<r p="8">53</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=FreqBandData">
+ <job jobId="887"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmNoOfPwrOBLimSlots</measType>
+<measType p="2">pmReturnLossDiff</measType>
+<measType p="3">pmReturnLoss</measType>
+<measType p="4">pmReturnLossMin</measType>
+<measType p="5">pmReturnLossAvg</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,RfPort=1,FreqBandData=1">
+<r p="1">67</r>
+<r p="2">18</r>
+<r p="3">3,22,2,33,67,81,41,97,15,29,88,70,26,86,20,37,71,32,26,84,83,27,2,45,14,60,88,99,12,24,31</r>
+<r p="4">13</r>
+<r p="5">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CommonChannelResourcesUl">
+ <job jobId="888"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmAccessIntensityRach</measType>
+<measType p="2">pmPrachPropagationDelayMax</measType>
+<measType p="3">pmPrachPropagationDelay</measType>
+<measType p="4">pmPrachReceivedPreambleSir</measType>
+<measType p="5">pmPrachNoPreambleFalseDetection</measType>
+<measType p="6">pmAccessIntensityEulFach</measType>
+<measType p="7">pmPrachSuccReceivedBlocks</measType>
+<measType p="8">pmPrachUnsuccReceivedBlocks</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,NodeBSectorCarrier=1,CommonChannelResourcesUl=1">
+<r p="1">46,69,21,47,72,85,29,42,30,52,81,92,12,13,80,78,73,60,3,87,63,49,89,65,11,55,27</r>
+<r p="2">13</r>
+<r p="3">85,90,10,95,73,60,4,23,65,23,2,77,81,92,71,51,67,4,41,69,84,37,92,54,34,7,3,35,74,44,23,76,90,22,80,51,13,41,1,44,41</r>
+<r p="4">24,9,25,99,99,69,50,61,63,65,5,83,84,95,37,84,24,58,91,20,11,15,51,86,2,22,27</r>
+<r p="5">73</r>
+<r p="6">55,61,13,55,37,41,12,56,16,37,37,48,51,63,79,80,7,25,91,20,89,81,93,90,94,13,27</r>
+<r p="7">77</r>
+<r p="8">6</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BfdSessionIPv4">
+ <job jobId="889"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bfdSessDownDurationTotal</measType>
+<measType p="2">bfdSessDroppedPackets</measType>
+<measType p="3">bfdSessTxPackets</measType>
+<measType p="4">bfdSessUpCount</measType>
+<measType p="5">bfdSessRxPackets</measType>
+<measType p="6">bfdSessDownCount</measType>
+<measType p="7">bfdSessDownDurationMax</measType>
+<measType p="8">bfdSessDownDurationMin</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,BfdSessionIPv4=1">
+<r p="1">17</r>
+<r p="2">17</r>
+<r p="3">29</r>
+<r p="4">27</r>
+<r p="5">42</r>
+<r p="6">48</r>
+<r p="7">27</r>
+<r p="8">53</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=TimeSyncIO">
+ <job jobId="890"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">phaseJump</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Synchronization=1,TimeSyncIO=1">
+<r p="1">53,86,18,14,7,64,96,69,50,27,91,79,85,26,31,14,3,99,86,20</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BatteryUnit">
+ <job jobId="891"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmBatteryUnitTemp</measType>
+<measType p="2">pmBatteryCellVoltageMax</measType>
+<measType p="3">pmOverTempAlarms</measType>
+<measType p="4">pmDisconnectsAtCharge</measType>
+<measType p="5">pmBatteryCellVoltageMin</measType>
+<measType p="6">pmUnderTempAlarms</measType>
+<measType p="7">pmBatteryCellVoltageDelta</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,BatteryUnit=1">
+<r p="1">24,82,53,15,50,89,57,8,32,46,21,64,68,54,90,42,17</r>
+<r p="2">77,80,69,18,42,18,78,63,67,33,49,60,97,72,3,5,63,18</r>
+<r p="3">27</r>
+<r p="4">91</r>
+<r p="5">55,81,69,21,67,16,71,83,82,81,42,72,81,38,76,82,15,18</r>
+<r p="6">24</r>
+<r p="7">13,10,65,8,67,3,63,38,49,46,26,12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CapacityUsage">
+ <job jobId="892"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmLicNrRrus32Air32Hwac</measType>
+<measType p="2">pmLicOutputPowerHwac</measType>
+<measType p="3">pmLicMimoLayerHwac</measType>
+<measType p="4">pmLicCarrierBWHwac</measType>
+<measType p="5">pmLicAntennaBWHwac</measType>
+<measValue measObjLdn="ManagedElement=1,NodeSupport=1,CapacityUsage=1">
+<r p="1">46</r>
+<r p="2">48</r>
+<r p="3">62</r>
+<r p="4">94</r>
+<r p="5">92</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=TwampTestSession">
+ <job jobId="893"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">lostPeriodsFwd</measType>
+<measType p="2">reorderPktFwd</measType>
+<measType p="3">ttlMaxFwd</measType>
+<measType p="4">ipdvFwdP95</measType>
+<measType p="5">ttlMinRev</measType>
+<measType p="6">ipdvRevAvg</measType>
+<measType p="7">ipdvFwdP99</measType>
+<measType p="8">delayRtMax</measType>
+<measType p="9">delayRtMin</measType>
+<measType p="10">lostPktsRev</measType>
+<measType p="11">reorderPktRev</measType>
+<measType p="12">ipdvRevP98</measType>
+<measType p="13">duplicPktRev</measType>
+<measType p="14">lostPeriodMaxFwd</measType>
+<measType p="15">ipdvFwdMin</measType>
+<measType p="16">ipdvFwdMax</measType>
+<measType p="17">delayRtAvg</measType>
+<measType p="18">duplicPktFwd</measType>
+<measType p="19">dscpRecMin</measType>
+<measType p="20">txPkts</measType>
+<measType p="21">ipdvRevP99</measType>
+<measType p="22">delayRtP95</measType>
+<measType p="23">lostPeriodsRev</measType>
+<measType p="24">ipdvFwdP98</measType>
+<measType p="25">lostPktsFwd</measType>
+<measType p="26">ipdvRevMax</measType>
+<measType p="27">lostPeriodMinRev</measType>
+<measType p="28">delayRtP98</measType>
+<measType p="29">ipdvRevMin</measType>
+<measType p="30">rxPkts</measType>
+<measType p="31">dscpRecMax</measType>
+<measType p="32">ttlMinFwd</measType>
+<measType p="33">lostPeriodMaxRev</measType>
+<measType p="34">lostPeriodMinFwd</measType>
+<measType p="35">ttlMaxRev</measType>
+<measType p="36">delayRtP99</measType>
+<measType p="37">ipdvRevP95</measType>
+<measType p="38">ipdvFwdAvg</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,TwampInitiator=1,TwampTestSession=1">
+<r p="1">0,55,13,41,84,55,77,26,26,94,1,96,92,15,15</r>
+<r p="2">35,21,78,22,80,25,60,67,94,4,15,19,76,33,15</r>
+<r p="3">32,75,61,70,56,53,17,44,34,63,71,62,96,40,15</r>
+<r p="4">32,64,30,36,82,49,57,80,45,2,22,41,22,95,15</r>
+<r p="5">26,96,0,76,40,51,97,2,13,76,19,83,94,51,15</r>
+<r p="6">26,67,42,14,4,8,72,58,62,4,39,2,8,94,15</r>
+<r p="7">6,24,11,0,85,98,49,19,49,79,63,17,60,99,15</r>
+<r p="8">48,23,31,20,83,61,81,78,99,5,81,63,49,65,15</r>
+<r p="9">17,66,15,76,42,11,22,79,40,87,5,20,15,94,15</r>
+<r p="10">73,54,21,86,69,37,99,90,27,50,19,97,29,35,15</r>
+<r p="11">23,43,86,24,86,45,20,4,87,20,35,77,0,79,15</r>
+<r p="12">14,5,54,88,51,46,11,86,60,40,56,92,74,98,15</r>
+<r p="13">34,24,45,85,20,71,0,38,49,68,22,13,12,43,15</r>
+<r p="14">4,50,91,87,60,37,60,37,14,40,12,55,5,42,15</r>
+<r p="15">11,73,85,21,87,97,59,93,24,94,49,2,68,7,15</r>
+<r p="16">23,34,5,20,34,32,17,85,52,16,41,64,80,31,15</r>
+<r p="17">78,5,22,28,89,40,7,12,54,76,8,5,13,54,15</r>
+<r p="18">94,53,20,80,18,33,1,42,77,8,65,3,44,4,15</r>
+<r p="19">80,16,99,32,58,73,8,65,24,24,33,80,86,88,15</r>
+<r p="20">23,60,21,30,88,1,93,94,1,82,40,73,66,31,15</r>
+<r p="21">22,38,76,73,23,71,11,60,57,22,15,28,82,62,15</r>
+<r p="22">93,27,94,12,42,6,84,7,4,75,98,99,3,53,15</r>
+<r p="23">47,5,59,51,23,1,38,81,90,73,30,51,5,62,15</r>
+<r p="24">43,62,0,16,70,42,56,80,34,35,17,76,75,4,15</r>
+<r p="25">13,75,52,32,39,28,18,74,23,77,68,68,14,84,15</r>
+<r p="26">50,1,65,96,70,56,57,7,32,20,51,6,58,41,15</r>
+<r p="27">11,43,62,15,45,43,61,62,55,35,13,47,93,21,15</r>
+<r p="28">62,80,3,71,78,30,62,96,94,50,65,81,4,9,15</r>
+<r p="29">21,38,35,12,62,85,57,67,20,98,34,13,12,46,15</r>
+<r p="30">44,62,40,71,23,21,26,8,90,70,30,95,11,68,15</r>
+<r p="31">90,95,51,81,54,39,63,35,15,7,95,97,3,69,15</r>
+<r p="32">6,75,84,58,94,96,58,91,21,24,25,10,18,81,15</r>
+<r p="33">96,14,9,69,94,28,93,29,89,91,35,39,45,49,15</r>
+<r p="34">1,97,33,5,0,72,13,20,7,61,94,35,90,53,15</r>
+<r p="35">55,90,51,91,79,9,95,28,5,26,47,85,58,20,15</r>
+<r p="36">3,52,50,93,65,21,91,85,17,8,35,37,86,96,15</r>
+<r p="37">50,42,42,22,41,42,73,59,20,38,38,44,7,57,15</r>
+<r p="38">86,68,36,54,50,88,82,17,29,7,91,50,41,34,15</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PeerIpsecTunnel">
+ <job jobId="894"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">unavailableSeconds</measType>
+<measType p="2">ikeFailures</measType>
+<measType p="3">ipIfStatsInError</measType>
+<measType p="4">ipsecInError</measType>
+<measType p="5">ipIfStatsOutDiscards</measType>
+<measType p="6">ipIfStatsOutFragCreates</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,PeerIpsecTunnel=1">
+<r p="1">40</r>
+<r p="2">89</r>
+<r p="3">22</r>
+<r p="4">67</r>
+<r p="5">0</r>
+<r p="6">48</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EnergyMeasurement">
+ <job jobId="895"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmPowerConsumption</measType>
+<measType p="2">pmMaxPowerConsumption</measType>
+<measType p="3">pmAccumulatedEnergyConsumption</measType>
+<measType p="4">pmEnergyConsumption</measType>
+<measType p="5">pmMinPowerConsumption</measType>
+<measValue measObjLdn="ManagedElement=1,EquipmentSupportFunction=1,EnergyMeasurement=1">
+<r p="1">9,48,73,41,18,67,32,67,50,69,63,4,30,53,33,98,1,60,94,58,15,32,91,68,82,40,48,88,43,9,38,28,13,25,10,86,54,31,83,85,76,60,55,76,60,70,98,40,46,17,12,9,62,89,40,12,29,72,21,51,93,76,54,64,55,19,23,45,89,44,91,55,21,64,55,46,57,21,55,78,0,0,40,40,4,85,38,77,41,77,87,99,31,29,21,36,31,97,52,46,2,38,61,86,99,19,15,15,64,27,64,76,78,38,80,35,59,75,28,11,54,68,4,84,57,43,28,35,77,73,0,78,6,75,31,28,6,88,90,99,78,1,98,40,2,48,86,71,52,150</r>
+<r p="2">7</r>
+<r p="3">14</r>
+<r p="4">73</r>
+<r p="5">19</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=VlanPort">
+ <job jobId="896"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ifInUnknownProtos</measType>
+<measType p="2">ifOutDiscards</measType>
+<measType p="3">ifHCOutBroadcastPkts</measType>
+<measType p="4">ifHCOutMulticastPkts</measType>
+<measType p="5">ifHCInOctets</measType>
+<measType p="6">ifHCInBroadcastPkts</measType>
+<measType p="7">ifHCInMulticastPkts</measType>
+<measType p="8">ifHCOutUcastPkts</measType>
+<measType p="9">ifHCOutOctets</measType>
+<measType p="10">ifInDiscards</measType>
+<measType p="11">ifHCInUcastPkts</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,VlanPort=1">
+<r p="1">21</r>
+<r p="2">33</r>
+<r p="3">39</r>
+<r p="4">65</r>
+<r p="5">43</r>
+<r p="6">16</r>
+<r p="7">7</r>
+<r p="8">34</r>
+<r p="9">81</r>
+<r p="10">40</r>
+<r p="11">26</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DhcpRelayIPv4">
+ <job jobId="897"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">dhcpOutServerMsgsHC</measType>
+<measType p="2">dhcpOutClientMsgsHC</measType>
+<measType p="3">dhcpInClientMsgsHC</measType>
+<measType p="4">dhcpInServerErrorsHC</measType>
+<measType p="5">dhcpInClientErrorsHC</measType>
+<measType p="6">dhcpInServerMsgsHC</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,DhcpRelayIPv4=1">
+<r p="1">25</r>
+<r p="2">62</r>
+<r p="3">50</r>
+<r p="4">99</r>
+<r p="5">13</r>
+<r p="6">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=InterfaceIPv4">
+ <job jobId="898"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ipIfStatsInHdrErrors</measType>
+<measType p="2">ipIfStatsOutDiscards</measType>
+<measType p="3">ipIfStatsHCOutTransmits</measType>
+<measType p="4">ipIfStatsReasmFails</measType>
+<measType p="5">ipIfStatsHCOutBcastPkts</measType>
+<measType p="6">ipIfStatsReasmReqds</measType>
+<measType p="7">ipIfStatsOutFragCreates</measType>
+<measType p="8">ipIfStatsHCInForwDatagrams</measType>
+<measType p="9">ipIfStatsHCInOctets</measType>
+<measType p="10">ipIfStatsInBlackHoles</measType>
+<measType p="11">ipIfStatsHCInMcastOctets</measType>
+<measType p="12">ipIfStatsInTruncatedPkts</measType>
+<measType p="13">ipIfStatsInNoRoutes</measType>
+<measType p="14">ipIfStatsOutFragFails</measType>
+<measType p="15">ipIfStatsHCOutMcastPkts</measType>
+<measType p="16">ipIfStatsReasmOKs</measType>
+<measType p="17">ipIfOutOctetRatePercentiles</measType>
+<measType p="18">ipIfStatsHCInMcastPkts</measType>
+<measType p="19">ipIfStatsHCOutRequests</measType>
+<measType p="20">ipIfStatsOutFragOKs</measType>
+<measType p="21">ipIfStatsHCOutOctets</measType>
+<measType p="22">ipIfStatsOutFragReqds</measType>
+<measType p="23">ipIfStatsHCInDelivers</measType>
+<measType p="24">ipIfStatsInAddrErrors</measType>
+<measType p="25">ipIfStatsHCInBcastPkts</measType>
+<measType p="26">ipIfInOctetRatePercentiles</measType>
+<measType p="27">ipIfStatsInDiscards</measType>
+<measType p="28">ipIfStatsInSrcAddrErrors</measType>
+<measType p="29">ipIfStatsHCInReceives</measType>
+<measType p="30">ipIfStatsHCOutMcastOctets</measType>
+<measType p="31">ipIfStatsHCOutForwDatagrams</measType>
+<measType p="32">ipIfStatsInUnknownProtos</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,InterfaceIPv4=1">
+<r p="1">77</r>
+<r p="2">44</r>
+<r p="3">60</r>
+<r p="4">42</r>
+<r p="5">63</r>
+<r p="6">21</r>
+<r p="7">30</r>
+<r p="8">82</r>
+<r p="9">35</r>
+<r p="10">4</r>
+<r p="11">60</r>
+<r p="12">6</r>
+<r p="13">95</r>
+<r p="14">24</r>
+<r p="15">64</r>
+<r p="16">85</r>
+<r p="17">51,55,20,55,58,19,7</r>
+<r p="18">39</r>
+<r p="19">78</r>
+<r p="20">52</r>
+<r p="21">24</r>
+<r p="22">4</r>
+<r p="23">89</r>
+<r p="24">88</r>
+<r p="25">27</r>
+<r p="26">97,83,87,59,75,54,7</r>
+<r p="27">22</r>
+<r p="28">49</r>
+<r p="29">10</r>
+<r p="30">82</r>
+<r p="31">28</r>
+<r p="32">95</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DhcpRelayIPv6">
+ <job jobId="899"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">dhcpv6OutServerMsgsHC</measType>
+<measType p="2">dhcpv6InClientMsgsHC</measType>
+<measType p="3">dhcpv6InClientErrorsHC</measType>
+<measType p="4">dhcpv6OutClientMsgsHC</measType>
+<measType p="5">dhcpv6InServerMsgsHC</measType>
+<measType p="6">dhcpv6InServerErrorsHC</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,DhcpRelayIPv6=1">
+<r p="1">78</r>
+<r p="2">68</r>
+<r p="3">38</r>
+<r p="4">30</r>
+<r p="5">76</r>
+<r p="6">34</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RiLink">
+ <job jobId="900"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmLinkDelayHigh</measType>
+<measType p="2">pmLinkDelayLow</measType>
+<measType p="3">pmLinkRestart</measType>
+<measType p="4">pmLinkStabilityError</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,RiLink=1">
+<r p="1">76</r>
+<r p="2">80</r>
+<r p="3">56</r>
+<r p="4">99</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PtpBcOcPort">
+ <job jobId="901"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ptpFollowUpTx</measType>
+<measType p="2">ptpPacketsRx</measType>
+<measType p="3">ptpDelayReqRx</measType>
+<measType p="4">ptpDownLinkDelayAvg</measType>
+<measType p="5">ptpMeanPathDelayMax</measType>
+<measType p="6">ptpDelayRspRx</measType>
+<measType p="7">ptpUpLinkDelayMin</measType>
+<measType p="8">ptpFollowUpRx</measType>
+<measType p="9">ptpDownLinkDelayMin</measType>
+<measType p="10">ptpAnnounceForeignMasterRx</measType>
+<measType p="11">ptpDelayReqTx</measType>
+<measType p="12">ptpMeanPathDelayMin</measType>
+<measType p="13">ptpDownLinkDelayStDev</measType>
+<measType p="14">ptpMeanPathDelayAvg</measType>
+<measType p="15">ptpRefDefectTime</measType>
+<measType p="16">ptpSyncRx</measType>
+<measType p="17">ptpMeanPathDelayStDev</measType>
+<measType p="18">ptpDelayRspTx</measType>
+<measType p="19">ptpUpLinkDelayStDev</measType>
+<measType p="20">ptpUpLinkDelayMax</measType>
+<measType p="21">ptpAnnounceTx</measType>
+<measType p="22">ptpOffsetFromMasterMin</measType>
+<measType p="23">ptpOffsetFromMasterStDev</measType>
+<measType p="24">ptpPacketsTx</measType>
+<measType p="25">ptpOffsetFromMasterMax</measType>
+<measType p="26">ptpUpLinkDelayAvg</measType>
+<measType p="27">ptpOffsetFromMasterAvg</measType>
+<measType p="28">ptpValidMeasurement</measType>
+<measType p="29">ptpAnnounceRx</measType>
+<measType p="30">phaseJump</measType>
+<measType p="31">ptpDownLinkDelayMax</measType>
+<measType p="32">ptpSyncTx</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Ptp=1,BoundaryOrdinaryClock=1,PtpBcOcPort=1">
+<r p="1">50</r>
+<r p="2">47</r>
+<r p="3">46</r>
+<r p="4">63</r>
+<r p="5">90</r>
+<r p="6">42</r>
+<r p="7">42</r>
+<r p="8">93</r>
+<r p="9">54</r>
+<r p="10">27</r>
+<r p="11">84</r>
+<r p="12">71</r>
+<r p="13">36</r>
+<r p="14">86</r>
+<r p="15">60</r>
+<r p="16">95</r>
+<r p="17">59</r>
+<r p="18">79</r>
+<r p="19">59</r>
+<r p="20">67</r>
+<r p="21">15</r>
+<r p="22">48</r>
+<r p="23">22</r>
+<r p="24">96</r>
+<r p="25">61</r>
+<r p="26">3</r>
+<r p="27">12</r>
+<r p="28">26</r>
+<r p="29">26</r>
+<r p="30">43,4,89,36,98,62,29,64,87,47,51,55,96,24,29,65,81,5,47,20</r>
+<r p="31">63</r>
+<r p="32">76</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DlPowerSharing">
+ <job jobId="902"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmNoOfPowLimSlots</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,DlPowerSharing=1">
+<r p="1">67</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=Ikev2Session">
+ <job jobId="903"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ikeTunChildSaRekey</measType>
+<measType p="2">ikeTunInIntegrityFail</measType>
+<measType p="3">ikeTunInInvalidMsg</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,IpsecTunnel=1,Ikev2Session=1">
+<r p="1">46</r>
+<r p="2">46</r>
+<r p="3">83</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BatteryBackup">
+ <job jobId="904"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmBatteryDepthOfDischargeDistr</measType>
+<measType p="2">pmBatteryDischargeTimeDistr</measType>
+<measType p="3">pmBatteryCapacityTotalDelivered</measType>
+<measType p="4">pmBatteryMainLoadUnderVoltDiscTimeDistr</measType>
+<measType p="5">pmBatteryTemperatureDistr</measType>
+<measValue measObjLdn="ManagedElement=1,EquipmentSupportFunction=1,BatteryBackup=1">
+<r p="1">40,43,54,54,39,2,7</r>
+<r p="2">0,8,44,73,51,45,18,8</r>
+<r p="3">36</r>
+<r p="4">55,42,21,91,74,33,88,8</r>
+<r p="5">62,82,34,72,11,36,14,29,56,42,29,65,96,16,86,89,17</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=AclIpv6Stats">
+ <job jobId="905"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">aclTotalDiscards</measType>
+<measType p="2">aclNdpAndMldPermits</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,AclIpv6Stats=1">
+<r p="1">2</r>
+<r p="2">85</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RadioLinks">
+ <job jobId="906"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmRLSSupSynchToUnsynch</measType>
+<measType p="2">pmDpchCodePowerSf8Low</measType>
+<measType p="3">pmAverageSir</measType>
+<measType p="4">pmRLSSupWaitToOutOfSynch</measType>
+<measType p="5">pmDpchCodePowerSf128</measType>
+<measType p="6">pmDpchCodePowerSf64</measType>
+<measType p="7">pmDpchCodePowerSf16Low</measType>
+<measType p="8">pmFDpchCodePowerLow</measType>
+<measType p="9">pmDpchCodePowerSf256Low</measType>
+<measType p="10">pmDpchCodePowerSf4Low</measType>
+<measType p="11">pmDpchCodePowerSf8</measType>
+<measType p="12">pmDpchCodePowerSf32</measType>
+<measType p="13">pmDpchCodePowerSf256</measType>
+<measType p="14">pmOutOfSynch</measType>
+<measType p="15">pmDpchCodePowerSf32Low</measType>
+<measType p="16">pmDpcchBer</measType>
+<measType p="17">pmDpchCodePowerSf64Low</measType>
+<measType p="18">pmUlSynchTimeFromCEdch</measType>
+<measType p="19">pmAverageSirError</measType>
+<measType p="20">pmFDpchCodePower</measType>
+<measType p="21">pmUlSynchTimeSHO</measType>
+<measType p="22">pmDpchCodePowerSf128Low</measType>
+<measType p="23">pmDpchCodePowerSf16</measType>
+<measType p="24">pmUlSynchTime</measType>
+<measType p="25">pmDpchCodePowerSf4</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,RadioLinks=1">
+<r p="1">48</r>
+<r p="2">82,85,97,97,61,11,52,13,68,35,70,94,92,3,34,1,33,26,29,10,98,20,98,46,78,76,23,96,48,5,83,43,46,33,37,88,68,38</r>
+<r p="3">70,11,21,24,57,5,55,45,20,94,69,35,20,96,70,61,33,8,63,9,64,16,16,68,1,70,11,21,5,17,96,90,68,49,99,15,82,38</r>
+<r p="4">3</r>
+<r p="5">15,24,47,86,45,84,77,85,76,49,79,12,55,54,53,17,70,97,78,77,51,91,4,10,79,19,73,49,34,41,93,20,19,66,35,25,69,38</r>
+<r p="6">63,31,41,82,64,62,71,29,18,27,69,57,45,48,96,26,22,4,94,46,79,66,2,13,84,74,52,2,99,36,85,51,72,92,46,49,31,38</r>
+<r p="7">67,71,53,90,59,3,66,69,79,8,59,62,36,43,46,44,60,68,14,38,72,63,62,85,8,96,33,86,89,72,93,82,52,41,89,36,45,38</r>
+<r p="8">26,6,81,74,44,60,64,92,49,86,78,58,60,7,67,91,33,60,96,42,59,79,50,38,68,70,56,54,9,73,14,50,39,69,85,54,61,38</r>
+<r p="9">76,39,66,71,67,4,17,62,88,90,1,41,40,9,21,88,89,89,46,72,72,33,27,73,0,30,84,74,13,38,82,50,66,37,2,6,58,38</r>
+<r p="10">94,55,61,35,87,82,65,76,32,97,86,32,47,20,38,62,82,7,1,52,95,13,62,72,36,3,70,3,39,87,84,78,88,68,13,90,30,38</r>
+<r p="11">87,12,47,51,0,29,15,52,25,2,24,47,90,58,33,32,74,24,93,23,11,98,98,90,54,92,22,34,84,28,66,42,30,69,32,3,64,38</r>
+<r p="12">91,66,5,46,63,45,49,54,51,48,87,37,81,93,29,45,14,51,51,14,17,92,57,36,82,78,80,4,81,32,76,84,86,51,92,87,92,38</r>
+<r p="13">14,13,86,10,87,78,77,2,44,29,3,7,28,70,20,22,72,46,60,56,2,43,16,53,20,28,97,34,10,25,93,65,54,25,50,84,53,38</r>
+<r p="14">67,77,64,88,28,85,3,57,87,45,38,13,79,17,98,52,2,57,81,10,39,86,58,19,5,94,25,74,12,70,63,3,50,55,43,63,74,65,25,60,59,93,91,53,58,47,6,93,59,50</r>
+<r p="15">86,2,59,83,10,99,80,8,75,66,50,43,43,36,15,80,16,32,70,91,78,70,98,13,31,42,55,78,39,48,66,30,49,74,84,25,62,38</r>
+<r p="16">62,34,3,76,37,25,61,74,56,84,13,32,77,57,42,41,18,49,18,49,65,75,19,28,25</r>
+<r p="17">92,51,52,16,74,12,47,44,85,95,89,6,83,40,40,39,47,43,75,37,48,24,13,95,61,9,94,41,39,52,64,27,72,45,15,46,34,38</r>
+<r p="18">54,92,77,29,20,58,97,99,87,58,70,25,5,60,62,16</r>
+<r p="19">22,65,25,72,60,14,28,15,72,27,40,67,74,68,20,78,86,98,41,27,1,91,85,67,17,90,4,66,48,34,48,83,7,22,67,89,27,95,35,26,47,42</r>
+<r p="20">80,84,76,49,0,64,43,43,37,9,66,91,31,41,21,13,3,13,34,95,35,50,96,75,71,60,65,26,51,28,33,92,98,35,76,47,30,38</r>
+<r p="21">42,5,3,12,70,46,49,40,31,70,44,43,9,44,56,16</r>
+<r p="22">80,81,24,30,36,42,62,13,51,21,85,80,67,54,7,87,46,83,27,77,84,0,8,71,60,62,77,2,43,97,19,69,47,51,42,0,18,38</r>
+<r p="23">75,56,81,57,57,27,47,87,62,79,33,33,9,57,37,35,59,9,22,61,24,26,4,31,57,46,60,90,87,26,50,59,87,27,51,76,56,38</r>
+<r p="24">33,41,13,7,41,18,14,15,46,0,88,81,81,77,57,16</r>
+<r p="25">12,22,98,31,80,12,22,35,77,37,22,25,26,78,70,36,95,67,93,21,60,83,72,0,75,87,28,55,1,9,90,41,60,8,96,95,18,38</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SfpChannel">
+ <job jobId="907"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmChannelTxBias</measType>
+<measType p="2">pmChannelRxPower</measType>
+<measType p="3">pmChannelTxPower</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,SfpModule=1,SfpChannel=1">
+<r p="1">65</r>
+<r p="2">15</r>
+<r p="3">0</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PimCancellationFunction">
+ <job jobId="908"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmPimcPowerSignalInjected</measType>
+<measType p="2">pmPimcCoefficientsDivergence</measType>
+<measType p="3">pmPimcCancellationGroupStatus</measType>
+<measType p="4">pmPimcCancellationDepth</measType>
+<measValue measObjLdn="ManagedElement=1,NodeSupport=1,PimCancellationFunction=1">
+<r p="1">44,13,5,16,49,77,48,85,6,63,12,2,27,59,88,72,81,76,54,9,3,37,89,48,5,13,35,54,69,4,31</r>
+<r p="2">87,34,33,4</r>
+<r p="3">8,17,2,4</r>
+<r p="4">36,25,10,19,4,36,9,72,95,36,10,93,91,6,40,81,90,96,92,46,77,20,61,97,75,83,30,92,40,33,31</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=AclIpv4Stats">
+ <job jobId="909"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">aclTotalDiscards</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,AclIpv4Stats=1">
+<r p="1">29</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IpsecTunnel">
+ <job jobId="910"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ikeTunInInvalidSpi</measType>
+<measType p="2">espTunOutNoPolicy</measType>
+<measType p="3">espTunInInvalidSpi</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,IpsecTunnel=1">
+<r p="1">82</r>
+<r p="2">17</r>
+<r p="3">49</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RfPort">
+ <job jobId="911"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmReturnLoss</measType>
+<measType p="2">pmPimPwrFailResUnavailLatest</measType>
+<measType p="3">pmPimDesenseHighCountLatest</measType>
+<measType p="4">pmPimcPowerSignalInjected</measType>
+<measType p="5">pmPimDesenseLowCount</measType>
+<measType p="6">pmPimPwrMeas</measType>
+<measType p="7">pmPimPwrSuccessLatest</measType>
+<measType p="8">pmPimPwrMaxLatest</measType>
+<measType p="9">pmPimDesenseAttempts</measType>
+<measType p="10">pmReturnLossMin</measType>
+<measType p="11">pmPimDesenseConfidence</measType>
+<measType p="12">pmPimDesenseSuccessLatest</measType>
+<measType p="13">pmPimPwrSum</measType>
+<measType p="14">pmPimPwrSumLatest</measType>
+<measType p="15">pmReturnLossDiff</measType>
+<measType p="16">pmPimDesenseMeas</measType>
+<measType p="17">pmPimDesenseMaxLatest</measType>
+<measType p="18">pmPimDesenseAttemptsLatest</measType>
+<measType p="19">pmPimPwrMax</measType>
+<measType p="20">pmPimDesenseHighCount</measType>
+<measType p="21">pmPimPwrFailResUnavail</measType>
+<measType p="22">pmPimDesenseMaxDiagnostic</measType>
+<measType p="23">pmPimDesenseMax</measType>
+<measType p="24">pmPimDesenseMaxDiscardLatest</measType>
+<measType p="25">pmPimDesenseMaxDiscard</measType>
+<measType p="26">pmPimPwrSuccess</measType>
+<measType p="27">pmPimDesenseSuccess</measType>
+<measType p="28">pmReturnLossAvg</measType>
+<measType p="29">pmPimcCancellationDepth</measType>
+<measType p="30">pmPimPwrVarianceSum</measType>
+<measType p="31">pmPimDesenseConfidenceLatest</measType>
+<measType p="32">pmPimPwrAttempts</measType>
+<measType p="33">pmPimDesenseMaxDiagnosticLatest</measType>
+<measType p="34">pmPimDesenseLowCountLatest</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,RfPort=1">
+<r p="1">78,31,39,14,43,20,96,69,43,33,21,80,48,83,90,63,53,45,13,66,39,78,55,56,47,28,51,42,0,69,31</r>
+<r p="2">41</r>
+<r p="3">18</r>
+<r p="4">79,84,68,96,90,70,98,98,92,32,46,50,50,56,68,36,28,38,94,58,82,39,58,32,61,11,13,25,43,98,31</r>
+<r p="5">57</r>
+<r p="6">90</r>
+<r p="7">73</r>
+<r p="8">15</r>
+<r p="9">62</r>
+<r p="10">36</r>
+<r p="11">44</r>
+<r p="12">72</r>
+<r p="13">28</r>
+<r p="14">74</r>
+<r p="15">24</r>
+<r p="16">78</r>
+<r p="17">37</r>
+<r p="18">81</r>
+<r p="19">51</r>
+<r p="20">41</r>
+<r p="21">83</r>
+<r p="22">46</r>
+<r p="23">70</r>
+<r p="24">65</r>
+<r p="25">13</r>
+<r p="26">25</r>
+<r p="27">18</r>
+<r p="28">67</r>
+<r p="29">44,64,29,72,33,46,18,65,26,73,9,61,31,51,35,19,5,6,54,12,12,43,41,76,59,80,47,94,56,81,31</r>
+<r p="30">67</r>
+<r p="31">73</r>
+<r p="32">88</r>
+<r p="33">61</r>
+<r p="34">0</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EDchResources">
+ <job jobId="912"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmNoiseFloorHighRes</measType>
+<measType p="2">pmCapacityLimitServEDchUsers</measType>
+<measType p="3">pmLMaxEDch</measType>
+<measType p="4">pmCEdchReleaseCause</measType>
+<measType p="5">pmNoActive10msIntervalsEulFach</measType>
+<measType p="6">pmEdchThpAppLim</measType>
+<measType p="7">pmCapacityAllocAttServEDchUsers</measType>
+<measType p="8">pmNoActive10msFramesEulFach</measType>
+<measType p="9">pmCapacityOfServEDchUsers</measType>
+<measType p="10">pmNoAllowedEul</measType>
+<measType p="11">pmNoUsersCEdchEul</measType>
+<measType p="12">pmNoUlUuLoadLimitEul</measType>
+<measType p="13">pmFirstDecodedFrameEulFach</measType>
+<measType p="14">pmWaitingTimeEul</measType>
+<measType p="15">pmGrantReductionReasonEul</measType>
+<measType p="16">pmNoActive2msIntervalsEulTti2</measType>
+<measType p="17">pmSamplesCapacityServEDchUsers</measType>
+<measType p="18">pmLDch</measType>
+<measType p="19">pmOwnUuLoad</measType>
+<measType p="20">pmEdchThpGlim</measType>
+<measType p="21">pmSumNackedBitsCellEulFach</measType>
+<measType p="22">pmNoActive10msIntervalsEulTti10</measType>
+<measType p="23">pmSumAckedBitsCellEulNonGlim</measType>
+<measType p="24">pmSumNackedBitsCellEulTti2</measType>
+<measType p="25">pmNoSchEdchEulTd</measType>
+<measType p="26">pmLEDchTot</measType>
+<measType p="27">pmSumAckedBitsCellEulTti10</measType>
+<measType p="28">pmNoSchEdchEul</measType>
+<measType p="29">pmSumAckedBitsCellEulTti2Td</measType>
+<measType p="30">pmEdchThpNonGlim</measType>
+<measType p="31">pmCommonChPowerEul</measType>
+<measType p="32">pmSumCapacityServEDchUsers</measType>
+<measType p="33">pmSumAckedBitsCellEulGlim</measType>
+<measType p="34">pmSumAckedBitsCellEulTti2</measType>
+<measType p="35">pmSumNackedBitsCellEulTti10</measType>
+<measType p="36">pmNoActive2msIntervalsEul</measType>
+<measType p="37">pmLOther</measType>
+<measType p="38">pmEulFachHarqTransm</measType>
+<measType p="39">pmNoActive2msFramesEulTd</measType>
+<measType p="40">pmCapacityAllocRejServEDchUsers</measType>
+<measType p="41">pmSumNackedBitsCellEulTti2Td</measType>
+<measType p="42">pmTotalRotCoverage</measType>
+<measType p="43">pmEulFachHarqTransmFailure</measType>
+<measType p="44">pmNoActive2msIntervalsEulGlim</measType>
+<measType p="45">pmNoActive2msIntervalsEulNonGlim</measType>
+<measType p="46">pmTotRateGrantedEul</measType>
+<measType p="47">pmLCEdch</measType>
+<measType p="48">pmNoActive2msFramesEul</measType>
+<measType p="49">pmBurstLengthEulFach</measType>
+<measType p="50">pmSumAckedBitsCellEulFach</measType>
+<measType p="51">pmNoActive10msFramesEul</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,NodeBSectorCarrier=1,EDchResources=1">
+<r p="1">75,93,84,43,84,58,24,10,6,70,56,77,91,15,36,57,66,28,23,79,22,80,42,86,44,24,27,54,95,8,23,88,6,95,18,39,70,68,62,75,59,43,17,40,16,98,38,7,13,80,65,88,6,18,29,40,16,68,71,42,24,21,4,69,97,36,26,93,56,70,14,10,54,78,42,45,64,66,40,41,53,38,36,90,93,75,39,83,57,50,70,92,63,19,95,6,69,0,10,46,18,76,82,85,74,97,83,86,62,46,78,38,20,2,16,53,90,63,99,28,49,40,4,45,1,79,41,3,98,75,54,14,44,45,32,17,4,66,72,80,36,46,62,42,9,89,8,72,60,98,23,70,25,18,72,33,17,90,72,76,14,5,94,24,12,31,19,73,6,70,80,33,79,46,83,91,38,34,83,73,74,23,88,55,0,26,11,12,11,4,68,51,19,52,25,78,5,78,21,0,18,202</r>
+<r p="2">17</r>
+<r p="3">97,39,36,18,33,83,28,27,42,36,84,58,44,73,40,20,44,21,58,19,44,94,28,99,26,50,40,26,15,87,79,64,43,6,28,64,52,62,7,71,5,52,17,72,40,78,47,67,49,50</r>
+<r p="4">68,82,85,62,56,43,63,14,9</r>
+<r p="5">95</r>
+<r p="6">37,48,63,36,82,63,4,93,87,85,6,31,48,62,28,1,1,82,82,29,74,54,53,36,64,27,65,51,44,44,16,32</r>
+<r p="7">90</r>
+<r p="8">92</r>
+<r p="9">10,34,80,50,46,83,90,23,72,10</r>
+<r p="10">84</r>
+<r p="11">90,18,96,40,51,9,76,11,58,61,28,58,21,69,8,43,54,8,95,79,3,98,57,44,4,31,19,89,13,20,26,22,33</r>
+<r p="12">94</r>
+<r p="13">66,5,7,91,33,59,11,69,99,62,84,86,13</r>
+<r p="14">1,0,16,26,56,16,89,80,74,25,25,5,30,92,44,21,46,95,51,46,27,11,26,79,82,28,37,50,29</r>
+<r p="15">18,41,38,50,78,93,45,62,9</r>
+<r p="16">20</r>
+<r p="17">73</r>
+<r p="18">28,62,23,73,18,74,55,28,16,67,96,44,72,5,53,12,35,23,5,73,69,19,99,77,12,94,40,27,71,69,38,46,52,25,23,48,90,98,96,22,77,70,62,47,57,25,73,87,53,50</r>
+<r p="19">83,34,94,95,92,14,46,4,97,75,37,76,64,73,94,87,44,33,68,76,97,22,99,87,8,17,0,68,17,71,26,49,98,62,52,15,79,87,55,63,92,74,44,67,99,57,57,62,86,27,51</r>
+<r p="20">32,49,75,10,44,0,42,37,70,10,36,93,96,24,40,37,47,72,99,84,28,59,55,8,50,89,11,61,70,59,21,32</r>
+<r p="21">56</r>
+<r p="22">60</r>
+<r p="23">9</r>
+<r p="24">1</r>
+<r p="25">92,50,2,62,40,55,3,93,9</r>
+<r p="26">84,14,35,90,84,5,6,25,22,23,81,9,33,73,62,93,89,12,89,69,34,47,4,19,32,96,66,60,52,80,83,92,38,59,23,45,55,14,33,52,14,64,56,62,17,99,43,1,97,50</r>
+<r p="27">71</r>
+<r p="28">96,59,43,54,73,74,28,47,33,25,99,13,23,94,82,6,90,40,99,61,21</r>
+<r p="29">52</r>
+<r p="30">90,25,14,94,64,96,63,9,73,36,46,82,21,73,18,9,73,35,83,27,62,21,5,84,2,85,81,79,5,60,14,32</r>
+<r p="31">78,86,61,57,63,90,52,51,72,79,24,61,62,5,79,83,57,60,18,46,81,46,14,60,87,74,87,44,93,41,2,12,90,63,89,14,80,54,14,30,41</r>
+<r p="32">15</r>
+<r p="33">0</r>
+<r p="34">39</r>
+<r p="35">14</r>
+<r p="36">36</r>
+<r p="37">15,68,68,29,29,25,19,1,85,0,25,14,60,58,97,33,26,50,97,18,88,64,81,33,36,90,6,50,22,37,43,97,81,5,47,48,47,89,30,47,23,12,6,33,66,76,14,63,37,50</r>
+<r p="38">70,54,43,4</r>
+<r p="39">71</r>
+<r p="40">2</r>
+<r p="41">95</r>
+<r p="42">29,46,19,99,9,64,97,26,54,43,52,60,13,18,51,71,40,59,13,13,43,37,40,5,2,8,60,89,32,78,61,20,64,10,48,47,54,30,92,97,86,72,26,53,95,59,17,55,97,93,51</r>
+<r p="43">38</r>
+<r p="44">23</r>
+<r p="45">50</r>
+<r p="46">75,94,91,32,5,76,25,90,78,59,61,16,71,41,41,10,77,80,92,18,6,85,34,53,5,25,92,89,99,58,76,66,72,91,15,46,31,79,27,40,8,7,7,69,31,0,73,32,20,26,21,24,19,34,60,77,45,52,88,25,61</r>
+<r p="47">21,73,87,34,71,69,77,6,52,7,48,31,70,77,89,58,6,26,19,88,56,45,61,52,7,67,49,55,74,35,71,58,93,27,95,75,59,61,85,36,49,70,4,63,46,86,71,39,13,50</r>
+<r p="48">93</r>
+<r p="49">43,70,13,71,74,79,8,20,14,67,73,25,46,21,90,50,20,63,74,27,45,33,1,77,71,49,46,13,64,87,75,32</r>
+<r p="50">52</r>
+<r p="51">25</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NodeBFunction">
+ <job jobId="913"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmCapacityNodeBLimitHsCode</measType>
+<measType p="2">pmCapacityOfNodeBUlCeExt</measType>
+<measType p="3">pmCapacityOfNodeBDlCe</measType>
+<measType p="4">pmCapacityNodeBLimitUlCe</measType>
+<measType p="5">pmCapacityNodeBLimitDlCe</measType>
+<measType p="6">pmCapacityOfNodeBUlCe</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1">
+<r p="1">33</r>
+<r p="2">23,53,58,85,39,58,25,1,20,62,66,84,93,22,66,23,44,8,62,12,79,79,8,90,73,31,67,12,58,61,18,55,26,71,11,59,61,88,93,97,17,71,39,38,94,69,47</r>
+<r p="3">29,55,49,10,78,67,84,45,7,10</r>
+<r p="4">82</r>
+<r p="5">14</r>
+<r p="6">76,27,10,30,39,22,21,89,83,10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NodeBSectorCarrier">
+ <job jobId="914"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmTransmittedCarrierPower</measType>
+<measType p="2">pmNbirSuggestAlgorithm</measType>
+<measType p="3">pmRxPowerSpectrum</measType>
+<measType p="4">pmRxInterfererDetect</measType>
+<measType p="5">pmAverageRssiHigh</measType>
+<measType p="6">pmSumOasDeltaRscp</measType>
+<measType p="7">pmCpriExtDelayChange</measType>
+<measType p="8">pmTransmittedCarrierPowerWLimit</measType>
+<measType p="9">pmBranchDeltaSir</measType>
+<measType p="10">pmOasDeltaRscpMeasurement</measType>
+<measType p="11">pmNbirRunningAlgorithm</measType>
+<measType p="12">pmSamplesOasDeltaRscp</measType>
+<measType p="13">pmTransmittedCarrierPowerW</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,NodeBSectorCarrier=1">
+<r p="1">31,21,75,89,82,15,44,94,49,0,8,71,42,86,9,12,24,58,92,55,63,45,67,34,28,32,45,43,97,39,63,94,31,79,27,75,45,26,47,37,10,52,27,12,45,38,95,92,7,33,35,28,75,54</r>
+<r p="2">82,74,3</r>
+<r p="3">49,9,79,50,72,83,75,49,49,89,3,61,79,82,32,37,45,43,95,89,39,72,34,67,91,17,61,4,64,69,53,99,67,97,23,23,96,63,11,6,53,12,27,72,63,30,5,25,5,75,51</r>
+<r p="4">34,75,60,70,16,36,90,57,97,75,20,42,85,14,96,76,53,26,11,34,36,69,15,39,77,6,52,69,58,76,67,67,86,29,51,40,95,52,18,3,78,65,5,43,2,22,94,73,47,98,51</r>
+<r p="5">14,20,56,3,17,54,25,70,96,61,38,91,2,64,13,6,7,8,30,13,85,83,27,7,4,61,77,98,84,70,67,54,10,93,28,77,9,34,60,73,52,8,42,13,68,73,80,44,0,10,18,7,35,91,4,53,26,59,14,59,89,47,77,27,39,34,25,62,29,19,99,93,96,42,57,55,19,63,39,59,77,15,29,70,33,12,61,4,72,13,55,57,98,44,94,23,30,10,19,58,44,6,5,66,57,29,35,61,25,91,39,68,69,63,42,77,69,86,36,61,38,91,6,98,51,48,55,7,80,77,97,41,21,71,45,3,77,11,78,86,25,142</r>
+<r p="6">53</r>
+<r p="7">54</r>
+<r p="8">36</r>
+<r p="9">39,34,32,51,87,86,69,3,35,48,97,83,53,10,14,11,57,11,92,40,24,11,64,27,97,64,61,95,3,62,48,46,43,39,60,1,47,26,38,90,34,51,58,79,16,80,63,68,29,62,49,36,30,18,91,42,64,81,73,5,61</r>
+<r p="10">84</r>
+<r p="11">48,53,95,23,5</r>
+<r p="12">37</r>
+<r p="13">98,85,4,97,25,91,44,25,26,13,15,74,78,70,17,34,8,85,72,70,59,20,68,90,82,32,67,86,80,18,24,77,82,98,14,21,7,38,2,30,77,88,81,62,88,57,75,88,17,73,12,53,66,21,4,79,31,76,69,43,52,35,35,66,84,81,67,35,68,0,2,53,76,27,11,80,73,20,91,73,70,83,34,7,43,28,50,69,58,27,3,60,61,18,52,58,9,62,45,100</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ConsumedEnergyMeasurement">
+ <job jobId="915"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmVoltage</measType>
+<measType p="2">pmConsumedEnergyAccumulated</measType>
+<measType p="3">pmPowerConsumption</measType>
+<measType p="4">pmConsumedEnergy</measType>
+<measValue measObjLdn="ManagedElement=1,NodeSupport=1,ConsumedEnergyMeasurement=1">
+<r p="1">97,40,91,38,39,65,43,10,72,84,38,19,79,66,1,61,93,63,14,85,88,30,94,78,48,53,92,73,73,20,16,1,22,67,95,81,32,58,31,48,49,89,38,29,17,94,37,3,91,65,36,19,89,20,63,26,18,35,56,12,40,88,52,66,34,97,17,70,52,82,89,56,83,43,76,91,24,51,79,21,19,8,46,52,85,95,77,51,31,9,27,42,61,65,25,83,56,92,64,39,92,23,56,29,19,85,49,71,92,69,61,29,77,43,31,63,5,33,42,3,73,31,16,58,6,84,78,62,10,70,49,63,42,14,86,74,11,57,28,67,21,87,70,4,19,21,83,18,85,150</r>
+<r p="2">69</r>
+<r p="3">58,83,58,92,18,72,26,82,95,63,53,71,14,32,35,33,40,66,88,51,17,56,1,26,64,38,47,19,84,3,77,59,74,64,54,29,41,24,99,47,99,1,36,45,85,44,24,37,3,39,45,82,38,80,13,11,28,4,29,87,26,86,81,77,72,44,35,55,48,30,94,96,53,77,84,66,52,33,76,19,27,98,53,80,36,43,62,2,43,48,48,33,46,2,13,26,68,19,53,22,29,40,65,71,7,41,3,71,70,12,97,84,3,58,99,10,21,42,30,53,91,13,69,17,97,61,82,90,50,88,47,0,99,38,65,64,56,65,16,29,86,47,82,56,50,6,51,25,20,150</r>
+<r p="4">22</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IubDataStreams">
+ <job jobId="916"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmHsDataFramesLostSpi03</measType>
+<measType p="2">pmHsDataFrameDelayIubSpi07</measType>
+<measType p="3">pmHsDataFramesReceivedSpi05</measType>
+<measType p="4">pmCapAllocIubHsLimitingRatioSpi03</measType>
+<measType p="5">pmHsDataFramesReceivedSpi09</measType>
+<measType p="6">pmHsDataFramesLostSpi00</measType>
+<measType p="7">pmHsDataFrameDelayIubSpi14</measType>
+<measType p="8">pmHsDataFrameDelayIubSpi01</measType>
+<measType p="9">pmCapAllocIubHsLimitingRatioSpi10</measType>
+<measType p="10">pmHsDataFrameDelayIubSpi05</measType>
+<measType p="11">pmCapAllocIubHsLimitingRatioSpi15</measType>
+<measType p="12">pmHsDataFramesReceivedSpi06</measType>
+<measType p="13">pmCapAllocIubHsLimitingRatioSpi07</measType>
+<measType p="14">pmHsDataFramesReceivedSpi03</measType>
+<measType p="15">pmHsDataFramesReceivedSpi07</measType>
+<measType p="16">pmHsDataFramesReceivedSpi14</measType>
+<measType p="17">pmDchFramesEarly</measType>
+<measType p="18">pmCapAllocIubHsLimitingRatioSpi00</measType>
+<measType p="19">pmHsDataFramesLostSpi14</measType>
+<measType p="20">pmHsDataFrameDelayIubSpi13</measType>
+<measType p="21">pmHsDataFramesReceivedSpi12</measType>
+<measType p="22">pmCapAllocIubHsLimitingRatioSpi06</measType>
+<measType p="23">pmDchFramesTooEarly</measType>
+<measType p="24">pmCapAllocIubHsLimitingRatioSpi13</measType>
+<measType p="25">pmCapAllocIubHsLimitingRatioSpi02</measType>
+<measType p="26">pmHsDataFramesLostSpi09</measType>
+<measType p="27">pmHsDataFramesReceivedSpi11</measType>
+<measType p="28">pmHsDataFramesReceivedSpi04</measType>
+<measType p="29">pmCapAllocIubHsLimitingRatioSpi08</measType>
+<measType p="30">pmHsDataFrameDelayIubSpi06</measType>
+<measType p="31">pmHsDataFrameDelayIubSpi03</measType>
+<measType p="32">pmHsDataFramesLostSpi07</measType>
+<measType p="33">pmHsDataFramesLostSpi08</measType>
+<measType p="34">pmHsDataFramesLostSpi15</measType>
+<measType p="35">pmHsDataFramesLostSpi05</measType>
+<measType p="36">pmHsDataFramesReceivedSpi13</measType>
+<measType p="37">pmHsDataFramesLostSpi11</measType>
+<measType p="38">pmCapAllocIubHsLimitingRatioSpi05</measType>
+<measType p="39">pmHsDataFramesLostSpi06</measType>
+<measType p="40">pmHsDataFramesReceivedSpi10</measType>
+<measType p="41">pmIubFrameLossIntensity</measType>
+<measType p="42">pmHsDataFramesLostSpi13</measType>
+<measType p="43">pmHsDataFrameDelayIubSpi10</measType>
+<measType p="44">pmIubMacdPduRbsReceivedBits</measType>
+<measType p="45">pmHsDataFrameDelayIubSpi08</measType>
+<measType p="46">pmCapAllocIubHsLimitingRatioSpi04</measType>
+<measType p="47">pmCapAllocIubHsLimitingRatioSpi12</measType>
+<measType p="48">pmCapAllocIubHsLimitingRatioSpi01</measType>
+<measType p="49">pmDchFramesTooLate</measType>
+<measType p="50">pmHsDataFramesLostSpi12</measType>
+<measType p="51">pmDchFramesReceived</measType>
+<measType p="52">pmCapAllocIubHsLimitingRatioSpi09</measType>
+<measType p="53">pmHsDataFramesLostSpi10</measType>
+<measType p="54">pmHsDataFrameDelayIubSpi11</measType>
+<measType p="55">pmDchFramesOutOfSequenceDl</measType>
+<measType p="56">pmHsDataFrameDelayIubSpi04</measType>
+<measType p="57">pmEdchIubLimitingRatio</measType>
+<measType p="58">pmHsDataFrameDelayIubSpi12</measType>
+<measType p="59">pmHsDataFramesLostSpi04</measType>
+<measType p="60">pmHsDataFramesLostSpi01</measType>
+<measType p="61">pmCapAllocIubHsLimitingRatioSpi14</measType>
+<measType p="62">pmHsDataFramesLostSpi02</measType>
+<measType p="63">pmHsDataFramesReceivedSpi00</measType>
+<measType p="64">pmHsDataFrameDelayIubSpi00</measType>
+<measType p="65">pmHsDataFramesReceivedSpi01</measType>
+<measType p="66">pmHsDataFramesReceivedSpi08</measType>
+<measType p="67">pmHsDataFrameDelayIubSpi02</measType>
+<measType p="68">pmHsDataFramesReceivedSpi02</measType>
+<measType p="69">pmHsDataFramesReceivedSpi15</measType>
+<measType p="70">pmCapAllocIubHsLimitingRatioSpi11</measType>
+<measType p="71">pmHsDataFrameDelayIubSpi09</measType>
+<measType p="72">pmDchFramesLate</measType>
+<measType p="73">pmHsDataFrameDelayIubSpi15</measType>
+<measType p="74">pmDchFramesCrcMismatch</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,Iub=1,IubDataStreams=1">
+<r p="1">54</r>
+<r p="2">5,76,81,35,84,36,84,10,92,25,75,60,88,18,49,16</r>
+<r p="3">93</r>
+<r p="4">66</r>
+<r p="5">24</r>
+<r p="6">55</r>
+<r p="7">17,24,93,55,84,8,38,88,44,29,62,53,32,93,73,16</r>
+<r p="8">39,89,15,36,64,57,93,8,77,0,44,39,88,54,40,16</r>
+<r p="9">83</r>
+<r p="10">81,57,74,8,25,15,18,27,27,98,76,92,35,53,83,16</r>
+<r p="11">8</r>
+<r p="12">81</r>
+<r p="13">13</r>
+<r p="14">0</r>
+<r p="15">32</r>
+<r p="16">49</r>
+<r p="17">92</r>
+<r p="18">10</r>
+<r p="19">25</r>
+<r p="20">48,6,49,80,22,57,21,86,37,45,70,74,66,68,50,16</r>
+<r p="21">39</r>
+<r p="22">53</r>
+<r p="23">52</r>
+<r p="24">90</r>
+<r p="25">99</r>
+<r p="26">22</r>
+<r p="27">49</r>
+<r p="28">35</r>
+<r p="29">51</r>
+<r p="30">19,6,45,84,52,73,52,40,89,60,83,18,60,28,39,16</r>
+<r p="31">28,18,91,39,89,81,69,55,50,73,32,12,79,85,75,16</r>
+<r p="32">86</r>
+<r p="33">46</r>
+<r p="34">31</r>
+<r p="35">73</r>
+<r p="36">97</r>
+<r p="37">65</r>
+<r p="38">88</r>
+<r p="39">56</r>
+<r p="40">96</r>
+<r p="41">20,83,4,40,12,72,54,69,37,27,51,36,57,60,42,16</r>
+<r p="42">5</r>
+<r p="43">7,55,38,72,16,80,17,67,57,33,48,96,80,30,36,16</r>
+<r p="44">74,5,38,97,58,52,31,49,3,84,13,22,55,67,7,15,48,74,44,55,81,97,59,16,34,46,67,37,52,3,0,5,94,24,66,87,77,25,74,47,53,21,19,39,72,97,86,39,87,0,95,97,52,37,95,25,32,70,25,90,47,47,70,35,78,19,86,19,23,18,99,16,69,41,71,14,8,40,90,38,83,10,43,67,52,47,38,91,81,6,92,96,62,48,7,94,38,4,44,53,16,34,75,3,94,69,80,92,19,57,45,81,91,28,84,48,64,12,90,53,87,5,15,0,32,86,23,77,59,47,65,21,5,44,91,1,32,72,77,33,8,54,26,81,10,15,94,15,149</r>
+<r p="45">90,2,13,78,80,58,95,52,17,23,69,69,23,71,34,16</r>
+<r p="46">2</r>
+<r p="47">25</r>
+<r p="48">52</r>
+<r p="49">15</r>
+<r p="50">38</r>
+<r p="51">53</r>
+<r p="52">95</r>
+<r p="53">66</r>
+<r p="54">17,70,90,7,16,65,42,62,74,69,8,56,10,74,5,16</r>
+<r p="55">12</r>
+<r p="56">75,8,66,36,32,50,92,86,20,78,99,87,96,11,25,16</r>
+<r p="57">11</r>
+<r p="58">82,51,96,35,81,14,81,57,27,21,99,6,56,53,54,16</r>
+<r p="59">64</r>
+<r p="60">59</r>
+<r p="61">56</r>
+<r p="62">63</r>
+<r p="63">99</r>
+<r p="64">10,67,68,44,76,45,77,37,52,98,79,37,77,41,37,16</r>
+<r p="65">23</r>
+<r p="66">57</r>
+<r p="67">73,24,13,61,20,5,70,81,83,31,38,84,18,13,69,16</r>
+<r p="68">72</r>
+<r p="69">96</r>
+<r p="70">86</r>
+<r p="71">58,96,19,83,25,48,15,13,66,49,88,83,79,14,77,16</r>
+<r p="72">27</r>
+<r p="73">43,57,90,30,78,46,51,59,3,62,42,8,82,67,78,16</r>
+<r p="74">64</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EthernetPort">
+ <job jobId="917"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ifHCOutBroadcastPkts</measType>
+<measType p="2">ifHCOutUcastPkts</measType>
+<measType p="3">ifOutErrors</measType>
+<measType p="4">ifHCInUcastPkts</measType>
+<measType p="5">ifInErrors</measType>
+<measType p="6">ifOutDiscards</measType>
+<measType p="7">ifHCInBroadcastPkts</measType>
+<measType p="8">ifInUnknownTags</measType>
+<measType p="9">ifInOctetRatePercentiles</measType>
+<measType p="10">ifHCInMulticastPkts</measType>
+<measType p="11">ifHCOutOctets</measType>
+<measType p="12">ifHCInOctets</measType>
+<measType p="13">ifInUnknownProtos</measType>
+<measType p="14">ifTotalLossOfSignalDuration</measType>
+<measType p="15">ifInDiscards</measType>
+<measType p="16">ifHCOutMulticastPkts</measType>
+<measType p="17">ifMaxLossOfSignalDuration</measType>
+<measType p="18">ifHCLossOfSignal</measType>
+<measType p="19">ifOutOctetRatePercentiles</measType>
+<measType p="20">ifMinLossOfSignalDuration</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,EthernetPort=1">
+<r p="1">89</r>
+<r p="2">5</r>
+<r p="3">60</r>
+<r p="4">85</r>
+<r p="5">8</r>
+<r p="6">76</r>
+<r p="7">72</r>
+<r p="8">64</r>
+<r p="9">72,43,35,16,45,28,7</r>
+<r p="10">57</r>
+<r p="11">79</r>
+<r p="12">77</r>
+<r p="13">38</r>
+<r p="14">26</r>
+<r p="15">80</r>
+<r p="16">10</r>
+<r p="17">60</r>
+<r p="18">20</r>
+<r p="19">52,33,8,60,0,9,7</r>
+<r p="20">12</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NodeBLocalCellGroup">
+ <job jobId="918"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmSumCapacityUlCe</measType>
+<measType p="2">pmSetupRejSwLoad</measType>
+<measType p="3">pmCapacityOfDlCe</measType>
+<measType p="4">pmCapacityAllocAttDlCe</measType>
+<measType p="5">pmCapacityOfUlCeExt</measType>
+<measType p="6">pmNoUlHwLimitEul</measType>
+<measType p="7">pmCapacityLimitDlCe</measType>
+<measType p="8">pmCapacityAllocRejDlCe</measType>
+<measType p="9">pmSetupAttempts</measType>
+<measType p="10">pmCpcUlActivityFactor</measType>
+<measType p="11">pmSumCapacityUlCeEulFach</measType>
+<measType p="12">pmCapacityOfUlCe</measType>
+<measType p="13">pmCapacityAllocAttUlCe</measType>
+<measType p="14">pmCapacityLimitHsCode</measType>
+<measType p="15">pmSamplesCapacityUlCe</measType>
+<measType p="16">pmIsUsersRatio</measType>
+<measType p="17">pmCapacityAllocRejUlCe</measType>
+<measType p="18">pmSamplesCapacityDlCe</measType>
+<measType p="19">pmSumCapacityUlCeStatic</measType>
+<measType p="20">pmSetupFailures</measType>
+<measType p="21">pmCapacityUlCeEulFach</measType>
+<measType p="22">pmHwCePoolEul</measType>
+<measType p="23">pmCapacityLimitUlCe</measType>
+<measType p="24">pmStaticHwCePoolEul</measType>
+<measType p="25">pmSumCapacityDlCe</measType>
+<measType p="26">pmSamplesCapacityUlCeStatic</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1">
+<r p="1">11</r>
+<r p="2">83</r>
+<r p="3">3,34,83,20,28,3,11,7,62,10</r>
+<r p="4">43</r>
+<r p="5">88,54,77,34,45,92,28,23,37,30,51,54,22,44,48,38,22,90,87,4,19,43,1,42,60,18,31,6,56,45,84,25,5,8,36,98,8,24,73,23,20,1,68,95,67,36,47</r>
+<r p="6">81</r>
+<r p="7">82</r>
+<r p="8">46</r>
+<r p="9">43</r>
+<r p="10">86,50,47,44,69,67,60,46,9,45,85,23,60,38,7,58,18,13,96,20</r>
+<r p="11">19</r>
+<r p="12">72,49,54,73,18,7,79,72,80,10</r>
+<r p="13">37</r>
+<r p="14">95</r>
+<r p="15">27</r>
+<r p="16">84</r>
+<r p="17">37</r>
+<r p="18">75</r>
+<r p="19">94</r>
+<r p="20">52</r>
+<r p="21">5,4,79,64,49,32,59,40,16,23,11</r>
+<r p="22">55,92,26,29,79,6,55,22,17,71,31,56,41,18,32,78,84,88,9,62,34,53,10,48,99,97,37,10,14,83,7,50,49,81,83,99,53,34,3,56,56,66,99,61,94,44,24,77,12,60,81,16,3,63,19,93,16,30,60,56,74,70,34,44,43,53,3,1,60,89,45,7,48,91,43,28,5,50,20,2,87,80,75,83,9,8,7,14,14,43,63,12,63,26,72,37,71,47,75,87,28,85,43,44,95,84,25,3,35,63,18,65,2,33,80,66,43,25,57,27,22,40,84,18,83,87,62,72,129</r>
+<r p="23">0</r>
+<r p="24">20,85,49,66,57,6,70,78,63,86,2,38,69,82,83,28,15,40,70,5,64,68,62,11,42,65,37,71,74,37,72,56,17,61,19,57,25,52,72,13,81,30,98,85,53,32,5,12,70,59,66,64,10,78,78,15,2,98,8,93,4,87,63</r>
+<r p="25">26</r>
+<r p="26">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SfpModule">
+ <job jobId="919"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmSfpTemperature</measType>
+<measType p="2">pmSfpTxBias</measType>
+<measType p="3">pmSfpTxPower</measType>
+<measType p="4">pmSfpRxPower</measType>
+<measType p="5">pmSfpVoltage</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,SfpModule=1">
+<r p="1">70</r>
+<r p="2">44</r>
+<r p="3">6</r>
+<r p="4">73</r>
+<r p="5">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RadioEquipmentClock">
+ <job jobId="920"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">timeHoldoverSec</measType>
+<measType p="2">freeRunningSec</measType>
+<measType p="3">timeAssistedHoldoverSec</measType>
+<measType p="4">freqHoldoverSec</measType>
+<measType p="5">timeFreeRunningSec</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Synchronization=1,RadioEquipmentClock=1">
+<r p="1">1</r>
+<r p="2">89</r>
+<r p="3">41</r>
+<r p="4">3</r>
+<r p="5">27</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=Climate">
+ <job jobId="921"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmCabinetTemperature</measType>
+<measType p="2">pmCabinetFanSpeedExternal</measType>
+<measType p="3">pmCabinetFanSpeed</measType>
+<measType p="4">pmSpmDifferentialAirPressure</measType>
+<measType p="5">pmSpmBarometricAirPressure</measType>
+<measValue measObjLdn="ManagedElement=1,EquipmentSupportFunction=1,Climate=1">
+<r p="1">37,12,3</r>
+<r p="2">70,69,3</r>
+<r p="3">65,84,3</r>
+<r p="4">51</r>
+<r p="5">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EthernetOamLocalMep">
+ <job jobId="922"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ccmSequenceErrors</measType>
+<measType p="2">errorCcmDefectDuration</measType>
+<measType p="3">lbrIn</measType>
+<measType p="4">unexpLtrIn</measType>
+<measType p="5">rdiCcmDefectDuration</measType>
+<measType p="6">lbrBadMsdu</measType>
+<measType p="7">xconCcmDefectDuration</measType>
+<measType p="8">lbrOut</measType>
+<measType p="9">cciSentCcms</measType>
+<measType p="10">remoteCcmDefectDuration</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,EthernetOamLocalMep=1">
+<r p="1">85</r>
+<r p="2">35</r>
+<r p="3">40</r>
+<r p="4">14</r>
+<r p="5">95</r>
+<r p="6">82</r>
+<r p="7">46</r>
+<r p="8">89</r>
+<r p="9">13</r>
+<r p="10">48</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=FieldReplaceableUnit">
+ <job jobId="923"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmUnitTemperatureLevel</measType>
+<measType p="2">pmPowerFailure</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1">
+<r p="1">18,33,3</r>
+<r p="2">5</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=QueueRed">
+ <job jobId="924"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">queueHCInOctets</measType>
+<measType p="2">filledUpperThreshold</measType>
+<measType p="3">queueHCInPkts</measType>
+<measType p="4">filledLowerThreshold</measType>
+<measType p="5">queueHCOutPkts</measType>
+<measType p="6">queueHCDroppedPkts</measType>
+<measType p="7">queueHCOutOctets</measType>
+<measType p="8">queueHCDroppedOctets</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,EthernetPort=1,QueueSystem=1,SchedulerSp=1,SchedulerDwrr=1,Shaper=1,QueueRed=1">
+<r p="1">6</r>
+<r p="2">24</r>
+<r p="3">93</r>
+<r p="4">45</r>
+<r p="5">23</r>
+<r p="6">0</r>
+<r p="7">83</r>
+<r p="8">11</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=AclEntryIpv4Stats">
+ <job jobId="925"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">aclEntryPackets</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,AclIpv4=1,AclEntryIpv4Stats=1">
+<r p="1">31</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=Iub">
+ <job jobId="926"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmNoOfDiscardedMsg</measType>
+<measType p="2">pmTotalTimeIubLinkCongestedUl</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,Iub=1">
+<r p="1">7</r>
+<r p="2">42</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=HsDschResources">
+ <job jobId="927"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmSumNonEmptyUserBuffersSpi12</measType>
+<measType p="2">pmNoActiveSubFramesSpi05</measType>
+<measType p="3">pmSumAckedBitsPqSpi14</measType>
+<measType p="4">pmRemainingResourceCheck</measType>
+<measType p="5">pmAvailableMixedModeExtraPowerLimit</measType>
+<measType p="6">pmSumAckedBitsMcPqSpi13</measType>
+<measType p="7">pmSumDelaySpi07</measType>
+<measType p="8">pmSumAckedBitsMcPqSpi05</measType>
+<measType p="9">pmSumOfHsScchUsedPwrHsFach</measType>
+<measType p="10">pmSumNonEmptyUserBuffersSpi07</measType>
+<measType p="11">pmSumAckedBitsUsersRlim</measType>
+<measType p="12">pmAllocRejHwHsDschUsers</measType>
+<measType p="13">pmTransmittedCarrierPowerNonHs</measType>
+<measType p="14">pmAverageUserRate</measType>
+<measType p="15">pmSumAckedBits3McPqSpi13</measType>
+<measType p="16">pmSumDelaySpi06</measType>
+<measType p="17">pmRbrIubBasedDiscardSpi01</measType>
+<measType p="18">pmSumAckedBitsMcPqSpi04</measType>
+<measType p="19">pmDelayDistributionSpi12</measType>
+<measType p="20">pmSumNoOfUsersSpi13</measType>
+<measType p="21">pmSumAckedBitsPqSpi03</measType>
+<measType p="22">pmSumTransmittedBitsSpi03</measType>
+<measType p="23">pmTransmittedCarrierPowerWNonHs</measType>
+<measType p="24">pmNoInactiveRequiredSubFramesSpi05</measType>
+<measType p="25">pmNoInactiveRequiredSubFramesSpi15</measType>
+<measType p="26">pmTransmittedCarrierPowerWHs</measType>
+<measType p="27">pmNoActiveSubFramesSpi11</measType>
+<measType p="28">pmSumNoOfUsersSpi06</measType>
+<measType p="29">pmNoActiveSubFramesSpi04</measType>
+<measType p="30">pmUsedExtraPowerWHs</measType>
+<measType p="31">pmSumNonEmptyUserBuffers</measType>
+<measType p="32">pmSumAckedBits3McPqSpi15</measType>
+<measType p="33">pmAqmBasedDiscardSpi10</measType>
+<measType p="34">pmNoActiveSubFramesSpi14</measType>
+<measType p="35">pmAqmBasedDiscardSpi01</measType>
+<measType p="36">pmNoInactiveRequiredSubFramesSpi06</measType>
+<measType p="37">pmSumAckedBits3McPqSpi12</measType>
+<measType p="38">pmSumNonEmptyUserBuffers3McPqSpi02</measType>
+<measType p="39">pmSumAckedBitsPqSpi05</measType>
+<measType p="40">pmCapacityAllocRejHsPdschCodes</measType>
+<measType p="41">pmSumAckedBitsMcPqSpi07</measType>
+<measType p="42">pmSumNonEmptyUserBuffersPqSpi12</measType>
+<measType p="43">pmSumAckedBitsMcPqSpi00</measType>
+<measType p="44">pmSumJitterSpi15</measType>
+<measType p="45">pmSumNonEmptyUserBuffersSpi08</measType>
+<measType p="46">pmSumJitterSpi07</measType>
+<measType p="47">pmSumJitterSpi08</measType>
+<measType p="48">pmIubBasedDiscardFrameLossUserSpi15</measType>
+<measType p="49">pmSumAckedBits3McPqSpi04</measType>
+<measType p="50">pmSumTransmittedBitsSpi14</measType>
+<measType p="51">pmNoInactiveRequiredSubFramesSpi09</measType>
+<measType p="52">pmRbrIubBasedDiscardSpi14</measType>
+<measType p="53">pmSumNoOfUsersSpi01</measType>
+<measType p="54">pmNoActiveSubFramesSpi02</measType>
+<measType p="55">pmIubMacdPduCellReceivedBits</measType>
+<measType p="56">pmSumJitterSpi06</measType>
+<measType p="57">pmSumAckedBitsPqSpi00</measType>
+<measType p="58">pmSumNonEmptyUserBuffers3McPqSpi12</measType>
+<measType p="59">pmSumAckedBitsSpi00</measType>
+<measType p="60">pmSumDelaySpi05</measType>
+<measType p="61">pmSumNonEmptyUserBuffersSpi00</measType>
+<measType p="62">pmSumMcSecDeactUes</measType>
+<measType p="63">pmSumNonEmptyUserBuffersMcPqSpi11</measType>
+<measType p="64">pmNoActiveSubFramesSpi15</measType>
+<measType p="65">pmSumAckedBitsSpi11</measType>
+<measType p="66">pmUsedHsPdschCodes</measType>
+<measType p="67">pmSum3McPriUes</measType>
+<measType p="68">pmSumAckedBitsPqSpi01</measType>
+<measType p="69">pmNoOfHsUsersPerTtiHsFach</measType>
+<measType p="70">pmSumNonEmptyUserBuffersPqSpi01</measType>
+<measType p="71">pmSumAckedBitsPqSpi15</measType>
+<measType p="72">pmSumNonEmptyUserBuffersPqSpi14</measType>
+<measType p="73">pmSamplesSumAckedBitsUsersRlim</measType>
+<measType p="74">pmSumDelaySpi09</measType>
+<measType p="75">pmAqmBasedDiscardSpi07</measType>
+<measType p="76">pmAqmBasedDiscardSpi15</measType>
+<measType p="77">pmNoInactiveRequiredSubFramesSpi07</measType>
+<measType p="78">pmNoActiveSubFramesSpi03</measType>
+<measType p="79">pmSumNoOfUsersSpi08</measType>
+<measType p="80">pmRbrIubBasedDiscardSpi02</measType>
+<measType p="81">pmSumNonEmptyUserBuffersMcPqSpi15</measType>
+<measType p="82">pmSumAckedBitsPqSpi08</measType>
+<measType p="83">pmSumCapacityHsPdschCodes</measType>
+<measType p="84">pmDelayDistributionSpi04</measType>
+<measType p="85">pmSumNonEmptyUserBuffersPqSpi08</measType>
+<measType p="86">pmSumTransmittedBitsSpi08</measType>
+<measType p="87">pmSumTransmittedBitsSpi02</measType>
+<measType p="88">pmNoActiveSubFramesSpi13</measType>
+<measType p="89">pmAck64Qam</measType>
+<measType p="90">pmSumAckedBitsPqSpi06</measType>
+<measType p="91">pmSumAckedBitsSpi02</measType>
+<measType p="92">pmCapacityOfHsPdschCodes</measType>
+<measType p="93">pmSumNonEmptyUserBuffers3McPqSpi01</measType>
+<measType p="94">pmSumAckedBits3McPqSpi11</measType>
+<measType p="95">pmSumAckedBitsPqSpi02</measType>
+<measType p="96">pmSumNoOfUsersSpi12</measType>
+<measType p="97">pmSumNonEmptyUserBuffers3McPqSpi04</measType>
+<measType p="98">pmSumNonEmptyUserBuffersPqSpi02</measType>
+<measType p="99">pmSumNonEmptyUserBuffersMcPqSpi05</measType>
+<measType p="100">pmSumJitterSpi04</measType>
+<measType p="101">pmSumNonEmptyUserBuffersSpi01</measType>
+<measType p="102">pmSumTransmissionsRlim</measType>
+<measType p="103">pmDelayDistributionSpi07</measType>
+<measType p="104">pmSumNonEmptyUserBuffers3McPqSpi13</measType>
+<measType p="105">pmSumNonEmptyUserBuffersSpi03</measType>
+<measType p="106">pmSumNoOfUsersSpi04</measType>
+<measType p="107">pmSumOfHsUsedPwr</measType>
+<measType p="108">pmSampleScAndMcActUes</measType>
+<measType p="109">pmSumJitterSpi05</measType>
+<measType p="110">pmSumTransmittedBitsSpi05</measType>
+<measType p="111">pmRbrIubBasedDiscardSpi03</measType>
+<measType p="112">pmSumAckedBitsMcPqSpi09</measType>
+<measType p="113">pmSumNonEmptyUserBuffersSpi13</measType>
+<measType p="114">pmSumOfHsUsedPwrHsFach</measType>
+<measType p="115">pmRbrIubBasedDiscardSpi08</measType>
+<measType p="116">pmSumAckedBitsMcPqSpi12</measType>
+<measType p="117">pmSumDelaySpi00</measType>
+<measType p="118">pmSumAckedBitsPqSpi07</measType>
+<measType p="119">pmSumAckedBits3McPqSpi08</measType>
+<measType p="120">pmIubBasedDiscardFrameLossUserSpi06</measType>
+<measType p="121">pmSumAckedBits</measType>
+<measType p="122">pmSumAckedBitsSpi04</measType>
+<measType p="123">pmDelayDistributionSpi13</measType>
+<measType p="124">pmSumJitterSpi00</measType>
+<measType p="125">pmAckReceived</measType>
+<measType p="126">pmNoInactiveRequiredSubFramesSpi00</measType>
+<measType p="127">pmNoInactiveRequiredSubFramesSpi12</measType>
+<measType p="128">pmRbrIubBasedDiscardSpi00</measType>
+<measType p="129">pmSumNonEmptyUserBuffersSpi11</measType>
+<measType p="130">pmIubBasedDiscardFrameLossUserSpi07</measType>
+<measType p="131">pmSumTransmittedBitsSpi09</measType>
+<measType p="132">pmRbrIubBasedDiscardSpi12</measType>
+<measType p="133">pmSumAckedBits3McPqSpi09</measType>
+<measType p="134">pmNoOfMcSecUsersPerTti</measType>
+<measType p="135">pmNoInactiveRequiredSubFramesSpi10</measType>
+<measType p="136">pmNoInactiveRequiredSubFramesSpi03</measType>
+<measType p="137">pmSumTransmittedBitsSpi11</measType>
+<measType p="138">pmSumNonEmptyUserBuffersSpi15</measType>
+<measType p="139">pmSumDelaySpi02</measType>
+<measType p="140">pmSumNonEmptyUserBuffersPqSpi09</measType>
+<measType p="141">pmSumNoOfUsersSpi10</measType>
+<measType p="142">pmNoActiveSubFramesSpi01</measType>
+<measType p="143">pmNoActiveSubFramesSpi08</measType>
+<measType p="144">pmSumNonEmptyUserBuffersPqSpi13</measType>
+<measType p="145">pmSumJitterSpi02</measType>
+<measType p="146">pmDelayDistributionSpi08</measType>
+<measType p="147">pmAckQpsk</measType>
+<measType p="148">pmSumAckedBitsMcPqSpi15</measType>
+<measType p="149">pmSumScAndMcActUes</measType>
+<measType p="150">pmSumTransmittedBitsSpi04</measType>
+<measType p="151">pmNoInactiveRequiredSubFramesSpi13</measType>
+<measType p="152">pmSumAckedBitsMcPqSpi06</measType>
+<measType p="153">pmAqmBasedDiscardSpi02</measType>
+<measType p="154">pmIubBasedDiscardFrameLossUserSpi03</measType>
+<measType p="155">pmSumDelaySpi11</measType>
+<measType p="156">pmSumDelaySpi01</measType>
+<measType p="157">pmSumAckedBitsMcPqSpi08</measType>
+<measType p="158">pmAqmBasedDiscardSpi14</measType>
+<measType p="159">pmSumAckedBitsMcPqSpi01</measType>
+<measType p="160">pmNoInactiveRequiredSubFrames</measType>
+<measType p="161">pmSumAckedBits3McPqSpi00</measType>
+<measType p="162">pmNoActiveSubFramesSpi00</measType>
+<measType p="163">pmSumAckedBitsPqSpi09</measType>
+<measType p="164">pmNoInactiveRequiredSubFramesSpi02</measType>
+<measType p="165">pmUsedTbs16Qam</measType>
+<measType p="166">pmReportedCqi64Qam</measType>
+<measType p="167">pmSumSqrCapacityHsPdschCodes</measType>
+<measType p="168">pmSumAckedBits3McPqSpi03</measType>
+<measType p="169">pmSumNonEmptyUserBuffers3McPqSpi09</measType>
+<measType p="170">pmSumJitterSpi12</measType>
+<measType p="171">pmUsedTbs64Qam</measType>
+<measType p="172">pmSumNoOfUsersSpi07</measType>
+<measType p="173">pmNoActiveSubFramesSpi10</measType>
+<measType p="174">pmSumNoOfUsersSpi14</measType>
+<measType p="175">pmSumAckedBitsPqSpi11</measType>
+<measType p="176">pmDelayDistributionSpi03</measType>
+<measType p="177">pmSumTransmittedBitsSpi15</measType>
+<measType p="178">pmSumJitterSpi09</measType>
+<measType p="179">pmNoInactiveRequiredSubFramesSpi08</measType>
+<measType p="180">pmSumJitterSpi03</measType>
+<measType p="181">pmSumNonEmptyUserBuffersPqSpi04</measType>
+<measType p="182">pmSumNonEmptyUserBuffers3McPqSpi03</measType>
+<measType p="183">pmSumCapacityHsDschUsers</measType>
+<measType p="184">pmIubBasedDiscardFrameLossUserSpi11</measType>
+<measType p="185">pmSumAckedBitsSpi06</measType>
+<measType p="186">pmSumNoOfUsersSpi11</measType>
+<measType p="187">pmSumNonEmptyUserBuffersMcPqSpi08</measType>
+<measType p="188">pmIubBasedDiscardFrameLossUserSpi10</measType>
+<measType p="189">pmSumAckedBitsSpi15</measType>
+<measType p="190">pmSumNonEmptyUserBuffersMcPqSpi10</measType>
+<measType p="191">pmCapacityLimitHsDschUsers</measType>
+<measType p="192">pmSumTransmittedBitsSpi01</measType>
+<measType p="193">pmSumNonEmptyUserBuffers3McPqSpi07</measType>
+<measType p="194">pmCapacityAllocRejHsDschUsers</measType>
+<measType p="195">pmRbrIubBasedDiscardSpi07</measType>
+<measType p="196">pmSumNonEmptyUserBuffers3McPqSpi08</measType>
+<measType p="197">pmSumNonEmptyUserBuffersMcPqSpi03</measType>
+<measType p="198">pmIubBasedDiscardFrameLossUserSpi04</measType>
+<measType p="199">pmSumOfHsScchUsedPwr</measType>
+<measType p="200">pmSumDelaySpi12</measType>
+<measType p="201">pmSumNonEmptyUserBuffersMcPqSpi13</measType>
+<measType p="202">pmNoInactiveRequiredSubFramesSpi01</measType>
+<measType p="203">pmNoActiveSubFramesSpi09</measType>
+<measType p="204">pmNoActiveSubFrames</measType>
+<measType p="205">pmSumDelaySpi03</measType>
+<measType p="206">pmAqmBasedDiscardSpi13</measType>
+<measType p="207">pmIubBasedDiscardFrameLossUserSpi05</measType>
+<measType p="208">pmRbrIubBasedDiscardSpi04</measType>
+<measType p="209">pmDelayDistributionSpi00</measType>
+<measType p="210">pmNoOfHsUsersPerTti</measType>
+<measType p="211">pmSumAckedBits3McPqSpi02</measType>
+<measType p="212">pmSumDelaySpi13</measType>
+<measType p="213">pmSumNoOfUsersSpi05</measType>
+<measType p="214">pmSumTransmittedBitsSpi12</measType>
+<measType p="215">pmSumMcSecActUes</measType>
+<measType p="216">pmNoInactiveRequiredSubFramesSpi04</measType>
+<measType p="217">pmSumTransmittedBitsSpi00</measType>
+<measType p="218">pmSumNonEmptyUserBuffers3McPqSpi11</measType>
+<measType p="219">pmDelayDistributionSpi01</measType>
+<measType p="220">pmSumAckedBits3McPqSpi07</measType>
+<measType p="221">pmIubBasedDiscardFrameLossUserSpi00</measType>
+<measType p="222">pmSumDelaySpi14</measType>
+<measType p="223">pmSumTransmittedBitsSpi10</measType>
+<measType p="224">pmSumTransmittedBitsSpi13</measType>
+<measType p="225">pmNackReceived</measType>
+<measType p="226">pmSumBlockedTransmissionsRlim</measType>
+<measType p="227">pmAqmBasedDiscardSpi04</measType>
+<measType p="228">pmSumNonEmptyUserBuffers3McPqSpi00</measType>
+<measType p="229">pmSumNonEmptyUserBuffers3McPqSpi15</measType>
+<measType p="230">pmSamplesCapacityHsPdschCodes</measType>
+<measType p="231">pmRbrIubBasedDiscardSpi11</measType>
+<measType p="232">pmSumNonEmptyUserBuffersPqSpi05</measType>
+<measType p="233">pmUsedHsPdschCodesHsFach</measType>
+<measType p="234">pmSumNonEmptyUserBuffersPqSpi07</measType>
+<measType p="235">pmSumNonEmptyUserBuffers3McPqSpi10</measType>
+<measType p="236">pmSumJitterSpi01</measType>
+<measType p="237">pmSumNonEmptyUserBuffersMcPqSpi12</measType>
+<measType p="238">pmAvailableMixedModeExtraPower</measType>
+<measType p="239">pmSumTransmissions</measType>
+<measType p="240">pmSumNonEmptyUserBuffersPqSpi11</measType>
+<measType p="241">pmSumAckedBits3McPqSpi10</measType>
+<measType p="242">pmSumAckedBitsSpi05</measType>
+<measType p="243">pmSumTransmittedBitsSpi06</measType>
+<measType p="244">pmSumAckedBitsRlim</measType>
+<measType p="245">pmCapacityAllocAttHsDschUsers</measType>
+<measType p="246">pmAqmBasedDiscardSpi05</measType>
+<measType p="247">pmNoActiveSubFramesSpi12</measType>
+<measType p="248">pmIubBasedDiscardFrameLossUserSpi13</measType>
+<measType p="249">pmCapacityOfHsDschUsers</measType>
+<measType p="250">pmCapacityAllocAttHsPdschCodes</measType>
+<measType p="251">pmAqmBasedDiscardSpi00</measType>
+<measType p="252">pmAck16Qam</measType>
+<measType p="253">pmSumAckedBits3McPqSpi01</measType>
+<measType p="254">pmSumAckedBitsSpi03</measType>
+<measType p="255">pmSumJitterSpi13</measType>
+<measType p="256">pmSumNonEmptyUserBuffersSpi04</measType>
+<measType p="257">pmRbrIubBasedDiscardSpi13</measType>
+<measType p="258">pmUnusedPowerWHs</measType>
+<measType p="259">pmRbrIubBasedDiscardSpi06</measType>
+<measType p="260">pmSumAckedBitsMcPqSpi10</measType>
+<measType p="261">pmUsedExtraMixedModePowerWHs</measType>
+<measType p="262">pmSumNonEmptyUserBuffersMcPqSpi04</measType>
+<measType p="263">pmSumNoOfUsersSpi03</measType>
+<measType p="264">pmSumNoOfUsersSpi00</measType>
+<measType p="265">pmSumNonEmptyUserBuffersSpi09</measType>
+<measType p="266">pmSumAckedBitsSpi01</measType>
+<measType p="267">pmDelayDistributionSpi15</measType>
+<measType p="268">pmSumDelaySpi10</measType>
+<measType p="269">pmIubBasedDiscardFrameLossUserSpi08</measType>
+<measType p="270">pmSumAckedBitsSpi10</measType>
+<measType p="271">pmSumNonEmptyUserBuffersMcPqSpi09</measType>
+<measType p="272">pmCapacityLimitHsPdschCodes</measType>
+<measType p="273">pmSumNonEmptyUserBuffersSpi14</measType>
+<measType p="274">pmSumAckedBitsMcPqSpi03</measType>
+<measType p="275">pmSumAckedBitsSpi14</measType>
+<measType p="276">pmSumAckedBitsMcPqSpi14</measType>
+<measType p="277">pmSumBlockedTransmissions</measType>
+<measType p="278">pmDelayDistributionSpi06</measType>
+<measType p="279">pmSumNonEmptyUserBuffersSpi06</measType>
+<measType p="280">pmAqmBasedDiscardSpi08</measType>
+<measType p="281">pmNoActiveSubFramesSpi07</measType>
+<measType p="282">pmSumNonEmptyUserBuffersPqSpi10</measType>
+<measType p="283">pmSumAckedBitsMcPqSpi02</measType>
+<measType p="284">pmSumDelaySpi04</measType>
+<measType p="285">pmSumDelaySpi15</measType>
+<measType p="286">pmNoActiveSubFramesSpi06</measType>
+<measType p="287">pmSumTransmissionsUsersRlim</measType>
+<measType p="288">pmAqmBasedDiscardSpi11</measType>
+<measType p="289">pmSumNonEmptyUserBuffersMcPqSpi06</measType>
+<measType p="290">pmSamplesSumAckedBitsRlim</measType>
+<measType p="291">pmSumAckedBitsPqSpi10</measType>
+<measType p="292">pmSumJitterSpi14</measType>
+<measType p="293">pmSumNonEmptyUserBuffers3McPqSpi06</measType>
+<measType p="294">pmSamplesCapacityHsDschUsers</measType>
+<measType p="295">pmUsedTbsQpsk</measType>
+<measType p="296">pmSumNonEmptyUserBuffersMcPqSpi01</measType>
+<measType p="297">pmSumNonEmptyUserBuffers3McPqSpi05</measType>
+<measType p="298">pmRbrIubBasedDiscardSpi15</measType>
+<measType p="299">pmSumMcPriUes</measType>
+<measType p="300">pmSumNonEmptyUserBuffersMcPqSpi14</measType>
+<measType p="301">pmSumAckedBitsMcPqSpi11</measType>
+<measType p="302">pmDelayDistributionSpi14</measType>
+<measType p="303">pmSumNonEmptyUserBuffersPqSpi03</measType>
+<measType p="304">pmSumAckedBitsPqSpi13</measType>
+<measType p="305">pmSumNonEmptyUserBuffersMcPqSpi00</measType>
+<measType p="306">pmIubBasedDiscardFrameLossUserSpi12</measType>
+<measType p="307">pmSumAckedBitsSpi12</measType>
+<measType p="308">pmSumTransmittedBitsSpi07</measType>
+<measType p="309">pmNoInactiveRequiredSubFramesSpi11</measType>
+<measType p="310">pmSumNonEmptyUserBuffersMcPqSpi02</measType>
+<measType p="311">pmSumAckedBitsPqSpi04</measType>
+<measType p="312">pmRbrIubBasedDiscardSpi10</measType>
+<measType p="313">pmDelayDistributionSpi02</measType>
+<measType p="314">pmSumNoOfUsersSpi02</measType>
+<measType p="315">pmRbrIubBasedDiscardSpi09</measType>
+<measType p="316">pmSamplesSumAckedBits</measType>
+<measType p="317">pmSumJitterSpi10</measType>
+<measType p="318">pmSumAckedBitsSpi07</measType>
+<measType p="319">pmUsedCqi</measType>
+<measType p="320">pmSumDelaySpi08</measType>
+<measType p="321">pmDelayDistributionSpi10</measType>
+<measType p="322">pmSumAckedBitsSpi13</measType>
+<measType p="323">pmIubBasedDiscardFrameLossUserSpi09</measType>
+<measType p="324">pmSumAckedBitsSpi08</measType>
+<measType p="325">pmDelayDistributionSpi05</measType>
+<measType p="326">pmAqmBasedDiscardSpi12</measType>
+<measType p="327">pmSumNonEmptyUserBuffers3McPqSpi14</measType>
+<measType p="328">pmSumAckedBits3McPqSpi14</measType>
+<measType p="329">pmIubBasedDiscardFrameLossUserSpi02</measType>
+<measType p="330">pmSumAckedBitsPqSpi12</measType>
+<measType p="331">pmRbrIubBasedDiscardSpi05</measType>
+<measType p="332">pmSumNonEmptyUserBuffersPqSpi15</measType>
+<measType p="333">pmReportedCqi</measType>
+<measType p="334">pmDelayDistributionSpi09</measType>
+<measType p="335">pmSumNoOfUsersSpi09</measType>
+<measType p="336">pmSumAckedBits3McPqSpi06</measType>
+<measType p="337">pmDelayDistributionSpi11</measType>
+<measType p="338">pmTransmittedCarrierPowerHs</measType>
+<measType p="339">pmSumAckedBitsSpi09</measType>
+<measType p="340">pmNoInactiveRequiredSubFramesSpi14</measType>
+<measType p="341">pmSumNonEmptyUserBuffersSpi10</measType>
+<measType p="342">pmSumNonEmptyUserBuffersSpi02</measType>
+<measType p="343">pmSumNonEmptyUserBuffersMcPqSpi07</measType>
+<measType p="344">pmSumNonEmptyUserBuffersSpi05</measType>
+<measType p="345">pmIubBasedDiscardFrameLossUserSpi14</measType>
+<measType p="346">pmIubBasedDiscardFrameLossUserSpi01</measType>
+<measType p="347">pmAqmBasedDiscardSpi06</measType>
+<measType p="348">pmSumJitterSpi11</measType>
+<measType p="349">pmAqmBasedDiscardSpi03</measType>
+<measType p="350">pmSumAckedBits3McPqSpi05</measType>
+<measType p="351">pmAqmBasedDiscardSpi09</measType>
+<measType p="352">pmSumNonEmptyUserBuffersPqSpi06</measType>
+<measType p="353">pmSumNonEmptyUserBuffersPqSpi00</measType>
+<measType p="354">pmSumNoOfUsersSpi15</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,HsDschResources=1">
+<r p="1">66</r>
+<r p="2">94</r>
+<r p="3">40</r>
+<r p="4">16,58,3</r>
+<r p="5">4</r>
+<r p="6">2</r>
+<r p="7">56</r>
+<r p="8">39</r>
+<r p="9">87,90,70,52,38,40,50,83,14,43,42,3,60,76,0,81,20,83,82,96,18,18,91,3,49,65,89,41,23,70,8,58,73,64,9,87,89,81,19,17,3,69,55,99,91,54,46,73,72,16,96,18,60,59,18,16,57,75,94,62,77,38,66,60,88,52,89,52,42,11,99,34,54,59,47,49,23,13,67,23,5,58,28,37,22,28,1,42,16,97,44,13,98,87,87,47,47,85,11,42,49,61,103</r>
+<r p="10">26</r>
+<r p="11">43,38,3</r>
+<r p="12">77</r>
+<r p="13">7,97,34,57,57,34,1,55,0,96,87,5,80,15,9,48,9,2,58,81,83,17,94,11,1,52,81,15,58,48,4,48,48,18,57,86,90,88,73,80,89,41,89,77,15,35,12,58,77,63,34,52</r>
+<r p="14">74,0,11,32,91,6,64,26,4,98,65,34,41,38,83,7,67,67,50,50,92,95,66,73,95,61,51,28</r>
+<r p="15">12</r>
+<r p="16">9</r>
+<r p="17">60</r>
+<r p="18">73</r>
+<r p="19">95,46,38,78,75,30,22,52,5,18,11</r>
+<r p="20">31</r>
+<r p="21">76</r>
+<r p="22">34</r>
+<r p="23">70,59,45,39,34,89,2,6,27,25,85,75,51,73,71,62,6,5,15,21,67,76,70,36,22,48,19,23,50,92,2,44,31,88,55,18,11,58,95,92,8,11,27,38,80,40,1,50,75,50</r>
+<r p="24">46</r>
+<r p="25">47</r>
+<r p="26">42,74,41,58,27,31,59,53,42,62,59,99,79,57,3,4,29,55,96,31,15,88,47,59,39,91,32,5,4,77,66,5,4,88,90,75,95,88,7,7,72,73,67,86,85,99,22,83,0,32,97,65,23,8,50,27,53,22,86,94,14,55,2,34,57,46,22,84,71,16,49,15,98,82,54,92,33,34,51,79,59,14,99,41,30,86,56,32,35,13,7,32,83,2,56,39,72,59,11,100</r>
+<r p="27">70</r>
+<r p="28">60</r>
+<r p="29">83</r>
+<r p="30">0,20,23,0,25,29,26,96,76,81,8,0,79,41,54,34,25,22,31,17,98,79,99,57,44,58,85,1,70,58,39,76,3,30,41,23,45,91,38,34,64,27,27,64,80,69,90,90,86,50</r>
+<r p="31">17</r>
+<r p="32">8</r>
+<r p="33">20</r>
+<r p="34">16</r>
+<r p="35">48</r>
+<r p="36">38</r>
+<r p="37">23</r>
+<r p="38">69</r>
+<r p="39">68</r>
+<r p="40">53</r>
+<r p="41">15</r>
+<r p="42">35</r>
+<r p="43">58</r>
+<r p="44">92</r>
+<r p="45">2</r>
+<r p="46">38</r>
+<r p="47">10</r>
+<r p="48">36</r>
+<r p="49">22</r>
+<r p="50">55</r>
+<r p="51">81</r>
+<r p="52">79</r>
+<r p="53">90</r>
+<r p="54">97</r>
+<r p="55">66</r>
+<r p="56">3</r>
+<r p="57">29</r>
+<r p="58">59</r>
+<r p="59">55</r>
+<r p="60">1</r>
+<r p="61">85</r>
+<r p="62">0</r>
+<r p="63">50</r>
+<r p="64">18</r>
+<r p="65">4</r>
+<r p="66">48,90,88,11,9,10,54,51,75,27,64,13,42,82,97,16</r>
+<r p="67">56</r>
+<r p="68">17</r>
+<r p="69">57,76,10,31,5</r>
+<r p="70">46</r>
+<r p="71">81</r>
+<r p="72">60</r>
+<r p="73">59,85,3</r>
+<r p="74">36</r>
+<r p="75">29</r>
+<r p="76">45</r>
+<r p="77">40</r>
+<r p="78">79</r>
+<r p="79">17</r>
+<r p="80">17</r>
+<r p="81">14</r>
+<r p="82">97</r>
+<r p="83">10</r>
+<r p="84">43,45,98,23,30,69,46,57,65,60,11</r>
+<r p="85">72</r>
+<r p="86">16</r>
+<r p="87">74</r>
+<r p="88">6</r>
+<r p="89">91,76,79,31,46,92,4,57,76,27,34,88,84,85,14,11,49,81,92,24,66,96,68,46,76,52,42,13,35,30</r>
+<r p="90">90</r>
+<r p="91">50</r>
+<r p="92">44,56,57,16,39,18,74,29,60,10</r>
+<r p="93">98</r>
+<r p="94">12</r>
+<r p="95">52</r>
+<r p="96">98</r>
+<r p="97">37</r>
+<r p="98">32</r>
+<r p="99">49</r>
+<r p="100">26</r>
+<r p="101">63</r>
+<r p="102">74,93,98,78,96,76,25,71,89,98,42,84,55,61,40,34,98,11,6,88,39,23,79,76,13,20,23,11,39,31,31</r>
+<r p="103">40,20,78,91,37,83,42,63,44,85,11</r>
+<r p="104">56</r>
+<r p="105">73</r>
+<r p="106">92</r>
+<r p="107">63,92,62,63,9,20,90,78,66,9,3,28,90,40,82,35,31,23,74,81,9,84,59,89,72,9,5,4,89,89,70,85,6,27,7,59,96,60,11,23,62,10,14,2,76,98,22,18,86,38,23,60,4,82,45,54,20,12,96,88,77,46,37,78,13,0,48,47,79,17,78,72,83,21,50,58,94,24,2,97,60,4,15,36,65,81,40,85,54,14,41,5,97,9,65,46,43,49,48,45,71,44,103</r>
+<r p="108">70</r>
+<r p="109">84</r>
+<r p="110">69</r>
+<r p="111">49</r>
+<r p="112">3</r>
+<r p="113">20</r>
+<r p="114">19,51,24,74,92,62,49,98,58,53,75,19,39,65,64,54,5,10,14,88,37,37,22,18,7,48,98,34,40,25,38,12,60,98,18,7,62,51,99,80,11,98,40,22,93,57,43,19,50,80,65,66,65,84,9,52,49,25,92,28,75,26,86,8,5,78,60,98,96,14,40,95,82,47,28,74,32,12,70,86,75,26,97,58,96,34,56,53,29,15,1,43,17,21,73,17,88,39,7,23,6,24,103</r>
+<r p="115">99</r>
+<r p="116">99</r>
+<r p="117">66</r>
+<r p="118">71</r>
+<r p="119">5</r>
+<r p="120">67</r>
+<r p="121">32,92,42,87,54,28,88,44,95,53,44,71,7,86,35,91,98,46,65,85,82,28,64,69,44,39,42,72,12,34,31</r>
+<r p="122">10</r>
+<r p="123">32,20,30,62,66,41,71,38,13,47,11</r>
+<r p="124">36</r>
+<r p="125">21</r>
+<r p="126">49</r>
+<r p="127">63</r>
+<r p="128">38</r>
+<r p="129">12</r>
+<r p="130">10</r>
+<r p="131">92</r>
+<r p="132">0</r>
+<r p="133">42</r>
+<r p="134">27,22,77,67,5</r>
+<r p="135">9</r>
+<r p="136">85</r>
+<r p="137">80</r>
+<r p="138">71</r>
+<r p="139">37</r>
+<r p="140">80</r>
+<r p="141">56</r>
+<r p="142">67</r>
+<r p="143">90</r>
+<r p="144">89</r>
+<r p="145">97</r>
+<r p="146">85,72,58,88,27,98,1,56,78,95,11</r>
+<r p="147">3,36,50,78,97,68,95,82,41,16,5,0,45,35,57,91,9,11,36,34,38,79,72,77,94,41,84,32,40,30</r>
+<r p="148">24</r>
+<r p="149">30</r>
+<r p="150">85</r>
+<r p="151">1</r>
+<r p="152">67</r>
+<r p="153">68</r>
+<r p="154">49</r>
+<r p="155">31</r>
+<r p="156">67</r>
+<r p="157">52</r>
+<r p="158">90</r>
+<r p="159">43</r>
+<r p="160">14</r>
+<r p="161">51</r>
+<r p="162">99</r>
+<r p="163">3</r>
+<r p="164">88</r>
+<r p="165">95,67,24,45,80,24,40,92,75,19,42,19,94,33,83,85,44,85,60,21,24,23,66,20,20,4,98,37,30,30</r>
+<r p="166">11,69,72,81,25,52,19,62,22,28,15,55,71,52,65,20,12,2,29,75,96,99,0,65,33,78,53,68,12,56,41,32</r>
+<r p="167">9</r>
+<r p="168">60</r>
+<r p="169">64</r>
+<r p="170">47</r>
+<r p="171">18,56,81,82,64,35,14,50,10,28,11,24,58,5,70,38,30,36,63,45,18,60,25,16,15,0,94,81,5,30</r>
+<r p="172">86</r>
+<r p="173">32</r>
+<r p="174">6</r>
+<r p="175">47</r>
+<r p="176">23,25,59,33,0,28,8,38,33,51,11</r>
+<r p="177">21</r>
+<r p="178">9</r>
+<r p="179">34</r>
+<r p="180">34</r>
+<r p="181">46</r>
+<r p="182">68</r>
+<r p="183">31</r>
+<r p="184">66</r>
+<r p="185">98</r>
+<r p="186">92</r>
+<r p="187">70</r>
+<r p="188">49</r>
+<r p="189">31</r>
+<r p="190">60</r>
+<r p="191">26</r>
+<r p="192">82</r>
+<r p="193">50</r>
+<r p="194">30</r>
+<r p="195">62</r>
+<r p="196">71</r>
+<r p="197">0</r>
+<r p="198">95</r>
+<r p="199">24,35,78,47,83,83,18,23,12,81,61,86,87,7,37,11,44,45,81,12,84,6,66,27,27,78,45,51,44,91,96,64,75,11,7,17,3,65,59,49,47,38,52,33,30,95,53,87,21,57,3,76,62,17,32,38,53,48,51,82,40,5,50,26,21,64,27,1,91,50,27,28,66,73,59,85,36,42,43,98,68,82,91,39,20,48,1,15,15,4,57,93,4,31,17,59,76,80,27,52,61,43,103</r>
+<r p="200">12</r>
+<r p="201">67</r>
+<r p="202">63</r>
+<r p="203">56</r>
+<r p="204">78</r>
+<r p="205">34</r>
+<r p="206">47</r>
+<r p="207">99</r>
+<r p="208">23</r>
+<r p="209">10,46,65,48,19,71,10,61,96,72,11</r>
+<r p="210">79,90,53,62,5</r>
+<r p="211">28</r>
+<r p="212">75</r>
+<r p="213">99</r>
+<r p="214">81</r>
+<r p="215">29</r>
+<r p="216">21</r>
+<r p="217">87</r>
+<r p="218">13</r>
+<r p="219">44,14,52,35,5,36,41,56,24,72,11</r>
+<r p="220">72</r>
+<r p="221">98</r>
+<r p="222">78</r>
+<r p="223">36</r>
+<r p="224">31</r>
+<r p="225">86</r>
+<r p="226">87</r>
+<r p="227">80</r>
+<r p="228">91</r>
+<r p="229">32</r>
+<r p="230">15</r>
+<r p="231">83</r>
+<r p="232">93</r>
+<r p="233">50,56,80,18,93,82,94,81,63,36,72,59,58,43,18,16</r>
+<r p="234">53</r>
+<r p="235">15</r>
+<r p="236">2</r>
+<r p="237">42</r>
+<r p="238">57,99,6,80,43,88,93,11,50,83,87,60,91,94,62,45,31,96,66,67,91,92,6,30,85,75,78,16,61,67,90,8,30,23,61,99,59,61,45,10,62,51,40,49,93,96,83,43,24,50</r>
+<r p="239">34,36,99,96,25,77,18,18,10,12,2,72,8,92,25,35,52,16,68,27,96,68,83,79,75,64,21,44,64,88,31</r>
+<r p="240">36</r>
+<r p="241">8</r>
+<r p="242">77</r>
+<r p="243">75</r>
+<r p="244">0,71,32,82,63,14,20,70,37,12,66,53,24,20,91,71,93,70,49,21,61,66,16,81,53,58,51,29,29,99,31</r>
+<r p="245">7</r>
+<r p="246">20</r>
+<r p="247">77</r>
+<r p="248">78</r>
+<r p="249">55,48,24,10,54,53,86,54,14,82,28,73,23,38,25,48,36,55,95,20</r>
+<r p="250">70</r>
+<r p="251">87</r>
+<r p="252">70,14,3,30,32,47,24,24,11,2,91,61,15,50,64,51,25,76,64,99,97,91,89,78,52,83,33,45,83,30</r>
+<r p="253">80</r>
+<r p="254">20</r>
+<r p="255">7</r>
+<r p="256">4</r>
+<r p="257">81</r>
+<r p="258">14,87,2,41,47,89,65,10,36,19,74,68,9,55,14,68,85,1,0,67,65,39,11,20,24,74,90,3,52,80,24,74,38,45,59,15,27,84,77,14,66,0,34,91,44,58,46,58,29,50</r>
+<r p="259">20</r>
+<r p="260">67</r>
+<r p="261">99,16,55,38,98,74,0,57,11,53,3,29,24,90,5,95,79,92,95,42,53,51,6,10,53,40,70,98,5,12,78,78,36,13,3,67,96,52,64,15,14,40,95,97,52,46,21,61,30,50</r>
+<r p="262">51</r>
+<r p="263">27</r>
+<r p="264">10</r>
+<r p="265">56</r>
+<r p="266">2</r>
+<r p="267">22,42,69,80,6,82,76,99,60,57,11</r>
+<r p="268">71</r>
+<r p="269">56</r>
+<r p="270">51</r>
+<r p="271">53</r>
+<r p="272">45</r>
+<r p="273">22</r>
+<r p="274">88</r>
+<r p="275">20</r>
+<r p="276">3</r>
+<r p="277">52</r>
+<r p="278">53,24,93,56,96,73,53,17,37,54,11</r>
+<r p="279">43</r>
+<r p="280">14</r>
+<r p="281">93</r>
+<r p="282">32</r>
+<r p="283">20</r>
+<r p="284">18</r>
+<r p="285">13</r>
+<r p="286">50</r>
+<r p="287">28,86,3</r>
+<r p="288">66</r>
+<r p="289">46</r>
+<r p="290">14,63,62,14,81,52,15,61,2,78,28,99,24,84,98,48,53,65,1,75,39,35,24,12,62,63,2,23,3,94,31</r>
+<r p="291">95</r>
+<r p="292">1</r>
+<r p="293">76</r>
+<r p="294">84</r>
+<r p="295">17,91,30,45,72,86,35,0,36,92,34,68,11,63,3,9,94,26,19,65,11,32,63,92,25,50,57,2,58,30</r>
+<r p="296">17</r>
+<r p="297">90</r>
+<r p="298">48</r>
+<r p="299">67</r>
+<r p="300">33</r>
+<r p="301">11</r>
+<r p="302">1,60,50,26,74,86,74,9,14,4,11</r>
+<r p="303">39</r>
+<r p="304">28</r>
+<r p="305">9</r>
+<r p="306">6</r>
+<r p="307">57</r>
+<r p="308">80</r>
+<r p="309">72</r>
+<r p="310">89</r>
+<r p="311">75</r>
+<r p="312">60</r>
+<r p="313">85,60,86,9,95,6,68,49,28,99,11</r>
+<r p="314">14</r>
+<r p="315">70</r>
+<r p="316">94,67,2,23,18,33,62,45,5,26,49,7,97,77,97,33,38,13,1,47,83,34,0,17,40,90,85,73,31,44,31</r>
+<r p="317">64</r>
+<r p="318">38</r>
+<r p="319">83,14,77,41,44,60,86,86,42,27,54,1,35,56,47,22,32,55,9,81,79,65,8,78,88,48,47,3,17,95,39,32</r>
+<r p="320">10</r>
+<r p="321">42,9,35,41,3,85,82,90,10,6,11</r>
+<r p="322">59</r>
+<r p="323">5</r>
+<r p="324">93</r>
+<r p="325">93,10,70,0,36,28,21,24,26,22,11</r>
+<r p="326">55</r>
+<r p="327">3</r>
+<r p="328">5</r>
+<r p="329">8</r>
+<r p="330">11</r>
+<r p="331">41</r>
+<r p="332">58</r>
+<r p="333">0,52,20,46,4,19,56,87,13,10,62,78,2,33,50,44,37,47,89,75,32,86,64,43,38,23,6,15,40,47,17,32</r>
+<r p="334">25,32,35,24,16,65,35,73,65,8,11</r>
+<r p="335">16</r>
+<r p="336">34</r>
+<r p="337">72,58,11,31,13,3,62,89,68,82,11</r>
+<r p="338">37,2,6,39,52,61,15,5,2,15,76,75,91,21,44,51,58,61,15,35,24,89,54,74,18,54,9,7,89,8,89,91,93,81,20,25,99,66,8,53,1,74,97,93,93,79,59,74,39,4,40,93,67,54</r>
+<r p="339">73</r>
+<r p="340">67</r>
+<r p="341">34</r>
+<r p="342">27</r>
+<r p="343">13</r>
+<r p="344">35</r>
+<r p="345">96</r>
+<r p="346">3</r>
+<r p="347">59</r>
+<r p="348">15</r>
+<r p="349">12</r>
+<r p="350">62</r>
+<r p="351">99</r>
+<r p="352">66</r>
+<r p="353">72</r>
+<r p="354">42</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=Ospfv2">
+ <job jobId="928"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">noOfOspfOriginateNewLsas</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,Ospfv2=1">
+<r p="1">90</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=LagPort">
+ <job jobId="929"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ifHCInOctets</measType>
+<measType p="2">ifInErrors</measType>
+<measType p="3">ifTotalLossOfSignalDuration</measType>
+<measType p="4">ifInOctetRatePercentiles</measType>
+<measType p="5">ifMinLossOfSignalDuration</measType>
+<measType p="6">ifHCInMulticastPkts</measType>
+<measType p="7">ifInUnknownProtos</measType>
+<measType p="8">ifOutDiscards</measType>
+<measType p="9">ifInDiscards</measType>
+<measType p="10">ifOutErrors</measType>
+<measType p="11">ifInUnknownTags</measType>
+<measType p="12">ifOutOctetRatePercentiles</measType>
+<measType p="13">ifHCOutMulticastPkts</measType>
+<measType p="14">ifMaxLossOfSignalDuration</measType>
+<measType p="15">ifHCInUcastPkts</measType>
+<measType p="16">ifHCInBroadcastPkts</measType>
+<measType p="17">ifHCOutBroadcastPkts</measType>
+<measType p="18">ifHCLossOfSignal</measType>
+<measType p="19">ifHCOutUcastPkts</measType>
+<measType p="20">ifHCOutOctets</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,LagPort=1">
+<r p="1">73</r>
+<r p="2">43</r>
+<r p="3">15</r>
+<r p="4">43,36,55,62,17,78,7</r>
+<r p="5">83</r>
+<r p="6">6</r>
+<r p="7">44</r>
+<r p="8">73</r>
+<r p="9">29</r>
+<r p="10">77</r>
+<r p="11">8</r>
+<r p="12">7,33,96,81,0,18,7</r>
+<r p="13">56</r>
+<r p="14">88</r>
+<r p="15">85</r>
+<r p="16">55</r>
+<r p="17">99</r>
+<r p="18">38</r>
+<r p="19">96</r>
+<r p="20">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RiPort">
+ <job jobId="930"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmLossOfFrame</measType>
+<measType p="2">pmLossOfSignal</measType>
+<measType p="3">pmBitError</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,RiPort=1">
+<r p="1">23</r>
+<r p="2">13</r>
+<r p="3">96,88,9,52,72,6</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=Area">
+ <job jobId="931"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">noOfOspfSpfRuns</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,Ospfv2=1,Area=1">
+<r p="1">53</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IpsecPolicy">
+ <job jobId="932"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">espTunOutNoSA</measType>
+<measType p="2">espTunInIntegrityFail</measType>
+<measType p="3">espTunInReplayFail</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,IpsecTunnel=1,IpsecPolicy=1">
+<r p="1">2</r>
+<r p="2">92</r>
+<r p="3">24</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=QueueTailDrop">
+ <job jobId="933"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">queueHCDroppedOctets</measType>
+<measType p="2">queueHCDroppedPkts</measType>
+<measType p="3">filledLowerThreshold</measType>
+<measType p="4">queueHCInOctets</measType>
+<measType p="5">queueHCOutOctets</measType>
+<measType p="6">queueHCInPkts</measType>
+<measType p="7">queueHCOutPkts</measType>
+<measType p="8">filledUpperThreshold</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,EthernetPort=1,QueueSystem=1,SchedulerSp=1,SchedulerDwrr=1,Shaper=1,QueueTailDrop=1">
+<r p="1">37</r>
+<r p="2">90</r>
+<r p="3">72</r>
+<r p="4">39</r>
+<r p="5">82</r>
+<r p="6">2</r>
+<r p="7">8</r>
+<r p="8">18</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EnergyMeter">
+ <job jobId="934"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmPowerConsumption</measType>
+<measType p="2">pmVoltage</measType>
+<measType p="3">pmConsumedEnergy</measType>
+<measType p="4">pmMinPowerConsumption</measType>
+<measType p="5">pmConsumedEnergyAccumulated</measType>
+<measType p="6">pmMaxPowerConsumption</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,EFuse=1,EnergyMeter=1">
+<r p="1">94,61,42,53,90,65,16,66,29,95,31,51,31,28,13,32,28,3,1,13,32,52,4,65,8,69,58,31,54,40,11,10,1,72,41,46,3,38,6,67,3,85,46,2,17,86,59,85,29,62,77,27,60,73,30,79,11,43,94,16,99,8,49,7,55,42,68,19,46,14,62,56,2,83,92,22,0,94,41,17,98,16,98,81,10,47,82,41,58,31,69,68,45,22,35,18,58,29,60,15,56,31,49,20,16,42,63,72,41,69,22,82,37,2,77,24,73,20,87,40,31,90,67,19,37,18,75,33,27,36,29,11,88,24,35,35,46,39,90,26,35,24,13,84,10,24,15,80,97,150</r>
+<r p="2">46,98,18,89,67,91,40,4,84,8,42,24,43,19,85,23,43,64,75,67,82,33,6,43,63,72,61,40,50,19,76,49,79,23,34,94,70,10,51,52,25,71,80,13,59,86,98,84,97,49,33,16,50,90,57,48,16,35,92,33,24,42,85,99,76,86,56,65,63,33,43,87,54,86,4,52,0,99,7,93,20,93,77,12,51,29,34,37,79,64,31,22,12,53,9,36,25,5,70,54,90,5,41,52,99,74,80,94,96,72,4,40,72,35,24,93,3,55,24,3,98,25,65,39,62,25,67,4,8,4,25,51,24,35,78,1,46,95,11,24,15,16,72,88,52,16,46,81,50,150</r>
+<r p="3">89</r>
+<r p="4">86</r>
+<r p="5">81</r>
+<r p="6">65</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EDchResourcesCell">
+ <job jobId="935"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmSumCapacityServEDchUsers</measType>
+<measType p="2">pmSamplesCapacityServEDchUsers</measType>
+<measType p="3">pmCommonChPowerEul</measType>
+<measType p="4">pmCapacityAllocRejServEDchUsers</measType>
+<measType p="5">pmCapacityOfServEDchUsers</measType>
+<measType p="6">pmAllocRejEdchRlEul</measType>
+<measType p="7">pmCapacityAllocAttServEDchUsers</measType>
+<measType p="8">pmCapacityLimitServEDchUsers</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,EDchResourcesCell=1">
+<r p="1">87</r>
+<r p="2">97</r>
+<r p="3">13,1,54,30,64,81,45,97,11,38,37,5,87,99,10,79,20,18,23,77,94,47,80,93,77,92,86,19,2,44,50,57,91,46,1,61,81,77,81,74,41</r>
+<r p="4">4</r>
+<r p="5">99,11,19,87,72,70,18,35,40,10</r>
+<r p="6">66</r>
+<r p="7">76</r>
+<r p="8">57</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SupportUnit">
+ <job jobId="936"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmFanSpeed</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,SupportUnit=1">
+<r p="1">96,89,3</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SctpAssociation">
+ <job jobId="937"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sctpAssocInOctets</measType>
+<measType p="2">sctpAssocDelayRTTPeriods</measType>
+<measType p="3">sctpAssocOutDiscardedUserMsgs</measType>
+<measType p="4">sctpAssocDelayRTTMin</measType>
+<measType p="5">sctpAssocOutControlChunks</measType>
+<measType p="6">sctpAssocInAbnormalDataChunks</measType>
+<measType p="7">sctpAssocInDiscardedControlChunks</measType>
+<measType p="8">sctpAssocInAbnormalControlChunks</measType>
+<measType p="9">sctpAssocOutDiscardedDataChunks</measType>
+<measType p="10">sctpAssocRtxChunks</measType>
+<measType p="11">sctpAssocOutOctets</measType>
+<measType p="12">sctpAssocInControlChunks</measType>
+<measType p="13">sctpAssocTimeCongested</measType>
+<measType p="14">sctpAssocAborteds</measType>
+<measType p="15">sctpAssocShutdowns</measType>
+<measType p="16">sctpAssocInDataChunks</measType>
+<measType p="17">sctpAssocOutPacks</measType>
+<measType p="18">sctpAssocDelayRTTMax</measType>
+<measType p="19">sctpAssocCongestions</measType>
+<measType p="20">sctpAssocInDiscardedDataChunks</measType>
+<measType p="21">sctpAssocPeerZeroWindows</measType>
+<measType p="22">sctpAssocDelayRTTAvg</measType>
+<measType p="23">sctpAssocUnavailRtx</measType>
+<measType p="24">sctpAssocOutDataChunks</measType>
+<measType p="25">sctpAssocTimeUnavail</measType>
+<measType p="26">sctpAssocTimePeerZeroWindow</measType>
+<measType p="27">sctpAssocInPacks</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,SctpEndpoint=1,SctpAssociation=1">
+<r p="1">47</r>
+<r p="2">69</r>
+<r p="3">48</r>
+<r p="4">62</r>
+<r p="5">55</r>
+<r p="6">71</r>
+<r p="7">23</r>
+<r p="8">96</r>
+<r p="9">30</r>
+<r p="10">83</r>
+<r p="11">48</r>
+<r p="12">58</r>
+<r p="13">94</r>
+<r p="14">35</r>
+<r p="15">41</r>
+<r p="16">45</r>
+<r p="17">77</r>
+<r p="18">0</r>
+<r p="19">98</r>
+<r p="20">34</r>
+<r p="21">15</r>
+<r p="22">40</r>
+<r p="23">96</r>
+<r p="24">33</r>
+<r p="25">7</r>
+<r p="26">4</r>
+<r p="27">91</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PowerDistribution">
+ <job jobId="938"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmSystemVoltage</measType>
+<measValue measObjLdn="ManagedElement=1,EquipmentSupportFunction=1,PowerDistribution=1">
+<r p="1">28,53,99,91,71,0,78,38,63,76,79,89,67,20,15</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=Sctp">
+ <job jobId="939"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sctpInErrors</measType>
+<measType p="2">sctpActiveEstabs</measType>
+<measType p="3">sctpPassiveEstabs</measType>
+<measType p="4">sctpOutCtrlChunks</measType>
+<measType p="5">sctpInCtrlChunks</measType>
+<measType p="6">sctpReasmUsrMsgs</measType>
+<measType p="7">sctpOutOrderChunks</measType>
+<measType p="8">sctpOutSCTPPacks</measType>
+<measType p="9">sctpAborteds</measType>
+<measType p="10">sctpOutUnorderChunks</measType>
+<measType p="11">sctpRtxChunks</measType>
+<measType p="12">sctpFragUsrMsgs</measType>
+<measType p="13">sctpChecksumErrors</measType>
+<measType p="14">sctpInOrderChunks</measType>
+<measType p="15">sctpInUnorderChunks</measType>
+<measType p="16">sctpCommStop</measType>
+<measType p="17">sctpInDiscardedChunks</measType>
+<measType p="18">sctpInSCTPPacks</measType>
+<measType p="19">sctpOutOfBlues</measType>
+<measType p="20">sctpInNoPorts</measType>
+<measType p="21">sctpOutDiscardedChunks</measType>
+<measType p="22">sctpShutdowns</measType>
+<measType p="23">sctpCommResume</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Sctp=1">
+<r p="1">36</r>
+<r p="2">59</r>
+<r p="3">41</r>
+<r p="4">32</r>
+<r p="5">62</r>
+<r p="6">88</r>
+<r p="7">52</r>
+<r p="8">93</r>
+<r p="9">63</r>
+<r p="10">90</r>
+<r p="11">89</r>
+<r p="12">75</r>
+<r p="13">18</r>
+<r p="14">61</r>
+<r p="15">98</r>
+<r p="16">92</r>
+<r p="17">84</r>
+<r p="18">85</r>
+<r p="19">62</r>
+<r p="20">84</r>
+<r p="21">60</r>
+<r p="22">88</r>
+<r p="23">88</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RiEthernetPort">
+ <job jobId="940"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ifOutDiscards</measType>
+<measType p="2">ifInDiscards</measType>
+<measType p="3">ifHCOutBroadcastPkts</measType>
+<measType p="4">ifHCOutMulticastPkts</measType>
+<measType p="5">ifHCOutOctets</measType>
+<measType p="6">ifHCOutUcastPkts</measType>
+<measType p="7">ifInErrors</measType>
+<measType p="8">ifHCInOctets</measType>
+<measType p="9">ifHCInBroadcastPkts</measType>
+<measType p="10">ifHCInMulticastPkts</measType>
+<measType p="11">ifHCInUcastPkts</measType>
+<measType p="12">ifOutErrors</measType>
+<measValue measObjLdn="ManagedElement=1,Equipment=1,FieldReplaceableUnit=1,RiPort=1,RiEthernetPort=1">
+<r p="1">54</r>
+<r p="2">22</r>
+<r p="3">97</r>
+<r p="4">44</r>
+<r p="5">60</r>
+<r p="6">27</r>
+<r p="7">27</r>
+<r p="8">61</r>
+<r p="9">29</r>
+<r p="10">30</r>
+<r p="11">22</r>
+<r p="12">6</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=InterfaceIPv6">
+ <job jobId="941"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">ipIfStatsInTruncatedPkts</measType>
+<measType p="2">ipIfStatsHCOutMcastPkts</measType>
+<measType p="3">ipIfStatsInUnknownProtos</measType>
+<measType p="4">ipIfStatsOutFragOKs</measType>
+<measType p="5">ipIfStatsHCInReceives</measType>
+<measType p="6">ipIfStatsHCOutTransmits</measType>
+<measType p="7">ipIfStatsReasmFails</measType>
+<measType p="8">ipIfInOctetRatePercentiles</measType>
+<measType p="9">ipIfStatsHCOutForwDatagrams</measType>
+<measType p="10">ipIfStatsOutFragCreates</measType>
+<measType p="11">ipIfStatsInHdrErrors</measType>
+<measType p="12">ipIfStatsOutDiscards</measType>
+<measType p="13">ipIfStatsHCOutMcastOctets</measType>
+<measType p="14">ipIfStatsHCInForwDatagrams</measType>
+<measType p="15">ipIfStatsInDiscards</measType>
+<measType p="16">ipIfStatsHCOutOctets</measType>
+<measType p="17">ipIfOutOctetRatePercentiles</measType>
+<measType p="18">ipIfStatsInNoRoutes</measType>
+<measType p="19">ipIfStatsReasmReqds</measType>
+<measType p="20">ipIfStatsHCInDelivers</measType>
+<measType p="21">ipIfStatsHCInMcastPkts</measType>
+<measType p="22">ipIfStatsHCInMcastOctets</measType>
+<measType p="23">ipIfStatsReasmOKs</measType>
+<measType p="24">ipIfStatsHCInOctets</measType>
+<measType p="25">ipIfStatsOutFragFails</measType>
+<measType p="26">ipIfStatsInAddrErrors</measType>
+<measType p="27">ipIfStatsHCOutRequests</measType>
+<measType p="28">ipIfStatsInBlackHoles</measType>
+<measType p="29">ipIfStatsOutFragReqds</measType>
+<measType p="30">ipIfStatsInSrcAddrErrors</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,InterfaceIPv6=1">
+<r p="1">67</r>
+<r p="2">13</r>
+<r p="3">82</r>
+<r p="4">36</r>
+<r p="5">46</r>
+<r p="6">87</r>
+<r p="7">69</r>
+<r p="8">8,63,18,79,72,35,7</r>
+<r p="9">8</r>
+<r p="10">97</r>
+<r p="11">64</r>
+<r p="12">20</r>
+<r p="13">22</r>
+<r p="14">59</r>
+<r p="15">32</r>
+<r p="16">50</r>
+<r p="17">6,4,85,44,89,46,7</r>
+<r p="18">64</r>
+<r p="19">68</r>
+<r p="20">96</r>
+<r p="21">83</r>
+<r p="22">91</r>
+<r p="23">37</r>
+<r p="24">40</r>
+<r p="25">43</r>
+<r p="26">3</r>
+<r p="27">81</r>
+<r p="28">40</r>
+<r p="29">67</r>
+<r p="30">51</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=AclEntryIpv6Stats">
+ <job jobId="942"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">aclEntryPackets</measType>
+<measValue measObjLdn="ManagedElement=1,Transport=1,Router=1,AclIpv6=1,AclEntryIpv6Stats=1">
+<r p="1">62</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=PowerSupply">
+ <job jobId="943"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmPsuPowerLoad</measType>
+<measType p="2">pmPsuAcInputVoltageInterruption</measType>
+<measValue measObjLdn="ManagedElement=1,EquipmentSupportFunction=1,PowerSupply=1">
+<r p="1">82,71,57,80,70,35,80,99,64,58,47,16,37,48,15</r>
+<r p="2">22,18,86,32,0,90,70,41,84,10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CommonChannelResourcesDl">
+ <job jobId="944"/>
+<granPeriod duration="PT900S" endTime="2023-10-18T12:00:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmNoOfTfc3OnFach2</measType>
+<measType p="2">pmAichPositiveMessagesEulFach</measType>
+<measType p="3">pmAichNegativeMessagesEulFach</measType>
+<measType p="4">pmNoOfTfc2OnFach1</measType>
+<measType p="5">pmAichPositiveMessages</measType>
+<measType p="6">pmNoOfTfc1OnFach1</measType>
+<measType p="7">pmAichNegativeMessages</measType>
+<measValue measObjLdn="ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=S1C1,CommonChannelResourcesDl=1">
+<r p="1">92</r>
+<r p="2">13</r>
+<r p="3">80,17,82,4</r>
+<r p="4">53</r>
+<r p="5">75</r>
+<r p="6">97</r>
+<r p="7">25</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-10-18T12:00:00+02:00"/>
+</fileFooter>
+</measCollecFile>

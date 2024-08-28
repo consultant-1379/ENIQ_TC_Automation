@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="HssEsmActiveUsersjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">TotalNumberOfActiveEpsUsers.actual</measType>
+         <measType p="1">TotalNumberOfActive2G3GUsers.actual</measType>
+         <measType p="2">TotalNumberOfWildcardSipStored.actual</measType>
+         <measType p="3">TotalNumberOfWildcardTelStored.actual</measType>
+         <measType p="4">TotalNumberOfActive2G3GUsers</measType>
+         <measType p="5">TotalNumberOfActiveEpsUsersOfeMBB.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5811087</r>
+             <r p="1">5745004</r>
+             <r p="2">5767514</r>
+             <r p="3">5745301</r>
+             <r p="4">5831137</r>
+             <r p="5">5796467</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

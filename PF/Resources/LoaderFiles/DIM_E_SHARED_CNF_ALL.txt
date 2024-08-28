@@ -1,0 +1,4 @@
+eniq_oss_1 SubNetwork=SubNetwork,MeContext=cIMS01 Shared-CNF cIMS01  BGF     n22-ims1-ims1-bgf-1-0-8-0-235              1 Ericsson ACTIVE 2023-11-19 11:15:09.0 2023-11-26 10:56:52.0 ENIQ     
+eniq_oss_1 SubNetwork=SubNetwork,MeContext=cIMS01 Shared-CNF cIMS01  BGF     n22-ims1-ims1-bgf-2-0-8-0-236              2 Ericsson ACTIVE 2023-11-19 11:15:09.0 2023-11-26 10:56:52.0 ENIQ     
+eniq_oss_1 SubNetwork=SubNetwork,MeContext=cIMS01 Shared-CNF cIMS01  SBG     n22-ims1-ims1-sbg-1-0-8-0-288              3 Ericsson ACTIVE 2023-11-19 11:15:09.0 2023-11-26 10:56:52.0 ENIQ     
+eniq_oss_1 SubNetwork=SubNetwork,MeContext=cIMS01 Shared-CNF cIMS01  SBG     n22-ims1-ims1-sbg-2-0-8-0-289              4 Ericsson ACTIVE 2023-11-19 11:15:09.0 2023-11-26 10:56:52.0 ENIQ     

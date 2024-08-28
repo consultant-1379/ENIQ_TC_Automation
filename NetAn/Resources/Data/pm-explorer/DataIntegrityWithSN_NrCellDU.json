@@ -1,0 +1,35 @@
+{ 
+    "TC01": { "System_area": "Radio",
+              "Node_type": "NR",
+              "Node" : "G2RBS_01",
+              "Node_Collection": "NODE",
+              "Object_Aggregation": "No Aggregation",
+              "Time_selector" : "last12Hours",
+              "Aggregation" : "HOUR",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Measure" : "Partial Cell Availability for gNodeB Cell",
+              "SQL" : "DECLARE @DATETIME_ID varchar(100)=DATETIME_VALUE, @Node varchar(100)=NODE_NAME_VALUE , @SN varchar(200)=UNIQUE_ID_VALUE select CAST(ROUND(avg(KPI_Value), 2) AS NUMERIC(36,2)) AS kpiValue from (SELECT DATETIME_ID, 100*((900*(15/15))-(SUM(PMCELLDOWNTIMEAUTO)+SUM(PMCELLDOWNTIMEMAN)))/(900*(15/15)) AS KPI_Value FROM DC_E_NR_NRCELLDU_RAW where DATETIME_ID = @DATETIME_ID  AND NRCellDU=@Node AND  SN=@SN GROUP BY DATETIME_ID ORDER BY DATETIME_ID ASC) A"
+			},
+	"TC02": { "System_area": "Radio",
+              "Node_type": "NR",
+              "Node" : "G2RBS_01",
+              "Node_Collection": "NODE",
+              "Object_Aggregation": "No Aggregation",
+              "Time_selector" : "last12Hours",
+              "Aggregation" : "HOUR",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Measure" : "Random Access Success Rate Captured in gNodeB",
+              "SQL" : "DECLARE @DATETIME_ID varchar(100)=DATETIME_VALUE,@HOUR_ID varchar(100)=NODE_NAME_VALUE , @SN varchar(200)=UNIQUE_ID_VALUE select CAST(ROUND(avg(KPI_Value), 2) AS NUMERIC(36,2)) AS kpiValue from (SELECT 100*((PMRADIORACBSUCCMSG3)/(PMRADIORACBATTMSG2)) AS KPI_Value FROM ( SELECT DC_E_NR_NRCELLDU_RAW.DATE_ID, DC_E_NR_NRCELLDU_RAW.GNBDUFunction, DC_E_NR_NRCELLDU_RAW.HOUR_ID, DC_E_NR_NRCELLDU_RAW.MOID, DC_E_NR_NRCELLDU_RAW.NRCellDU, DC_E_NR_NRCELLDU_RAW.NR_NAME, DC_E_NR_NRCELLDU_RAW.OSS_ID, DC_E_NR_NRCELLDU_RAW.SN, SUM(DC_E_NR_NRCELLDU_RAW.PMRADIORACBATTMSG2) as PMRADIORACBATTMSG2,SUM(DC_E_NR_NRCELLDU_RAW.PMRADIORACBSUCCMSG3) as PMRADIORACBSUCCMSG3, sum(DC_E_NR_NRCELLDU_RAW.PERIOD_DURATION) as PERIOD_DURATION, max(DC_E_NR_NRCELLDU_RAW.PERIOD_DURATION) as PERIOD_DURATION_MAX FROM DC_E_NR_NRCELLDU_RAW WHERE DC_E_NR_NRCELLDU_RAW.ROWSTATUS NOT IN ('DUPLICATE','SUSPECTED') AND DC_E_NR_NRCELLDU_RAW.NR_NAME IN ('G2RBS_01') GROUP BY DC_E_NR_NRCELLDU_RAW.DATE_ID,DC_E_NR_NRCELLDU_RAW.GNBDUFunction,DC_E_NR_NRCELLDU_RAW.HOUR_ID,DC_E_NR_NRCELLDU_RAW.MOID,DC_E_NR_NRCELLDU_RAW.NRCellDU,DC_E_NR_NRCELLDU_RAW.NR_NAME,DC_E_NR_NRCELLDU_RAW.OSS_ID,DC_E_NR_NRCELLDU_RAW.SN)z where DATE_ID = @DATETIME_ID AND HOUR_ID=@HOUR_ID AND SN=@SN) A"
+			}
+	    
+}

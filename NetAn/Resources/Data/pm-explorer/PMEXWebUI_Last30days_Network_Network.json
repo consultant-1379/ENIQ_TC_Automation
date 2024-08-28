@@ -1,0 +1,72 @@
+{ 	
+	"TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Network",
+              "Measure_type":"RI",
+              "Measure":"NR5+5MHzSectorCarrier LicensedCapacityUnitsAllSectors",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC02": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Network",
+              "Measure_type":"RI",
+              "Measure":"Average number of PDU session per PpControlLink",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC03": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Network",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"DL Packet Loss in gNodeB-CU-UP-NSA",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC04": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Network",
+              "Measure_type":"PDF_COUNTER",
+              "Measure":"IPIFINPKTRATEPERCENTILES.DC_E_TCU_INTERFACEIPV6_V_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC05": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Network",
+              "Measure_type":"COUNTER",
+              "Measure":"PMHOPREPATTINNGMDTCONSENT.DC_E_NR_NRCELLCU_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

@@ -1,0 +1,2 @@
+VLANFDN|TYPE
+SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,VLANGroup=1,VLAN=1|BackHaulVLANRAN

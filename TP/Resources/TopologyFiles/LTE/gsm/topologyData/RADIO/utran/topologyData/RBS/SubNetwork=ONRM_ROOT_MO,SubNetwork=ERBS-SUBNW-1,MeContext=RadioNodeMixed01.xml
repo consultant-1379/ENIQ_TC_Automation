@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Apr 04 14:57:00 IST 2024 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="MeContextId">RadioNodeMixed01</attr>
+ <attr name="neMIMversion">vE.2.9</attr>
+ <attr name="nodeVersion">24.Q2</attr>
+ <attr name="availableRbsChannelElementsDownlink">1500</attr>
+ <attr name="licenseCapacityRbsChannelElementsDownlink">700</attr>
+ <attr name="availableRbsChannelElementsUplink">1300</attr>
+ <attr name="licenseCapacityRbsChannelElementsUplink">1000</attr>
+ <attr name="ulLicFractBbPool2">10</attr>
+ <attr name="dlLicFractBbPool2">10</attr>
+ <attr name="noOfDownlinkBasebandPools">3</attr>
+ <attr name="noOfUplinkBasebandPools">3</attr>
+ <attr name="fingerprint">T444403182</attr>
+ <attr name="ceLadderKeyID">CXC4020017</attr>
+ <attr name="rbsIubId">1</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=RadioNodeMixed01</attr>
+ <attr name="dnPrefix">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01</attr>
+ <attr name="managedElementType">RadioNode</attr>
+ <attr name="associatedRnc">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01</attr>
+ <attr name="userLabel">RadioNodeMixed01</attr>
+ <attr name="fingerprint">345235238gh</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,NESW=1,ENodeBFunction=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="eNBId">31</attr>
+ <attr name="eNodeBPlmnId"></attr>
+ <struct>
+  <attr name="mcc">99</attr>
+  <attr name="mnc">43</attr>
+  <attr name="mncLength">2</attr>
+ </struct>
+<attr name="licCapDistrMethod">11</attr>
+ <attr name="timeZone">UTC+05:30</attr> 
+ <attr name="neMIMversion">E.2.9</attr> 
+ <attr name="worldTimeZoneId">GMT</attr> 
+ <attr name="daylightSavingsAdjust">60</attr> 
+ <attr name="statusAnr">0</attr> 
+ <attr name="statusPci"/> 
+ <attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,NESW=1,EUtranCellFDD=RadioNodeMixed01-1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="EUtranCellFDDId">RadioNodeMixed01-1</attr>
+ <attr name="cellId">1</attr>
+ <attr name="tac">1</attr>
+ <attr name="earfcndl">2</attr>
+ <attr name="earfcnul">1</attr>
+ <attr name="sectorCarrierRef"/> 
+ <attr name="lastModification">2</attr> 
+ <attr name="physicalLayerSubCellId">0</attr> 
+ <attr name="physicalLayerCellIdGroup">61</attr> 
+ <attr name="activePlmnList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">49</attr>
+   <attr name="mnc">49</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="mappingInfo">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mappingInfoSIB10">33</attr>
+   <attr name="mappingInfoSIB11">66</attr>
+   <attr name="mappingInfoSIB12">43</attr>
+   <attr name="mappingInfoSIB15">93</attr>
+   <attr name="mappingInfoSIB16">73</attr>
+   <attr name="mappingInfoSIB3">61</attr>
+   <attr name="mappingInfoSIB4">0</attr>
+   <attr name="mappingInfoSIB5">32</attr>
+   <attr name="mappingInfoSIB6">21</attr>
+   <attr name="mappingInfoSIB7">91</attr>
+   <attr name="mappingInfoSIB8">28</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="siPeriodicity">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="siPeriodicitySI1">61</attr>
+   <attr name="siPeriodicitySI2">72</attr>
+   <attr name="siPeriodicitySI3">3</attr>
+   <attr name="siPeriodicitySI4">70</attr>
+   <attr name="siPeriodicitySI5">73</attr>
+   <attr name="siPeriodicitySI6">37</attr>
+   <attr name="siPeriodicitySI7">87</attr>
+   <attr name="siPeriodicitySI8">35</attr>
+   <attr name="siPeriodicitySI9">18</attr>
+   <attr name="siPeriodicitySI10">87</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="additionalPlmnList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">4</attr>
+   <attr name="mnc">97</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="userLabel">1</attr>
+ <attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ <attr name="hostingDigitalUnit">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=1,NESW=1,EUtranCellFDD=RadioNodeMixed01-1,EUtranCellRelation=1,EUtranFreqRelation=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+<attr name="eUtranFrequencyRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1</attr> 
+<attr name="createdBy">2</attr> 
+<attr name="lastModification">1</attr> 
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+  </mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=1,NESW=1,EUtranCellFDD=RadioNodeMixed01-1,EUtranFreqRelation=1,EUtranCellRelation=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="createdBy">2</attr> 
+ <attr name="adjacentCell">SubNetwork=ONRM_RootMo_R,SubNetwork=LTE04Group,MeContext=LTE04ERBS00160,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE04ERBS00160-2</attr>
+ <attr name="neighborCellRef">SubNetwork=ONRM_RootMo_R,SubNetwork=LTE04Group,MeContext=LTE04ERBS00160,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE04ERBS00160-2,EUtranFreqRelation=1,EUtranCellRelation=1</attr>
+ <attr name="anrCreated">false</attr>
+ <attr name="isRemoveAllowed">false</attr>
+ <attr name="isHoAllowed">true</attr>
+ <attr name="lastModification">2</attr> 
+ <attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,NESW=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="arfcnValueEUtranDl">5364</attr> 
+ <attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ </mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,NbIotCell=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ <attr name="eutranCellRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=RadioNodeMixed01-1</attr>
+ <attr name="plmnIdList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">66</attr>
+   <attr name="mnc">86</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="earfcndl">40</attr> 
+ <attr name="earfcnul">-1</attr> 
+ <attr name="mappingInfo">
+  <struct>
+   <attr name="mappingInfoNbSIB4">NOT_MAPPED</attr>
+   <attr name="mappingInfoNbSIB16">NOT_MAPPED</attr>
+   <attr name="mappingInfoNbSIB5">NOT_MAPPED</attr>
+   <attr name="mappingInfoNbSIB14">NOT_MAPPED</attr>
+   <attr name="mappingInfoNbSIB3">MAPPED_SI_1</attr>
+  </struct>
+</attr>
+ <attr name="nbIotCellId">1</attr>
+ <attr name="tac">13</attr> 
+ <attr name="cellId">35</attr>
+ <attr name="nbIotCellType">NBIOT_INBAND</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,NESW=1,ENodeBFunction=1,TermPointToMme=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="mmeGIListLTERelated"> 
+</attr>
+ <attr name="mmeCodeListLTERelated">  
+</attr>
+ <attr name="servedPlmnListLTERelated"> 
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">65</attr>
+   <attr name="mnc">13</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Transport=1,Router=1,NESW=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=1,TermPointToENB=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="TermPointToENBId">0</attr> 
+ <attr name="lastModification">1</attr> 
+<attr name="createdBy">0</attr> 
+ <attr name="administrativeState">0</attr> 
+<attr name="sourceFDN">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1</attr> 
+<attr name="targetFDN"> 
+  <struct> 
+    <attr name="eNBId">53</attr> 
+    <attr name="eNodeBPlmnId"> 
+      <struct> 
+        <attr name="mcc">67</attr> 
+        <attr name="mnc">43</attr> 
+        <attr name="mncLength">2</attr> 
+      </struct> 
+    </attr> 
+  </struct> 
+</attr> 
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Transport=1,Router=1,ENodeBFunction=1,NESW=1,EUtraNetwork=1,ExternalENodeBFunction=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="eNBId">49</attr>
+<attr name="eNodeBPlmnId">
+<struct>
+<attr name="mcc">66</attr>
+<attr name="mnc">43</attr>
+<attr name="mncLength">2</attr>
+</struct>
+</attr>
+<attr name="lastModification">1712239020119</attr>
+<attr name="createdBy">4</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,NESW=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=1,ExternalEUtranCellFDD=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="localCellId">77</attr>
+<attr name="physicalLayerSubCellId">0</attr>
+<attr name="physicalLayerCellIdGroup">0</attr>
+<attr name="tac">1</attr>
+<attr name="dlchannelBandwidth">3000</attr>
+<attr name="ulchannelBandwidth">5000</attr>
+<attr name="createdBy">4</attr>
+<attr name="lastModification">1712239020119</attr>
+<attr name="activePlmnList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">20</attr>
+   <attr name="mnc">15</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,GigaBitEthernet=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="portNo">1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,IpOam=1,Ip=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="nodeIpAddress"/>
+<attr name="nodeIpv6Address"/>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ManagedElementData=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="nodeLocalTimeZone"/>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,UtranTDDFreqRelation=1,NESW=1,ENodeBFunction=1,EUtranCellTDD=1,EUtranCellFDD=RadioNodeMixed01-1,UtranFreqRelation=1,UtranCellRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,UtraNetwork=1,UtranFrequency=1,ExternalUtranCellTDD=1</attr>
+<attr name="isHoAllowed">true</attr>
+<attr name="timeOfCreation"/>
+<attr name="UtranCellRelationId">1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=1,NESW=1,UtranCellRelation=1,EUtranCellFDD=RadioNodeMixed01-1,UtranFreqRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,UtraNetwork=1,UtranFrequency=1,ExternalUtranCellTDD=1</attr>
+<attr name="isHoAllowed">true</attr>
+<attr name="timeOfCreation"/>
+<attr name="UtranCellRelationId">1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=1,NESW=1,EUtranCellFDD=RadioNodeMixed01-1,GeranFreqGroupRelation=1,GeranCellRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalGeranCellRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=1</attr>
+<attr name="GeranCellRelationId">1</attr>
+<attr name="timeOfCreation"/>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,Equipment=1,FieldReplaceableUnit=1,EUtranCellTDD=1,NESW=1,BbProcessingResource=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,BbProcessingResource=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,BbProcessingResource=1</attr>
+<attr name="timeOfCreation"/>
+<attr name="licCapDistr">1</attr>
+ <attr name="userLabel">ERBS1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,NESW=1,EUtranCellTDD=1,Paging=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,Paging=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,Paging=1</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">1</attr>
+ <attr name="userLabel">ERBS1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,NESW=1,SectorCarrier=1,PmUlInterferenceReport=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_,RPmUlInterferenceReport=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="rfBranchRxRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,PmUlInterferenceReport=1</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">1</attr>
+<attr name="PmUlInterferenceReportId">1</attr>
+<attr name="SectorCarrier">1</attr>
+ <attr name="userLabel">ERBS1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,NESW=1,PmUlInterferenceReport=1,SectorCarrier=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,SectorCarrier=1</attr>
+<attr name="createdBy">1</attr>
+<attr name="reservedBy">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">1</attr>
+ <attr name="userLabel">ERBS1</attr>
+<attr name="SectorCarrierId">1</attr>
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Transport=1,Router=1,SpectrumSharingFunction=1,ENodeBFunction=1,SharingGroup=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+<attr name="gUtranCellRelationRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNBDUFunction=1,NRCellDU=1</attr> 
+ <attr name="schedPolicy">FAIR</attr>
+ <attr name="sharingGroupId">1</attr>
+<attr name="eUtranCellRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=RadioNodeMixed01-1</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,GNBCUUPFunction=1,PpControlTermination=1,PpControlLink=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+<attr name="detailedAvailabilityInfoTemp">97</attr>
+<attr name="availabilityStatus">
+<seq count="2">
+<item>DEPENDENCY</item>
+<item>OFF_LINE</item>
+</seq>
+</attr>
+<attr name="operationalState">ENABLED</attr>
+<attr name="remoteEndPoint">127.0.0.3</attr>
+<attr name="ppControlLinkId">1</attr>
+<attr name="localEndPoint">127.0.0.1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNBCUCPFunction=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ <attr name="gNBId">95</attr>
+ <attr name="pLMNIdList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">5</attr>
+   <attr name="mnc">9</attr>
+   <attr name="mncLength">1</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="pLMNId">
+<struct>
+ <attr name="mcc">57</attr>
+ <attr name="mnc">69</attr>
+</struct>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNBCUCPFunction=1,NRCellCU=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ <attr name="nCGI">11</attr>
+ <attr name="cellLocalId">32</attr>
+ <attr name="pLMNIdList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">58</attr>
+   <attr name="mnc">71</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="primaryPLMNId">
+<struct>
+ <attr name="mcc">21</attr>
+ <attr name="mnc">5</attr>
+</struct>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNBDUFunction=1,NRCellDU=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ <attr name="nCGI">65</attr>
+ <attr name="cellLocalId">75</attr>
+ <attr name="pLMNIdList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">43</attr>
+   <attr name="mnc">64</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="nRTAC">73</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNodeBFunction=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+ <attr name="gNBId">1</attr>
+ <attr name="gNBPlmnId">34:97</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNodeBFunction=1,GUtranCell=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+<attr name="cellId">61</attr> 
+ <attr name="additionalPlmnList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">13</attr>
+   <attr name="mnc">35</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNBDUFunction=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+<attr name="gNBId">59</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,GNodeBRpFunction=1,GUtranDUCell=1" mimName="ERBS_NODE_MODEL" lastModified="1712239020119">
+<attr name="timestampOfChange">2024-04-04 14:57:00.000</attr> 
+<attr name="cgi">46</attr> 
+ <attr name="additionalPlmnList">
+ <seq count="1">
+ <item >
+  <struct>
+   <attr name="mcc">16</attr>
+   <attr name="mnc">46</attr>
+   <attr name="mncLength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,BtsFunction=1,GsmSector=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1712239020119">
+ <attr name="bscTgIdentity">RXSTG-101</attr>
+ <attr name="bscNodeIdentity">BSC50</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,NodeBFunction=1,Iub=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1712239020119">
+<attr name="iubId">1</attr>
+<attr name="rbsId">1</attr>
+<attr name="userLabel"></attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,NodeBFunction=1,NodeBLocalCellGroup=1,NodeBLocalCell=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1712239020119">
+<attr name="localCellId">1</attr>
+<attr name="maxDlPowerCapability">-1</attr>
+<attr name="userLabel"></attr>
+<attr name="nodeBLocalCellId">1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,EthernetSwitchPort=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1712239020119">
+ <attr name="portNo">673473</attr>
+ <attr name="lagRef">SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</attr>
+ <attr name="userLabel"></attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1712239020119">
+ <attr name="masterPort"></attr>
+ <attr name="reservedBy">
+ <seq count= "3">
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=2</item>
+<item>SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=RadioNodeMixed01,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=3</item>
+ </seq>
+ </attr>
+ <attr name="userLabel"> </attr>
+ </mo>
+</model>

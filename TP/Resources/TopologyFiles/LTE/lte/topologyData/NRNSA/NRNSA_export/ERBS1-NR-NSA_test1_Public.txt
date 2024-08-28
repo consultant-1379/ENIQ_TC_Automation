@@ -1,0 +1,6 @@
+version:2.0
+name:ERBS1-NR-NSA
+sharing:Public
+userId:test1
+type:LEAF
+FDN:NetworkElement=ERBS1:NetworkElement

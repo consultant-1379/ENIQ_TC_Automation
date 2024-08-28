@@ -1,0 +1,3 @@
+{
+    "EPG": "select COUNT(*) from MeasurementCounter WHERE typeid like '%DC_E_GGSN:((255))%' and GROUPAGGREGATION !=NULL and COUNTAGGREGATION !=NULL"
+}

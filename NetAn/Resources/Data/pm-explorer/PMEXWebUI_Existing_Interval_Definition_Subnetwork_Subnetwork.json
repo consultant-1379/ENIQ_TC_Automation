@@ -1,0 +1,72 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Core",
+              "Node_type": "CCSM",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"SubNetwork",
+              "SubNetwork" : "SubNetwork",
+              "Measure":"Failure Ratio for HSS-EPC Purge UE Request (EPC PUR FR)",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC02": { 
+          "System_area": "Core",
+              "Node_type": "CCSM",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"SubNetwork",
+              "SubNetwork" : "SubNetwork",
+              "Measure":"Failure Ratio for Voice Service (UDM VOICE FR)",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC03": { 
+          "System_area": "Core",
+              "Node_type": "CCSM",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"SubNetwork",
+              "SubNetwork" : "SubNetwork",
+              "Measure":"Failure Ratio for Event Exposure Service",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC04": { 
+          "System_area": "Core",
+              "Node_type": "CCSM",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"SubNetwork",
+              "SubNetwork" : "SubNetwork",
+              "Measure":"Failure Ratio for HSS-IMS Authentication (IMS CX MAR FR)",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC05": { 
+          "System_area": "Core",
+              "Node_type": "CCSM",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"SubNetwork",
+              "SubNetwork" : "SubNetwork",
+              "Measure":"Failure Ratio for HSS-IMS User Authorization (IMS CX UAR FR)",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

@@ -1,0 +1,2 @@
+eniq_oss_1 MSBAA01 SubNetwork=ONRM_RootMo,Site=MSBAA01 BSC         AXE         ONRM_RootMo AXE         SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01 BAA01  BAA01    TRC      23.Q4       100 Ericsson ACTIVE 2024-04-01 16:14:44.0 2024-06-03 21:11:05.0 ENIQ     
+eniq_oss_1 MSBIE01 SubNetwork=ONRM_RootMo,Site=MSBIE01 BSC         AXE         ONRM_RootMo AXE         SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BIE01 BIE01  BIE01    TRC      23.Q4       100 Ericsson ACTIVE 2024-04-01 16:14:44.0 2024-06-03 21:11:05.0 ENIQ     

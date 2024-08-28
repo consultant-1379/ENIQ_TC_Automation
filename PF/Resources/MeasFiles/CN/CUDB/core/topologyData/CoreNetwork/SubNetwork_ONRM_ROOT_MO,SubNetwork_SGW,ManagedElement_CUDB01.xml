@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Sep 12 17:48:00 BST 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=SGW,ManagedElement=CUDB01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=SGW,ManagedElement=CUDB01" mimName="ONRM" mimVersion="13.2.4" lastModified="1694537280223">
+ <attr name="userLabel">CUDB01</attr>
+ <attr name="nodeVersion">1.27</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSCUDB01</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>CUDB</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

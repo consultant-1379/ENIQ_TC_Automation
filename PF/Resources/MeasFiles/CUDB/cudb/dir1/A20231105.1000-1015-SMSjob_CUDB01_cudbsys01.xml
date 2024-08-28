@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="SMSjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NSMSBAOC.actual</measType>
+         <measType p="1">NSMSBOIC.actual</measType>
+         <measType p="2">NSMSBOIEXH.actual</measType>
+         <measType p="3">NSMSBAIC.actual</measType>
+         <measType p="4">NSMSBICRO.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5784141</r>
+             <r p="1">5764725</r>
+             <r p="2">5846233</r>
+             <r p="3">5743999</r>
+             <r p="4">5781007</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

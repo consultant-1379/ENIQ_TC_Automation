@@ -1,0 +1,13 @@
+${HypervisorFQHN}		{host}
+${HypervisorUsername}	root
+${HypervisorPassword}	{password}
+${SSH_Port}				{PORT}
+${HypervisorPatch}		{PATCH}
+${CCSIpAddress}			{ccs_server_ip}
+${CCSFQHN}				${CCS_FQHN}
+${ADDSHostname}			{host_name}
+${CCSSHostname}			{host_name}
+${VDAHostname}			{host_name}
+${ADDSPassword}			{password}
+${CCSPassword}			{password}
+${VDAPassword}			{password}

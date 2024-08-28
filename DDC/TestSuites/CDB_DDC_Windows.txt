@@ -1,0 +1,6 @@
+DDC/TestCases/Bis_logs.robot
+DDC/TestCases/Netan_logs.robot
+DDC/TestCases/OCS_ADDS_system_logs.robot
+DDC/TestCases/OCS_CCS_system_logs.robot
+DDC/TestCases/OCS_VDA_system_logs.robot
+DDC/TestCases/OCS_WITHOUT_CITRIX.robot

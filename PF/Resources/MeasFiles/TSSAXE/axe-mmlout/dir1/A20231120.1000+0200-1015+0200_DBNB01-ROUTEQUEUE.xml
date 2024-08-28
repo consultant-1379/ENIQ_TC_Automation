@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">noOfAccsBlockingCounter</measType>
+			<measType p="2">noOfAccsTrafficCounter</measType>
+			<measType p="3">noOfBAnswers</measType>
+			<measType p="4">noOfBids</measType>
+			<measType p="5">noOfBidsAfterQueue</measType>
+			<measType p="6">noOfBidsToQueue</measType>
+			<measType p="7">noOfDevicesRoute</measType>
+			<measType p="8">noOfUnsucessfulBids</measType>
+			<measType p="9">sumOfBlockedDevices</measType>
+			<measType p="10">sumOfBlockedLines</measType>
+			<measType p="11">sumOfTrafficLevel</measType>
+			<measType p="12">sumOfTrafficLevelIncoming</measType>
+			<measType p="13">sumOfTrafficLevelOutgoing</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,ROUTEQUEUE=0">
+				<r p="1">36</r>
+				<r p="2">90</r>
+				<r p="3">42</r>
+				<r p="4">96</r>
+				<r p="5">21</r>
+				<r p="6">72</r>
+				<r p="7">5</r>
+				<r p="8">2</r>
+				<r p="9">61</r>
+				<r p="10">46</r>
+				<r p="11">71</r>
+				<r p="12">90</r>
+				<r p="13">8</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

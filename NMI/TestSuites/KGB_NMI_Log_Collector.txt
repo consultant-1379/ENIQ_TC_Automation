@@ -1,0 +1,6 @@
+#NMI/TestCases/Log_Collector/Verify_Log_Collector.robot
+#NMI/TestCases/Log_Collector/Verify_Log_Collector_Directory_Size.robot
+#NMI/TestCases/Log_Collector/Verify_Log_Transfer.robot
+NMI/TestCases/Log_Collector/NMI_Verify_Log_Collector_101.robot
+NMI/TestCases/Log_Collector/NMI_Verify_Log_Collector_Directory_Size_TC102.robot
+NMI/TestCases/Log_Collector/NMI_Verify_Log_Transfer_TC103.robot

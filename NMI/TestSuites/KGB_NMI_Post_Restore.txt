@@ -1,0 +1,9 @@
+NMI/TestCases/Restore/NMI_Verify_DBCC_After_Restore_TC63.robot
+NMI/TestCases/Restore/NMI_Verify_Database_Connection_After_Restore_TC64.robot
+NMI/TestCases/Restore/NMI_Verify_Directory_Permission_After_Restore_TC65.robot
+NMI/TestCases/Restore/NMI_Verify_Upgrade_After_Restore_TC66.robot
+#NMI/TestCases/Restore/Verify_DBCC_After_Restore.robot
+#NMI/TestCases/Restore/Verify_Database_Connection_After_Restore.robot
+#NMI/TestCases/Restore/Verify_Directory_Permission_After_Restore.robot
+#NMI/TestCases/Restore/Verify_Upgrade_After_Restore.robot
+

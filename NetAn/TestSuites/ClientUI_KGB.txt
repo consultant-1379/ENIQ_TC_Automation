@@ -1,0 +1,1 @@
+C:\Users\Administrator\workspace\NetAn_KGB_CTAF\ENIQ_TC_Automation\NetAn\TestCases\pm-explorer\NetAn_PMEx_ClientUI_Spotfire_Automation_Using_RPA.Windows.robot

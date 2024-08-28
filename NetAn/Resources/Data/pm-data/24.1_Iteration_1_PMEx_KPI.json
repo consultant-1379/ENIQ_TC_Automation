@@ -1,0 +1,25 @@
+{
+
+    "PCC_KPI": {
+        "System_area" : "Core",
+        "Node_type" : "PCC",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "PCC01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "Network Initiated Service Request Failure Ratio",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "VS_MM_AttPsPaging_E,VS_MM_PsPagingRestartBasedOnArpAtt_E,VS_MM_SuccPsPaging_E,VS_MM_UnsuccServiceRequestMT_E,VS_MM_UnsuccICSRInServiceRequestMT_E,VS_MM_UnsuccMBRInServiceRequestMT_E,VS_MM_AttPsPaging_E,VS_MM_PsPagingRestartBasedOnArpAtt_E",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "PCC_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "declare @time varchar(50) = DATETIME_VALUE declare @moid varchar(200) = UNIQUE_ID_VALUE select CAST(ROUND(avg(result), 2) AS NUMERIC(36,2)) AS kpiValue from(select(((SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_ATTPSPAGING_E)-SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_PSPAGINGRESTARTBASEDONARPATT_E)-SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_SUCCPSPAGING_E))+SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_UNSUCCSERVICEREQUESTMT_E)+SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_UNSUCCICSRINSERVICEREQUESTMT_E)+SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_UNSUCCMBRINSERVICEREQUESTMT_E))/(SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_ATTPSPAGING_E)-SUM(DC_E_PCC_MOBILITY_MM_E_RAW.VS_MM_PSPAGINGRESTARTBASEDONARPATT_E))) as result from DC_E_PCC_MOBILITY_MM_E_RAW where datetime_id = @time and MOID = @moid)A"
+    }
+	
+	
+
+    
+}

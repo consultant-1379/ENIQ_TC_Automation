@@ -1,0 +1,12 @@
+#NMI/TestCases/Integration/Verify_ENM_Integration_on_MR.robot
+NMI/TestCases/Integration/NMI_Verify_ENM_Integration_on_MR_TC98.robot
+#NMI/TestCases/Server_Sanity/Server_Sanity_MR.robot
+NMI/TestCases/Server_Sanity/NMI_Server_Sanity_MR_TC129.robot
+#NMI/TestCases/Common/Verify_Database_Connection.robot
+#NMI/TestCases/Common/Verify_Directory_Permissions_on_MR.robot
+#NMI/TestCases/Common/Verify_ENIQ_Services_on_MR.robot
+#NMI/TestCases/Common/Verify_Password_Policy.robot
+NMI/TestCases/Common/NMI_Verify_Database_Connection_TC08.robot
+NMI/TestCases/Common/NMI_Verify_Directory_Permissions_on_MR._TC10.robot
+NMI/TestCases/Common/NMI_Verify_ENIQ_Services_on_MR_TC14.robot
+NMI/TestCases/Common/NMI_Verify_Password_Policy_TC17.robot

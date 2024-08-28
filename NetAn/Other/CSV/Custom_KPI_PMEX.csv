@@ -1,0 +1,9 @@
+KPI,Formula,,Node Type,Description,Joins,FlexFilterValues,Index
+PDF_Counter,100*('NRSectorCarrier'.pmEmfPwrBackoffDynResThrDistr[10]+'NRSectorCarrier'.pmEmfPwrBackoffPwrDistr[89]),0-39,NR,PDF_Counter,,"Arp0To2",
+Flex_Counter,1000*('GNBDUFunction'.pmEbsDuExampleCounter[Arp0To2]+'GNBDUFunction'.pmEbsDuExampleCounter[endc0To1]),"endc0To99, endc0To1, Plmn0, Plmn0To1UeCat0To5, UeCat0To1, LCG0To3, Arp0To2",NR,Flex_Counter,,"Arp0To2",
+Flex_PDF_Counter,1000*('RpUserPlaneLink'.pmEbsnPdcpPktLossUlQos[10:Arp0To2]+'RpUserPlaneLink'.pmEbsnPdcpPktLossUlQos[29:endc0To1]),"Plmn0To1UeCat0To5,LCG0To3,Arp0To2,Plmn0,endc0To1,UeCat0To1,endc0To99",NR,Flex_PDF_Counter,,"Arp0To2",
+EnhancedFlex1_KPI,1000*(DC_E_NR_EVENTS_RPUSERPLANELINK_V_RAW.pmEbsnPdcpPktLossUlQos[10:Arp0To2]+DC_E_NR_EVENTS_RPUSERPLANELINK_V_RAW.pmEbsnPdcpPktLossUlQos[29:endc0To1]),"Plmn0To1UeCat0To5,LCG0To3,Arp0To2,Plmn0,endc0To1,UeCat0To1,endc0To99",NR,EnhancedFlex1_KPI,,"Arp0To2",
+EnhancedFlex2_KPI,100*(DC_E_NR_EVENTS_NRCELLCU_V_RAW.PMEBSSESSIONTIMEDRB5QI[10]+DC_E_NR_EVENTS_NRCELLCU_V_RAW.PMEBSRRCCONNESTABLATDISTR[89]),"Plmn0To1UeCat0To5,LCG0To3,Arp0To2,Plmn0,endc0To1,UeCat0To1,endc0To99",NR,EnhancedFlex2_KPI,,"Arp0To2",
+Flex_customkpi,10*(DC_E_ERBS_EUTRANCELLTDD_FLEX_RAW.PMFLEXCELLHOEXEATTNR/DC_E_ERBS_EUTRANCELLTDD_FLEX_RAW.PMFLEXCELLHOPREPATTNONMOBLTE),"Plmn0To2,LCG0To9,Arp0To2,UeCat2",ERBS,Flex_customkpi,,"LCG0To9",
+Pdf_customkpi,10*(DC_E_ERBS_PMUEMEASCONTROL_V_RAW.PMZTEMPORARY44),0-16,ERBS,Pdf_customkpi,,"LCG0To9",
+flex-multitable,(DC_E_ERBS_EUTRANCELLFDD_FLEX_RAW.PMFLEXZTEMPORARY9+DC_E_ERBS_EUTRANCELLTDD_FLEX_RAW.PMFLEXZTEMPORARY23),"Plmn0To2,LCG0To9,Arp0To2,UeCat2",ERBS,Multitable,DC_E_ERBS_EUTRANCELLFDD_FLEX_RAW.FLEX_FILTERNAME=DC_E_ERBS_EUTRANCELLTDD_FLEX_RAW.FLEX_FILTERNAME,"LCG0To9",

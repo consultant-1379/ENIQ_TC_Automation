@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v11.0.0">
+       <fileSender/>
+       <measCollec beginTime="2023-10-30T10:00:00+02:00"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="TRUSTEDPROXY1Job"/>
+         <granPeriod duration="PT900S" endTime="2023-10-30T10:15:00+02:00"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">tpAuthCntAuthFailed.actual</measType>
+         <measType p="1">tpAuthCntAuthFailed.delta</measType>
+         <measType p="2">tpAuthCntAuthFailed403.actual</measType>
+         <measType p="3">tpAuthCntAuthFailed403.delta</measType>
+         <measType p="4">tpAuthCntAuthGbaDigestReq.actual</measType>
+         <measType p="5">tpAuthCntAuthGbaDigestReq.delta</measType>
+         <measType p="6">tpAuthCntAuthGbaMeBasedReq.actual</measType>
+         <measType p="7">tpAuthCntAuthGbaMeBasedReq.delta</measType>
+         <measType p="8">tpAuthCntAuthGbaReq.actual</measType>
+         <measType p="9">tpAuthCntAuthGbaReq.delta</measType>
+         <measType p="10">tpAuthCntAuthGibaReq.actual</measType>
+         <measType p="11">tpAuthCntAuthGibaReq.delta</measType>
+         <measType p="12">tpAuthCntAuthReq.actual</measType>
+         <measType p="13">tpAuthCntAuthReq.delta</measType>
+         <measType p="14">tpAuthCntAuthResp.actual</measType>
+         <measType p="15">tpAuthCntAuthResp.delta</measType>
+         <measType p="16">tpAuthCntAuthZxDigestReq.actual</measType>
+         <measType p="17">tpAuthCntAuthZxDigestReq.delta</measType>
+         <measType p="18">tpAuthCntAuthZxSsoReq.actual</measType>
+         <measType p="19">tpAuthCntAuthZxSsoReq.delta</measType>
+         <measType p="20">tpAuthCntZnReq.actual</measType>
+         <measType p="21">tpAuthCntZnReq.delta</measType>
+         <measType p="22">tpCntHttpDeleteReq.actual</measType>
+         <measType p="23">tpCntHttpDeleteReq.delta</measType>
+         <measType p="24">tpCntHttpDsFailedResp.actual</measType>
+         <measType p="25">tpCntHttpDsFailedResp.delta</measType>
+         <measType p="26">tpCntHttpFailedResp.actual</measType>
+         <measType p="27">tpCntHttpFailedResp.delta</measType>
+         <measType p="28">tpCntHttpFwdReq.actual</measType>
+         <measType p="29">tpCntHttpFwdReq.delta</measType>
+         <measType p="30">tpCntHttpGetReq.actual</measType>
+         <measType p="31">tpCntHttpGetReq.delta</measType>
+         <measType p="32">tpCntHttpOtherReq.actual</measType>
+         <measType p="33">tpCntHttpOtherReq.delta</measType>
+         <measType p="34">tpCntHttpPostReq.actual</measType>
+         <measType p="35">tpCntHttpPostReq.delta</measType>
+         <measType p="36">tpCntHttpPutReq.actual</measType>
+         <measType p="37">tpCntHttpPutReq.delta</measType>
+         <measType p="38">tpCntHttpTotalReq.actual</measType>
+         <measType p="39">tpCntHttpTotalReq.delta</measType>
+         <measType p="40">tpSubCntImpiVpActSubCount.actual</measType>
+         <measType p="41">tpSubCntImpiVpActSubCount.min</measType>
+         <measType p="42">tpSubCntImpiVpActSubCount.max</measType>
+         <measType p="43">tpSubCntImpiVpMaxSubCount.actual</measType>
+         <measType p="44">tpSubCntImpiVpMaxSubCount.delta</measType>
+         <measType p="45">tpSubCntImpuVpActSubCount.actual</measType>
+         <measType p="46">tpSubCntImpuVpActSubCount.min</measType>
+         <measType p="47">tpSubCntImpuVpActSubCount.max</measType>
+         <measType p="48">tpSubCntImpuVpMaxSubCount.actual</measType>
+         <measType p="49">tpSubCntImpuVpMaxSubCount.delta</measType>
+		 <measValue measObjLdn="">
+             <r p="0">76</r>
+             <r p="1">94</r>
+             <r p="2">6</r>
+             <r p="3">81</r>
+             <r p="4">34</r>
+             <r p="5">93</r>
+             <r p="6">23</r>
+             <r p="7">21</r>
+             <r p="8">94</r>
+             <r p="9">34</r>
+             <r p="10">59</r>
+             <r p="11">18</r>
+             <r p="12">16</r>
+             <r p="13">57</r>
+             <r p="14">38</r>
+             <r p="15">70</r>
+             <r p="16">40</r>
+             <r p="17">69</r>
+             <r p="18">69</r>
+             <r p="19">78</r>
+             <r p="20">81</r>
+             <r p="21">67</r>
+             <r p="22">21</r>
+             <r p="23">54</r>
+             <r p="24">67</r>
+             <r p="25">58</r>
+             <r p="26">18</r>
+             <r p="27">63</r>
+             <r p="28">34</r>
+             <r p="29">59</r>
+             <r p="30">53</r>
+             <r p="31">54</r>
+             <r p="32">11</r>
+             <r p="33">66</r>
+             <r p="34">14</r>
+             <r p="35">47</r>
+             <r p="36">87</r>
+             <r p="37">11</r>
+             <r p="38">44</r>
+             <r p="39">40</r>
+             <r p="40">52</r>
+             <r p="41">9</r>
+             <r p="42">19</r>
+             <r p="43">90</r>
+             <r p="44">52</r>
+             <r p="45">28</r>
+             <r p="46">64</r>
+             <r p="47">97</r>
+             <r p="48">37</r>
+             <r p="49">42</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-10-30T10:15:00+02:00"/>
+    </fileFooter>
+</measCollecFile>

@@ -1,0 +1,1 @@
+MGw01	MGw01	eniq_oss_1	MGw01	1	MGw01	ManagedElement=1,BorderGatewayFunction=1,BgfNetwork=1,BgfRemoteSiteGroup=1,BgfRemoteSite=1	CXP9018138/2_R214A04	1	1	2023-11-05	2023	11	5	10	2023-11-05 10:00:00	0	15MIN	29882	0	15		NDP 6.16.0	eniq_oss_1	+0200		2023-11-05 08:00:00	5	39	98	26	2	30	55	20	10	75	34	11	99	3	40	85	45	7	31	67	

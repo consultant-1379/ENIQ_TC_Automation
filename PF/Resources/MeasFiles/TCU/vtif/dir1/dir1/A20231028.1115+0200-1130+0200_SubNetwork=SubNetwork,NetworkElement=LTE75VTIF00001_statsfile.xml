@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+ <fileHeader dnPrefix="SubNetwork=ONRM_RootMo_R,SubNetwork=VTIF,MeContext=LTE75VTIF00001"  vendorName="Ericsson AB" fileFormatVersion="32.435 V7.0">
+	<fileSender localDn="ManagedElement=LTE75VTIF00001"/>
+ 	<measCollec beginTime="2023-10-28T11:15:00Z"/>
+  </fileHeader>
+<measData>
+    <managedElement swVersion="r0.1" localDn="ManagedElement=LTE75VTIF00001"/>
+    <measInfo measInfoId="VlanPort">
+      <job jobId="1_USERDEF.ALL_COUNTERS.Profile_1.Continuous_Y.MEASJOB"/>
+      <granPeriod endTime="2023-10-28T11:30:00Z" duration="PT900S"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ifInUnknownProtos</measType>
+<measType p="2">ifOutDiscards</measType>
+<measType p="3">ifHCOutBroadcastPkts</measType>
+<measType p="4">ifHCOutMulticastPkts</measType>
+<measType p="5">ifHCInOctets</measType>
+<measType p="6">ifHCInBroadcastPkts</measType>
+<measType p="7">ifHCInMulticastPkts</measType>
+<measType p="8">ifHCOutUcastPkts</measType>
+<measType p="9">ifHCOutOctets</measType>
+<measType p="10">ifInDiscards</measType>
+<measType p="11">ifHCInUcastPkts</measType>
+<measValue measObjLdn="ManagedElement=vTIF01,Transport=1,Router=1,VlanPort=1">
+<r p="1">14</r>
+<r p="2">4</r>
+<r p="3">52</r>
+<r p="4">64</r>
+<r p="5">26</r>
+<r p="6">1</r>
+<r p="7">39</r>
+<r p="8">27</r>
+<r p="9">18</r>
+<r p="10">84</r>
+<r p="11">75</r>
+</measValue>
+</measInfo>
+    <measInfo measInfoId="InterfaceIPv4">
+      <job jobId="1_USERDEF.ALL_COUNTERS.Profile_1.Continuous_Y.MEASJOB"/>
+      <granPeriod endTime="2023-10-28T11:30:00Z" duration="PT900S"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ipIfStatsInHdrErrors</measType>
+<measType p="2">ipIfStatsOutDiscards</measType>
+<measType p="3">ipIfStatsHCOutTransmits</measType>
+<measType p="4">ipIfStatsReasmFails</measType>
+<measType p="5">ipIfStatsHCOutBcastPkts</measType>
+<measType p="6">ipIfStatsOutFragCreates</measType>
+<measType p="7">ipIfStatsReasmReqds</measType>
+<measType p="8">ipIfStatsHCInForwDatagrams</measType>
+<measType p="9">ipIfStatsHCInOctets</measType>
+<measType p="10">ipIfStatsHCInMcastOctets</measType>
+<measType p="11">ipIfStatsInNoRoutes</measType>
+<measType p="12">ipIfStatsInTruncatedPkts</measType>
+<measType p="13">ipIfStatsOutFragFails</measType>
+<measType p="14">ipIfStatsHCOutMcastPkts</measType>
+<measType p="15">ipIfStatsReasmOKs</measType>
+<measType p="16">ipIfOutOctetRatePercentiles</measType>
+<measType p="17">ipIfStatsHCInMcastPkts</measType>
+<measType p="18">ipIfStatsHCOutRequests</measType>
+<measType p="19">ipIfStatsOutFragOKs</measType>
+<measType p="20">ipIfStatsHCOutOctets</measType>
+<measType p="21">ipIfStatsOutFragReqds</measType>
+<measType p="22">ipIfStatsHCInDelivers</measType>
+<measType p="23">ipIfStatsHCInBcastPkts</measType>
+<measType p="24">ipIfStatsInAddrErrors</measType>
+<measType p="25">ipIfStatsInDiscards</measType>
+<measType p="26">ipIfInOctetRatePercentiles</measType>
+<measType p="27">ipIfStatsHCInReceives</measType>
+<measType p="28">ipIfStatsHCOutMcastOctets</measType>
+<measType p="29">ipIfStatsHCOutForwDatagrams</measType>
+<measType p="30">ipIfStatsInUnknownProtos</measType>
+<measValue measObjLdn="ManagedElement=vTIF01,Transport=1,Router=1,InterfaceIPv4=1">
+<r p="1">63</r>
+<r p="2">45</r>
+<r p="3">29</r>
+<r p="4">90</r>
+<r p="5">62</r>
+<r p="6">56</r>
+<r p="7">10</r>
+<r p="8">45</r>
+<r p="9">79</r>
+<r p="10">39</r>
+<r p="11">78</r>
+<r p="12">91</r>
+<r p="13">72</r>
+<r p="14">9</r>
+<r p="15">53</r>
+<r p="16">83,84,80,23,93,69,7</r>
+<r p="17">70</r>
+<r p="18">40</r>
+<r p="19">13</r>
+<r p="20">52</r>
+<r p="21">75</r>
+<r p="22">24</r>
+<r p="23">13</r>
+<r p="24">92</r>
+<r p="25">64</r>
+<r p="26">67,8,32,85,47,78,7</r>
+<r p="27">53</r>
+<r p="28">31</r>
+<r p="29">14</r>
+<r p="30">32</r>
+</measValue>
+</measInfo>
+    <measInfo measInfoId="VirtualEthernetPort">
+      <job jobId="1_USERDEF.ALL_COUNTERS.Profile_1.Continuous_Y.MEASJOB"/>
+      <granPeriod endTime="2023-10-28T11:30:00Z" duration="PT900S"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ifMinLossOfSignalDuration</measType>
+<measType p="2">ifHCOutBroadcastPkts</measType>
+<measType p="3">ifMaxLossOfSignalDuration</measType>
+<measType p="4">ifHCOutUcastPkts</measType>
+<measType p="5">ifHCInMulticastPkts</measType>
+<measType p="6">ifTotalLossOfSignalDuration</measType>
+<measType p="7">ifInUnknownTags</measType>
+<measType p="8">ifHCInOctets</measType>
+<measType p="9">ifOutDiscards</measType>
+<measType p="10">ifHCLossOfSignal</measType>
+<measType p="11">ifInErrors</measType>
+<measType p="12">ifOutOctetRatePercentiles</measType>
+<measType p="13">ifHCInUcastPkts</measType>
+<measType p="14">ifInOctetRatePercentiles</measType>
+<measType p="15">ifInDiscards</measType>
+<measType p="16">ifHCInBroadcastPkts</measType>
+<measType p="17">ifInUnknownProtos</measType>
+<measType p="18">ifHCOutOctets</measType>
+<measType p="19">ifOutErrors</measType>
+<measType p="20">ifHCOutMulticastPkts</measType>
+<measValue measObjLdn="ManagedElement=vTIF01,Transport=1,Router=1,VirtualEthernetPort=1">
+<r p="1">33</r>
+<r p="2">42</r>
+<r p="3">96</r>
+<r p="4">8</r>
+<r p="5">73</r>
+<r p="6">48</r>
+<r p="7">37</r>
+<r p="8">67</r>
+<r p="9">76</r>
+<r p="10">14</r>
+<r p="11">17</r>
+<r p="12">20,6,77,55,64,6,7</r>
+<r p="13">83</r>
+<r p="14">41,49,11,85,40,81,7</r>
+<r p="15">74</r>
+<r p="16">11</r>
+<r p="17">51</r>
+<r p="18">94</r>
+<r p="19">50</r>
+<r p="20">76</r>
+</measValue>
+</measInfo>
+    <measInfo measInfoId="InterfaceIPv6">
+      <job jobId="1_USERDEF.ALL_COUNTERS.Profile_1.Continuous_Y.MEASJOB"/>
+      <granPeriod endTime="2023-10-28T11:30:00Z" duration="PT900S"/>
+      <repPeriod duration="PT900S"/>
+<measType p="1">ipIfStatsInTruncatedPkts</measType>
+<measType p="2">ipIfStatsHCOutMcastPkts</measType>
+<measType p="3">ipIfStatsInUnknownProtos</measType>
+<measType p="4">ipIfStatsOutFragOKs</measType>
+<measType p="5">ipIfStatsHCInReceives</measType>
+<measType p="6">ipIfStatsHCOutTransmits</measType>
+<measType p="7">ipIfStatsReasmFails</measType>
+<measType p="8">ipIfInOctetRatePercentiles</measType>
+<measType p="9">ipIfStatsHCOutForwDatagrams</measType>
+<measType p="10">ipIfStatsInHdrErrors</measType>
+<measType p="11">ipIfStatsOutFragCreates</measType>
+<measType p="12">ipIfStatsHCOutMcastOctets</measType>
+<measType p="13">ipIfStatsOutDiscards</measType>
+<measType p="14">ipIfStatsHCInForwDatagrams</measType>
+<measType p="15">ipIfStatsInDiscards</measType>
+<measType p="16">ipIfStatsHCOutOctets</measType>
+<measType p="17">ipIfStatsInNoRoutes</measType>
+<measType p="18">ipIfOutOctetRatePercentiles</measType>
+<measType p="19">ipIfStatsHCInDelivers</measType>
+<measType p="20">ipIfStatsReasmReqds</measType>
+<measType p="21">ipIfStatsHCInMcastPkts</measType>
+<measType p="22">ipIfStatsHCInMcastOctets</measType>
+<measType p="23">ipIfStatsReasmOKs</measType>
+<measType p="24">ipIfStatsHCInOctets</measType>
+<measType p="25">ipIfStatsOutFragFails</measType>
+<measType p="26">ipIfStatsInAddrErrors</measType>
+<measType p="27">ipIfStatsHCOutRequests</measType>
+<measType p="28">ipIfStatsOutFragReqds</measType>
+<measValue measObjLdn="ManagedElement=vTIF01,Transport=1,Router=1,InterfaceIPv6=1">
+<r p="1">94</r>
+<r p="2">87</r>
+<r p="3">20</r>
+<r p="4">31</r>
+<r p="5">0</r>
+<r p="6">56</r>
+<r p="7">98</r>
+<r p="8">12,65,42,21,87,6,7</r>
+<r p="9">16</r>
+<r p="10">6</r>
+<r p="11">41</r>
+<r p="12">22</r>
+<r p="13">80</r>
+<r p="14">96</r>
+<r p="15">85</r>
+<r p="16">19</r>
+<r p="17">68</r>
+<r p="18">48,27,23,65,72,59,7</r>
+<r p="19">22</r>
+<r p="20">16</r>
+<r p="21">35</r>
+<r p="22">71</r>
+<r p="23">19</r>
+<r p="24">89</r>
+<r p="25">50</r>
+<r p="26">55</r>
+<r p="27">7</r>
+<r p="28">81</r>
+</measValue>
+</measInfo>
+  </measData>
+  <fileFooter>
+    <measCollec endTime="2023-10-28T11:30:00Z"/>
+  </fileFooter>
+</measCollecFile>

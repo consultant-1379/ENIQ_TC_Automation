@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">LT1UNACK</measType>
+			<measType p="2">LTKPALIV</measType>
+			<measType p="3">LTMAXPDU</measType>
+			<measType p="4">LTPULLRT</measType>
+			<measType p="5">LTMXIDLE</measType>
+			<measType p="6">LTSETALG</measType>
+			<measType p="7">LTSCCFAL</measType>
+			<measType p="8">LTPRVPDU</measType>
+			<measType p="9">LTSCCOPR</measType>
+			<measType p="10">LTNOCRED</measType>
+			<measType p="11">LTBLCKSZ</measType>
+			<measType p="12">LTSTATLS</measType>
+			<measType p="13">LTTAUERR</measType>
+			<measType p="14">LTFORPRV</measType>
+			<measType p="15">ALPHA</measType>
+			<measType p="16">MONEREVT</measType>
+			<measType p="17">NMXUNACK</measType>
+			<measType p="18">NMXSDPDU</measType>
+			<measType p="19">NMXSTPDU</measType>
+			<measType p="20">PDUSENTP</measType>
+			<measType p="21">SCCOPPDU</measType>
+			<measType p="22">THRSRUNQ</measType>
+			<measType p="23">MONINTER</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,SS7HSLPG1=0">
+				<r p="1">17</r>
+				<r p="2">91</r>
+				<r p="3">29</r>
+				<r p="4">17</r>
+				<r p="5">82</r>
+				<r p="6">20</r>
+				<r p="7">63</r>
+				<r p="8">76</r>
+				<r p="9">69</r>
+				<r p="10">13</r>
+				<r p="11">89</r>
+				<r p="12">61</r>
+				<r p="13">57</r>
+				<r p="14">68</r>
+				<r p="15">24</r>
+				<r p="16">29</r>
+				<r p="17">80</r>
+				<r p="18">65</r>
+				<r p="19">68</r>
+				<r p="20">49</r>
+				<r p="21">52</r>
+				<r p="22">65</r>
+				<r p="23">80</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

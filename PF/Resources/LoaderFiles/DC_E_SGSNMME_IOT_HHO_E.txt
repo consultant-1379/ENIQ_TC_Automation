@@ -1,0 +1,1 @@
+ManagedElement=sgsnmme01,SgsnFunction=1 sgsnmme01 eniq_oss_1 SubNetwork=SubNetwork,SubNetwork=ONRM,ManagedElement=sgsnmme01 2023-11-01    2023       11      1      10 2023-11-01 10:00:00.0      0 15MIN           3507        0              15 LOADED    1.80       eniq_oss_1 +0200                    0 2023-11-01 08:00:00.0                         88                          22 

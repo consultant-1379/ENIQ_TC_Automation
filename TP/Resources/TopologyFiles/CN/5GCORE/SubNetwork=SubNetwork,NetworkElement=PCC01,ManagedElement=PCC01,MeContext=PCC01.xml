@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Mon Mar 11 08:03:02 GMT 2024 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=SubNetwork,NetworkElement=PCC01,ManagedElement=PCC01,MeContext=PCC01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=PCC01,ManagedElement=PCC01,MeContext=PCC01" mimName="PccTop" lastModified="1710144182521">
+ <attr name="timestampOfChange">2024-03-11 08:03:02.521</attr>
+ <attr name="userLabel">PCC01</attr>
+ <attr name="managedElementType">PCC</attr>
+ <attr name="nodeVersion">1.31</attr>
+ </mo>
+</model>

@@ -1,0 +1,13 @@
+#folders to ignore
+__pycache__/
+.vscode/
+
+#files to ignore
+*.html
+*.png
+*.xml
+*.log
+copilo.py
+try.py
+Sikuli_java*.*
+interactive_console_output.xml

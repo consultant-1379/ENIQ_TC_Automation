@@ -1,0 +1,8 @@
+                           0.00                 0.25 Normal/No Failure          ERICSSON ACTIVE 2023-09-08 01:06:04.30955  2023-09-08 01:06:04.30955  FFAX     
+                           0.26                 0.50 Potential RF Loss          ERICSSON ACTIVE 2023-09-08 01:06:04.382594 2023-09-08 01:06:04.382594 FFAX     
+                           0.51                 0.75 Mismatched antenna diagram ERICSSON ACTIVE 2023-09-08 01:06:04.441507 2023-09-08 01:06:04.441507 FFAX     
+                           0.76                 1.00 Swapped/Disconnected       ERICSSON ACTIVE 2023-09-08 01:06:04.508448 2023-09-08 01:06:04.508448 FFAX     
+eniq_oss_1                 0.98                 0.29 Normal/No Failure          Ericsson ACTIVE 2023-11-26 10:41:05.0      2023-11-26 10:41:05.0      FFAX     
+eniq_oss_1                 0.07                 1.23 Potential RF Loss          Ericsson ACTIVE 2023-11-26 10:41:05.0      2023-11-26 10:41:05.0      FFAX     
+eniq_oss_1                 1.70                 0.99 Mismatched antenna diagram Ericsson ACTIVE 2023-11-26 10:41:05.0      2023-11-26 10:41:05.0      FFAX     
+eniq_oss_1                 1.70                 0.57 Swapped/Disconnected       Ericsson ACTIVE 2023-11-26 10:41:05.0      2023-11-26 10:41:05.0      FFAX     

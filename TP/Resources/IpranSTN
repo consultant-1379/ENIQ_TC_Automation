@@ -1,0 +1,17 @@
+STN_TEST1|dscp2pcp1|dscp2pcp2|dscp2pcp3|dscp2pcp4|dscp2pcp5|
+dscp2pcp6|dscp2pcp7|dscp2pcp8|dscp2pcp9|dscp2pcp10|dscp2pcp11|
+dscp2pcp12|dscp2pcp13|dscp2pcp14|dscp2pcp15| STN_TEST2|
+dscp2pcp1=3|dscp2pcp2=4|dscp2pcp3=5|dscp2pcp4=6|dscp2pcp5=7|
+dscp2pcp6=8|dscp2pcp7=9|dscp2pcp8=10|dscp2pcp9=11|dscp2pcp10=12|
+dscp2pcp11=13|dscp2pcp12=14|dscp2pcp13=15|dscp2pcp14=16|
+dscp2pcp15=17| STN_TEST3|dscp2pcp1=4|dscp2pcp2=5|dscp2pcp3=6|
+dscp2pcp4=7|dscp2pcp5=8|dscp2pcp6=9|dscp2pcp7=10|dscp2pcp8=11|
+dscp2pcp9=12|dscp2pcp10=13|dscp2pcp11=14|dscp2pcp12=15|
+dscp2pcp13=16|dscp2pcp14=17|dscp2pcp15=18| STN_TEST4|dscp2pcp1=5|
+dscp2pcp2=6|dscp2pcp3=7|dscp2pcp4=8|dscp2pcp5=9|dscp2pcp6=10|
+dscp2pcp7=11|dscp2pcp8=12|dscp2pcp9=13|dscp2pcp10=14|
+dscp2pcp11=15|dscp2pcp12=16|dscp2pcp13=17|dscp2pcp14=18|
+dscp2pcp15=19| STN_TEST5|dscp2pcp1=6|dscp2pcp2=7|dscp2pcp3=8|
+dscp2pcp4=9|dscp2pcp5=10|dscp2pcp6=11|dscp2pcp7=12|dscp2pcp8=13|
+dscp2pcp9=14|dscp2pcp10=15|dscp2pcp11=16|dscp2pcp12=17|
+dscp2pcp13=18|dscp2pcp14=19|dscp2pcp15=20|

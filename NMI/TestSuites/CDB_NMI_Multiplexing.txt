@@ -1,0 +1,6 @@
+#NMI/TestCases/Multiplexing/Verify_DBSpaces.robot
+#NMI/TestCases/Multiplexing/Verify_IQ_Logs.robot
+#NMI/TestCases/Multiplexing/Verify_Symlinks.robot
+NMI/TestCases/Multiplexing/NMI_Verify_DBSpaces_TC104.robot
+NMI/TestCases/Multiplexing/NMI_Verify_IQ_Logs_TC105.robot
+NMI/TestCases/Multiplexing/NMI_Verify_Symlinks_TC106.robot

@@ -1,0 +1,25 @@
+{
+
+    "NR1": {
+        "System_area" : "Radio",
+        "Node_type" : "NR",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "No Aggregation",
+        "Node" : "G2RBS01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI,Flex+PDF Counter",
+        "Measure" : "pmEbsUacBarringProb",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "ROP",
+        "get_data_for_Columns" : "pmEbsUacBarringProb",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "NR_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "pmEbsUacBarringProb",
+        "SQL1": "DECLARE @DATETIME_ID varchar(50)=DATETIME_VALUE , @UNIQUE_ID varchar(500)=UNIQUE_ID_VALUE, @DCVECTOR_INDEX varchar(10) = DCVECTOR_INDEX_VALUE, @FLEX_FILTERHASHINDEX varchar(100) = FLEX_FILTERHASHINDEX_VALUE; select cast(ROUND(pmEbsUacBarringProb,2) as numeric(36,2)) as MeasureValue from DC_E_NR_EVENTS_NRCELLCU_FLEX_DYN_V_RAW where DATETIME_ID=@DATETIME_ID and SN=@UNIQUE_ID and FLEX_FILTERHASHINDEX = @FLEX_FILTERHASHINDEX and DCVECTOR_INDEX  = @DCVECTOR_INDEX;",
+        "SQL2": "",
+        "SQL3": "",
+        "SQL4": ""
+    }    
+}

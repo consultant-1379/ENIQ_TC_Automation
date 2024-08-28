@@ -1,0 +1,2 @@
+NMI/TestCases/New_Interfaces/NMI_Verify_ENM_bond_config_Rack.robot
+NMI/TestCases/New_Interfaces/NMI_Verify_New_Interface_config_Rack.robot

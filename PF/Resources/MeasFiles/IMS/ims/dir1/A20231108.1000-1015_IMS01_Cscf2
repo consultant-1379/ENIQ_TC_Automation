@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=CSCF01</sn>
+<st>IMS</st>
+<vn>ERICSSON</vn>
+<cbt>20231108100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=IMS01</nedn>
+</neid>
+<mi>
+<mts>20231108101500.1+0200</mts>
+<gp>900</gp>
+<mt>cscfUeOriginatingInviteSuccess</mt>
+<mt>cscfUeOriginatingInviteFailure</mt>
+<mt>cscfUeTerminatingInviteSuccess</mt>
+<mt>cscfUeTerminatingInviteFailure</mt>
+<mt>cscfUeOriginatingSubscribeSuccess</mt>
+<mt>cscfUeOriginatingSubscribeFailure</mt>
+<mt>cscfUeTerminatingSubscribeSuccess</mt>
+<mt>cscfUeTerminatingSubscribeFailure</mt>
+<mt>cscfUeOriginatingReSubscribeSuccess</mt>
+<mt>cscfUeOriginatingReSubscribeFailure</mt>
+<mt>cscfUeTerminatingReSubscribeSuccess</mt>
+<mt>cscfUeTerminatingReSubscribeFailure</mt>
+<mt>cscfOriginatingInviteNoAsAttempts</mt>
+<mt>cscfTerminatingInviteNoAsAttempts</mt>
+<mt>cscfOriginatingInviteToAsAttempts</mt>
+<mt>cscfTerminatingInviteToAsAttempts</mt>
+<mt>cscfOriginatingInviteFromAsAttempts</mt>
+<mt>cscfTerminatingInviteFromAsAttempts</mt>
+<mt>cscfOriginatingInviteFromAsToAsAttempts</mt>
+<mt>cscfTerminatingInviteFromAsToAsAttempts</mt>
+<mv>
+<moid>Cscf2=DEFAULT,Source = Processor1</moid>
+<r>26</r>
+<r>83</r>
+<r>4</r>
+<r>67</r>
+<r>88</r>
+<r>56</r>
+<r>34</r>
+<r>93</r>
+<r>27</r>
+<r>89</r>
+<r>40</r>
+<r>83</r>
+<r>48</r>
+<r>46</r>
+<r>79</r>
+<r>11</r>
+<r>50</r>
+<r>27</r>
+<r>43</r>
+<r>71</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231108101500.1+0200</ts>
+</mff>
+</mdc>

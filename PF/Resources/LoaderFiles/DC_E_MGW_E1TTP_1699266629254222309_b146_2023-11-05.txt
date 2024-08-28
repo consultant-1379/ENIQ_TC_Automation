@@ -1,0 +1,1 @@
+MGw01	1	MGw01	1	ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminal=1,Os155SpiTtp=1,Vc4Ttp=1,Vc12Ttp=1,E1Ttp=1	CXP9018138/2_R214A04	1	1	1	1	eniq_oss_1	1		9	1	1	MGw01	MGw01	2023-11-05	2023	11	5	10	2023-11-05 10:00:00	0	15MIN	29882	0	15		NDP 6.16.0	eniq_oss_1	+0200		2023-11-05 08:00:00	6	37	21	

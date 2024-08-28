@@ -1,0 +1,10 @@
+eniq_oss_3 SubNetwork SAPC01  SAPC01  MSSAPC01  SubNetwork=SubNetwork,MeContext=SAPC01  SubNetwork=SubNetwork,Site=MSSAPC01  SAPC    1.15       Ericsson DEACTIVE 2024-04-23 22:45:23.0 2024-04-25 08:00:23.0 ENIQ     
+eniq_oss_3 SubNetwork SAPC05  SAPC05  MSSAPC05  SubNetwork=SubNetwork,MeContext=SAPC05  SubNetwork=SubNetwork,Site=MSSAPC05  SAPC    1.15       Ericsson DEACTIVE 2024-04-23 22:45:23.0 2024-04-25 08:00:23.0 ENIQ     
+eniq_oss_3 SubNetwork SAPC03  SAPC03  MSSAPC03  SubNetwork=SubNetwork,MeContext=SAPC03  SubNetwork=SubNetwork,Site=MSSAPC03  SAPC    1.15       Ericsson DEACTIVE 2024-04-23 22:45:23.0 2024-04-25 08:00:23.0 ENIQ     
+eniq_oss_3 SubNetwork SAPC02  SAPC02  MSSAPC02  SubNetwork=SubNetwork,MeContext=SAPC02  SubNetwork=SubNetwork,Site=MSSAPC02  SAPC    1.15       Ericsson DEACTIVE 2024-04-23 22:45:23.0 2024-04-25 08:00:23.0 ENIQ     
+eniq_oss_3 SubNetwork SAPC04  SAPC04  MSSAPC04  SubNetwork=SubNetwork,MeContext=SAPC04  SubNetwork=SubNetwork,Site=MSSAPC04  SAPC    1.15       Ericsson DEACTIVE 2024-04-23 22:45:23.0 2024-04-25 08:00:23.0 ENIQ     
+eniq_oss_3 SubNetwork vSAPC05 vSAPC05 MSvSAPC05 SubNetwork=SubNetwork,MeContext=vSAPC05 SubNetwork=SubNetwork,Site=MSvSAPC05 vSAPC   1.15       Ericsson DEACTIVE 2024-05-09 05:00:23.0 2024-05-09 08:45:23.0 ENIQ     
+eniq_oss_3 SubNetwork vSAPC01 vSAPC01 MSvSAPC01 SubNetwork=SubNetwork,MeContext=vSAPC01 SubNetwork=SubNetwork,Site=MSvSAPC01 vSAPC   1.15       Ericsson ACTIVE   2024-05-09 05:00:23.0 2024-06-03 05:30:23.0 ENIQ     
+eniq_oss_3 SubNetwork vSAPC04 vSAPC04 MSvSAPC04 SubNetwork=SubNetwork,MeContext=vSAPC04 SubNetwork=SubNetwork,Site=MSvSAPC04 vSAPC   1.15       Ericsson DEACTIVE 2024-05-09 05:00:23.0 2024-05-09 08:45:23.0 ENIQ     
+eniq_oss_3 SubNetwork vSAPC02 vSAPC02 MSvSAPC02 SubNetwork=SubNetwork,MeContext=vSAPC02 SubNetwork=SubNetwork,Site=MSvSAPC02 vSAPC   1.15       Ericsson DEACTIVE 2024-05-09 05:00:23.0 2024-05-09 08:45:23.0 ENIQ     
+eniq_oss_3 SubNetwork vSAPC03 vSAPC03 MSvSAPC03 SubNetwork=SubNetwork,MeContext=vSAPC03 SubNetwork=SubNetwork,Site=MSvSAPC03 vSAPC   1.15       Ericsson DEACTIVE 2024-05-09 05:00:23.0 2024-05-09 08:45:23.0 ENIQ     

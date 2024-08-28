@@ -1,0 +1,3478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec" >
+	<fileHeader ileFormatVersion="32.435 V9.0" vendorName="Cisco">
+		<fileSender localDn="ManagedElement=CISCO-ASR9000-01" elementType="CISCO-ASR9000"/>
+		<measCollec beginTime="2023-11-20T10:00:00Z"/>
+	</fileHeader>
+	<measData>
+		<managedElement localDn="ManagedElement=CISCO-ASR9000-01"/>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-LDP-STD-MIB_mplsLdpSessionStatsTable_Group">
+ 			<job jobId="job1"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsLdpSessionStatsUnknownMesTypeErrors</measType>
+			<measType p="2">mplsLdpSessionStatsUnknownTlvErrors</measType>
+			<measValue measObjLdn="MIBname=MPLS-LDP-STD-MIB,MIBTable=mplsLdpSessionStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-ISIS-MIB_ciiSystemCounterTable_Group">
+ 			<job jobId="job2"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ciiSysStatCorrLSPs</measType>
+			<measType p="2">ciiSysStatAuthTypeFails</measType>
+			<measType p="3">ciiSysStatAuthFails</measType>
+			<measType p="4">ciiSysStatLSPDbaseOloads</measType>
+			<measType p="5">ciiSysStatManAddrDropFromAreas</measType>
+			<measType p="6">ciiSysStatAttmptToExMaxSeqNums</measType>
+			<measType p="7">ciiSysStatSeqNumSkips</measType>
+			<measType p="8">ciiSysStatOwnLSPPurges</measType>
+			<measType p="9">ciiSysStatIDFieldLenMismatches</measType>
+			<measType p="10">ciiSysStatPartChanges</measType>
+			<measType p="11">ciiSysStatSPFRuns</measType>
+			<measType p="12">ciiSysStatLSPErrors</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-ISIS-MIB,MIBTable=ciiSystemCounterTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-ICMP-MIB_rttMonLatestIcmpJitterOperTable_Group">
+ 			<job jobId="job3"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonLatestIcmpJitterNumRTT</measType>
+			<measType p="2">rttMonLatestIcmpJitterRTTSum</measType>
+			<measType p="3">rttMonLatestIcmpJitterRTTSum2</measType>
+			<measType p="4">rttMonLatestIcmpJitterRTTMin</measType>
+			<measType p="5">rttMonLatestIcmpJitterRTTMax</measType>
+			<measType p="6">rttMonLatestIcmpJitterMinPosSD</measType>
+			<measType p="7">rttMonLatestIcmpJitterMaxPosSD</measType>
+			<measType p="8">rttMonLatestIcmpJitterNumPosSD</measType>
+			<measType p="9">rttMonLatestIcmpJitterSumPosSD</measType>
+			<measType p="10">rttMonLatestIcmpJitterSum2PosSD</measType>
+			<measType p="11">rttMonLatestIcmpJitterMinNegSD</measType>
+			<measType p="12">rttMonLatestIcmpJitterMaxNegSD</measType>
+			<measType p="13">rttMonLatestIcmpJitterNumNegSD</measType>
+			<measType p="14">rttMonLatestIcmpJitterSumNegSD</measType>
+			<measType p="15">rttMonLatestIcmpJitterSum2NegSD</measType>
+			<measType p="16">rttMonLatestIcmpJitterMinPosDS</measType>
+			<measType p="17">rttMonLatestIcmpJitterMaxPosDS</measType>
+			<measType p="18">rttMonLatestIcmpJitterNumPosDS</measType>
+			<measType p="19">rttMonLatestIcmpJitterSumPosDS</measType>
+			<measType p="20">rttMonLatestIcmpJitterSum2PosDS</measType>
+			<measType p="21">rttMonLatestIcmpJitterMinNegDS</measType>
+			<measType p="22">rttMonLatestIcmpJitterMaxNegDS</measType>
+			<measType p="23">rttMonLatestIcmpJitterNumNegDS</measType>
+			<measType p="24">rttMonLatestIcmpJitterSumNegDS</measType>
+			<measType p="25">rttMonLatestIcmpJitterSum2NegDS</measType>
+			<measType p="26">rttMonLatestIcmpJitterPktLoss</measType>
+			<measType p="27">rttMonLatestIcmpJPktOutSeqBoth</measType>
+			<measType p="28">rttMonLatestIcmpJPktOutSeqSD</measType>
+			<measType p="29">rttMonLatestIcmpJPktOutSeqDS</measType>
+			<measType p="30">rttMonLatestIcmpJitterPktSkipped</measType>
+			<measType p="31">rttMonLatestIcmpJitterPktLateA</measType>
+			<measType p="32">rttMonLatestIcmpJitterMinSucPktL</measType>
+			<measType p="33">rttMonLatestIcmpJitterMaxSucPktL</measType>
+			<measType p="34">rttMonLatestIcmpJitterOWSumSD</measType>
+			<measType p="35">rttMonLatestIcmpJitterOWSum2SD</measType>
+			<measType p="36">rttMonLatestIcmpJitterOWMinSD</measType>
+			<measType p="37">rttMonLatestIcmpJitterOWMaxSD</measType>
+			<measType p="38">rttMonLatestIcmpJitterOWSumDS</measType>
+			<measType p="39">rttMonLatestIcmpJitterOWSum2DS</measType>
+			<measType p="40">rttMonLatestIcmpJitterOWMinDS</measType>
+			<measType p="41">rttMonLatestIcmpJitterOWMaxDS</measType>
+			<measType p="42">rttMonLatestIcmpJitterNumOW</measType>
+			<measType p="43">rttMonLatestIcmpJitterAvgJitter</measType>
+			<measType p="44">rttMonLatestIcmpJitterAvgSDJ</measType>
+			<measType p="45">rttMonLatestIcmpJitterAvgDSJ</measType>
+			<measType p="46">rttMonLatestIcmpJitterOWAvgSD</measType>
+			<measType p="47">rttMonLatestIcmpJitterOWAvgDS</measType>
+			<measType p="48">rttMonLatestIcmpJitterIAJOut</measType>
+			<measType p="49">rttMonLatestIcmpJitterIAJIn</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-ICMP-MIB,MIBTable=rttMonLatestIcmpJitterOperTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetLineIntervalTable_Group">
+ 			<job jobId="job4"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetLineIntervalESs</measType>
+			<measType p="2">sonetLineIntervalSESs</measType>
+			<measType p="3">sonetLineIntervalCVs</measType>
+			<measType p="4">sonetLineIntervalUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetLineIntervalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NOTIFICATION-LOG-MIB_nlmStatsLogTable_Group">
+ 			<job jobId="job5"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">nlmStatsLogNotificationsLogged</measType>
+			<measType p="2">nlmStatsLogNotificationsBumped</measType>
+			<measValue measObjLdn="MIBname=NOTIFICATION-LOG-MIB,MIBTable=nlmStatsLogTable,MIBTableEntryIndexName1=nlmStatsLogTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">58</r>
+				<r p="2">60</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-TDM-MIB_cpwCTDMPerfCurrentTable_Group">
+ 			<job jobId="job6"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwCTDMPerfCurrentMissingPkts</measType>
+			<measType p="2">cpwCTDMPerfCurrentPktsReOrder</measType>
+			<measType p="3">cpwCTDMPerfCurrentJtrBfrUnderruns</measType>
+			<measType p="4">cpwCTDMPerfCurrentMisOrderDropped</measType>
+			<measType p="5">cpwCTDMPerfCurrentMalformedPkt</measType>
+			<measType p="6">cpwCTDMPerfCurrentESs</measType>
+			<measType p="7">cpwCTDMPerfCurrentSESs</measType>
+			<measType p="8">cpwCTDMPerfCurrentUASs</measType>
+			<measType p="9">cpwCTDMPerfCurrentFC</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-TDM-MIB,MIBTable=cpwCTDMPerfCurrentTable,MIBTableEntryIndexName1=cpwCTDMPerfCurrentTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">71</r>
+				<r p="2">35</r>
+				<r p="3">74</r>
+				<r p="4">43</r>
+				<r p="5">80</r>
+				<r p="6">59</r>
+				<r p="7">4</r>
+				<r p="8">6</r>
+				<r p="9">74</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-VPLS-GENERIC-MIB_cvplsStatusTable_Group">
+ 			<job jobId="job7"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cvplsStatusPeerCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-VPLS-GENERIC-MIB,MIBTable=cvplsStatusTable,MIBTableEntryIndexName1=cvplsStatusTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">47</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonLatestJitterOperTable_Group">
+ 			<job jobId="job8"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonLatestJitterOperNumOfRTT</measType>
+			<measType p="2">rttMonLatestJitterOperRTTSum</measType>
+			<measType p="3">rttMonLatestJitterOperRTTSum2</measType>
+			<measType p="4">rttMonLatestJitterOperRTTMin</measType>
+			<measType p="5">rttMonLatestJitterOperRTTMax</measType>
+			<measType p="6">rttMonLatestJitterOperMinOfPositivesSD</measType>
+			<measType p="7">rttMonLatestJitterOperMaxOfPositivesSD</measType>
+			<measType p="8">rttMonLatestJitterOperNumOfPositivesSD</measType>
+			<measType p="9">rttMonLatestJitterOperSumOfPositivesSD</measType>
+			<measType p="10">rttMonLatestJitterOperSum2PositivesSD</measType>
+			<measType p="11">rttMonLatestJitterOperMinOfNegativesSD</measType>
+			<measType p="12">rttMonLatestJitterOperMaxOfNegativesSD</measType>
+			<measType p="13">rttMonLatestJitterOperNumOfNegativesSD</measType>
+			<measType p="14">rttMonLatestJitterOperSumOfNegativesSD</measType>
+			<measType p="15">rttMonLatestJitterOperSum2NegativesSD</measType>
+			<measType p="16">rttMonLatestJitterOperMinOfPositivesDS</measType>
+			<measType p="17">rttMonLatestJitterOperMaxOfPositivesDS</measType>
+			<measType p="18">rttMonLatestJitterOperNumOfPositivesDS</measType>
+			<measType p="19">rttMonLatestJitterOperSumOfPositivesDS</measType>
+			<measType p="20">rttMonLatestJitterOperSum2PositivesDS</measType>
+			<measType p="21">rttMonLatestJitterOperMinOfNegativesDS</measType>
+			<measType p="22">rttMonLatestJitterOperMaxOfNegativesDS</measType>
+			<measType p="23">rttMonLatestJitterOperNumOfNegativesDS</measType>
+			<measType p="24">rttMonLatestJitterOperSumOfNegativesDS</measType>
+			<measType p="25">rttMonLatestJitterOperSum2NegativesDS</measType>
+			<measType p="26">rttMonLatestJitterOperPacketLossSD</measType>
+			<measType p="27">rttMonLatestJitterOperPacketLossDS</measType>
+			<measType p="28">rttMonLatestJitterOperPacketOutOfSequence</measType>
+			<measType p="29">rttMonLatestJitterOperPacketMIA</measType>
+			<measType p="30">rttMonLatestJitterOperPacketLateArrival</measType>
+			<measType p="31">rttMonLatestJitterOperOWSumSD</measType>
+			<measType p="32">rttMonLatestJitterOperOWSum2SD</measType>
+			<measType p="33">rttMonLatestJitterOperOWMinSD</measType>
+			<measType p="34">rttMonLatestJitterOperOWMaxSD</measType>
+			<measType p="35">rttMonLatestJitterOperOWSumDS</measType>
+			<measType p="36">rttMonLatestJitterOperOWSum2DS</measType>
+			<measType p="37">rttMonLatestJitterOperOWMinDS</measType>
+			<measType p="38">rttMonLatestJitterOperOWMaxDS</measType>
+			<measType p="39">rttMonLatestJitterOperNumOfOW</measType>
+			<measType p="40">rttMonLatestJitterOperMOS</measType>
+			<measType p="41">rttMonLatestJitterOperICPIF</measType>
+			<measType p="42">rttMonLatestJitterOperIAJOut</measType>
+			<measType p="43">rttMonLatestJitterOperIAJIn</measType>
+			<measType p="44">rttMonLatestJitterOperAvgJitter</measType>
+			<measType p="45">rttMonLatestJitterOperAvgSDJ</measType>
+			<measType p="46">rttMonLatestJitterOperAvgDSJ</measType>
+			<measType p="47">rttMonLatestJitterOperOWAvgSD</measType>
+			<measType p="48">rttMonLatestJitterOperOWAvgDS</measType>
+			<measType p="49">rttMonLatestJitterOperUnSyncRTs</measType>
+			<measType p="50">rttMonLatestJitterOperRTTSumHigh</measType>
+			<measType p="51">rttMonLatestJitterOperRTTSum2High</measType>
+			<measType p="52">rttMonLatestJitterOperOWSumSDHigh</measType>
+			<measType p="53">rttMonLatestJitterOperOWSum2SDHigh</measType>
+			<measType p="54">rttMonLatestJitterOperOWSumDSHigh</measType>
+			<measType p="55">rttMonLatestJitterOperOWSum2DSHigh</measType>
+			<measType p="56">rttMonLatestJitterOperNumOverThresh</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonLatestJitterOperTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DOT3-OAM-MIB_cdot3OamEventLogTable_Group">
+ 			<job jobId="job9"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cdot3OamEventLogRunningTotal</measType>
+			<measType p="2">cdot3OamEventLogValue</measType>
+			<measValue measObjLdn="MIBname=CISCO-DOT3-OAM-MIB,MIBTable=cdot3OamEventLogTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BGP4-MIB_bgpPeerTable_Group">
+ 			<job jobId="job10"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">bgpPeerFsmEstablishedTime</measType>
+			<measType p="2">bgpPeerFsmEstablishedTransitions</measType>
+			<measType p="3">bgpPeerInTotalMessages</measType>
+			<measType p="4">bgpPeerInUpdateElapsedTime</measType>
+			<measType p="5">bgpPeerInUpdates</measType>
+			<measType p="6">bgpPeerOutTotalMessages</measType>
+			<measType p="7">bgpPeerOutUpdates</measType>
+			<measValue measObjLdn="MIBname=BGP4-MIB,MIBTable=bgpPeerTable,MIBTableEntryIndexName1=bgpPeerTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">78</r>
+				<r p="2">76</r>
+				<r p="3">9</r>
+				<r p="4">13</r>
+				<r p="5">17</r>
+				<r p="6">71</r>
+				<r p="7">16</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-MEMORY-POOL-MIB_ciscoMemoryPoolTable_Group">
+ 			<job jobId="job11"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ciscoMemoryPoolUsed</measType>
+			<measType p="2">ciscoMemoryPoolFree</measType>
+			<measType p="3">ciscoMemoryPoolLargestFree</measType>
+			<measValue measObjLdn="MIBname=CISCO-MEMORY-POOL-MIB,MIBTable=ciscoMemoryPoolTable,MIBTableEntryIndexName1=ciscoMemoryPoolTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">94</r>
+				<r p="2">50</r>
+				<r p="3">57</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmCPUTotalTable_Group">
+ 			<job jobId="job12"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmCPUTotal5sec</measType>
+			<measType p="2">cpmCPUTotal1min</measType>
+			<measType p="3">cpmCPUTotal5min</measType>
+			<measType p="4">cpmCPUTotal5secRev</measType>
+			<measType p="5">cpmCPUTotal1minRev</measType>
+			<measType p="6">cpmCPUTotal5minRev</measType>
+			<measType p="7">cpmCPUTotalMonIntervalValue</measType>
+			<measType p="8">cpmCPUInterruptMonIntervalValue</measType>
+			<measType p="9">cpmCPUMemoryUsed</measType>
+			<measType p="10">cpmCPUMemoryFree</measType>
+			<measType p="11">cpmCPUMemoryKernelReserved</measType>
+			<measType p="12">cpmCPUMemoryLowest</measType>
+			<measType p="13">cpmCPUMemoryUsedOvrflw</measType>
+			<measType p="14">cpmCPUMemoryHCUsed</measType>
+			<measType p="15">cpmCPUMemoryFreeOvrflw</measType>
+			<measType p="16">cpmCPUMemoryHCFree</measType>
+			<measType p="17">cpmCPUMemoryKernelReservedOvrflw</measType>
+			<measType p="18">cpmCPUMemoryHCKernelReserved</measType>
+			<measType p="19">cpmCPUMemoryLowestOvrflw</measType>
+			<measType p="20">cpmCPUMemoryHCLowest</measType>
+			<measType p="21">cpmCPUMemoryCommitted</measType>
+			<measType p="22">cpmCPUMemoryCommittedOvrflw</measType>
+			<measType p="23">cpmCPUMemoryHCCommitted</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmCPUTotalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_ospfAreaTable_Group">
+ 			<job jobId="job13"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfAreaNssaTranslatorEvents</measType>
+			<measType p="2">ospfSpfRuns</measType>
+			<measType p="3">ospfAreaBdrRtrCount</measType>
+			<measType p="4">ospfAsBdrRtrCount</measType>
+			<measType p="5">ospfAreaLsaCount</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=ospfAreaTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-MIB_Global_Group">
+ 			<job jobId="job14"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwVcPerfTotalErrorPackets</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-MIB,MIBTable=Global1">
+				<r p="1">29</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosSetStatsTable_Group">
+ 			<job jobId="job15"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosSetAtmClpPkt64</measType>
+			<measType p="2">cbQosSetDiscardClassPkt64</measType>
+			<measType p="3">cbQosSetDscpPkt64</measType>
+			<measType p="4">cbQosSetDscpTunnelPkt64</measType>
+			<measType p="5">cbQosSetFrDePkt64</measType>
+			<measType p="6">cbQosSetFrFecnBecnPkt64</measType>
+			<measType p="7">cbQosSetL2CosPkt64</measType>
+			<measType p="8">cbQosSetMplsExpImpositionPkt64</measType>
+			<measType p="9">cbQosSetMplsExpTopMostPkt64</measType>
+			<measType p="10">cbQosSetPrecedencePkt64</measType>
+			<measType p="11">cbQosSetPrecedenceTunnelPkt64</measType>
+			<measType p="12">cbQosSetQosGroupPkt64</measType>
+			<measType p="13">cbQosSetSrpPriorityPkt64</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosSetStatsTable,MIBTableEntryIndexName1=cbQosSetStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">74</r>
+				<r p="2">85</r>
+				<r p="3">5</r>
+				<r p="4">52</r>
+				<r p="5">85</r>
+				<r p="6">59</r>
+				<r p="7">93</r>
+				<r p="8">63</r>
+				<r p="9">82</r>
+				<r p="10">90</r>
+				<r p="11">92</r>
+				<r p="12">67</r>
+				<r p="13">14</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BRIDGE-MIB_Global_Group">
+ 			<job jobId="job16"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot1dStpTopChanges</measType>
+			<measType p="2">dot1dTpLearnedEntryDiscards</measType>
+			<measValue measObjLdn="MIBname=BRIDGE-MIB,MIBTable=Global1">
+				<r p="1">18</r>
+				<r p="2">0</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_ospfNbrTable_Group">
+ 			<job jobId="job17"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfNbrEvents</measType>
+			<measType p="2">ospfNbrLsRetransQLen</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=ospfNbrTable,MIBTableEntryIndexName1=ospfNbrTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">54</r>
+				<r p="2">28</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_ospfVirtNbrTable_Group">
+ 			<job jobId="job18"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfVirtNbrEvents</measType>
+			<measType p="2">ospfVirtNbrLsRetransQLen</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=ospfVirtNbrTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DISMAN-EVENT-MIB_Global_Group">
+ 			<job jobId="job19"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mteResourceSampleInstances</measType>
+			<measType p="2">mteResourceSampleInstancesHigh</measType>
+			<measType p="3">mteResourceSampleInstanceLacks</measType>
+			<measType p="4">mteTriggerFailures</measType>
+			<measType p="5">mteEventFailures</measType>
+			<measValue measObjLdn="MIBname=DISMAN-EVENT-MIB,MIBTable=Global1">
+				<r p="1">49</r>
+				<r p="2">62</r>
+				<r p="3">35</r>
+				<r p="4">33</r>
+				<r p="5">81</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmProcessExtTable_Group">
+ 			<job jobId="job20"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmProcExtMemAllocatedRev</measType>
+			<measType p="2">cpmProcExtMemFreedRev</measType>
+			<measType p="3">cpmProcExtInvokedRev</measType>
+			<measType p="4">cpmProcExtRuntimeRev</measType>
+			<measType p="5">cpmProcExtUtil5SecRev</measType>
+			<measType p="6">cpmProcExtUtil1MinRev</measType>
+			<measType p="7">cpmProcExtUtil5MinRev</measType>
+			<measType p="8">cpmProcessRespawnCount</measType>
+			<measType p="9">cpmProcessRespawnAfterLastPatch</measType>
+			<measType p="10">cpmProcessDataSegmentSize</measType>
+			<measType p="11">cpmProcessStackSize</measType>
+			<measType p="12">cpmProcessDynamicMemorySize</measType>
+			<measType p="13">cpmProcExtMemAllocatedRevOvrflw</measType>
+			<measType p="14">cpmProcExtHCMemAllocatedRev</measType>
+			<measType p="15">cpmProcExtMemFreedRevOvrflw</measType>
+			<measType p="16">cpmProcExtHCMemFreedRev</measType>
+			<measType p="17">cpmProcessDataSegmentSizeOvrflw</measType>
+			<measType p="18">cpmProcessHCDataSegmentSize</measType>
+			<measType p="19">cpmProcessStackSizeOvrflw</measType>
+			<measType p="20">cpmProcessHCStackSize</measType>
+			<measType p="21">cpmProcessDynamicMemorySizeOvrflw</measType>
+			<measType p="22">cpmProcessHCDynamicMemorySize</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmProcessExtTable,MIBTableEntryIndexName1=cpmProcessExtTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">21</r>
+				<r p="2">19</r>
+				<r p="3">65</r>
+				<r p="4">93</r>
+				<r p="5">88</r>
+				<r p="6">50</r>
+				<r p="7">43</r>
+				<r p="8">55</r>
+				<r p="9">29</r>
+				<r p="10">24</r>
+				<r p="11">25</r>
+				<r p="12">26</r>
+				<r p="13">80</r>
+				<r p="14">7</r>
+				<r p="15">89</r>
+				<r p="16">61</r>
+				<r p="17">76</r>
+				<r p="18">19</r>
+				<r p="19">72</r>
+				<r p="20">58</r>
+				<r p="21">12</r>
+				<r p="22">44</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPV6-MIB_ipv6IfStatsTable_Group">
+ 			<job jobId="job21"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipv6IfStatsInReceives</measType>
+			<measType p="2">ipv6IfStatsInHdrErrors</measType>
+			<measType p="3">ipv6IfStatsInTooBigErrors</measType>
+			<measType p="4">ipv6IfStatsInNoRoutes</measType>
+			<measType p="5">ipv6IfStatsInAddrErrors</measType>
+			<measType p="6">ipv6IfStatsInUnknownProtos</measType>
+			<measType p="7">ipv6IfStatsInTruncatedPkts</measType>
+			<measType p="8">ipv6IfStatsInDiscards</measType>
+			<measType p="9">ipv6IfStatsInDelivers</measType>
+			<measType p="10">ipv6IfStatsOutForwDatagrams</measType>
+			<measType p="11">ipv6IfStatsOutRequests</measType>
+			<measType p="12">ipv6IfStatsOutDiscards</measType>
+			<measType p="13">ipv6IfStatsOutFragOKs</measType>
+			<measType p="14">ipv6IfStatsOutFragFails</measType>
+			<measType p="15">ipv6IfStatsOutFragCreates</measType>
+			<measType p="16">ipv6IfStatsReasmReqds</measType>
+			<measType p="17">ipv6IfStatsReasmOKs</measType>
+			<measType p="18">ipv6IfStatsReasmFails</measType>
+			<measType p="19">ipv6IfStatsInMcastPkts</measType>
+			<measType p="20">ipv6IfStatsOutMcastPkts</measType>
+			<measValue measObjLdn="MIBname=IPV6-MIB,MIBTable=ipv6IfStatsTable,MIBTableEntryIndexName1=ipv6IfStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">82</r>
+				<r p="2">63</r>
+				<r p="3">80</r>
+				<r p="4">33</r>
+				<r p="5">2</r>
+				<r p="6">11</r>
+				<r p="7">41</r>
+				<r p="8">97</r>
+				<r p="9">82</r>
+				<r p="10">65</r>
+				<r p="11">5</r>
+				<r p="12">97</r>
+				<r p="13">56</r>
+				<r p="14">46</r>
+				<r p="15">9</r>
+				<r p="16">20</r>
+				<r p="17">21</r>
+				<r p="18">45</r>
+				<r p="19">36</r>
+				<r p="20">62</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EtherLike-MIB_dot3ControlTable_Group">
+ 			<job jobId="job22"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3ControlInUnknownOpcodes</measType>
+			<measType p="2">dot3HCControlInUnknownOpcodes</measType>
+			<measValue measObjLdn="MIBname=EtherLike-MIB,MIBTable=dot3ControlTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP-MIB_Global_Group">
+ 			<job jobId="job23"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipOutRequests</measType>
+			<measType p="2">ipOutDiscards</measType>
+			<measType p="3">ipOutNoRoutes</measType>
+			<measType p="4">ipReasmReqds</measType>
+			<measType p="5">ipReasmOKs</measType>
+			<measType p="6">ipReasmFails</measType>
+			<measType p="7">ipFragOKs</measType>
+			<measType p="8">ipFragFails</measType>
+			<measType p="9">ipFragCreates</measType>
+			<measType p="10">ipRoutingDiscards</measType>
+			<measType p="11">icmpInTimestamps</measType>
+			<measType p="12">icmpInTimestampReps</measType>
+			<measType p="13">icmpInAddrMasks</measType>
+			<measType p="14">icmpInAddrMaskReps</measType>
+			<measType p="15">icmpOutMsgs</measType>
+			<measType p="16">icmpOutErrors</measType>
+			<measType p="17">icmpOutDestUnreachs</measType>
+			<measType p="18">icmpOutTimeExcds</measType>
+			<measType p="19">icmpOutParmProbs</measType>
+			<measType p="20">icmpOutSrcQuenchs</measType>
+			<measType p="21">icmpOutRedirects</measType>
+			<measType p="22">icmpOutEchos</measType>
+			<measType p="23">icmpOutEchoReps</measType>
+			<measType p="24">icmpOutTimestamps</measType>
+			<measType p="25">icmpOutTimestampReps</measType>
+			<measType p="26">icmpOutAddrMasks</measType>
+			<measType p="27">icmpOutAddrMaskReps</measType>
+			<measType p="28">ipInReceives</measType>
+			<measType p="29">ipInHdrErrors</measType>
+			<measType p="30">ipInAddrErrors</measType>
+			<measType p="31">ipForwDatagrams</measType>
+			<measType p="32">ipInUnknownProtos</measType>
+			<measType p="33">ipInDiscards</measType>
+			<measType p="34">ipInDelivers</measType>
+			<measType p="35">icmpInMsgs</measType>
+			<measType p="36">icmpInErrors</measType>
+			<measType p="37">icmpInDestUnreachs</measType>
+			<measType p="38">icmpInTimeExcds</measType>
+			<measType p="39">icmpInParmProbs</measType>
+			<measType p="40">icmpInSrcQuenchs</measType>
+			<measType p="41">icmpInRedirects</measType>
+			<measType p="42">icmpInEchos</measType>
+			<measType p="43">icmpInEchoReps</measType>
+			<measValue measObjLdn="MIBname=IP-MIB,MIBTable=Global1">
+				<r p="1">19</r>
+				<r p="2">47</r>
+				<r p="3">37</r>
+				<r p="4">69</r>
+				<r p="5">49</r>
+				<r p="6">70</r>
+				<r p="7">71</r>
+				<r p="8">25</r>
+				<r p="9">23</r>
+				<r p="10">64</r>
+				<r p="11">43</r>
+				<r p="12">55</r>
+				<r p="13">27</r>
+				<r p="14">20</r>
+				<r p="15">88</r>
+				<r p="16">74</r>
+				<r p="17">58</r>
+				<r p="18">22</r>
+				<r p="19">55</r>
+				<r p="20">19</r>
+				<r p="21">99</r>
+				<r p="22">5</r>
+				<r p="23">43</r>
+				<r p="24">23</r>
+				<r p="25">87</r>
+				<r p="26">10</r>
+				<r p="27">94</r>
+				<r p="28">74</r>
+				<r p="29">33</r>
+				<r p="30">56</r>
+				<r p="31">25</r>
+				<r p="32">97</r>
+				<r p="33">92</r>
+				<r p="34">39</r>
+				<r p="35">49</r>
+				<r p="36">22</r>
+				<r p="37">90</r>
+				<r p="38">28</r>
+				<r p="39">52</r>
+				<r p="40">80</r>
+				<r p="41">14</r>
+				<r p="42">22</r>
+				<r p="43">73</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamDmCurrentStatsBinsTable_Group">
+ 			<job jobId="job24"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamDmCurrentStatsBinsCounter</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamDmCurrentStatsBinsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmCPUProcessHistoryTable_Group">
+ 			<job jobId="job25"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmCPUHistoryProcUtil</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmCPUProcessHistoryTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IF-MIB_ifXTable_Group">
+ 			<job jobId="job26"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ifInMulticastPkts</measType>
+			<measType p="2">ifInBroadcastPkts</measType>
+			<measType p="3">ifOutMulticastPkts</measType>
+			<measType p="4">ifOutBroadcastPkts</measType>
+			<measType p="5">ifHCInOctets</measType>
+			<measType p="6">ifHCInUcastPkts</measType>
+			<measType p="7">ifHCInMulticastPkts</measType>
+			<measType p="8">ifHCInBroadcastPkts</measType>
+			<measType p="9">ifHCOutOctets</measType>
+			<measType p="10">ifHCOutUcastPkts</measType>
+			<measType p="11">ifHCOutMulticastPkts</measType>
+			<measType p="12">ifHCOutBroadcastPkts</measType>
+			<measType p="13">ifHighSpeed</measType>
+			<measValue measObjLdn="MIBname=IF-MIB,MIBTable=ifXTable,MIBTableEntryIndexName1=ifXTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">55</r>
+				<r p="2">78</r>
+				<r p="3">48</r>
+				<r p="4">11</r>
+				<r p="5">45</r>
+				<r p="6">62</r>
+				<r p="7">3</r>
+				<r p="8">64</r>
+				<r p="9">69</r>
+				<r p="10">92</r>
+				<r p="11">79</r>
+				<r p="12">49</r>
+				<r p="13">31</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPMROUTE-STD-MIB_ipMRouteTable_Group">
+ 			<job jobId="job27"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipMRoutePkts</measType>
+			<measType p="2">ipMRouteDifferentInIfPackets</measType>
+			<measType p="3">ipMRouteOctets</measType>
+			<measType p="4">ipMRouteHCOctets</measType>
+			<measValue measObjLdn="MIBname=IPMROUTE-STD-MIB,MIBTable=ipMRouteTable,MIBTableEntryIndexName1=ipMRouteTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">98</r>
+				<r p="2">66</r>
+				<r p="3">15</r>
+				<r p="4">71</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RSVP-MIB_Global_Group">
+ 			<job jobId="job28"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rsvpBadPackets</measType>
+			<measValue measObjLdn="MIBname=RSVP-MIB,MIBTable=Global1">
+				<r p="1">50</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamLmHistoryStatsTable_Group">
+ 			<job jobId="job29"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamLmHistoryStatsForwardTransmittedFrames</measType>
+			<measType p="2">mefSoamLmHistoryStatsForwardReceivedFrames</measType>
+			<measType p="3">mefSoamLmHistoryStatsBackwardTransmittedFrames</measType>
+			<measType p="4">mefSoamLmHistoryStatsBackwardReceivedFrames</measType>
+			<measType p="5">mefSoamLmHistoryStatsSoamPdusSent</measType>
+			<measType p="6">mefSoamLmHistoryStatsSoamPdusReceived</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamLmHistoryStatsTable,MIBTableEntryIndexName1=mefSoamLmHistoryStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">8</r>
+				<r p="2">90</r>
+				<r p="3">21</r>
+				<r p="4">25</r>
+				<r p="5">69</r>
+				<r p="6">52</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPFV3-MIB_ospfv3NbrTable_Group">
+ 			<job jobId="job30"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfv3NbrEvents</measType>
+			<measType p="2">ospfv3NbrLsRetransQLen</measType>
+			<measValue measObjLdn="MIBname=OSPFV3-MIB,MIBTable=ospfv3NbrTable,MIBTableEntryIndexName1=ospfv3NbrTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">60</r>
+				<r p="2">77</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-L3VPN-STD-MIB_mplsL3VpnVrfPerfTable_Group">
+ 			<job jobId="job31"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsL3VpnVrfPerfRoutesAdded</measType>
+			<measType p="2">mplsL3VpnVrfPerfRoutesDeleted</measType>
+			<measType p="3">mplsL3VpnVrfPerfCurrNumRoutes</measType>
+			<measType p="4">mplsL3VpnVrfPerfRoutesDropped</measType>
+			<measValue measObjLdn="MIBname=MPLS-L3VPN-STD-MIB,MIBTable=mplsL3VpnVrfPerfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-MPLS-TE-P2MP-STD-MIB_cmplsTeP2mpTunnelDestTable_Group">
+ 			<job jobId="job32"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cmplsTeP2mpTunnelDestPathChanges</measType>
+			<measType p="2">cmplsTeP2mpTunnelDestStateTransitions</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-MPLS-TE-P2MP-STD-MIB,MIBTable=cmplsTeP2mpTunnelDestTable,MIBTableEntryIndexName1=cmplsTeP2mpTunnelDestTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">61</r>
+				<r p="2">22</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPFV3-MIB_ospfv3AreaTable_Group">
+ 			<job jobId="job33"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfv3AreaSpfRuns</measType>
+			<measType p="2">ospfv3AreaBdrRtrCount</measType>
+			<measType p="3">ospfv3AreaAsBdrRtrCount</measType>
+			<measType p="4">ospfv3AreaScopeLsaCount</measType>
+			<measType p="5">ospfv3AreaNssaTranslatorEvents</measType>
+			<measValue measObjLdn="MIBname=OSPFV3-MIB,MIBTable=ospfv3AreaTable,MIBTableEntryIndexName1=ospfv3AreaTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">54</r>
+				<r p="2">38</r>
+				<r p="3">13</r>
+				<r p="4">85</r>
+				<r p="5">95</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=UDP-MIB_Global_Group">
+ 			<job jobId="job34"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">udpInDatagrams</measType>
+			<measType p="2">udpNoPorts</measType>
+			<measType p="3">udpInErrors</measType>
+			<measType p="4">udpOutDatagrams</measType>
+			<measType p="5">udpHCInDatagrams</measType>
+			<measType p="6">udpHCOutDatagrams</measType>
+			<measValue measObjLdn="MIBname=UDP-MIB,MIBTable=Global1">
+				<r p="1">84</r>
+				<r p="2">5</r>
+				<r p="3">78</r>
+				<r p="4">62</r>
+				<r p="5">12</r>
+				<r p="6">15</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EtherLike-MIB_dot3PauseTable_Group">
+ 			<job jobId="job35"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3HCInPauseFrames</measType>
+			<measType p="2">dot3HCOutPauseFrames</measType>
+			<measType p="3">dot3InPauseFrames</measType>
+			<measType p="4">dot3OutPauseFrames</measType>
+			<measValue measObjLdn="MIBname=EtherLike-MIB,MIBTable=dot3PauseTable,MIBTableEntryIndexName1=dot3PauseTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">39</r>
+				<r p="2">96</r>
+				<r p="3">78</r>
+				<r p="4">4</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosIPHCStatsTable_Group">
+ 			<job jobId="job36"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosIPHCRtpCmprsOutPkt</measType>
+			<measType p="2">cbQosIPHCRtpCmprsOutPkt64</measType>
+			<measType p="3">cbQosIPHCRtpCmprsOutPktOverflow</measType>
+			<measType p="4">cbQosIPHCRtpFullHdrSentPkt</measType>
+			<measType p="5">cbQosIPHCRtpFullHdrSentPkt64</measType>
+			<measType p="6">cbQosIPHCRtpFullHdrSentPktOverflow</measType>
+			<measType p="7">cbQosIPHCRtpSavedByte</measType>
+			<measType p="8">cbQosIPHCRtpSavedByte64</measType>
+			<measType p="9">cbQosIPHCRtpSavedByteOverflow</measType>
+			<measType p="10">cbQosIPHCRtpSentByte</measType>
+			<measType p="11">cbQosIPHCRtpSentByte64</measType>
+			<measType p="12">cbQosIPHCRtpSentByteOverflow</measType>
+			<measType p="13">cbQosIPHCRtpSentByteRate</measType>
+			<measType p="14">cbQosIPHCRtpSentPkt</measType>
+			<measType p="15">cbQosIPHCRtpSentPkt64</measType>
+			<measType p="16">cbQosIPHCRtpSentPktOverflow</measType>
+			<measType p="17">cbQosIPHCTcpCmprsOutPkt</measType>
+			<measType p="18">cbQosIPHCTcpCmprsOutPkt64</measType>
+			<measType p="19">cbQosIPHCTcpCmprsOutPktOverflow</measType>
+			<measType p="20">cbQosIPHCTcpFullHdrSentPkt</measType>
+			<measType p="21">cbQosIPHCTcpFullHdrSentPkt64</measType>
+			<measType p="22">cbQosIPHCTcpFullHdrSentPktOverflow</measType>
+			<measType p="23">cbQosIPHCTcpSavedByte</measType>
+			<measType p="24">cbQosIPHCTcpSavedByte64</measType>
+			<measType p="25">cbQosIPHCTcpSavedByteOverflow</measType>
+			<measType p="26">cbQosIPHCTcpSentByte</measType>
+			<measType p="27">cbQosIPHCTcpSentByte64</measType>
+			<measType p="28">cbQosIPHCTcpSentByteOverflow</measType>
+			<measType p="29">cbQosIPHCTcpSentByteRate</measType>
+			<measType p="30">cbQosIPHCTcpSentPkt</measType>
+			<measType p="31">cbQosIPHCTcpSentPkt64</measType>
+			<measType p="32">cbQosIPHCTcpSentPktOverflow</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosIPHCStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPMROUTE-STD-MIB_Global_Group">
+ 			<job jobId="job37"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipMRouteEntryCount</measType>
+			<measValue measObjLdn="MIBname=IPMROUTE-STD-MIB,MIBTable=Global1">
+				<r p="1">22</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-SONET-MIB_cslTotalTable_Group">
+ 			<job jobId="job38"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cslTotalESs</measType>
+			<measType p="2">cslTotalSESs</measType>
+			<measType p="3">cslTotalCVs</measType>
+			<measType p="4">cslTotalUASs</measType>
+			<measValue measObjLdn="MIBname=CISCO-SONET-MIB,MIBTable=cslTotalTable,MIBTableEntryIndexName1=cslTotalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">22</r>
+				<r p="2">43</r>
+				<r p="3">65</r>
+				<r p="4">58</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetFarEndPathCurrentTable_Group">
+ 			<job jobId="job39"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetFarEndPathCurrentESs</measType>
+			<measType p="2">sonetFarEndPathCurrentSESs</measType>
+			<measType p="3">sonetFarEndPathCurrentCVs</measType>
+			<measType p="4">sonetFarEndPathCurrentUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetFarEndPathCurrentTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-VPN-MIB_mplsVpnVrfSecTable_Group">
+ 			<job jobId="job40"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsVpnVrfSecIllegalLabelViolations</measType>
+			<measValue measObjLdn="MIBname=MPLS-VPN-MIB,MIBTable=mplsVpnVrfSecTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosMatchStmtStatsTable_Group">
+ 			<job jobId="job41"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosMatchPrePolicyBitRate</measType>
+			<measType p="2">cbQosMatchPrePolicyByte</measType>
+			<measType p="3">cbQosMatchPrePolicyByte64</measType>
+			<measType p="4">cbQosMatchPrePolicyByteOverflow</measType>
+			<measType p="5">cbQosMatchPrePolicyPkt</measType>
+			<measType p="6">cbQosMatchPrePolicyPkt64</measType>
+			<measType p="7">cbQosMatchPrePolicyPktOverflow</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosMatchStmtStatsTable,MIBTableEntryIndexName1=cbQosMatchStmtStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">35</r>
+				<r p="2">54</r>
+				<r p="3">16</r>
+				<r p="4">88</r>
+				<r p="5">63</r>
+				<r p="6">53</r>
+				<r p="7">79</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmProcessExtRevTable_Group">
+ 			<job jobId="job42"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmProcExtMemAllocated</measType>
+			<measType p="2">cpmProcExtMemFreed</measType>
+			<measType p="3">cpmProcExtInvoked</measType>
+			<measType p="4">cpmProcExtRuntime</measType>
+			<measType p="5">cpmProcExtUtil5Sec</measType>
+			<measType p="6">cpmProcExtUtil1Min</measType>
+			<measType p="7">cpmProcExtUtil5Min</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmProcessExtRevTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-SONET-MIB_cssTotalTable_Group">
+ 			<job jobId="job43"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cssTotalESs</measType>
+			<measType p="2">cssTotalSESs</measType>
+			<measType p="3">cssTotalSEFSs</measType>
+			<measType p="4">cssTotalCVs</measType>
+			<measValue measObjLdn="MIBname=CISCO-SONET-MIB,MIBTable=cssTotalTable,MIBTableEntryIndexName1=cssTotalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">78</r>
+				<r p="2">15</r>
+				<r p="3">87</r>
+				<r p="4">65</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=INTEGRATED-SERVICES-MIB_intSrvIfAttribTable_Group">
+ 			<job jobId="job44"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">intSrvIfAttribFlows</measType>
+			<measValue measObjLdn="MIBname=INTEGRATED-SERVICES-MIB,MIBTable=intSrvIfAttribTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DOT3-OAM-MIB_cdot3OamStatsTable_Group">
+ 			<job jobId="job45"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cdot3OamDuplicateEventNotificationRx</measType>
+			<measType p="2">cdot3OamDuplicateEventNotificationTx</measType>
+			<measType p="3">cdot3OamFramesLostDueToOam</measType>
+			<measType p="4">cdot3OamInformationRx</measType>
+			<measType p="5">cdot3OamInformationTx</measType>
+			<measType p="6">cdot3OamLoopbackControlRx</measType>
+			<measType p="7">cdot3OamLoopbackControlTx</measType>
+			<measType p="8">cdot3OamOrgSpecificRx</measType>
+			<measType p="9">cdot3OamOrgSpecificTx</measType>
+			<measType p="10">cdot3OamUniqueEventNotificationRx</measType>
+			<measType p="11">cdot3OamUniqueEventNotificationTx</measType>
+			<measType p="12">cdot3OamUnsupportedCodesRx</measType>
+			<measType p="13">cdot3OamUnsupportedCodesTx</measType>
+			<measType p="14">cdot3OamVariableRequestRx</measType>
+			<measType p="15">cdot3OamVariableRequestTx</measType>
+			<measType p="16">cdot3OamVariableResponseRx</measType>
+			<measType p="17">cdot3OamVariableResponseTx</measType>
+			<measValue measObjLdn="MIBname=CISCO-DOT3-OAM-MIB,MIBTable=cdot3OamStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DS6-MIB_cds3PlcpStatsTable_Group">
+ 			<job jobId="job46"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cds3PlcpRcvBip8Count</measType>
+			<measType p="2">cds3PlcpRcvOOFCount</measType>
+			<measType p="3">cds3PlcpRcvRAICount</measType>
+			<measType p="4">cds3PlcpFECount</measType>
+			<measType p="5">cds3PlcpFESecCount</measType>
+			<measType p="6">cds3PlcpSEFSecCount</measType>
+			<measType p="7">cds3PlcpFEBECount</measType>
+			<measType p="8">cds3PlcpFEBESecCount</measType>
+			<measType p="9">cds3PlcpSEFEBESecCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-DS6-MIB,MIBTable=cds3PlcpStatsTable,MIBTableEntryIndexName1=cds3PlcpStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">52</r>
+				<r p="2">66</r>
+				<r p="3">37</r>
+				<r p="4">70</r>
+				<r p="5">21</r>
+				<r p="6">41</r>
+				<r p="7">24</r>
+				<r p="8">24</r>
+				<r p="9">34</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetSectionIntervalTable_Group">
+ 			<job jobId="job47"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetSectionIntervalESs</measType>
+			<measType p="2">sonetSectionIntervalSESs</measType>
+			<measType p="3">sonetSectionIntervalSEFSs</measType>
+			<measType p="4">sonetSectionIntervalCVs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetSectionIntervalTable,MIBTableEntryIndexName1=sonetSectionIntervalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">45</r>
+				<r p="2">13</r>
+				<r p="3">15</r>
+				<r p="4">59</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefPeerTable_Group">
+ 			<job jobId="job48"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefPeerNumberOfResets</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefPeerTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-LSR-STD-MIB_mplsInSegmentPerfTable_Group">
+ 			<job jobId="job49"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsInSegmentPerfOctets</measType>
+			<measType p="2">mplsInSegmentPerfPackets</measType>
+			<measType p="3">mplsInSegmentPerfErrors</measType>
+			<measType p="4">mplsInSegmentPerfDiscards</measType>
+			<measType p="5">mplsInSegmentPerfHCOctets</measType>
+			<measValue measObjLdn="MIBname=MPLS-LSR-STD-MIB,MIBTable=mplsInSegmentPerfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-SONET-MIB_cspFarEndTotalTable_Group">
+ 			<job jobId="job50"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cspFarEndTotalESs</measType>
+			<measType p="2">cspFarEndTotalSESs</measType>
+			<measType p="3">cspFarEndTotalCVs</measType>
+			<measType p="4">cspFarEndTotalUASs</measType>
+			<measValue measObjLdn="MIBname=CISCO-SONET-MIB,MIBTable=cspFarEndTotalTable,MIBTableEntryIndexName1=cspFarEndTotalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">32</r>
+				<r p="2">20</r>
+				<r p="3">91</r>
+				<r p="4">52</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IPSEC-MIB_cipsStaticCryptomapSetTable_Group">
+ 			<job jobId="job51"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cipsStaticCryptomapSetSize</measType>
+			<measType p="2">cipsStaticCryptomapSetNumIsakmp</measType>
+			<measType p="3">cipsStaticCryptomapSetNumManual</measType>
+			<measType p="4">cipsStaticCryptomapSetNumCET</measType>
+			<measType p="5">cipsStaticCryptomapSetNumDynamic</measType>
+			<measType p="6">cipsStaticCryptomapSetNumDisc</measType>
+			<measType p="7">cipsStaticCryptomapSetNumSAs</measType>
+			<measValue measObjLdn="MIBname=CISCO-IPSEC-MIB,MIBTable=cipsStaticCryptomapSetTable,MIBTableEntryIndexName1=cipsStaticCryptomapSetTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">5</r>
+				<r p="2">93</r>
+				<r p="3">77</r>
+				<r p="4">43</r>
+				<r p="5">34</r>
+				<r p="6">0</r>
+				<r p="7">30</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonJitterStatsTable_Group">
+ 			<job jobId="job52"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonJitterStatsCompletions</measType>
+			<measType p="2">rttMonJitterStatsOverThresholds</measType>
+			<measType p="3">rttMonJitterStatsNumOfRTT</measType>
+			<measType p="4">rttMonJitterStatsRTTSum</measType>
+			<measType p="5">rttMonJitterStatsRTTSum2Low</measType>
+			<measType p="6">rttMonJitterStatsRTTSum2High</measType>
+			<measType p="7">rttMonJitterStatsRTTMin</measType>
+			<measType p="8">rttMonJitterStatsRTTMax</measType>
+			<measType p="9">rttMonJitterStatsMinOfPositivesSD</measType>
+			<measType p="10">rttMonJitterStatsMaxOfPositivesSD</measType>
+			<measType p="11">rttMonJitterStatsNumOfPositivesSD</measType>
+			<measType p="12">rttMonJitterStatsSumOfPositivesSD</measType>
+			<measType p="13">rttMonJitterStatsSum2PositivesSDLow</measType>
+			<measType p="14">rttMonJitterStatsSum2PositivesSDHigh</measType>
+			<measType p="15">rttMonJitterStatsMinOfNegativesSD</measType>
+			<measType p="16">rttMonJitterStatsMaxOfNegativesSD</measType>
+			<measType p="17">rttMonJitterStatsNumOfNegativesSD</measType>
+			<measType p="18">rttMonJitterStatsSumOfNegativesSD</measType>
+			<measType p="19">rttMonJitterStatsSum2NegativesSDLow</measType>
+			<measType p="20">rttMonJitterStatsSum2NegativesSDHigh</measType>
+			<measType p="21">rttMonJitterStatsMinOfPositivesDS</measType>
+			<measType p="22">rttMonJitterStatsMaxOfPositivesDS</measType>
+			<measType p="23">rttMonJitterStatsNumOfPositivesDS</measType>
+			<measType p="24">rttMonJitterStatsSumOfPositivesDS</measType>
+			<measType p="25">rttMonJitterStatsSum2PositivesDSLow</measType>
+			<measType p="26">rttMonJitterStatsSum2PositivesDSHigh</measType>
+			<measType p="27">rttMonJitterStatsMinOfNegativesDS</measType>
+			<measType p="28">rttMonJitterStatsMaxOfNegativesDS</measType>
+			<measType p="29">rttMonJitterStatsNumOfNegativesDS</measType>
+			<measType p="30">rttMonJitterStatsSumOfNegativesDS</measType>
+			<measType p="31">rttMonJitterStatsSum2NegativesDSLow</measType>
+			<measType p="32">rttMonJitterStatsSum2NegativesDSHigh</measType>
+			<measType p="33">rttMonJitterStatsPacketLossSD</measType>
+			<measType p="34">rttMonJitterStatsPacketLossDS</measType>
+			<measType p="35">rttMonJitterStatsPacketOutOfSequence</measType>
+			<measType p="36">rttMonJitterStatsPacketMIA</measType>
+			<measType p="37">rttMonJitterStatsPacketLateArrival</measType>
+			<measType p="38">rttMonJitterStatsError</measType>
+			<measType p="39">rttMonJitterStatsBusies</measType>
+			<measType p="40">rttMonJitterStatsOWSumSD</measType>
+			<measType p="41">rttMonJitterStatsOWSum2SDLow</measType>
+			<measType p="42">rttMonJitterStatsOWSum2SDHigh</measType>
+			<measType p="43">rttMonJitterStatsOWMinSD</measType>
+			<measType p="44">rttMonJitterStatsOWMaxSD</measType>
+			<measType p="45">rttMonJitterStatsOWSumDS</measType>
+			<measType p="46">rttMonJitterStatsOWSum2DSLow</measType>
+			<measType p="47">rttMonJitterStatsOWSum2DSHigh</measType>
+			<measType p="48">rttMonJitterStatsOWMinDS</measType>
+			<measType p="49">rttMonJitterStatsOWMaxDS</measType>
+			<measType p="50">rttMonJitterStatsNumOfOW</measType>
+			<measType p="51">rttMonJitterStatsOWMinSDNew</measType>
+			<measType p="52">rttMonJitterStatsOWMaxSDNew</measType>
+			<measType p="53">rttMonJitterStatsOWMinDSNew</measType>
+			<measType p="54">rttMonJitterStatsOWMaxDSNew</measType>
+			<measType p="55">rttMonJitterStatsMinOfMOS</measType>
+			<measType p="56">rttMonJitterStatsMaxOfMOS</measType>
+			<measType p="57">rttMonJitterStatsMinOfICPIF</measType>
+			<measType p="58">rttMonJitterStatsMaxOfICPIF</measType>
+			<measType p="59">rttMonJitterStatsIAJOut</measType>
+			<measType p="60">rttMonJitterStatsIAJIn</measType>
+			<measType p="61">rttMonJitterStatsAvgJitter</measType>
+			<measType p="62">rttMonJitterStatsAvgJitterSD</measType>
+			<measType p="63">rttMonJitterStatsAvgJitterDS</measType>
+			<measType p="64">rttMonJitterStatsUnSyncRTs</measType>
+			<measType p="65">rttMonJitterStatsRTTSumHigh</measType>
+			<measType p="66">rttMonJitterStatsOWSumSDHigh</measType>
+			<measType p="67">rttMonJitterStatsOWSumDSHigh</measType>
+			<measType p="68">rttMonJitterStatsNumOverThresh</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonJitterStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_cospfShamLinkTable_Group">
+ 			<job jobId="job53"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfShamLinkEvents</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=cospfShamLinkTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamDmCurrentStatsTable_Group">
+ 			<job jobId="job54"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamDmCurrentStatsSoamPdusSent</measType>
+			<measType p="2">mefSoamDmCurrentStatsSoamPdusReceived</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamDmCurrentStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetFarEndLineIntervalTable_Group">
+ 			<job jobId="job55"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetFarEndLineIntervalESs</measType>
+			<measType p="2">sonetFarEndLineIntervalSESs</measType>
+			<measType p="3">sonetFarEndLineIntervalCVs</measType>
+			<measType p="4">sonetFarEndLineIntervalUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetFarEndLineIntervalTable,MIBTableEntryIndexName1=sonetFarEndLineIntervalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">75</r>
+				<r p="2">5</r>
+				<r p="3">98</r>
+				<r p="4">16</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EtherLike-MIB_dot3HCStatsTable_Group">
+ 			<job jobId="job56"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3HCStatsAlignmentErrors</measType>
+			<measType p="2">dot3HCStatsFCSErrors</measType>
+			<measType p="3">dot3HCStatsFrameTooLongs</measType>
+			<measType p="4">dot3HCStatsInternalMacReceiveErrors</measType>
+			<measType p="5">dot3HCStatsInternalMacTransmitErrors</measType>
+			<measType p="6">dot3HCStatsSymbolErrors</measType>
+			<measValue measObjLdn="MIBname=EtherLike-MIB,MIBTable=dot3HCStatsTable,MIBTableEntryIndexName1=dot3HCStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">6</r>
+				<r p="2">24</r>
+				<r p="3">14</r>
+				<r p="4">33</r>
+				<r p="5">57</r>
+				<r p="6">81</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EtherLike-MIB_dot3StatsTable_Group">
+ 			<job jobId="job57"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3StatsAlignmentErrors</measType>
+			<measType p="2">dot3StatsCarrierSenseErrors</measType>
+			<measType p="3">dot3StatsDeferredTransmissions</measType>
+			<measType p="4">dot3StatsExcessiveCollisions</measType>
+			<measType p="5">dot3StatsFCSErrors</measType>
+			<measType p="6">dot3StatsFrameTooLongs</measType>
+			<measType p="7">dot3StatsInternalMacReceiveErrors</measType>
+			<measType p="8">dot3StatsInternalMacTransmitErrors</measType>
+			<measType p="9">dot3StatsLateCollisions</measType>
+			<measType p="10">dot3StatsMultipleCollisionFrames</measType>
+			<measType p="11">dot3StatsSQETestErrors</measType>
+			<measType p="12">dot3StatsSingleCollisionFrames</measType>
+			<measType p="13">dot3StatsSymbolErrors</measType>
+			<measValue measObjLdn="MIBname=EtherLike-MIB,MIBTable=dot3StatsTable,MIBTableEntryIndexName1=dot3StatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">69</r>
+				<r p="2">91</r>
+				<r p="3">68</r>
+				<r p="4">15</r>
+				<r p="5">31</r>
+				<r p="6">13</r>
+				<r p="7">38</r>
+				<r p="8">2</r>
+				<r p="9">70</r>
+				<r p="10">53</r>
+				<r p="11">24</r>
+				<r p="12">14</r>
+				<r p="13">96</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP-FORWARD-MIB_Global_Group">
+ 			<job jobId="job58"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipCidrRouteNumber</measType>
+			<measValue measObjLdn="MIBname=IP-FORWARD-MIB,MIBTable=Global1">
+				<r p="1">25</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-L3VPN-STD-MIB_mplsL3VpnVrfRteTable_Group">
+ 			<job jobId="job59"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsL3VpnVrfRteInetCidrAge</measType>
+			<measValue measObjLdn="MIBname=MPLS-L3VPN-STD-MIB,MIBTable=mplsL3VpnVrfRteTable,MIBTableEntryIndexName1=mplsL3VpnVrfRteTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">52</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DISMAN-EXPRESSION-MIB_Global_Group">
+ 			<job jobId="job60"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">expResourceDeltaWildcardInstanceResourceLacks</measType>
+			<measType p="2">expResourceDeltaWildcardInstances</measType>
+			<measType p="3">expResourceDeltaWildcardInstancesHigh</measType>
+			<measValue measObjLdn="MIBname=DISMAN-EXPRESSION-MIB,MIBTable=Global1">
+				<r p="1">61</r>
+				<r p="2">67</r>
+				<r p="3">62</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-FRR-MIB_Global_Group">
+ 			<job jobId="job61"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cmplsFrrLogTableCurrEntries</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-FRR-MIB,MIBTable=Global1">
+				<r p="1">75</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-MIB_cpwVcPerfCurrentTable_Group">
+ 			<job jobId="job62"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwVcPerfCurrentInHCPackets</measType>
+			<measType p="2">cpwVcPerfCurrentInHCBytes</measType>
+			<measType p="3">cpwVcPerfCurrentOutHCPackets</measType>
+			<measType p="4">cpwVcPerfCurrentOutHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-MIB,MIBTable=cpwVcPerfCurrentTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DS7-MIB_cds3Previous24HrTable_Group">
+ 			<job jobId="job63"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cds3LCVPrevious24Hr</measType>
+			<measType p="2">cds3LESPrevious24Hr</measType>
+			<measType p="3">cds3PCVPrevious24Hr</measType>
+			<measType p="4">cds3PESPrevious24Hr</measType>
+			<measType p="5">cds3PSESPrevious24Hr</measType>
+			<measType p="6">cds3SEFSPrevious24Hr</measType>
+			<measType p="7">cds3UASPrevious24Hr</measType>
+			<measType p="8">cds3CCVPrevious24Hr</measType>
+			<measType p="9">cds3CESPrevious24Hr</measType>
+			<measType p="10">cds3CSESPrevious24Hr</measType>
+			<measType p="11">cds3LSESPrevious24Hr</measType>
+			<measValue measObjLdn="MIBname=CISCO-DS7-MIB,MIBTable=cds3Previous24HrTable,MIBTableEntryIndexName1=cds3Previous24HrTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">86</r>
+				<r p="2">16</r>
+				<r p="3">97</r>
+				<r p="4">73</r>
+				<r p="5">32</r>
+				<r p="6">29</r>
+				<r p="7">86</r>
+				<r p="8">41</r>
+				<r p="9">11</r>
+				<r p="10">87</r>
+				<r p="11">97</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-ISIS-MIB_ciiPacketCounterTable_Group">
+ 			<job jobId="job64"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ciiPacketCountIIHellos</measType>
+			<measType p="2">ciiPacketCountISHellos</measType>
+			<measType p="3">ciiPacketCountESHellos</measType>
+			<measType p="4">ciiPacketCountLSPs</measType>
+			<measType p="5">ciiPacketCountCSNPs</measType>
+			<measType p="6">ciiPacketCountPSNPs</measType>
+			<measType p="7">ciiPacketCountUnknowns</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-ISIS-MIB,MIBTable=ciiPacketCounterTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-SONET-MIB_csStatsTable_Group">
+ 			<job jobId="job65"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cssLOSs</measType>
+			<measType p="2">cssLOFs</measType>
+			<measType p="3">cslAISs</measType>
+			<measType p="4">cslRFIs</measType>
+			<measType p="5">cspAISs</measType>
+			<measType p="6">cspRFIs</measType>
+			<measValue measObjLdn="MIBname=CISCO-SONET-MIB,MIBTable=csStatsTable,MIBTableEntryIndexName1=csStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">90</r>
+				<r p="2">43</r>
+				<r p="3">99</r>
+				<r p="4">73</r>
+				<r p="5">66</r>
+				<r p="6">63</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IPSLA-ETHERNET-MIB_ipslaEtherJitterLatestStatsTable_Group">
+ 			<job jobId="job66"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipslaEtherJitterLatestNumRTT</measType>
+			<measType p="2">ipslaEtherJitterLatestRTTSum</measType>
+			<measType p="3">ipslaEtherJitterLatestRTTSum2</measType>
+			<measType p="4">ipslaEtherJitterLatestRTTMin</measType>
+			<measType p="5">ipslaEtherJitterLatestRTTMax</measType>
+			<measType p="6">ipslaEtherJitterLatestMinPosSD</measType>
+			<measType p="7">ipslaEtherJitterLatestMaxPosSD</measType>
+			<measType p="8">ipslaEtherJitterLatestNumPosSD</measType>
+			<measType p="9">ipslaEtherJitterLatestSumPosSD</measType>
+			<measType p="10">ipslaEtherJitterLatestSum2PosSD</measType>
+			<measType p="11">ipslaEtherJitterLatestMinNegSD</measType>
+			<measType p="12">ipslaEtherJitterLatestMaxNegSD</measType>
+			<measType p="13">ipslaEtherJitterLatestNumNegSD</measType>
+			<measType p="14">ipslaEtherJitterLatestSumNegSD</measType>
+			<measType p="15">ipslaEtherJitterLatestSum2NegSD</measType>
+			<measType p="16">ipslaEtherJitterLatestMinPosDS</measType>
+			<measType p="17">ipslaEtherJitterLatestMaxPosDS</measType>
+			<measType p="18">ipslaEtherJitterLatestNumPosDS</measType>
+			<measType p="19">ipslaEtherJitterLatestSumPosDS</measType>
+			<measType p="20">ipslaEtherJitterLatestSum2PosDS</measType>
+			<measType p="21">ipslaEtherJitterLatestMinNegDS</measType>
+			<measType p="22">ipslaEtherJitterLatestMaxNegDS</measType>
+			<measType p="23">ipslaEtherJitterLatestNumNegDS</measType>
+			<measType p="24">ipslaEtherJitterLatestSumNegDS</measType>
+			<measType p="25">ipslaEtherJitterLatestSum2NegDS</measType>
+			<measType p="26">ipslaEtherJitterLatestFrmLossSD</measType>
+			<measType p="27">ipslaEtherJitterLatestFrmLossDS</measType>
+			<measType p="28">ipslaEtherJitterLatestFrmOutSeq</measType>
+			<measType p="29">ipslaEtherJitterLatestFrmMIA</measType>
+			<measType p="30">ipslaEtherJitterLatestFrmSkipped</measType>
+			<measType p="31">ipslaEtherJitterLatestFrmLateA</measType>
+			<measType p="32">ipslaEtherJitterLatestMinSucFrmL</measType>
+			<measType p="33">ipslaEtherJitterLatestMaxSucFrmL</measType>
+			<measType p="34">ipslaEtherJitterLatestOWSumSD</measType>
+			<measType p="35">ipslaEtherJitterLatestOWSum2SD</measType>
+			<measType p="36">ipslaEtherJitterLatestOWMinSD</measType>
+			<measType p="37">ipslaEtherJitterLatestOWMaxSD</measType>
+			<measType p="38">ipslaEtherJitterLatestOWSumDS</measType>
+			<measType p="39">ipslaEtherJitterLatestOWSum2DS</measType>
+			<measType p="40">ipslaEtherJitterLatestOWMinDS</measType>
+			<measType p="41">ipslaEtherJitterLatestOWMaxDS</measType>
+			<measType p="42">ipslaEtherJitterLatestNumOW</measType>
+			<measType p="43">ipslaEtherJitterLatestAvgJitter</measType>
+			<measType p="44">ipslaEtherJitterLatestAvgSDJ</measType>
+			<measType p="45">ipslaEtherJitterLatestAvgDSJ</measType>
+			<measType p="46">ipslaEtherJitterLatestOWAvgSD</measType>
+			<measType p="47">ipslaEtherJitterLatestOWAvgDS</measType>
+			<measType p="48">ipslaEtherJitterLatestIAJOut</measType>
+			<measType p="49">ipslaEtherJitterLatestIAJIn</measType>
+			<measType p="50">ipslaEtherJLatestFrmUnProcessed</measType>
+			<measValue measObjLdn="MIBname=CISCO-IPSLA-ETHERNET-MIB,MIBTable=ipslaEtherJitterLatestStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-SONET-MIB_cslFarEndTotalTable_Group">
+ 			<job jobId="job67"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cslFarEndTotalESs</measType>
+			<measType p="2">cslFarEndTotalSESs</measType>
+			<measType p="3">cslFarEndTotalCVs</measType>
+			<measType p="4">cslFarEndTotalUASs</measType>
+			<measValue measObjLdn="MIBname=CISCO-SONET-MIB,MIBTable=cslFarEndTotalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BRIDGE-MIB_dot1dBasePortTable_Group">
+ 			<job jobId="job68"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot1dBasePortDelayExceededDiscards</measType>
+			<measType p="2">dot1dBasePortMtuExceededDiscards</measType>
+			<measValue measObjLdn="MIBname=BRIDGE-MIB,MIBTable=dot1dBasePortTable,MIBTableEntryIndexName1=dot1dBasePortTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">56</r>
+				<r p="2">78</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-TE-STD-MIB_mplsTunnelPerfTable_Group">
+ 			<job jobId="job69"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsTunnelPerfPackets</measType>
+			<measType p="2">mplsTunnelPerfHCPackets</measType>
+			<measType p="3">mplsTunnelPerfErrors</measType>
+			<measType p="4">mplsTunnelPerfBytes</measType>
+			<measType p="5">mplsTunnelPerfHCBytes</measType>
+			<measValue measObjLdn="MIBname=MPLS-TE-STD-MIB,MIBTable=mplsTunnelPerfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonLatestHTTPOperTable_Group">
+ 			<job jobId="job70"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonLatestHTTPOperRTT</measType>
+			<measType p="2">rttMonLatestHTTPOperDNSRTT</measType>
+			<measType p="3">rttMonLatestHTTPOperTCPConnectRTT</measType>
+			<measType p="4">rttMonLatestHTTPOperTransactionRTT</measType>
+			<measType p="5">rttMonLatestHTTPOperMessageBodyOctets</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonLatestHTTPOperTable,MIBTableEntryIndexName1=rttMonLatestHTTPOperTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">94</r>
+				<r p="2">37</r>
+				<r p="3">12</r>
+				<r p="4">87</r>
+				<r p="5">97</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-BGP4-MIB_cbgpPeer2AddrFamilyPrefixTable_Group">
+ 			<job jobId="job71"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbgpPeer2AcceptedPrefixes</measType>
+			<measType p="2">cbgpPeer2DeniedPrefixes</measType>
+			<measType p="3">cbgpPeer2AdvertisedPrefixes</measType>
+			<measType p="4">cbgpPeer2SuppressedPrefixes</measType>
+			<measType p="5">cbgpPeer2WithdrawnPrefixes</measType>
+			<measValue measObjLdn="MIBname=CISCO-BGP4-MIB,MIBTable=cbgpPeer2AddrFamilyPrefixTable,MIBTableEntryIndexName1=cbgpPeer2AddrFamilyPrefixTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">35</r>
+				<r p="2">76</r>
+				<r p="3">75</r>
+				<r p="4">17</r>
+				<r p="5">33</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosC3plAccountStatsTable_Group">
+ 			<job jobId="job72"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosC3plAccountDropByte</measType>
+			<measType p="2">cbQosC3plAccountDropByte64</measType>
+			<measType p="3">cbQosC3plAccountDropByteOverflow</measType>
+			<measType p="4">cbQosC3plAccountDropPkt</measType>
+			<measType p="5">cbQosC3plAccountDropPkt64</measType>
+			<measType p="6">cbQosC3plAccountDropPktOverflow</measType>
+			<measType p="7">cbQosC3plAccountTailDropByte</measType>
+			<measType p="8">cbQosC3plAccountTailDropByte64</measType>
+			<measType p="9">cbQosC3plAccountTailDropByteOverflow</measType>
+			<measType p="10">cbQosC3plAccountTailDropPkt</measType>
+			<measType p="11">cbQosC3plAccountTailDropPkt64</measType>
+			<measType p="12">cbQosC3plAccountTailDropPktOverflow</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosC3plAccountStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_cospfVirtIfTable_Group">
+ 			<job jobId="job73"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfVirtIfLsaCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=cospfVirtIfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=VRRP-MIB_vrrpRouterStatsTable_Group">
+ 			<job jobId="job74"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">vrrpStatsBecomeMaster</measType>
+			<measType p="2">vrrpStatsAdvertiseRcvd</measType>
+			<measType p="3">vrrpStatsAdvertiseIntervalErrors</measType>
+			<measType p="4">vrrpStatsAuthFailures</measType>
+			<measType p="5">vrrpStatsIpTtlErrors</measType>
+			<measType p="6">vrrpStatsPriorityZeroPktsRcvd</measType>
+			<measType p="7">vrrpStatsPriorityZeroPktsSent</measType>
+			<measType p="8">vrrpStatsInvalidTypePktsRcvd</measType>
+			<measType p="9">vrrpStatsAddressListErrors</measType>
+			<measType p="10">vrrpStatsInvalidAuthType</measType>
+			<measType p="11">vrrpStatsAuthTypeMismatch</measType>
+			<measType p="12">vrrpStatsPacketLengthErrors</measType>
+			<measValue measObjLdn="MIBname=VRRP-MIB,MIBTable=vrrpRouterStatsTable,MIBTableEntryIndexName1=vrrpRouterStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">79</r>
+				<r p="2">66</r>
+				<r p="3">15</r>
+				<r p="4">90</r>
+				<r p="5">18</r>
+				<r p="6">48</r>
+				<r p="7">55</r>
+				<r p="8">2</r>
+				<r p="9">49</r>
+				<r p="10">34</r>
+				<r p="11">24</r>
+				<r p="12">5</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-BGP4-MIB_cbgpPeerAddrFamilyPrefixTable_Group">
+ 			<job jobId="job75"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbgpPeerAcceptedPrefixes</measType>
+			<measType p="2">cbgpPeerDeniedPrefixes</measType>
+			<measType p="3">cbgpPeerAdvertisedPrefixes</measType>
+			<measType p="4">cbgpPeerSuppressedPrefixes</measType>
+			<measType p="5">cbgpPeerWithdrawnPrefixes</measType>
+			<measValue measObjLdn="MIBname=CISCO-BGP4-MIB,MIBTable=cbgpPeerAddrFamilyPrefixTable,MIBTableEntryIndexName1=cbgpPeerAddrFamilyPrefixTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">25</r>
+				<r p="2">96</r>
+				<r p="3">59</r>
+				<r p="4">23</r>
+				<r p="5">13</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-MIB_cpwVcPerfIntervalTable_Group">
+ 			<job jobId="job76"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwVcPerfIntervalInHCPackets</measType>
+			<measType p="2">cpwVcPerfIntervalInHCBytes</measType>
+			<measType p="3">cpwVcPerfIntervalOutHCPackets</measType>
+			<measType p="4">cpwVcPerfIntervalOutHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-MIB,MIBTable=cpwVcPerfIntervalTable,MIBTableEntryIndexName1=cpwVcPerfIntervalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">68</r>
+				<r p="2">46</r>
+				<r p="3">49</r>
+				<r p="4">41</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DISMAN-EXPRESSION-MIB_expValueTable_Group">
+ 			<job jobId="job77"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">expValueCounter32Val</measType>
+			<measType p="2">expValueCounter64Val</measType>
+			<measValue measObjLdn="MIBname=DISMAN-EXPRESSION-MIB,MIBTable=expValueTable,MIBTableEntryIndexName1=expValueTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">79</r>
+				<r p="2">0</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamDmHistoryStatsTable_Group">
+ 			<job jobId="job78"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamDmHistoryStatsSoamPdusSent</measType>
+			<measType p="2">mefSoamDmHistoryStatsSoamPdusReceived</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamDmHistoryStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamDmHistoryStatsBinsTable_Group">
+ 			<job jobId="job79"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamDmHistoryStatsBinsCounter</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamDmHistoryStatsBinsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPV6-MLD-MIB_mldInterfaceTable_Group">
+ 			<job jobId="job80"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mldInterfaceJoins</measType>
+			<measType p="2">mldInterfaceGroups</measType>
+			<measValue measObjLdn="MIBname=IPV6-MLD-MIB,MIBTable=mldInterfaceTable,MIBTableEntryIndexName1=mldInterfaceTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">84</r>
+				<r p="2">40</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-ICMP-MIB_rttMonIcmpJitterStatsTable_Group">
+ 			<job jobId="job81"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonIcmpJitterStatsCompletions</measType>
+			<measType p="2">rttMonIcmpJStatsOverThresholds</measType>
+			<measType p="3">rttMonIcmpJitterStatsNumRTTs</measType>
+			<measType p="4">rttMonIcmpJitterStatsRTTSums</measType>
+			<measType p="5">rttMonIcmpJStatsRTTSum2Lows</measType>
+			<measType p="6">rttMonIcmpJStatsRTTSum2Highs</measType>
+			<measType p="7">rttMonIcmpJitterStatsRTTMin</measType>
+			<measType p="8">rttMonIcmpJitterStatsRTTMax</measType>
+			<measType p="9">rttMonIcmpJitterStatsMinPosSD</measType>
+			<measType p="10">rttMonIcmpJitterStatsMaxPosSD</measType>
+			<measType p="11">rttMonIcmpJitterStatsNumPosSDs</measType>
+			<measType p="12">rttMonIcmpJitterStatsSumPosSDs</measType>
+			<measType p="13">rttMonIcmpJStatsSum2PosSDLows</measType>
+			<measType p="14">rttMonIcmpJStatsSum2PosSDHighs</measType>
+			<measType p="15">rttMonIcmpJitterStatsMinNegSD</measType>
+			<measType p="16">rttMonIcmpJitterStatsMaxNegSD</measType>
+			<measType p="17">rttMonIcmpJitterStatsNumNegSDs</measType>
+			<measType p="18">rttMonIcmpJitterStatsSumNegSDs</measType>
+			<measType p="19">rttMonIcmpJStatsSum2NegSDLows</measType>
+			<measType p="20">rttMonIcmpJStatsSum2NegSDHighs</measType>
+			<measType p="21">rttMonIcmpJitterStatsMinPosDS</measType>
+			<measType p="22">rttMonIcmpJitterStatsMaxPosDS</measType>
+			<measType p="23">rttMonIcmpJitterStatsNumPosDSes</measType>
+			<measType p="24">rttMonIcmpJitterStatsSumPosDSes</measType>
+			<measType p="25">rttMonIcmpJStatsSum2PosDSLows</measType>
+			<measType p="26">rttMonIcmpJStatsSum2PosDSHighs</measType>
+			<measType p="27">rttMonIcmpJitterStatsMinNegDS</measType>
+			<measType p="28">rttMonIcmpJitterStatsMaxNegDS</measType>
+			<measType p="29">rttMonIcmpJitterStatsNumNegDSes</measType>
+			<measType p="30">rttMonIcmpJitterStatsSumNegDSes</measType>
+			<measType p="31">rttMonIcmpJStatsSum2NegDSLows</measType>
+			<measType p="32">rttMonIcmpJStatsSum2NegDSHighs</measType>
+			<measType p="33">rttMonIcmpJitterStatsPktLosses</measType>
+			<measType p="34">rttMonIcmpJStatsPktOutSeqBoth</measType>
+			<measType p="35">rttMonIcmpJStatsPktOutSeqSDs</measType>
+			<measType p="36">rttMonIcmpJStatsPktOutSeqDSes</measType>
+			<measType p="37">rttMonIcmpJitterStatsPktSkippeds</measType>
+			<measType p="38">rttMonIcmpJitterStatsErrors</measType>
+			<measType p="39">rttMonIcmpJitterStatsBusies</measType>
+			<measType p="40">rttMonIcmpJitterStatsOWSumSDs</measType>
+			<measType p="41">rttMonIcmpJStatsOWSum2SDLows</measType>
+			<measType p="42">rttMonIcmpJStatsOWSum2SDHighs</measType>
+			<measType p="43">rttMonIcmpJitterStatsOWMinSD</measType>
+			<measType p="44">rttMonIcmpJitterStatsOWMaxSD</measType>
+			<measType p="45">rttMonIcmpJitterStatsOWSumDSes</measType>
+			<measType p="46">rttMonIcmpJStatsOWSum2DSLows</measType>
+			<measType p="47">rttMonIcmpJStatsOWSum2DSHighs</measType>
+			<measType p="48">rttMonIcmpJitterStatsOWMinDS</measType>
+			<measType p="49">rttMonIcmpJitterStatsOWMaxDS</measType>
+			<measType p="50">rttMonIcmpJitterStatsNumOWs</measType>
+			<measType p="51">rttMonIcmpJitterStatsAvgJ</measType>
+			<measType p="52">rttMonIcmpJitterStatsAvgJSD</measType>
+			<measType p="53">rttMonIcmpJitterStatsAvgJDS</measType>
+			<measType p="54">rttMonIcmpJitterMinSucPktLoss</measType>
+			<measType p="55">rttMonIcmpJitterMaxSucPktLoss</measType>
+			<measType p="56">rttMonIcmpJitterStatsIAJOut</measType>
+			<measType p="57">rttMonIcmpJitterStatsIAJIn</measType>
+			<measType p="58">rttMonIcmpJitterStatsPktLateAs</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-ICMP-MIB,MIBTable=rttMonIcmpJitterStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-ENET-MIB_cpwVcEnetStatsTable_Group">
+ 			<job jobId="job82"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwVcEnetStatsIllegalVlan</measType>
+			<measType p="2">cpwVcEnetStatsIllegalLength</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-ENET-MIB,MIBTable=cpwVcEnetStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPFV3-MIB_ospfv3VirtIfTable_Group">
+ 			<job jobId="job83"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfv3VirtIfEvents</measType>
+			<measType p="2">ospfv3VirtIfLinkScopeLsaCount</measType>
+			<measValue measObjLdn="MIBname=OSPFV3-MIB,MIBTable=ospfv3VirtIfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IPSEC-MIB_cipsDynamicCryptomapSetTable_Group">
+ 			<job jobId="job84"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cipsDynamicCryptomapSetSize</measType>
+			<measType p="2">cipsDynamicCryptomapSetNumAssoc</measType>
+			<measValue measObjLdn="MIBname=CISCO-IPSEC-MIB,MIBTable=cipsDynamicCryptomapSetTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP-MIB_icmpMsgStatsTable_Group">
+ 			<job jobId="job85"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">icmpMsgStatsInPkts</measType>
+			<measType p="2">icmpMsgStatsOutPkts</measType>
+			<measValue measObjLdn="MIBname=IP-MIB,MIBTable=icmpMsgStatsTable,MIBTableEntryIndexName1=icmpMsgStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">23</r>
+				<r p="2">76</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefPrefixTable_Group">
+ 			<job jobId="job86"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefPrefixPkts</measType>
+			<measType p="2">cefPrefixHCPkts</measType>
+			<measType p="3">cefPrefixBytes</measType>
+			<measType p="4">cefPrefixHCBytes</measType>
+			<measType p="5">cefPrefixInternalNRPkts</measType>
+			<measType p="6">cefPrefixInternalNRHCPkts</measType>
+			<measType p="7">cefPrefixInternalNRBytes</measType>
+			<measType p="8">cefPrefixInternalNRHCBytes</measType>
+			<measType p="9">cefPrefixExternalNRPkts</measType>
+			<measType p="10">cefPrefixExternalNRHCPkts</measType>
+			<measType p="11">cefPrefixExternalNRBytes</measType>
+			<measType p="12">cefPrefixExternalNRHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefPrefixTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_cospfShamLinksTable_Group">
+ 			<job jobId="job87"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfShamLinksEvents</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=cospfShamLinksTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_cospfShamLinkNbrTable_Group">
+ 			<job jobId="job88"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfShamLinkNbrEvents</measType>
+			<measType p="2">cospfShamLinkNbrLsRetransQLen</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=cospfShamLinkNbrTable,MIBTableEntryIndexName1=cospfShamLinkNbrTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">15</r>
+				<r p="2">45</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-LSR-STD-MIB_mplsOutSegmentPerfTable_Group">
+ 			<job jobId="job89"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsOutSegmentPerfOctets</measType>
+			<measType p="2">mplsOutSegmentPerfPackets</measType>
+			<measType p="3">mplsOutSegmentPerfErrors</measType>
+			<measType p="4">mplsOutSegmentPerfDiscards</measType>
+			<measType p="5">mplsOutSegmentPerfHCOctets</measType>
+			<measValue measObjLdn="MIBname=MPLS-LSR-STD-MIB,MIBTable=mplsOutSegmentPerfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IF-MIB_ifTable_Group">
+ 			<job jobId="job90"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ifInOctets</measType>
+			<measType p="2">ifInUcastPkts</measType>
+			<measType p="3">ifInNUcastPkts</measType>
+			<measType p="4">ifInDiscards</measType>
+			<measType p="5">ifInErrors</measType>
+			<measType p="6">ifInUnknownProtos</measType>
+			<measType p="7">ifOutOctets</measType>
+			<measType p="8">ifOutUcastPkts</measType>
+			<measType p="9">ifOutNUcastPkts</measType>
+			<measType p="10">ifOutDiscards</measType>
+			<measType p="11">ifOutErrors</measType>
+			<measType p="12">ifSpeed</measType>
+			<measType p="13">ifOutQLen</measType>
+			<measValue measObjLdn="MIBname=IF-MIB,MIBTable=ifTable,MIBTableEntryIndexName1=ifTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">23</r>
+				<r p="2">7</r>
+				<r p="3">39</r>
+				<r p="4">23</r>
+				<r p="5">47</r>
+				<r p="6">79</r>
+				<r p="7">78</r>
+				<r p="8">54</r>
+				<r p="9">12</r>
+				<r p="10">60</r>
+				<r p="11">39</r>
+				<r p="12">97</r>
+				<r p="13">44</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetSectionCurrentTable_Group">
+ 			<job jobId="job91"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetSectionCurrentESs</measType>
+			<measType p="2">sonetSectionCurrentSESs</measType>
+			<measType p="3">sonetSectionCurrentSEFSs</measType>
+			<measType p="4">sonetSectionCurrentCVs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetSectionCurrentTable,MIBTableEntryIndexName1=sonetSectionCurrentTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">54</r>
+				<r p="2">68</r>
+				<r p="3">9</r>
+				<r p="4">70</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonStatsCaptureTable_Group">
+ 			<job jobId="job92"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonStatsCaptureSumCompletionTime</measType>
+			<measType p="2">rttMonStatsCaptureSumCompletionTime2Low</measType>
+			<measType p="3">rttMonStatsCaptureSumCompletionTime2High</measType>
+			<measType p="4">rttMonStatsCaptureCompletionTimeMax</measType>
+			<measType p="5">rttMonStatsCaptureCompletionTimeMin</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonStatsCaptureTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPMROUTE-STD-MIB_ipMRouteInterfaceTable_Group">
+ 			<job jobId="job93"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipMRouteInterfaceInMcastOctets</measType>
+			<measType p="2">ipMRouteInterfaceOutMcastOctets</measType>
+			<measType p="3">ipMRouteInterfaceHCInMcastOctets</measType>
+			<measType p="4">ipMRouteInterfaceHCOutMcastOctets</measType>
+			<measValue measObjLdn="MIBname=IPMROUTE-STD-MIB,MIBTable=ipMRouteInterfaceTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_Global_Group">
+ 			<job jobId="job94"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfExternLsaCount</measType>
+			<measType p="2">ospfOriginateNewLsas</measType>
+			<measType p="3">ospfRxNewLsas</measType>
+			<measType p="4">ospfAsLsaCount</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=Global1">
+				<r p="1">75</r>
+				<r p="2">97</r>
+				<r p="3">61</r>
+				<r p="4">73</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-BGP-POLICY-ACCOUNTING-MIB_cbpAcctTable_Group">
+ 			<job jobId="job95"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbpAcctInPacketCount</measType>
+			<measType p="2">cbpAcctInOctetCount</measType>
+			<measType p="3">cbpAcctOutPacketCount</measType>
+			<measType p="4">cbpAcctOutOctetCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-BGP-POLICY-ACCOUNTING-MIB,MIBTable=cbpAcctTable,MIBTableEntryIndexName1=cbpAcctTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">91</r>
+				<r p="2">71</r>
+				<r p="3">33</r>
+				<r p="4">99</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-LSR-STD-MIB_mplsInterfacePerfTable_Group">
+ 			<job jobId="job96"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsInterfacePerfInLabelsInUse</measType>
+			<measType p="2">mplsInterfacePerfInLabelLookupFailures</measType>
+			<measType p="3">mplsInterfacePerfOutLabelsInUse</measType>
+			<measType p="4">mplsInterfacePerfOutFragmentedPkts</measType>
+			<measValue measObjLdn="MIBname=MPLS-LSR-STD-MIB,MIBTable=mplsInterfacePerfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RSVP-MIB_rsvpSessionTable_Group">
+ 			<job jobId="job97"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rsvpSessionSenders</measType>
+			<measType p="2">rsvpSessionReceivers</measType>
+			<measType p="3">rsvpSessionRequests</measType>
+			<measValue measObjLdn="MIBname=RSVP-MIB,MIBTable=rsvpSessionTable,MIBTableEntryIndexName1=rsvpSessionTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">21</r>
+				<r p="2">66</r>
+				<r p="3">95</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonHTTPStatsTable_Group">
+ 			<job jobId="job98"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonHTTPStatsCompletions</measType>
+			<measType p="2">rttMonHTTPStatsOverThresholds</measType>
+			<measType p="3">rttMonHTTPStatsRTTSum</measType>
+			<measType p="4">rttMonHTTPStatsRTTSum2Low</measType>
+			<measType p="5">rttMonHTTPStatsRTTSum2High</measType>
+			<measType p="6">rttMonHTTPStatsRTTMin</measType>
+			<measType p="7">rttMonHTTPStatsRTTMax</measType>
+			<measType p="8">rttMonHTTPStatsDNSRTTSum</measType>
+			<measType p="9">rttMonHTTPStatsTCPConnectRTTSum</measType>
+			<measType p="10">rttMonHTTPStatsTransactionRTTSum</measType>
+			<measType p="11">rttMonHTTPStatsMessageBodyOctetsSum</measType>
+			<measType p="12">rttMonHTTPStatsDNSServerTimeout</measType>
+			<measType p="13">rttMonHTTPStatsTCPConnectTimeout</measType>
+			<measType p="14">rttMonHTTPStatsTransactionTimeout</measType>
+			<measType p="15">rttMonHTTPStatsDNSQueryError</measType>
+			<measType p="16">rttMonHTTPStatsHTTPError</measType>
+			<measType p="17">rttMonHTTPStatsError</measType>
+			<measType p="18">rttMonHTTPStatsBusies</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonHTTPStatsTable,MIBTableEntryIndexName1=rttMonHTTPStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">82</r>
+				<r p="2">78</r>
+				<r p="3">1</r>
+				<r p="4">31</r>
+				<r p="5">24</r>
+				<r p="6">52</r>
+				<r p="7">16</r>
+				<r p="8">69</r>
+				<r p="9">17</r>
+				<r p="10">60</r>
+				<r p="11">99</r>
+				<r p="12">74</r>
+				<r p="13">54</r>
+				<r p="14">34</r>
+				<r p="15">58</r>
+				<r p="16">90</r>
+				<r p="17">72</r>
+				<r p="18">48</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPV6-MIB_Global_Group">
+ 			<job jobId="job99"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipv6RouteNumber</measType>
+			<measType p="2">ipv6DiscardedRoutes</measType>
+			<measValue measObjLdn="MIBname=IPV6-MIB,MIBTable=Global1">
+				<r p="1">63</r>
+				<r p="2">82</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-LDP-STD-MIB_mplsLdpEntityStatsTable_Group">
+ 			<job jobId="job100"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsLdpEntityStatsSessionAttempts</measType>
+			<measType p="2">mplsLdpEntityStatsSessionRejectedNoHelloErrors</measType>
+			<measType p="3">mplsLdpEntityStatsSessionRejectedAdErrors</measType>
+			<measType p="4">mplsLdpEntityStatsSessionRejectedMaxPduErrors</measType>
+			<measType p="5">mplsLdpEntityStatsSessionRejectedLRErrors</measType>
+			<measType p="6">mplsLdpEntityStatsBadLdpIdentifierErrors</measType>
+			<measType p="7">mplsLdpEntityStatsBadPduLengthErrors</measType>
+			<measType p="8">mplsLdpEntityStatsBadMessageLengthErrors</measType>
+			<measType p="9">mplsLdpEntityStatsBadTlvLengthErrors</measType>
+			<measType p="10">mplsLdpEntityStatsMalformedTlvValueErrors</measType>
+			<measType p="11">mplsLdpEntityStatsKeepAliveTimerExpErrors</measType>
+			<measType p="12">mplsLdpEntityStatsShutdownReceivedNotifications</measType>
+			<measType p="13">mplsLdpEntityStatsShutdownSentNotifications</measType>
+			<measValue measObjLdn="MIBname=MPLS-LDP-STD-MIB,MIBTable=mplsLdpEntityStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-BGP4-MIB_cbgpPeer2Table_Group">
+ 			<job jobId="job101"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbgpPeer2InUpdates</measType>
+			<measType p="2">cbgpPeer2OutUpdates</measType>
+			<measType p="3">cbgpPeer2InTotalMessages</measType>
+			<measType p="4">cbgpPeer2OutTotalMessages</measType>
+			<measType p="5">cbgpPeer2FsmEstablishedTransitions</measType>
+			<measType p="6">cbgpPeer2FsmEstablishedTime</measType>
+			<measType p="7">cbgpPeer2InUpdateElapsedTime</measType>
+			<measValue measObjLdn="MIBname=CISCO-BGP4-MIB,MIBTable=cbgpPeer2Table,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP-MIB_icmpStatsTable_Group">
+ 			<job jobId="job102"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">icmpStatsInMsgs</measType>
+			<measType p="2">icmpStatsInErrors</measType>
+			<measType p="3">icmpStatsOutMsgs</measType>
+			<measType p="4">icmpStatsOutErrors</measType>
+			<measValue measObjLdn="MIBname=IP-MIB,MIBTable=icmpStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetPathIntervalTable_Group">
+ 			<job jobId="job103"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetPathIntervalESs</measType>
+			<measType p="2">sonetPathIntervalSESs</measType>
+			<measType p="3">sonetPathIntervalCVs</measType>
+			<measType p="4">sonetPathIntervalUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetPathIntervalTable,MIBTableEntryIndexName1=sonetPathIntervalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">82</r>
+				<r p="2">22</r>
+				<r p="3">50</r>
+				<r p="4">19</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=VRRP-MIB_Global_Group">
+ 			<job jobId="job104"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">vrrpRouterChecksumErrors</measType>
+			<measType p="2">vrrpRouterVersionErrors</measType>
+			<measType p="3">vrrpRouterVrIdErrors</measType>
+			<measValue measObjLdn="MIBname=VRRP-MIB,MIBTable=Global1">
+				<r p="1">38</r>
+				<r p="2">17</r>
+				<r p="3">5</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetLineCurrentTable_Group">
+ 			<job jobId="job105"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetLineCurrentESs</measType>
+			<measType p="2">sonetLineCurrentSESs</measType>
+			<measType p="3">sonetLineCurrentCVs</measType>
+			<measType p="4">sonetLineCurrentUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetLineCurrentTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IPSEC-MIB_Global_Group">
+ 			<job jobId="job106"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cipsSALifetime</measType>
+			<measType p="2">cipsSALifesize</measType>
+			<measType p="3">cipsNumStaticCryptomapSets</measType>
+			<measType p="4">cipsNumCETCryptomapSets</measType>
+			<measType p="5">cipsNumDynamicCryptomapSets</measType>
+			<measType p="6">cipsNumTEDCryptomapSets</measType>
+			<measType p="7">cipsNumTEDProbesReceived</measType>
+			<measType p="8">cipsNumTEDProbesSent</measType>
+			<measType p="9">cipsNumTEDFailures</measType>
+			<measValue measObjLdn="MIBname=CISCO-IPSEC-MIB,MIBTable=Global1">
+				<r p="1">8</r>
+				<r p="2">52</r>
+				<r p="3">98</r>
+				<r p="4">74</r>
+				<r p="5">57</r>
+				<r p="6">90</r>
+				<r p="7">61</r>
+				<r p="8">92</r>
+				<r p="9">74</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_cospfAreaTable_Group">
+ 			<job jobId="job107"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfOpaqueAreaLsaCount</measType>
+			<measType p="2">cospfAreaNssaTranslatorEvents</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=cospfAreaTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPFV3-MIB_Global_Group">
+ 			<job jobId="job108"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfv3AsScopeLsaCount</measType>
+			<measType p="2">ospfv3OriginateNewLsas</measType>
+			<measType p="3">ospfv3RxNewLsas</measType>
+			<measType p="4">ospfv3ExtLsaCount</measType>
+			<measValue measObjLdn="MIBname=OSPFV3-MIB,MIBTable=Global1">
+				<r p="1">83</r>
+				<r p="2">86</r>
+				<r p="3">77</r>
+				<r p="4">97</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP-MIB_ipSystemStatsTable_Group">
+ 			<job jobId="job109"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipSystemStatsInUnknownProtos</measType>
+			<measType p="2">ipSystemStatsInTruncatedPkts</measType>
+			<measType p="3">ipSystemStatsInForwDatagrams</measType>
+			<measType p="4">ipSystemStatsReasmReqds</measType>
+			<measType p="5">ipSystemStatsReasmOKs</measType>
+			<measType p="6">ipSystemStatsReasmFails</measType>
+			<measType p="7">ipSystemStatsInDiscards</measType>
+			<measType p="8">ipSystemStatsInDelivers</measType>
+			<measType p="9">ipSystemStatsOutRequests</measType>
+			<measType p="10">ipSystemStatsOutNoRoutes</measType>
+			<measType p="11">ipSystemStatsOutForwDatagrams</measType>
+			<measType p="12">ipSystemStatsOutDiscards</measType>
+			<measType p="13">ipSystemStatsOutFragReqds</measType>
+			<measType p="14">ipSystemStatsOutFragOKs</measType>
+			<measType p="15">ipSystemStatsOutFragFails</measType>
+			<measType p="16">ipSystemStatsOutFragCreates</measType>
+			<measType p="17">ipSystemStatsOutTransmits</measType>
+			<measType p="18">ipSystemStatsOutOctets</measType>
+			<measType p="19">ipSystemStatsInMcastPkts</measType>
+			<measType p="20">ipSystemStatsInMcastOctets</measType>
+			<measType p="21">ipSystemStatsOutMcastPkts</measType>
+			<measType p="22">ipSystemStatsOutMcastOctets</measType>
+			<measType p="23">ipSystemStatsInBcastPkts</measType>
+			<measType p="24">ipSystemStatsOutBcastPkts</measType>
+			<measType p="25">ipSystemStatsInReceives</measType>
+			<measType p="26">ipSystemStatsInOctets</measType>
+			<measType p="27">ipSystemStatsInHdrErrors</measType>
+			<measType p="28">ipSystemStatsInNoRoutes</measType>
+			<measType p="29">ipSystemStatsInAddrErrors</measType>
+			<measType p="30">ipSystemStatsHCInForwDatagrams</measType>
+			<measType p="31">ipSystemStatsHCInDelivers</measType>
+			<measType p="32">ipSystemStatsHCOutRequests</measType>
+			<measType p="33">ipSystemStatsHCOutForwDatagrams</measType>
+			<measType p="34">ipSystemStatsHCOutTransmits</measType>
+			<measType p="35">ipSystemStatsHCOutOctets</measType>
+			<measType p="36">ipSystemStatsHCInMcastPkts</measType>
+			<measType p="37">ipSystemStatsHCInMcastOctets</measType>
+			<measType p="38">ipSystemStatsHCOutMcastPkts</measType>
+			<measType p="39">ipSystemStatsHCOutMcastOctets</measType>
+			<measType p="40">ipSystemStatsHCInBcastPkts</measType>
+			<measType p="41">ipSystemStatsHCOutBcastPkts</measType>
+			<measType p="42">ipSystemStatsHCInReceives</measType>
+			<measType p="43">ipSystemStatsHCInOctets</measType>
+			<measValue measObjLdn="MIBname=IP-MIB,MIBTable=ipSystemStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosPoliceStatsTable_Group">
+ 			<job jobId="job110"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosPoliceExceededBitRate64</measType>
+			<measType p="2">cbQosPoliceExceededByte</measType>
+			<measType p="3">cbQosPoliceExceededByte64</measType>
+			<measType p="4">cbQosPoliceExceededByteOverflow</measType>
+			<measType p="5">cbQosPoliceExceededPkt</measType>
+			<measType p="6">cbQosPoliceExceededPkt64</measType>
+			<measType p="7">cbQosPoliceExceededPktOverflow</measType>
+			<measType p="8">cbQosPoliceExdColorExdBitRate</measType>
+			<measType p="9">cbQosPoliceExdColorExdByte64</measType>
+			<measType p="10">cbQosPoliceExdColorExdPkt64</measType>
+			<measType p="11">cbQosPoliceExdColorVltBitRate</measType>
+			<measType p="12">cbQosPoliceExdColorVltByte64</measType>
+			<measType p="13">cbQosPoliceExdColorVltPkt64</measType>
+			<measType p="14">cbQosPoliceViolatedBitRate</measType>
+			<measType p="15">cbQosPoliceViolatedBitRate64</measType>
+			<measType p="16">cbQosPoliceViolatedByte</measType>
+			<measType p="17">cbQosPoliceViolatedByte64</measType>
+			<measType p="18">cbQosPoliceViolatedByteOverflow</measType>
+			<measType p="19">cbQosPoliceViolatedPkt</measType>
+			<measType p="20">cbQosPoliceViolatedPkt64</measType>
+			<measType p="21">cbQosPoliceViolatedPktOverflow</measType>
+			<measType p="22">cbQosPoliceVltColorVltBitRate</measType>
+			<measType p="23">cbQosPoliceVltColorVltByte64</measType>
+			<measType p="24">cbQosPoliceVltColorVltPkt64</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosPoliceStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-BGP4-MIB_cbgpPeerTable_Group">
+ 			<job jobId="job111"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbgpPeerPrefixAccepted</measType>
+			<measType p="2">cbgpPeerPrefixDenied</measType>
+			<measType p="3">cbgpPeerPrefixAdvertised</measType>
+			<measType p="4">cbgpPeerPrefixSuppressed</measType>
+			<measType p="5">cbgpPeerPrefixWithdrawn</measType>
+			<measValue measObjLdn="MIBname=CISCO-BGP4-MIB,MIBTable=cbgpPeerTable,MIBTableEntryIndexName1=cbgpPeerTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">21</r>
+				<r p="2">78</r>
+				<r p="3">23</r>
+				<r p="4">22</r>
+				<r p="5">39</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamLmCurrentAvailStatsTable_Group">
+ 			<job jobId="job112"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamLmCurrentAvailStatsForwardAvailable</measType>
+			<measType p="2">mefSoamLmCurrentAvailStatsBackwardAvailable</measType>
+			<measType p="3">mefSoamLmCurrentAvailStatsForwardUnavailable</measType>
+			<measType p="4">mefSoamLmCurrentAvailStatsBackwardUnavailable</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamLmCurrentAvailStatsTable,MIBTableEntryIndexName1=mefSoamLmCurrentAvailStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">91</r>
+				<r p="2">7</r>
+				<r p="3">78</r>
+				<r p="4">95</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-L3VPN-STD-MIB_Global_Group">
+ 			<job jobId="job113"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsL3VpnActiveVrfs</measType>
+			<measType p="2">mplsL3VpnConnectedInterfaces</measType>
+			<measValue measObjLdn="MIBname=MPLS-L3VPN-STD-MIB,MIBTable=Global1">
+				<r p="1">16</r>
+				<r p="2">38</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmThreadTable_Group">
+ 			<job jobId="job114"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmThreadCpuUtilization</measType>
+			<measType p="2">cpmThreadStackSize</measType>
+			<measType p="3">cpmThreadStackSizeOvrflw</measType>
+			<measType p="4">cpmThreadHCStackSize</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmThreadTable,MIBTableEntryIndexName1=cpmThreadTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">76</r>
+				<r p="2">59</r>
+				<r p="3">48</r>
+				<r p="4">99</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosEBStatsTable_Group">
+ 			<job jobId="job115"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosEBStatsCorvilEBValue</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosEBStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IPMROUTE-STD-MIB_ipMRouteNextHopTable_Group">
+ 			<job jobId="job116"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipMRouteNextHopPkts</measType>
+			<measValue measObjLdn="MIBname=IPMROUTE-STD-MIB,MIBTable=ipMRouteNextHopTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NOTIFICATION-LOG-MIB_Global_Group">
+ 			<job jobId="job117"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">nlmStatsGlobalNotificationsLogged</measType>
+			<measType p="2">nlmStatsGlobalNotificationsBumped</measType>
+			<measValue measObjLdn="MIBname=NOTIFICATION-LOG-MIB,MIBTable=Global1">
+				<r p="1">80</r>
+				<r p="2">99</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetPathCurrentTable_Group">
+ 			<job jobId="job118"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetPathCurrentESs</measType>
+			<measType p="2">sonetPathCurrentSESs</measType>
+			<measType p="3">sonetPathCurrentCVs</measType>
+			<measType p="4">sonetPathCurrentUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetPathCurrentTable,MIBTableEntryIndexName1=sonetPathCurrentTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">91</r>
+				<r p="2">72</r>
+				<r p="3">31</r>
+				<r p="4">0</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DS4-MIB_cds3Current24HrTable_Group">
+ 			<job jobId="job119"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cds3LCVCurrent24Hr</measType>
+			<measType p="2">cds3LESCurrent24Hr</measType>
+			<measType p="3">cds3PCVCurrent24Hr</measType>
+			<measType p="4">cds3PESCurrent24Hr</measType>
+			<measType p="5">cds3PSESCurrent24Hr</measType>
+			<measType p="6">cds3SEFSCurrent24Hr</measType>
+			<measType p="7">cds3UASCurrent24Hr</measType>
+			<measType p="8">cds3CCVCurrent24Hr</measType>
+			<measType p="9">cds3CESCurrent24Hr</measType>
+			<measType p="10">cds3CSESCurrent24Hr</measType>
+			<measType p="11">cds3LSESCurrent24Hr</measType>
+			<measValue measObjLdn="MIBname=CISCO-DS4-MIB,MIBTable=cds3Current24HrTable,MIBTableEntryIndexName1=cds3Current24HrTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">68</r>
+				<r p="2">81</r>
+				<r p="3">65</r>
+				<r p="4">98</r>
+				<r p="5">66</r>
+				<r p="6">89</r>
+				<r p="7">8</r>
+				<r p="8">68</r>
+				<r p="9">4</r>
+				<r p="10">7</r>
+				<r p="11">45</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IEEE8023-LAG-MIB_dot3adAggPortDebugTable_Group">
+ 			<job jobId="job120"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3adAggPortDebugActorChurnCount</measType>
+			<measType p="2">dot3adAggPortDebugPartnerChurnCount</measType>
+			<measType p="3">dot3adAggPortDebugActorSyncTransitionCount</measType>
+			<measType p="4">dot3adAggPortDebugPartnerSyncTransitionCount</measType>
+			<measType p="5">dot3adAggPortDebugActorChangeCount</measType>
+			<measType p="6">dot3adAggPortDebugPartnerChangeCount</measType>
+			<measValue measObjLdn="MIBname=IEEE8023-LAG-MIB,MIBTable=dot3adAggPortDebugTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IEEE8021-CFM-MIB_dot1agCfmMepTable_Group">
+ 			<job jobId="job121"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot1agCfmMepCcmSequenceErrors</measType>
+			<measType p="2">dot1agCfmMepCciSentCcms</measType>
+			<measType p="3">dot1agCfmMepLbrIn</measType>
+			<measType p="4">dot1agCfmMepLbrInOutOfOrder</measType>
+			<measType p="5">dot1agCfmMepLbrBadMsdu</measType>
+			<measType p="6">dot1agCfmMepUnexpLtrIn</measType>
+			<measType p="7">dot1agCfmMepLbrOut</measType>
+			<measValue measObjLdn="MIBname=IEEE8021-CFM-MIB,MIBTable=dot1agCfmMepTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefCCTypeTable_Group">
+ 			<job jobId="job122"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefCCQueriesSent</measType>
+			<measType p="2">cefCCQueriesIgnored</measType>
+			<measType p="3">cefCCQueriesChecked</measType>
+			<measType p="4">cefCCQueriesIterated</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefCCTypeTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonLatestRttOperTable_Group">
+ 			<job jobId="job123"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonLatestRttOperCompletionTime</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonLatestRttOperTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetVTCurrentTable_Group">
+ 			<job jobId="job124"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetVTCurrentESs</measType>
+			<measType p="2">sonetVTCurrentSESs</measType>
+			<measType p="3">sonetVTCurrentCVs</measType>
+			<measType p="4">sonetVTCurrentUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetVTCurrentTable,MIBTableEntryIndexName1=sonetVTCurrentTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">28</r>
+				<r p="2">54</r>
+				<r p="3">70</r>
+				<r p="4">53</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-SONET-MIB_cspTotalTable_Group">
+ 			<job jobId="job125"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cspTotalESs</measType>
+			<measType p="2">cspTotalSESs</measType>
+			<measType p="3">cspTotalCVs</measType>
+			<measType p="4">cspTotalUASs</measType>
+			<measValue measObjLdn="MIBname=CISCO-SONET-MIB,MIBTable=cspTotalTable,MIBTableEntryIndexName1=cspTotalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">18</r>
+				<r p="2">4</r>
+				<r p="3">42</r>
+				<r p="4">27</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPFV3-MIB_ospfv3IfTable_Group">
+ 			<job jobId="job126"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfv3IfEvents</measType>
+			<measType p="2">ospfv3IfLinkScopeLsaCount</measType>
+			<measValue measObjLdn="MIBname=OSPFV3-MIB,MIBTable=ospfv3IfTable,MIBTableEntryIndexName1=ospfv3IfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">94</r>
+				<r p="2">70</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IGMP-STD-MIB_igmpInterfaceTable_Group">
+ 			<job jobId="job127"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">igmpInterfaceWrongVersionQueries</measType>
+			<measType p="2">igmpInterfaceJoins</measType>
+			<measType p="3">igmpInterfaceGroups</measType>
+			<measValue measObjLdn="MIBname=IGMP-STD-MIB,MIBTable=igmpInterfaceTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SNMP-TARGET-MIB_Global_Group">
+ 			<job jobId="job128"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">snmpUnavailableContexts</measType>
+			<measType p="2">snmpUnknownContexts</measType>
+			<measValue measObjLdn="MIBname=SNMP-TARGET-MIB,MIBTable=Global1">
+				<r p="1">39</r>
+				<r p="2">58</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefSwitchingStatsTable_Group">
+ 			<job jobId="job129"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefSwitchingDrop</measType>
+			<measType p="2">cefSwitchingHCDrop</measType>
+			<measType p="3">cefSwitchingPunt</measType>
+			<measType p="4">cefSwitchingHCPunt</measType>
+			<measType p="5">cefSwitchingPunt2Host</measType>
+			<measType p="6">cefSwitchingHCPunt2Host</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefSwitchingStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=TCP-MIB_Global_Group">
+ 			<job jobId="job130"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">tcpInSegs</measType>
+			<measType p="2">tcpOutSegs</measType>
+			<measType p="3">tcpRetransSegs</measType>
+			<measType p="4">tcpInErrs</measType>
+			<measType p="5">tcpOutRsts</measType>
+			<measType p="6">tcpHCInSegs</measType>
+			<measType p="7">tcpHCOutSegs</measType>
+			<measType p="8">tcpActiveOpens</measType>
+			<measType p="9">tcpPassiveOpens</measType>
+			<measType p="10">tcpAttemptFails</measType>
+			<measType p="11">tcpEstabResets</measType>
+			<measType p="12">tcpCurrEstab</measType>
+			<measValue measObjLdn="MIBname=TCP-MIB,MIBTable=Global1">
+				<r p="1">62</r>
+				<r p="2">92</r>
+				<r p="3">51</r>
+				<r p="4">72</r>
+				<r p="5">41</r>
+				<r p="6">60</r>
+				<r p="7">30</r>
+				<r p="8">36</r>
+				<r p="9">9</r>
+				<r p="10">16</r>
+				<r p="11">74</r>
+				<r p="12">65</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefAdjTable_Group">
+ 			<job jobId="job131"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefAdjPkts</measType>
+			<measType p="2">cefAdjHCPkts</measType>
+			<measType p="3">cefAdjBytes</measType>
+			<measType p="4">cefAdjHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefAdjTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosREDClassStatsTable_Group">
+ 			<job jobId="job132"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosREDECNMarkByte</measType>
+			<measType p="2">cbQosREDECNMarkByte64</measType>
+			<measType p="3">cbQosREDECNMarkByteOverflow</measType>
+			<measType p="4">cbQosREDECNMarkPkt</measType>
+			<measType p="5">cbQosREDECNMarkPkt64</measType>
+			<measType p="6">cbQosREDECNMarkPktOverflow</measType>
+			<measType p="7">cbQosREDRandomDropByte</measType>
+			<measType p="8">cbQosREDRandomDropByte64</measType>
+			<measType p="9">cbQosREDRandomDropByteOverflow</measType>
+			<measType p="10">cbQosREDRandomDropPkt</measType>
+			<measType p="11">cbQosREDRandomDropPkt64</measType>
+			<measType p="12">cbQosREDRandomDropPktOverflow</measType>
+			<measType p="13">cbQosREDTailDropByte</measType>
+			<measType p="14">cbQosREDTailDropByte64</measType>
+			<measType p="15">cbQosREDTailDropByteOverflow</measType>
+			<measType p="16">cbQosREDTailDropPkt</measType>
+			<measType p="17">cbQosREDTailDropPkt64</measType>
+			<measType p="18">cbQosREDTailDropPktOverflow</measType>
+			<measType p="19">cbQosREDTransmitByte</measType>
+			<measType p="20">cbQosREDTransmitByte64</measType>
+			<measType p="21">cbQosREDTransmitByteOverflow</measType>
+			<measType p="22">cbQosREDTransmitPkt</measType>
+			<measType p="23">cbQosREDTransmitPkt64</measType>
+			<measType p="24">cbQosREDTransmitPktOverflow</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosREDClassStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-MPLS-TE-EXT-STD-03-MIB_cmplsTunnelReversePerfTable_Group">
+ 			<job jobId="job133"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cmplsTunnelReversePerfPackets</measType>
+			<measType p="2">cmplsTunnelReversePerfHCPackets</measType>
+			<measType p="3">cmplsTunnelReversePerfErrors</measType>
+			<measType p="4">cmplsTunnelReversePerfBytes</measType>
+			<measType p="5">cmplsTunnelReversePerfHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-MPLS-TE-EXT-STD-03-MIB,MIBTable=cmplsTunnelReversePerfTable,MIBTableEntryIndexName1=cmplsTunnelReversePerfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">17</r>
+				<r p="2">82</r>
+				<r p="3">64</r>
+				<r p="4">78</r>
+				<r p="5">33</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamLmHistoryAvailStatsTable_Group">
+ 			<job jobId="job134"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamLmHistoryAvailStatsForwardAvailable</measType>
+			<measType p="2">mefSoamLmHistoryAvailStatsBackwardAvailable</measType>
+			<measType p="3">mefSoamLmHistoryAvailStatsForwardUnavailable</measType>
+			<measType p="4">mefSoamLmHistoryAvailStatsBackwardUnavailable</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamLmHistoryAvailStatsTable,MIBTableEntryIndexName1=mefSoamLmHistoryAvailStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">48</r>
+				<r p="2">76</r>
+				<r p="3">88</r>
+				<r p="4">58</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BRIDGE-MIB_dot1dTpPortTable_Group">
+ 			<job jobId="job135"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot1dTpPortInFrames</measType>
+			<measType p="2">dot1dTpPortOutFrames</measType>
+			<measType p="3">dot1dTpPortInDiscards</measType>
+			<measValue measObjLdn="MIBname=BRIDGE-MIB,MIBTable=dot1dTpPortTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=EtherLike-MIB_dot3CollTable_Group">
+ 			<job jobId="job136"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3CollFrequencies</measType>
+			<measValue measObjLdn="MIBname=EtherLike-MIB,MIBTable=dot3CollTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-MPLS-TE-P2MP-STD-MIB_cmplsTeP2mpTunnelBranchPerfTable_Group">
+ 			<job jobId="job137"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cmplsTeP2mpTunnelBranchPerfPackets</measType>
+			<measType p="2">cmplsTeP2mpTunnelBranchPerfHCPackets</measType>
+			<measType p="3">cmplsTeP2mpTunnelBranchPerfErrors</measType>
+			<measType p="4">cmplsTeP2mpTunnelBranchPerfBytes</measType>
+			<measType p="5">cmplsTeP2mpTunnelBranchPerfHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-MPLS-TE-P2MP-STD-MIB,MIBTable=cmplsTeP2mpTunnelBranchPerfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-ISIS-MIB_ciiCircuitCounterTable_Group">
+ 			<job jobId="job138"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ciiCircAdjChanges</measType>
+			<measType p="2">ciiCircInitFails</measType>
+			<measType p="3">ciiCircRejAdjs</measType>
+			<measType p="4">ciiCircIDFieldLenMismatches</measType>
+			<measType p="5">ciiCircMaxAreaAddrMismatches</measType>
+			<measType p="6">ciiCircAuthTypeFails</measType>
+			<measType p="7">ciiCircAuthFails</measType>
+			<measType p="8">ciiCircLANDesISChanges</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-ISIS-MIB,MIBTable=ciiCircuitCounterTable,MIBTableEntryIndexName1=ciiCircuitCounterTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">4</r>
+				<r p="2">67</r>
+				<r p="3">81</r>
+				<r p="4">42</r>
+				<r p="5">16</r>
+				<r p="6">17</r>
+				<r p="7">29</r>
+				<r p="8">54</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefResourceTable_Group">
+ 			<job jobId="job139"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefResourceMemoryUsed</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefResourceTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IEEE8023-LAG-MIB_dot3adAggPortStatsTable_Group">
+ 			<job jobId="job140"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot3adAggPortStatsLACPDUsRx</measType>
+			<measType p="2">dot3adAggPortStatsMarkerPDUsRx</measType>
+			<measType p="3">dot3adAggPortStatsMarkerResponsePDUsRx</measType>
+			<measType p="4">dot3adAggPortStatsUnknownRx</measType>
+			<measType p="5">dot3adAggPortStatsIllegalRx</measType>
+			<measType p="6">dot3adAggPortStatsLACPDUsTx</measType>
+			<measType p="7">dot3adAggPortStatsMarkerPDUsTx</measType>
+			<measType p="8">dot3adAggPortStatsMarkerResponsePDUsTx</measType>
+			<measValue measObjLdn="MIBname=IEEE8023-LAG-MIB,MIBTable=dot3adAggPortStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_cospfIfTable_Group">
+ 			<job jobId="job141"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfIfLsaCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=cospfIfTable,MIBTableEntryIndexName1=cospfIfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">49</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-BFD-MIB_ciscoBfdSessPerfTable_Group">
+ 			<job jobId="job142"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ciscoBfdSessPerfPktIn</measType>
+			<measType p="2">ciscoBfdSessPerfPktOut</measType>
+			<measType p="3">ciscoBfdSessPerfSessUpCount</measType>
+			<measType p="4">ciscoBfdSessPerfPktInHC</measType>
+			<measType p="5">ciscoBfdSessPerfPktOutHC</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-BFD-MIB,MIBTable=ciscoBfdSessPerfTable,MIBTableEntryIndexName1=ciscoBfdSessPerfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">41</r>
+				<r p="2">8</r>
+				<r p="3">84</r>
+				<r p="4">23</r>
+				<r p="5">73</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmCPUHistoryTable_Group">
+ 			<job jobId="job143"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmCPUHistoryTotalUtil</measType>
+			<measType p="2">cpmCPUHistoryInterruptUtil</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmCPUHistoryTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ENERGY-OBJECT-MIB_eoPowerStateTable_Group">
+ 			<job jobId="job144"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">eoPowerStateEnterCount</measType>
+			<measValue measObjLdn="MIBname=ENERGY-OBJECT-MIB,MIBTable=eoPowerStateTable,MIBTableEntryIndexName1=eoPowerStateTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">95</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetVTIntervalTable_Group">
+ 			<job jobId="job145"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetVTIntervalESs</measType>
+			<measType p="2">sonetVTIntervalSESs</measType>
+			<measType p="3">sonetVTIntervalCVs</measType>
+			<measType p="4">sonetVTIntervalUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetVTIntervalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IPSLA-ETHERNET-MIB_ipslaEtherJitterAggStatsTable_Group">
+ 			<job jobId="job146"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipslaEtherJAggMeasuredCmpletions</measType>
+			<measType p="2">ipslaEtherJAggMeasuredOvThrshlds</measType>
+			<measType p="3">ipslaEtherJAggMeasuredNumRTTs</measType>
+			<measType p="4">ipslaEtherJAggMeasuredRTTSums</measType>
+			<measType p="5">ipslaEtherJAggMeasuredRTTSum2Ls</measType>
+			<measType p="6">ipslaEtherJAggMeasuredRTTSum2Hs</measType>
+			<measType p="7">ipslaEtherJAggMeasuredRTTMin</measType>
+			<measType p="8">ipslaEtherJAggMeasuredRTTMax</measType>
+			<measType p="9">ipslaEtherJAggMeasuredMinPosSD</measType>
+			<measType p="10">ipslaEtherJAggMeasuredMaxPosSD</measType>
+			<measType p="11">ipslaEtherJAggMeasuredNumPosSDs</measType>
+			<measType p="12">ipslaEtherJAggMeasuredSumPosSDs</measType>
+			<measType p="13">ipslaEtherJAggMeasuredSum2PSDLs</measType>
+			<measType p="14">ipslaEtherJAggMeasuredSum2PSDHs</measType>
+			<measType p="15">ipslaEtherJAggMeasuredMinNegSD</measType>
+			<measType p="16">ipslaEtherJAggMeasuredMaxNegSD</measType>
+			<measType p="17">ipslaEtherJAggMeasuredNumNegSDs</measType>
+			<measType p="18">ipslaEtherJAggMeasuredSumNegSDs</measType>
+			<measType p="19">ipslaEtherJAggMeasuredSum2NSDLs</measType>
+			<measType p="20">ipslaEtherJAggMeasuredSum2NSDHs</measType>
+			<measType p="21">ipslaEtherJAggMeasuredMinPosDS</measType>
+			<measType p="22">ipslaEtherJAggMeasuredMaxPosDS</measType>
+			<measType p="23">ipslaEtherJAggMeasuredNumPosDSes</measType>
+			<measType p="24">ipslaEtherJAggMeasuredSumPosDSes</measType>
+			<measType p="25">ipslaEtherJAggMeasuredSum2PDSLs</measType>
+			<measType p="26">ipslaEtherJAggMeasuredSum2PDSHs</measType>
+			<measType p="27">ipslaEtherJAggMeasuredMinNegDS</measType>
+			<measType p="28">ipslaEtherJAggMeasuredMaxNegDS</measType>
+			<measType p="29">ipslaEtherJAggMeasuredNumNegDSes</measType>
+			<measType p="30">ipslaEtherJAggMeasuredSumNegDSes</measType>
+			<measType p="31">ipslaEtherJAggMeasuredSum2NDSLs</measType>
+			<measType p="32">ipslaEtherJAggMeasuredSum2NDSHs</measType>
+			<measType p="33">ipslaEtherJAggMeasuredFrmLossSDs</measType>
+			<measType p="34">ipslaEtherJAggMeasuredFrmLssDSes</measType>
+			<measType p="35">ipslaEtherJAggMeasuredFrmOutSeqs</measType>
+			<measType p="36">ipslaEtherJAggMeasuredFrmMIAes</measType>
+			<measType p="37">ipslaEtherJAggMeasuredFrmSkippds</measType>
+			<measType p="38">ipslaEtherJAggMeasuredErrors</measType>
+			<measType p="39">ipslaEtherJAggMeasuredBusies</measType>
+			<measType p="40">ipslaEtherJAggMeasuredOWSumSDs</measType>
+			<measType p="41">ipslaEtherJAggMeasuredOWSum2SDLs</measType>
+			<measType p="42">ipslaEtherJAggMeasuredOWSum2SDHs</measType>
+			<measType p="43">ipslaEtherJAggMeasuredOWMinSD</measType>
+			<measType p="44">ipslaEtherJAggMeasuredOWMaxSD</measType>
+			<measType p="45">ipslaEtherJAggMeasuredOWSumDSes</measType>
+			<measType p="46">ipslaEtherJAggMeasuredOWSum2DSLs</measType>
+			<measType p="47">ipslaEtherJAggMeasuredOWSum2DSHs</measType>
+			<measType p="48">ipslaEtherJAggMeasuredOWMinDS</measType>
+			<measType p="49">ipslaEtherJAggMeasuredOWMaxDS</measType>
+			<measType p="50">ipslaEtherJAggMeasuredNumOWs</measType>
+			<measType p="51">ipslaEtherJAggMeasuredAvgJ</measType>
+			<measType p="52">ipslaEtherJAggMeasuredAvgJSD</measType>
+			<measType p="53">ipslaEtherJAggMeasuredAvgJDS</measType>
+			<measType p="54">ipslaEtherJAggMinSucFrmLoss</measType>
+			<measType p="55">ipslaEtherJAggMaxSucFrmLoss</measType>
+			<measType p="56">ipslaEtherJAggMeasuredIAJOut</measType>
+			<measType p="57">ipslaEtherJAggMeasuredIAJIn</measType>
+			<measType p="58">ipslaEtherJAggMeasuredFrmLateAs</measType>
+			<measType p="59">ipslaEtherJAggMeasuredFrmUnPrcds</measType>
+			<measType p="60">ipslaEtherJAggMeasuredMaxPosTW</measType>
+			<measType p="61">ipslaEtherJAggMeasuredMaxNegTW</measType>
+			<measType p="62">ipslaEtherJAggMeasuredMinPosTW</measType>
+			<measType p="63">ipslaEtherJAggMeasuredMinNegTW</measType>
+			<measType p="64">ipslaEtherJAggMeasuredTxFrmsSD</measType>
+			<measType p="65">ipslaEtherJAggMeasuredTxFrmsDS</measType>
+			<measType p="66">ipslaEtherJAggMeasuredRxFrmsSD</measType>
+			<measType p="67">ipslaEtherJAggMeasuredRxFrmsDS</measType>
+			<measType p="68">ipslaEtherJAggMeasuredMinLossNumeratorSD</measType>
+			<measType p="69">ipslaEtherJAggMeasuredMinLossDenominatorSD</measType>
+			<measType p="70">ipslaEtherJAggMeasuredMaxLossNumeratorSD</measType>
+			<measType p="71">ipslaEtherJAggMeasuredMaxLossDenominatorSD</measType>
+			<measType p="72">ipslaEtherJAggMeasuredAvgLossNumeratorSD</measType>
+			<measType p="73">ipslaEtherJAggMeasuredAvgLossDenominatorSD</measType>
+			<measType p="74">ipslaEtherJAggMeasuredMinLossNumeratorDS</measType>
+			<measType p="75">ipslaEtherJAggMeasuredMinLossDenominatorDS</measType>
+			<measType p="76">ipslaEtherJAggMeasuredMaxLossNumeratorDS</measType>
+			<measType p="77">ipslaEtherJAggMeasuredMaxLossDenominatorDS</measType>
+			<measType p="78">ipslaEtherJAggMeasuredAvgLossNumeratorDS</measType>
+			<measType p="79">ipslaEtherJAggMeasuredAvgLossDenominatorDS</measType>
+			<measType p="80">ipslaEtherJAggMeasuredCumulativeLossNumeratorSD</measType>
+			<measType p="81">ipslaEtherJAggMeasuredCumulativeLossDenominatorSD</measType>
+			<measType p="82">ipslaEtherJAggMeasuredCumulativeAvgLossNumeratorSD</measType>
+			<measType p="83">ipslaEtherJAggMeasuredCumulativeAvgLossDenominatorSD</measType>
+			<measType p="84">ipslaEtherJAggMeasuredCumulativeLossNumeratorDS</measType>
+			<measType p="85">ipslaEtherJAggMeasuredCumulativeLossDenominatorDS</measType>
+			<measType p="86">ipslaEtherJAggMeasuredCumulativeAvgLossNumeratorDS</measType>
+			<measType p="87">ipslaEtherJAggMeasuredCumulativeAvgLossDenominatorDS</measType>
+			<measValue measObjLdn="MIBname=CISCO-IPSLA-ETHERNET-MIB,MIBTable=ipslaEtherJitterAggStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-OSPF-MIB_Global_Group">
+ 			<job jobId="job147"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cospfOpaqueASLsaCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-OSPF-MIB,MIBTable=Global1">
+				<r p="1">79</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-L3VPN-STD-MIB_mplsL3VpnVrfSecTable_Group">
+ 			<job jobId="job148"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsL3VpnVrfSecIllegalLblVltns</measType>
+			<measValue measObjLdn="MIBname=MPLS-L3VPN-STD-MIB,MIBTable=mplsL3VpnVrfSecTable,MIBTableEntryIndexName1=mplsL3VpnVrfSecTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">16</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=BRIDGE-MIB_dot1dStpPortTable_Group">
+ 			<job jobId="job149"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">dot1dStpPortForwardTransitions</measType>
+			<measValue measObjLdn="MIBname=BRIDGE-MIB,MIBTable=dot1dStpPortTable,MIBTableEntryIndexName1=dot1dStpPortTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">93</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DS8-MIB_cds3StatsTable_Group">
+ 			<job jobId="job150"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cds3RcvLOSCount</measType>
+			<measType p="2">cds3RcvOOFCount</measType>
+			<measType p="3">cds3RAICount</measType>
+			<measType p="4">cds3CCVCount</measType>
+			<measType p="5">cds3FECount</measType>
+			<measType p="6">cds3EXZSCount</measType>
+			<measType p="7">cds3LCVCount</measType>
+			<measType p="8">cds3PCVCount</measType>
+			<measType p="9">cds3CPECount</measType>
+			<measType p="10">cds3FEBECount</measType>
+			<measType p="11">cds3RcvAISCount</measType>
+			<measValue measObjLdn="MIBname=CISCO-DS8-MIB,MIBTable=cds3StatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=IP-MIB_ipIfStatsTable_Group">
+ 			<job jobId="job151"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ipIfStatsInUnknownProtos</measType>
+			<measType p="2">ipIfStatsInTruncatedPkts</measType>
+			<measType p="3">ipIfStatsInForwDatagrams</measType>
+			<measType p="4">ipIfStatsReasmReqds</measType>
+			<measType p="5">ipIfStatsReasmOKs</measType>
+			<measType p="6">ipIfStatsReasmFails</measType>
+			<measType p="7">ipIfStatsInDiscards</measType>
+			<measType p="8">ipIfStatsInDelivers</measType>
+			<measType p="9">ipIfStatsOutRequests</measType>
+			<measType p="10">ipIfStatsOutForwDatagrams</measType>
+			<measType p="11">ipIfStatsOutDiscards</measType>
+			<measType p="12">ipIfStatsOutFragReqds</measType>
+			<measType p="13">ipIfStatsOutFragOKs</measType>
+			<measType p="14">ipIfStatsOutFragFails</measType>
+			<measType p="15">ipIfStatsOutFragCreates</measType>
+			<measType p="16">ipIfStatsOutTransmits</measType>
+			<measType p="17">ipIfStatsOutOctets</measType>
+			<measType p="18">ipIfStatsInMcastPkts</measType>
+			<measType p="19">ipIfStatsInMcastOctets</measType>
+			<measType p="20">ipIfStatsOutMcastPkts</measType>
+			<measType p="21">ipIfStatsOutMcastOctets</measType>
+			<measType p="22">ipIfStatsInBcastPkts</measType>
+			<measType p="23">ipIfStatsOutBcastPkts</measType>
+			<measType p="24">ipIfStatsInReceives</measType>
+			<measType p="25">ipIfStatsInOctets</measType>
+			<measType p="26">ipIfStatsInHdrErrors</measType>
+			<measType p="27">ipIfStatsInNoRoutes</measType>
+			<measType p="28">ipIfStatsInAddrErrors</measType>
+			<measType p="29">ipIfStatsHCInForwDatagrams</measType>
+			<measType p="30">ipIfStatsHCInDelivers</measType>
+			<measType p="31">ipIfStatsHCOutRequests</measType>
+			<measType p="32">ipIfStatsHCOutForwDatagrams</measType>
+			<measType p="33">ipIfStatsHCOutTransmits</measType>
+			<measType p="34">ipIfStatsHCOutOctets</measType>
+			<measType p="35">ipIfStatsHCInMcastPkts</measType>
+			<measType p="36">ipIfStatsHCInMcastOctets</measType>
+			<measType p="37">ipIfStatsHCOutMcastPkts</measType>
+			<measType p="38">ipIfStatsHCOutMcastOctets</measType>
+			<measType p="39">ipIfStatsHCInBcastPkts</measType>
+			<measType p="40">ipIfStatsHCOutBcastPkts</measType>
+			<measType p="41">ipIfStatsHCInReceives</measType>
+			<measType p="42">ipIfStatsHCInOctets</measType>
+			<measValue measObjLdn="MIBname=IP-MIB,MIBTable=ipIfStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-L3VPN-STD-MIB_mplsL3VpnVrfTable_Group">
+ 			<job jobId="job152"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsL3VpnVrfActiveInterfaces</measType>
+			<measValue measObjLdn="MIBname=MPLS-L3VPN-STD-MIB,MIBTable=mplsL3VpnVrfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_ospfVirtIfTable_Group">
+ 			<job jobId="job153"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfVirtIfLsaCount</measType>
+			<measType p="2">ospfVirtIfEvents</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=ospfVirtIfTable,MIBTableEntryIndexName1=ospfVirtIfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">30</r>
+				<r p="2">26</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-FRR-MIB_cmplsFrrConstTable_Group">
+ 			<job jobId="job154"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cmplsFrrConstNumProtectingTunOnIf</measType>
+			<measType p="2">cmplsFrrConstNumProtectedTunOnIf</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-FRR-MIB,MIBTable=cmplsFrrConstTable,MIBTableEntryIndexName1=cmplsFrrConstTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">53</r>
+				<r p="2">7</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=NOTIFICATION-LOG-MIB_nlmLogVariableTable_Group">
+ 			<job jobId="job155"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">nlmLogVariableCounter32Val</measType>
+			<measType p="2">nlmLogVariableCounter64Val</measType>
+			<measValue measObjLdn="MIBname=NOTIFICATION-LOG-MIB,MIBTable=nlmLogVariableTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-RTP-MIB-MIB_rttMonLatestRtpOperTable_Group">
+ 			<job jobId="job156"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonLatestRtpOperRTT</measType>
+			<measType p="2">rttMonLatestRtpOperIAJitterDS</measType>
+			<measType p="3">rttMonLatestRtpOperPacketLossDS</measType>
+			<measType p="4">rttMonLatestRtpOperPacketLateDS</measType>
+			<measType p="5">rttMonLatestRtpOperPacketEarlyDS</measType>
+			<measType p="6">rttMonLatestRtpOperPacketOOSDS</measType>
+			<measType p="7">rttMonLatestRtpOperFrameLossDS</measType>
+			<measType p="8">rttMonLatestRtpOperRFactorDS</measType>
+			<measType p="9">rttMonLatestRtpOperMOSCQDS</measType>
+			<measType p="10">rttMonLatestRtpOperMOSLQDS</measType>
+			<measType p="11">rttMonLatestRtpOperIAJitterSD</measType>
+			<measType p="12">rttMonLatestRtpOperPacketLossSD</measType>
+			<measType p="13">rttMonLatestRtpOperPacketsMIA</measType>
+			<measType p="14">rttMonLatestRtpOperRFactorSD</measType>
+			<measType p="15">rttMonLatestRtpOperMOSCQSD</measType>
+			<measType p="16">rttMonLatestRtpOperMinOWSD</measType>
+			<measType p="17">rttMonLatestRtpOperMaxOWSD</measType>
+			<measType p="18">rttMonLatestRtpOperAvgOWSD</measType>
+			<measType p="19">rttMonLatestRtpOperMinOWDS</measType>
+			<measType p="20">rttMonLatestRtpOperMaxOWDS</measType>
+			<measType p="21">rttMonLatestRtpOperAvgOWDS</measType>
+			<measType p="22">rttMonLatestRtpOperTotalPaksSD</measType>
+			<measType p="23">rttMonLatestRtpOperTotalPaksDS</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-RTP-MIB-MIB,MIBTable=rttMonLatestRtpOperTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=DISMAN-EXPRESSION-MIB_expExpressionTable_Group">
+ 			<job jobId="job157"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">expExpressionErrors</measType>
+			<measValue measObjLdn="MIBname=DISMAN-EXPRESSION-MIB,MIBTable=expExpressionTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CEF-MIB_cefStatsPrefixLenTable_Group">
+ 			<job jobId="job158"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cefStatsPrefixQueries</measType>
+			<measType p="2">cefStatsPrefixHCQueries</measType>
+			<measType p="3">cefStatsPrefixInserts</measType>
+			<measType p="4">cefStatsPrefixHCInserts</measType>
+			<measType p="5">cefStatsPrefixDeletes</measType>
+			<measType p="6">cefStatsPrefixHCDeletes</measType>
+			<measType p="7">cefStatsPrefixElements</measType>
+			<measType p="8">cefStatsPrefixHCElements</measType>
+			<measValue measObjLdn="MIBname=CISCO-CEF-MIB,MIBTable=cefStatsPrefixLenTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosPoliceColorStatsTable_Group">
+ 			<job jobId="job159"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosPoliceCfmColorCfmBitRate</measType>
+			<measType p="2">cbQosPoliceCfmColorCfmByte64</measType>
+			<measType p="3">cbQosPoliceCfmColorCfmPkt64</measType>
+			<measType p="4">cbQosPoliceCfmColorExdBitRate</measType>
+			<measType p="5">cbQosPoliceCfmColorExdByte64</measType>
+			<measType p="6">cbQosPoliceCfmColorExdPkt64</measType>
+			<measType p="7">cbQosPoliceCfmColorVltBitRate</measType>
+			<measType p="8">cbQosPoliceCfmColorVltByte64</measType>
+			<measType p="9">cbQosPoliceCfmColorVltPkt64</measType>
+			<measType p="10">cbQosPoliceConformedBitRate</measType>
+			<measType p="11">cbQosPoliceConformedBitRate64</measType>
+			<measType p="12">cbQosPoliceConformedByte</measType>
+			<measType p="13">cbQosPoliceConformedByte64</measType>
+			<measType p="14">cbQosPoliceConformedByteOverflow</measType>
+			<measType p="15">cbQosPoliceConformedPkt</measType>
+			<measType p="16">cbQosPoliceConformedPkt64</measType>
+			<measType p="17">cbQosPoliceConformedPktOverflow</measType>
+			<measType p="18">cbQosPoliceExceededBitRate</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosPoliceColorStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-TDM-MIB_cpwCTDMPerf1DayIntervalTable_Group">
+ 			<job jobId="job160"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwCTDMPerf1DayIntervalMissingPkts</measType>
+			<measType p="2">cpwCTDMPerf1DayIntervalPktsReOrder</measType>
+			<measType p="3">cpwCTDMPerf1DayIntervalJtrBfrUnderruns</measType>
+			<measType p="4">cpwCTDMPerf1DayIntervalMisOrderDropped</measType>
+			<measType p="5">cpwCTDMPerf1DayIntervalMalformedPkt</measType>
+			<measType p="6">cpwCTDMPerf1DayIntervalESs</measType>
+			<measType p="7">cpwCTDMPerf1DayIntervalSESs</measType>
+			<measType p="8">cpwCTDMPerf1DayIntervalUASs</measType>
+			<measType p="9">cpwCTDMPerf1DayIntervalFC</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-TDM-MIB,MIBTable=cpwCTDMPerf1DayIntervalTable,MIBTableEntryIndexName1=cpwCTDMPerf1DayIntervalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">83</r>
+				<r p="2">88</r>
+				<r p="3">39</r>
+				<r p="4">64</r>
+				<r p="5">73</r>
+				<r p="6">85</r>
+				<r p="7">7</r>
+				<r p="8">78</r>
+				<r p="9">43</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-TDM-MIB_cpwCTDMPerfIntervalTable_Group">
+ 			<job jobId="job161"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwCTDMPerfIntervalMissingPkts</measType>
+			<measType p="2">cpwCTDMPerfIntervalPktsReOrder</measType>
+			<measType p="3">cpwCTDMPerfIntervalJtrBfrUnderruns</measType>
+			<measType p="4">cpwCTDMPerfIntervalMisOrderDropped</measType>
+			<measType p="5">cpwCTDMPerfIntervalMalformedPkt</measType>
+			<measType p="6">cpwCTDMPerfIntervalESs</measType>
+			<measType p="7">cpwCTDMPerfIntervalSESs</measType>
+			<measType p="8">cpwCTDMPerfIntervalUASs</measType>
+			<measType p="9">cpwCTDMPerfIntervalFC</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-TDM-MIB,MIBTable=cpwCTDMPerfIntervalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DS5-MIB_cds3IntervalTable_Group">
+ 			<job jobId="job162"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cds3IntervalLSESs</measType>
+			<measValue measObjLdn="MIBname=CISCO-DS5-MIB,MIBTable=cds3IntervalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SNMP-MPD-MIB_Global_Group">
+ 			<job jobId="job163"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">snmpUnknownSecurityModels</measType>
+			<measType p="2">snmpInvalidMsgs</measType>
+			<measType p="3">snmpUnknownPDUHandlers</measType>
+			<measValue measObjLdn="MIBname=SNMP-MPD-MIB,MIBTable=Global1">
+				<r p="1">26</r>
+				<r p="2">65</r>
+				<r p="3">25</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SNMP-USER-BASED-SM-MIB_Global_Group">
+ 			<job jobId="job164"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">usmStatsUnsupportedSecLevels</measType>
+			<measType p="2">usmStatsNotInTimeWindows</measType>
+			<measType p="3">usmStatsUnknownUserNames</measType>
+			<measType p="4">usmStatsUnknownEngineIDs</measType>
+			<measType p="5">usmStatsWrongDigests</measType>
+			<measType p="6">usmStatsDecryptionErrors</measType>
+			<measValue measObjLdn="MIBname=SNMP-USER-BASED-SM-MIB,MIBTable=Global1">
+				<r p="1">42</r>
+				<r p="2">99</r>
+				<r p="3">82</r>
+				<r p="4">11</r>
+				<r p="5">41</r>
+				<r p="6">96</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosQueueingStatsTable_Group">
+ 			<job jobId="job165"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosQueueingCurrentQDepth</measType>
+			<measType p="2">cbQosQueueingCurrentQDepthPkt</measType>
+			<measType p="3">cbQosQueueingDiscardByte</measType>
+			<measType p="4">cbQosQueueingDiscardByte64</measType>
+			<measType p="5">cbQosQueueingDiscardByteOverflow</measType>
+			<measType p="6">cbQosQueueingDiscardPkt</measType>
+			<measType p="7">cbQosQueueingDiscardPkt64</measType>
+			<measType p="8">cbQosQueueingDiscardPktOverflow</measType>
+			<measType p="9">cbQosQueueingMaxQDepth</measType>
+			<measType p="10">cbQosQueueingMaxQDepthPkt</measType>
+			<measType p="11">cbQosQueueingTransmitByte64</measType>
+			<measType p="12">cbQosQueueingTransmitPkt64</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosQueueingStatsTable,MIBTableEntryIndexName1=cbQosQueueingStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">77</r>
+				<r p="2">17</r>
+				<r p="3">15</r>
+				<r p="4">63</r>
+				<r p="5">11</r>
+				<r p="6">99</r>
+				<r p="7">88</r>
+				<r p="8">73</r>
+				<r p="9">79</r>
+				<r p="10">73</r>
+				<r p="11">29</r>
+				<r p="12">73</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-RTP-MIB-MIB_rttMonRtpStatsTable_Group">
+ 			<job jobId="job166"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonRtpStatsRTTAvg</measType>
+			<measType p="2">rttMonRtpStatsRTTMin</measType>
+			<measType p="3">rttMonRtpStatsRTTMax</measType>
+			<measType p="4">rttMonRtpStatsIAJitterDSAvg</measType>
+			<measType p="5">rttMonRtpStatsIAJitterDSMin</measType>
+			<measType p="6">rttMonRtpStatsIAJitterDSMax</measType>
+			<measType p="7">rttMonRtpStatsPacketLossDSAvg</measType>
+			<measType p="8">rttMonRtpStatsPacketLossDSMin</measType>
+			<measType p="9">rttMonRtpStatsPacketLossDSMax</measType>
+			<measType p="10">rttMonRtpStatsPacketLateDSAvg</measType>
+			<measType p="11">rttMonRtpStatsPacketEarlyDSAvg</measType>
+			<measType p="12">rttMonRtpStatsPacketOOSDSAvg</measType>
+			<measType p="13">rttMonRtpStatsFrameLossDSAvg</measType>
+			<measType p="14">rttMonRtpStatsFrameLossDSMin</measType>
+			<measType p="15">rttMonRtpStatsFrameLossDSMax</measType>
+			<measType p="16">rttMonRtpStatsRFactorDSAvg</measType>
+			<measType p="17">rttMonRtpStatsRFactorDSMin</measType>
+			<measType p="18">rttMonRtpStatsRFactorDSMax</measType>
+			<measType p="19">rttMonRtpStatsMOSCQDSAvg</measType>
+			<measType p="20">rttMonRtpStatsMOSCQDSMin</measType>
+			<measType p="21">rttMonRtpStatsMOSCQDSMax</measType>
+			<measType p="22">rttMonRtpStatsMOSLQDSAvg</measType>
+			<measType p="23">rttMonRtpStatsMOSLQDSMin</measType>
+			<measType p="24">rttMonRtpStatsMOSLQDSMax</measType>
+			<measType p="25">rttMonRtpStatsIAJitterSDAvg</measType>
+			<measType p="26">rttMonRtpStatsIAJitterSDMin</measType>
+			<measType p="27">rttMonRtpStatsIAJitterSDMax</measType>
+			<measType p="28">rttMonRtpStatsPacketLossSDAvg</measType>
+			<measType p="29">rttMonRtpStatsPacketLossSDMin</measType>
+			<measType p="30">rttMonRtpStatsPacketLossSDMax</measType>
+			<measType p="31">rttMonRtpStatsPacketsMIAAvg</measType>
+			<measType p="32">rttMonRtpStatsRFactorSDAvg</measType>
+			<measType p="33">rttMonRtpStatsRFactorSDMin</measType>
+			<measType p="34">rttMonRtpStatsRFactorSDMax</measType>
+			<measType p="35">rttMonRtpStatsMOSCQSDAvg</measType>
+			<measType p="36">rttMonRtpStatsMOSCQSDMin</measType>
+			<measType p="37">rttMonRtpStatsMOSCQSDMax</measType>
+			<measType p="38">rttMonRtpStatsOperAvgOWSD</measType>
+			<measType p="39">rttMonRtpStatsOperMinOWSD</measType>
+			<measType p="40">rttMonRtpStatsOperMaxOWSD</measType>
+			<measType p="41">rttMonRtpStatsOperAvgOWDS</measType>
+			<measType p="42">rttMonRtpStatsOperMinOWDS</measType>
+			<measType p="43">rttMonRtpStatsOperMaxOWDS</measType>
+			<measType p="44">rttMonRtpStatsTotalPacketsSDAvg</measType>
+			<measType p="45">rttMonRtpStatsTotalPacketsSDMin</measType>
+			<measType p="46">rttMonRtpStatsTotalPacketsSDMax</measType>
+			<measType p="47">rttMonRtpStatsTotalPacketsDSAvg</measType>
+			<measType p="48">rttMonRtpStatsTotalPacketsDSMax</measType>
+			<measType p="49">rttMonRtpStatsTotalPacketsDSMin</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-RTP-MIB-MIB,MIBTable=rttMonRtpStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-TE-STD-MIB_mplsTunnelTable_Group">
+ 			<job jobId="job167"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsTunnelPathChanges</measType>
+			<measType p="2">mplsTunnelStateTransitions</measType>
+			<measValue measObjLdn="MIBname=MPLS-TE-STD-MIB,MIBTable=mplsTunnelTable,MIBTableEntryIndexName1=mplsTunnelTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">19</r>
+				<r p="2">92</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MPLS-VPN-MIB_mplsVpnVrfPerfTable_Group">
+ 			<job jobId="job168"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mplsVpnVrfPerfRoutesAdded</measType>
+			<measType p="2">mplsVpnVrfPerfRoutesDeleted</measType>
+			<measValue measObjLdn="MIBname=MPLS-VPN-MIB,MIBTable=mplsVpnVrfPerfTable,MIBTableEntryIndexName1=mplsVpnVrfPerfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">16</r>
+				<r p="2">74</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmCoreTable_Group">
+ 			<job jobId="job169"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmCore5sec</measType>
+			<measType p="2">cpmCore1min</measType>
+			<measType p="3">cpmCore5min</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmCoreTable,MIBTableEntryIndexName1=cpmCoreTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">22</r>
+				<r p="2">34</r>
+				<r p="3">91</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosTSStatsTable_Group">
+ 			<job jobId="job170"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosTSStatsCurrentQSize</measType>
+			<measType p="2">cbQosTSStatsDelayedByte</measType>
+			<measType p="3">cbQosTSStatsDelayedByte64</measType>
+			<measType p="4">cbQosTSStatsDelayedByteOverflow</measType>
+			<measType p="5">cbQosTSStatsDelayedPkt</measType>
+			<measType p="6">cbQosTSStatsDelayedPkt64</measType>
+			<measType p="7">cbQosTSStatsDelayedPktOverflow</measType>
+			<measType p="8">cbQosTSStatsDropByte</measType>
+			<measType p="9">cbQosTSStatsDropByte64</measType>
+			<measType p="10">cbQosTSStatsDropByteOverflow</measType>
+			<measType p="11">cbQosTSStatsDropPkt</measType>
+			<measType p="12">cbQosTSStatsDropPkt64</measType>
+			<measType p="13">cbQosTSStatsDropPktOverflow</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosTSStatsTable,MIBTableEntryIndexName1=cbQosTSStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">58</r>
+				<r p="2">57</r>
+				<r p="3">93</r>
+				<r p="4">94</r>
+				<r p="5">19</r>
+				<r p="6">43</r>
+				<r p="7">48</r>
+				<r p="8">92</r>
+				<r p="9">80</r>
+				<r p="10">31</r>
+				<r p="11">69</r>
+				<r p="12">34</r>
+				<r p="13">27</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPFV3-MIB_ospfv3VirtNbrTable_Group">
+ 			<job jobId="job171"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfv3VirtNbrLsRetransQLen</measType>
+			<measType p="2">ospfv3VirtNbrEvents</measType>
+			<measValue measObjLdn="MIBname=OSPFV3-MIB,MIBTable=ospfv3VirtNbrTable,MIBTableEntryIndexName1=ospfv3VirtNbrTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">40</r>
+				<r p="2">20</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-CLASS-BASED-QOS-MIB_cbQosCMStatsTable_Group">
+ 			<job jobId="job172"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cbQosCMDropBitRate</measType>
+			<measType p="2">cbQosCMDropBitRate64</measType>
+			<measType p="3">cbQosCMDropByte</measType>
+			<measType p="4">cbQosCMDropByte64</measType>
+			<measType p="5">cbQosCMDropByteOverflow</measType>
+			<measType p="6">cbQosCMDropPkt</measType>
+			<measType p="7">cbQosCMDropPkt64</measType>
+			<measType p="8">cbQosCMDropPktOverflow</measType>
+			<measType p="9">cbQosCMFragmentByte</measType>
+			<measType p="10">cbQosCMFragmentByte64</measType>
+			<measType p="11">cbQosCMFragmentByteOverflow</measType>
+			<measType p="12">cbQosCMFragmentPkt</measType>
+			<measType p="13">cbQosCMFragmentPkt64</measType>
+			<measType p="14">cbQosCMFragmentPktOverflow</measType>
+			<measType p="15">cbQosCMNoBufDropPkt</measType>
+			<measType p="16">cbQosCMNoBufDropPkt64</measType>
+			<measType p="17">cbQosCMNoBufDropPktOverflow</measType>
+			<measType p="18">cbQosCMPostPolicyBitRate</measType>
+			<measType p="19">cbQosCMPostPolicyBitRate64</measType>
+			<measType p="20">cbQosCMPostPolicyByte</measType>
+			<measType p="21">cbQosCMPostPolicyByte64</measType>
+			<measType p="22">cbQosCMPostPolicyByteOverflow</measType>
+			<measType p="23">cbQosCMPrePolicyBitRate</measType>
+			<measType p="24">cbQosCMPrePolicyBitRate64</measType>
+			<measType p="25">cbQosCMPrePolicyByte</measType>
+			<measType p="26">cbQosCMPrePolicyByte64</measType>
+			<measType p="27">cbQosCMPrePolicyByteOverflow</measType>
+			<measType p="28">cbQosCMPrePolicyPkt</measType>
+			<measType p="29">cbQosCMPrePolicyPkt64</measType>
+			<measType p="30">cbQosCMPrePolicyPktOverflow</measType>
+			<measValue measObjLdn="MIBname=CISCO-CLASS-BASED-QOS-MIB,MIBTable=cbQosCMStatsTable,MIBTableEntryIndexName1=cbQosCMStatsTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">7</r>
+				<r p="2">30</r>
+				<r p="3">26</r>
+				<r p="4">56</r>
+				<r p="5">20</r>
+				<r p="6">58</r>
+				<r p="7">10</r>
+				<r p="8">47</r>
+				<r p="9">8</r>
+				<r p="10">78</r>
+				<r p="11">4</r>
+				<r p="12">3</r>
+				<r p="13">60</r>
+				<r p="14">74</r>
+				<r p="15">20</r>
+				<r p="16">62</r>
+				<r p="17">24</r>
+				<r p="18">23</r>
+				<r p="19">15</r>
+				<r p="20">81</r>
+				<r p="21">49</r>
+				<r p="22">86</r>
+				<r p="23">87</r>
+				<r p="24">60</r>
+				<r p="25">21</r>
+				<r p="26">62</r>
+				<r p="27">53</r>
+				<r p="28">77</r>
+				<r p="29">88</r>
+				<r p="30">22</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetFarEndLineCurrentTable_Group">
+ 			<job jobId="job173"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetFarEndLineCurrentESs</measType>
+			<measType p="2">sonetFarEndLineCurrentSESs</measType>
+			<measType p="3">sonetFarEndLineCurrentCVs</measType>
+			<measType p="4">sonetFarEndLineCurrentUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetFarEndLineCurrentTable,MIBTableEntryIndexName1=sonetFarEndLineCurrentTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">91</r>
+				<r p="2">94</r>
+				<r p="3">94</r>
+				<r p="4">79</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=RSVP-MIB_rsvpIfTable_Group">
+ 			<job jobId="job174"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rsvpIfUdpNbrs</measType>
+			<measType p="2">rsvpIfIpNbrs</measType>
+			<measType p="3">rsvpIfNbrs</measType>
+			<measValue measObjLdn="MIBname=RSVP-MIB,MIBTable=rsvpIfTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SNMPv2-MIB_Global_Group">
+ 			<job jobId="job175"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">snmpInPkts</measType>
+			<measType p="2">snmpInBadVersions</measType>
+			<measType p="3">snmpInBadCommunityNames</measType>
+			<measType p="4">snmpInBadCommunityUses</measType>
+			<measType p="5">snmpInASNParseErrs</measType>
+			<measType p="6">snmpSilentDrops</measType>
+			<measType p="7">snmpProxyDrops</measType>
+			<measValue measObjLdn="MIBname=SNMPv2-MIB,MIBTable=Global1">
+				<r p="1">53</r>
+				<r p="2">17</r>
+				<r p="3">4</r>
+				<r p="4">6</r>
+				<r p="5">43</r>
+				<r p="6">52</r>
+				<r p="7">85</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-PROCESS-MIB_cpmVirtualProcessTable_Group">
+ 			<job jobId="job176"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpmVirtualProcessUtil5Sec</measType>
+			<measType p="2">cpmVirtualProcessUtil1Min</measType>
+			<measType p="3">cpmVirtualProcessUtil5Min</measType>
+			<measType p="4">cpmVirtualProcessMemAllocated</measType>
+			<measType p="5">cpmVirtualProcessMemFreed</measType>
+			<measType p="6">cpmVirtualProcessInvokeCount</measType>
+			<measType p="7">cpmVirtualProcessRuntime</measType>
+			<measType p="8">cpmVirtualProcessMemAllocatedOvrflw</measType>
+			<measType p="9">cpmVirtualProcessHCMemAllocated</measType>
+			<measType p="10">cpmVirtualProcessMemFreedOvrflw</measType>
+			<measType p="11">cpmVirtualProcessHCMemFreed</measType>
+			<measValue measObjLdn="MIBname=CISCO-PROCESS-MIB,MIBTable=cpmVirtualProcessTable,MIBTableEntryIndexName1=cpmVirtualProcessTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">24</r>
+				<r p="2">3</r>
+				<r p="3">9</r>
+				<r p="4">52</r>
+				<r p="5">62</r>
+				<r p="6">83</r>
+				<r p="7">59</r>
+				<r p="8">72</r>
+				<r p="9">19</r>
+				<r p="10">21</r>
+				<r p="11">96</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonCtrlOperTable_Group">
+ 			<job jobId="job177"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonCtrlOperOctetsInUse</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonCtrlOperTable,MIBTableEntryIndexName1=rttMonCtrlOperTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">11</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetFarEndPathIntervalTable_Group">
+ 			<job jobId="job178"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetFarEndPathIntervalESs</measType>
+			<measType p="2">sonetFarEndPathIntervalSESs</measType>
+			<measType p="3">sonetFarEndPathIntervalCVs</measType>
+			<measType p="4">sonetFarEndPathIntervalUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetFarEndPathIntervalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetFarEndVTCurrentTable_Group">
+ 			<job jobId="job179"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetFarEndVTCurrentESs</measType>
+			<measType p="2">sonetFarEndVTCurrentSESs</measType>
+			<measType p="3">sonetFarEndVTCurrentCVs</measType>
+			<measType p="4">sonetFarEndVTCurrentUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetFarEndVTCurrentTable,MIBTableEntryIndexName1=sonetFarEndVTCurrentTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">68</r>
+				<r p="2">85</r>
+				<r p="3">65</r>
+				<r p="4">3</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ISIS-MIB_isisCircuitCounterTable_Group">
+ 			<job jobId="job180"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">isisCircAdjChanges</measType>
+			<measType p="2">isisCircInitFails</measType>
+			<measType p="3">isisCircRejAdjs</measType>
+			<measType p="4">isisCircIDFieldLenMismatches</measType>
+			<measType p="5">isisCircMaxAreaAddrMismatches</measType>
+			<measType p="6">isisCircAuthTypeFails</measType>
+			<measType p="7">isisCircAuthFails</measType>
+			<measType p="8">isisCircLANDesISChanges</measType>
+			<measValue measObjLdn="MIBname=ISIS-MIB,MIBTable=isisCircuitCounterTable,MIBTableEntryIndexName1=isisCircuitCounterTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">26</r>
+				<r p="2">17</r>
+				<r p="3">52</r>
+				<r p="4">93</r>
+				<r p="5">25</r>
+				<r p="6">81</r>
+				<r p="7">15</r>
+				<r p="8">51</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-DS3-MIB_cds3AlarmPlcpTable_Group">
+ 			<job jobId="job181"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cds3PlcpBip8CVCurrent</measType>
+			<measType p="2">cds3PlcpBip8CV24HrBucket</measType>
+			<measType p="3">cds3PlcpBip8ESCurrent</measType>
+			<measType p="4">cds3PlcpBip8ES24HrBucket</measType>
+			<measType p="5">cds3PlcpBip8SESCurrent</measType>
+			<measType p="6">cds3PlcpBip8SES24HrBucket</measType>
+			<measType p="7">cds3PlcpSEFSCurrent</measType>
+			<measType p="8">cds3PlcpSEFS24HrBucket</measType>
+			<measType p="9">cds3PlcpUASCurrent</measType>
+			<measType p="10">cds3PlcpUAS24HrBucket</measType>
+			<measValue measObjLdn="MIBname=CISCO-DS3-MIB,MIBTable=cds3AlarmPlcpTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_ospfIfTable_Group">
+ 			<job jobId="job182"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfIfEvents</measType>
+			<measType p="2">ospfIfLsaCount</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=ospfIfTable,MIBTableEntryIndexName1=ospfIfTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">60</r>
+				<r p="2">39</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=MEF-SOAM-PM-MIB_mefSoamLmCurrentStatsTable_Group">
+ 			<job jobId="job183"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">mefSoamLmCurrentStatsForwardTransmittedFrames</measType>
+			<measType p="2">mefSoamLmCurrentStatsForwardReceivedFrames</measType>
+			<measType p="3">mefSoamLmCurrentStatsBackwardTransmittedFrames</measType>
+			<measType p="4">mefSoamLmCurrentStatsBackwardReceivedFrames</measType>
+			<measType p="5">mefSoamLmCurrentStatsSoamPdusSent</measType>
+			<measType p="6">mefSoamLmCurrentStatsSoamPdusReceived</measType>
+			<measValue measObjLdn="MIBname=MEF-SOAM-PM-MIB,MIBTable=mefSoamLmCurrentStatsTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=SONET-MIB_sonetFarEndVTIntervalTable_Group">
+ 			<job jobId="job184"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">sonetFarEndVTIntervalESs</measType>
+			<measType p="2">sonetFarEndVTIntervalSESs</measType>
+			<measType p="3">sonetFarEndVTIntervalCVs</measType>
+			<measType p="4">sonetFarEndVTIntervalUASs</measType>
+			<measValue measObjLdn="MIBname=SONET-MIB,MIBTable=sonetFarEndVTIntervalTable,MIBTableEntryIndexName1=sonetFarEndVTIntervalTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">73</r>
+				<r p="2">38</r>
+				<r p="3">12</r>
+				<r p="4">51</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-RTTMON-MIB_rttMonHistoryCollectionTable_Group">
+ 			<job jobId="job185"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">rttMonHistoryCollectionCompletionTime</measType>
+			<measValue measObjLdn="MIBname=CISCO-RTTMON-MIB,MIBTable=rttMonHistoryCollectionTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=INTEGRATED-SERVICES-MIB_intSrvFlowTable_Group">
+ 			<job jobId="job186"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">intSrvFlowBestEffort</measType>
+			<measType p="2">intSrvFlowPoliced</measType>
+			<measValue measObjLdn="MIBname=INTEGRATED-SERVICES-MIB,MIBTable=intSrvFlowTable,MIBTableEntryIndexName1=intSrvFlowTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">0</r>
+				<r p="2">28</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ISIS-MIB_isisSystemCounterTable_Group">
+ 			<job jobId="job187"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">isisSysStatCorrLSPs</measType>
+			<measType p="2">isisSysStatAuthTypeFails</measType>
+			<measType p="3">isisSysStatAuthFails</measType>
+			<measType p="4">isisSysStatLSPDbaseOloads</measType>
+			<measType p="5">isisSysStatManAddrDropFromAreas</measType>
+			<measType p="6">isisSysStatAttmptToExMaxSeqNums</measType>
+			<measType p="7">isisSysStatSeqNumSkips</measType>
+			<measType p="8">isisSysStatOwnLSPPurges</measType>
+			<measType p="9">isisSysStatIDFieldLenMismatches</measType>
+			<measType p="10">isisSysStatPartChanges</measType>
+			<measType p="11">isisSysStatSPFRuns</measType>
+			<measType p="12">isisSysStatLSPErrors</measType>
+			<measValue measObjLdn="MIBname=ISIS-MIB,MIBTable=isisSystemCounterTable,MIBTableEntryIndexName1=isisSystemCounterTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">23</r>
+				<r p="2">93</r>
+				<r p="3">33</r>
+				<r p="4">46</r>
+				<r p="5">59</r>
+				<r p="6">24</r>
+				<r p="7">52</r>
+				<r p="8">81</r>
+				<r p="9">10</r>
+				<r p="10">49</r>
+				<r p="11">21</r>
+				<r p="12">87</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=CISCO-IETF-PW-MIB_cpwVcPerfTotalTable_Group">
+ 			<job jobId="job188"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">cpwVcPerfTotalInHCPackets</measType>
+			<measType p="2">cpwVcPerfTotalInHCBytes</measType>
+			<measType p="3">cpwVcPerfTotalOutHCPackets</measType>
+			<measType p="4">cpwVcPerfTotalOutHCBytes</measType>
+			<measValue measObjLdn="MIBname=CISCO-IETF-PW-MIB,MIBTable=cpwVcPerfTotalTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=OSPF-MIB_ospfAreaLsaCountTable_Group">
+ 			<job jobId="job189"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ospfAreaLsaCountNumber</measType>
+			<measValue measObjLdn="MIBname=OSPF-MIB,MIBTable=ospfAreaLsaCountTable,MIBTableEntryIndexName1=ospfAreaLsaCountTableIndex,MIBTableEntryIndexValue1=1">
+				<r p="1">42</r>
+			</measValue>
+		</measInfo>
+<measInfo measInfoId="Pm=1,PmGroup=ISIS-MIB_isisPacketCounterTable_Group">
+ 			<job jobId="job190"/>
+			<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">isisPacketCountIIHello</measType>
+			<measType p="2">isisPacketCountISHello</measType>
+			<measType p="3">isisPacketCountESHello</measType>
+			<measType p="4">isisPacketCountLSP</measType>
+			<measType p="5">isisPacketCountCSNP</measType>
+			<measType p="6">isisPacketCountPSNP</measType>
+			<measType p="7">isisPacketCountUnknown</measType>
+			<measValue measObjLdn="MIBname=ISIS-MIB,MIBTable=isisPacketCounterTable,ErrorCode=Error: No data available for oids">
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00Z"/>
+	</fileFooter>
+</measCollecFile>

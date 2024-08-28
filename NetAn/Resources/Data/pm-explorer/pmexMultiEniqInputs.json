@@ -1,0 +1,17 @@
+{ 
+    "TC01": { "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Node" : "ERBS1",
+              "Node_Collection": "NODE",
+              "Object_Aggregation": "No Aggregation",
+              "Time_selector" : "last12Hours",
+              "Aggregation" : "HOUR",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Measure" : "Available PUCCH ACK NACK PRB in Uplink"
+            }
+}

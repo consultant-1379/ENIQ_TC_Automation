@@ -1,0 +1,19 @@
+*** Variables ***
+${HypervisorFQHN}		ieatrcxb6795.athtem.eei.ericsson.se
+${HypervisorPassword}	shroot
+${HypervisorPatch}		CH82ECU1
+${CCSIpAddress}         10.45.192.11			
+${CCSFQHN}				atrcxb2964-2.athtem.eei.ericsson.se
+${ADDSHostname}         atrcxb2964-1			
+${CCSHostname}          atrcxb2964-2			
+${VDAHostname}          atrcxb2964-4			
+${ADDSPassword}         Shroot12	
+${CCSPassword}          Shroot12			
+${VDAPassword}          Shroot12			
+${XC_Hostname}          ieatrcx3956-1        
+${XC_Password}          Shroot123
+${CCS_II_Path}          "C:\\OCS\\install_config\\CCS_config\\CCS_config_log.log"
+${CCS_Upg_Path}         "C:\\OCS\\upgrade_config\\CCS_upgrade_config\\ccs_upgrade_log.log"
+${NetBIOS}              ATHTEM29
+${CTX_Username}         Administrator
+${CTX_Password}         Shroot12

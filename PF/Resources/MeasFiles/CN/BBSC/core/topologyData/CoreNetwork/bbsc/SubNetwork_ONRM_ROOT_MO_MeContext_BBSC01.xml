@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Sep 12 08:10:00 BST 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,MeContext=BBSC01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,MeContext=BBSC01" mimName="ONRM" mimVersion="13.2.4" lastModified="1694502600300">
+ <attr name="sourceType">
+   <seq count="1">
+    <item>CBA</item>
+   </seq>
+ </attr>
+ <attr name="ManagedElementId">BBSC01</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSRNC05RBS05</attr>
+ <attr name="managedElementType">
+   <seq count="1">
+    <item>BBSC</item>
+   </seq>
+ </attr>
+ <attr name="nodeVersion">15A</attr>
+ <attr name="userLabel">BBSC01</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

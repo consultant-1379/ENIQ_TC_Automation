@@ -1,0 +1,3 @@
+sourceType|sourceFDN|targetUserLabel|targetFDN
+CUDB|SubNetwork=ONRM_ROOT_MO,ManagedElement=CUDB01|cudbsys01|SubNetwork=ONRM_ROOT_MO,Group=cudbsys01
+CUDB|SubNetwork=ONRM_ROOT_MO,ManagedElement=CUDB02|cudbsys02|Pool=cudbsys02

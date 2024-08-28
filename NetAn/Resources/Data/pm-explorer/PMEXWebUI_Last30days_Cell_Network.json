@@ -1,0 +1,72 @@
+{ 	
+	"TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Cell",
+              "Measure_type":"FLEX_COUNTER",
+              "Measure":"PMEBSUECTXTESTABFAILADMISSION.DC_E_NR_EVENTS_NRCELLCU_FLEX_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC02": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Cell",
+              "Measure_type":"COUNTER",
+              "Measure":"PMMACVOLULRESUELATE.DC_E_NR_NRCELLDU_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC03": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Cell",
+              "Measure_type":"PDF_COUNTER",
+              "Measure":"pmRlcDelayPktTransmitDlQos.DC_E_NR_NRCELLDU_V_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC04": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Cell",
+              "Measure_type":"RI",
+              "Measure":"Average NR EN-DC RRC Connected Users per cell (x/y) - NRCellCU",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC05": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Cell",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"SCG Active Radio Resource Retainability considering EN-DC connectivity, Captured in gNodeB",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }				
+}

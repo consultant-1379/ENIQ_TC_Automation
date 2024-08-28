@@ -1,0 +1,10 @@
+{
+ "SBG": "select TOP 1 MeasureValue from DC_CV_IMSGW_SBG_RAW where UTC_DATETIME_ID=@time and NODE_NAME=@node and MEASURED_OBJECT = @measuredObject and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name ) order by MeasureValue",
+ "MTAS": "select TOP 1 MeasureValue from DC_CV_MTAS_MTAS_RAW where UTC_DATETIME_ID=@time and ROWSTATUS='LOADED' and NODE_NAME=@node and MEASURED_OBJECT = @measuredObject and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name ) order by MeasureValue",
+ "GGSN": "select TOP 1 MeasureValue from DC_CV_GGSN_PGW_RAW where UTC_DATETIME_ID=@time and ROWSTATUS='LOADED' and NODE_NAME=@node and MEASURED_OBJECT = @measuredObject and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name ) order by MeasureValue",
+ "ERBS_V_RAW": "select TOP 1 MeasureValue from DC_CV_ERBS_EUTRANCELL_V_RAW where UTC_DATETIME_ID=@time AND NODE_NAME=@node AND DCVECTOR_INDEX=1 and CELL_FDN=@cell_fdn and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name ) order by MeasureValue",
+ "MSC": "select TOP 1 MeasureValue from DC_CV_CNAXE_MSC_RAW where UTC_DATETIME_ID=@time and NODE_NAME=@node and MEASURED_OBJECT = @measuredObject and MEASURE_ID in ( SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name  ) order by MeasureValue",
+ "SGSN": "select TOP 1 MeasureValue from DC_CV_SGSN_MME_RAW where UTC_DATETIME_ID=@time and NODE_NAME=@node and MEASURED_OBJECT = @measuredObject and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name) order by MeasureValue",
+ "ERBS": "select MeasureValue from DC_CV_ERBS_EUTRANCELL_RAW where UTC_DATETIME_ID=@time AND NODE_NAME=@node and CELL_FDN=@cell_fdn and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name) order by MeasureValue",
+ "CSCF": "select TOP 1 MeasureValue from DC_CV_CSCF_CSCF_RAW where UTC_DATETIME_ID=@time and NODE_NAME=@node and MEASURED_OBJECT = @measuredObject and MEASURE_ID in (SELECT MEASURE_ID FROM DIM_CV_MEASURE where MEASURE_NAME=@name) order by MeasureValue"
+}

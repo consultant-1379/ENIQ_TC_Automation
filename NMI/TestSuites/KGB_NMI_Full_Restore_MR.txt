@@ -1,0 +1,8 @@
+#NMI/TestCases/Restore/OMBS_Full_Restore_MB.robot
+NMI/TestCases/Restore/NMI_OMBS_Full_Restore_MB_TC57.robot
+#NMI/TestCases/Server_Sanity/Server_Sanity_MB.robot
+NMI/TestCases/Server_Sanity/NMI_Server_Sanity_MB_TC128.robot
+#NMI/TestCases/Common/Verify_ENIQ_Services_on_MB.robot
+#NMI/TestCases/Common/Verify_Password_Policy.robot
+NMI/TestCases/Common/NMI_Verify_ENIQ_Services_on_MB_TC13.robot
+NMI/TestCases/Common/NMI_Verify_Password_Policy_TC17.robot

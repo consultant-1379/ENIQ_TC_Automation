@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="DC=cims.corp.telstra.com,g3SubNetwork=AU,g3ManagedElement=NNW9" fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+		<fileSender/>
+		<measCollec beginTime="2023-11-08T10:00:00Z"/>
+	</fileHeader>
+	<measData>
+		<managedElement localDn="ALL=1,PGM=1,Wuigm=wuigm.pm.totalAPRequestsCounter"/>
+		<measInfo>
+			<job jobId="PGM_WUIGM_PM_Job"/>
+			<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">wuigmTotalApRequests</measType>
+			<measValue measObjLdn="LDN">"
+				<r p="1">17</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<measData>
+		<managedElement localDn="ALL=1,PGM=1,Wuigm=wuigm.pm.totalIncomingRequests"/>
+		<measInfo>
+			<job jobId="PGM_WUIGM_PM_Job"/>
+			<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">wuigmTotalIncomingRequests</measType>
+			<measValue measObjLdn="LDN">"
+				<r p="1">64</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<measData>
+		<managedElement localDn="ALL=1,PGM=1,Wuigm=wuigm.pm.currentLoggedOnUserCounter"/>
+		<measInfo>
+			<job jobId="PGM_WUIGM_PM_Job"/>
+			<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">wuigmCurrentlyLoggedOnUsers_G.actual</measType>
+			<measValue measObjLdn="LDN">"
+				<r p="1">63</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<measData>
+		<managedElement localDn="ALL=1,PGM=1,Wuigm=wuigm.pm.totalLoggedUserCounter"/>
+		<measInfo>
+			<job jobId="PGM_WUIGM_PM_Job"/>
+			<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00Z"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">wuigmTotalLogons</measType>
+			<measValue measObjLdn="LDN">"
+				<r p="1">26</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-08T10:15:00Z"/>
+	</fileFooter>
+</measCollecFile>

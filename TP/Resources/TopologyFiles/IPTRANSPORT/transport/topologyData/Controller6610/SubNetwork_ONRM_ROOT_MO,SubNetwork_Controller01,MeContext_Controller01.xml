@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01" mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="userLabel">Controller01</attr>
+ <attr name="swVersion">CXP2010233_2</attr>
+ <attr name="managedElementType">Controller6610</attr>
+ <attr name="neMIMversion">R1A25</attr>
+ <attr name="fingerprint">Controller01</attr>
+ <attr name="nodeVersion">23.Q4</attr>
+ <attr name="release">23.Q4</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,Equipment=1,FieldReplaceableUnit=1" mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="productData">
+<struct>
+<attr name="serialNumber">CN81008318</attr> 
+ <attr name="productionDate">20161025</attr> 
+ <attr name="productNumber">KDU 127 170/4</attr> 
+ <attr name="productName">BPA 01 01</attr> 
+ <attr name="productRevision">R1A</attr> 
+</struct>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,Equipment=1,Cabinet=1" mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="productData">
+<struct>
+<attr name="serialNumber">D16R746393</attr> 
+ <attr name="productionDate">20151223</attr> 
+ <attr name="productNumber">1/BFM 901 292/1</attr> 
+ <attr name="productName">RBS 6102</attr> 
+ <attr name="productRevision">R1B</attr> 
+</struct>
+</attr>
+ <attr name="sharedCabinetIdentifier">DummyIdentifier</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,SystemFunctions=1,SysM=1,OamAccessPoint=1" mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="oamAccessPointId">1</attr>
+ <attr name="accessPoint">SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01Transport=1,Router=1,InterfaceIPv4=1,AddressIPv4=1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,Transport=1,Router=1,InterfaceIPv6=1 " mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="interfaceIPv6Id">1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,Transport=1,Router=1,InterfaceIPv4=1 " mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="interfaceIPv4Id">1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,Transport=1,Router=1,InterfaceIPv4=1,AddressIPv4=1" mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="addressIPv4Id">1</attr>
+ <attr name="address">2001:1b70:8220:4019::2/64</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01,ManagedElement=1,Transport=1,Router=1,InterfaceIPv6=1,AddressIPv6=1" mimName="ComTop" lastModified="1707486180038">
+<attr name="timestampOfChange">2024-02-09 13:43:00.000</attr> 
+ <attr name="addressIPv6Id">1</attr>
+ <attr name="address">2001:1b70:8220:4019::2/64</attr>
+ </mo>
+</model>

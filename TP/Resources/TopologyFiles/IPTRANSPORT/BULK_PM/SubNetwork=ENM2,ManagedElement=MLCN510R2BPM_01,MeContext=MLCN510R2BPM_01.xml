@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=ENM2,ManagedElement=MLCN510R2BPM_01,MeContext=MLCN510R2BPM_01" mimName="MINI-LINK-Indoor_NODE_MODEL" lastModified="1717132320369">
+	<attr name="timestampOfChange">2024-05-31 06:12:00.369</attr>
+ <attr name="userLabel">MLCN510R2BPM_01</attr>
+ <attr name="managedElementType">MINI-LINK-CN510R2BPM</attr>
+ <attr name="nodeVersion">17.Q4</attr>
+ </mo>
+</model>

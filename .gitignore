@@ -1,0 +1,10 @@
+#folders to ignore
+__pycache__/
+.vscode/
+
+#files to ignore
+output.xml
+
+settings.json
+
+interactive_console_output.xml

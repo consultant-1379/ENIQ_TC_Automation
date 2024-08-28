@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=CSCF01</sn>
+<st>IMS</st>
+<vn>ERICSSON</vn>
+<cbt>20231108100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=IMS01</nedn>
+</neid>
+<mi>
+<mts>20231108101500.1+0200</mts>
+<gp>900</gp>
+<mt>sipSummaryClientTransactions</mt>
+<mt>sipSummaryOutRequests</mt>
+<mt>sipSummaryInResponses</mt>
+<mt>sipSummaryNonSipMessages</mt>
+<mt>sipStatsAckOuts</mt>
+<mt>sipStatsByeOuts</mt>
+<mt>sipStatsCancelOuts</mt>
+<mt>sipStatsExtMethodOuts</mt>
+<mt>sipStatsGlobalFailClassIns</mt>
+<mt>sipStatsInfoClassIns</mt>
+<mt>sipStatsInviteOuts</mt>
+<mt>sipStatsNotifyOuts</mt>
+<mt>sipStatsOptionsOuts</mt>
+<mt>sipStatsRedirClassIns</mt>
+<mt>sipStatsReferOuts</mt>
+<mt>sipStatsRegisterOuts</mt>
+<mt>sipStatsReqFailClassIns</mt>
+<mt>sipStatsRetryFinalResponses</mt>
+<mt>sipStatsRetryNonFinalResponses</mt>
+<mt>sipStatsServerFailClassIns</mt>
+<mt>sipStatsStackCongestions</mt>
+<mt>sipStatsSubscribeOuts</mt>
+<mt>sipStatsSuccessClassIns</mt>
+<mv>
+<moid>MrfcSipClient=DEFAULT,Source = Processor1</moid>
+<r>92</r>
+<r>71</r>
+<r>4</r>
+<r>89</r>
+<r>41</r>
+<r>87</r>
+<r>58</r>
+<r>66</r>
+<r>32</r>
+<r>60</r>
+<r>67</r>
+<r>13</r>
+<r>31</r>
+<r>88</r>
+<r>43</r>
+<r>33</r>
+<r>26</r>
+<r>91</r>
+<r>68</r>
+<r>25</r>
+<r>56</r>
+<r>5</r>
+<r>71</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231108101500.1+0200</ts>
+</mff>
+</mdc>

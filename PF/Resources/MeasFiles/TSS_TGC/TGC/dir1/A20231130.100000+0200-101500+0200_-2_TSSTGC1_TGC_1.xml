@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" 
+vendorName="Ericsson AB"
+ dnPrefix="SubNetwork=IsNetwork,IsSite=TSSISite">
+<fileSender localDn="bs=1" elementType="TGC"/>
+<measCollec beginTime="2023-11-30T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="tgc_ref" swVersion="R5A"/>
+<measInfo measInfoId="">
+<job jobId="2"/>
+<granPeriod duration="PT900S" endTime="2023-11-30T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">dmNumCounter1</measType>
+<measType p="2">dmNumCounter2</measType>
+<measType p="3">dmNumCounter3</measType>
+<measType p="4">dmNumCounter4</measType>
+<measType p="5">dmNumCounter5</measType>
+<measType p="6">dmNumCounter6</measType>
+<measType p="7">dmNumCounter7</measType>
+<measType p="8">dmNumCounter8</measType>
+<measType p="9">dmNumCounter9</measType>
+<measType p="10">dmNumCounter10</measType>
+<measType p="11">dmNumCounter11</measType>
+<measType p="12">dmNumCounter12</measType>
+<measType p="13">dmNumCounter13</measType>
+<measType p="14">dmNumCounter14</measType>
+<measType p="15">dmNumCounter15</measType>
+<measType p="16">dmNumCounter16</measType>
+<measType p="17">dmNumCounter17</measType>
+<measType p="18">dmNumCounter18</measType>
+<measType p="19">dmNumCounter19</measType>
+<measType p="20">dmNumCounter20</measType>
+<measType p="21">dmNumCounter21</measType>
+<measType p="22">dmNumCounter22</measType>
+<measType p="23">dmNumCounter23</measType>
+<measType p="24">dmNumCounter24</measType>
+<measType p="25">dmNumCounter25</measType>
+<measType p="26">dmNumCounter26</measType>
+<measType p="27">dmNumCounter27</measType>
+<measType p="28">dmNumCounter28</measType>
+<measType p="29">dmNumCounter29</measType>
+<measType p="30">dmNumCounter30</measType>
+<measType p="31">dmNumCounter31</measType>
+<measType p="32">dmNumCounter32</measType>
+<measType p="33">dmNumCounter33</measType>
+<measType p="34">dmNumCounter34</measType>
+<measType p="35">dmNumCounter35</measType>
+<measType p="36">dmNumCounter36</measType>
+<measType p="37">dmNumCounter37</measType>
+<measType p="38">dmNumCounter38</measType>
+<measType p="39">dmNumCounter39</measType>
+<measType p="40">dmNumCounter40</measType>
+<measType p="41">dmNumCounter41</measType>
+<measType p="42">dmNumCounter42</measType>
+<measType p="43">dmNumCounter43</measType>
+<measType p="44">dmNumCounter44</measType>
+<measType p="45">dmNumCounter45</measType>
+<measType p="46">dmNumCounter46</measType>
+<measType p="47">dmNumCounter47</measType>
+<measType p="48">dmNumCounter48</measType>
+<measType p="49">dmNumCounter49</measType>
+<measType p="50">dmNumCounter50</measType>
+<measType p="51">dmNumCounter51</measType>
+<measType p="52">dmNumCounter52</measType>
+<measType p="53">dmNumCounter53</measType>
+<measType p="54">dmNumCounter54</measType>
+<measType p="55">dmNumCounter55</measType>
+<measType p="56">dmNumCounter56</measType>
+<measType p="57">dmNumCounter57</measType>
+<measType p="58">dmNumCounter58</measType>
+<measType p="59">dmNumCounter59</measType>
+<measType p="60">dmNumCounter60</measType>
+<measType p="61">dmNumCounter61</measType>
+<measType p="62">dmNumCounter62</measType>
+<measType p="63">dmNumCounter63</measType>
+<measValue measObjLdn="TgcApp=*,DEFAULT=1,DigitMapSet=1">
+<r p="1">1</r>
+<r p="2">2</r>
+<r p="3">3</r>
+<r p="4">4</r>
+<r p="5">5</r>
+<r p="6">6</r>
+<r p="7">7</r>
+<r p="8">8</r>
+<r p="9">9</r>
+<r p="10">10</r>
+<r p="11">11</r>
+<r p="12">12</r>
+<r p="13">13</r>
+<r p="14">14</r>
+<r p="15">15</r>
+<r p="16">16</r>
+<r p="17">17</r>
+<r p="18">18</r>
+<r p="19">19</r>
+<r p="20">20</r>
+<r p="21">21</r>
+<r p="22">22</r>
+<r p="23">23</r>
+<r p="24">24</r>
+<r p="25">25</r>
+<r p="26">26</r>
+<r p="27">27</r>
+<r p="28">28</r>
+<r p="29">29</r>
+<r p="30">30</r>
+<r p="31">31</r>
+<r p="32">32</r>
+<r p="33">33</r>
+<r p="34">34</r>
+<r p="35">35</r>
+<r p="36">36</r>
+<r p="37">37</r>
+<r p="38">38</r>
+<r p="39">39</r>
+<r p="40">40</r>
+<r p="41">41</r>
+<r p="42">42</r>
+<r p="43">43</r>
+<r p="44">44</r>
+<r p="45">45</r>
+<r p="46">46</r>
+<r p="47">47</r>
+<r p="48">48</r>
+<r p="49">49</r>
+<r p="50">50</r>
+<r p="51">51</r>
+<r p="52">52</r>
+<r p="53">53</r>
+<r p="54">54</r>
+<r p="55">55</r>
+<r p="56">56</r>
+<r p="57">57</r>
+<r p="58">58</r>
+<r p="59">59</r>
+<r p="60">60</r>
+<r p="61">61</r>
+<r p="62">62</r>
+<r p="63">63</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-30T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

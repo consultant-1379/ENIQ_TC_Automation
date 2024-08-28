@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<measCollecFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec" xsi:schemaLocation="measCollec.xsd">
+	<fileHeader fileFormatVersion="32.435">
+		<fileSender elementType="ESC"/>
+		<measCollec beginTime="2023-11-06T10:00:00Z"/>
+	</fileHeader>
+	<measData>
+		<managedElement userLabel="customer2"/>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">load</measType>
+			<measType p="2">state</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,CircuitBreaker=1">
+				<r p="1">46</r>
+				<r p="2">59</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">systemCurrent</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,SolarConverters=1">
+				<r p="1">10</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">runTime</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,FreeCooling=1">
+				<r p="1">0</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">portStatus</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,portStatus=1,OpenCollectorPort=1">
+				<r p="1">71</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">energy</measType>
+			<measType p="2">runTime</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,PowerInput=1">
+				<r p="1">55</r>
+				<r p="2">63</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">sensorValue</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,AnalogInputPort=1">
+				<r p="1">59</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">systemVoltage</measType>
+			<measType p="2">systemCurrent</measType>
+			<measType p="3">systemPower</measType>
+			<measType p="4">totalEnergy</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,PowerSystem=1">
+				<r p="1">75</r>
+				<r p="2">76</r>
+				<r p="3">75</r>
+				<r p="4">50</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">ifHCInOctets</measType>
+			<measType p="2">ifHCOutOctets</measType>
+			<measType p="3">ifInErrors</measType>
+			<measType p="4">ifOutErrors</measType>
+			<measType p="5">ifHCInUcastPkts</measType>
+			<measType p="6">ifHCOutUcastPkts</measType>
+			<measType p="7">ifInDiscards</measType>
+			<measType p="8">ifOutDiscards</measType>
+			<measType p="9">ifHCInBroadcastPkts</measType>
+			<measType p="10">ifHCOutBroadcastPkts</measType>
+			<measType p="11">ifHCInMulticastPkts</measType>
+			<measType p="12">ifHCOutMulticastPkts</measType>
+			<measType p="13">ifInUnknownProtos</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,VLAN=1">
+				<r p="1">9</r>
+				<r p="2">22</r>
+				<r p="3">75</r>
+				<r p="4">82</r>
+				<r p="5">89</r>
+				<r p="6">68</r>
+				<r p="7">71</r>
+				<r p="8">6</r>
+				<r p="9">35</r>
+				<r p="10">81</r>
+				<r p="11">10</r>
+				<r p="12">49</r>
+				<r p="13">3</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">frequency</measType>
+			<measType p="2">dutyCycle</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,PWMPort=1">
+				<r p="1">65</r>
+				<r p="2">18</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">current</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,BatteryString=1">
+				<r p="1">6</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">voltage</measType>
+			<measType p="2">current</measType>
+			<measType p="3">temperature</measType>
+			<measType p="4">stateOfCharge</measType>
+			<measType p="5">stateOfHealth</measType>
+			<measType p="6">fullDischargeCycles</measType>
+			<measType p="7">totalEnergy</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,BatteryUnit=1">
+				<r p="1">16</r>
+				<r p="2">43</r>
+				<r p="3">74</r>
+				<r p="4">20</r>
+				<r p="5">54</r>
+				<r p="6">22</r>
+				<r p="7">34</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">octetsReceived</measType>
+			<measType p="2">octetsTransmitted</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,SerialPort=1">
+				<r p="1">36</r>
+				<r p="2">58</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">inOctets</measType>
+			<measType p="2">outOctets</measType>
+			<measType p="3">inPackets</measType>
+			<measType p="4">outPackets</measType>
+			<measType p="5">inErrors</measType>
+			<measType p="6">outErrors</measType>
+			<measType p="7">ifInDrops</measType>
+			<measType p="8">ifOutDrops</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,DenibBus=1">
+				<r p="1">23</r>
+				<r p="2">69</r>
+				<r p="3">71</r>
+				<r p="4">31</r>
+				<r p="5">2</r>
+				<r p="6">94</r>
+				<r p="7">66</r>
+				<r p="8">11</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">nominalMaximumPower</measType>
+			<measType p="2">systemCurrent</measType>
+			<measType p="3">utilization</measType>
+			<measType p="4">periodCurrentMin</measType>
+			<measType p="5">periodCurrentAverage</measType>
+			<measType p="6">periodCurrentMax</measType>
+			<measType p="7">periodPowerMin</measType>
+			<measType p="8">periodPowerAverage</measType>
+			<measType p="9">periodPowerMax</measType>
+			<measType p="10">numberOfRectifiers</measType>
+			<measType p="11">numberOfDegradedRectifiers</measType>
+			<measType p="12">numberOfFaultyRectifiers</measType>
+			<measType p="13">totalEnergy</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,Rectifiers=1">
+				<r p="1">3</r>
+				<r p="2">26</r>
+				<r p="3">47</r>
+				<r p="4">10</r>
+				<r p="5">2</r>
+				<r p="6">57</r>
+				<r p="7">95</r>
+				<r p="8">38</r>
+				<r p="9">96</r>
+				<r p="10">37</r>
+				<r p="11">93</r>
+				<r p="12">1</r>
+				<r p="13">96</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">batteryTemperature</measType>
+			<measType p="2">batteryVoltage</measType>
+			<measType p="3">batteryCurrent</measType>
+			<measType p="4">stateOfCharge</measType>
+			<measType p="5">stateOfHealth</measType>
+			<measType p="6">fullDischargeCycles</measType>
+			<measType p="7">timeLeft</measType>
+			<measType p="8">dischargeTimePrediction</measType>
+			<measType p="9">totalDischargeTime</measType>
+			<measType p="10">dischargeAmphereHours</measType>
+			<measType p="11">overheatingCounter</measType>
+			<measType p="12">cycleCount</measType>
+			<measType p="13">totalEnergy</measType>
+			<measType p="14">capacity</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,Battery=1">
+				<r p="1">6</r>
+				<r p="2">63</r>
+				<r p="3">10</r>
+				<r p="4">57</r>
+				<r p="5">94</r>
+				<r p="6">55</r>
+				<r p="7">24</r>
+				<r p="8">71</r>
+				<r p="9">60</r>
+				<r p="10">81</r>
+				<r p="11">43</r>
+				<r p="12">79</r>
+				<r p="13">49</r>
+				<r p="14">96</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">leftToService</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,ServiceInterval=1">
+				<r p="1">97</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">activeExternalAlarm</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,AlarmPort=1">
+				<r p="1">75</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">voltage</measType>
+			<measType p="2">current</measType>
+			<measType p="3">activePower</measType>
+			<measType p="4">apparentPower</measType>
+			<measType p="5">reactivePower</measType>
+			<measType p="6">powerFactor</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,ACPhase=1">
+				<r p="1">53</r>
+				<r p="2">85</r>
+				<r p="3">71</r>
+				<r p="4">48</r>
+				<r p="5">64</r>
+				<r p="6">61</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">sensorValue</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,ModbusRegister=1">
+				<r p="1">95</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">CPULoad</measType>
+			<measType p="2">temperature</measType>
+			<measType p="3">inputDCVoltageA</measType>
+			<measType p="4">inputDCVoltageB</measType>
+			<measType p="5">failedPMUploads</measType>
+			<measValue measObjLdn="SDN=1">
+				<r p="1">12</r>
+				<r p="2">92</r>
+				<r p="3">25</r>
+				<r p="4">28</r>
+				<r p="5">63</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">totalFuelMissing</measType>
+			<measType p="2">level</measType>
+			<measType p="3">temperature</measType>
+			<measType p="4">viscosity</measType>
+			<measType p="5">density</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,FuelTank=1">
+				<r p="1">12</r>
+				<r p="2">0</r>
+				<r p="3">11</r>
+				<r p="4">35</r>
+				<r p="5">34</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">ifHCInOctets</measType>
+			<measType p="2">ifHCOutOctets</measType>
+			<measType p="3">ifInErrors</measType>
+			<measType p="4">ifOutErrors</measType>
+			<measType p="5">ifHCInUcastPkts</measType>
+			<measType p="6">ifHCOutUcastPkts</measType>
+			<measType p="7">ifInDiscards</measType>
+			<measType p="8">ifOutDiscards</measType>
+			<measType p="9">ifHCInBroadcastPkts</measType>
+			<measType p="10">ifHCOutBroadcastPkts</measType>
+			<measType p="11">ifHCInMulticastPkts</measType>
+			<measType p="12">ifHCOutMulticastPkts</measType>
+			<measType p="13">ifInUnknownProtos</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,EthernetInterface=1">
+				<r p="1">33</r>
+				<r p="2">85</r>
+				<r p="3">36</r>
+				<r p="4">39</r>
+				<r p="5">28</r>
+				<r p="6">29</r>
+				<r p="7">43</r>
+				<r p="8">38</r>
+				<r p="9">36</r>
+				<r p="10">57</r>
+				<r p="11">29</r>
+				<r p="12">19</r>
+				<r p="13">62</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">currentMode</measType>
+			<measType p="2">outputVoltage</measType>
+			<measType p="3">outputCurrent</measType>
+			<measType p="4">utilization</measType>
+			<measType p="5">temperature</measType>
+			<measType p="6">inputVoltage</measType>
+			<measType p="7">totalRunningHours</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,SolarConverter=1">
+				<r p="1">86</r>
+				<r p="2">75</r>
+				<r p="3">2</r>
+				<r p="4">9</r>
+				<r p="5">92</r>
+				<r p="6">93</r>
+				<r p="7">38</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">outputVoltage</measType>
+			<measType p="2">outputCurrent</measType>
+			<measType p="3">utilization</measType>
+			<measType p="4">temperature</measType>
+			<measType p="5">inputVoltage</measType>
+			<measType p="6">totalRunningHours</measType>
+			<measType p="7">totalEnergy</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,Rectifier=1">
+				<r p="1">93</r>
+				<r p="2">1</r>
+				<r p="3">46</r>
+				<r p="4">78</r>
+				<r p="5">88</r>
+				<r p="6">83</r>
+				<r p="7">16</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">voltage</measType>
+			<measType p="2">current</measType>
+			<measType p="3">energy</measType>
+			<measType p="4">power</measType>
+			<measType p="5">energyPerHour</measType>
+			<measType p="6">energyPerDay</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,DCMeter=1">
+				<r p="1">3</r>
+				<r p="2">75</r>
+				<r p="3">69</r>
+				<r p="4">89</r>
+				<r p="5">13</r>
+				<r p="6">76</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">maximumBatteryChargeCurrentRead</measType>
+			<measType p="2">chargeVoltageRead</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,BatteryProfile=1">
+				<r p="1">86</r>
+				<r p="2">1</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">runTime</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,Heater=1">
+				<r p="1">63</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">inOctets</measType>
+			<measType p="2">outOctets</measType>
+			<measType p="3">inPackets</measType>
+			<measType p="4">outPackets</measType>
+			<measType p="5">inErrors</measType>
+			<measType p="6">outErrors</measType>
+			<measType p="7">inDrops</measType>
+			<measType p="8">outDrops</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,ECBus=1">
+				<r p="1">21</r>
+				<r p="2">69</r>
+				<r p="3">75</r>
+				<r p="4">88</r>
+				<r p="5">21</r>
+				<r p="6">29</r>
+				<r p="7">17</r>
+				<r p="8">76</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">chargingMode</measType>
+			<measType p="2">measuredNominalCapacity</measType>
+			<measType p="3">batteryCurrent</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,PowerStorage=1">
+				<r p="1">52</r>
+				<r p="2">34</r>
+				<r p="3">45</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">portStatus</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,portStatus=1,RelayPort=1">
+				<r p="1">26</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">runTime</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,AirConditioner=1">
+				<r p="1">50</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">ifInPkts</measType>
+			<measType p="2">ifOutPkts</measType>
+			<measType p="3">ifInOctets</measType>
+			<measType p="4">ifOutOctets</measType>
+			<measType p="5">ifInErrors</measType>
+			<measType p="6">ifOutErrors</measType>
+			<measType p="7">ifInDrops</measType>
+			<measType p="8">ifOutDrops</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,Modbus=1">
+				<r p="1">38</r>
+				<r p="2">11</r>
+				<r p="3">75</r>
+				<r p="4">53</r>
+				<r p="5">70</r>
+				<r p="6">72</r>
+				<r p="7">6</r>
+				<r p="8">84</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">sensorValue</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,TemperatureSensor=1">
+				<r p="1">28</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">activeEnergy</measType>
+			<measType p="2">reactiveEnergy</measType>
+			<measType p="3">activePower</measType>
+			<measType p="4">apparentPower</measType>
+			<measType p="5">reactivePower</measType>
+			<measType p="6">powerFactor</measType>
+			<measType p="7">frequency</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,ACMeter=1">
+				<r p="1">60</r>
+				<r p="2">5</r>
+				<r p="3">2</r>
+				<r p="4">28</r>
+				<r p="5">17</r>
+				<r p="6">2</r>
+				<r p="7">68</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">temperature</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,SDHPort=1">
+				<r p="1">14</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">ifInPkts</measType>
+			<measType p="2">ifOutPkts</measType>
+			<measType p="3">ifInOctets</measType>
+			<measType p="4">ifOutOctets</measType>
+			<measType p="5">ifInErrors</measType>
+			<measType p="6">ifOutErrors</measType>
+			<measType p="7">ifInDrops</measType>
+			<measType p="8">ifOutDrops</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,YDN023Bus=1">
+				<r p="1">8</r>
+				<r p="2">33</r>
+				<r p="3">97</r>
+				<r p="4">69</r>
+				<r p="5">73</r>
+				<r p="6">25</r>
+				<r p="7">89</r>
+				<r p="8">67</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">currIndoorTemp</measType>
+			<measType p="2">currOutdoorTemp</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,ClimateControl=1">
+				<r p="1">20</r>
+				<r p="2">71</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">runTime</measType>
+			<measType p="2">runCycles</measType>
+			<measType p="3">startBatteryVoltage</measType>
+			<measType p="4">temperature</measType>
+			<measType p="5">fuelConsumption</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,DieselGenerator=1">
+				<r p="1">89</r>
+				<r p="2">74</r>
+				<r p="3">4</r>
+				<r p="4">52</r>
+				<r p="5">78</r>
+			</measValue>
+			</measInfo>
+			<measInfo>
+ 			<granPeriod duration="PT15M" endTime="2023-11-06T10:15:00Z"/>
+			<measType p="1">dcLoad</measType>
+			<measType p="2">numberOfTrippedBreakers</measType>
+			<measValue measObjLdn="SDN=0,PowerManager=HGM,CircuitBreakers=1">
+				<r p="1">6</r>
+				<r p="2">35</r>
+			</measValue>
+			</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-06T10:15:00Z"/>
+	</fileFooter>
+</measCollecFile>

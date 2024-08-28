@@ -1,0 +1,11 @@
+#folders to ignore
+__pycache__/
+.vscode/
+
+#files to ignore
+**/output.xml
+*.html
+*.png
+*.log
+*.png
+

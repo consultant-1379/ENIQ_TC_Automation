@@ -1,0 +1,14 @@
+#NMI/TestCases/IQ/Verify_Engine_Log.robot
+#NMI/TestCases/IQ/Verify_DBCC_File.robot
+#NMI/TestCases/IQ/Verify_DBCC_Full_Run.robot
+#NMI/TestCases/IQ/Verify_iqmsg_and_srvlog.robot
+#NMI/TestCases/IQ/Login_Policy_Check.robot
+#NMI/TestCases/IQ/Verify_Password_During_DBCC.robot
+#NMI/TestCases/IQ/Verify_DBCC_DB_Allocation.robot
+NMI/TestCases/IQ/NMI_Verify_Engine_Log_TC92.robot
+NMI/TestCases/IQ/NMI_Verify_DBCC_File_TC90.robot
+NMI/TestCases/IQ/NMI_Verify_DBCC_Full_Run_TC91.robot
+NMI/TestCases/IQ/NMI_Verify_iqmsg_and_srvlog_TC95.robot
+NMI/TestCases/IQ/NMI_Login_Policy_Check_TC96.robot
+NMI/TestCases/IQ/NMI_Verify_Password_During_DBCC_TC93.robot
+NMI/TestCases/IQ/NMI_Verify_DBCC_DB_Allocation_TC87.robot

@@ -1,0 +1,1 @@
+eniq_oss_1	Controller01	SubNetwork=ONRM_ROOT_MO,SubNetwork=Controller01,MeContext=Controller01	ManagedElement=1,Transport=1,Router=1,BatteryBackup=1	1	2023-10-25	2023	10	25	10	2023-10-25 10:15:00	15	15MIN	7611	1	15	LOADED	23.Q3	eniq_oss_1	+0200	0	2023-10-25 08:15:00	17	41	15	65

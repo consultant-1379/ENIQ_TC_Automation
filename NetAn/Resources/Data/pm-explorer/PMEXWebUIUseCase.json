@@ -1,0 +1,20 @@
+{ 
+    "TC01": { "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Node(s)",
+              "Aggregation":"Node",
+              "Node" : "G2RBS01",
+              "Measure_type":"COUNTER",
+              "Measure":"ACLNDPANDMLDPERMITS.DC_E_TCU_ACLIPV6_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Day",
+              "get_data_for_Columns":"",
+              "Columns_displayed":"DATE_ID,NE_NAME",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report",
+              "Formula" : ""
+              }
+	    
+}

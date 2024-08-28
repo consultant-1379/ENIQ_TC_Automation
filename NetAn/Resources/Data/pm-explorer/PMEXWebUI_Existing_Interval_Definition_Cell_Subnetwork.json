@@ -1,0 +1,72 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Cell",
+              "SubNetwork" : "ERBS-SUBNW-1",
+              "Measure":"UTRAN SRVCC Success Rate",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC02": { 
+          "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Cell",
+              "SubNetwork" : "ERBS-SUBNW-1",
+              "Measure":"Average Overall DL Latency for LTE",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC03": { 
+          "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Cell",
+              "SubNetwork" : "ERBS-SUBNW-1",
+              "Measure":"UTRAN SRVCC Success Rate",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC04": { 
+          "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Cell",
+              "SubNetwork" : "ERBS-SUBNW-1",
+              "Measure":"Average DL PDCP UE DRB Throughput per QCI",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC05": { 
+          "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Cell",
+              "SubNetwork" : "ERBS-SUBNW-1",
+              "Measure":"Cell Mobility Success Rate for Category M1 Ues",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

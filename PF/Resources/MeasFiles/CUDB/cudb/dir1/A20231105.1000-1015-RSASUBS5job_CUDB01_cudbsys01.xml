@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="RSASUBS5job"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NSUBSRSA1.actual</measType>
+         <measType p="1">NSUBSRSA2.actual</measType>
+         <measType p="2">NSUBSRSA3.actual</measType>
+         <measType p="3">NSUBSRSA4.actual</measType>
+         <measType p="4">NSUBSRSA5.actual</measType>
+         <measType p="5">NSUBSRSA6.actual</measType>
+         <measType p="6">NSUBSRSA7.actual</measType>
+         <measType p="7">NSUBSRSA8.actual</measType>
+         <measType p="8">NSUBSRSA9.actual</measType>
+         <measType p="9">NSUBSRSA10.actual</measType>
+         <measType p="10">NSUBSRSA11.actual</measType>
+         <measType p="11">NSUBSRSA12.actual</measType>
+         <measType p="12">NSUBSRSA13.actual</measType>
+         <measType p="13">NSUBSRSA14.actual</measType>
+         <measType p="14">NSUBSRSA15.actual</measType>
+         <measType p="15">NSUBSRSA16.actual</measType>
+         <measType p="16">NSUBSRSA17.actual</measType>
+         <measType p="17">NSUBSRSA18.actual</measType>
+         <measType p="18">NSUBSRSA19.actual</measType>
+         <measType p="19">NSUBSRSA20.actual</measType>
+         <measType p="20">NSUBSRSA21.actual</measType>
+         <measType p="21">NSUBSRSA22.actual</measType>
+         <measType p="22">NSUBSRSA23.actual</measType>
+         <measType p="23">NSUBSRSA24.actual</measType>
+         <measType p="24">NSUBSRSA25.actual</measType>
+         <measType p="25">NSUBSRSA26.actual</measType>
+         <measType p="26">NSUBSRSA27.actual</measType>
+         <measType p="27">NSUBSRSA28.actual</measType>
+         <measType p="28">NSUBSRSA29.actual</measType>
+         <measType p="29">NSUBSRSA30.actual</measType>
+         <measType p="30">NSUBSRSA31.actual</measType>
+         <measType p="31">NSUBSRSA32.actual</measType>
+         <measType p="32">NSUBSRSA33.actual</measType>
+         <measType p="33">NSUBSRSA34.actual</measType>
+         <measType p="34">NSUBSRSA35.actual</measType>
+         <measType p="35">NSUBSRSA36.actual</measType>
+         <measType p="36">NSUBSRSA37.actual</measType>
+         <measType p="37">NSUBSRSA38.actual</measType>
+         <measType p="38">NSUBSRSA39.actual</measType>
+         <measType p="39">NSUBSRSA40.actual</measType>
+         <measType p="40">NSUBSRSA41.actual</measType>
+         <measType p="41">NSUBSRSA42.actual</measType>
+         <measType p="42">NSUBSRSA43.actual</measType>
+         <measType p="43">NSUBSRSA44.actual</measType>
+         <measType p="44">NSUBSRSA45.actual</measType>
+         <measType p="45">NSUBSRSA46.actual</measType>
+         <measType p="46">NSUBSRSA47.actual</measType>
+         <measType p="47">NSUBSRSA48.actual</measType>
+         <measType p="48">NSUBSRSA49.actual</measType>
+         <measType p="49">NSUBSRSA50.actual</measType>
+         <measType p="50">NSUBSRSA51.actual</measType>
+         <measType p="51">NSUBSRSA52.actual</measType>
+         <measType p="52">NSUBSRSA53.actual</measType>
+         <measType p="53">NSUBSRSA54.actual</measType>
+         <measType p="54">NSUBSRSA55.actual</measType>
+         <measType p="55">NSUBSRSA56.actual</measType>
+         <measType p="56">NSUBSRSA57.actual</measType>
+         <measType p="57">NSUBSRSA58.actual</measType>
+         <measType p="58">NSUBSRSA59.actual</measType>
+         <measType p="59">NSUBSRSA60.actual</measType>
+         <measType p="60">NSUBSRSA61.actual</measType>
+         <measType p="61">NSUBSRSA62.actual</measType>
+         <measType p="62">NSUBSRSA63.actual</measType>
+         <measType p="63">NSUBSRSA64.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5790377</r>
+             <r p="1">5739238</r>
+             <r p="2">5737080</r>
+             <r p="3">5756911</r>
+             <r p="4">5739017</r>
+             <r p="5">5792143</r>
+             <r p="6">5751581</r>
+             <r p="7">5763098</r>
+             <r p="8">5757429</r>
+             <r p="9">5845576</r>
+             <r p="10">5766830</r>
+             <r p="11">5797356</r>
+             <r p="12">5826690</r>
+             <r p="13">5753946</r>
+             <r p="14">5807980</r>
+             <r p="15">5780211</r>
+             <r p="16">5756432</r>
+             <r p="17">5833956</r>
+             <r p="18">5804650</r>
+             <r p="19">5741260</r>
+             <r p="20">5784963</r>
+             <r p="21">5738211</r>
+             <r p="22">5775336</r>
+             <r p="23">5737869</r>
+             <r p="24">5777115</r>
+             <r p="25">5738635</r>
+             <r p="26">5817822</r>
+             <r p="27">5744441</r>
+             <r p="28">5787833</r>
+             <r p="29">5764286</r>
+             <r p="30">5797728</r>
+             <r p="31">5819619</r>
+             <r p="32">5765597</r>
+             <r p="33">5828472</r>
+             <r p="34">5848169</r>
+             <r p="35">5770910</r>
+             <r p="36">5771242</r>
+             <r p="37">5839588</r>
+             <r p="38">5796110</r>
+             <r p="39">5736494</r>
+             <r p="40">5760479</r>
+             <r p="41">5804105</r>
+             <r p="42">5840739</r>
+             <r p="43">5787422</r>
+             <r p="44">5765466</r>
+             <r p="45">5762887</r>
+             <r p="46">5745123</r>
+             <r p="47">5791281</r>
+             <r p="48">5843425</r>
+             <r p="49">5770101</r>
+             <r p="50">5815812</r>
+             <r p="51">5808831</r>
+             <r p="52">5764041</r>
+             <r p="53">5818874</r>
+             <r p="54">5838364</r>
+             <r p="55">5745891</r>
+             <r p="56">5752642</r>
+             <r p="57">5768924</r>
+             <r p="58">5772939</r>
+             <r p="59">5784668</r>
+             <r p="60">5810551</r>
+             <r p="61">5840655</r>
+             <r p="62">5776459</r>
+             <r p="63">5812995</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

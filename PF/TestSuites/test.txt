@@ -1,0 +1,3 @@
+PF/TestCases/RJIO_MR/RJIO_suite.robot
+PF/TestCases/Password_History_MR/Password_history_suite.robot
+PF/TestCases/Installer/PF_Node_Granularity.robot

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<measCollecFile>
+  <fileHeader dnPrefix="" fileFormatVersion="32.435 V10.0" vendorName="SubNetwork=ONRM_ROOTMO_R,MeContext=IPWk01">
+    <fileSender elementType="ERIC_COREMW_RUNTIME" localDn="ManagedElement=1"/>
+    <measCollec beginTime="2023-11-05T10:00:00+10:00"/>
+  </fileHeader>
+  <measData>
+    <managedElement localDn="ManagedElement=1" swVersion="CXP9020355_1R8C01"/>
+    <measInfo measInfoId="DnsASDNSStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServASDNSTotal</measType>
+      <measType p="1">ipworksDnsServASDNSSuccess</measType>
+      <measType p="2">ipworksDnsServASDNSRefused</measType>
+      <measType p="3">ipworksDnsServASDNSFailure</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">30</r>
+        <r p="1">15</r>
+        <r p="2">69</r>
+        <r p="3">92</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DHCPv4DDNSMessageGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDhcpv4DDNSFailedError</measType>
+      <measType p="1">ipworksDhcpv4DDNSRecv</measType>
+      <measType p="2">ipworksDhcpv4DDNSRetryFail</measType>
+      <measType p="3">ipworksDhcpv4DDNSSent</measType>
+      <measType p="4">ipworksDhcpv4DDNSSuccess</measType>
+      <measType p="5">ipworksDhcpv4DDNSUpdateTotal</measType>
+      <measValue measObjLdn="MOID=1,nedn=1,NE_NAME=1,OSS_ID=1,SN=1,ipworksDhcpv4Name=Dhcp">
+        <r p="0">66</r>
+        <r p="1">88</r>
+        <r p="2">43</r>
+        <r p="3">27</r>
+        <r p="4">87</r>
+        <r p="5">45</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusFrontEndGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusServTotalDiscardedCUDBQueryRequests</measType>
+      <measType p="1">ipworksRadiusServTotalDiscardedLoadRegulationRequests</measType>
+      <measType p="2">ipworksRadiusServTotalCUDBErrorCodeOtherResponses</measType>
+      <measType p="3">ipworksRadiusServTotalFailedCUDBQueryRequests</measType>
+      <measType p="4">ipworksRadiusServTotalCUDBErrorCodeUnavailableResponses</measType>
+      <measType p="5">ipworksRadiusServTotalSuccessCUDBQueryRequests</measType>
+      <measType p="6">ipworksRadiusServTotalCUDBErrorCodeBusyResponses</measType>
+      <measType p="7">ipworksRadiusServTotalCUDBQueryRequests</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">79</r>
+        <r p="1">77</r>
+        <r p="2">57</r>
+        <r p="3">4</r>
+        <r p="4">23</r>
+        <r p="5">43</r>
+        <r p="6">32</r>
+        <r p="7">11</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="EnumServerIdentityGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksEnumProcessUpTime</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">98</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsTSIGStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServTSIGFailure</measType>
+      <measType p="1">ipworksDnsServTSIGSuccess</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">30</r>
+        <r p="1">8</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAASWmPlusGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAASWmPlusDER</measType>
+      <measType p="1">ipworksDiameterAAASWmPlusAAR</measType>
+      <measType p="2">ipworksDiameterAAAActiveSWmPlusSessionNumber</measType>
+      <measType p="3">ipworksDiameterAAASWmPlusDERForEC</measType>
+      <measType p="4">ipworksDiameterAAASWmPlusTPS</measType>
+      <measType p="5">ipworksDiameterAAASWmPlusDEA</measType>
+      <measType p="6">ipworksDiameterAAASWmPlusDEAForEC</measType>
+      <measType p="7">ipworksDiameterAAASWmPlusEAPTLSAuthFailedNumber</measType>
+      <measType p="8">ipworksDiameterAAASWmPlusAAA</measType>
+      <measType p="9">ipworksDiameterAAASWmPlusSTA</measType>
+      <measType p="10">ipworksDiameterAAASWmPlusASR</measType>
+      <measType p="11">ipworksDiameterAAASWmPlusASA</measType>
+      <measType p="12">ipworksDiameterAAASWmPlusSTR</measType>
+      <measType p="13">ipworksDiameterAAASWmPlusEAPTLSAuthSuccessNumber</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">8</r>
+        <r p="1">22</r>
+        <r p="2">20</r>
+        <r p="3">84</r>
+        <r p="4">37</r>
+        <r p="5">96</r>
+        <r p="6">57</r>
+        <r p="7">68</r>
+        <r p="8">17</r>
+        <r p="9">33</r>
+        <r p="10">45</r>
+        <r p="11">8</r>
+        <r p="12">24</r>
+        <r p="13">15</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="OSProcessingSocketUnit">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">CPULoad.IOWait</measType>
+      <measType p="1">CPULoad.IRQ</measType>
+      <measType p="2">CPULoad.Nice</measType>
+      <measType p="3">CPULoad.SoftIRQ</measType>
+      <measType p="4">CPULoad.Steal</measType>
+      <measType p="5">CPULoad.Steal.Maximum</measType>
+      <measType p="6">CPULoad.System</measType>
+      <measType p="7">CPULoad.Total</measType>
+      <measType p="8">CPULoad.Total.Maximum</measType>
+      <measType p="9">CPULoad.TotalVirt</measType>
+      <measType p="10">CPULoad.TotalVirt.Maximum</measType>
+      <measType p="11">CPULoad.User</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">32</r>
+        <r p="1">14</r>
+        <r p="2">65</r>
+        <r p="3">82</r>
+        <r p="4">33</r>
+        <r p="5">2</r>
+        <r p="6">54</r>
+        <r p="7">33</r>
+        <r p="8">22</r>
+        <r p="9">21</r>
+        <r p="10">99</r>
+        <r p="11">23</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAADiaOtherGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAAMAPATIResponses</measType>
+      <measType p="1">ipworksDiameterAAAOCSPRequests</measType>
+      <measType p="2">ipworksDiameterAAAOCSPResponses</measType>
+      <measType p="3">ipworksDiameterAAAMAPATIRequests</measType>
+      <measType p="4">ipworksDiameterAAAProcessUpTime</measType>
+      <measType p="5">ipworksDiameterAAAHealthStatus</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">66</r>
+        <r p="1">9</r>
+        <r p="2">55</r>
+        <r p="3">5</r>
+        <r p="4">62</r>
+        <r p="5">97</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DHCPv4FormatErrorGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDhcpv4GarbledCHADDR</measType>
+      <measType p="1">ipworksDhcpv4ParsingOption82Fail</measType>
+      <measType p="2">ipworksDhcpv4UnknownHardware</measType>
+      <measType p="3">ipworksDhcpv4UnknownMsgType</measType>
+      <measValue measObjLdn="MOID=1,nedn=1,NE_NAME=1,OSS_ID=1,SN=1,ipworksDhcpv4Name=Dhcp">
+        <r p="0">28</r>
+        <r p="1">19</r>
+        <r p="2">21</r>
+        <r p="3">78</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAASTaPlusGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAASTaPlusDER</measType>
+      <measType p="1">ipworksDiameterAAASTaPlusFastEAPAKAReAuthFailedNumber</measType>
+      <measType p="2">ipworksDiameterAAASTaPlusTPS</measType>
+      <measType p="3">ipworksDiameterAAASTaPlusFastEAPAKAPrimeReAuthFailedNumber</measType>
+      <measType p="4">ipworksDiameterAAASTaPlusDEA</measType>
+      <measType p="5">ipworksDiameterAAASTaPlusFastEAPAKAPrimeReAuthSuccessNumber</measType>
+      <measType p="6">ipworksDiameterAAASTaPlusEAPAKAAuthFailedNumber</measType>
+      <measType p="7">ipworksDiameterAAASTaPlusSTA</measType>
+      <measType p="8">ipworksDiameterAAASTaPlusEAPAKAPrimeAuthSuccessNumber</measType>
+      <measType p="9">ipworksDiameterAAASTaPlusFastEAPAKAReAuthSuccessNumber</measType>
+      <measType p="10">ipworksDiameterAAASTaPlusEAPAKAPrimeAuthFailedNumber</measType>
+      <measType p="11">ipworksDiameterAAASTaPlusASA</measType>
+      <measType p="12">ipworksDiameterAAASTaPlusEAPAKAAuthSuccessNumber</measType>
+      <measType p="13">ipworksDiameterAAASTaPlusASR</measType>
+      <measType p="14">ipworksDiameterAAAActiveSTaPlusSessionNumber</measType>
+      <measType p="15">ipworksDiameterAAASTaPlusSTR</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">93</r>
+        <r p="1">26</r>
+        <r p="2">60</r>
+        <r p="3">89</r>
+        <r p="4">51</r>
+        <r p="5">80</r>
+        <r p="6">65</r>
+        <r p="7">40</r>
+        <r p="8">65</r>
+        <r p="9">22</r>
+        <r p="10">65</r>
+        <r p="11">65</r>
+        <r p="12">94</r>
+        <r p="13">60</r>
+        <r p="14">66</r>
+        <r p="15">67</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAADiaFrontEndGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterServTotalCUDBErrorCodeBusyResponses</measType>
+      <measType p="1">ipworksDiameterServTotalFailedCUDBQueryRequests</measType>
+      <measType p="2">ipworksDiameterServTotalSuccessCUDBQueryRequests</measType>
+      <measType p="3">ipworksDiameterServTotalCUDBErrorCodeOtherResponses</measType>
+      <measType p="4">ipworksDiameterServTotalCUDBQueryRequests</measType>
+      <measType p="5">ipworksDiameterServTotalDiscardedCUDBQueryRequests</measType>
+      <measType p="6">ipworksDiameterServTotalDiscardedLoadRegulationRequests</measType>
+      <measType p="7">ipworksDiameterServTotalCUDBErrorCodeUnavailableResponses</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">3</r>
+        <r p="1">56</r>
+        <r p="2">9</r>
+        <r p="3">33</r>
+        <r p="4">38</r>
+        <r p="5">33</r>
+        <r p="6">48</r>
+        <r p="7">27</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAASWxGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAASWxPPA</measType>
+      <measType p="1">ipworksDiameterAAASWxMAA</measType>
+      <measType p="2">ipworksDiameterAAASWxSARUpdatePGWInfoRequest</measType>
+      <measType p="3">ipworksDiameterAAASWxRTR</measType>
+      <measType p="4">ipworksDiameterAAASARThrottled</measType>
+      <measType p="5">ipworksDiameterAAASWxRoamingNotAllowed</measType>
+      <measType p="6">ipworksDiameterAAASWxRTA</measType>
+      <measType p="7">ipworksDiameterAAASWxSAR</measType>
+      <measType p="8">ipworksDiameterAAASWxSAA</measType>
+      <measType p="9">ipworksDiameterAAASWxSARRegistrationRequests</measType>
+      <measType p="10">ipworksDiameterAAASWxSARDeRegistrationRequest</measType>
+      <measType p="11">ipworksDiameterAAASWxSARFetchUserProfileRequests</measType>
+      <measType p="12">ipworksDiameterAAASWxMARFetchAuthVecRequests</measType>
+      <measType p="13">ipworksDiameterAAASWxPPR</measType>
+      <measType p="14">ipworksDiameterAAASWxMAR</measType>
+      <measType p="15">ipworksDiameterAAAMARThrottled</measType>
+      <measType p="16">ipworksDiameterAAASWxTPS</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">27</r>
+        <r p="1">13</r>
+        <r p="2">17</r>
+        <r p="3">43</r>
+        <r p="4">36</r>
+        <r p="5">1</r>
+        <r p="6">93</r>
+        <r p="7">66</r>
+        <r p="8">98</r>
+        <r p="9">98</r>
+        <r p="10">57</r>
+        <r p="11">81</r>
+        <r p="12">27</r>
+        <r p="13">6</r>
+        <r p="14">67</r>
+        <r p="15">66</r>
+        <r p="16">62</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="ERHTPSAlarmGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ERHTransactionPerSecond</measType>
+      <measType p="1">FailedNPThreshold</measType>
+      <measType p="2">FailedTollFreeThreshold</measType>
+      <measType p="3">FailedERHQueryThreshold</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">59</r>
+        <r p="1">43</r>
+        <r p="2">60</r>
+        <r p="3">6</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DHCPv4LeaseInfoGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDhcpv4ActiveLeaseNum</measType>
+      <measType p="1">ipworksDhcpv4ActiveLeasePercentage</measType>
+      <measType p="2">ipworksDhcpv4ConfiguredLeaseNum</measType>
+      <measValue measObjLdn="MOID=1,nedn=1,NE_NAME=1,OSS_ID=1,SN=1,ipworksDhcpv4Name=Dhcp">
+        <r p="0">39</r>
+        <r p="1">20</r>
+        <r p="2">61</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsUpdateStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServUpdateForward</measType>
+      <measType p="1">ipworksDnsServUpdateFailure</measType>
+      <measType p="2">ipworksDnsServUpdateRefused</measType>
+      <measType p="3">ipworksDnsServUpdateTotal</measType>
+      <measType p="4">ipworksDnsServUpdateSuccess</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">85</r>
+        <r p="1">21</r>
+        <r p="2">45</r>
+        <r p="3">70</r>
+        <r p="4">12</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsNotifyStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServNotifyFailure</measType>
+      <measType p="1">ipworksDnsServNotifyTotal</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">83</r>
+        <r p="1">85</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsDNSSECStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServDNSSECFailure</measType>
+      <measType p="1">ipworksDnsServDNSSECSuccess</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">24</r>
+        <r p="1">22</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="SsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">SsEnumDnSchedNumberGauge</measType>
+      <measType p="1">SsEnumDnRangeNumberGauge</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">91</r>
+        <r p="1">56</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="OSProcessingLogicalUnit">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">CPULoad.IOWait</measType>
+      <measType p="1">CPULoad.IRQ</measType>
+      <measType p="2">CPULoad.Nice</measType>
+      <measType p="3">CPULoad.SoftIRQ</measType>
+      <measType p="4">CPULoad.Steal</measType>
+      <measType p="5">CPULoad.Steal.Maximum</measType>
+      <measType p="6">CPULoad.System</measType>
+      <measType p="7">CPULoad.Total</measType>
+      <measType p="8">CPULoad.Total.Maximum</measType>
+      <measType p="9">CPULoad.TotalVirt</measType>
+      <measType p="10">CPULoad.TotalVirt.Maximum</measType>
+      <measType p="11">CPULoad.User</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">24</r>
+        <r p="1">39</r>
+        <r p="2">24</r>
+        <r p="3">94</r>
+        <r p="4">37</r>
+        <r p="5">64</r>
+        <r p="6">78</r>
+        <r p="7">11</r>
+        <r p="8">27</r>
+        <r p="9">71</r>
+        <r p="10">20</r>
+        <r p="11">52</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAASWmGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAASWmRAR</measType>
+      <measType p="1">ipworksDiameterAAASWmASA</measType>
+      <measType p="2">ipworksDiameterAAASWmAAR</measType>
+      <measType p="3">ipworksDiameterAAASWmRAA</measType>
+      <measType p="4">ipworksDiameterAAASWmDER</measType>
+      <measType p="5">ipworksDiameterAAAActiveSWmSessionNumber</measType>
+      <measType p="6">ipworksDiameterAAASWmASR</measType>
+      <measType p="7">ipworksDiameterAAASWmEAPAKAAuthFailedNumber</measType>
+      <measType p="8">ipworksDiameterAAASWmDEAForEC</measType>
+      <measType p="9">ipworksDiameterAAASWmDERForEC</measType>
+      <measType p="10">ipworksDiameterAAASWmFastEAPAKAReAuthSuccessNumber</measType>
+      <measType p="11">ipworksDiameterAAASWmAAA</measType>
+      <measType p="12">ipworksDiameterAAASWmSTA</measType>
+      <measType p="13">ipworksDiameterAAASWmEAPAKAAuthSuccessNumber</measType>
+      <measType p="14">ipworksDiameterAAASWmDEA</measType>
+      <measType p="15">ipworksDiameterAAASWmSTR</measType>
+      <measType p="16">ipworksDiameterAAASWmFastEAPAKAReAuthFailedNumber</measType>
+      <measType p="17">ipworksDiameterAAASWmTPS</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">23</r>
+        <r p="1">66</r>
+        <r p="2">24</r>
+        <r p="3">76</r>
+        <r p="4">58</r>
+        <r p="5">17</r>
+        <r p="6">6</r>
+        <r p="7">71</r>
+        <r p="8">96</r>
+        <r p="9">40</r>
+        <r p="10">49</r>
+        <r p="11">39</r>
+        <r p="12">21</r>
+        <r p="13">91</r>
+        <r p="14">79</r>
+        <r p="15">37</r>
+        <r p="16">58</r>
+        <r p="17">74</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAAS6bGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAAS6bAAR</measType>
+      <measType p="1">ipworksDiameterAAAS6bAARReAuthorizationRequests</measType>
+      <measType p="2">ipworksDiameterAAAActiveS6bSessionNumber</measType>
+      <measType p="3">ipworksDiameterAAAS6bAARInitialAuthorizationRequests</measType>
+      <measType p="4">ipworksDiameterAAAS6bSTR</measType>
+      <measType p="5">ipworksDiameterAAAS6bSTA</measType>
+      <measType p="6">ipworksDiameterAAAS6bRAR</measType>
+      <measType p="7">ipworksDiameterAAAS6bAAA</measType>
+      <measType p="8">ipworksDiameterAAAS6bRAA</measType>
+      <measType p="9">ipworksDiameterAAAS6bTPS</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">62</r>
+        <r p="1">72</r>
+        <r p="2">35</r>
+        <r p="3">38</r>
+        <r p="4">3</r>
+        <r p="5">67</r>
+        <r p="6">48</r>
+        <r p="7">7</r>
+        <r p="8">73</r>
+        <r p="9">55</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusAuthGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusAuthServTotalMalformedAccessRequests</measType>
+      <measType p="1">ipworksRadiusAuthServTotalInvalidRequests</measType>
+      <measType p="2">ipworksRadiusAuthServTotalAccessAccepts</measType>
+      <measType p="3">ipworksRadiusAuthServTotalAccessRequests</measType>
+      <measType p="4">ipworksRadiusAuthServTotalPacketsDropped</measType>
+      <measType p="5">ipworksRadiusAuthServTotalAccessRejects</measType>
+      <measType p="6">ipworksRadiusAuthServTotalAccessChallenges</measType>
+      <measType p="7">ipworksRadiusAuthServTotalBadAuthenticators</measType>
+      <measType p="8">ipworksRadiusAuthServTotalDupAccessRequests</measType>
+      <measType p="9">ipworksRadiusAuthServTotalUnknownTypes</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">40</r>
+        <r p="1">40</r>
+        <r p="2">6</r>
+        <r p="3">77</r>
+        <r p="4">18</r>
+        <r p="5">63</r>
+        <r p="6">27</r>
+        <r p="7">72</r>
+        <r p="8">63</r>
+        <r p="9">31</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAAS13Group">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAAS13ECR</measType>
+      <measType p="1">ipworksDiameterAAAS13ECA</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">68</r>
+        <r p="1">64</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusAccGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusAccServTotalRequests</measType>
+      <measType p="1">ipworksRadiusAccServTotalPacketsDropped</measType>
+      <measType p="2">ipworksRadiusAccServTotalResponses</measType>
+      <measType p="3">ipworksRadiusAccServTotalMalformedRequests</measType>
+      <measType p="4">ipworksRadiusAccServTotalUnknownTypes</measType>
+      <measType p="5">ipworksRadiusAccServTotalInvalidRequests</measType>
+      <measType p="6">ipworksRadiusAccServTotalDupRequests</measType>
+      <measType p="7">ipworksRadiusAccServTotalBadAuthenticators</measType>
+      <measType p="8">ipworksRadiusAccServTotalNoRecords</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">10</r>
+        <r p="1">48</r>
+        <r p="2">31</r>
+        <r p="3">21</r>
+        <r p="4">51</r>
+        <r p="5">4</r>
+        <r p="6">32</r>
+        <r p="7">87</r>
+        <r p="8">32</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="OSProcessingUnit">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">CPULoad.Total</measType>
+      <measType p="1">CPULoad.IOWait</measType>
+      <measType p="2">CPULoad.IRQ</measType>
+      <measType p="3">CPULoad.Nice</measType>
+      <measType p="4">CPULoad.SoftIRQ</measType>
+      <measType p="5">CPULoad.Steal</measType>
+      <measType p="6">CPULoad.Steal.Maximum</measType>
+      <measType p="7">CPULoad.System</measType>
+      <measType p="8">CPULoad.Total</measType>
+      <measType p="9">CPULoad.Total.Maximum</measType>
+      <measType p="10">CPULoad.TotalVirt</measType>
+      <measType p="11">CPULoad.TotalVirt.Maximum</measType>
+      <measType p="12">CPULoad.User</measType>
+      <measType p="13">Disk.Free</measType>
+      <measType p="14">Disk.PercentFree</measType>
+      <measType p="15">Disk.PercentUsed</measType>
+      <measType p="16">Disk.PercentUsed.Maximum</measType>
+      <measType p="17">Disk.Used</measType>
+      <measType p="18">Disk.Used.Maximum</measType>
+      <measType p="19">Mem.Free</measType>
+      <measType p="20">Mem.PercentFree</measType>
+      <measType p="21">Mem.PercentUsed</measType>
+      <measType p="22">Mem.PercentUsed.Maximum</measType>
+      <measType p="23">Mem.Total</measType>
+      <measType p="24">Mem.Used</measType>
+      <measType p="25">Mem.Used.Maximum</measType>
+      <measType p="26">Swap.Free</measType>
+      <measType p="27">Swap.PercentFree</measType>
+      <measType p="28">Swap.PercentUsed</measType>
+      <measType p="29">Swap.PercentUsed.Maximum</measType>
+      <measType p="30">Swap.Used</measType>
+      <measType p="31">Swap.Used.Maximum</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">33</r>
+        <r p="1">54</r>
+        <r p="2">3</r>
+        <r p="3">78</r>
+        <r p="4">93</r>
+        <r p="5">73</r>
+        <r p="6">86</r>
+        <r p="7">75</r>
+        <r p="8">0</r>
+        <r p="9">17</r>
+        <r p="10">78</r>
+        <r p="11">82</r>
+        <r p="12">65</r>
+        <r p="13">17</r>
+        <r p="14">78</r>
+        <r p="15">15</r>
+        <r p="16">14</r>
+        <r p="17">6</r>
+        <r p="18">3</r>
+        <r p="19">81</r>
+        <r p="20">61</r>
+        <r p="21">86</r>
+        <r p="22">21</r>
+        <r p="23">91</r>
+        <r p="24">43</r>
+        <r p="25">66</r>
+        <r p="26">92</r>
+        <r p="27">85</r>
+        <r p="28">50</r>
+        <r p="29">17</r>
+        <r p="30">37</r>
+        <r p="31">49</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAASTaGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDiameterAAASTaAAAInitialAbortSessionRequests</measType>
+      <measType p="1">ipworksDiameterAAASTaInitialAuthRequests</measType>
+      <measType p="2">ipworksDiameterAAASTaSTR</measType>
+      <measType p="3">ipworksDiameterAAASTaEAPAKAPrimeAuthFailedNumber</measType>
+      <measType p="4">ipworksDiameterAAASTaTPS</measType>
+      <measType p="5">ipworksDiameterAAASTaSTA</measType>
+      <measType p="6">ipworksDiameterAAASTaEAPAKAPrimeAuthSuccessNumber</measType>
+      <measType p="7">ipworksDiameterAAASTaASR</measType>
+      <measType p="8">ipworksDiameterAAASTaAAA</measType>
+      <measType p="9">ipworksDiameterAAASTaReAuthRequests</measType>
+      <measType p="10">ipworksDiameterAAASTaASA</measType>
+      <measType p="11">ipworksDiameterAAAActiveSTaSessionNumber</measType>
+      <measType p="12">ipworksDiameterAAASTaDEA</measType>
+      <measType p="13">ipworksDiameterAAASTaAAR</measType>
+      <measType p="14">ipworksDiameterAAASTaDER</measType>
+      <measType p="15">ipworksDiameterAAASTaRAA</measType>
+      <measType p="16">ipworksDiameterAAASTaRAR</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">56</r>
+        <r p="1">69</r>
+        <r p="2">57</r>
+        <r p="3">85</r>
+        <r p="4">8</r>
+        <r p="5">80</r>
+        <r p="6">26</r>
+        <r p="7">4</r>
+        <r p="8">51</r>
+        <r p="9">66</r>
+        <r p="10">38</r>
+        <r p="11">18</r>
+        <r p="12">20</r>
+        <r p="13">95</r>
+        <r p="14">22</r>
+        <r p="15">52</r>
+        <r p="16">6</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusIPallocGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusServActiveIPv4LeasePercentage</measType>
+      <measType p="1">ipworksRadiusServActiveIPv4LeaseNum</measType>
+      <measType p="2">ipworksRadiusServActiveIPv6PrefixPercentage</measType>
+      <measType p="3">ipworksRadiusServConfiguredIPv4LeaseNum</measType>
+      <measType p="4">ipworksRadiusServActiveIPv6PrefixNum</measType>
+      <measType p="5">ipworksRadiusServConfiguredIPv6PrefixNum</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">55</r>
+        <r p="1">4</r>
+        <r p="2">5</r>
+        <r p="3">80</r>
+        <r p="4">21</r>
+        <r p="5">70</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DHCPv4MessageGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDhcpv4CountBOOTPReplies</measType>
+      <measType p="1">ipworksDhcpv4CountBOOTPRequests</measType>
+      <measType p="2">ipworksDhcpv4CountBOOTPTotal</measType>
+      <measType p="3">ipworksDhcpv4CountDHCPAcks</measType>
+      <measType p="4">ipworksDhcpv4CountDHCPDeclines</measType>
+      <measType p="5">ipworksDhcpv4CountDHCPDiscovers</measType>
+      <measType p="6">ipworksDhcpv4CountDHCPInforms</measType>
+      <measType p="7">ipworksDhcpv4CountDHCPNacks</measType>
+      <measType p="8">ipworksDhcpv4CountDHCPOffers</measType>
+      <measType p="9">ipworksDhcpv4CountDHCPReleases</measType>
+      <measType p="10">ipworksDhcpv4CountDHCPRequests</measType>
+      <measType p="11">ipworksDhcpv4CountDHCPTotal</measType>
+      <measType p="12">ipworksDhcpv4TransactionPerSecond</measType>
+      <measValue measObjLdn="MOID=1,nedn=1,NE_NAME=1,OSS_ID=1,SN=1,ipworksDhcpv4Name=Dhcp">
+        <r p="0">23</r>
+        <r p="1">59</r>
+        <r p="2">28</r>
+        <r p="3">99</r>
+        <r p="4">19</r>
+        <r p="5">28</r>
+        <r p="6">55</r>
+        <r p="7">16</r>
+        <r p="8">90</r>
+        <r p="9">35</r>
+        <r p="10">86</r>
+        <r p="11">71</r>
+        <r p="12">58</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsForwardStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServForwardTotal</measType>
+      <measType p="1">ipworksDnsServForwardFailure</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">46</r>
+        <r p="1">94</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="EnumTPSAlarmGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksEnumTotalQueryFailureErrorRate</measType>
+      <measType p="1">ipworksEnumQueryFailureErrorRate</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">59</r>
+        <r p="1">38</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusDynAuthzProxyGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusServProxyTotalFailedCoARequests</measType>
+      <measType p="1">ipworksRadiusServProxyTotalDisconnectRequests</measType>
+      <measType p="2">ipworksRadiusServProxyTotalFailedDisconnectRequests</measType>
+      <measType p="3">ipworksRadiusServProxyTotalSuccessDisconnectRequests</measType>
+      <measType p="4">ipworksRadiusServProxyTotalSuccessCoARequests</measType>
+      <measType p="5">ipworksRadiusServProxyTotalCoARequests</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">6</r>
+        <r p="1">36</r>
+        <r p="2">96</r>
+        <r p="3">89</r>
+        <r p="4">17</r>
+        <r p="5">19</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="ERHGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ERHNPfailedQusingLDAP</measType>
+      <measType p="1">ERHLNPQWithNPDI</measType>
+      <measType p="2">ERHNPfailedQusingINAP</measType>
+      <measType p="3">ERHNPQusingINAP</measType>
+      <measType p="4">ERHNPfailedQusingMAP</measType>
+      <measType p="5">ERHNPQusingMAPwithPorted</measType>
+      <measType p="6">ERHTotalFailedQuery</measType>
+      <measType p="7">ERHFailedLNPQ</measType>
+      <measType p="8">ERHNPQusingLDAP</measType>
+      <measType p="9">ERHLNPQ</measType>
+      <measType p="10">ERHTollFreeQ</measType>
+      <measType p="11">ERHTollFreeQWithGEOandCic</measType>
+      <measType p="12">ERHTotalQuery</measType>
+      <measType p="13">ERHFailedTollFreeQ</measType>
+      <measType p="14">ERHTollFreeQWithCic</measType>
+      <measType p="15">ERHNPQusingLDAPwithPorted</measType>
+      <measType p="16">ERHTollFreeQWithGEO</measType>
+      <measType p="17">ERHNPQusingMAP</measType>
+      <measType p="18">ERHNPQusingINAPwithPorted</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">89</r>
+        <r p="1">78</r>
+        <r p="2">46</r>
+        <r p="3">92</r>
+        <r p="4">83</r>
+        <r p="5">13</r>
+        <r p="6">0</r>
+        <r p="7">11</r>
+        <r p="8">7</r>
+        <r p="9">61</r>
+        <r p="10">89</r>
+        <r p="11">61</r>
+        <r p="12">33</r>
+        <r p="13">65</r>
+        <r p="14">92</r>
+        <r p="15">22</r>
+        <r p="16">27</r>
+        <r p="17">17</r>
+        <r p="18">41</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusAccProxyGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusAccClientTotalBadAuthenticators</measType>
+      <measType p="1">ipworksRadiusAccClientTotalTimeouts</measType>
+      <measType p="2">ipworksRadiusAccClientTotalPendingRequests</measType>
+      <measType p="3">ipworksRadiusAccClientTotalMalformedResponses</measType>
+      <measType p="4">ipworksRadiusAccClientTotalRetransmissions</measType>
+      <measType p="5">ipworksRadiusAccClientTotalUnknownTypes</measType>
+      <measType p="6">ipworksRadiusAccClientTotalRequests</measType>
+      <measType p="7">ipworksRadiusAccClientTotalPacketsDropped</measType>
+      <measType p="8">ipworksRadiusAccClientInvalidServerAddresses</measType>
+      <measType p="9">ipworksRadiusAccClientTotalResponses</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">83</r>
+        <r p="1">88</r>
+        <r p="2">38</r>
+        <r p="3">68</r>
+        <r p="4">48</r>
+        <r p="5">78</r>
+        <r p="6">29</r>
+        <r p="7">83</r>
+        <r p="8">52</r>
+        <r p="9">78</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsPerBladeStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServConfigUpTime</measType>
+      <measType p="1">ipworksDnsServForwardFailureRate</measType>
+      <measType p="2">ipworksDnsServTransactionPerSecond</measType>
+      <measType p="3">ipworksDnsServQueryFailureRate</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">13</r>
+        <r p="1">24</r>
+        <r p="2">68</r>
+        <r p="3">68</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="EnumPerBladeStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksEnumServTransactionPerSecond</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">23</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusAuthProxyGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusAuthClientTotalAccessRejects</measType>
+      <measType p="1">ipworksRadiusAuthClientTotalMalformedAccessResponses</measType>
+      <measType p="2">ipworksRadiusAuthClientTotalAccessAccepts</measType>
+      <measType p="3">ipworksRadiusAuthClientInvalidServerAddresses</measType>
+      <measType p="4">ipworksRadiusAuthClientTotalAccessRetransmissions</measType>
+      <measType p="5">ipworksRadiusAuthClientTotalUnknownTypes</measType>
+      <measType p="6">ipworksRadiusAuthClientTotalPacketsDropped</measType>
+      <measType p="7">ipworksRadiusAuthClientTotalTimeouts</measType>
+      <measType p="8">ipworksRadiusAuthClientTotalBadAuthenticators</measType>
+      <measType p="9">ipworksRadiusAuthClientTotalAccessRequests</measType>
+      <measType p="10">ipworksRadiusAuthClientTotalPendingRequests</measType>
+      <measType p="11">ipworksRadiusAuthClientTotalAccessChallenges</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">64</r>
+        <r p="1">40</r>
+        <r p="2">68</r>
+        <r p="3">7</r>
+        <r p="4">70</r>
+        <r p="5">73</r>
+        <r p="6">80</r>
+        <r p="7">21</r>
+        <r p="8">84</r>
+        <r p="9">92</r>
+        <r p="10">53</r>
+        <r p="11">3</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusDynAuthzGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusServTotalSuccessCoARequests</measType>
+      <measType p="1">ipworksRadiusServTotalFailedDisconnectRequests</measType>
+      <measType p="2">ipworksRadiusServTotalCoARequests</measType>
+      <measType p="3">ipworksRadiusServTotalFailedCoARequests</measType>
+      <measType p="4">ipworksRadiusServTotalDisconnectRequests</measType>
+      <measType p="5">ipworksRadiusServTotalSuccessDisconnectRequests</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">35</r>
+        <r p="1">80</r>
+        <r p="2">4</r>
+        <r p="3">98</r>
+        <r p="4">99</r>
+        <r p="5">81</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="EnumMessageGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksEnumCounterMultipleRoute</measType>
+      <measType p="1">ipworksEnumCounterSuccessfulRequests</measType>
+      <measType p="2">ipworksEnumCounterTotalFailed</measType>
+      <measType p="3">ipworksEnumCounterForwardedRequests</measType>
+      <measType p="4">ipworksEnumCounterDBSearch</measType>
+      <measType p="5">ipworksEnumCounterNotImplemented</measType>
+      <measType p="6">ipworksEnumCounterNoDn</measType>
+      <measType p="7">LDAPRequestForDNSCHED</measType>
+      <measType p="8">ipworksEnumCounterRequestsFailed</measType>
+      <measType p="9">SOAPRequestReceivedForDNRANGE</measType>
+      <measType p="10">ENUMDNSCHEDCachedNumber</measType>
+      <measType p="11">ipworksEnumCounterDBFailed</measType>
+      <measType p="12">TargetHitIncacheForDNSCHED</measType>
+      <measType p="13">ipworksEnumCounterServerFailed</measType>
+      <measType p="14">ipworksEnumCounterInvalidFormat</measType>
+      <measType p="15">ipworksEnumCounterSingleRoute</measType>
+      <measType p="16">ipworksEnumCounterInsufficientDigits</measType>
+      <measType p="17">LDAPResponseForDNSCHED</measType>
+      <measType p="18">ipworksEnumCounterNameError</measType>
+      <measType p="19">SOAPRequestReceivedForDNSCHED</measType>
+      <measType p="20">ipworksEnumCounterTotalRequest</measType>
+      <measType p="21">ipworksEnumCounterUnequippedRoute</measType>
+      <measType p="22">ipworksEnumCounterRefused</measType>
+      <measType p="23">ipworksEnumCounterSingleDN</measType>
+      <measType p="24">ipworksEnumCounterTruncatedResponses</measType>
+      <measType p="25">ipworksEnumCounterRCSeOtherOPRequests</measType>
+      <measType p="26">ipworksEnumCounterRequestErrors</measType>
+      <measType p="27">ENUMDNRANGECachedNumber</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">62</r>
+        <r p="1">1</r>
+        <r p="2">91</r>
+        <r p="3">0</r>
+        <r p="4">36</r>
+        <r p="5">39</r>
+        <r p="6">17</r>
+        <r p="7">30</r>
+        <r p="8">63</r>
+        <r p="9">7</r>
+        <r p="10">10</r>
+        <r p="11">24</r>
+        <r p="12">88</r>
+        <r p="13">84</r>
+        <r p="14">52</r>
+        <r p="15">39</r>
+        <r p="16">74</r>
+        <r p="17">65</r>
+        <r p="18">0</r>
+        <r p="19">31</r>
+        <r p="20">94</r>
+        <r p="21">6</r>
+        <r p="22">62</r>
+        <r p="23">76</r>
+        <r p="24">35</r>
+        <r p="25">75</r>
+        <r p="26">94</r>
+        <r p="27">33</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DnsQueryStatisticsGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksDnsServQueryNxrrset</measType>
+      <measType p="1">ipworksDnsServEnumQueryRecursion</measType>
+      <measType p="2">ipworksDnsServQuerySuccess</measType>
+      <measType p="3">ipworksDnsServQueryFailure</measType>
+      <measType p="4">ipworksDnsServQueryNxdomain</measType>
+      <measType p="5">ipworksDnsServQueryRecursion</measType>
+      <measType p="6">ipworksDnsServQueryXfr</measType>
+      <measType p="7">ipworksDnsServQueryXfrFailure</measType>
+      <measType p="8">ipworksDnsServQueryReferral</measType>
+      <measType p="9">ipworksDnsServQueryTotal</measType>
+      <measValue measObjLdn="Server1">
+        <r p="0">7</r>
+        <r p="1">63</r>
+        <r p="2">83</r>
+        <r p="3">22</r>
+        <r p="4">92</r>
+        <r p="5">70</r>
+        <r p="6">82</r>
+        <r p="7">26</r>
+        <r p="8">23</r>
+        <r p="9">25</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="AAARadiusOtherGroup">
+      <job jobId="ENUMQueryDefaultJob"/>
+      <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+10:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">ipworksRadiusServTotalOverloadProtectionDiscardNumber</measType>
+      <measType p="1">ipworksRadiusServActiveSessionNumber</measType>
+      <measValue measObjLdn="PL-3_7853309F-6EAB-4A30-B141-41A7A2F10E78">
+        <r p="0">45</r>
+        <r p="1">79</r>
+      </measValue>
+    </measInfo>
+  </measData>
+  <fileFooter endTime="2023-11-05T10:15:00+10:00">
+    <measCollec/>
+  </fileFooter>
+</measCollecFile>

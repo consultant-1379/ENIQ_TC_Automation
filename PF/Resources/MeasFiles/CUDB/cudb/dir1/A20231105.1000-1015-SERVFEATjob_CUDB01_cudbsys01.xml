@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="SERVFEATjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NSERVFEATMMINT.actual</measType>
+         <measType p="1">NSERVFEATSUBTRAC.actual</measType>
+         <measType p="2">NSERVFEATIST.actual</measType>
+         <measType p="3">NSERVFEATSTE.actual</measType>
+         <measType p="4">NSERVFEATPRBT.actual</measType>
+         <measType p="5">NSERVFEATSPAMSMS.actual</measType>
+         <measType p="6">NSERVFEATOBCC.actual</measType>
+         <measType p="7">NSERVFEATGERAN.actual</measType>
+         <measType p="8">NSERVFEATUTRAN.actual</measType>
+         <measType p="9">NSERVFEATOCAMEL.actual</measType>
+         <measType p="10">NSERVFEATTCAMEL.actual</measType>
+         <measType p="11">NSERVFEATVTCSI.actual</measType>
+         <measType p="12">NSERVFEATGPRSCSI.actual</measType>
+         <measType p="13">NSERVFEATMOSMSCSI.actual</measType>
+         <measType p="14">NSERVFEATMTSMSCSI.actual</measType>
+         <measType p="15">NSERVFEATMMCSI.actual</measType>
+         <measType p="16">NSERVFEATDCSI.actual</measType>
+         <measType p="17">NSERVFEATCRITTCSI.actual</measType>
+         <measType p="18">NSERVFEATCRITOCSI.actual</measType>
+         <measType p="19">NSERVFEATSMSHR.actual</measType>
+         <measType p="20">NSERVFEATOCAMELACT.actual</measType>
+         <measType p="21">NSERVFEATTCAMELACT.actual</measType>
+         <measType p="22">NSERVFEATVTCSIACT.actual</measType>
+         <measType p="23">NSERVFEATGPRSCSIACT.actual</measType>
+         <measType p="24">NSERVFEATMOSMSCSIACT.actual</measType>
+         <measType p="25">NSERVFEATMMCSIACT.actual</measType>
+         <measType p="26">NSERVFEATMTSMSCSIACT.actual</measType>
+         <measType p="27">NSERVFEATDCSIACT.actual</measType>
+         <measType p="28">NSERVFEATOCAMELNACT.actual</measType>
+         <measType p="29">NSERVFEATTCAMELNACT.actual</measType>
+         <measType p="30">NSERVFEATVTCSINACT.actual</measType>
+         <measType p="31">NSERVFEATGPRSCSINACT.actual</measType>
+         <measType p="32">NSERVFEATMOSMSCSINACT.actual</measType>
+         <measType p="33">NSERVFEATMMCSINACT.actual</measType>
+         <measType p="34">NSERVFEATMTSMSCSINACT.actual</measType>
+         <measType p="35">NSERVFEATDCSINACT.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5847652</r>
+             <r p="1">5832456</r>
+             <r p="2">5760884</r>
+             <r p="3">5850475</r>
+             <r p="4">5816917</r>
+             <r p="5">5837631</r>
+             <r p="6">5837401</r>
+             <r p="7">5798791</r>
+             <r p="8">5799472</r>
+             <r p="9">5828247</r>
+             <r p="10">5769711</r>
+             <r p="11">5792484</r>
+             <r p="12">5848178</r>
+             <r p="13">5821403</r>
+             <r p="14">5777892</r>
+             <r p="15">5790073</r>
+             <r p="16">5758281</r>
+             <r p="17">5746518</r>
+             <r p="18">5813988</r>
+             <r p="19">5751801</r>
+             <r p="20">5736898</r>
+             <r p="21">5826133</r>
+             <r p="22">5829813</r>
+             <r p="23">5814385</r>
+             <r p="24">5836853</r>
+             <r p="25">5768593</r>
+             <r p="26">5815270</r>
+             <r p="27">5751681</r>
+             <r p="28">5772771</r>
+             <r p="29">5840404</r>
+             <r p="30">5789955</r>
+             <r p="31">5794678</r>
+             <r p="32">5804804</r>
+             <r p="33">5741168</r>
+             <r p="34">5789538</r>
+             <r p="35">5845874</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

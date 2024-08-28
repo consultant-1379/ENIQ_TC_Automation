@@ -1,0 +1,2 @@
+NODENAME,licenseCapacityBgf,licenseCapacityVoiceTrans,licenseCapacityHDVoiceTrans
+MRS01,711282,0,0

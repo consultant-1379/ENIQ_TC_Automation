@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v11.0.0">
+       <fileSender/>
+       <measCollec beginTime="2023-10-30T10:00:00+02:00"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="DIAMETER1Job"/>
+         <granPeriod duration="PT900S" endTime="2023-10-30T10:15:00+02:00"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">dZhCntAuthAvgTime.actual</measType>
+         <measType p="1">dZhCntAuthAvgTime.min</measType>
+         <measType p="2">dZhCntAuthAvgTime.max</measType>
+         <measType p="3">dZhCntAuthFailed.actual</measType>
+         <measType p="4">dZhCntAuthFailed.delta</measType>
+         <measType p="5">dZhCntAuthMaxTime.actual</measType>
+         <measType p="6">dZhCntAuthMaxTime.min</measType>
+         <measType p="7">dZhCntAuthMaxTime.max</measType>
+         <measType p="8">dZhCntAuthSuccessful.actual</measType>
+         <measType p="9">dZhCntAuthSuccessful.delta</measType>
+         <measType p="10">dZhCntAuthTotal.actual</measType>
+         <measType p="11">dZhCntAuthTotal.delta</measType>
+		 <measValue measObjLdn="">
+             <r p="0">96</r>
+             <r p="1">41</r>
+             <r p="2">50</r>
+             <r p="3">80</r>
+             <r p="4">17</r>
+             <r p="5">62</r>
+             <r p="6">86</r>
+             <r p="7">15</r>
+             <r p="8">19</r>
+             <r p="9">17</r>
+             <r p="10">67</r>
+             <r p="11">25</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-10-30T10:15:00+02:00"/>
+    </fileFooter>
+</measCollecFile>

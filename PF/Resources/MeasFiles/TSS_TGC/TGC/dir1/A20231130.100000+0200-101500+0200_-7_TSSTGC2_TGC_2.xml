@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" 
+vendorName="Ericsson AB"
+ dnPrefix="SubNetwork=IsNetwork,IsSite=TSSISite">
+<fileSender localDn="bs=2" elementType="TGC"/>
+<measCollec beginTime="2023-11-30T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=2" userLabel="tgc_ref" swVersion="R5A"/>
+<measInfo measInfoId="">
+<job jobId="7"/>
+<granPeriod duration="PT900S" endTime="2023-11-30T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">bgwIfAvgCalls</measType>
+<measType p="2">bgwIfMaxCalls</measType>
+<measValue measObjLdn="TgcApp=*,DEFAULT=1,BgwInterface=1">
+<r p="1">625</r>
+<r p="2">626</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-30T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

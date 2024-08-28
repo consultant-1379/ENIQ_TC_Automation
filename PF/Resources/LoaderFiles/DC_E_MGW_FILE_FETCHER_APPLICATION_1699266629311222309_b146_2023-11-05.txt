@@ -1,0 +1,1 @@
+1	1	eniq_oss_1	MGw01	55	1	CXP9018138/2_R214A04	MGw01	MGw01	MGw01	ManagedElement=1,SystemFunctions=1,FileFetcher=1,FileFetcherApplication=1	2023-11-05	2023	11	5	10	2023-11-05 10:00:00	0	15MIN	29882	0	15		NDP 6.16.0	eniq_oss_1	+0200		2023-11-05 08:00:00	13	35	85	3	32	

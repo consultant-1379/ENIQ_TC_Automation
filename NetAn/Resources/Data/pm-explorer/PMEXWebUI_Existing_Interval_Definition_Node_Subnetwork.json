@@ -1,0 +1,72 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Node",
+              "SubNetwork" : "G2RBS01",
+              "Measure":"DL Packet Loss in gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC02": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Node",
+              "SubNetwork" : "G2RBS01",
+              "Measure":"Average UL MAC UE Throughput Captured in gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC03": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Node",
+              "SubNetwork" : "G2RBS01",
+              "Measure":"DRB Retainability  Session Time Normalized per mapped 5QI Loss Rate gNodeB triggered only",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC04": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Node",
+              "SubNetwork" : "G2RBS01",
+              "Measure":"RRC Establishment Success Rate MOS",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC05": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"SubNetwork",
+              "Aggregation":"Node",
+              "SubNetwork" : "G2RBS01",
+              "Measure":"Normalized DL MAC Cell Throughput Captured in gNodeB Considering Actual PDSCH Slot Only",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

@@ -1,0 +1,7 @@
+{ 
+    "TC01": { "Collection_Name": "Collection_249",
+              "System_Area": "Radio",              
+              "Node_Type": "ERBS",
+              "Node": "ERBS1"
+            }
+}

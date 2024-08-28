@@ -1,0 +1,802 @@
+             0 BAA01CELL01 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL02 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL03 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL04 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL05 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL06 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL07 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL08 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL09 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL11 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL12 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL13 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL16 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL21 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL22 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL28 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL29 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL30 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL33 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL35 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL37 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL40 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL41 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL42 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL43 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL44 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL45 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL46 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL47 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL48 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL49 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL50 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL51 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL52 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL53 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL54 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL55 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL56 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL57 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL58 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL59 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL60 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL61 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL62 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL63 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL64 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL65 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL66 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL67 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL68 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL69 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL70 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL71 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL72 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL73 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL74 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL75 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL76 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL77 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL78 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL79 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL80 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL81 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL82 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL83 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL84 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL85 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL86 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL87 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL88 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL89 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL90 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL91 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL92 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL93 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL94 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL95 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL96 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL97 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL98 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL99 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL10 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL10 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL11 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL11 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL11 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL11 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL12 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL12 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL12 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL12 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL12 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL12 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL12 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL12 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL12 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL12 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL13 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL13 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL13 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL14 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL14 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL14 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL14 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL14 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL15 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL15 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL15 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL15 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL16 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL16 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL16 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL16 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL16 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL16 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL16 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL16 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL16 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL16 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL17 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL17 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL17 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL17 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL18 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL19 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL20 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL20 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL20 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL21 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL21 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL21 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL21 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL22 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL22 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL22 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL22 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL22 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL22 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL22 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL22 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL22 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL22 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL23 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL23 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL23 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL23 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL23 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL24 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL24 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL24 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL24 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL24 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL25 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL25 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL25 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL25 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL26 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL26 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL26 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL26 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL26 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL27 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL27 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL27 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL27 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL27 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL28 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL28 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL28 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL28 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL28 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL28 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL28 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL28 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL28 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL28 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL29 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL29 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL29 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL29 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL29 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL29 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL29 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL29 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL29 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL29 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL30 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL30 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL30 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL30 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL30 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL30 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL30 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL30 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL30 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL30 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL31 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL31 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL32 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL32 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL32 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL33 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL33 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL33 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL33 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL33 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL33 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL33 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL33 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL33 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL33 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL34 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL34 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL34 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL34 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL34 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL35 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL35 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL36 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL36 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL37 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL37 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL37 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL37 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL37 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL37 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL37 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL37 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL37 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL37 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL38 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL38 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL38 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL39 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01CELL39 {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01CELL40 {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-01    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-02    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-03    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-04    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-05    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-06    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-07    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-08    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-09    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-10    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-11    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-12    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-13    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-14    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-15    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-16    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-17    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-18    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-19    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-20    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-21    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-22    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-23    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-24    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-25    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-26    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-27    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-28    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-29    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-30    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-31    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-32    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-33    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-34    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-35    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-36    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-37    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-38    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-39    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-40    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-41    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-42    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-43    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-44    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-45    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-46    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-47    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-48    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-49    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-50    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-51    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-52    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-53    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-54    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-55    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-56    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-57    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-58    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-59    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-60    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-61    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-62    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-63    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-64    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-65    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-66    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-67    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-68    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-69    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-70    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-71    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-72    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-73    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-74    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-75    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-76    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-77    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-78    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-79    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-80    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-81    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-82    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-83    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-84    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-85    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-86    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-87    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-88    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-89    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-90    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-91    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-92    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-93    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-94    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-95    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-96    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-97    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-98    {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-99    {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-100   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-101   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-102   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-103   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-104   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-105   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-106   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-107   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-108   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-109   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-110   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-111   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-112   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-113   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-114   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-115   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-116   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-117   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-118   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-119   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-120   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-121   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-122   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-123   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-124   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-125   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-126   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-127   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-128   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-129   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-130   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-131   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-132   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-133   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-134   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-135   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-136   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-137   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-138   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-139   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-140   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-141   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-142   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-143   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-144   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-145   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-146   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-147   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-148   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-149   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-150   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-151   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-152   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-153   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-154   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-155   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-156   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-157   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-158   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-159   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-160   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-161   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-162   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-163   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-164   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-165   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-166   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-167   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-168   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-169   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-170   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-171   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-172   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-173   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-174   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-175   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-176   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-177   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-178   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-179   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-180   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-181   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-182   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-183   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-184   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-185   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-186   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-187   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-188   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-189   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-190   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-191   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-192   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-193   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-194   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-195   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-196   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-197   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-198   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-199   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-200   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-201   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-202   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-203   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-204   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-205   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-206   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-207   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-208   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-209   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-210   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-211   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-212   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-213   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-214   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-215   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-216   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-217   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-218   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-219   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-220   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-221   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-222   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-223   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-224   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-225   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-226   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-227   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-228   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-229   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-230   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-231   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-232   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-233   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-234   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-235   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-236   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-237   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-238   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-239   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-240   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-241   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-242   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-243   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-244   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-245   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-246   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-247   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-248   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-249   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-250   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-251   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-252   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-253   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-254   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-255   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-256   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-257   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-258   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-259   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-260   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-261   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-262   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-263   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-264   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-265   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-266   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-267   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-268   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-269   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-270   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-271   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-272   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-273   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-274   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-275   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-276   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-277   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-278   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-279   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-280   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-281   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-282   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-283   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-284   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-285   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-286   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-287   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-288   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-289   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-290   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-291   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-292   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-293   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-294   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-295   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-296   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-297   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-298   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-299   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-300   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-301   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-302   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-303   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-304   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-305   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-306   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-307   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-308   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-309   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-310   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-311   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-312   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-313   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-314   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-315   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-316   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-317   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-318   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-319   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-320   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-321   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-322   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-323   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-324   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-325   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-326   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-327   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-328   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-329   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-330   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-331   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-332   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-333   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-334   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-335   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-336   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-337   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-338   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-339   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-340   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-341   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-342   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-343   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-344   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-345   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-346   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-347   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-348   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-349   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-350   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-351   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-352   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-353   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-354   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-355   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-356   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-357   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-358   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-359   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-360   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-361   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-362   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-363   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-364   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-365   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-366   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-367   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-368   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-369   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-370   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-371   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-372   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-373   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-374   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-375   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-376   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-377   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-378   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-379   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-380   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-381   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-382   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-383   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-384   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-385   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-386   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-387   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-388   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-389   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-390   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-391   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-392   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-393   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-394   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-395   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-396   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-397   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-398   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             1 BAA01-399   {4,16}        GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+             0 BAA01-400   {4,16} OL     GSM900 eniq_oss_1 BAA01    Ericsson ACTIVE 2024-04-11 15:36:04.0 2024-06-03 21:11:04.0 ENIQ     
+
+Note: Some of the data values have been truncated for display purposes.

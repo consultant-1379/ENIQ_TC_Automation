@@ -1,0 +1,7 @@
+NMI/TestCases/Initial_Installation/NMI_Verify_II_on_MB_TC48.robot
+NMI/TestCases/Server_Sanity/NMI_Server_Sanity_MB_TC128.robot
+NMI/TestCases/Common/NMI_Verify_Database_Connection_TC08.robot
+NMI/TestCases/Common/NMI_Verify_Directory_Permissions_on_MB_TC09.robot
+NMI/TestCases/Common/NMI_Verify_ENIQ_Services_on_MB_TC13.robot
+NMI/TestCases/Common/NMI_Verify_Password_Policy_TC17.robot
+NMI/TestCases/Common/NMI_Verify_Sybase_IQ_Pkg_version_TC159.robot

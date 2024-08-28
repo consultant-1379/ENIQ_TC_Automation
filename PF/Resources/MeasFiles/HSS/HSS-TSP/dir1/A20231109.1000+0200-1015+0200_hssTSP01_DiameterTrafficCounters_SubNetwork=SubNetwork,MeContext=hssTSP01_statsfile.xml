@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=hssTSP01</sn>
+<st>TSP</st>
+<vn>ERICSSON</vn>
+<cbt>20231109100000.2+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=hssTSP01</nedn>
+</neid>
+<mi>
+<mts>20231109101500.2+0200</mts>
+<gp>900</gp>
+<mt>CerReceivedFromUnknownPeer</mt>
+<mt>IncomingMessageDiscardedDueToOverload</mt>
+<mt>MalformedReceivedRequests</mt>
+<mt>OutgoingMessageDiscardedDueToCongestion</mt>
+<mt>ProtocolErrorsAndPermanentFailures</mt>
+<mt>ReceivedAnswerFromPeer</mt>
+<mt>ReceivedRequestFromPeer</mt>
+<mt>ReceivedUnsuccessfulAnswerFromPeer</mt>
+<mt>SentAnswerToPeer</mt>
+<mt>SentRequestToPeer</mt>
+<mt>SentUnsuccessfulAnswerToPeer</mt>
+<mt>tsp.diameter.incomingMessageDiscardedDueToOverload</mt>
+<mt>tsp.diameter.outgoingMessageDiscardedDueToCongestion</mt>
+<mt>tsp.diameter.receivedAnswerFromPeer</mt>
+<mt>tsp.diameter.receivedRequestFromPeer</mt>
+<mt>tsp.diameter.receivedUnsuccessfulAnswerFromPeer</mt>
+<mt>tsp.diameter.sentAnswerToPeer</mt>
+<mt>tsp.diameter.sentRequestToPeer</mt>
+<mt>tsp.diameter.sentUnsuccessfulAnswerToPeer</mt>
+<mv>
+<moid>HSS=DEFAULT,SLF=1,HSS-SM=1,HSS-ESM=1,HSS-AVG=1,HSS-WSM=1,HssSh=1,Source = Processor1</moid>
+<r>57</r>
+<r>63</r>
+<r>97</r>
+<r>56</r>
+<r>53</r>
+<r>55</r>
+<r>45</r>
+<r>11</r>
+<r>16</r>
+<r>44</r>
+<r>9</r>
+<r>6</r>
+<r>67</r>
+<r>46</r>
+<r>7</r>
+<r>44</r>
+<r>92</r>
+<r>63</r>
+<r>70</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231109101500.2+0200</ts>
+</mff>
+</mdc>

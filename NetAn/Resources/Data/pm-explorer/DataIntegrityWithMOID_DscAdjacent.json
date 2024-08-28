@@ -1,0 +1,19 @@
+{                    
+    "TC01": { "System_area": "Core",
+              "Node_type": "DSC",
+              "Node" : "DSC",
+              "Node_Collection": "NODE",
+              "Object_Aggregation": "No Aggregation",
+              "Time_selector" : "last12Hours",
+              "Aggregation" : "HOUR",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Measure" : "Number of Traffic Transactions per Second",
+              "SQL" : "declare @time varchar(50)= DATETIME_VALUE ,@moid varchar(200) = UNIQUE_ID_VALUE, @DscAdjacent varchar(100) = NODE_NAME_VALUE  select CAST(ROUND(avg(result), 2) AS NUMERIC(36,2)) AS kpiValue from(select (SUM(CC_IN_REQ_NUM_OF_MSGS_RECEIVED)+SUM(CC_REQ_NUM_OF_MSGS_PRODUCED)-(SUM(CC_IN_REQ_HX_BD_INITIALIZE)+SUM(CC_IN_REQ_HX_BD_BINDING)+ SUM(CC_IN_REQ_HX_BD_VERIFY)+SUM(CC_IN_REQ_HX_BD_TERMINATE)+ SUM(CC_IN_REQ_HX_TR)+SUM(CC_IN_REQ_HX_ERROR)))/(60*AVG(PERIOD_DURATION)*(15/AVG(PERIOD_DURATION))) as result from (select sum(D1.CC_IN_REQ_NUM_OF_MSGS_RECEIVED) as CC_IN_REQ_NUM_OF_MSGS_RECEIVED, sum(D2.CC_REQ_NUM_OF_MSGS_PRODUCED) as CC_REQ_NUM_OF_MSGS_PRODUCED, sum(D1.CC_IN_REQ_HX_BD_INITIALIZE) as CC_IN_REQ_HX_BD_INITIALIZE, sum(D1.CC_IN_REQ_HX_BD_BINDING) as CC_IN_REQ_HX_BD_BINDING, sum(D1.CC_IN_REQ_HX_BD_VERIFY) as CC_IN_REQ_HX_BD_VERIFY, sum(D1.CC_IN_REQ_HX_BD_TERMINATE) as CC_IN_REQ_HX_BD_TERMINATE, sum(D1.CC_IN_REQ_HX_TR) as CC_IN_REQ_HX_TR, sum(D1.CC_IN_REQ_HX_ERROR) as CC_IN_REQ_HX_ERROR, D2.PERIOD_DURATION as PERIOD_DURATION from DC_E_DSC_DSCREMOTEPEER_RAW D1, DC_E_DSC_DSCNODE_RAW D2 where D1.DATETIME_ID = D2.DATETIME_ID andD1.DscAd jacentRealm = @DscAdjacent and D2.MOID = @moid and D1.DATETIME_ID = @time group by PERIOD_DURATION )Final)A"
+			}
+	    
+}

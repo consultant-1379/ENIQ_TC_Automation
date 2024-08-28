@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=CSCF01</sn>
+<st>IMS</st>
+<vn>ERICSSON</vn>
+<cbt>20231108100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=IMS01</nedn>
+</neid>
+<mi>
+<mts>20231108101500.1+0200</mts>
+<gp>900</gp>
+<mt>AtomicTransaction</mt>
+<mt>MOsTransaction</mt>
+<mt>AuthenticateCounter</mt>
+<mt>CreateCounter</mt>
+<mt>RetrieveCounter</mt>
+<mt>UpdateCounter</mt>
+<mt>DeleteCounter</mt>
+<mt>CompareCounter</mt>
+<mt>AbandonCounter</mt>
+<mt>ActionCounter</mt>
+<mt>StartCounter</mt>
+<mt>CommitCounter</mt>
+<mt>RollbackCounter</mt>
+<mv>
+<moid>OamProvisioningCounter=DEFAULT,Source = Processor1</moid>
+<r>46</r>
+<r>49</r>
+<r>5</r>
+<r>98</r>
+<r>93</r>
+<r>52</r>
+<r>65</r>
+<r>77</r>
+<r>89</r>
+<r>90</r>
+<r>81</r>
+<r>42</r>
+<r>48</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231108101500.1+0200</ts>
+</mff>
+</mdc>

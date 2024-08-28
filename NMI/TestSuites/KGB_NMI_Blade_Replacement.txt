@@ -1,0 +1,11 @@
+#NMI/TestCases/Hardware_Replacement/Verify_Blade_Info.robot
+#NMI/TestCases/Hardware_Replacement/Verify_Blade_Recovery.robot
+#NMI/TestCases/Hardware_Replacement/Verify_Blade_Replacement.robot
+#NMI/TestCases/Hardware_Replacement/Verify_VG.robot
+#NMI/TestCases/Hardware_Replacement/Verify_Swap_Partition.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Blade_Info_TC85.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Blade_Recovery_TC77.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Blade_Replacement_TC78.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_VG_TC84.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Swap_Partition_TC83.robot
+

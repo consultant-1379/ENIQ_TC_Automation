@@ -1,0 +1,1 @@
+eniq_oss_1 ML637xBPM_01 Interfaces=1,Interface=LAN 1/1/1 SubNetwork=ENM2,ManagedElement=ML637xBPM_01,MeContext=ML637xBPM_01 2024-05-18    2024        5     18       9 2024-05-18 09:00:00.0      0 15MIN          13398        0              15 LOADED    24.Q1      eniq_oss_1 +0200                    0 2024-05-18 07:00:00.0 50.00000000 93.00000000 

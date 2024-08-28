@@ -1,0 +1,2 @@
+#NMI/TestCases/Snapshots/Verify_Snapshot_Creation.robot
+NMI/TestCases/Snapshots/NMI_Verify_Snapshot_Creation_TC56.robot

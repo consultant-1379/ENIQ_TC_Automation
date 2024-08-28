@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=vNSDS01,ManagedElement=vNSDS01,MeContext=vNSDS01" mimName="vNSDSTop" lastModified="1699595460130">
+	<attr name="timestampOfChange">2023-11-10 05:51:00.131</attr>
+ <attr name="userLabel">vNSDS01</attr>
+ <attr name="managedElementType">vNSDS</attr>
+ <attr name="nodeVersion">2.4.0</attr>
+ </mo>
+</model>

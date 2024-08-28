@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231006100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231006101500.1+0200</mts>
+<gp>900</gp>
+<mt>MtasMultiPersonaCsOrigSelAttempts</mt>
+<mt>MtasMultiPersonaCsOrigSelectionsOk</mt>
+<mt>MtasMultiPersonaCsOrigSelectionsNOkE</mt>
+<mt>MtasMultiPersonaCsOrigSelectionsNOkI</mt>
+<mt>MtasMultiPersonaCsTermSelAttempts</mt>
+<mt>MtasMultiPersonaCsTermSelectionsOk</mt>
+<mt>MtasMultiPersonaCsTermSelectionsNOkE</mt>
+<mt>MtasMultiPersonaCsTermSelectionsNOkI</mt>
+<mt>MtasMultiPersonaOrigSelAttempts</mt>
+<mt>MtasMultiPersonaTermSelAttempts</mt>
+<mt>MtasMultiPersonaOrigSelectionsOk</mt>
+<mt>MtasMultiPersonaOrigSelectionsNOkE</mt>
+<mt>MtasMultiPersonaOrigSelectionsNOkI</mt>
+<mt>MtasMultiPersonaTermSelectionsOk</mt>
+<mt>MtasMultiPersonaTermSelectionsNOkE</mt>
+<mt>MtasMultiPersonaTermSelectionsNOkI</mt>
+<mv>
+<moid>MtasMultiPersona=DEFAULT,Source = Processor1</moid>
+<r>76</r>
+<r>63</r>
+<r>35</r>
+<r>68</r>
+<r>77</r>
+<r>90</r>
+<r>96</r>
+<r>47</r>
+<r>22</r>
+<r>71</r>
+<r>44</r>
+<r>25</r>
+<r>74</r>
+<r>84</r>
+<r>17</r>
+<r>72</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231006101500.1+0200</ts>
+</mff>
+</mdc>

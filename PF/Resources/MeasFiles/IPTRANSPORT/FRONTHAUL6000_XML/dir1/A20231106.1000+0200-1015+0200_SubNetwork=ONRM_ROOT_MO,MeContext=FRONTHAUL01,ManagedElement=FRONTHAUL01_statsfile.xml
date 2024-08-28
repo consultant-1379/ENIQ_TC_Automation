@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V12.0" vendorName="Ericsson">
+<fileSender/>
+<measCollec beginTime="2023-11-06T10:00:00Z"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=1"/>
+<measInfo measInfoId="pmGroupPortMeas">
+ <job jobId="PRIMARY15MIN"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">IOP_MIN</measType>
+<measType p="2">IOP_MAX</measType>
+<measType p="3">IOP_AVG</measType>
+<measType p="4">OOP_MIN</measType>
+<measType p="5">OOP_MAX</measType>
+<measType p="6">OOP_AVG</measType>
+<measType p="7">Line_PreFEC_BER_MIN</measType>
+<measType p="8">Line_PreFEC_BER_MAX</measType>
+<measType p="9">Line_PreFEC_BER_AVG</measType>
+<measType p="10">ING_CLIENT_BER_8B10B_MIN</measType>
+<measType p="11">ING_CLIENT_BER_8B10B_MAX</measType>
+<measType p="12">ING_CLIENT_BER_8B10B_AVG</measType>
+<measType p="13">EGR_CLIENT_BER_8B10B_MIN</measType>
+<measType p="14">EGR_CLIENT_BER_8B10B_MAX</measType>
+<measType p="15">EGR_CLIENT_BER_8B10B_AVG</measType>
+<measType p="16">ING_CLIENT_HIBER_64B66B</measType>
+<measType p="17">EGR_CLIENT_HIBER_64B66B</measType>
+<measType p="18">LASER_BIAS_CURRENT_MAX</measType>
+<measType p="19">LASER_BIAS_CURRENT_MIN</measType>
+<measType p="20">LASER_BIAS_CURRENT_AVG</measType>
+<measType p="21">LASER_TEMP_MAX</measType>
+<measType p="22">LASER_TEMP_MIN</measType>
+<measType p="23">LASER_TEMP_AVG</measType>
+<measType p="24">Line_UNCORR_SUBFRAMES</measType>
+<measValue measObjLdn="ManagedElement=1,port=Un1.Pt17,pmGroupPortMeas=1">
+<r p="1">33</r>
+<r p="2">21</r>
+<r p="3">79</r>
+<r p="4">77</r>
+<r p="5">27</r>
+<r p="6">51</r>
+<r p="7">25</r>
+<r p="8">84</r>
+<r p="9">98</r>
+<r p="10">22</r>
+<r p="11">1</r>
+<r p="12">98</r>
+<r p="13">47</r>
+<r p="14">9</r>
+<r p="15">89</r>
+<r p="16">34</r>
+<r p="17">6</r>
+<r p="18">11</r>
+<r p="19">80</r>
+<r p="20">78</r>
+<r p="21">32</r>
+<r p="22">96</r>
+<r p="23">39</r>
+<r p="24">12</r>
+<suspect>false</suspect>
+</measValue>
+</measInfo>
+<measInfo measInfoId="pmGroupUnitMeas">
+ <job jobId="PRIMARY15MIN"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00Z"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">pmPowerConsumption</measType>
+<measType p="2">pmMinPowerConsumption</measType>
+<measType p="3">pmMaxPowerConsumption</measType>
+<measType p="4">pmAvgPowerConsumption</measType>
+<measType p="5">pmVoltage</measType>
+<measType p="6">pmMinVoltage</measType>
+<measType p="7">pmMaxVoltage</measType>
+<measType p="8">pmAvgVoltage</measType>
+<measType p="9">pmConsumedEnergy</measType>
+<measType p="10">pmConsumedEnergyAccumulated</measType>
+<measValue measObjLdn="ManagedElement=1,unit=Un1,pmGroupUnitMeas=1">
+<r p="1">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150</r>
+<r p="2">89</r>
+<r p="3">87</r>
+<r p="4">11</r>
+<r p="5">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150</r>
+<r p="6">97</r>
+<r p="7">14</r>
+<r p="8">78</r>
+<r p="9">62</r>
+<r p="10">14</r>
+<suspect>false</suspect>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-06T10:15:00Z"/>
+</fileFooter>
+</measCollecFile>

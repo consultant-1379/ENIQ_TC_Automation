@@ -1,0 +1,72 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"All Selected",
+              "Node" : "G2RBS01",
+              "Measure":"DL MAC DRB Throughput per QoS Captured in gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC02": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"All Selected",
+              "Node" : "G2RBS01",
+              "Measure":"pmAccumulatedEnergyConsumption.DC_E_TCU_ENERGYMEASUREMENT_RAW",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC03": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"All Selected",
+              "Node" : "G2RBS01",
+              "Measure":"EN-DC Intra-sgNodeB PSCell Change Success Rate Captured in gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC04": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"All Selected",
+              "Node" : "G2RBS01",
+              "Measure":"Average DL MAC DRB Throughput Captured in gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+    "TC05": { 
+          "System_area": "Radio",
+              "Node_type": "NR",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Collection",
+              "Aggregation":"All Selected",
+              "Node" : "G2RBS01",
+              "Measure":"NR Handover Execution success rate captured in source gNodeB",
+              "Time_selector" : "Existing Interval Definitions",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}

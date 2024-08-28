@@ -1,0 +1,2 @@
+sourceType|sourceFDN|targetType|targetFDN
+MGW|SubNetwork=ONRM_ROOT_MO,ManagedElement=SDC|SDCFunction|SubNetwork=ONRM_ROOT_MO,ManagedElement=SDC,SDCFunction=1

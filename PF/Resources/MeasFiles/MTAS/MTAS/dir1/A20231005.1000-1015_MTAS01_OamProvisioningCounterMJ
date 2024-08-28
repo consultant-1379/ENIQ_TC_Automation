@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231005100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231005101500.1+0200</mts>
+<gp>900</gp>
+<mt>AbandonCounter</mt>
+<mt>ActionCounter</mt>
+<mt>AtomicTransaction</mt>
+<mt>AuthenticateCounter</mt>
+<mt>CommitCounter</mt>
+<mt>CompareCounter</mt>
+<mt>CreateCounter</mt>
+<mt>DeleteCounter</mt>
+<mt>MOsTransaction</mt>
+<mt>RetrieveCounter</mt>
+<mt>RollbackCounter</mt>
+<mt>StartCounter</mt>
+<mt>UpdateCounter</mt>
+<mt>tsp.Cm.AverageResponseTime</mt>
+<mt>tsp.Cm.NumberofFailedAuthentications</mt>
+<mt>tsp.Cm.NumberofFailedOperations</mt>
+<mt>tsp.Cm.NumberofOperations</mt>
+<mt>tsp.Cm.NumberofUserSessions</mt>
+<mv>
+<moid>OamProvisioningCounterMJ=DEFAULT,Source = Processor1</moid>
+<r>27</r>
+<r>71</r>
+<r>22</r>
+<r>20</r>
+<r>26</r>
+<r>79</r>
+<r>14</r>
+<r>43</r>
+<r>91</r>
+<r>40</r>
+<r>15</r>
+<r>44</r>
+<r>87</r>
+<r>33</r>
+<r>77</r>
+<r>80</r>
+<r>51</r>
+<r>26</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231005101500.1+0200</ts>
+</mff>
+</mdc>

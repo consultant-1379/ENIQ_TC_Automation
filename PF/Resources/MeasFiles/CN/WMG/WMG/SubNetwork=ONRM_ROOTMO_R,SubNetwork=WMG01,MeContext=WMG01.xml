@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=WMG01,MeContext=WMG01" mimName="ComTop" lastModified="1699859340344">
+	<attr name="timestampOfChange">2023-11-13 07:09:00.345</attr>
+ <attr name="sourceType">EVR</attr>
+ <attr name="userLabel">WMG01</attr>
+ <attr name="nodeVersion">2.15</attr>
+<attr name="siteRef">SubNetwork=ONRM_ROOTMO_R,Site=MSWMG01</attr>
+ <attr name="managedElementType">WMG</attr>
+ </mo>
+</model>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=hssTSP01</sn>
+<st>TSP</st>
+<vn>ERICSSON</vn>
+<cbt>20231109100000.2+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=hssTSP01</nedn>
+</neid>
+<mi>
+<mts>20231109101500.2+0200</mts>
+<gp>900</gp>
+<mt>OutgoingMessageDiscardedDueToCongestionPerLink</mt>
+<mt>tsp.diameter.outgoingMessageDiscardedDueToCongestionPerLink</mt>
+<mv>
+<moid>HSS=DEFAULT,SLF=1,HSS-SM=1,HSS-ESM=1,HSS-AVG=1,HSS-WSM=1,HssSh=1,Source = Processor1</moid>
+<r>17</r>
+<r>88</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231109101500.2+0200</ts>
+</mff>
+</mdc>

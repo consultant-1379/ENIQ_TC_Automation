@@ -1,0 +1,7 @@
+{ 
+    "TC01": { "Collection_Name": "Collection_121",
+              "System_Area": "Core",
+              "Node_type" : "CCDM",
+              "ENIQ_DB" : "NetAn_ODBC"
+            }
+}

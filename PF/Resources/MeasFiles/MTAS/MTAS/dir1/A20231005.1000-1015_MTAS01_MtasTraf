@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231005100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231005101500.1+0200</mts>
+<gp>900</gp>
+<mt>MtasFuncOngoingMobileSess</mt>
+<mt>MtasFuncOngoingSess</mt>
+<mt>MtasFuncTcpConnections</mt>
+<mt>MtasFuncMaxNumberOfSessionsAction</mt>
+<mt>MtasFuncOngoingSubsSess</mt>
+<mt>MtasFuncOngoingMobileSessMin</mt>
+<mt>MtasFuncOngoingMobileSessMax</mt>
+<mt>MtasFuncOngoingMobileSessAvg</mt>
+<mt>MtasFuncOngoingMmtSess</mt>
+<mt>MtasFuncOngoingMmtSessMin</mt>
+<mt>MtasFuncOngoingMmtSessMax</mt>
+<mt>MtasFuncOngoingMmtSessAvg</mt>
+<mv>
+<moid>MtasTraf=DEFAULT,Source = Processor1</moid>
+<r>25</r>
+<r>34</r>
+<r>7</r>
+<r>38</r>
+<r>34</r>
+<r>33</r>
+<r>53</r>
+<r>89</r>
+<r>88</r>
+<r>16</r>
+<r>85</r>
+<r>24</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231005101500.1+0200</ts>
+</mff>
+</mdc>

@@ -1,0 +1,2 @@
+nodeFDN|hlraddr|nsub|nsuba
+SubNetwork=ONRM_RootMO,ManagedElement=VLR01|7-670551597|3|3

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=CSCF01</sn>
+<st>IMS</st>
+<vn>ERICSSON</vn>
+<cbt>20231108100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=IMS01</nedn>
+</neid>
+<mi>
+<mts>20231108101500.1+0200</mts>
+<gp>900</gp>
+<mt>CpuLoad</mt>
+<mt>MaxCpuLoad</mt>
+<mt>MemUsed</mt>
+<mt>MemFree</mt>
+<mt>MemUsage</mt>
+<mt>MaxMemUsage</mt>
+<mt>ProcessorUptime</mt>
+<mt>ClusterUptime</mt>
+<mt>DiskUsage</mt>
+<mt>DicosCpuLoad</mt>
+<mt>DicosMaxCpuLoad</mt>
+<mt>LinuxCpuLoad</mt>
+<mt>LinuxMaxCpuLoad</mt>
+<mv>
+<moid>PlatformMeasures=DEFAULT,Source = Proc_m2_s1</moid>
+<r>41</r>
+<r>67</r>
+<r>73</r>
+<r>64</r>
+<r>10</r>
+<r>25</r>
+<r>12</r>
+<r>58</r>
+<r>33</r>
+<r>37</r>
+<r>83</r>
+<r>73</r>
+<r>8</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231108101500.1+0200</ts>
+</mff>
+</mdc>

@@ -1,0 +1,2 @@
+KPI,Formula,Node Type,Description,Joins,FlexFilterValues,Index
+KPIC,DC_E_NR_EVENTS_NRCELLCU_V_RAW.pmEbsDrbRelNormal5qi,NR,Test_KPI,,"endc0To1,endc0To99",1-5

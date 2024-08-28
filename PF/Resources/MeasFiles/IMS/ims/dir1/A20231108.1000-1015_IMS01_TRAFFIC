@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=CSCF01</sn>
+<st>IMS</st>
+<vn>ERICSSON</vn>
+<cbt>20231108100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=softbank.ne.jp,g3SubNetwork=Japan,g3ManagedElement=IMS01</nedn>
+</neid>
+<mi>
+<mts>20231108101500.1+0200</mts>
+<gp>900</gp>
+<mt>easFailedSipDialogs</mt>
+<mt>easConcurrentSipDialogs</mt>
+<mt>easExpiredSipDialogs</mt>
+<mt>easSuccessfulSipDialogs</mt>
+<mt>easAverageSipDialogLifeTime</mt>
+<mt>easHeapMemoryUsage</mt>
+<mt>easReceivedSipRequests</mt>
+<mt>easSentSipRequests</mt>
+<mt>easReceivedSipResponses</mt>
+<mt>easSentSipResponses</mt>
+<mt>easInvalidSipMessages</mt>
+<mt>easSipServerTransactions</mt>
+<mt>easSipClientTransactions</mt>
+<mt>easAverageSipTransactionTime</mt>
+<mt>easHttpRequests</mt>
+<mt>easAverageHttpTransactionTime</mt>
+<mv>
+<moid>EAS_TRAFFIC=DEFAULT,Source = Processor1</moid>
+<r>42</r>
+<r>74</r>
+<r>40</r>
+<r>92</r>
+<r>39</r>
+<r>67</r>
+<r>96</r>
+<r>56</r>
+<r>31</r>
+<r>59</r>
+<r>0</r>
+<r>40</r>
+<r>42</r>
+<r>26</r>
+<r>75</r>
+<r>69</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231108101500.1+0200</ts>
+</mff>
+</mdc>

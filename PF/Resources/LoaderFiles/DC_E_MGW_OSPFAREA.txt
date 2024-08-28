@@ -1,0 +1,1 @@
+MGw01 1    1     MGw01 eniq_oss_1 ManagedElement=1,IpOam=1,Ospf=1,OspfArea=1 MGw01 MGw01 20        CXP9018138/2_R214A04 1        2023-11-05    2023       11      5      10 2023-11-05 10:00:00.0      0 15MIN           3555        0              15 LOADED               eniq_oss_1 +0200               (NULL) 2023-11-05 08:00:00.0                52 

@@ -1,0 +1,9 @@
+NMI/TestCases/KGB/Upgrade/NMI_Verify_Upgrade_on_MR_TC53.robot
+NMI/TestCases/KGB/Server_Sanity/NMI_Server_Sanity_MR_TC129.robot
+NMI/TestCases/KGB/Common/NMI_Verify_Database_Connection_TC08.robot
+NMI/TestCases/KGB/Common/NMI_Verify_Directory_Permissions_on_MR._TC10.robot
+NMI/TestCases/KGB/Common/NMI_Verify_ENIQ_Services_on_MR_TC14.robot
+NMI/TestCases/KGB/Common/NMI_Verify_Password_Policy_TC17.robot
+NMI/TestCases/KGB/Common/NMI_Verify_fbx64_on_MR_TC19.robot
+NMI/TestCases/KGB/Common/NMI_Verify_Sybase_IQ_Pkg_version_TC159.robot
+NMI/TestCases/KGB/Common/NMI_Verify_partition_file_not_present_160.robot

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Nov 07 17:48:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=Telstra,SubNetwork=ESC_NSW,ManagedElement=CORE16ESC01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=Telstra,SubNetwork=ESC_NSW,ManagedElement=CORE16ESC01" mimName="ONRM" mimVersion="13.2.4" lastModified="1699379280295">
+ <attr name="siteRef">SubNetwork=ONRM_ROOTMO,Site=PMS1</attr> 
+ <attr name="managedElementType">
+   <seq count="1">
+    <item>ESC</item>
+   </seq>
+ </attr>
+ <attr name="nodeVersion">23.Q3</attr>
+ <attr name="userLabel">ESC</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

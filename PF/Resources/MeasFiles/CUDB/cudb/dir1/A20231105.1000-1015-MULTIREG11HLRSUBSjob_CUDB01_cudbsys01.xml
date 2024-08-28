@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="MULTIREG11HLRSUBSjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NRSUBSCNT.actual</measType>
+         <measType p="1">NRNSUBSCNT.actual</measType>
+         <measType p="2">NRUSUBSCNT.actual</measType>
+         <measType p="3">NRGSUBSCNT.actual</measType>
+         <measType p="4">NACTRSUBSCNT.actual</measType>
+         <measType p="5">NACTRNSUBSCNT.actual</measType>
+         <measType p="6">NACTRUSUBSCNT.actual</measType>
+         <measType p="7">NACTRGSUBSCNT.actual</measType>
+         <measType p="8">CSRSUBSCNT.actual</measType>
+         <measType p="9">CSRNSUBSCNT.actual</measType>
+         <measType p="10">CSRUSUBSCNT.actual</measType>
+         <measType p="11">CSRGSUBSCNT.actual</measType>
+         <measType p="12">NINRSUBSCNT.actual</measType>
+         <measType p="13">NINRNSUBSCNT.actual</measType>
+         <measType p="14">NINRUSUBSCNT.actual</measType>
+         <measType p="15">NINRGSUBSCNT.actual</measType>
+         <measType p="16">NLCSRSUBSCNT.actual</measType>
+         <measType p="17">NLCSRNSUBSCNT.actual</measType>
+         <measType p="18">NLCSRUSUBSCNT.actual</measType>
+         <measType p="19">NLCSRGSUBSCNT.actual</measType>
+         <measType p="20">GPRSRSUBSCNT.actual</measType>
+         <measType p="21">GPRSRNSUBSCNT.actual</measType>
+         <measType p="22">GPRSRUSUBSCNT.actual</measType>
+         <measType p="23">GPRSRGUBSCNT.actual</measType>
+         <measType p="24">INREGSUBSCNT.actual</measType>
+         <measType p="25">INREGNSUBSCNT.actual</measType>
+         <measType p="26">INREGUSUBSCNT.actual</measType>
+         <measType p="27">INREGGSUBSCNT.actual</measType>
+         <measType p="28">OUTRPLMNCNT.actual</measType>
+         <measType p="29">OUTRNPLMNCNT.actual</measType>
+         <measType p="30">OUTRUPLMNCNT.actual</measType>
+         <measType p="31">OUTRGPLMNCNT.actual</measType>
+         <measType p="32">INPSUBSCNT.actual</measType>
+         <measType p="33">INPNSUBSCNT.actual</measType>
+         <measType p="34">INPUSUBSCNT.actual</measType>
+         <measType p="35">INPGSUBSCNT.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5831406</r>
+             <r p="1">5766004</r>
+             <r p="2">5840202</r>
+             <r p="3">5834270</r>
+             <r p="4">5846705</r>
+             <r p="5">5733876</r>
+             <r p="6">5834674</r>
+             <r p="7">5750120</r>
+             <r p="8">5812068</r>
+             <r p="9">5751111</r>
+             <r p="10">5802189</r>
+             <r p="11">5848425</r>
+             <r p="12">5846447</r>
+             <r p="13">5791199</r>
+             <r p="14">5777247</r>
+             <r p="15">5764654</r>
+             <r p="16">5806388</r>
+             <r p="17">5749031</r>
+             <r p="18">5840240</r>
+             <r p="19">5752801</r>
+             <r p="20">5746256</r>
+             <r p="21">5840752</r>
+             <r p="22">5823599</r>
+             <r p="23">5807817</r>
+             <r p="24">5777894</r>
+             <r p="25">5764667</r>
+             <r p="26">5838053</r>
+             <r p="27">5746301</r>
+             <r p="28">5799491</r>
+             <r p="29">5773678</r>
+             <r p="30">5750911</r>
+             <r p="31">5848519</r>
+             <r p="32">5833767</r>
+             <r p="33">5838652</r>
+             <r p="34">5841467</r>
+             <r p="35">5824242</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

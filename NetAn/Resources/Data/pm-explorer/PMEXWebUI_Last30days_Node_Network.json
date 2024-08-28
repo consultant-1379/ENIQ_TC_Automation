@@ -1,0 +1,72 @@
+{ 	
+	"TC01": { 
+    		  "System_area": "Core",
+              "Node_type": "PCC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"N7 Policy Association Creation Failure Ratio",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC02": { 
+    		  "System_area": "Core",
+              "Node_type": "PCC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"Bearers per QCI",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Hour",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC03": { 
+    		  "System_area": "Core",
+              "Node_type": "PCC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"Registered Users",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Month",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC04": { 
+    		  "System_area": "Core",
+              "Node_type": "PCC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"Xn Handover Failure Ratio",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "ROP",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC05": { 
+    		  "System_area": "Core",
+              "Node_type": "PCC",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Network",
+              "Aggregation":"Node",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"Control Plane Service Request Failure Ratio",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Week",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }				
+}

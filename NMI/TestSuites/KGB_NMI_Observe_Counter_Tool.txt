@@ -1,0 +1,4 @@
+#NMI/TestCases/Counter_Tool/Verify_Default_Entry.robot
+#NMI/TestCases/Counter_Tool/Verify_Report_Generation.robot
+NMI/TestCases/Counter_Tool/NMI_Verify_Default_Entry_TC23.robot
+NMI/TestCases/Counter_Tool/NMI_Verify_Report_Generation_TC26.robot

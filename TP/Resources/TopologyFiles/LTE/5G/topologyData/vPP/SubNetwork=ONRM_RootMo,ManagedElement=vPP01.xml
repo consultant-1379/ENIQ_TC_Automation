@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=ONRM_RootMo,ManagedElement=vPP02" mimName="ComTop" lastModified="1712240100037">
+	<attr name="timestampOfChange">2024-04-04 15:15:00.037</attr>
+	<attr name="managedElementType">vPP</attr>
+	<attr name="nodeVersion">24.Q1</attr>
+	<attr name="userLabel">vPP02</attr>
+	</mo>
+</model>

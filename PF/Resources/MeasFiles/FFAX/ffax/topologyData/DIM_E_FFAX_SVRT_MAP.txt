@@ -1,0 +1,5 @@
+OVERALL_SEVERITY_MIN|OVERALL_SEVERITY_MAX|DESCRIPTION
+0.98|0.29|Normal/No Failure
+0.07|1.23|Potential RF Loss
+1.7|0.99|Mismatched antenna diagram
+1.7|0.57|Swapped/Disconnected

@@ -1,0 +1,10 @@
+#NMI/TestCases/Counter_Tool/Enable_Counter_Tool.robot
+#NMI/TestCases/Counter_Tool/Verify_Collection_of_Statistics.robot
+#NMI/TestCases/Counter_Tool/Verify_Services.robot
+#NMI/TestCases/Counter_Tool/Verify_Directory_Size.robot
+#NMI/TestCases/Counter_Tool/Verify_Failed_Queries.robot
+NMI/TestCases/Counter_Tool/NMI_Enable_Counter_Tool_TC21.robot
+NMI/TestCases/Counter_Tool/NMI_Verify_Collection_of_Statistics_TC22.robot
+NMI/TestCases/Counter_Tool/NMI_Verify_Services_TC27.robot
+NMI/TestCases/Counter_Tool/NMI_Verify_Directory_Size_TC24.robot
+NMI/TestCases/Counter_Tool/NMI_Verify_Failed_Queries_TC25.robot

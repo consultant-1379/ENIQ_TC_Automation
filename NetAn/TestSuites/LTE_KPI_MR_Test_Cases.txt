@@ -1,0 +1,12 @@
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC04.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC05.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC11.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC16.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC17.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC23.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC29.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC34.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC35.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC41.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC42.robot
+ENIQ_TC_Automation\NetAn\TestCases\lte-kpi-dashboard\NetAn_II_LTE_KPI_Dashboard_TC44.robot

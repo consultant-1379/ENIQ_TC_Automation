@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</sn>
+<st>MTAS</st>
+<vn>ERICSSON</vn>
+<cbt>20231006100000.1+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=eritalk.com,g3SubNetwork=US,g3ManagedElement=MTAS01</nedn>
+</neid>
+<mi>
+<mts>20231006101500.1+0200</mts>
+<gp>900</gp>
+<mt>MtasGenSscIntErr</mt>
+<mt>MtasGenSscIntNOkE</mt>
+<mt>MtasGenSscIntNOkI</mt>
+<mt>MtasGenSscIntNOkP</mt>
+<mt>MtasGenSscIntOk</mt>
+<mt>MtasGenSscInvErr</mt>
+<mt>MtasGenSscInvNOkE</mt>
+<mt>MtasGenSscInvNOkI</mt>
+<mt>MtasGenSscInvNOkP</mt>
+<mt>MtasGenSscInvOk</mt>
+<mv>
+<moid>MtasGenSSCodes=DEFAULT,Source = Processor1</moid>
+<r>40</r>
+<r>43</r>
+<r>73</r>
+<r>89</r>
+<r>6</r>
+<r>54</r>
+<r>76</r>
+<r>97</r>
+<r>24</r>
+<r>30</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231006101500.1+0200</ts>
+</mff>
+</mdc>

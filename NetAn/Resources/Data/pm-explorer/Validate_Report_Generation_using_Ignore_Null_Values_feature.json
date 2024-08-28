@@ -1,0 +1,34 @@
+{ 	
+	"TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Node(s)",
+              "Aggregation":"No Aggregation",
+              "Node1" : "ERBS1",
+			  "Node2" : "",
+              "Measure_type":"ERICSSON_KPI",
+              "Measure":"Differentiated Average DL PDCP UE DRB Throughput Captured in eNodeB",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Day",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            },
+	"TC02": { 
+    		  "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Node(s)",
+              "Aggregation":"Node",
+              "Node1" : "ERBS1",
+			  "Node2" : "",
+              "Measure_type":"FLEX_COUNTER",
+              "Measure":"pmFlexCellHoExeSuccNr.DC_E_ERBS_EUTRANCELLFDD_FLEX_RAW",
+              "Time_selector" : "Last 30 Days",
+              "Aggregation_in_select_time" : "Hour", 
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report"
+            }
+}			

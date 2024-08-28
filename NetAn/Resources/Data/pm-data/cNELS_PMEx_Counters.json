@@ -1,0 +1,91 @@
+{
+    "TC01": {
+        
+        "Measure" : "cnels_scheduledbackup_errors"
+        
+    },
+	"TC02": {
+        
+        "Measure" : "cnels_scheduledbackup_missed"
+        
+    },
+	"TC03": {
+        
+        "Measure" : "cnels_wcdbcd_hints"
+        
+    },
+	"TC04": {
+        
+        "Measure" : "cnels_wcdbcd_unresponsive_nodes"
+        
+    },
+	"TC05": {
+        
+        "Measure" : "cnels_wcdbcd_read_request_failures"
+        
+    },
+	"TC06": {
+        
+        "Measure" : "cnels_wcdbcd_write_request_failures"
+        
+    },
+	"TC07": {
+        
+        "Measure" : "cnels_wcdbcd_request_timeouts"
+        
+    },
+	"TC08": {
+        
+        "Measure" : "cnels_wcdbcd_dropped_messages"
+        
+    },
+	"TC09": {
+        
+        "Measure" : "cnels_dczk_disk_usage"
+        
+    },
+	"TC010": {
+        
+        "Measure" : "cnels_dced_disk_usage"
+        
+    },
+	"TC011": {
+        
+        "Measure" : "cnels_ddbpg_disk_usage"
+        
+    },
+	"TC012": {
+        
+        "Measure" : "cnels_mbkf_disk_usage"
+        
+    },
+	"TC013": {
+        
+        "Measure" : "cnels_osmn_disk_usage"
+        
+    },
+	"TC014": {
+        
+        "Measure" : "cnels_pmbr_disk_usage"
+        
+    },
+	"TC015": {
+        
+        "Measure" : "cnels_pms_disk_usage"
+        
+    },
+	"TC016": {
+        
+        "Measure" : "cnels_se_disk_usage"
+        
+    },
+	"TC017": {
+        
+        "Measure" : "cnels_wcdbcd_disk_usage"
+        
+    }
+	
+	
+
+    
+}

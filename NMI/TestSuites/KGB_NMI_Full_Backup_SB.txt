@@ -1,0 +1,15 @@
+#NMI/TestCases/Backup/Backup-Precheck.robot
+#NMI/TestCases/Backup/OMBS_Full_Backup_SB.robot
+NMI/TestCases/Backup/NMI_Backup_Precheck_TC01.robot
+NMI/TestCases/Backup/NMI_OMBS_Full_Backup_SB_TC04.robot
+#NMI/TestCases/Server_Sanity/Server_Sanity_SB.robot
+NMI/TestCases/Server_Sanity/NMI_Server_Sanity_SB_TC131.robot
+#NMI/TestCases/Common/Verify_Database_Connection.robot
+#NMI/TestCases/Common/Verify_Directory_Permissions_on_SB.robot
+#NMI/TestCases/Common/Verify_ENIQ_Services_on_SB.robot
+#NMI/TestCases/Common/Verify_Password_Policy.robot
+NMI/TestCases/Common/NMI_Verify_Database_Connection_TC08.robot
+NMI/TestCases/Common/NMI_Verify_Directory_Permissions_on_SB_TC12.robot
+NMI/TestCases/Common/NMI_Verify_ENIQ_Services_on_SB_TC16.robot
+NMI/TestCases/Common/NMI_Verify_Password_Policy_TC17.robot
+NMI/TestCases/IQ/Verify_Prep_Eniq_Backup.robot

@@ -1,0 +1,38 @@
+{
+    "EPG1": {
+        "System_area" : "Core",
+        "Node_type" : "EPG",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "EPG01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "averageCpuUsage.DC_E_GGSN_NODECOUNTERS",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "averageCpuUsage",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "EPG_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "averageCpuUsage.DC_E_GGSN_NODECOUNTERS"
+    },
+    "EPG2": {
+        "System_area" : "Core",
+        "Node_type" : "EPG",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "EPG02",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "peakCpuUsage.DC_E_GGSN_NODECOUNTERS",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "peakCpuUsage",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "EPG_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "peakCpuUsage.DC_E_GGSN_NODECOUNTERS"
+    }
+}

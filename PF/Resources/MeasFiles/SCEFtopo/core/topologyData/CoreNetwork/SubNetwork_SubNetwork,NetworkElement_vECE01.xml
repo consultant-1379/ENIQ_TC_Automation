@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=vECE01" mimName="ONRM" lastModified="1700484720500">
+	<attr name="timestampOfChange">2023-11-20 12:52:00.653</attr>
+ <attr name="userLabel">SCEF</attr>
+ <attr name="managedFunctionType">
+   <seq count="1">
+    <item>SCEF</item>
+   </seq>
+ </attr>
+ <attr name="managedElementType">vECE</attr> 
+ <attr name="sourceType">ESA</attr> 
+ <attr name="nodeVersion">18.8</attr>
+ </mo>
+</model>

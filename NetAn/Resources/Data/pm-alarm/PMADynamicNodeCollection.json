@@ -1,0 +1,12 @@
+{
+     "TC01": {"CollectionName" : "DynamicCollection",
+              "ENIQ_data_source" : "NetAn_ODBC",
+    		  "Single_node_or_collection" : "Collection",
+              "System_area": "Radio",
+              "Node_type": "BSC",
+              "Node" : "bsc_2101",
+              "Wild_card" : "NodeName like '%bsc%'"
+              
+    }
+               
+}

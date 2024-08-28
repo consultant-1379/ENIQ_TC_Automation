@@ -1,0 +1,3 @@
+sourceType|sourceFDN|targetType|targetFDN
+Isite|SubNetwork=ONRM_ROOT_MO,ManagedElement=TSSTGC1|TgcFunction|SubNetwork=ONRM_ROOT_MO,ManagedElement=TSSTGC1,TgcFunction=Tgc_Func_ 
+Isite|SubNetwork=ONRM_ROOT_MO,ManagedElement=TSSTGC2|TgcFunction|SubNetwork=ONRM_ROOT_MO,ManagedElement=TSSTGC2,TgcFunction=Tgc_Func_ 

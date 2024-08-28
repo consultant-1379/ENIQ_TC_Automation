@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Nov 09 12:04:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=abc,ManagedElement=EPG01; Scope 8 -->
+<model>
+<mo fdn="" mimName="ONRM" mimVersion="13.2.4">
+ <attr name="sourceType">
+   <seq count="1">
+    <item>SSR</item>
+  </seq>
+ </attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSEPG01</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>EPG</item>
+  </seq>
+ </attr>
+ <attr name="nodeVersion">3.35</attr>
+ <attr name="userLabel">EPG01</attr>
+ <attr name="managedFunctionType">
+  <seq count="5">
+    <item>GGSN</item>
+    <item>PGW</item>
+    <item>SGW</item>
+    <item>MBMSGW</item>
+    <item>EpdgFunction</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

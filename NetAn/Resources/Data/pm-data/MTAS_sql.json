@@ -1,0 +1,2 @@
+{	"MTAS" : "select COUNT(*) from MeasurementCounter WHERE typeid like '%DC_E_MTAS:((287))%' and GROUPAGGREGATION !=NULL and COUNTAGGREGATION !=NULL"
+}

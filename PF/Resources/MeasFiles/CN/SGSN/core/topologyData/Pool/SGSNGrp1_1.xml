@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Fri Nov 03 10:17:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,Group=SGSNGrp1; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,Group=SGSNGrp1" mimName="ONRM" mimVersion="13.2.4" lastModified="1699006620454">
+ <attr name="groupType">PacketSwitchedPool</attr>
+ <attr name="GroupId">SGSNGrp1</attr>
+ <attr name="poolMember">SubNetwork=ONRM_ROOT_MO,SubNetwork=SGSN,ManagedElement=SGSN01</attr>
+ <attr name="userLabel">SGSNGrp1</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

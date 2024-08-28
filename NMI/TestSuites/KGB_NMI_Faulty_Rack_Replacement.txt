@@ -1,0 +1,3 @@
+#NMI/TestCases/Hardware_Replacement/Verify_Faulty_Rack_Replacement.robot
+NMI/TestCases/Hardware_Replacement/NMI_Verify_Faulty_Rack_Replacement_TC80.robot
+

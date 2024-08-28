@@ -1,0 +1,2 @@
+TgcFunction Tgc_Func_ eniq_oss_1 SubNetwork=ONRM_ROOT_MO,ManagedElement=TSSTGC1,TgcFunction=Tgc_Func_ ONRM_ROOT_MO TSSTGC1       SubNetwork=ONRM_ROOT_MO,Site=PMFGBIT" TSSTGC1 4.0        PMFGBIT" Tgc_Func_ Ericsson ACTIVE 2023-12-03 10:55:45.0 2023-12-03 10:55:45.0 ENIQ     
+TgcFunction Tgc_Func_ eniq_oss_1 SubNetwork=ONRM_ROOT_MO,ManagedElement=TSSTGC2,TgcFunction=Tgc_Func_ ONRM_ROOT_MO TSSTGC2       SubNetwork=ONRM_ROOT_MO,Site=PMFGBIT" TSSTGC2 4.0        PMFGBIT" Tgc_Func_ Ericsson ACTIVE 2023-12-03 10:55:45.0 2023-12-03 10:55:45.0 ENIQ     

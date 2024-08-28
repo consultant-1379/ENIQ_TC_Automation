@@ -1,0 +1,4 @@
+nodeFDN|userLabel|nodeVersion|nodeType|sourceType|siteFDN
+SubNetwork=ONRM_RootMo,SubNetwork=7500-S3,ManagedElement=STN-PICO-A001|STN-PICO-A001|T16A|STN|PICO|SubNetwork=ONRM_RootMo,Site=MSSTN-PICO-A001
+SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-A001|STN-SIU-A001|T16A|STN|SIU02|SubNetwork=ONRM_RootMo,Site=MSSTN-SIU-A001
+SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-TCU-A001|STN-TCU-A001|T16A|STN|TCU|SubNetwork=ONRM_RootMo,Site=MSSTN-TCU-A001

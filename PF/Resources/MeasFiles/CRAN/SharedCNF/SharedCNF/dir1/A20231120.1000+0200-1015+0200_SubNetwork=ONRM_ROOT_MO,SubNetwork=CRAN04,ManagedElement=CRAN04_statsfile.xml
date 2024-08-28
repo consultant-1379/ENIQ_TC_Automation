@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader dnPrefix="SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN04,ManagedElement=CRAN04" fileFormatVersion="32.435 V11.0" vendorName="Ericsson">
+<fileSender localDn="caotvdu74198" elementType="Shared-CNF"/>
+<measCollec beginTime="2023-11-20T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement userLabel="3cells" localDn="caotvdu74198" swVersion="CXF 101 0100/4 R3662BV"></managedElement>
+<measInfo measInfoId="Pm=1,PmGroup=Interface_RadioTransport">
+ <job jobId="BbPmJob"/>
+<granPeriod duration="PT900S" endTime="2023-11-20T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">in-unknown-protos</measType>
+<measType p="2">out-broadcast-pkts</measType>
+<measType p="3">out-discards</measType>
+<measType p="4">out-multicast-pkts</measType>
+<measType p="5">in-broadcast-pkts</measType>
+<measType p="6">out-unicast-pkts</measType>
+<measType p="7">out-octets</measType>
+<measType p="8">in-octets</measType>
+<measType p="9">in-errors</measType>
+<measType p="10">in-multicast-pkts</measType>
+<measType p="11">in-discards</measType>
+<measType p="12">in-unicast-pkts</measType>
+<measType p="13">out-errors</measType>
+<measValue measObjLdn="RANInfrastructureSupport=1,Equipment=1,FieldReplaceableUnit=2,Port=ri_2,PortChannel=ri_2,Interface=1">
+<r p="1">45</r>
+<r p="2">33</r>
+<r p="3">59</r>
+<r p="4">22</r>
+<r p="5">23</r>
+<r p="6">1</r>
+<r p="7">4</r>
+<r p="8">45</r>
+<r p="9">49</r>
+<r p="10">14</r>
+<r p="11">5</r>
+<r p="12">94</r>
+<r p="13">23</r>
+</measValue>
+<measValue measObjLdn="RANInfrastructureSupport=1,Equipment=1,FieldReplaceableUnit=2,Port=ri_2,PortChannel=ri_2,Interface=2">
+<r p="1">4</r>
+<r p="2">52</r>
+<r p="3">26</r>
+<r p="4">2</r>
+<r p="5">83</r>
+<r p="6">72</r>
+<r p="7">29</r>
+<r p="8">7</r>
+<r p="9">64</r>
+<r p="10">63</r>
+<r p="11">3</r>
+<r p="12">46</r>
+<r p="13">8</r>
+</measValue>
+<measValue measObjLdn="RANInfrastructureSupport=1,Equipment=1,FieldReplaceableUnit=2,Port=ri_2,PortChannel=ri_2,Interface=3">
+<r p="1">79</r>
+<r p="2">31</r>
+<r p="3">29</r>
+<r p="4">49</r>
+<r p="5">95</r>
+<r p="6">83</r>
+<r p="7">2</r>
+<r p="8">5</r>
+<r p="9">29</r>
+<r p="10">44</r>
+<r p="11">58</r>
+<r p="12">37</r>
+<r p="13">47</r>
+</measValue>
+<measValue measObjLdn="RANInfrastructureSupport=1,Equipment=1,FieldReplaceableUnit=2,Port=ri_2,PortChannel=ri_2,Interface=4">
+<r p="1">16</r>
+<r p="2">2</r>
+<r p="3">47</r>
+<r p="4">22</r>
+<r p="5">84</r>
+<r p="6">69</r>
+<r p="7">72</r>
+<r p="8">40</r>
+<r p="9">11</r>
+<r p="10">68</r>
+<r p="11">99</r>
+<r p="12">13</r>
+<r p="13">90</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-20T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

@@ -1,0 +1,8 @@
+AREA,AREA_GROUP,OSS_ID,CELL_ID,CELL_NAME,NW_TYPE
+Athlone,Cell Set,eniq_oss_1,AR12C00,AR12C00,AXE
+Athlone,Cell Set,eniq_oss_1,AR12C01,AR12C01,AXE
+Athlone,Cell Set,eniq_oss_1,AR12C02,AR12C02,AXE
+Athlone,Athlone_group,eniq_oss_1,AR12C03,AR12C03,AXE
+Athlone,Athlone_group,eniq_oss_1,,AR12C04,AR12C04,AXE
+Athlone,Athlone_group,eniq_oss_1,,AR12C05,AR12C05,AXE
+Athlone,Athlone_group,eniq_oss_1,,AR12C06,AR12C06,AXE

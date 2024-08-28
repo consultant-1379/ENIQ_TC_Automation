@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="REG24HLRSUBSjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">NSUBSCNT.actual</measType>
+         <measType p="1">NGSUBSCNT.actual</measType>
+         <measType p="2">NWSUBSCNT.actual</measType>
+         <measType p="3">NACTSUBSCNT.actual</measType>
+         <measType p="4">NACTGSUBSCNT.actual</measType>
+         <measType p="5">NACTWSUBSCNT.actual</measType>
+         <measType p="6">CSSUBSCNT.actual</measType>
+         <measType p="7">GCSSUBSCNT.actual</measType>
+         <measType p="8">WCSSUBSCNT.actual</measType>
+         <measType p="9">GPRSSUBSCNT.actual</measType>
+         <measType p="10">GGPRSSUBSCNT.actual</measType>
+         <measType p="11">WGPRSSUBSCNT.actual</measType>
+         <measType p="12">INPLMNCNT.actual</measType>
+         <measType p="13">GINPLMNCNT.actual</measType>
+         <measType p="14">WINPLMNCNT.actual</measType>
+         <measType p="15">OUTPLMNCNT.actual</measType>
+         <measType p="16">GOUTPLMNCNT.actual</measType>
+         <measType p="17">WOUTPLMNCNT.actual</measType>
+         <measType p="18">NINSUBSCNT.actual</measType>
+         <measType p="19">NGINSUBSCNT.actual</measType>
+         <measType p="20">NWINSUBSCNT.actual</measType>
+         <measType p="21">NLCSSUBSCNT.actual</measType>
+         <measType p="22">NGLCSSUBSCNT.actual</measType>
+         <measType p="23">NWLCSSUBSCNT.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5748373</r>
+             <r p="1">5761047</r>
+             <r p="2">5734155</r>
+             <r p="3">5803353</r>
+             <r p="4">5760558</r>
+             <r p="5">5744497</r>
+             <r p="6">5805315</r>
+             <r p="7">5738994</r>
+             <r p="8">5826395</r>
+             <r p="9">5756445</r>
+             <r p="10">5828892</r>
+             <r p="11">5848884</r>
+             <r p="12">5753140</r>
+             <r p="13">5735485</r>
+             <r p="14">5803096</r>
+             <r p="15">5734343</r>
+             <r p="16">5748214</r>
+             <r p="17">5843377</r>
+             <r p="18">5739165</r>
+             <r p="19">5800345</r>
+             <r p="20">5784282</r>
+             <r p="21">5823445</r>
+             <r p="22">5772468</r>
+             <r p="23">5757906</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

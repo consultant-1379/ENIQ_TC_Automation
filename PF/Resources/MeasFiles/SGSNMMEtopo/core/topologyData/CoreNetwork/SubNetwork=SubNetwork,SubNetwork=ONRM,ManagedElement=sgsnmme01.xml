@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Nov 02 12:09:00 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=SubNetwork,SubNetwork=ONRM,ManagedElement=sgsnmme01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=SubNetwork,SubNetwork=ONRM,ManagedElement=sgsnmme01" mimName="ONRM" mimVersion="13.2.4" lastModified="1698926940165">
+ <attr name="timestampOfChange">2023-11-02 12:09:00.165</attr>
+ <attr name="managedFunctionType">SGSN-MME</attr>
+ <attr name="utcoffset">UTC+05:30</attr>
+ <attr name="userLabel">sgsnmme01</attr>
+ <attr name="nodeVersion">1.80</attr>
+ <attr name="managedElementType">SGSN-MME</attr>
+ <attr name="managedElementId">sgsnmme01</attr>
+ </mo>
+</model>

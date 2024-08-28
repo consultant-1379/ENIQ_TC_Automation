@@ -1,0 +1,13 @@
+{
+     "TC01": {"CollectionName" : "StaticCollection",
+              "ENIQ_data_source" : "NetAn_ODBC",
+    		  "Single_node_or_collection" : "Collection",
+              "System_area": "Radio",
+              "Node_type": "NR",
+              "Node1" : "nr_510080",
+              "Node2" : "nr_510081",
+              "EditNode": "NR01gNodeBRadio00001"
+              
+    }
+               
+}

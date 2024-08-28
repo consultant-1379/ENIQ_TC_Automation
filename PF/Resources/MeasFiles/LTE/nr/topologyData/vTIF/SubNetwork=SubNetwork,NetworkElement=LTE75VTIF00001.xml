@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Fri Nov 03 10:26:04 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=SubNetwork,NetworkElement=LTE75VTIF00001; Scope 8 -->
+<model>
+	<mo fdn="SubNetwork=SubNetwork,NetworkElement=LTE75VTIF00001" mimName="ComTop" lastModified="1699007164210">
+	<attr name="timestampOfChange">2023-11-03 10:26:04</attr>
+	<attr name="userLabel">LTE75VTIF00001</attr>
+	<attr name="managedElementType">vTIF</attr>
+	<attr name="nodeVersion">23.Q4</attr>
+</mo>
+</model>

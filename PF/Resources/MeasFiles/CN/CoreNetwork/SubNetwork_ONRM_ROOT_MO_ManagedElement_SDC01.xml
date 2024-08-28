@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Nov 23 07:27:16 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,ManagedElement=SDC01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=SDC01" mimName="ONRM" mimVersion="13.2.4">
+ <attr name="userLabel">SDC01</attr>
+ <attr name="nodeVersion">5.8</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=SITE1</attr>
+ <attr name="sourceType">IPPROBE</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>SDC</item>
+  </seq>
+ </attr>
+ </mo>
+ <!-- No filter found for MO SubNetwork=ONRM_ROOT_MO,ManagedElement=SDC01,MgwFunction=1 -->
+</model>
+<!-- Generated 1 entries -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ABLOCCNT</measType>
+			<measType p="2">BLOCCNT</measType>
+			<measType p="3">CALLCNT</measType>
+			<measType p="4">CONGCNT</measType>
+			<measType p="5">MBLOCCNT</measType>
+			<measType p="6">NUDEVCNT</measType>
+			<measType p="7">OBLOCCNT</measType>
+			<measType p="8">ID1</measType>
+			<measType p="9">TOTDEVCNT</measType>
+			<measType p="10">TRALCNT</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,ECPOOL=0">
+				<r p="1">92</r>
+				<r p="2">86</r>
+				<r p="3">98</r>
+				<r p="4">96</r>
+				<r p="5">85</r>
+				<r p="6">13</r>
+				<r p="7">23</r>
+				<r p="8">22</r>
+				<r p="9">4</r>
+				<r p="10">39</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

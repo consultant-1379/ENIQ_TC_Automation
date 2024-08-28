@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=wmg-yang01,MeContext=wmg-yang01" mimName="WmgOiTop" lastModified="1699859340716">
+	<attr name="timestampOfChange">2023-11-13 07:09:00.716</attr>
+ <attr name="userLabel">wmg-yang01</attr>
+ <attr name="managedFunctionType">WMG-OI</attr>
+ <attr name="managedElementType">WMG-OI</attr>
+ <attr name="nodeVersion">2.15</attr>
+ </mo>
+</model>

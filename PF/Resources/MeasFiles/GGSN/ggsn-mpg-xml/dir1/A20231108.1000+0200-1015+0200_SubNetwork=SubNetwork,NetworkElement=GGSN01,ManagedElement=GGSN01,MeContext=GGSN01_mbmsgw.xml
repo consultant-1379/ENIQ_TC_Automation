@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V8.0" vendorName="Ericsson">
+<fileSender localDn="ManagedElement=GGSN01" elementType="mbmsgw"/>
+<measCollec  beginTime="2023-11-08T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=GGSN01"/>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwIcrSyncReceived</measType>
+<measType p="1">mbmsgwIcrSyncSent</measType>
+<measValue measObjLdn="mbmsgwICR">
+<r p="0">292232203</r>
+<r p="1">447521828</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwNbrOfActiveSessions</measType>
+<measType p="1">mbmsgwDownlinkPackets</measType>
+<measType p="2">mbmsgwDownlinkDroppedPackets</measType>
+<measType p="3">mbmsgwDownlinkBytes</measType>
+<measType p="4">mbmsgwDownlinkDroppedBytes</measType>
+<measValue measObjLdn="mbmsgwGlobal">
+<r p="0">367572331</r>
+<r p="1">676099514</r>
+<r p="2">7573942</r>
+<r p="3">104925289</r>
+<r p="4">46484015</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwCpbPeakCpuUsage</measType>
+<measType p="1">mbmsgwCpbAvgCpuUsage</measType>
+<measType p="2">mbmsgwCpbMemory</measType>
+<measType p="3">mbmsgwCpbMemoryUsed</measType>
+<measValue measObjLdn="mbmsgwCpb">
+<r p="0">729963658</r>
+<r p="1">251644933</r>
+<r p="2">392830979</r>
+<r p="3">108064080</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwMmeNbrOfSessions</measType>
+<measValue measObjLdn="mbmsgwMme">
+<r p="0">531696362</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwPpbPeakCpuUsage</measType>
+<measType p="1">mbmsgwPpbAvgCpuUsage</measType>
+<measType p="2">mbmsgwPpbMemory</measType>
+<measType p="3">mbmsgwPpbMemoryUsed</measType>
+<measType p="4">mbmsgwNbrAssignedSessions</measType>
+<measValue measObjLdn="mbmsgwPpb">
+<r p="0">639291200</r>
+<r p="1">161449376</r>
+<r p="2">443167167</r>
+<r p="3">454479571</r>
+<r p="4">76348558</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwSmSessionStartReq</measType>
+<measType p="1">mbmsgwSmSessionStartSucc</measType>
+<measType p="2">mbmsgwSmSessionStartFailSum</measType>
+<measType p="3">mbmsgwSmSessionStartFailNoReply</measType>
+<measType p="4">mbmsgwSmSessionStopReq</measType>
+<measType p="5">mbmsgwSmSessionStopSucc</measType>
+<measType p="6">mbmsgwSmSessionStopFailSum</measType>
+<measType p="7">mbmsgwSmEchoReqSent</measType>
+<measType p="8">mbmsgwSmEchoRespAccReceived</measType>
+<measType p="9">mbmsgwSmEchoRespRejReceived</measType>
+<measType p="10">mbmsgwSmSessionStopFailNoReply</measType>
+<measValue measObjLdn="mbmsgwSm">
+<r p="0">278080916</r>
+<r p="1">63682818</r>
+<r p="2">927418362</r>
+<r p="3">798640134</r>
+<r p="4">993115451</r>
+<r p="5">428358552</r>
+<r p="6">191915876</r>
+<r p="7">48811456</r>
+<r p="8">142729101</r>
+<r p="9">567669760</r>
+<r p="10">517014595</r>
+</measValue>
+</measInfo>
+<measInfo>
+<granPeriod duration="PT900S" endTime="2023-11-08T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="0">mbmsgwSgmbStartReqReceived</measType>
+<measType p="1">mbmsgwSgmbStartAnswErrSent</measType>
+<measType p="2">mbmsgwSgmbStopReqReceived</measType>
+<measType p="3">mbmsgwSgmbStopAnswErrSent</measType>
+<measValue measObjLdn="mbmsgwSgmb">
+<r p="0">898235333</r>
+<r p="1">963333826</r>
+<r p="2">529128684</r>
+<r p="3">385575133</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-08T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

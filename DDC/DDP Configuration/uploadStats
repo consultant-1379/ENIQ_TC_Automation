@@ -1,0 +1,129 @@
+#!/bin/bash -a
+
+DEST_HOST=ddpa.athtem.eei.ericsson.se
+
+EXPECT=/ericsson/solaris/bin/expect
+
+STATS_USERID=$1
+STATS_PASSWD=$2
+
+HOP_HOST=$3
+HOP_USERID=$4
+HOP_PASSWD=$5
+
+if [ -z "${STATS_USERID}" -o -z "${STATS_PASSWD}" ]; then
+    echo "Usage: $0 userid password"
+    exit 1
+fi
+
+if [ -d "/opt/ericsson/ERICddc" ] ; then
+    # we're running R2 (ERICddc)
+    DDCDIR=/opt/ericsson/ERICddc
+    . ${DDCDIR}/etc/global.env
+    FILE_PREFIX="DDC_Data"
+elif [ -d /opt/ericsson/jm ]; then
+    DATAROOT=/var/opt/ericsson/oss_data
+    FILE_PREFIX="OSS_Data"
+else
+    DATAROOT=/var/opt/ericsson/ranos_data
+    FILE_PREFIX="RANOS_Data"
+fi
+
+if [ ! -d ${DATAROOT}/uploaded ]; then
+    mkdir ${DATAROOT}/uploaded
+fi
+
+ls ${DATAROOT}/${FILE_PREFIX}_*.tar.gz 2>&1 | egrep "${FILE_PREFIX}_" >> /dev/null 2>&1
+if [ $? -ne 0 ]; then
+    echo "No files found to upload" >> ${DATAROOT}/uploaded/log 2>&1
+    exit 0
+fi
+
+for file in ${DATAROOT}/DDC_Data_*-*; do
+    if [[ -L "$file" ]]; then unlink ${file}; fi
+done
+
+if [ ! -z "${HOP_HOST}" ] ; then
+    HOST=${HOP_HOST}
+    USERID=${HOP_USERID}
+    PASSWORD=${HOP_PASSWD}
+    REMOTE_DIR=/tmp
+else
+    HOST=${DEST_HOST}
+    USERID=${STATS_USERID}
+    PASSWORD=${STATS_PASSWD}
+    REMOTE_DIR=.
+fi
+
+echo  "#############################################################" >> ${DATAROOT}/uploaded/log 2>&1
+echo "[$($_DATE)] Started uploadStats script to upload the data to DDP [${HOST}] server" >> ${DATAROOT}/uploaded/log 2>&1
+
+if [ -x /usr/bin/expect ] ; then
+    EXPECT=/usr/bin/expect
+else
+    EXPECT=/usr/local/bin/expect
+fi
+echo "[$($_DATE)] Uploading DDC tar file to the DDP [${HOST}] server..." >> ${DATAROOT}/uploaded/log 2>&1
+${EXPECT} <<EOF >> ${DATAROOT}/uploaded/log 2>&1
+log_user 0
+spawn /usr/bin/sftp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ${USERID}@${HOST}
+expect {
+    -nocase "password" {send "${PASSWORD}\r"}
+    timeout {puts stderr "ERROR: Timeout uploading to DDP"; exit 1}
+    eof {puts stderr \$expect_out(buffer); exit 1}
+}
+expect {
+    "sftp>" {send "put ${DATAROOT}/${FILE_PREFIX}_*.tar.gz\r"}
+    timeout {puts stderr "ERROR: Timeout uploading to DDP server"; exit 1}
+    eof {puts stderr \$expect_out(buffer); exit 1}
+}
+expect "sftp>" {send "quit\r"}
+expect eof
+EOF
+
+# Exit if SFTP command was unsuccessful
+if [ $? -ne 0 ]; then
+    echo "[$($_DATE)] Exiting the script as the SFTP command was unsuccessful..." >> ${DATAROOT}/uploaded/log 2>&1
+    exit $?;
+fi;
+
+mv ${DATAROOT}/${FILE_PREFIX}*.tar.gz ${DATAROOT}/uploaded >> ${DATAROOT}/uploaded/log 2>&1
+if [ $? -ne 0 ]; then
+    echo "[$($_DATE)] Exiting the script as moving DDC tar file to ${DATAROOT}/uploaded directory was unsuccessful..." >> ${DATAROOT}/uploaded/log 2>&1
+    exit $?;
+fi
+
+echo "[$($_DATE)] Upload of DDC tar file to DDP and moving of it to ${DATAROOT}/uploaded/ is done..." >> ${DATAROOT}/uploaded/log 2>&1
+echo  "[$($_DATE)] Upload Complete to DDP [${HOST}] server" >> ${DATAROOT}/uploaded/log 2>&1
+echo  "#############################################################" >> ${DATAROOT}/uploaded/log 2>&1
+
+if [ ! -z "${HOP_HOST}" ] && [ -x ${EXPECT} ] ; then
+    ${EXPECT} <<EOF >> ${DATAROOT}/uploaded/log
+spawn telnet ${HOP_HOST}
+expect "login: "
+send "${HOP_USERID}\r"
+expect "Password:"
+send "${HOP_PASSWD}\r"
+expect "#"
+send "ftp -n ${DEST_HOST}\r"
+expect -ex "ftp>"
+send "user ${STATS_USERID} ${STATS_PASSWD}\r"
+expect -ex "ftp>"
+send "bin\r"
+expect -ex "ftp>"
+send "prompt\r"
+expect -ex "ftp>"
+send "lcd ${REMOTE_DIR}\r"
+expect -ex "ftp>"
+send "mput ${FILE_PREFIX}*.tar.gz\r"
+expect -ex "ftp>"
+send "quit\r"
+expect "#"
+send "cd ${REMOTE_DIR}\r"
+expect "#"
+send "rm -f ${FILE_PREFIX}*.tar.gz\r"
+expect "#"
+send "exit\r"
+EOF
+
+fi

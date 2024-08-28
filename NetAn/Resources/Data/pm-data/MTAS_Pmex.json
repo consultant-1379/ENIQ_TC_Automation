@@ -1,0 +1,38 @@
+{
+    "MTAS1": {
+        "System_area" : "Core",
+        "Node_type" : "MTAS",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "MTAS01",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "MtasMwiNotificationNOkI.DC_E_MTAS_MTASMWI",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "MtasMwiNotificationNOkI",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "MTAS_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "MtasMwiNotificationNOkI.DC_E_MTAS_MTASMWI"
+    },
+    "MTAS2": {
+        "System_area" : "Core",
+        "Node_type" : "MTAS",
+        "Data_source" : "NetAn_ODBC",
+        "Get_Data_for" : "Node(s)",
+        "Aggregation" : "Node",
+        "Node" : "MTAS02",
+        "Measure_type" : "COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+        "Measure" : "MtasMwiNotificationOk.DC_E_MTAS_MTASMWI",
+        "Time_selector" : "Last 30 Days",
+        "Aggregation_in_select_time" : "Day",
+        "get_data_for_Columns" : "MtasMwiNotificationOk",
+        "Columns_displayed" : "DATE_ID",
+        "Report_name" : "MTAS_",
+        "Report_AccessType" : "Public",
+        "Report_Description" : "NA",
+        "Formula" : "MtasMwiNotificationOk.DC_E_MTAS_MTASMWI"
+    }
+}

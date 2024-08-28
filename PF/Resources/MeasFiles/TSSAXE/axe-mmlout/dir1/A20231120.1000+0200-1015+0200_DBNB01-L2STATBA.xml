@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+	<fileHeader dnPrefix="" vendorName="Ericsson AB" fileFormatVersion="32.435 v7.2.0" >
+		<fileSender elementType="AXE" localDn="DBNB01"/>
+		<measCollec beginTime="2023-11-20T10:00:00+00:00"/>
+	</fileHeader>
+	<measData>
+		<managedElement swVersion="" userLabel="AXE" localDn="DBNB01"/>
+<measInfo>
+ 			<job jobId="1"/>
+			<granPeriod endTime="2023-11-20T10:15:00+00:00" duration="PT900S"/>
+			<repPeriod duration="PT900S"/>
+			<measType p="1">ID3</measType>
+			<measType p="2">ID2</measType>
+			<measType p="3">ID4</measType>
+			<measType p="4">ID1</measType>
+			<measType p="5">NCFUNDEF</measType>
+			<measType p="6">NDMSABME</measType>
+			<measType p="7">NESTLNK</measType>
+			<measType p="8">NFRMINVSEQ</measType>
+			<measType p="9">NFRMR</measType>
+			<measType p="10">NINFMAXLEN</measType>
+			<measType p="11">NINVFRM</measType>
+			<measType p="12">NMAXTRA</measType>
+			<measType p="13">NNPERMINF</measType>
+			<measType p="14">NRECFRM</measType>
+			<measType p="15">NRECFRMERR</measType>
+			<measType p="16">NRETRAFRM</measType>
+			<measType p="17">NSABMEDM</measType>
+			<measType p="18">NTRAFRM</measType>
+			<measType p="19">NUNEXPFRM</measType>
+			<measType p="20">NUNSOLSUPR</measType>
+			<measValue measObjLdn="ManagedElement=DBNB01,L2STATBA=0">
+				<r p="1">7</r>
+				<r p="2">43</r>
+				<r p="3">90</r>
+				<r p="4">24</r>
+				<r p="5">56</r>
+				<r p="6">36</r>
+				<r p="7">47</r>
+				<r p="8">25</r>
+				<r p="9">60</r>
+				<r p="10">70</r>
+				<r p="11">0</r>
+				<r p="12">73</r>
+				<r p="13">5</r>
+				<r p="14">68</r>
+				<r p="15">20</r>
+				<r p="16">11</r>
+				<r p="17">72</r>
+				<r p="18">78</r>
+				<r p="19">50</r>
+				<r p="20">54</r>
+			</measValue>
+		</measInfo>
+	</measData>
+	<fileFooter>
+		<measCollec endTime="2023-11-20T10:15:00+00:00"/>
+	</fileFooter>
+</measCollecFile>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,MeContext=FRONTHAUL01,ManagedElement=FRONTHAUL01" mimName="FRONTHAUL-6000" lastModified="1699343521597">
+ <attr name="timestampOfChange">2023-11-07 07:52:01.597</attr>
+ <attr name="userLabel">FRONTHAUL01</attr>
+ <attr name="utcOffset">+00:00</attr>
+ <attr name="managedElementType">FRONTHAUL-6000</attr>
+ <attr name="nodeVersion">22.Q4</attr>
+ </mo>
+</model>

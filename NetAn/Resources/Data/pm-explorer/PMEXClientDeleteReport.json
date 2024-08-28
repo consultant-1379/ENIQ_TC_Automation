@@ -1,0 +1,30 @@
+{ 
+    "TC01": { "System_area": "Core",
+              "Node_type": "CCDM",
+              "Node" : "CCDM01",
+              "GetDataFor": "NODE",
+              "SubNetwork":"",
+              "Data_source":"NetAn_ODBC",
+              "Object_Aggregation": "Node",
+              "Measure_type":"COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+              "Days" :"",
+              "Time_selector" : "last30Days",
+              "Aggregation" : "ROP",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Time_selector2" : "",
+              "Check_Box" : "no",
+              "Report_AccessType": "Public",
+              "Report_Description":  "desc",
+              "Measure" : "TPS KPI for Ud Service-Service Provider",
+              "SQL1" : "",
+              "Data_Of_Col1" : "",
+              "Data_Of_Col2" : "N",
+              "Formula" : ""
+              }          
+	    
+}

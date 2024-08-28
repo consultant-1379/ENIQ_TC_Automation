@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec"  >
+<fileHeader fileFormatVersion="32.435 V9.0" vendorName="Ericsson">
+<fileSender localDn="NE=PT-0-0-0-0_ML6352_243" />
+<measCollec beginTime="2024-05-23T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement  userLabel="ML6352_243" swVersion="CXP9026371_3_R10F110_2-8">
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>pmMinPowerConsumption pmMaxPowerConsumption pmAvgPowerConsumption pmConsumedEnergy pmConsumedEnergyAccumulated </measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>40 97 52 41 70 </measResults>
+</measValue>
+</measInfo>
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>pmPowerConsumption</measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>54</measResults>
+</measValue>
+</measInfo>
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>BB BBE ES SES UAS BBER ESR SESR </measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>65 60 64 94 35 36 82 69 </measResults>
+</measValue>
+</measInfo>
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>TrEvtsRx TrEvtsRxH TrOctRx TrOctRxH TrPktsRx TrPktsRxH TrBroadRx TrBroadRxH TrMultiRx TrMultiRxH TrAliErrRx TrAliErrRxH TrUnderRx TrUnderRxH TrOvrErrRx TrOvrErrRxH TrFragRx TrFragRxH TrJabRx TrJabRxH TrColRx TrColRxH TrPkt64Rx TrPkt64RxH TrPkt127Rx TrPkt127RxH TrPkt255Rx TrPkt255RxH TrPkt511Rx TrPkt511RxH TrPkt1023Rx TrPkt1023RxH TrPkt1518Rx TrPkt1518RxH TrPkt1536Rx TrPkt1536RxH </measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>71 39 78 53 32 89 11 45 3 49 84 22 35 14 81 60 42 45 18 89 27 77 34 84 42 60 40 61 48 21 11 27 62 58 76 9 </measResults>
+</measValue>
+</measInfo>
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>Bw0To5Tx Bw5To10Tx Bw10To15Tx Bw15To20Tx Bw20To25Tx Bw25To30Tx Bw30To35Tx Bw35To40Tx Bw40To45Tx Bw45To50Tx Bw50To55Tx Bw55To60Tx Bw60To65Tx Bw65To70Tx Bw70To75Tx Bw75To80Tx Bw80To85Tx Bw85To90Tx Bw90To95Tx Bw95To100Tx Bw0To5Tc0 Bw5To10Tc0 Bw10To15Tc0 Bw15To20Tc0 Bw20To25Tc0 Bw25To30Tc0 Bw30To35Tc0 Bw35To40Tc0 Bw40To45Tc0 Bw45To50Tc0 Bw50To55Tc0 Bw55To60Tc0 Bw60To65Tc0 Bw65To70Tc0 Bw70To75Tc0 Bw75To80Tc0 Bw80To85Tc0 Bw85To90Tc0 Bw90To95Tc0 Bw95To100Tc0 Bw0To5Tc1 Bw5To10Tc1 Bw10To15Tc1 Bw15To20Tc1 Bw20To25Tc1 Bw25To30Tc1 Bw30To35Tc1 Bw35To40Tc1 Bw40To45Tc1 Bw45To50Tc1 Bw50To55Tc1 Bw55To60Tc1 Bw60To65Tc1 Bw65To70Tc1 Bw70To75Tc1 Bw75To80Tc1 Bw80To85Tc1 Bw85To90Tc1 Bw90To95Tc1 Bw95To100Tc1 Bw0To5Tc2 Bw5To10Tc2 Bw10To15Tc2 Bw15To20Tc2 Bw20To25Tc2 Bw25To30Tc2 Bw30To35Tc2 Bw35To40Tc2 Bw40To45Tc2 Bw45To50Tc2 Bw50To55Tc2 Bw55To60Tc2 Bw60To65Tc2 Bw65To70Tc2 Bw70To75Tc2 Bw75To80Tc2 Bw80To85Tc2 Bw85To90Tc2 Bw90To95Tc2 Bw95To100Tc2 Bw0To5Tc3 Bw5To10Tc3 Bw10To15Tc3 Bw15To20Tc3 Bw20To25Tc3 Bw25To30Tc3 Bw30To35Tc3 Bw35To40Tc3 Bw40To45Tc3 Bw45To50Tc3 Bw50To55Tc3 Bw55To60Tc3 Bw60To65Tc3 Bw65To70Tc3 Bw70To75Tc3 Bw75To80Tc3 Bw80To85Tc3 Bw85To90Tc3 Bw90To95Tc3 Bw95To100Tc3 Bw0To5Tc4 Bw5To10Tc4 Bw10To15Tc4 Bw15To20Tc4 Bw20To25Tc4 Bw25To30Tc4 Bw30To35Tc4 Bw35To40Tc4 Bw40To45Tc4 Bw45To50Tc4 Bw50To55Tc4 Bw55To60Tc4 Bw60To65Tc4 Bw65To70Tc4 Bw70To75Tc4 Bw75To80Tc4 Bw80To85Tc4 Bw85To90Tc4 Bw90To95Tc4 Bw95To100Tc4 Bw0To5Tc5 Bw5To10Tc5 Bw10To15Tc5 Bw15To20Tc5 Bw20To25Tc5 Bw25To30Tc5 Bw30To35Tc5 Bw35To40Tc5 Bw40To45Tc5 Bw45To50Tc5 Bw50To55Tc5 Bw55To60Tc5 Bw60To65Tc5 Bw65To70Tc5 Bw70To75Tc5 Bw75To80Tc5 Bw80To85Tc5 Bw85To90Tc5 Bw90To95Tc5 Bw95To100Tc5 Bw0To5Tc6 Bw5To10Tc6 Bw10To15Tc6 Bw15To20Tc6 Bw20To25Tc6 Bw25To30Tc6 Bw30To35Tc6 Bw35To40Tc6 Bw40To45Tc6 Bw45To50Tc6 Bw50To55Tc6 Bw55To60Tc6 Bw60To65Tc6 Bw65To70Tc6 Bw70To75Tc6 Bw75To80Tc6 Bw80To85Tc6 Bw85To90Tc6 Bw90To95Tc6 Bw95To100Tc6 Bw0To5Tc7 Bw5To10Tc7 Bw10To15Tc7 Bw15To20Tc7 Bw20To25Tc7 Bw25To30Tc7 Bw30To35Tc7 Bw35To40Tc7 Bw40To45Tc7 Bw45To50Tc7 Bw50To55Tc7 Bw55To60Tc7 Bw60To65Tc7 Bw65To70Tc7 Bw70To75Tc7 Bw75To80Tc7 Bw80To85Tc7 Bw85To90Tc7 Bw90To95Tc7 Bw95To100Tc7 Bw0To5Rx Bw5To10Rx Bw10To15Rx Bw15To20Rx Bw20To25Rx Bw25To30Rx Bw30To35Rx Bw35To40Rx Bw40To45Rx Bw45To50Rx Bw50To55Rx Bw55To60Rx Bw60To65Rx Bw65To70Rx Bw70To75Rx Bw75To80Rx Bw80To85Rx Bw85To90Rx Bw90To95Rx Bw95To100Rx BwAvgTx BwAvgRx BwMaxTx BwMaxRx BwMinTx BwMinRx BwAvgTc0 BwMaxTc0 BwMinTc0 BwAvgTc1 BwMaxTc1 BwMinTc1 BwAvgTc2 BwMaxTc2 BwMinTc2 BwAvgTc3 BwMaxTc3 BwMinTc3 BwAvgTc4 BwMaxTc4 BwMinTc4 BwAvgTc5 BwMaxTc5 BwMinTc5 BwAvgTc6 BwMaxTc6 BwMinTc6 BwAvgTc7 BwMaxTc7 BwMinTc7 </measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>99 93 13 5 50 18 6 45 22 36 75 21 72 27 71 5 50 85 21 19 49 23 41 35 19 71 89 65 63 8 97 15 89 9 19 46 19 32 74 63 6 50 69 6 93 8 96 8 14 96 90 54 90 21 7 26 89 27 76 3 3 28 47 61 58 85 72 46 48 72 67 1 33 1 95 71 92 58 46 67 50 79 30 45 33 49 76 21 24 66 70 66 83 91 21 36 35 62 34 24 53 92 68 55 19 63 77 34 56 74 25 30 21 37 75 41 77 4 25 54 39 68 51 88 67 75 65 80 74 30 74 20 60 61 61 15 44 73 45 52 31 5 16 43 44 17 50 28 36 97 24 90 56 15 55 42 0 41 63 48 41 9 65 9 49 34 48 24 65 91 67 4 99 5 34 74 37 60 35 4 51 76 18 42 78 17 73 94 54 52 56 14 25 47 17 37 33 46 95 52 56 85 12 14 87 7 4 78 93 58 57 80 29 92 38 10 93 54 74 86 96 11 75 83 69 55 28 84 54 32 </measResults>
+</measValue>
+</measInfo>
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>CRlTs1 SNIR_Min SNIR_Max XPI_Min XPI_Max CRlTs2 RxLevelMin RxLevelMax CTlTs1 TxLevelMin TxLevelMax CPsAc CModCh HalfBpsk HalfBpskLight HalfBpskStrong Bpsk BpskLight 4Qam 4QamLight 4QamStrong 16Qam 16QamLight 16QamStrong 32Qam 32QamLight 64Qam 64QamLight 128Qam 128QamLight 256Qam 256QamLight 512Qam </measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>2 95 77 41 35 92 0 22 55 75 71 51 10 99 7 73 28 47 2 51 52 40 79 20 8 44 30 56 71 48 12 67 0 </measResults>
+</measValue>
+</measInfo>
+<measInfo measInfoId="V=1.1">
+ <granPeriod duration="PT900S" endTime="2024-05-23T10:15:00+02:00"/>
+<measTypes>DAvgTc0 DInt1Tc0 DInt2Tc0 DInt3Tc0 DInt4Tc0 DInt5Tc0 DInt6Tc0 DInt7Tc0 DInt8Tc0 DAvgTc1 DInt1Tc1 DInt2Tc1 DInt3Tc1 DInt4Tc1 DInt5Tc1 DInt6Tc1 DInt7Tc1 DInt8Tc1 DAvgTc2 DInt1Tc2 DInt2Tc2 DInt3Tc2 DInt4Tc2 DInt5Tc2 DInt6Tc2 DInt7Tc2 DInt8Tc2 DAvgTc3 DInt1Tc3 DInt2Tc3 DInt3Tc3 DInt4Tc3 DInt5Tc3 DInt6Tc3 DInt7Tc3 DInt8Tc3 DAvgTc4 DInt1Tc4 DInt2Tc4 DInt3Tc4 DInt4Tc4 DInt5Tc4 DInt6Tc4 DInt7Tc4 DInt8Tc4 DAvgTc5 DInt1Tc5 DInt2Tc5 DInt3Tc5 DInt4Tc5 DInt5Tc5 DInt6Tc5 DInt7Tc5 DInt8Tc5 DAvgTc6 DInt1Tc6 DInt2Tc6 DInt3Tc6 DInt4Tc6 DInt5Tc6 DInt6Tc6 DInt7Tc6 DInt8Tc6 DAvgTc7 DInt1Tc7 DInt2Tc7 DInt3Tc7 DInt4Tc7 DInt5Tc7 DInt6Tc7 DInt7Tc7 DInt8Tc7 DAvg DInt1 DInt2 DInt3 DInt4 DInt5 DInt6 DInt7 DInt8 </measTypes>
+<measValue measObjLdn="IF=LAG 2 1/1/3 2,Cvid50,Dn,L6,P6,Rmep:02:BA:88:F3:88:66 1">
+<measResults>9 59 98 88 3 70 68 55 65 21 40 91 94 32 37 8 45 73 75 1 85 62 75 87 37 64 66 87 59 9 42 67 55 23 9 56 57 44 18 56 53 33 32 73 50 82 18 51 56 14 60 10 18 55 69 5 51 36 96 26 13 30 52 76 79 20 21 15 30 86 74 74 14 4 1 92 12 97 29 98 22 </measResults>
+</measValue>
+</measInfo>
+</managedElement>
+</measData>
+<fileFooter>
+<measCollec endTime="2024-05-23T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

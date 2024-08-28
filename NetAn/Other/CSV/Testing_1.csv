@@ -1,0 +1,2 @@
+KPI,Formula,Node Type,Description,Joins,FlexFilterValues,Index
+Test1,DC_E_NR_NRCELLCU_RAW.pmEndcRelUeAbnormalSgnbAct,NR,Test_KPI,,"endc0To1",

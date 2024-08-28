@@ -1,0 +1,2 @@
+STNName|NodeBName/eNodeBName
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC01,MeContext=RNC01RBS02,ManagedElement=1

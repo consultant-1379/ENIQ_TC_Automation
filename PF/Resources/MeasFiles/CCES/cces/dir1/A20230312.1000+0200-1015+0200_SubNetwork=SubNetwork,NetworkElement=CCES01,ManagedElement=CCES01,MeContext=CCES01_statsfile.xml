@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl" ?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V11.0" vendorName="Ericsson">
+<fileSender localDn="" elementType="" />
+<measCollec beginTime="2023-11-07T10:00:00+00:00"/>
+</fileHeader>
+<measData>
+<managedElement localDn="" swVersion=""/>
+<measInfo measInfoId="eric-nef-nnef-msisdnlessmosms-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-msisdnlessmosms-requests-sent</measType>
+<measType p="2">eric-nef-nnef-msisdnlessmosms-successful-responses-recv</measType>
+<measType p="3">eric-nef-nnef-msisdnlessmosms-unsuccessful-responses-recv</measType>
+<measType p="4">eric-nef-hss-msisdnlessmosms-requests-sent</measType>
+<measType p="5">eric-nef-hss-msisdnlessmosms-successful-responses-recv</measType>
+<measType p="6">eric-nef-hss-msisdnlessmosms-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-hss-msisdnlessmosms-client-rtt-duration-seconds</measType>
+<measType p="8">eric-nef-smsc-msisdnlessmosms-requests-recv</measType>
+<measType p="9">eric-nef-smsc-msisdnlessmosms-successful-responses-sent</measType>
+<measType p="10">eric-nef-smsc-msisdnlessmosms-unsuccessful-responses-sent</measType>
+<measType p="11">eric-nef-smsc-msisdnlessmosms-request-duration-seconds</measType>
+<measType p="12">eric-nef-nnef-msisdnlessmosms-overload-unsuccessful-ratio</measType>
+<measType p="13">eric-nef-nnef-msisdnlessmosms-overload-unsuccessful-requests</measType>
+<measValue measObjLdn="/system">
+<r p="1">52</r>
+<r p="2">15</r>
+<r p="3">87</r>
+<r p="4">20</r>
+<r p="5">87</r>
+<r p="6">92</r>
+<r p="7">28</r>
+<r p="8">27</r>
+<r p="9">58</r>
+<r p="10">66</r>
+<r p="11">71</r>
+<r p="12">18</r>
+<r p="13">17</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-apigm-oauth-group">
+<job jobId="eric-apigm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-apigm-oauthserver-http-requests-total</measType>
+<measType p="2">eric-apigm-jwks-manager-http-requests-total</measType>
+<measType p="3">eric-apigm-oauthserver-http-request-duration-seconds</measType>
+<measType p="4">eric-apigm-jwks-manager-http-request-duration-seconds</measType>
+<measType p="5">eric-apigm-oauthserver-requests-failure-rate</measType>
+<measType p="6">eric-apigm-jwks-manager-requests-failure-rate</measType>
+<measValue measObjLdn="/system">
+<r p="1">89</r>
+<r p="2">40</r>
+<r p="3">72</r>
+<r p="4">54</r>
+<r p="5">63</r>
+<r p="6">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-ueproxy-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-ueproxy-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-ueproxy-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-ueproxy-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-ees-ueproxy-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">27</r>
+<r p="2">0</r>
+<r p="3">81</r>
+<r p="4">1</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="DiaNode=@Diameter-Node-Name@,DiaPeer=@Diameter-Peer-Name@">
+<job jobId="DiaNode=@Diameter-Node-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Diameter_EgressReqMsg_TotalCount</measType>
+<measType p="2">Diameter_EgressReqMsgPosted_TotalCount</measType>
+<measType p="3">Diameter_EgressReqMsgConnectionMgmt_TotalCount</measType>
+<measType p="4">Diameter_EgressReqMsgResent_TotalCount</measType>
+<measType p="5">Diameter_EgressReqMsgResent_ProtocolError</measType>
+<measType p="6">Diameter_EgressReqMsgResent_TransientFailure</measType>
+<measType p="7">Diameter_EgressReqMsgResent_ConnectionLost</measType>
+<measType p="8">Diameter_EgressReqMsgResent_TimeOut</measType>
+<measType p="9">Diameter_EgressReqMsgDiscarded_TotalCount</measType>
+<measType p="10">Diameter_EgressReqMsgDiscarded_ConnectionLost</measType>
+<measType p="11">Diameter_EgressReqMsgDiscarded_Routing</measType>
+<measType p="12">Diameter_EgressReqMsgDiscarded_TimeOut</measType>
+<measType p="13">Diameter_EgressReqMsgDiscarded_Congestion</measType>
+<measType p="14">Diameter_EgressAnswMsg_TotalCount</measType>
+<measType p="15">Diameter_EgressAnswMsgPosted_TotalCount</measType>
+<measType p="16">Diameter_EgressAnswMsg_Info</measType>
+<measType p="17">Diameter_EgressAnswMsg_Success</measType>
+<measType p="18">Diameter_EgressAnswMsg_ProtocolError</measType>
+<measType p="19">Diameter_EgressAnswMsg_TransientFailure</measType>
+<measType p="20">Diameter_EgressAnswMsg_PermanentFailure</measType>
+<measType p="21">Diameter_EgressAnswMsgConnectionMgmt_TotalCount</measType>
+<measType p="22">Diameter_EgressAnswMsgDiscarded_TotalCount</measType>
+<measType p="23">Diameter_EgressAnswMsgDiscarded_ConnectionLost</measType>
+<measType p="24">Diameter_EgressAnswMsgDiscarded_Congestion</measType>
+<measType p="25">Diameter_EgressAnswMsgDiscarded_TimeOut</measType>
+<measType p="26">Diameter_IngressReqMsg_TotalCount</measType>
+<measType p="27">Diameter_IngressReqMsgResent_TotalCount</measType>
+<measType p="28">Diameter_IngressReqMsgDelivered_TotalCount</measType>
+<measType p="29">Diameter_IngressReqMsgConnectionMgmt_TotalCount</measType>
+<measType p="30">Diameter_IngressReqMsgDiscarded_TotalCount</measType>
+<measType p="31">Diameter_IngressReqMsgDiscarded_ConnectionLost</measType>
+<measType p="32">Diameter_IngressReqMsgDiscarded_Congestion</measType>
+<measType p="33">Diameter_IngressReqMsgDiscarded_Malformation</measType>
+<measType p="34">Diameter_IngressReqMsgDiscarded_Routing</measType>
+<measType p="35">Diameter_IngressReqMsgDiscarded_LoopDetected</measType>
+<measType p="36">Diameter_IngressAnswMsg_TotalCount</measType>
+<measType p="37">Diameter_IngressAnswMsg_Info</measType>
+<measType p="38">Diameter_IngressAnswMsg_Success</measType>
+<measType p="39">Diameter_IngressAnswMsg_ProtocolError</measType>
+<measType p="40">Diameter_IngressAnswMsg_TransientFailure</measType>
+<measType p="41">Diameter_IngressAnswMsg_PermanentFailure</measType>
+<measType p="42">Diameter_IngressAnswMsg_Malformation</measType>
+<measType p="43">Diameter_IngressAnswMsgDelivered_TotalCount</measType>
+<measType p="44">Diameter_IngressAnswMsgConnectionMgmt_TotalCount</measType>
+<measType p="45">Diameter_IngressAnswMsgDiscarded_TotalCount</measType>
+<measType p="46">Diameter_IngressAnswMsgDiscarded_ConnectionLost</measType>
+<measType p="47">Diameter_IngressAnswMsgDiscarded_Congestion</measType>
+<measType p="48">Diameter_IngressAnswMsgDiscarded_Malformation</measType>
+<measType p="49">Diameter_RxBytes_Total</measType>
+<measType p="50">Diameter_TxBytes_Total</measType>
+<measValue measObjLdn="/system">
+<r p="1">76</r>
+<r p="2">93</r>
+<r p="3">45</r>
+<r p="4">14</r>
+<r p="5">41</r>
+<r p="6">53</r>
+<r p="7">37</r>
+<r p="8">62</r>
+<r p="9">10</r>
+<r p="10">78</r>
+<r p="11">94</r>
+<r p="12">68</r>
+<r p="13">52</r>
+<r p="14">16</r>
+<r p="15">79</r>
+<r p="16">94</r>
+<r p="17">75</r>
+<r p="18">57</r>
+<r p="19">49</r>
+<r p="20">60</r>
+<r p="21">97</r>
+<r p="22">1</r>
+<r p="23">68</r>
+<r p="24">25</r>
+<r p="25">85</r>
+<r p="26">17</r>
+<r p="27">12</r>
+<r p="28">80</r>
+<r p="29">7</r>
+<r p="30">61</r>
+<r p="31">75</r>
+<r p="32">38</r>
+<r p="33">39</r>
+<r p="34">37</r>
+<r p="35">90</r>
+<r p="36">68</r>
+<r p="37">78</r>
+<r p="38">98</r>
+<r p="39">60</r>
+<r p="40">91</r>
+<r p="41">98</r>
+<r p="42">55</r>
+<r p="43">78</r>
+<r p="44">36</r>
+<r p="45">2</r>
+<r p="46">40</r>
+<r p="47">15</r>
+<r p="48">70</r>
+<r p="49">35</r>
+<r p="50">75</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-wcdb-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-wcdb-process-cpu-load-ratio</measType>
+<measType p="2">eric-cces-wcdb-os-cpu-load-ratio</measType>
+<measType p="3">eric-cces-wcdb-unresponsive-nodes</measType>
+<measType p="4">eric-cces-wcdb-jvm-mem-usage-ratio</measType>
+<measType p="5">eric-cces-wcdb-os-mem-usage-ratio</measType>
+<measType p="6">eric-cces-wcdb-pvc-usage-ratio</measType>
+<measType p="7">eric-cces-wcdb-request-throughput</measType>
+<measType p="8">eric-cces-wcdb-read-request-failure</measType>
+<measType p="9">eric-cces-wcdb-write-request-failure</measType>
+<measType p="10">eric-cces-wcdb-request-timeout</measType>
+<measType p="11">eric-cces-wcdb-dropped-message</measType>
+<measType p="12">eric-cces-wcdb-request-read-latency-95percentile</measType>
+<measType p="13">eric-cces-wcdb-request-write-latency-95percentile</measType>
+<measType p="14">eric-cces-wcdb-hints-size</measType>
+<measValue measObjLdn="/system">
+<r p="1">70</r>
+<r p="2">65</r>
+<r p="3">26</r>
+<r p="4">51</r>
+<r p="5">33</r>
+<r p="6">71</r>
+<r p="7">38</r>
+<r p="8">93</r>
+<r p="9">72</r>
+<r p="10">6</r>
+<r p="11">50</r>
+<r p="12">52</r>
+<r p="13">17</r>
+<r p="14">56</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-easregistration-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-easregistration-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-eees-easregistration-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-eees-easregistration-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-ees-eees-easregistration-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">68</r>
+<r p="2">46</r>
+<r p="3">40</r>
+<r p="4">46</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-afsessionwithqos-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-afsessionwithqos-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-afsessionwithqos-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-afsessionwithqos-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-afsessionwithqos-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-afsessionwithqos-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-nef-nnef-afsessionwithqos-producer-all-handled-requests-failure-ratio</measType>
+<measType p="7">eric-nef-nnef-afsessionwithqos-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="8">eric-nef-nnef-afsessionwithqos-nbi-notifications-sent-internal-latency-seconds</measType>
+<measType p="9">eric-nef-nnef-afsessionwithqos-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">55</r>
+<r p="2">67</r>
+<r p="3">56</r>
+<r p="4">61</r>
+<r p="5">7</r>
+<r p="6">93</r>
+<r p="7">66</r>
+<r p="8">99</r>
+<r p="9">34</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="DiaNode=@Diameter-Node-Name@,DiaPeer=@Diameter-Peer-Name@,DiaPeerConn=@Peer-Connection@">
+<job jobId="DiaNode=@Diameter-Node-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Diameter_EgressReqMsg_TotalCount</measType>
+<measType p="2">Diameter_EgressReqMsgPosted_TotalCount</measType>
+<measType p="3">Diameter_EgressReqMsgConnectionMgmt_TotalCount</measType>
+<measType p="4">Diameter_EgressReqMsgResent_TotalCount</measType>
+<measType p="5">Diameter_EgressReqMsgResent_ProtocolError</measType>
+<measType p="6">Diameter_EgressReqMsgResent_TransientFailure</measType>
+<measType p="7">Diameter_EgressReqMsgResent_ConnectionLost</measType>
+<measType p="8">Diameter_EgressReqMsgResent_TimeOut</measType>
+<measType p="9">Diameter_EgressReqMsgDiscarded_TotalCount</measType>
+<measType p="10">Diameter_EgressReqMsgDiscarded_ConnectionLost</measType>
+<measType p="11">Diameter_EgressReqMsgDiscarded_Routing</measType>
+<measType p="12">Diameter_EgressReqMsgDiscarded_TimeOut</measType>
+<measType p="13">Diameter_EgressReqMsgDiscarded_Congestion</measType>
+<measType p="14">Diameter_EgressAnswMsg_TotalCount</measType>
+<measType p="15">Diameter_EgressAnswMsgPosted_TotalCount</measType>
+<measType p="16">Diameter_EgressAnswMsg_Info</measType>
+<measType p="17">Diameter_EgressAnswMsg_Success</measType>
+<measType p="18">Diameter_EgressAnswMsg_ProtocolError</measType>
+<measType p="19">Diameter_EgressAnswMsg_TransientFailure</measType>
+<measType p="20">Diameter_EgressAnswMsg_PermanentFailure</measType>
+<measType p="21">Diameter_EgressAnswMsgConnectionMgmt_TotalCount</measType>
+<measType p="22">Diameter_EgressAnswMsgDiscarded_TotalCount</measType>
+<measType p="23">Diameter_EgressAnswMsgDiscarded_ConnectionLost</measType>
+<measType p="24">Diameter_EgressAnswMsgDiscarded_Congestion</measType>
+<measType p="25">Diameter_EgressAnswMsgDiscarded_TimeOut</measType>
+<measType p="26">Diameter_IngressReqMsg_TotalCount</measType>
+<measType p="27">Diameter_IngressReqMsgResent_TotalCount</measType>
+<measType p="28">Diameter_IngressReqMsgDelivered_TotalCount</measType>
+<measType p="29">Diameter_IngressReqMsgConnectionMgmt_TotalCount</measType>
+<measType p="30">Diameter_IngressReqMsgDiscarded_TotalCount</measType>
+<measType p="31">Diameter_IngressReqMsgDiscarded_ConnectionLost</measType>
+<measType p="32">Diameter_IngressReqMsgDiscarded_Congestion</measType>
+<measType p="33">Diameter_IngressReqMsgDiscarded_Malformation</measType>
+<measType p="34">Diameter_IngressReqMsgDiscarded_Routing</measType>
+<measType p="35">Diameter_IngressReqMsgDiscarded_LoopDetected</measType>
+<measType p="36">Diameter_IngressAnswMsg_TotalCount</measType>
+<measType p="37">Diameter_IngressAnswMsg_Info</measType>
+<measType p="38">Diameter_IngressAnswMsg_Success</measType>
+<measType p="39">Diameter_IngressAnswMsg_ProtocolError</measType>
+<measType p="40">Diameter_IngressAnswMsg_TransientFailure</measType>
+<measType p="41">Diameter_IngressAnswMsg_PermanentFailure</measType>
+<measType p="42">Diameter_IngressAnswMsg_Malformation</measType>
+<measType p="43">Diameter_IngressAnswMsgDelivered_TotalCount</measType>
+<measType p="44">Diameter_IngressAnswMsgConnectionMgmt_TotalCount</measType>
+<measType p="45">Diameter_IngressAnswMsgDiscarded_TotalCount</measType>
+<measType p="46">Diameter_IngressAnswMsgDiscarded_ConnectionLost</measType>
+<measType p="47">Diameter_IngressAnswMsgDiscarded_Congestion</measType>
+<measType p="48">Diameter_IngressAnswMsgDiscarded_Malformation</measType>
+<measType p="49">Diameter_RxBytes_Total</measType>
+<measType p="50">Diameter_TxBytes_Total</measType>
+<measValue measObjLdn="/system">
+<r p="1">33</r>
+<r p="2">96</r>
+<r p="3">37</r>
+<r p="4">51</r>
+<r p="5">84</r>
+<r p="6">96</r>
+<r p="7">44</r>
+<r p="8">74</r>
+<r p="9">25</r>
+<r p="10">13</r>
+<r p="11">32</r>
+<r p="12">37</r>
+<r p="13">94</r>
+<r p="14">48</r>
+<r p="15">26</r>
+<r p="16">93</r>
+<r p="17">86</r>
+<r p="18">66</r>
+<r p="19">80</r>
+<r p="20">97</r>
+<r p="21">98</r>
+<r p="22">54</r>
+<r p="23">85</r>
+<r p="24">49</r>
+<r p="25">70</r>
+<r p="26">57</r>
+<r p="27">34</r>
+<r p="28">79</r>
+<r p="29">43</r>
+<r p="30">63</r>
+<r p="31">75</r>
+<r p="32">67</r>
+<r p="33">36</r>
+<r p="34">65</r>
+<r p="35">56</r>
+<r p="36">97</r>
+<r p="37">30</r>
+<r p="38">62</r>
+<r p="39">0</r>
+<r p="40">50</r>
+<r p="41">48</r>
+<r p="42">10</r>
+<r p="43">69</r>
+<r p="44">77</r>
+<r p="45">1</r>
+<r p="46">12</r>
+<r p="47">67</r>
+<r p="48">69</r>
+<r p="49">69</r>
+<r p="50">55</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-aminfluence-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-aminfluence-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-aminfluence-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-aminfluence-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-nef-nnef-aminfluence-producer-all-handled-requests-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-aminfluence-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="6">eric-nef-nnef-aminfluence-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">11</r>
+<r p="2">20</r>
+<r p="3">16</r>
+<r p="4">1</r>
+<r p="5">38</r>
+<r p="6">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-sessionwithqos-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-sessionwithqos-requests-recv</measType>
+<measType p="2">eric-ees-eees-sessionwithqos-successful-responses-sent</measType>
+<measType p="3">eric-ees-eees-sessionwithqos-unsuccessful-responses-sent</measType>
+<measType p="4">eric-ees-nnef-sessionwithqos-requests-recv</measType>
+<measType p="5">eric-ees-nnef-sessionwithqos-successful-responses-sent</measType>
+<measType p="6">eric-ees-nnef-sessionwithqos-unsuccessful-responses-sent</measType>
+<measType p="7">eric-ees-nnef-eventexposure-requests-recv</measType>
+<measType p="8">eric-ees-nnef-eventexposure-successful-responses-sent</measType>
+<measType p="9">eric-ees-nnef-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="10">eric-ees-nnef-eventexposure-requests-sent</measType>
+<measType p="11">eric-ees-nnef-eventexposure-successful-responses-recv</measType>
+<measType p="12">eric-ees-nnef-eventexposure-unsuccessful-responses-recv</measType>
+<measType p="13">eric-ees-eees-sessionwithqos-requests-sent</measType>
+<measType p="14">eric-ees-eees-sessionwithqos-successful-responses-recv</measType>
+<measType p="15">eric-ees-eees-sessionwithqos-unsuccessful-responses-recv</measType>
+<measType p="16">eric-ees-nnef-sessionwithqos-requests-sent</measType>
+<measType p="17">eric-ees-nnef-sessionwithqos-successful-responses-recv</measType>
+<measType p="18">eric-ees-nnef-sessionwithqos-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">59</r>
+<r p="2">74</r>
+<r p="3">70</r>
+<r p="4">8</r>
+<r p="5">57</r>
+<r p="6">62</r>
+<r p="7">37</r>
+<r p="8">11</r>
+<r p="9">8</r>
+<r p="10">34</r>
+<r p="11">70</r>
+<r p="12">99</r>
+<r p="13">81</r>
+<r p="14">14</r>
+<r p="15">26</r>
+<r p="16">3</r>
+<r p="17">66</r>
+<r p="18">69</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-uesessioninfo-central-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-uesessioninfo-central-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-uesessioninfo-central-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-uesessioninfo-central-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-ees-uesessioninfo-central-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-ees-uesessioninfo-central-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-ees-uesessioninfo-central-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">47</r>
+<r p="2">20</r>
+<r p="3">25</r>
+<r p="4">12</r>
+<r p="5">86</r>
+<r p="6">59</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-bdtpnegotiation-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-bdtpnegotiation-requests-recv</measType>
+<measType p="2">eric-nef-nnef-bdtpnegotiation-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-bdtpnegotiation-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-bdtpnegotiation-overload-reject</measType>
+<measType p="5">eric-nef-nnef-bdtpnegotiation-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">61</r>
+<r p="2">34</r>
+<r p="3">34</r>
+<r p="4">33</r>
+<r p="5">35</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-disc-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-disc-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-disc-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-disc-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">25</r>
+<r p="2">33</r>
+<r p="3">73</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-apigm-oauth-cnf-group">
+<job jobId="eric-apigm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-apigm-oauthserver-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-apigm-oauthserver-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-apigm-oauthserver-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-apigm-oauthserver-producer-all-handled-requests-failure-ratio</measType>
+<measType p="5">eric-apigm-oauthserver-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="6">eric-apigm-oauthserver-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">1</r>
+<r p="2">87</r>
+<r p="3">44</r>
+<r p="4">27</r>
+<r p="5">53</r>
+<r p="6">72</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-devicetriggering-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-devicetriggering-requests-recv</measType>
+<measType p="2">eric-nef-nnef-devicetriggering-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-devicetriggering-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-devicetriggering-requests-sent</measType>
+<measType p="5">eric-nef-nnef-devicetriggering-successful-responses-recv</measType>
+<measType p="6">eric-nef-nnef-devicetriggering-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-nnef-devicetriggering-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-nef-nnef-devicetriggering-overload-unsuccessful-request</measType>
+<measType p="9">eric-nef-hss-devicetriggering-requests-sent</measType>
+<measType p="10">eric-nef-hss-devicetriggering-successful-responses-recv</measType>
+<measType p="11">eric-nef-hss-devicetriggering-unsuccessful-responses-recv</measType>
+<measType p="12">eric-nef-hss-devicetriggering-client-rtt-duration-seconds</measType>
+<measType p="13">eric-nef-smsc-devicetriggering-requests-sent</measType>
+<measType p="14">eric-nef-smsc-devicetriggering-successful-responses-recv</measType>
+<measType p="15">eric-nef-smsc-devicetriggering-unsuccessful-responses-recv</measType>
+<measType p="16">eric-nef-smsc-devicetriggering-requests-recv</measType>
+<measType p="17">eric-nef-smsc-devicetriggering-successful-responses-sent</measType>
+<measType p="18">eric-nef-smsc-devicetriggering-unsuccessful-responses-sent</measType>
+<measType p="19">eric-nef-smsc-devicetriggering-client-rtt-duration-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">70</r>
+<r p="2">41</r>
+<r p="3">8</r>
+<r p="4">28</r>
+<r p="5">14</r>
+<r p="6">84</r>
+<r p="7">12</r>
+<r p="8">88</r>
+<r p="9">78</r>
+<r p="10">47</r>
+<r p="11">38</r>
+<r p="12">81</r>
+<r p="13">59</r>
+<r p="14">2</r>
+<r p="15">99</r>
+<r p="16">0</r>
+<r p="17">49</r>
+<r p="18">79</r>
+<r p="19">69</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-qos-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-sessionwithqos-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-eees-sessionwithqos-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-eees-sessionwithqos-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-ees-eees-sessionwithqos-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-ees-eees-sessionwithqos-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-ees-eees-sessionwithqos-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">20</r>
+<r p="2">48</r>
+<r p="3">87</r>
+<r p="4">98</r>
+<r p="5">27</r>
+<r p="6">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-eventexposure-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-micro-nef-nnef-eventexposure-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-cces-sbi-eventexposure-oauth-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">94</r>
+<r p="2">72</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-nf-monitor-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-nf-monitor-up-count</measType>
+<measValue measObjLdn="/system">
+<r p="1">57</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="probe-virtual-tap-broker-send">
+<job jobId="probe-virtual-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">probe-virtual-tap-broker-send-successes-total</measType>
+<measType p="2">probe-virtual-tap-broker-send-failures-total</measType>
+<measType p="3">probe-virtual-tap-broker-dropped-packets-total</measType>
+<measValue measObjLdn="/system">
+<r p="1">80</r>
+<r p="2">30</r>
+<r p="3">28</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-bro-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-scheduledbackup-error</measType>
+<measType p="2">eric-cces-scheduledbackup-missed</measType>
+<measType p="3">eric-cces-backup-pvc-usage-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">50</r>
+<r p="2">71</r>
+<r p="3">86</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="DiaNode=@Diameter-Node-Name@">
+<job jobId="DiaNode=@Diameter-Node-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Diameter_EgressReqMsg_TotalCount</measType>
+<measType p="2">Diameter_EgressReqMsgPosted_TotalCount</measType>
+<measType p="3">Diameter_EgressReqMsgConnectionMgmt_TotalCount</measType>
+<measType p="4">Diameter_EgressReqMsgResent_TotalCount</measType>
+<measType p="5">Diameter_EgressReqMsgResent_ProtocolError</measType>
+<measType p="6">Diameter_EgressReqMsgResent_TransientFailure</measType>
+<measType p="7">Diameter_EgressReqMsgResent_ConnectionLost</measType>
+<measType p="8">Diameter_EgressReqMsgResent_TimeOut</measType>
+<measType p="9">Diameter_EgressReqMsgDiscarded_TotalCount</measType>
+<measType p="10">Diameter_EgressReqMsgDiscarded_ConnectionLost</measType>
+<measType p="11">Diameter_EgressReqMsgDiscarded_Routing</measType>
+<measType p="12">Diameter_EgressReqMsgDiscarded_TimeOut</measType>
+<measType p="13">Diameter_EgressReqMsgDiscarded_Congestion</measType>
+<measType p="14">Diameter_EgressAnswMsg_TotalCount</measType>
+<measType p="15">Diameter_EgressAnswMsgPosted_TotalCount</measType>
+<measType p="16">Diameter_EgressAnswMsg_Info</measType>
+<measType p="17">Diameter_EgressAnswMsg_Success</measType>
+<measType p="18">Diameter_EgressAnswMsg_ProtocolError</measType>
+<measType p="19">Diameter_EgressAnswMsg_TransientFailure</measType>
+<measType p="20">Diameter_EgressAnswMsg_PermanentFailure</measType>
+<measType p="21">Diameter_EgressAnswMsgConnectionMgmt_TotalCount</measType>
+<measType p="22">Diameter_EgressAnswMsgDiscarded_TotalCount</measType>
+<measType p="23">Diameter_EgressAnswMsgDiscarded_ConnectionLost</measType>
+<measType p="24">Diameter_EgressAnswMsgDiscarded_Congestion</measType>
+<measType p="25">Diameter_EgressAnswMsgDiscarded_TimeOut</measType>
+<measType p="26">Diameter_IngressReqMsg_TotalCount</measType>
+<measType p="27">Diameter_IngressReqMsgResent_TotalCount</measType>
+<measType p="28">Diameter_IngressReqMsgDelivered_TotalCount</measType>
+<measType p="29">Diameter_IngressReqMsgConnectionMgmt_TotalCount</measType>
+<measType p="30">Diameter_IngressReqMsgDiscarded_TotalCount</measType>
+<measType p="31">Diameter_IngressReqMsgDiscarded_ConnectionLost</measType>
+<measType p="32">Diameter_IngressReqMsgDiscarded_Congestion</measType>
+<measType p="33">Diameter_IngressReqMsgDiscarded_Malformation</measType>
+<measType p="34">Diameter_IngressReqMsgDiscarded_Routing</measType>
+<measType p="35">Diameter_IngressReqMsgDiscarded_LoopDetected</measType>
+<measType p="36">Diameter_IngressAnswMsg_TotalCount</measType>
+<measType p="37">Diameter_IngressAnswMsg_Info</measType>
+<measType p="38">Diameter_IngressAnswMsg_Success</measType>
+<measType p="39">Diameter_IngressAnswMsg_ProtocolError</measType>
+<measType p="40">Diameter_IngressAnswMsg_TransientFailure</measType>
+<measType p="41">Diameter_IngressAnswMsg_PermanentFailure</measType>
+<measType p="42">Diameter_IngressAnswMsg_Malformation</measType>
+<measType p="43">Diameter_IngressAnswMsgDelivered_TotalCount</measType>
+<measType p="44">Diameter_IngressAnswMsgConnectionMgmt_TotalCount</measType>
+<measType p="45">Diameter_IngressAnswMsgDiscarded_TotalCount</measType>
+<measType p="46">Diameter_IngressAnswMsgDiscarded_ConnectionLost</measType>
+<measType p="47">Diameter_IngressAnswMsgDiscarded_Congestion</measType>
+<measType p="48">Diameter_IngressAnswMsgDiscarded_Malformation</measType>
+<measType p="49">Diameter_RxBytes_Total</measType>
+<measType p="50">Diameter_TxBytes_Total</measType>
+<measValue measObjLdn="/system">
+<r p="1">98</r>
+<r p="2">52</r>
+<r p="3">62</r>
+<r p="4">50</r>
+<r p="5">13</r>
+<r p="6">4</r>
+<r p="7">67</r>
+<r p="8">11</r>
+<r p="9">43</r>
+<r p="10">12</r>
+<r p="11">78</r>
+<r p="12">59</r>
+<r p="13">84</r>
+<r p="14">83</r>
+<r p="15">31</r>
+<r p="16">79</r>
+<r p="17">67</r>
+<r p="18">83</r>
+<r p="19">18</r>
+<r p="20">75</r>
+<r p="21">76</r>
+<r p="22">78</r>
+<r p="23">39</r>
+<r p="24">14</r>
+<r p="25">85</r>
+<r p="26">67</r>
+<r p="27">17</r>
+<r p="28">8</r>
+<r p="29">72</r>
+<r p="30">77</r>
+<r p="31">53</r>
+<r p="32">53</r>
+<r p="33">72</r>
+<r p="34">94</r>
+<r p="35">95</r>
+<r p="36">64</r>
+<r p="37">22</r>
+<r p="38">93</r>
+<r p="39">85</r>
+<r p="40">16</r>
+<r p="41">15</r>
+<r p="42">52</r>
+<r p="43">27</r>
+<r p="44">77</r>
+<r p="45">16</r>
+<r p="46">9</r>
+<r p="47">48</r>
+<r p="48">80</r>
+<r p="49">31</r>
+<r p="50">57</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-uesessioninfo-edge-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-uesessioninfo-edge-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-uesessioninfo-edge-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-uesessioninfo-edge-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-ees-uesessioninfo-edge-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-ees-uesessioninfo-edge-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-ees-uesessioninfo-edge-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">63</r>
+<r p="2">44</r>
+<r p="3">11</r>
+<r p="4">55</r>
+<r p="5">46</r>
+<r p="6">48</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-pfdmanagement-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-pfdmanagement-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-pfdmanagement-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-pfdmanagement-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-pfdmanagement-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-pfdmanagement-sbi-requests-recv-per-second</measType>
+<measType p="6">eric-nef-nnef-pfdmanagement-sbi-requests-recv-failure-ratio</measType>
+<measType p="7">eric-nef-nnef-pfdmanagement-sbi-notifications-sent-per-second</measType>
+<measType p="8">eric-nef-nnef-pfdmanagement-sbi-notifications-sent-failure-ratio</measType>
+<measType p="9">eric-nef-nnef-pfdmanagement-producer-all-handled-requests-per-second</measType>
+<measType p="10">eric-nef-nnef-pfdmanagement-producer-all-handled-requests-failure-ratio</measType>
+<measType p="11">eric-nef-nnef-pfdmanagement-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="12">eric-nef-nnef-pfdmanagement-nbi-notifications-sent-internal-latency-seconds</measType>
+<measType p="13">eric-nef-nnef-pfdmanagement-sbi-requests-recv-internal-latency-seconds</measType>
+<measType p="14">eric-nef-nnef-pfdmanagement-sbi-notifications-sent-internal-latency-seconds</measType>
+<measType p="15">eric-nef-nnef-pfdmanagement-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">37</r>
+<r p="2">85</r>
+<r p="3">89</r>
+<r p="4">14</r>
+<r p="5">29</r>
+<r p="6">43</r>
+<r p="7">95</r>
+<r p="8">67</r>
+<r p="9">8</r>
+<r p="10">38</r>
+<r p="11">93</r>
+<r p="12">84</r>
+<r p="13">79</r>
+<r p="14">43</r>
+<r p="15">50</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-easdiscovery-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-easdiscovery-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-eees-easdiscovery-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-eees-easdiscovery-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-ees-eees-easdiscovery-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">72</r>
+<r p="2">2</r>
+<r p="3">96</r>
+<r p="4">81</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-nidd-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-nidd-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-nidd-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-nidd-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-nidd-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-nidd-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-nef-nnef-nidd-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">77</r>
+<r p="2">63</r>
+<r p="3">69</r>
+<r p="4">4</r>
+<r p="5">31</r>
+<r p="6">14</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-apigm-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-micro-apigm-api-proxy-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-cces-micro-apigm-threat-monitor-overload-unsuccessful-ratio</measType>
+<measType p="3">eric-cces-micro-apigm-api-composition-engine-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">65</r>
+<r p="2">55</r>
+<r p="3">25</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-chargeableparty-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-chargeableparty-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-chargeableparty-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-chargeableparty-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-chargeableparty-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-chargeableparty-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-nef-nnef-chargeableparty-producer-all-handled-requests-failure-ratio</measType>
+<measType p="7">eric-nef-nnef-chargeableparty-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="8">eric-nef-nnef-chargeableparty-nbi-notifications-sent-internal-latency-seconds</measType>
+<measType p="9">eric-nef-nnef-chargeableparty-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">86</r>
+<r p="2">2</r>
+<r p="3">77</r>
+<r p="4">33</r>
+<r p="5">76</r>
+<r p="6">54</r>
+<r p="7">42</r>
+<r p="8">60</r>
+<r p="9">66</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-uesessionkeeper-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-sbi-uesessionkeeper-requests-recv-per-event-type</measType>
+<measType p="2">eric-ees-sbi-uesessionkeeper-requests-recv-per-originator</measType>
+<measType p="3">eric-ees-sbi-uesessionkeeper-requests-recv</measType>
+<measType p="4">eric-ees-sbi-uesessionkeeper-tps-per-event-type</measType>
+<measType p="5">eric-ees-sbi-uesessionkeeper-tps-per-originator</measType>
+<measType p="6">eric-ees-sbi-uesessionkeeper-tps</measType>
+<measType p="7">eric-ees-sbi-uesessionkeeper-unsuccessful-responses-sent</measType>
+<measType p="8">eric-ees-sbi-uesessionkeeper-successful-responses-sent</measType>
+<measType p="9">eric-ees-nbi-uesessionkeeper-total-tps</measType>
+<measType p="10">eric-ees-nbi-uesessionkeeper-requests-recv</measType>
+<measType p="11">eric-ees-nbi-uesessionkeeper-successful-responses-sent</measType>
+<measType p="12">eric-ees-nbi-uesessionkeeper-unsuccessful-responses-sent</measType>
+<measType p="13">eric-ees-nbi-uesessionkeeper-requests-sent</measType>
+<measType p="14">eric-ees-nbi-uesessionkeeper-successful-responses-recv</measType>
+<measType p="15">eric-ees-nbi-uesessionkeeper-unsuccessful-responses-recv</measType>
+<measType p="16">eric-ees-nbi-uesessionkeeper-query-requests-recv</measType>
+<measType p="17">eric-ees-nbi-uesessionkeeper-query-successful-responses-sent</measType>
+<measType p="18">eric-ees-nbi-uesessionkeeper-query-unsuccessful-responses-sent</measType>
+<measType p="19">eric-ees-nbi-uesessionkeeper-requests-sent-per-event-type</measType>
+<measValue measObjLdn="/system">
+<r p="1">69</r>
+<r p="2">99</r>
+<r p="3">43</r>
+<r p="4">50</r>
+<r p="5">15</r>
+<r p="6">53</r>
+<r p="7">4</r>
+<r p="8">10</r>
+<r p="9">74</r>
+<r p="10">76</r>
+<r p="11">4</r>
+<r p="12">56</r>
+<r p="13">38</r>
+<r p="14">92</r>
+<r p="15">13</r>
+<r p="16">18</r>
+<r p="17">26</r>
+<r p="18">75</r>
+<r p="19">84</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-easdiscovery-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-easdiscovery-requests-recv</measType>
+<measType p="2">eric-ees-eees-easdiscovery-successful-responses-sent</measType>
+<measType p="3">eric-ees-eees-easdiscovery-unsuccessful-responses-sent</measType>
+<measType p="4">eric-ees-nnef-eventexposure-requests-sent</measType>
+<measType p="5">eric-ees-nnef-eventexposure-successful-responses-recv</measType>
+<measType p="6">eric-ees-nnef-eventexposure-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">27</r>
+<r p="2">85</r>
+<r p="3">52</r>
+<r p="4">94</r>
+<r p="5">24</r>
+<r p="6">15</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-chargeableparty-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-chargeableparty-requests-recv</measType>
+<measType p="2">eric-nef-nnef-chargeableparty-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-chargeableparty-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-chargeableparty-requests-sent</measType>
+<measType p="5">eric-nef-nnef-chargeableparty-successful-responses-recv</measType>
+<measType p="6">eric-nef-nnef-chargeableparty-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-nnef-chargeableparty-overload-reject</measType>
+<measType p="8">eric-nef-nnef-chargeableparty-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">78</r>
+<r p="2">71</r>
+<r p="3">6</r>
+<r p="4">5</r>
+<r p="5">71</r>
+<r p="6">25</r>
+<r p="7">78</r>
+<r p="8">51</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-discovery-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="4">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="6">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="7">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-remoteendpoint</measType>
+<measType p="8">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="9">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="10">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-statuscode</measType>
+<measType p="11">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="12">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="13">eric-nrfagent-discovery-unsuccessful-responses-sent-last-update-ratio-detailedinfo</measType>
+<measType p="14">eric-nrfagent-discovery-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="15">eric-nrfagent-discovery-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="/system">
+<r p="1">85</r>
+<r p="2">75</r>
+<r p="3">12</r>
+<r p="4">70</r>
+<r p="5">33</r>
+<r p="6">31</r>
+<r p="7">34</r>
+<r p="8">38</r>
+<r p="9">68</r>
+<r p="10">5</r>
+<r p="11">38</r>
+<r p="12">5</r>
+<r p="13">36</r>
+<r p="14">2</r>
+<r p="15">8</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-uesessionbroker-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-nbi-uesessionbroker-total-tps</measType>
+<measType p="2">eric-ees-nbi-uesessionbroker-requests-recv</measType>
+<measType p="3">eric-ees-nbi-uesessionbroker-successful-responses-sent</measType>
+<measType p="4">eric-ees-nbi-uesessionbroker-unsuccessful-responses-sent</measType>
+<measType p="5">eric-ees-nbi-uesessionbroker-requests-sent</measType>
+<measType p="6">eric-ees-nbi-uesessionbroker-successful-responses-recv</measType>
+<measType p="7">eric-ees-nbi-uesessionbroker-unsuccessful-responses-recv</measType>
+<measType p="8">eric-ees-nbi-uesessionbroker-query-requests-recv</measType>
+<measType p="9">eric-ees-nbi-uesessionbroker-query-successful-responses-sent</measType>
+<measType p="10">eric-ees-nbi-uesessionbroker-query-unsuccessful-responses-sent</measType>
+<measType p="11">eric-ees-nbi-uesessionbroker-requests-sent-per-event-type</measType>
+<measValue measObjLdn="/system">
+<r p="1">70</r>
+<r p="2">3</r>
+<r p="3">8</r>
+<r p="4">66</r>
+<r p="5">28</r>
+<r p="6">53</r>
+<r p="7">60</r>
+<r p="8">99</r>
+<r p="9">54</r>
+<r p="10">45</r>
+<r p="11">87</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-nidd-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-nidd-requests-recv</measType>
+<measType p="2">eric-nef-nnef-nidd-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-nidd-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-nidd-requests-sent</measType>
+<measType p="5">eric-nef-nnef-nidd-successful-responses-recv</measType>
+<measType p="6">eric-nef-nnef-nidd-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-nnef-nidd-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-nef-nnef-nidd-overload-unsuccessful-request</measType>
+<measType p="9">eric-nef-hss-nidd-requests-sent</measType>
+<measType p="10">eric-nef-hss-nidd-successful-responses-recv</measType>
+<measType p="11">eric-nef-hss-nidd-unsuccessful-responses-recv</measType>
+<measType p="12">eric-nef-hss-nidd-requests-recv</measType>
+<measType p="13">eric-nef-hss-nidd-successful-responses-sent</measType>
+<measType p="14">eric-nef-hss-nidd-unsuccessful-responses-sent</measType>
+<measType p="15">eric-nef-hss-nidd-client-rtt-duration-seconds</measType>
+<measType p="16">eric-nef-mme-nidd-requests-sent</measType>
+<measType p="17">eric-nef-mme-nidd-successful-responses-recv</measType>
+<measType p="18">eric-nef-mme-nidd-unsuccessful-responses-recv</measType>
+<measType p="19">eric-nef-mme-nidd-requests-recv</measType>
+<measType p="20">eric-nef-mme-nidd-successful-responses-sent</measType>
+<measType p="21">eric-nef-mme-nidd-unsuccessful-responses-sent</measType>
+<measType p="22">eric-nef-mme-nidd-client-rtt-duration-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">7</r>
+<r p="2">98</r>
+<r p="3">77</r>
+<r p="4">1</r>
+<r p="5">10</r>
+<r p="6">19</r>
+<r p="7">4</r>
+<r p="8">61</r>
+<r p="9">5</r>
+<r p="10">56</r>
+<r p="11">20</r>
+<r p="12">74</r>
+<r p="13">96</r>
+<r p="14">38</r>
+<r p="15">46</r>
+<r p="16">8</r>
+<r p="17">57</r>
+<r p="18">7</r>
+<r p="19">89</r>
+<r p="20">75</r>
+<r p="21">35</r>
+<r p="22">98</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-trafficinfluence-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-trafficinfluence-requests-recv</measType>
+<measType p="2">eric-nef-nnef-trafficinfluence-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-trafficinfluence-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-trafficinfluence-requests-overload-reject</measType>
+<measType p="5">eric-nef-nnef-trafficinfluence-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">31</r>
+<r p="2">14</r>
+<r p="3">46</r>
+<r p="4">48</r>
+<r p="5">80</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-register-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="3">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="4">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="5">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="6">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="7">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="8">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="9">eric-nrfagent-register-nnrf-disc-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measType p="10">eric-nrfagent-register-nnrf-nfm-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="/system">
+<r p="1">68</r>
+<r p="2">88</r>
+<r p="3">81</r>
+<r p="4">58</r>
+<r p="5">21</r>
+<r p="6">80</r>
+<r p="7">84</r>
+<r p="8">60</r>
+<r p="9">57</r>
+<r p="10">11</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-eventexposure-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-eventexposure-requests-recv</measType>
+<measType p="2">eric-nef-nnef-eventexposure-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-eventexposure-requests-sent</measType>
+<measType p="5">eric-nef-nnef-eventexposure-successful-responses-recv</measType>
+<measType p="6">eric-nef-nnef-eventexposure-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-nudm-eventexposure-requests-sent</measType>
+<measType p="8">eric-nef-nudm-eventexposure-successful-responses-recv</measType>
+<measType p="9">eric-nef-nudm-eventexposure-unsuccessful-responses-recv</measType>
+<measType p="10">eric-nef-nudm-eventexposure-requests-recv</measType>
+<measType p="11">eric-nef-nudm-eventexposure-successful-responses-sent</measType>
+<measType p="12">eric-nef-nudm-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="13">eric-nef-namf-eventexposure-requests-recv</measType>
+<measType p="14">eric-nef-namf-eventexposure-successful-responses-sent</measType>
+<measType p="15">eric-nef-namf-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="16">eric-nef-nsmf-eventexposure-requests-recv</measType>
+<measType p="17">eric-nef-nsmf-eventexposure-successful-responses-sent</measType>
+<measType p="18">eric-nef-nsmf-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="19">eric-nef-nnef-eventexposure-overload-unsuccessful-ratio</measType>
+<measType p="20">eric-nef-nnef-eventexposure-overload-unsuccessful-request</measType>
+<measType p="21">eric-nef-hss-eventexposure-requests-sent</measType>
+<measType p="22">eric-nef-hss-eventexposure-successful-responses-recv</measType>
+<measType p="23">eric-nef-hss-eventexposure-unsuccessful-responses-recv</measType>
+<measType p="24">eric-nef-hss-eventexposure-requests-recv</measType>
+<measType p="25">eric-nef-hss-eventexposure-successful-responses-sent</measType>
+<measType p="26">eric-nef-hss-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="27">eric-nef-mme-eventexposure-requests-recv</measType>
+<measType p="28">eric-nef-mme-eventexposure-successful-responses-sent</measType>
+<measType p="29">eric-nef-mme-eventexposure-unsuccessful-responses-sent</measType>
+<measType p="30">eric-nef-hss-eventexposure-client-rtt-duration-seconds</measType>
+<measType p="31">eric-nef-nudm-eventexposure-client-rtt-duration-seconds</measType>
+<measType p="32">eric-nef-gmlc-eventexposure-requests-sent</measType>
+<measType p="33">eric-nef-gmlc-eventexposure-successful-responses-recv</measType>
+<measType p="34">eric-nef-gmlc-eventexposure-unsuccessful-responses-recv</measType>
+<measType p="35">eric-nef-gmlc-eventexposure-client-rtt-duration-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">37</r>
+<r p="2">78</r>
+<r p="3">41</r>
+<r p="4">89</r>
+<r p="5">62</r>
+<r p="6">21</r>
+<r p="7">76</r>
+<r p="8">23</r>
+<r p="9">81</r>
+<r p="10">91</r>
+<r p="11">85</r>
+<r p="12">27</r>
+<r p="13">9</r>
+<r p="14">25</r>
+<r p="15">61</r>
+<r p="16">39</r>
+<r p="17">21</r>
+<r p="18">53</r>
+<r p="19">15</r>
+<r p="20">72</r>
+<r p="21">74</r>
+<r p="22">82</r>
+<r p="23">39</r>
+<r p="24">39</r>
+<r p="25">16</r>
+<r p="26">41</r>
+<r p="27">38</r>
+<r p="28">25</r>
+<r p="29">96</r>
+<r p="30">27</r>
+<r p="31">29</r>
+<r p="32">10</r>
+<r p="33">20</r>
+<r p="34">65</r>
+<r p="35">73</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-probe-virtual-tap-broker-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-probe-virtual-tap-broker-dropped-packets-total</measType>
+<measType p="2">eric-cces-probe-virtual-tap-broker-send-successes-total</measType>
+<measType p="3">eric-cces-probe-virtual-tap-broker-send-failures-total</measType>
+<measValue measObjLdn="/system">
+<r p="1">60</r>
+<r p="2">48</r>
+<r p="3">85</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-aminfluence-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-aminfluence-requests-recv</measType>
+<measType p="2">eric-nef-nnef-aminfluence-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-aminfluence-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-aminfluence-overload-reject</measType>
+<measType p="5">eric-nef-nnef-aminfluence-overload-unsuccessful-ratio</measType>
+<measType p="6">eric-nef-nudr-dr-requests-sent</measType>
+<measType p="7">eric-nef-nudr-dr-successful-responses-recv</measType>
+<measType p="8">eric-nef-nudr-dr-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">50</r>
+<r p="2">6</r>
+<r p="3">50</r>
+<r p="4">15</r>
+<r p="5">76</r>
+<r p="6">56</r>
+<r p="7">39</r>
+<r p="8">44</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-uesessionbroker-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-ees-eees-easdiscovery-overload-unsuccessful-ratio</measType>
+<measType p="3">eric-ees-ueproxy-overload-unsuccessful-ratio</measType>
+<measType p="4">eric-ees-accesscontrol-overload-unsuccessful-ratio</measType>
+<measType p="5">eric-ees-ipfixcollector-overload-messages-discard-ratio</measType>
+<measType p="6">eric-ees-uesessionkeeper-overload-unsuccessful-ratio</measType>
+<measType p="7">eric-ees-sessionwithqos-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">85</r>
+<r p="2">88</r>
+<r p="3">90</r>
+<r p="4">88</r>
+<r p="5">7</r>
+<r p="6">26</r>
+<r p="7">70</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-wcdb-disk-overflow-nodes</measType>
+<measType p="2">eric-cces-dced-disk-overflow-nodes</measType>
+<measValue measObjLdn="/system">
+<r p="1">67</r>
+<r p="2">27</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-svc-routing-agent-group">
+<job jobId="eric-svc-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-svc-routing-agent-requests-recv</measType>
+<measType p="2">eric-svc-routing-agent-successful-responses-sent</measType>
+<measType p="3">eric-svc-routing-agent-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="/system">
+<r p="1">63</r>
+<r p="2">27</r>
+<r p="3">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-ueproxy-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-ueproxy-requests-recv</measType>
+<measType p="2">eric-ees-ueproxy-successful-responses-sent</measType>
+<measType p="3">eric-ees-ueproxy-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="/system">
+<r p="1">63</r>
+<r p="2">35</r>
+<r p="3">62</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-trafficinfluence-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-trafficinfluence-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-trafficinfluence-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-trafficinfluence-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-trafficinfluence-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-trafficinfluence-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-nef-nnef-trafficinfluence-producer-all-handled-requests-failure-ratio</measType>
+<measType p="7">eric-nef-nnef-trafficinfluence-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="8">eric-nef-nnef-trafficinfluence-nbi-notifications-sent-internal-latency-seconds</measType>
+<measType p="9">eric-nef-nnef-trafficinfluence-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">29</r>
+<r p="2">37</r>
+<r p="3">16</r>
+<r p="4">70</r>
+<r p="5">49</r>
+<r p="6">17</r>
+<r p="7">45</r>
+<r p="8">23</r>
+<r p="9">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="DiaApp=@Application-Id@">
+<job jobId="DiaApp=@Application-Id@-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Diameter_TransTerm_Ordered</measType>
+<measType p="2">Diameter_TransTerm_Succeeded</measType>
+<measType p="3">Diameter_TransTerm_Handled</measType>
+<measType p="4">Diameter_TransTerm_SuccessRate</measType>
+<measType p="5">Diameter_TransInit_Issued</measType>
+<measType p="6">Diameter_TransInit_Succeeded</measType>
+<measType p="7">Diameter_TransInit_Handled</measType>
+<measType p="8">Diameter_TransInit_SuccessRate</measType>
+<measValue measObjLdn="/system">
+<r p="1">61</r>
+<r p="2">6</r>
+<r p="3">0</r>
+<r p="4">55</r>
+<r p="5">37</r>
+<r p="6">52</r>
+<r p="7">11</r>
+<r p="8">14</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-oauth2-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-oauth2-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-oauth2-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-oauth2-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">95</r>
+<r p="2">88</r>
+<r p="3">53</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-bdtpnegotiation-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-bdtpnegotiation-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-bdtpnegotiation-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-bdtpnegotiation-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-nef-nnef-bdtpnegotiation-producer-all-handled-requests-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-bdtpnegotiation-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="6">eric-nef-nnef-bdtpnegotiation-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">89</r>
+<r p="2">75</r>
+<r p="3">89</r>
+<r p="4">14</r>
+<r p="5">56</r>
+<r p="6">3</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-apigm-apiproxy-cnf-group">
+<job jobId="eric-apigm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-apigm-apiproxy-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-apigm-apiproxy-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-apigm-apiproxy-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-apigm-apiproxy-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-apigm-apiproxy-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-apigm-apiproxy-producer-all-handled-requests-failure-ratio</measType>
+<measType p="7">eric-apigm-apiproxy-nbi-requests-recv-internal-latency-seconds</measType>
+<measType p="8">eric-apigm-apiproxy-nbi-notifications-sent-internal-latency-seconds</measType>
+<measType p="9">eric-apigm-apiproxy-producer-all-handled-requests-internal-latency-seconds</measType>
+<measValue measObjLdn="/system">
+<r p="1">57</r>
+<r p="2">41</r>
+<r p="3">47</r>
+<r p="4">51</r>
+<r p="5">18</r>
+<r p="6">46</r>
+<r p="7">24</r>
+<r p="8">25</r>
+<r p="9">42</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-ueidentifier-cnf-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-ueidentifier-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-ees-eees-ueidentifier-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-ees-eees-ueidentifier-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-ees-eees-ueidentifier-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-ees-eees-ueidentifier-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-ees-eees-ueidentifier-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">51</r>
+<r p="2">55</r>
+<r p="3">63</r>
+<r p="4">37</r>
+<r p="5">38</r>
+<r p="6">75</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-accesscontrol-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-entitlementserver-requests-sent</measType>
+<measType p="2">eric-ees-entitlementserver-successful-responses-recv</measType>
+<measType p="3">eric-ees-entitlementserver-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">17</r>
+<r p="2">90</r>
+<r p="3">87</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-accesstoken-last-update-ratio-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-statuscode</measType>
+<measType p="2">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint-detailedinfo</measType>
+<measType p="3">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-remoteendpoint</measType>
+<measType p="4">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-statuscode</measType>
+<measType p="5">eric-nrfagent-accesstoken-nnrf-oauth2-unsuccessful-responses-recv-last-update-ratio-detailedinfo</measType>
+<measValue measObjLdn="/system">
+<r p="1">0</r>
+<r p="2">14</r>
+<r p="3">63</r>
+<r p="4">77</r>
+<r p="5">54</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-ees-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-micro-ees-uesessionbroker-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-cces-micro-ees-ipfix-collector-overload-messages-discard-ratio</measType>
+<measType p="3">eric-cces-micro-ees-uesessionkeeper-overload-unsuccessful-ratio</measType>
+<measType p="4">eric-cces-micro-ees-sessionwithqos-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">22</r>
+<r p="2">22</r>
+<r p="3">35</r>
+<r p="4">64</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-apigm-apicomposition-group">
+<job jobId="eric-apigm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-apigm-apicomposition-http-recv-total</measType>
+<measType p="2">eric-apigm-apicomposition-http-exec</measType>
+<measType p="3">eric-apigm-apicomposition-http-duration</measType>
+<measType p="4">eric-apigm-apicomposition-http-in-process</measType>
+<measType p="5">eric-apigm-apicomposition-grpc-recv-total</measType>
+<measType p="6">eric-apigm-apicomposition-grpc-exec</measType>
+<measType p="7">eric-apigm-apicomposition-grpc-duration</measType>
+<measType p="8">eric-apigm-apicomposition-grpc-in-process</measType>
+<measType p="9">eric-apigm-apicomposition-sent-total</measType>
+<measType p="10">eric-apigm-apicomposition-sent-duration</measType>
+<measValue measObjLdn="/system">
+<r p="1">23</r>
+<r p="2">79</r>
+<r p="3">8</r>
+<r p="4">64</r>
+<r p="5">68</r>
+<r p="6">45</r>
+<r p="7">77</r>
+<r p="8">6</r>
+<r p="9">66</r>
+<r p="10">49</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-apigm-apiproxy-group">
+<job jobId="eric-apigm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-apigm-apiproxy-requests-recv</measType>
+<measType p="2">eric-apigm-apiproxy-requests-sent</measType>
+<measType p="3">eric-apigm-apiproxy-inbound-recv-volume-total</measType>
+<measType p="4">eric-apigm-apiproxy-inbound-sent-volume-total</measType>
+<measType p="5">eric-apigm-apiproxy-outbound-recv-volume-total</measType>
+<measType p="6">eric-apigm-apiproxy-outbound-sent-volume-total</measType>
+<measType p="7">eric-apigm-apiproxy-inbound-transaction-duration</measType>
+<measType p="8">eric-apigm-apiproxy-outbound-transaction-duration</measType>
+<measType p="9">eric-apigm-apiproxy-outbound-response-duration</measType>
+<measType p="10">eric-apigm-apiproxy-inbound-success-transaction</measType>
+<measType p="11">eric-apigm-apiproxy-inbound-failure-transaction</measType>
+<measType p="12">eric-apigm-apiproxy-outbound-success-transaction</measType>
+<measType p="13">eric-apigm-apiproxy-outbound-failure-transaction</measType>
+<measType p="14">eric-apigm-apiproxy-requests-latency</measType>
+<measType p="15">eric-apigm-api-proxy-overload-unsuccessful-request</measType>
+<measType p="16">eric-cces-micro-apiproxy-north-requests-recv-increment</measType>
+<measType p="17">eric-cces-micro-apiproxy-max-traffic-load-duration-seconds-count</measType>
+<measType p="18">eric-cces-micro-apiproxy-north-transaction-increment</measType>
+<measType p="19">eric-apigm-api-proxy-request-recv-total</measType>
+<measType p="20">eric-apigm-api-proxy-fetch-public-key-error</measType>
+<measValue measObjLdn="/system">
+<r p="1">7</r>
+<r p="2">63</r>
+<r p="3">26</r>
+<r p="4">58</r>
+<r p="5">75</r>
+<r p="6">89</r>
+<r p="7">70</r>
+<r p="8">44</r>
+<r p="9">6</r>
+<r p="10">7</r>
+<r p="11">90</r>
+<r p="12">85</r>
+<r p="13">11</r>
+<r p="14">32</r>
+<r p="15">45</r>
+<r p="16">33</r>
+<r p="17">6</r>
+<r p="18">27</r>
+<r p="19">51</r>
+<r p="20">16</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-ipfixcollector-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-sbi-ipfixcollector-messages-recv</measType>
+<measType p="2">eric-ees-sbi-ipfixcollector-error-messages-recv</measType>
+<measType p="3">eric-ees-sbi-ipfixcollector-messages-discard</measType>
+<measValue measObjLdn="/system">
+<r p="1">43</r>
+<r p="2">31</r>
+<r p="3">31</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-eventexposure-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-eventexposure-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-eventexposure-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-eventexposure-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-eventexposure-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-eventexposure-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-nef-nnef-eventexposure-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">17</r>
+<r p="2">12</r>
+<r p="3">6</r>
+<r p="4">81</r>
+<r p="5">51</r>
+<r p="6">10</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-apigm-group">
+<job jobId="eric-apigm-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-apigm-api-proxy-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-apigm-apiproxy-threat-vulnerability-attack-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">0</r>
+<r p="2">0</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-nnrf-nfm-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-nnrf-nfm-requests-sent</measType>
+<measType p="2">eric-nrfagent-nnrf-nfm-successful-responses-recv</measType>
+<measType p="3">eric-nrfagent-nnrf-nfm-unsuccessful-responses-recv</measType>
+<measType p="4">eric-nrfagent-nnrf-nfm-requests-recv</measType>
+<measType p="5">eric-nrfagent-nnrf-nfm-successful-responses-sent</measType>
+<measType p="6">eric-nrfagent-nnrf-nfm-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="/system">
+<r p="1">39</r>
+<r p="2">96</r>
+<r p="3">4</r>
+<r p="4">56</r>
+<r p="5">67</r>
+<r p="6">24</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-easregistration-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-eees-easregistration-requests-recv</measType>
+<measType p="2">eric-ees-eees-easregistration-successful-responses-sent</measType>
+<measType p="3">eric-ees-eees-easregistration-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="/system">
+<r p="1">4</r>
+<r p="2">37</r>
+<r p="3">75</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-pfdmanagement-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-pfdmanagement-requests-recv</measType>
+<measType p="2">eric-nef-nnef-pfdmanagement-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-pfdmanagement-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-pfdmanagement-requests-sent</measType>
+<measType p="5">eric-nef-nnef-pfdmanagement-successful-responses-recv</measType>
+<measType p="6">eric-nef-nnef-pfdmanagement-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-nudr-dr-requests-sent</measType>
+<measType p="8">eric-nef-nudr-dr-successful-responses-recv</measType>
+<measType p="9">eric-nef-nudr-dr-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">48</r>
+<r p="2">27</r>
+<r p="3">70</r>
+<r p="4">59</r>
+<r p="5">94</r>
+<r p="6">0</r>
+<r p="7">86</r>
+<r p="8">89</r>
+<r p="9">81</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-nef-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-micro-nef-nnef-trafficinfluence-overload-unsuccessful-ratio</measType>
+<measType p="2">eric-cces-sbi-trafficinfluence-bsf-oauth-unsuccessful-ratio</measType>
+<measType p="3">eric-cces-sbi-trafficinfluence-pcf-oauth-unsuccessful-ratio</measType>
+<measType p="4">eric-cces-sbi-trafficinfluence-udm-oauth-unsuccessful-ratio</measType>
+<measType p="5">eric-cces-sbi-trafficinfluence-udr-oauth-unsuccessful-ratio</measType>
+<measType p="6">eric-cces-micro-nef-nnef-bdtpnegotiation-overload-unsuccessful-ratio</measType>
+<measType p="7">eric-cces-micro-nef-nnef-chargeableparty-overload-unsuccessful-ratio</measType>
+<measType p="8">eric-cces-micro-nef-nnef-afsessionwithqos-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-cces-micro-nef-nnef-aminfluence-overload-unsuccessful-ratio</measType>
+<measType p="10">eric-cces-micro-nef-nnef-devicetriggering-overload-unsuccessful-ratio</measType>
+<measType p="11">eric-cces-micro-nef-nnef-nidd-overload-unsuccessful-ratio</measType>
+<measType p="12">eric-cces-sbi-afsessionwithqos-bsf-oauth-unsuccessful-ratio</measType>
+<measType p="13">eric-cces-sbi-afsessionwithqos-pcf-oauth-unsuccessful-ratio</measType>
+<measType p="14">eric-cces-sbi-pfdmanagement-udr-oauth-unsuccessful-ratio</measType>
+<measType p="15">eric-cces-sbi-pfdmanagement-smf-oauth-unsuccessful-ratio</measType>
+<measType p="16">eric-cces-micro-nef-nnef-msisdnlessmosms-overload-unsuccessful-ratio</measType>
+<measType p="17">eric-cces-sbi-aminfluence-udr-oauth-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">66</r>
+<r p="2">29</r>
+<r p="3">26</r>
+<r p="4">92</r>
+<r p="5">0</r>
+<r p="6">40</r>
+<r p="7">21</r>
+<r p="8">1</r>
+<r p="9">28</r>
+<r p="10">25</r>
+<r p="11">92</r>
+<r p="12">58</r>
+<r p="13">19</r>
+<r p="14">8</r>
+<r p="15">34</r>
+<r p="16">65</r>
+<r p="17">43</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-afsessionwithqos-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-afsessionwithqos-requests-recv</measType>
+<measType p="2">eric-nef-nnef-afsessionwithqos-successful-responses-sent</measType>
+<measType p="3">eric-nef-nnef-afsessionwithqos-unsuccessful-responses-sent</measType>
+<measType p="4">eric-nef-nnef-afsessionwithqos-requests-sent</measType>
+<measType p="5">eric-nef-nnef-afsessionwithqos-successful-responses-recv</measType>
+<measType p="6">eric-nef-nnef-afsessionwithqos-unsuccessful-responses-recv</measType>
+<measType p="7">eric-nef-nnef-afsessionwithqos-overload-reject</measType>
+<measType p="8">eric-nef-nnef-afsessionwithqos-overload-unsuccessful-ratio</measType>
+<measType p="9">eric-nef-npcf-policyauthorization-requests-sent</measType>
+<measType p="10">eric-nef-npcf-policyauthorization-successful-responses-recv</measType>
+<measType p="11">eric-nef-npcf-policyauthorization-unsuccessful-responses-recv</measType>
+<measType p="12">eric-nef-nbsf-management-requests-sent</measType>
+<measType p="13">eric-nef-nbsf-management-successful-responses-recv</measType>
+<measType p="14">eric-nef-nbsf-management-unsuccessful-responses-recv</measType>
+<measValue measObjLdn="/system">
+<r p="1">24</r>
+<r p="2">6</r>
+<r p="3">89</r>
+<r p="4">86</r>
+<r p="5">94</r>
+<r p="6">36</r>
+<r p="7">64</r>
+<r p="8">28</r>
+<r p="9">29</r>
+<r p="10">34</r>
+<r p="11">75</r>
+<r p="12">13</r>
+<r p="13">56</r>
+<r p="14">52</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-ngac-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-micro-ngac-apiservice-runtime-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">30</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-ees-uesessioncounter-group">
+<job jobId="eric-ees-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-ees-uesessioncounter-uesession-amount</measType>
+<measValue measObjLdn="/system">
+<r p="1">25</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-devicetriggering-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-devicetriggering-nbi-requests-recv-per-second</measType>
+<measType p="2">eric-nef-nnef-devicetriggering-nbi-requests-recv-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-devicetriggering-nbi-notifications-sent-per-second</measType>
+<measType p="4">eric-nef-nnef-devicetriggering-nbi-notifications-sent-failure-ratio</measType>
+<measType p="5">eric-nef-nnef-devicetriggering-producer-all-handled-requests-per-second</measType>
+<measType p="6">eric-nef-nnef-devicetriggering-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">92</r>
+<r p="2">50</r>
+<r p="3">66</r>
+<r p="4">66</r>
+<r p="5">51</r>
+<r p="6">21</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-cces-ncc-group">
+<job jobId="eric-cces-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-cces-micro-ncc-nccproxy-overload-unsuccessful-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">48</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nef-nnef-msisdnlessmosms-cnf-group">
+<job jobId="eric-nef-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nef-nnef-msisdnlessmosms-nbi-notifications-sent-per-second</measType>
+<measType p="2">eric-nef-nnef-msisdnlessmosms-nbi-notifications-sent-failure-ratio</measType>
+<measType p="3">eric-nef-nnef-msisdnlessmosms-producer-all-handled-requests-per-second</measType>
+<measType p="4">eric-nef-nnef-msisdnlessmosms-producer-all-handled-requests-failure-ratio</measType>
+<measValue measObjLdn="/system">
+<r p="1">61</r>
+<r p="2">89</r>
+<r p="3">0</r>
+<r p="4">88</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="eric-nrfagent-discovery-group">
+<job jobId="eric-nrfagent-job"/>
+<granPeriod duration="PT900S" endTime="2023-11-07T10:15:00+00:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">eric-nrfagent-discovery-requests-recv</measType>
+<measType p="2">eric-nrfagent-discovery-successful-responses-sent</measType>
+<measType p="3">eric-nrfagent-discovery-unsuccessful-responses-sent</measType>
+<measValue measObjLdn="/system">
+<r p="1">75</r>
+<r p="2">72</r>
+<r p="3">39</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-07T10:15:00+00:00"/>
+</fileFooter>
+</measCollecFile>

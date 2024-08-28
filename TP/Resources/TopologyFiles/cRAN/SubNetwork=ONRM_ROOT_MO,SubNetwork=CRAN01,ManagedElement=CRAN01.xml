@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN01,ManagedElement=CRAN01" mimName="CRANTop" lastModified="1698922980199">
+	<attr name="timestampOfChange">2023-11-02 11:03:00.199</attr>
+ <attr name="NE-name">CRAN01</attr>
+ <attr name="managedElementType">Shared-CNF</attr>
+ <attr name="managedFunctions">
+ <seq count="2">
+<item>
+<struct>
+ <attr name="managedFunction">GNBCUCP</attr>
+ <attr name="managedFunctionName">SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN01,ManagedElement=CRAN01,ManagedElement=1,GNBCUCPFunction=1</attr>
+</struct>
+</item>
+<item>
+<struct>
+ <attr name="managedFunction">GNBCUCP</attr>
+ <attr name="managedFunctionName">SubNetwork=ONRM_ROOT_MO,SubNetwork=CRAN01,ManagedElement=CRAN01,ManagedElement=1,GNBCUCPFunction=2</attr>
+</struct>
+</item>
+</seq>
+</attr>
+ </mo>
+</model>

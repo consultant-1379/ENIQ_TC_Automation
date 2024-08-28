@@ -1,0 +1,1 @@
+DEFAULT1 CSCFv01 eniq_oss_1 SubNetwork=ONRM_ROOTMO,ManagedElement=CSCFv01 2023-11-04    2023       11      4      10 2023-11-04 10:00:00.0      0 15MIN           3505        0              15 LOADED               eniq_oss_1 +0200               (NULL) 2023-11-04 08:00:00.0                         53 

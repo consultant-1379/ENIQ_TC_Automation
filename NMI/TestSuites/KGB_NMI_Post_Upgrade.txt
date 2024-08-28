@@ -1,0 +1,2 @@
+#MI/TestCases/Upgrade/Verify_Rolling_Snapshot.robot
+NMI/TestCases/Upgrade/NMI_Verify_Rolling_Snapshot_TC51.robot

@@ -1,0 +1,1 @@
+ManagedElement=NR02gNodeBRadio00005,Transport=1,Router=1,AclIpv6=1

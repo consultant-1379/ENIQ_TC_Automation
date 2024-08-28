@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=SubNetwork,MeContext=cIMS01" mimName="ONRM" lastModified="1699612740099">
+	<attr name="timestampOfChange">2023-11-10 10:39:00.127</attr>
+ <attr name="managedElementType">Shared-CNF</attr>
+ <attr name="managedFunctions">
+<seq count="4">
+<item>
+<struct>
+<attr name="managedFunction">BGF</attr>
+<attr name="managedFunctionName">SubNetwork=SubNetwork,MeContext=cIMS01,ericsson-bgf-function-2.2.5=n22-ims1-ims1-bgf-1-0-8-0-235</attr>
+</struct>
+</item>
+<item>
+<struct>
+<attr name="managedFunction">BGF</attr>
+<attr name="managedFunctionName">SubNetwork=SubNetwork,MeContext=cIMS01,ericsson-bgf-function-2.2.5=n22-ims1-ims1-bgf-2-0-8-0-236</attr>
+</struct>
+</item>
+<item>
+<struct>
+<attr name="managedFunction">SBG</attr>
+<attr name="managedFunctionName">SubNetwork=SubNetwork,MeContext=cIMS01,ericsson-sbg-function-2.2.5=n22-ims1-ims1-sbg-1-0-8-0-288</attr>
+</struct>
+</item>
+<item>
+<struct>
+<attr name="managedFunction">SBG</attr>
+<attr name="managedFunctionName">SubNetwork=SubNetwork,MeContext=cIMS01,ericsson-sbg-function-2.2.5=n22-ims1-ims1-sbg-2-0-8-0-289</attr>
+</struct>
+</item>
+</seq>
+ </attr>
+ </mo>
+</model>

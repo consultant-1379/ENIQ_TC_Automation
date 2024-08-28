@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V10.0" vendorName="Ericsson ">
+<fileSender localDn="ManagedElement=1" elementType="ERIC-COREMW_RUNTIME"/>
+<measCollec beginTime="2023-11-06T10:00:00+02:00"/>
+</fileHeader>
+<measData>
+<managedElement localDn="ManagedElement=1" swVersion="CXP9020355_1 R9C02">
+<measInfo measInfoId="OSProcessingLogicalUnit">
+ <job jobId="UPGPmJob"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">CPULoad.Steal</measType>
+<measType p="2">CPULoad.SoftIRQ</measType>
+<measType p="3">CPULoad.System</measType>
+<measType p="4">CPULoad.IOWait</measType>
+<measType p="5">CPULoad.User</measType>
+<measType p="6">CPULoad.Nice</measType>
+<measType p="7">CPULoad.TotalVirt</measType>
+<measType p="8">CPULoad.IRQ</measType>
+<measType p="9">CPULoad.Steal.Maximum</measType>
+<measType p="10">CPULoad.TotalVirt.Maximum</measType>
+<measType p="11">CPULoad.Total</measType>
+<measType p="12">CPULoad.Total.Maximum</measType>
+<measValue measObjLdn="PL-31">
+<r p="1">1</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="2">23</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="3">78</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="4">88</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="5">42</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="6">94</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="7">80</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="8">19</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="9">46</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="10">56</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="11">76</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="12">35</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="OSProcessingUnit">
+ <job jobId="UPGPmJob"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">Mem.PercentUsed</measType>
+<measType p="2">CPULoad.Nice</measType>
+<measType p="3">Swap.Free</measType>
+<measType p="4">Disk.PercentUsed.Maximum</measType>
+<measType p="5">Swap.Used.Maximum</measType>
+<measType p="6">CPULoad.Steal.Maximum</measType>
+<measType p="7">CPULoad.TotalVirt.Maximum</measType>
+<measType p="8">CPULoad.Total</measType>
+<measType p="9">CPULoad.Total.Maximum</measType>
+<measType p="10">Disk.Used</measType>
+<measType p="11">CPULoad.SoftIRQ</measType>
+<measType p="12">CPULoad.System</measType>
+<measType p="13">CPULoad.IOWait</measType>
+<measType p="14">CPULoad.User</measType>
+<measType p="15">Disk.PercentFree</measType>
+<measType p="16">Mem.Free</measType>
+<measType p="17">Swap.PercentUsed.Maximum</measType>
+<measType p="18">Swap.Used</measType>
+<measType p="19">Swap.PercentUsed</measType>
+<measType p="20">Disk.Free</measType>
+<measType p="21">Mem.Used.Maximum</measType>
+<measType p="22">Swap.PercentFree</measType>
+<measType p="23">Mem.Total</measType>
+<measType p="24">CPULoad.Steal</measType>
+<measType p="25">Disk.PercentUsed</measType>
+<measType p="26">Mem.PercentUsed.Maximum</measType>
+<measType p="27">Mem.Used</measType>
+<measType p="28">CPULoad.TotalVirt</measType>
+<measType p="29">Disk.Used.Maximum</measType>
+<measType p="30">CPULoad.IRQ</measType>
+<measType p="31">Mem.PercentFree</measType>
+<measValue measObjLdn="PL-31">
+<r p="1">38</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="2">0</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="3">14</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="4">63</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="5">83</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="6">14</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="7">59</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="8">97</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="9">69</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="10">99</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="11">70</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="12">48</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="13">57</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="14">70</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="15">44</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="16">50</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="17">66</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="18">40</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="19">5</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="20">34</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="21">91</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="22">14</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="23">72</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="24">0</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="25">39</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="26">28</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="27">80</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="28">59</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="29">95</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="30">68</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="31">66</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="UPGPmGroup">
+ <job jobId="UPGPmJob"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">UPG.Pm.OIR.GsmOIRToImsCLIRUnsuccess</measType>
+<measType p="2">UPG.Pm.CB.GsmBicroToImsIcbBicroUnsuccess</measType>
+<measType p="3">UPG.Pm.Sh.PushNotiFail</measType>
+<measType p="4">UPG.Pm.HTTP.OutAttFail</measType>
+<measType p="5">UPG.Pm.Sh.UserDataSucc</measType>
+<measType p="6">UPG.Pm.Replication.IncAttTotal</measType>
+<measType p="7">UPG.Pm.CAI3G.OutRespTimeAvg</measType>
+<measType p="8">UPG.Pm.Replication.IncRespTimeAvg</measType>
+<measType p="9">UPG.Pm.Rg.IncRespTimeAvg</measType>
+<measType p="10">UPG.Pm.JDBC.OutAttFail</measType>
+<measType p="11">UPG.Pm.REST.IncRespTimeAvg</measType>
+<measType p="12">UPG.Pm.DMF.GsmToImsSyncTotal</measType>
+<measType p="13">UPG.Pm.MAP.IncAttFail</measType>
+<measType p="14">UPG.Pm.MAP.IncAttTotal</measType>
+<measType p="15">UPG.Pm.Sh.UserDataFail</measType>
+<measType p="16">UPG.Pm.JDBC.OutAttTotal</measType>
+<measType p="17">UPG.Pm.CF.GsmCfnryToImsCfnryUnsuccess</measType>
+<measType p="18">UPG.Pm.CB.ImsOcbBoiexhToGsmBoiexhTotal</measType>
+<measType p="19">UPG.Pm.CAI3G.OutAttFail</measType>
+<measType p="20">UPG.Pm.SSH.OutRespTimeAvg</measType>
+<measType p="21">UPG.Pm.CB.ImsIcbBicroToGsmBicroUnsuccess</measType>
+<measType p="22">UPG.Pm.CF.GsmCfnryToImsCfnryTotal</measType>
+<measType p="23">UPG.Pm.Sh.PushNotiRespTimeAvg</measType>
+<measType p="24">UPG.Pm.CF.ImsCfuToGsmCfuTotal</measType>
+<measType p="25">UPG.Pm.CF.ImsCfbToGsmCfbTotal</measType>
+<measType p="26">UPG.Pm.Rg.IncAttFail</measType>
+<measType p="27">UPG.Pm.CB.ImsIcbBicroToGsmBicroTotal</measType>
+<measType p="28">UPG.Pm.CF.GsmCfnrcToImsCfnrcTotal</measType>
+<measType p="29">UPG.Pm.Rg.Notifications</measType>
+<measType p="30">UPG.Pm.CB.ImsOcbBoiexhToGsmBoiexhUnsuccess</measType>
+<measType p="31">UPG.Pm.Telnet.OutAttFail</measType>
+<measType p="32">UPG.Pm.CF.ImsCfnryToGsmCfnryUnsuccess</measType>
+<measType p="33">UPG.Pm.DMF.GsmToImsSyncRespTimeAvg</measType>
+<measType p="34">UPG.Pm.CF.ImsCfnrcToGsmCfnrcUnsuccess</measType>
+<measType p="35">UPG.Pm.CB.GsmBicroToImsIcbBicroTotal</measType>
+<measType p="36">UPG.Pm.CF.ImsCfnryToGsmCfnryTotal</measType>
+<measType p="37">UPG.Pm.CF.GsmCfuToImsCfuUnsuccess</measType>
+<measType p="38">UPG.Pm.Rg.Subscriptions</measType>
+<measType p="39">UPG.Pm.HTTP.OutAttTotal</measType>
+<measType p="40">UPG.Pm.REST.IncAttTotal</measType>
+<measType p="41">UPG.Pm.Replication.IncFail</measType>
+<measType p="42">UPG.Pm.DMF.ImsToGsmSyncTotal</measType>
+<measType p="43">UPG.Pm.CF.ImsCfnrcToGsmCfnrcTotal</measType>
+<measType p="44">UPG.Pm.CB.ImsOcbBaocToGsmBaocUnsuccess</measType>
+<measType p="45">UPG.Pm.SSH.OutAttFail</measType>
+<measType p="46">UPG.Pm.MAP.IncRespTimeAvg</measType>
+<measType p="47">UPG.Pm.REST.IncAttFail</measType>
+<measType p="48">UPG.Pm.CF.GsmCfbToImsCfbTotal</measType>
+<measType p="49">UPG.Pm.FTP.OutRespTimeAvg</measType>
+<measType p="50">UPG.Pm.CB.ImsOcbBaocToGsmBaocTotal</measType>
+<measType p="51">UPG.Pm.CF.GsmCfbToImsCfbUnsuccess</measType>
+<measType p="52">UPG.Pm.HTTP.IncAttFail</measType>
+<measType p="53">UPG.Pm.CEP.Notifications</measType>
+<measType p="54">UPG.Pm.OIR.GsmOIRToImsCLIRTotal</measType>
+<measType p="55">UPG.Pm.CW.ImsCwToGsmCawUnsuccess</measType>
+<measType p="56">UPG.Pm.CW.ImsCwToGsmCawTotal</measType>
+<measType p="57">UPG.Pm.CB.GsmBaocToImsOcbBaocUnsuccess</measType>
+<measType p="58">UPG.Pm.Sh.OutAttFail</measType>
+<measType p="59">UPG.Pm.DMF.GsmToImsSyncUnsuccess</measType>
+<measType p="60">UPG.Pm.Sh.OutRespTimeAvg</measType>
+<measType p="61">UPG.Pm.CLIR.ImsCLIRToGsmOIRTotal</measType>
+<measType p="62">UPG.Pm.CF.ImsCfuToGsmCfuUnsuccess</measType>
+<measType p="63">UPG.Pm.FTP.OutAttFail</measType>
+<measType p="64">UPG.Pm.Sh.PushNotiTotal</measType>
+<measType p="65">UPG.Pm.LDAP.IncRespTimeAvg</measType>
+<measType p="66">UPG.Pm.LDAP.IncAttFail</measType>
+<measType p="67">UPG.Pm.CB.ImsIcbBaicToGsmBaicUnsuccess</measType>
+<measType p="68">UPG.Pm.HTTP.IncAttTotal</measType>
+<measType p="69">UPG.Pm.CB.ImsIcbBaicToGsmBaicTotal</measType>
+<measType p="70">UPG.Pm.Telnet.OutRespTimeAvg</measType>
+<measType p="71">UPG.Pm.CB.GsmBoicToImsOcbBoicUnsuccess</measType>
+<measType p="72">UPG.Pm.CAI3G.OutAttTotal</measType>
+<measType p="73">UPG.Pm.SSH.OutAttTotal</measType>
+<measType p="74">UPG.Pm.LDAP.OutAttTotal</measType>
+<measType p="75">UPG.Pm.CF.GsmCfnrcToImsCfnrcUnsuccess</measType>
+<measType p="76">UPG.Pm.CB.ImsOcbBoicToGsmBoicTotal</measType>
+<measType p="77">UPG.Pm.JDBC.IncAnalyticsRespTimeAvg</measType>
+<measType p="78">UPG.Pm.Sh.SubFail</measType>
+<measType p="79">UPG.Pm.CF.ImsCfbToGsmCfbUnsuccess</measType>
+<measType p="80">UPG.Pm.CLIR.ImsCLIRToGsmOIRUnsuccess</measType>
+<measType p="81">UPG.Pm.CB.GsmBaicToImsIcbBaicUnsuccess</measType>
+<measType p="82">UPG.Pm.Sh.SubTotal</measType>
+<measType p="83">UPG.Pm.Sh.ProfileUpdateSucc</measType>
+<measType p="84">UPG.Pm.CW.GsmCawToImsCwTotal</measType>
+<measType p="85">UPG.Pm.Rg.Unsubscriptions</measType>
+<measType p="86">UPG.Pm.CB.ImsOcbBoicToGsmBoicUnsuccess</measType>
+<measType p="87">UPG.Pm.Rg.IncAttTotal</measType>
+<measType p="88">UPG.Pm.JDBC.OutRespTimeAvg</measType>
+<measType p="89">UPG.Pm.Telnet.OutAttTotal</measType>
+<measType p="90">UPG.Pm.CB.GsmBaocToImsOcbBaocTotal</measType>
+<measType p="91">UPG.Pm.Sh.SubRespTimeAvg</measType>
+<measType p="92">UPG.Pm.LDAP.IncAttTotal</measType>
+<measType p="93">UPG.Pm.CF.ImsCfnryToGsmCfnrySTotal</measType>
+<measType p="94">UPG.Pm.HTTP.OutRespTimeAvg</measType>
+<measType p="95">UPG.Pm.CAI3G.IncAttFail</measType>
+<measType p="96">UPG.Pm.Sh.OutAttTotal</measType>
+<measType p="97">UPG.Pm.LDAP.OutAttFail</measType>
+<measType p="98">UPG.Pm.CAI3G.IncAttTotal</measType>
+<measType p="99">UPG.Pm.HTTP.IncRespTimeAvg</measType>
+<measType p="100">UPG.Pm.CW.GsmCawToImsCwUnsuccess</measType>
+<measType p="101">UPG.Pm.CB.GsmBoiexhToImsOcbBoiexhUnsuccess</measType>
+<measType p="102">UPG.Pm.Sh.UserDataRespTimeAvg</measType>
+<measType p="103">UPG.Pm.CB.GsmBoiexhToImsOcbBoiexhTotal</measType>
+<measType p="104">UPG.Pm.CB.GsmBaicToImsIcbBaicTotal</measType>
+<measType p="105">UPG.Pm.JDBC.IncAnanlyticsAttTotal</measType>
+<measType p="106">UPG.Pm.Sh.ProfileUpdateFail</measType>
+<measType p="107">UPG.Pm.FTP.OutAttTotal</measType>
+<measType p="108">UPG.Pm.JDBC.IncAnalyticsFail</measType>
+<measType p="109">UPG.Pm.CAI3G.IncRespTimeAvg</measType>
+<measType p="110">UPG.Pm.CF.GsmCfuToImsCfuTotal</measType>
+<measType p="111">UPG.Pm.DMF.ImsToGsmSyncUnsuccess</measType>
+<measType p="112">UPG.Pm.CB.GsmBoicToImsOcbBoicTotal</measType>
+<measType p="113">UPG.Pm.LDAP.OutRespTimeAvg</measType>
+<measType p="114">UPG.Pm.Rg.QuerySubscriptions</measType>
+<measType p="115">UPG.Pm.DMF.ImsToGsmSyncRespTimeAvg</measType>
+<measType p="116">UPG.Pm.Sh.ProfileUpdateRespTimeAvg</measType>
+<measValue measObjLdn="PL-31">
+<r p="1">71</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="2">24</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="3">48</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="4">97</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="5">1</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="6">38</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="7">94</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="8">63</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="9">37</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="10">77</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="11">88</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="12">22</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="13">61</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="14">78</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="15">15</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="16">22</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="17">41</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="18">9</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="19">80</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="20">34</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="21">16</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="22">3</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="23">49</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="24">43</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="25">84</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="26">33</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="27">75</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="28">46</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="29">48</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="30">18</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="31">20</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="32">80</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="33">92</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="34">72</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="35">26</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="36">61</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="37">50</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="38">72</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="39">13</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="40">6</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="41">83</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="42">30</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="43">62</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="44">88</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="45">69</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="46">34</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="47">59</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="48">69</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="49">88</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="50">49</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="51">52</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="52">19</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="53">29</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="54">34</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="55">99</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="56">62</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="57">7</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="58">83</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="59">11</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="60">33</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="61">44</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="62">47</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="63">40</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="64">78</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="65">9</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="66">79</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="67">92</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="68">94</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="69">32</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="70">82</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="71">7</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="72">28</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="73">90</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="74">32</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="75">62</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="76">52</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="77">60</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="78">96</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="79">65</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="80">50</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="81">52</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="82">63</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="83">58</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="84">60</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="85">4</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="86">62</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="87">47</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="88">29</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="89">88</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="90">39</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="91">67</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="92">69</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="93">4</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="94">39</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="95">32</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="96">7</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="97">61</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="98">18</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="99">95</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="100">71</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="101">29</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="102">35</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="103">37</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="104">58</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="105">17</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="106">8</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="107">92</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="108">89</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="109">96</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="110">76</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="111">35</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="112">54</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="113">80</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="114">65</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="115">56</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="116">45</r>
+</measValue>
+</measInfo>
+<measInfo measInfoId="OSProcessingSocketUnit">
+ <job jobId="UPGPmJob"/>
+<granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">CPULoad.Steal</measType>
+<measType p="2">CPULoad.SoftIRQ</measType>
+<measType p="3">CPULoad.System</measType>
+<measType p="4">CPULoad.IOWait</measType>
+<measType p="5">CPULoad.User</measType>
+<measType p="6">CPULoad.Nice</measType>
+<measType p="7">CPULoad.TotalVirt</measType>
+<measType p="8">CPULoad.IRQ</measType>
+<measType p="9">CPULoad.Steal.Maximum</measType>
+<measType p="10">CPULoad.TotalVirt.Maximum</measType>
+<measType p="11">CPULoad.Total</measType>
+<measType p="12">CPULoad.Total.Maximum</measType>
+<measValue measObjLdn="PL-31">
+<r p="1">17</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="2">84</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="3">13</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="4">46</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="5">11</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="6">61</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="7">57</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="8">54</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="9">44</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="10">61</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="11">8</r>
+</measValue>
+<measValue measObjLdn="PL-31">
+<r p="12">29</r>
+</measValue>
+</measInfo>
+</managedElement>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-06T10:15:00+02:00"/>
+</fileFooter>
+</measCollecFile>

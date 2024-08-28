@@ -1,0 +1,30 @@
+{ 
+    "TC01": { "System_area": "Core",
+              "Node_type": "CCDM",
+              "Node" : "CCDM01",
+              "GetDataFor": "NODE",
+              "SubNetwork":"",
+              "Data_source":"NetAn_ODBC",
+              "Object_Aggregation": "Node",
+              "Measure_type":"COUNTER,PDF_COUNTER,DYNCOUNTER,ERICSSON_KPI,RI",
+              "Time_selector" : "last30Days",
+              "Days" :"",
+              "Aggregation" : "ROP",
+              "Preceding_period" : "",
+              "Preceding_period_unit" : "",
+              "start_date" : "",
+              "start_time" : "",
+              "end_date" : "",
+              "end_time" : "",
+              "Time_selector2" : "",
+              "Check_Box" : "no",
+              "Report_AccessType": "Public",
+              "Report_Description":  "desc",
+              "Measure" : "TPS KPI for Ud Service-Service Provider",
+              "SQL1" : "select \\"ReportName\\" FROM \\"tblSavedReports\\" WHERE \\"ReportName\\" =REPORT_NAME ",
+              "Data_Of_Col1" : "ERIC_UDR_UD_REQUESTS_RECV",
+              "Data_Of_Col2" : "PERIOD_DURATION",
+              "Formula" : "ERIC_UDR_UD_REQUESTS_RECV/(PERIOD_DURATION*60)"
+              }          
+	    
+}

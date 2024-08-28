@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+<fileHeader fileFormatVersion="32.435 V7.2.0" vendorName="Ericsson AB" dnPrefix="SubNetwork=IsNetwork,IsSite=ISSBG01">
+<fileSender localDn="bs=1" elementType="SBG"/>
+<measCollec beginTime="2023-11-16T10:00:00+0200"/>
+</fileHeader>
+<measData>
+<managedElement localDn="bs=1" userLabel="SBG" swVersion="R3B"/>
+<measInfo measInfoId="1">
+<job jobId="6"/>
+<granPeriod duration="PT900S" endTime="2023-11-16T10:15:00+0200"/>
+<repPeriod duration="PT900S"/>
+<measType p="1">sbgSgcTotalEmergencyCallsSetups</measType>
+<measType p="2">sbgSgcTotalEmergencyCallsSuccess</measType>
+<measType p="3">sbgSgcTotalEmergencyCallsRejects</measType>
+<measType p="4">sbgSgcTotalEmergencyCallsRedirects</measType>
+<measType p="5">sbgSgcIPsecInNoStates</measType>
+<measType p="6">sbgSgcIPsecInStateProtoError</measType>
+<measType p="7">sbgSgcIPsecInTmplMismatch</measType>
+<measType p="8">sbgSgcIncPriorityCallAttempts</measType>
+<measType p="9">sbgSgcOutPriorityCallAttempts</measType>
+<measType p="10">sbgSgcIncPriorityCallSuccessSetups</measType>
+<measType p="11">sbgSgcOutPriorityCallSuccessSetups</measType>
+<measValue measObjLdn="Blade=1-1,SignalingNetworkConnection=1">
+<r p="1">65</r>
+<r p="2">66</r>
+<r p="3">67</r>
+<r p="4">68</r>
+<r p="5">69</r>
+<r p="6">70</r>
+<r p="7">71</r>
+<r p="8">72</r>
+<r p="9">73</r>
+<r p="10">74</r>
+<r p="11">75</r>
+</measValue>
+</measInfo>
+</measData>
+<fileFooter>
+<measCollec endTime="2023-11-16T10:15:00+0200"/>
+</fileFooter>
+</measCollecFile>

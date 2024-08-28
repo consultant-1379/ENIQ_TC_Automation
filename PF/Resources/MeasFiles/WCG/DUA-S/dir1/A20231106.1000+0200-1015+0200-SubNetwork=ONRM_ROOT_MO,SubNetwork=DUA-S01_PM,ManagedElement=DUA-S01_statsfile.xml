@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type='text/css' href='MeasDataCollection.xsl'?><measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+  <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0" vendorName="Ericsson AB">
+    <fileSender elementType="ERIC-COREMW_RUNTIME" localDn="ManagedElement=WCG"/>
+    <measCollec beginTime="2023-11-06T10:00:00+02:00"/>
+  </fileHeader>
+  <measData>
+    <managedElement localDn="ManagedElement=DUA-S" swVersion="CXP9020355_1 R9D01"/>
+    <measInfo measInfoId="DuasSessionsCounterGroup">
+      <job jobId="WCG-DUASSESSIONS"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">CurrentActiveSessionsOriginating</measType>
+      <measType p="1">CurrentActiveSessionsTerminating</measType>
+      <measType p="2">successfulSessionsAttemptsOriginating</measType>
+      <measType p="3">successfulSessionsAttemptsTerminating</measType>
+      <measType p="4">unsuccessfulSessionsAttemptsOriginating</measType>
+      <measType p="5">unsuccessfulSessionsAttemptsTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">89</r>
+        <r p="1">56</r>
+        <r p="2">60</r>
+        <r p="3">55</r>
+        <r p="4">39</r>
+        <r p="5">2</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="RegistrationNSDSCounterGroup">
+      <job jobId="WCG-REGISTRATIONNSDS"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">unsuccessfulDeRegistration</measType>
+      <measType p="1">userCurrentlyRegistered</measType>
+      <measType p="2">successfulReRegistration</measType>
+      <measType p="3">successfulDeRegistration</measType>
+      <measType p="4">unsuccessfulReRegistration</measType>
+      <measType p="5">unsuccessfulRegistration</measType>
+      <measType p="6">successfulRegistration</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">57</r>
+        <r p="1">28</r>
+        <r p="2">7</r>
+        <r p="3">44</r>
+        <r p="4">30</r>
+        <r p="5">93</r>
+        <r p="6">50</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="GlobalRegistrationNSDSCntrGrp">
+      <job jobId="WCG-GLOBALREGISTRATIONNSDSCNTRGRP"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">successfulRegistration</measType>
+      <measType p="1">unsuccessfulRegistration</measType>
+      <measType p="2">userCurrentlyRegistered</measType>
+      <measType p="3">unsuccessfulReRegistration</measType>
+      <measType p="4">successfulReRegistration</measType>
+      <measType p="5">successfulDeRegistration</measType>
+      <measType p="6">unsuccessfulDeRegistration</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">72</r>
+        <r p="1">60</r>
+        <r p="2">98</r>
+        <r p="3">88</r>
+        <r p="4">2</r>
+        <r p="5">94</r>
+        <r p="6">26</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="OutOfSessionNSDSCounterGroup">
+      <job jobId="WCG-OUTOFSESSIONNSDS"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">unsuccessfulSIPMessageTerminating</measType>
+      <measType p="1">unsuccessfulSIPOptionsTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">14</r>
+        <r p="1">99</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="DuasUserRegistrationCounterGroup">
+      <job jobId="WCG-DUASUSERREGISTRATION"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">successfulUserRegistrationAttempts</measType>
+      <measType p="1">unsuccessfulUserRegistrationAttempts</measType>
+      <measType p="2">userCurrentRegistered</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">42</r>
+        <r p="1">67</r>
+        <r p="2">45</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="ExtAuthNSDSCounterGroup">
+      <job jobId="WCG-EXTAUTHNSDS"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">successfulExtAuth</measType>
+      <measType p="1">successfulExtAuthDeRegistration</measType>
+      <measType p="2">unsuccessfulExtAuth</measType>
+      <measType p="3">unsuccessfulExtAuthDeRegistration</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">64</r>
+        <r p="1">50</r>
+        <r p="2">61</r>
+        <r p="3">67</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="SessionsNSDSCounterGroup">
+      <job jobId="WCG-SESSIONSNSDS"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">cacRejectedSessionsAttemptsOriginating</measType>
+      <measType p="1">cacRejectedSessionsAttemptsTerminating</measType>
+      <measType p="2">cancelledSessionsAttemptsTerminating</measType>
+      <measType p="3">currentActiveSessions</measType>
+      <measType p="4">numberOfSubscriptionSessions</measType>
+      <measType p="5">successfulSessionsAttemptsOriginating</measType>
+      <measType p="6">successfulSessionsAttemptsTerminating</measType>
+      <measType p="7">unsuccessfulSessionsAttemptsOriginating</measType>
+      <measType p="8">unsuccessfulSessionsAttemptsTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">22</r>
+        <r p="1">45</r>
+        <r p="2">0</r>
+        <r p="3">73</r>
+        <r p="4">49</r>
+        <r p="5">41</r>
+        <r p="6">68</r>
+        <r p="7">21</r>
+        <r p="8">72</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="GlobalSessionsNSDSCntrGr">
+      <job jobId="WCG-GLOBALSESSIONSNSDSCNTRGR"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">cancelledSessionsAttemptsTerminating</measType>
+      <measType p="1">currentActiveSessions</measType>
+      <measType p="2">numberOfSubscriptionSessions</measType>
+      <measType p="3">successfulSessionsAttemptsOriginating</measType>
+      <measType p="4">successfulSessionsAttemptsTerminating</measType>
+      <measType p="5">unsuccessfulSessionsAttemptsOriginating</measType>
+      <measType p="6">unsuccessfulSessionsAttemptsTerminating</measType>
+      <measType p="7">cacRejectedSessionsAttemptsTerminating</measType>
+      <measType p="8">cacRejectedSessionsAttemptsOriginating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">77</r>
+        <r p="1">34</r>
+        <r p="2">85</r>
+        <r p="3">68</r>
+        <r p="4">47</r>
+        <r p="5">99</r>
+        <r p="6">26</r>
+        <r p="7">15</r>
+        <r p="8">4</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="GlobalSessionsNSDSCntrGrp">
+      <job jobId="WCG-GLOBALSESSIONSNSDSCNTRGRP"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">cancelledSessionsAttemptsTerminating</measType>
+      <measType p="1">successfulSessionsAttemptsOriginating</measType>
+      <measType p="2">unsuccessfulSessionsAttemptsOriginating</measType>
+      <measType p="3">currentActiveSessions</measType>
+      <measType p="4">unsuccessfulSessionsAttemptsTerminating</measType>
+      <measType p="5">cacRejectedSessionsAttemptsOriginating</measType>
+      <measType p="6">numberOfSubscriptionSessions</measType>
+      <measType p="7">successfulSessionsAttemptsTerminating</measType>
+      <measType p="8">cacRejectedSessionsAttemptsTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">50</r>
+        <r p="1">20</r>
+        <r p="2">11</r>
+        <r p="3">63</r>
+        <r p="4">49</r>
+        <r p="5">4</r>
+        <r p="6">55</r>
+        <r p="7">12</r>
+        <r p="8">75</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="GlobalOutOfSessNSDSCntrGrp">
+      <job jobId="WCG-GLOBALOUTOFSESSNSDSCNTRGRP"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">unsuccessfulSIPMessageTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">35</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="GlobalAuthNSDSCntrGrp">
+      <job jobId="WCG-GLOBALAUTHNSDSCNTRGRP"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">successfulExtAuthDeRegistration</measType>
+      <measType p="1">unsuccessfulExtAuth</measType>
+      <measType p="2">unsuccessfulExtAuthDeRegistration</measType>
+      <measType p="3">successfulExtAuth</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">19</r>
+        <r p="1">37</r>
+        <r p="2">82</r>
+        <r p="3">82</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="GlobalMonitoringNSDSCntrGrp">
+      <job jobId="WCG-GLOBALMONITORINGNSDSCNTRGRP"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">successfulSIPOptionsMonitoringOriginating</measType>
+      <measType p="1">successfulSIPOptionsMonitoringTerminating</measType>
+      <measType p="2">unsuccessfulSIPOptionsMonitoringOriginating</measType>
+      <measType p="3">unsuccessfulSIPOptionsMonitoringTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">23</r>
+        <r p="1">11</r>
+        <r p="2">58</r>
+        <r p="3">17</r>
+      </measValue>
+    </measInfo>
+    <measInfo measInfoId="NeighbourMonitoringNSDSCounterGroup">
+      <job jobId="WCG-NEIGHBOURMONITORINGNSDS"/>
+      <granPeriod duration="PT900S" endTime="2023-11-06T10:15:00+02:00"/>
+      <repPeriod duration="PT900S"/>
+      <measType p="0">successfulSIPOptionsMonitoringOriginating</measType>
+      <measType p="1">successfulSIPOptionsMonitoringTerminating</measType>
+      <measType p="2">unsuccessfulSIPOptionsMonitoringOriginating</measType>
+      <measType p="3">unsuccessfulSIPOptionsMonitoringTerminating</measType>
+      <measValue measObjLdn="traffic_instance7_lab10ebs2shelf0pl10">
+        <r p="0">8</r>
+        <r p="1">42</r>
+        <r p="2">4</r>
+        <r p="3">76</r>
+      </measValue>
+    </measInfo>
+  </measData>
+  <fileFooter>
+    <measCollec endTime="2023-11-06T10:15:00+02:00"/>
+  </fileFooter>
+</measCollecFile>

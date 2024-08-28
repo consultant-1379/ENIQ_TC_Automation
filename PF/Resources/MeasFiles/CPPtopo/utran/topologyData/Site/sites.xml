@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Fri Nov 10 07:30:01 GMT 2023 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,Site=RNC:SubNetwork" mimName="ONRM" mimVersion="V.29.105" lastModified="1699601401472">
+ <attr name="altitude">5550</attr>
+ <attr name="longitude">39718228</attr>
+ <attr name="timeZone">UTC+06:00</attr>
+ <attr name="latitude">236694531</attr>
+ <attr name="userLabel">RNC:SubNetwork</attr>
+ <attr name="SiteId">RNC:SubNetwork</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,Site=RNC:SubNetwork" mimName="ONRM" mimVersion="V.29.105" lastModified="1699601401472">
+ <attr name="altitude">5550</attr>
+ <attr name="longitude">39718228</attr>
+ <attr name="timeZone">UTC+06:00</attr>
+ <attr name="latitude">236694531</attr>
+ <attr name="userLabel">RNC:SubNetwork</attr>
+ <attr name="SiteId">RNC:SubNetwork</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,Site=RNC:SubNetwork" mimName="ONRM" mimVersion="V.29.105" lastModified="1699601401472">
+ <attr name="altitude">5550</attr>
+ <attr name="longitude">39718228</attr>
+ <attr name="timeZone">UTC+06:00</attr>
+ <attr name="latitude">236694531</attr>
+ <attr name="userLabel">RNC:SubNetwork</attr>
+ <attr name="SiteId">RNC:SubNetwork</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,Site=RNC:SubNetwork" mimName="ONRM" mimVersion="V.29.105" lastModified="1699601401472">
+ <attr name="altitude">5550</attr>
+ <attr name="longitude">39718228</attr>
+ <attr name="timeZone">UTC+06:00</attr>
+ <attr name="latitude">236694531</attr>
+ <attr name="userLabel">RNC:SubNetwork</attr>
+ <attr name="SiteId">RNC:SubNetwork</attr>
+ </mo>
+</model>

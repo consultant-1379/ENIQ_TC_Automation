@@ -1,0 +1,2 @@
+eniq_oss_3 vSBG02 SBG              vSBG02  IS         SubNetwork=IS,MeContext=vSBG02,ManagedElement=vSBG02 2.21            Ericsson ACTIVE 2024-04-23 22:45:23.0 2024-06-03 05:30:23.0 ENIQ     
+eniq_oss_3 vSBG01 SBG              vSBG01  IS         SubNetwork=IS,MeContext=vSBG01,ManagedElement=vSBG01 2.21            Ericsson ACTIVE 2024-04-23 22:45:23.0 2024-06-03 05:30:23.0 ENIQ     

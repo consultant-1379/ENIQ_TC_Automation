@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Wed Apr 17 12:45:44 IST 2024 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO vAFG01; Scope 8 -->
+<model>
+	<mo fdn="SubNetwork=SubNetwork,NetworkElement=vAFG01" mimName="ONRM" lastModified="1713354344079">
+	<attr name="timestampOfChange">2024-04-17 12:45:44</attr>
+	<attr name="userLabel">vAFG01</attr>
+	<attr name="managedElementType">vAFG</attr>
+	<attr name="sourceType">ESA</attr>
+	<attr name="nodeVersion">2.15</attr>
+	</mo>
+</model>

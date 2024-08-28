@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile>
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v7.2.0">
+       <fileSender/>
+       <measCollec beginTime="2023-11-05T10:00:00+0200"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="HssEsmUsersLocationjob"/>
+         <granPeriod duration="PT900S" endTime="2023-11-05T10:15:00+0200"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">TotalNumUsersRegNon3GppIpAccess.actual</measType>
+         <measType p="1">TotalNumberOfEpsUsersLocated.actual</measType>
+         <measType p="2">TotalNumberOfActive2G3GUsers.actual</measType>
+         <measType p="3">NumOfActive2G3GUsersPurged.actual</measType>
+         <measType p="4">NumOfActiveEpsUsersPurged.actual</measType>
+         <measType p="5">TotalNumberOfEpsUsersPurged.actual</measType>
+         <measType p="6">NumOfInactiveEpsUsersUnknown.actual</measType>
+         <measType p="7">NumbOfActiveEpsUsersPurged.actual</measType>
+         <measType p="8">TotalNumberOf2G3GUsersLocated.actual</measType>
+         <measType p="9">TotalNumberOf2G3GUsersPurged.actual</measType>
+         <measType p="10">NumOfInactive2G3GUsersUnknown.actual</measType>
+		 <measValue measObjLdn="CUDBSYS=1,SUBSCR_ID=1">
+             <r p="0">5812675</r>
+             <r p="1">5795097</r>
+             <r p="2">5757437</r>
+             <r p="3">5780800</r>
+             <r p="4">5803054</r>
+             <r p="5">5731031</r>
+             <r p="6">5761913</r>
+             <r p="7">5773734</r>
+             <r p="8">5833103</r>
+             <r p="9">5815353</r>
+             <r p="10">5844136</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-11-05T10:15:00+0200"/>
+    </fileFooter>
+</measCollecFile>

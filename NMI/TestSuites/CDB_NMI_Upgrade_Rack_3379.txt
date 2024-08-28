@@ -1,0 +1,11 @@
+NMI/TestCases/Upgrade/NMI_Verify_Upgrade_on_Rack_TC54.robot
+NMI/TestCases/Common/NMI_Verify_Database_Connection_TC08.robot
+NMI/TestCases/Common/NMI_Verify_Directory_Permissions_on_Rack_TC11.robot
+NMI/TestCases/Common/NMI_Verify_ENIQ_Services_on_Rack_TC15.robot
+NMI/TestCases/Server_Sanity/NMI_Server_Sanity_Rack_TC130.robot
+NMI/TestCases/IQ/NMI_Verify_Engine_Log_TC92.robot
+NMI/TestCases/IQ/NMI_Verify_Engine_Log_TC92.robot
+NMI/TestCases/IQ/NMI_Verify_iqmsg_and_srvlog_TC95.robot
+NMI/TestCases/Common/NMI_Verify_Sybase_IQ_Pkg_version_TC159.robot
+NMI/TestCases/Common/NMI_Verify_partition_file_not_present_TC160.robot
+

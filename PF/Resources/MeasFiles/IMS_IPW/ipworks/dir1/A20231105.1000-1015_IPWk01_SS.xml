@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=ipworks.com,g3SubNetwork=US,Node_Distinguished_Name=IPWk01</sn>
+<st>IPWORKS</st>
+<vn>Ericsson</vn>
+<cbt>20231105100000+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=ipworks.com,g3SubNetwork=US,Node_Distinguished_Name=IPWk01</nedn>
+</neid>
+<mi>
+<mts>20231105101500+0200</mts>
+<gp>900</gp>
+<mt>SsEnumDnRangeNumberGauge</mt>
+<mt>SsEnumDnSchedNumberGauge</mt>
+<mt>ipworksEnumDnRangeNumber</mt>
+<mt>ipworksEnumDnSchedNumber</mt>
+<mv>
+<moid>SS=DEFAULT,Source = Processor1</moid>
+<r>90</r>
+<r>25</r>
+<r>2</r>
+<r>95</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231105101500+0200</ts>
+</mff>
+</mdc>

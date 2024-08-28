@@ -1,0 +1,193 @@
+
+
+ADMINISTRATIVE RECORD - 50
+--------------------------
+Record length:		54
+Format revision no:	80
+Date [yy/mm/dd]:		23/11/01
+Time:		10:00:00
+Record information:	1		First record
+RID:			BARID00
+Start date :		23/11/01
+Start time:		10:00:00
+ABSS:		110	less than -110 dBm (level 0)
+RELSS +/-:		0	positive
+RELSS:		0
+RELSS2 +/-:		0	positive
+RELSS2:		0
+RELSS3 +/-:		0	positive
+RELSS3:		0
+RELSS4 +/-:		0	positive
+RELSS4:		0
+RELSS5 +/-:		0	positive
+RELSS5:		0
+NCELLTYPE:		2	Both defined and undefined neighbouring cells
+NUMFREQ:		5
+SEGTIME:		10
+Termination reason:		1	Recording stopped by  command
+RECTIME:		13
+ECNOABSS:		0	< -24 dB
+NUCELLTYPE:		2	Both defined and undefined neighbouring UTRAN cells
+TFDDMRR:		4	UNUSED
+NUMUMFI:		5
+TNCCPERM indicator:			1	TNCCPERM in BAR definition
+TNCCPERM bitmap:			00001100		NCCs permitted: 2,3
+TMBCR:		4	UNUSED
+TEMRR:		4	UNSED
+ERSRPABSS:		110	>= -110dBm
+
+
+ACTIVE BA-LIST RECORDING CELL DATA RECORD - 51
+--------------------------
+Record length:		25
+Cell name:	0501502
+Channel group:		0
+REP:		94
+REPHR:		62
+REPUNDEFGSM:		7
+AVSS:			47	greater than -48 dBm (level 63)
+
+ACTIVE BA-LIST RECORDING NEIGHBOURING CELL DATA RECORD - 52
+--------------------------
+Record length:		85
+Cell name:	0501502
+Channel group:		0
+BSIC:		32
+ARFCN:		52
+Def. neig:		0	Defined
+RECTIMEARFCN:		90
+REPARFCN:		37
+TIMES:		99
+NAVSS:		90		 -(91 to90) dBm (level10)
+TIMES1:		0
+NAVSS1:		49		 -(50 to49) dBm (level51)
+TIMES2:		0
+NAVSS2:		81		 -(82 to81) dBm (level19)
+TIMES3:		15
+NAVSS3:		69		 -(70 to69) dBm (level31)
+TIMES4:		94
+NAVSS4:		75		 -(76 to75) dBm (level25)
+TIMES5:		19
+NAVSS5:		52		 -(53 to52) dBm (level48)
+TIMES6:		37
+NAVSS6:		64		 -(65 to64) dBm (level36)
+TIMESRELSS:		88
+TIMESRELSS2:		66
+TIMESRELSS3:		10
+TIMESRELSS4:		14
+TIMESRELSS5:		81
+TIMESABSS:		93
+TIMESALONE:		20
+
+ACTIVE BA-LIST RECORDING FREQUENCIES NOT REPORTED DATA RECORD - 53
+--------------------------
+Record length:		19
+Cell name:	0501502
+ARFCN:		16
+RECTIMEARFCN:		25
+REPARFCN:		91
+
+ACTIVE BA-LIST RECORDING NEIGHBOURING UMTS CELL DATA RECORD - 54
+--------------------------
+Record length:		51
+Cell name:	0501502
+UMFI (arfcn-scr-diver):	25-2-NODIV
+UMFI54:		1
+RECTIMEUMFI:		2
+REPUMFI:		62
+UTIMES:		71
+AVECNO:		45
+UTIMES1:		57
+AVECNO1:		34
+UTIMES2:		34
+AVECNO2:		12
+UTIMES3:		40
+AVECNO3:		27
+UTIMESECNOABSS:		66
+UTIMESALONE:		79
+
+ACTIVE BA-LIST RECORDING UMFIS NOT REPORTED DATA RECORD - 55
+--------------------------
+Record length:		22
+Cell name:	0501502
+UMFI (arfcn-scr-diver):	25-2-NODIV
+RECTIMEUMFI:		2
+REPUMFI:		25
+
+ACTIVE BA-LIST RECORDING UMTS CELL DATA RECORD - 56
+--------------------------
+Record length:		19
+Cell name:	0501502
+REPUNDEFUMTS:		78
+REPUMTS:		89
+
+ACTIVE BA-LIST RECORDING E-UTRAN CELL DATA RECORD - 57
+--------------------------
+Record length:		19
+Cell name:	0501502
+REPEUTRAN:		30
+REPTESTEUTRAN:		36
+
+ACTIVE BA-LIST RECORDING NEIGHBOURING E-UTRAN CELL DATA RECORD - 58
+--------------------------
+Record length:		51
+Cell name:	0501502
+PCID:		25
+EARFCN:		29
+RECTIMEEARFCN:		25
+REPEARFCN:		100
+EUTIMES:		68
+AVRSRP:		54
+EUTIMES1:		28
+AVRSRP1:		119
+EUTIMES2:		61
+AVRSRP2:		77
+EUTIMES3:		93
+AVRSRP3:		74
+EUTIMESALONE:		30
+TESTEARFCN:		0
+EUTIMESRSRPABSS:		73
+
+ACTIVE BA-LIST RECORDING EARFCNS NOT REPORTED DATA RECORD - 59
+--------------------------
+Record length:		20
+Cell name:	0501502
+EARFCN:		29
+RECTIMEEARFCN:		27
+REPEARFCN:		56
+
+ADMINISTRATIVE RECORD - 50
+--------------------------
+Record length:		54
+Format revision no:	80
+Date [yy/mm/dd]:		23/11/01
+Time:		10:00:00
+Record information:	11		Last record
+RID:			BARID00
+Start date :		23/11/01
+Start time:		10:00:00
+ABSS:		110	less than -110 dBm (level 0)
+RELSS +/-:		0	positive
+RELSS:		0
+RELSS2 +/-:		0	positive
+RELSS2:		0
+RELSS3 +/-:		0	positive
+RELSS3:		0
+RELSS4 +/-:		0	positive
+RELSS4:		0
+RELSS5 +/-:		0	positive
+RELSS5:		0
+NCELLTYPE:		2	Both defined and undefined neighbouring cells
+NUMFREQ:		5
+SEGTIME:		10
+Termination reason:		1	Recording stopped by  command
+RECTIME:		13
+ECNOABSS:		0	< -24 dB
+NUCELLTYPE:		2	Both defined and undefined neighbouring UTRAN cells
+TFDDMRR:		4	UNUSED
+NUMUMFI:		5
+TNCCPERM indicator:			1	TNCCPERM in BAR definition
+TNCCPERM bitmap:			00001100		NCCs permitted: 2,3
+TMBCR:		4	UNUSED
+TEMRR:		4	UNSED
+ERSRPABSS:		110	>= -110dBm

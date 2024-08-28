@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measCollecFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.435#measCollec">
+    <fileHeader fileFormatVersion="3GPP_PM_32.435_XML_v11.0.0">
+       <fileSender/>
+       <measCollec beginTime="2023-10-30T10:00:00+02:00"/>
+    </fileHeader>
+    <measData>
+        <managedElement/>
+        <measInfo>
+        <job jobId="BSF1Job"/>
+         <granPeriod duration="PT900S" endTime="2023-10-30T10:15:00+02:00"/>
+         <repPeriod duration="PT900S"/>
+         <measType p="0">bootAuthFail.actual</measType>
+         <measType p="1">bootAuthFail.delta</measType>
+         <measType p="2">bootAuthGBADIGESTFail.actual</measType>
+         <measType p="3">bootAuthGBADIGESTFail.delta</measType>
+         <measType p="4">bootAuthGBADIGESTSucc.actual</measType>
+         <measType p="5">bootAuthGBADIGESTSucc.delta</measType>
+         <measType p="6">bootAuthGBAMEFail.actual</measType>
+         <measType p="7">bootAuthGBAMEFail.delta</measType>
+         <measType p="8">bootAuthGBAMESucc.actual</measType>
+         <measType p="9">bootAuthGBAMESucc.delta</measType>
+         <measType p="10">bootAuthGBAUFail.actual</measType>
+         <measType p="11">bootAuthGBAUFail.delta</measType>
+         <measType p="12">bootAuthGBAUSucc.actual</measType>
+         <measType p="13">bootAuthGBAUSucc.delta</measType>
+         <measType p="14">bootAuthReqTot.actual</measType>
+         <measType p="15">bootAuthReqTot.delta</measType>
+         <measType p="16">bootAuthSucc.actual</measType>
+         <measType p="17">bootAuthSucc.delta</measType>
+         <measType p="18">bootUseFailReq.actual</measType>
+         <measType p="19">bootUseFailReq.delta</measType>
+         <measType p="20">bootUseSucReq.actual</measType>
+         <measType p="21">bootUseSucReq.delta</measType>
+         <measType p="22">bootUseTotReq.actual</measType>
+         <measType p="23">bootUseTotReq.delta</measType>
+         <measType p="24">bsfGbaAkaSubCntActSubCount.actual</measType>
+         <measType p="25">bsfGbaAkaSubCntActSubCount.min</measType>
+         <measType p="26">bsfGbaAkaSubCntActSubCount.max</measType>
+         <measType p="27">bsfGbaAkaSubCntMaxNafCount.actual</measType>
+         <measType p="28">bsfGbaAkaSubCntMaxNafCount.delta</measType>
+         <measType p="29">bsfGbaAkaSubCntMaxSubCount.actual</measType>
+         <measType p="30">bsfGbaAkaSubCntMaxSubCount.delta</measType>
+		 <measValue measObjLdn="">
+             <r p="0">55</r>
+             <r p="1">72</r>
+             <r p="2">68</r>
+             <r p="3">92</r>
+             <r p="4">94</r>
+             <r p="5">54</r>
+             <r p="6">41</r>
+             <r p="7">69</r>
+             <r p="8">27</r>
+             <r p="9">52</r>
+             <r p="10">54</r>
+             <r p="11">52</r>
+             <r p="12">79</r>
+             <r p="13">6</r>
+             <r p="14">56</r>
+             <r p="15">38</r>
+             <r p="16">17</r>
+             <r p="17">99</r>
+             <r p="18">49</r>
+             <r p="19">45</r>
+             <r p="20">8</r>
+             <r p="21">52</r>
+             <r p="22">7</r>
+             <r p="23">6</r>
+             <r p="24">4</r>
+             <r p="25">96</r>
+             <r p="26">19</r>
+             <r p="27">67</r>
+             <r p="28">21</r>
+             <r p="29">88</r>
+             <r p="30">59</r>
+         </measValue>
+        </measInfo>
+    </measData>
+    <fileFooter>
+       <measCollec endTime="2023-10-30T10:15:00+02:00"/>
+    </fileFooter>
+</measCollecFile>

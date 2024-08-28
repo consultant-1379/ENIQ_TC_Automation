@@ -1,0 +1,69 @@
+{
+    "Average CPU Usage (%)":
+    {
+        "pagename": "Node Level KPIs",
+        "category": "Resource Utilization",
+        "KPIs": "Average CPU Usage (%)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01",
+        "SQL": "select cast(round(avg(cpu_usage), 2) as numeric(15, 2)) as kpi from DC_E_IPTRANSPORT_GLOBAL_raw where NE_NAME = '@nodename' and datetime_id = '@startdate'"
+    },
+    
+    "Ethernet Ingress Link Utilization (%)":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Physical Port",
+        "KPIs": "Ethernet Ingress Link Utilization (%)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01",
+        "SQL": "select cast(round(avg(100*((inoctets_per_sec*8/1000)/portspeed)), 2) as numeric(15, 2)) as kpi from DC_E_IPTRANSPORT_PORT_RAW where datetime_id = '@startdate' and NE_NAME = '@nodename'"
+    },
+
+    "Ethernet Interface Queue Drop Ratio (%)":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Physical Port",
+        "KPIs": "Ethernet Interface Queue Drop Ratio (%)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01",
+        "SQL": "select cast(round(avg(100*(a/(a+b))), 2) as numeric(15, 2)) as kpi from (select sum(D1.queue_drop_total_bytes) as a ,sum(D1.queue_tx_total_bytes) as b from DC_E_IPTRANSPORT_HISTORY_QUEUE_DYN_raw D1, DC_E_IPTRANSPORT_PORT_raw D2 where d1.datetime_id = '@startdate'and d1.NE_NAME = '@nodename' and D1.MOID=D2.MOID  and D1.OSS_ID=D2.OSS_ID and D1.NE_NAME=D2.NE_NAME and D1.DATETIME_ID=D2.DATETIME_ID and D2.interface=D1.interface_name group by d1.NE_NAME,d1.MOID,D1.OSS_ID,d1.datetime_id) a"
+    },
+
+    "DL Throughput (Mbps)":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Physical Port",
+        "KPIs": "DL Throughput (Mbps)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01",
+        "SQL": "select cast(round(avg((inoctets*8)/(period_duration*60*1000000)), 2) as numeric(15, 2)) as kpi from DC_E_IPTRANSPORT_PORT_RAW where datetime_id = '@startdate' and NE_NAME = '@nodename'"
+    },
+
+    "Full Duplex Utilization (%)":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Physical Port",
+        "KPIs": "Full Duplex Utilization (%)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01",
+        "SQL": "select cast(round(avg((0.5*((inoctets*8)/(period_duration*60*1000000)+(outoctets*8)/(period_duration*60*1000000))+abs((inoctets*8)/(period_duration*60*1000000)-(outoctets*8)/(period_duration*60*1000000)))/(portspeed/1000)), 2) as numeric(15, 2)) as kpi from DC_E_IPTRANSPORT_PORT_RAW where datetime_id = '@startdate' and NE_NAME = '@nodename'"
+    },
+
+    "Optical Link Input Max Power (dBm)":
+    {
+        "pagename": "Interface Level KPIs",
+        "category": "Optical",
+        "KPIs": "Optical Link Input Max Power (dBm)",
+        "Aggregation Level": "ROP Data (No Aggregation)",
+        "Aggregation Function": "AVG",
+        "Node": "Router6274_01",
+        "SQL": "select cast(round(avg(counter/count), 2) as numeric(15, 2)) as kpi from (SELECT count(distinct moid) as count, NE_NAME,DATETIME_ID, sum(MaxLaneRXPower) as counter FROM DC_E_IPTRANSPORT_SFP_CHANNEL_HISTORY_raw WHERE (datetime_id = '@startdate' and MOID like '%sfpChannel%'  and NE_NAME = '@nodename' ) group by NE_NAME,OSS_ID,datetime_id) a"
+    }
+
+}
+

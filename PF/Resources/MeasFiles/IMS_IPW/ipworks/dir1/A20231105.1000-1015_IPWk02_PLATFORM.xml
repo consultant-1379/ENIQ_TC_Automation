@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MeasDataCollection.xsl"?>
+<!DOCTYPE mdc SYSTEM "MeasDataCollection.dtd">
+<mdc xmlns:HTML="http://www.w3.org/TR/REC-xml">
+<mfh>
+<ffv>32.401 V5.0</ffv>
+<sn>DC=ipworks.com,g3SubNetwork=US,Node_Distinguished_Name=IPWk02</sn>
+<st>IPWORKS</st>
+<vn>Ericsson</vn>
+<cbt>20231105100000+0200</cbt>
+</mfh>
+<md>
+<neid>
+<neun></neun>
+<nedn>DC=ipworks.com,g3SubNetwork=US,Node_Distinguished_Name=IPWk02</nedn>
+</neid>
+<mi>
+<mts>20231105101500+0200</mts>
+<gp>900</gp>
+<mt>Load-1</mt>
+<mt>Load-15</mt>
+<mt>Load-15 (laLoad)</mt>
+<mt>Load-1 (laLoad)</mt>
+<mt>Load-5</mt>
+<mt>Load-5 (laLoad)</mt>
+<mt>dskAvail</mt>
+<mt>dskTotal</mt>
+<mt>dskUsed</mt>
+<mt>ifInDiscards</mt>
+<mt>ifInErrors</mt>
+<mt>ifInOctets</mt>
+<mt>ifInUcastPkts</mt>
+<mt>ifInUnknownProtos</mt>
+<mt>ifOutDiscards</mt>
+<mt>ifOutErrors</mt>
+<mt>ifOutOctets</mt>
+<mt>ifOutUcastPkts</mt>
+<mt>memAvailReal</mt>
+<mt>memAvailSwap</mt>
+<mt>memTotalFree</mt>
+<mt>memTotalReal</mt>
+<mt>memTotalSwap</mt>
+<mt>ssCpuRawIdle</mt>
+<mt>ssCpuRawSystem</mt>
+<mt>ssCpuRawUser</mt>
+<mv>
+<moid>PLATFORM=DEFAULT,Source = Processor1</moid>
+<r>64</r>
+<r>24</r>
+<r>94</r>
+<r>23</r>
+<r>9</r>
+<r>18</r>
+<r>4</r>
+<r>26</r>
+<r>51</r>
+<r>66</r>
+<r>30</r>
+<r>14</r>
+<r>67</r>
+<r>92</r>
+<r>82</r>
+<r>2</r>
+<r>55</r>
+<r>67</r>
+<r>60</r>
+<r>3</r>
+<r>53</r>
+<r>19</r>
+<r>32</r>
+<r>58</r>
+<r>62</r>
+<r>16</r>
+</mv>
+</mi>
+</md>
+<mff>
+<ts>20231105101500+0200</ts>
+</mff>
+</mdc>

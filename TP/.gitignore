@@ -1,0 +1,12 @@
+#folders to ignore
+__pycache__/
+.vscode/
+
+#files to ignore
+*.html
+*.png
+output.xml
+*.log
+settings.json
+copilo.py
+try.py

@@ -1,0 +1,27 @@
+{ 
+    "TC01": { 
+    		  "System_area": "Radio",
+              "Node_type": "ERBS",
+              "Data_source":"NetAn_ODBC",
+              "Get_Data_for":"Node(s)",
+              "Aggregation":"Cell",
+              "Node_1" : "ERBS1",
+			  "Node_2" : "ERBS2",
+			  "Measure_type_1" : "COUNTER",
+			  "Measure_type_2" : "FLEX_COUNTER",
+              "Measure_1":"PMERABRELABNORMALMMES1RESET.DC_E_ERBS_EUTRANCELLFDD_RAW",
+			  "Measure_2":"PMFLEXPDCPVOLDLDRB.DC_E_ERBS_EUTRANCELLFDD_FLEX_RAW",
+			  "Measure_3":"pmErabRelMmeRnlS1Cause35.DC_E_ERBS_EVENTS_EUTRANCELLTDD_RAW",
+              "Time_selector" : "Preceding Period",
+              "Aggregation_in_select_time" : "ROP",
+              "Preceding_period" : "2",
+              "Preceding_period_units" : "Day(s)",
+              "Report_name":"Report_",
+              "Report_AccessType": "Public",
+              "Report_Description":"test report",
+			  "Page_Name":"pm_DC_E_ERBS_EUTRANCELLFDD_RAW(Cell Level)__NetAn_ODBC",
+			  "Number":2,
+			  "Month":"Month(s)",
+			  "Index":"LCG0To4"
+            }
+}

@@ -1,0 +1,27 @@
+{
+    "TC01": { "Alarm_name" : "TC01",
+    		  "Alarm_Type" : "dynamic",
+    		  "ENIQ_data_source" : "NetAn_ODBC",
+    		  "Single_node_or_collection" : "Single Node",
+    		  "Node_Collection" : "",
+              "System_area": "Radio",
+              "Node_type": "NR",
+              "Node" : "G2RBS01",
+              "Measure_type" : "Custom KPI",
+              "Measure_1" : "Test1",
+              "Measure_2" : "",
+              "Measure_3" : "",
+              "Measure_4" : "",
+              "Measure_type2" : "",
+              "Counter_1" : "",
+              "Alarm_severity" : "MINOR",
+              "Aggregation" : "1 Day",
+              "Probable_cause" : "Congestion",
+              "Specific_problem" : "NA",
+              "Date_range_val" : "1",
+              "Date_range_unit" : "DAY",
+              "LookBack_Period_val" : "",
+              "LookBack_Period_unit" : "",
+              "Delete_alarm": "no"
+    }
+}
